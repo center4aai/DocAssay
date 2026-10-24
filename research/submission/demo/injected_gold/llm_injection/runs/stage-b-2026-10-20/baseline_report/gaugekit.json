@@ -1,0 +1,11 @@
+{
+  "repo": "./research/submission/demo/injected_gold/synthetic-natural/gaugekit",
+  "diagnostic_only": true,
+  "note": "Recorded baseline findings. Not an acceptance criterion: do not edit docs, select, or repair a repository to change them. Corpus acceptance is the independent audit against spec + source.",
+  "baseline_claims": 34,
+  "baseline_supported": 24,
+  "baseline_refuted": 0,
+  "baseline_nei": 10,
+  "refuted_examples": [],
+  "workdir": "/var/folders/q_/wq68wyh965jgm8p7r1p3z5lh0000gn/T/synth-baseline-9mqt7e9s"
+}

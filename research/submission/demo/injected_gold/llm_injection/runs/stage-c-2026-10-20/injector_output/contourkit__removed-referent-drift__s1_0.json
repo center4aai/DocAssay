@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "contourkit/geometry.py",
+    "old": "close_ring",
+    "new": null,
+    "symbol": "close_ring",
+    "target": "close_ring",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `close_ring() -> Polyline`",
+    "target_claim": "The API reference documents `close_ring` as a current public function of `contourkit.geometry`.",
+    "exemplar_ids": [
+      "example 1",
+      "example 3"
+    ],
+    "rationale": "The API reference heading presents close_ring as part of the current 0.4.1 public surface, with no deprecation or historical qualifier."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"removed-referent-drift\", \"direction\": \"code_side\", \"file\": \"contourkit/geometry.py\", \"old\": \"close_ring\", \"new\": null, \"symbol\": \"close_ring\", \"target\": \"close_ring\", \"doc_path\": \"docs/api.md\", \"doc_line_text\": \"### `close_ring() -> Polyline`\", \"target_claim\": \"The API reference documents `close_ring` as a current public function of `contourkit.geometry`.\", \"exemplar_ids\": [\"example 1\", \"example 3\"], \"rationale\": \"The API reference heading presents close_ring as part of the current 0.4.1 public surface, with no deprecation or historical qualifier.\"}",
+  "stderr_tail": ""
+}

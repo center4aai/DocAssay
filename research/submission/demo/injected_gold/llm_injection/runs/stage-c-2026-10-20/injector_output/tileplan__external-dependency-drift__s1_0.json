@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "setuptools>=68",
+    "new": "setuptools>=999",
+    "symbol": "setuptools",
+    "target": "setuptools>=68",
+    "doc_path": "README.md",
+    "doc_line_text": "Only the build backend (`setuptools>=68`) is fetched; there are no runtime dependencies",
+    "target_claim": "The only build backend the project requires is `setuptools>=68`.",
+    "exemplar_ids": [
+      "example 3"
+    ],
+    "rationale": "The README states the project's sole build-time requirement as a concrete versioned constraint, so changing that constraint in the manifest falsifies an ordinary current-state installation fact."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \"setuptools>=68\", \"new\": \"setuptools>=999\", \"symbol\": \"setuptools\", \"target\": \"setuptools>=68\", \"doc_path\": \"README.md\", \"doc_line_text\": \"Only the build backend (`setuptools>=68`) is fetched; there are no runtime dependencies\", \"target_claim\": \"The only build backend the project requires is `setuptools>=68`.\", \"exemplar_ids\": [\"example 3\"], \"rationale\": \"The README states the project's sole build-time requirement as a concrete versioned constraint, so changing that constraint in the manifest falsifies an ordinary current-state installation fact.\"}",
+  "stderr_tail": ""
+}

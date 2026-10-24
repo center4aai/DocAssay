@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": ">=8.1",
+    "new": ">=999",
+    "symbol": "click",
+    "target": "click",
+    "doc_path": "README.md",
+    "doc_line_text": "- click `>=8.1`",
+    "target_claim": "The project depends on click with version constraint >=8.1.",
+    "exemplar_ids": [
+      "example 4"
+    ],
+    "rationale": "The README's installation section presents click `>=8.1` as the current version requirement, and click is listed in pyproject.toml, so tightening the manifest constraint to >=999 makes that ordinary present-tense requirement false."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \">=8.1\", \"new\": \">=999\", \"symbol\": \"click\", \"target\": \"click\", \"doc_path\": \"README.md\", \"doc_line_text\": \"- click `>=8.1`\", \"target_claim\": \"The project depends on click with version constraint >=8.1.\", \"exemplar_ids\": [\"example 4\"], \"rationale\": \"The README's installation section presents click `>=8.1` as the current version requirement, and click is listed in pyproject.toml, so tightening the manifest constraint to >=999 makes that ordinary present-tense requirement false.\"}",
+  "stderr_tail": ""
+}

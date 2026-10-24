@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "setuptools>=68",
+    "new": "setuptools>=999",
+    "symbol": "setuptools",
+    "target": "setuptools>=68",
+    "doc_path": "README.md",
+    "doc_line_text": "Only the build backend (`setuptools>=68`) is fetched; there are no runtime dependencies",
+    "target_claim": "The project's build backend requirement is setuptools>=68.",
+    "exemplar_ids": [
+      "1"
+    ],
+    "rationale": "The README states the build backend constraint as a present, checkable installation fact, paired with the manifest's build-system requirement."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "I'll start by reading the bundle's manifest and documents to find a suitable dependency claim.\n{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \"setuptools>=68\", \"new\": \"setuptools>=999\", \"symbol\": \"setuptools\", \"target\": \"setuptools>=68\", \"doc_path\": \"README.md\", \"doc_line_text\": \"Only the build backend (`setuptools>=68`) is fetched; there are no runtime dependencies\", \"target_claim\": \"The project's build backend requirement is setuptools>=68.\", \"exemplar_ids\": [\"1\"], \"rationale\": \"The README states the build backend constraint as a present, checkable installation fact, paired with the manifest's build-system requirement.\"}",
+  "stderr_tail": ""
+}

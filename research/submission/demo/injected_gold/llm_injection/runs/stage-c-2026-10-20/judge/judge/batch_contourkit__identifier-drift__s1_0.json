@@ -1,0 +1,40 @@
+{
+  "repo": "contourkit__identifier-drift__s1_0",
+  "tool_diff": {
+    "new_refuted": [],
+    "new_nei": [
+      {
+        "source": "docs/api.md",
+        "line": 152,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "close_ring",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 185,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "close_ring",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "contourkit__identifier-drift__s1_0::0",
+      "repo": "contourkit__identifier-drift__s1_0",
+      "op_id": "llm.identifier-drift",
+      "canonical_class": "identifier-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "contourkit.geometry.close_ring",
+        "new": "close_ringInjected",
+        "doc_path": "docs/api.md",
+        "target": "close_ring()"
+      }
+    }
+  ]
+}

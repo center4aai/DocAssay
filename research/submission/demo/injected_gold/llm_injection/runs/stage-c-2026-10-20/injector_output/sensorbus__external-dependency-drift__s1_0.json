@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "numpy>=1.24",
+    "new": "numpy>=999",
+    "symbol": "numpy",
+    "target": "numpy>=1.24",
+    "doc_path": "README.md",
+    "doc_line_text": "Dependencies are declared in `pyproject.toml`: `pyserial>=3.5`, `numpy>=1.24`,",
+    "target_claim": "The README states that the project declares numpy>=1.24 as a dependency in pyproject.toml.",
+    "exemplar_ids": [
+      "example 2",
+      "example 4"
+    ],
+    "rationale": "The README's installation section presents the declared dependency set as a current, checkable requirement, so changing the numpy constraint falsifies it without touching the document."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \"numpy>=1.24\", \"new\": \"numpy>=999\", \"symbol\": \"numpy\", \"target\": \"numpy>=1.24\", \"doc_path\": \"README.md\", \"doc_line_text\": \"Dependencies are declared in `pyproject.toml`: `pyserial>=3.5`, `numpy>=1.24`,\", \"target_claim\": \"The README states that the project declares numpy>=1.24 as a dependency in pyproject.toml.\", \"exemplar_ids\": [\"example 2\", \"example 4\"], \"rationale\": \"The README's installation section presents the declared dependency set as a current, checkable requirement, so changing the numpy constraint falsifies it without touching the document.\"}",
+  "stderr_tail": ""
+}

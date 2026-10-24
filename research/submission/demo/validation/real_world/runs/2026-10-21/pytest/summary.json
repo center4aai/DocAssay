@@ -1,0 +1,18 @@
+{
+  "repo": "pytest",
+  "docs": 257,
+  "claims": 10550,
+  "referents": 723,
+  "evidence": 9248,
+  "verdicts": {
+    "REFUTED": 22,
+    "SUPPORTED": 198,
+    "NEI": 888
+  },
+  "refuted_by_predicate": {
+    "DEPENDENCY": 3,
+    "PATH_EXISTS": 10,
+    "SYMBOL_EXISTS": 9
+  },
+  "seconds": 8.4
+}

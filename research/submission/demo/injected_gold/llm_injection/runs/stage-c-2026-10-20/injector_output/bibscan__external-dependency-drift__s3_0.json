@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "python-dateutil>=2.8",
+    "new": "python-dateutil>=999",
+    "symbol": "python-dateutil",
+    "target": "python-dateutil>=2.8",
+    "doc_path": "README.md",
+    "doc_line_text": "The only runtime dependencies are `lxml>=4.9` and `python-dateutil>=2.8`, both",
+    "target_claim": "The project's runtime dependencies include python-dateutil at version 2.8 or newer.",
+    "exemplar_ids": [
+      "example 3",
+      "example 4"
+    ],
+    "rationale": "The README presents `python-dateutil>=2.8` as a current runtime dependency requirement declared in pyproject.toml, so tightening the manifest bound to a non-overlapping `>=999` makes that ordinary present-tense installation claim false."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \"python-dateutil>=2.8\", \"new\": \"python-dateutil>=999\", \"symbol\": \"python-dateutil\", \"target\": \"python-dateutil>=2.8\", \"doc_path\": \"README.md\", \"doc_line_text\": \"The only runtime dependencies are `lxml>=4.9` and `python-dateutil>=2.8`, both\", \"target_claim\": \"The project's runtime dependencies include python-dateutil at version 2.8 or newer.\", \"exemplar_ids\": [\"example 3\", \"example 4\"], \"rationale\": \"The README presents `python-dateutil>=2.8` as a current runtime dependency requirement declared in pyproject.toml, so tightening the manifest bound to a non-overlapping `>=999` makes that ordinary present-tense installation claim false.\"}",
+  "stderr_tail": ""
+}

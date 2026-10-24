@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "bibscan/names.py",
+    "old": "format_name",
+    "new": "render_name",
+    "symbol": "format_name",
+    "target": "format_name",
+    "doc_path": "README.md",
+    "doc_line_text": "`parse_names` splits a name list into `Name` records and `format_name` turns a",
+    "target_claim": "The README's Names section presents `format_name` as the current function in `bibscan.names` that turns a `Name` record back into text.",
+    "exemplar_ids": [
+      "example 3"
+    ],
+    "rationale": "A plain present-tense sentence names format_name as part of the current public API, so renaming its definition is a natural identifier drift."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"bibscan/names.py\",\n  \"old\": \"format_name\",\n  \"new\": \"render_name\",\n  \"symbol\": \"format_name\",\n  \"target\": \"format_name\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"`parse_names` splits a name list into `Name` records and `format_name` turns a\",\n  \"target_claim\": \"The README's Names section presents `format_name` as the current function in `bibscan.names` that turns a `Name` record back into text.\",\n  \"exemplar_ids\": [\"example 3\"],\n  \"rationale\": \"A plain present-tense sentence names format_name as part of the current public API, so renaming its definition is a natural identifier drift.\"\n}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,11 @@
+language: tir
+suffixes:
+  - form: -alamet
+    gloss: PLURAL
+    productivity: high
+  - form: -a
+    gloss: GENITIVE
+    productivity: high
+  - form: -ka
+    gloss: DIMINUTIVE
+    productivity: low

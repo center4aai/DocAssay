@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "data/meter_jan.csv",
+    "old": "data/meter_jan.csv",
+    "new": "data/meter_january.csv",
+    "target": "data/meter_jan.csv",
+    "doc_path": "README.md",
+    "doc_line_text": "- `data/meter_jan.csv`: three hourly readings for meter `M-1042` on",
+    "target_claim": "The repository ships the January sample readings at `data/meter_jan.csv`.",
+    "exemplar_ids": [
+      "example 4"
+    ],
+    "rationale": "The README bullet presents `data/meter_jan.csv` as a shipped sample file at a current path, so renaming that file falsifies the stated location."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\":true,\"drift_type\":\"path-location-drift\",\"direction\":\"code_side\",\"file\":\"data/meter_jan.csv\",\"old\":\"data/meter_jan.csv\",\"new\":\"data/meter_january.csv\",\"target\":\"data/meter_jan.csv\",\"doc_path\":\"README.md\",\"doc_line_text\":\"- `data/meter_jan.csv`: three hourly readings for meter `M-1042` on\",\"target_claim\":\"The repository ships the January sample readings at `data/meter_jan.csv`.\",\"exemplar_ids\":[\"example 4\"],\"rationale\":\"The README bullet presents `data/meter_jan.csv` as a shipped sample file at a current path, so renaming that file falsifies the stated location.\"}",
+  "stderr_tail": ""
+}

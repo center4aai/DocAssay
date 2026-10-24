@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "gaugekit/stats.py",
+    "old": "monthly_means",
+    "new": "monthly_averages",
+    "symbol": "monthly_means",
+    "target": "monthly_means",
+    "doc_path": "docs/guide.md",
+    "doc_line_text": "`load_csv` is declared to return a `GaugeSeries`, and `summarize` and `monthly_means` are declared to return `dict[str, float]`.",
+    "target_claim": "The guide states that `monthly_means` is a declared function returning `dict[str, float]`.",
+    "exemplar_ids": [
+      "example 2",
+      "example 3"
+    ],
+    "rationale": "The guide presents `monthly_means` in a present-tense sentence about the package's declared API, so it reads as a current public function."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"gaugekit/stats.py\",\n  \"old\": \"monthly_means\",\n  \"new\": \"monthly_averages\",\n  \"symbol\": \"monthly_means\",\n  \"target\": \"monthly_means\",\n  \"doc_path\": \"docs/guide.md\",\n  \"doc_line_text\": \"`load_csv` is declared to return a `GaugeSeries`, and `summarize` and `monthly_means` are declared to return `dict[str, float]`.\",\n  \"target_claim\": \"The guide states that `monthly_means` is a declared function returning `dict[str, float]`.\",\n  \"exemplar_ids\": [\n    \"example 2\",\n    \"example 3\"\n  ],\n  \"rationale\": \"The guide presents `monthly_means` in a present-tense sentence about the package's declared API, so it reads as a current public function.\"\n}",
+  "stderr_tail": ""
+}

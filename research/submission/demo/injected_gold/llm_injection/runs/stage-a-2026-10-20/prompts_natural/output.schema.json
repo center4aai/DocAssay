@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "llm_injection/output.natural.schema.json",
+  "title": "Natural injector mutation proposal",
+  "description": "One structured mutation proposed by the natural injector. The harness infers the mutation kind from the drift type; the model does not need to name it.",
+  "oneOf": [
+    { "$ref": "#/$defs/mutation" },
+    { "$ref": "#/$defs/not_injectable" }
+  ],
+  "$defs": {
+    "mutation": {
+      "type": "object",
+      "required": [
+        "injectable",
+        "drift_type",
+        "direction",
+        "file",
+        "old",
+        "target",
+        "doc_path",
+        "doc_line_text",
+        "target_claim",
+        "exemplar_ids",
+        "rationale"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "injectable": { "const": true },
+        "drift_type": {
+          "type": "string",
+          "enum": [
+            "path-location-drift",
+            "identifier-drift",
+            "removed-referent-drift",
+            "external-dependency-drift"
+          ]
+        },
+        "direction": { "type": "string", "enum": ["code_side", "doc_side"] },
+        "file": { "type": "string" },
+        "old": { "type": ["string", "null"] },
+        "new": { "type": ["string", "null"] },
+        "symbol": { "type": ["string", "null"] },
+        "target": { "type": "string" },
+        "doc_path": { "type": "string" },
+        "doc_line_text": { "type": "string" },
+        "target_claim": { "type": "string" },
+        "exemplar_ids": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "rationale": { "type": "string" }
+      }
+    },
+    "not_injectable": {
+      "type": "object",
+      "required": ["injectable", "reason"],
+      "additionalProperties": true,
+      "properties": {
+        "injectable": { "const": false },
+        "reason": { "type": "string" }
+      }
+    }
+  }
+}

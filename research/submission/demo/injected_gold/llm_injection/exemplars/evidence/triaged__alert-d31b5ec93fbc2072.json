@@ -1,0 +1,26 @@
+{
+  "alert_id": "triaged:alert-d31b5ec93fbc2072",
+  "commit_sha": "f32fb9c58a5bd436f082dfa12639177b9da87680",
+  "commit_url": "https://github.com/torvalds/linux/commit/f32fb9c58a5bd436f082dfa12639177b9da87680",
+  "files": [
+    {
+      "added": [
+        "Rust (optional)        1.85.0           rustc --version"
+      ],
+      "hunks": 1,
+      "matched_location": true,
+      "path": "Documentation/process/changes.rst",
+      "removed": [
+        "Rust (optional)        1.78.0           rustc --version"
+      ],
+      "side": "doc",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "Documentation/process/changes.rst",
+    "Documentation/translations/it_IT/process/changes.rst"
+  ],
+  "patch_sha256": "1fbbdc0137ba73d1202ef72badcd8ccf29f5fac83ea8a3bda0dadf07928cc338",
+  "status": "ok"
+}

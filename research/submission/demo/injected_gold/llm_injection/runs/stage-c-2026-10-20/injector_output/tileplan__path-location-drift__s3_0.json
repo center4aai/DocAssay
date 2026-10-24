@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "docs/usage.md",
+    "old": "docs/usage.md",
+    "new": "docs/walkthrough.md",
+    "target": "docs/usage.md",
+    "doc_path": "README.md",
+    "doc_line_text": "- [`docs/usage.md`](docs/usage.md) — a worked walkthrough of covering an extent and",
+    "target_claim": "README's Further reading section points readers to docs/usage.md as the current location of the worked walkthrough guide.",
+    "exemplar_ids": [
+      "example-2",
+      "example-3"
+    ],
+    "rationale": "A Further-reading link presents the guide's path as a current, checkable location, so renaming the guide to a plausible sibling name naturally falsifies it."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"path-location-drift\", \"direction\": \"code_side\", \"file\": \"docs/usage.md\", \"old\": \"docs/usage.md\", \"new\": \"docs/walkthrough.md\", \"target\": \"docs/usage.md\", \"doc_path\": \"README.md\", \"doc_line_text\": \"- [`docs/usage.md`](docs/usage.md) — a worked walkthrough of covering an extent and\", \"target_claim\": \"README's Further reading section points readers to docs/usage.md as the current location of the worked walkthrough guide.\", \"exemplar_ids\": [\"example-2\", \"example-3\"], \"rationale\": \"A Further-reading link presents the guide's path as a current, checkable location, so renaming the guide to a plausible sibling name naturally falsifies it.\"}",
+  "stderr_tail": ""
+}

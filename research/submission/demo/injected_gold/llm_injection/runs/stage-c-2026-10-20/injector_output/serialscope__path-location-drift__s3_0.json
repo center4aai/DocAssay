@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "docs/walkthrough.md",
+    "old": "docs/walkthrough.md",
+    "new": "docs/tutorial.md",
+    "target": "docs/walkthrough.md",
+    "doc_path": "README.md",
+    "doc_line_text": "- `docs/walkthrough.md` — decode a captured balance response end to end.",
+    "target_claim": "The end-to-end balance decoding walkthrough is located at docs/walkthrough.md.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "The README's 'Where to go next' bullet presents docs/walkthrough.md as the current location of the tutorial, so renaming that guide leaves the pointer stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"path-location-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"docs/walkthrough.md\",\n  \"old\": \"docs/walkthrough.md\",\n  \"new\": \"docs/tutorial.md\",\n  \"target\": \"docs/walkthrough.md\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"- `docs/walkthrough.md` — decode a captured balance response end to end.\",\n  \"target_claim\": \"The end-to-end balance decoding walkthrough is located at docs/walkthrough.md.\",\n  \"exemplar_ids\": [\"example 1\", \"example 2\"],\n  \"rationale\": \"The README's 'Where to go next' bullet presents docs/walkthrough.md as the current location of the tutorial, so renaming that guide leaves the pointer stale.\"\n}",
+  "stderr_tail": ""
+}

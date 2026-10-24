@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "click>=8.1",
+    "new": "click>=999",
+    "symbol": "click",
+    "target": "click>=8.1",
+    "doc_path": "README.md",
+    "doc_line_text": "The only declared runtime dependency is `click>=8.1`.",
+    "target_claim": "The project's sole declared runtime dependency is satisfied by click version 8.1 or newer; the manifest instead demands click>=999, which no 8.1-compatible environment can satisfy.",
+    "exemplar_ids": [
+      "example-3",
+      "example-4"
+    ],
+    "rationale": "The README states the manifest's runtime dependency set as a plain present-tense fact, and the constraint is directly readable from pyproject.toml's dependencies list, making it a natural current requirement to check."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \"click>=8.1\", \"new\": \"click>=999\", \"symbol\": \"click\", \"target\": \"click>=8.1\", \"doc_path\": \"README.md\", \"doc_line_text\": \"The only declared runtime dependency is `click>=8.1`.\", \"target_claim\": \"The project's sole declared runtime dependency is satisfied by click version 8.1 or newer; the manifest instead demands click>=999, which no 8.1-compatible environment can satisfy.\", \"exemplar_ids\": [\"example-3\", \"example-4\"], \"rationale\": \"The README states the manifest's runtime dependency set as a plain present-tense fact, and the constraint is directly readable from pyproject.toml's dependencies list, making it a natural current requirement to check.\"}",
+  "stderr_tail": ""
+}

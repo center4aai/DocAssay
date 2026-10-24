@@ -1,0 +1,48 @@
+{
+  "repo": "serialscope__removed-referent-drift__s3_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "docs/structure.md",
+        "line": 117,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "serialscope.codecs.decode_measurement",
+        "reason": ""
+      }
+    ],
+    "new_nei": [
+      {
+        "source": "README.md",
+        "line": 98,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "codecs.decode_measurement",
+        "reason": "foreign top segment"
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 92,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "decode_measurement",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "serialscope__removed-referent-drift__s3_0::0",
+      "repo": "serialscope__removed-referent-drift__s3_0",
+      "op_id": "llm.removed-referent-drift",
+      "canonical_class": "removed-referent-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "serialscope.codecs.decode_measurement",
+        "new": null,
+        "doc_path": "README.md",
+        "target": "codecs.decode_measurement"
+      }
+    }
+  ]
+}

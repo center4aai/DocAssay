@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "sheetmusic/cli.py",
+    "old": "main",
+    "new": null,
+    "symbol": "main",
+    "target": "main",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `main() -> int`",
+    "target_claim": "The API reference documents `main` as the current entry function of `sheetmusic.cli`.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "The API reference presents `main` as a current public entry function, making it a natural current-API statement to invalidate by deleting its definition."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"sheetmusic/cli.py\",\n  \"old\": \"main\",\n  \"new\": null,\n  \"symbol\": \"main\",\n  \"target\": \"main\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"### `main() -> int`\",\n  \"target_claim\": \"The API reference documents `main` as the current entry function of `sheetmusic.cli`.\",\n  \"exemplar_ids\": [\"example 1\", \"example 2\"],\n  \"rationale\": \"The API reference presents `main` as a current public entry function, making it a natural current-API statement to invalidate by deleting its definition.\"\n}",
+  "stderr_tail": ""
+}

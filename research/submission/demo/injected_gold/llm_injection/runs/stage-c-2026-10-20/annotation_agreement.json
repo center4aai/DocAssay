@@ -1,0 +1,207 @@
+{
+  "arm": "LLM annotation (supplementary confirmation)",
+  "annotators": [
+    "claude-haiku-5-5",
+    "glm-5.3-flash",
+    "qwen3.8-flash"
+  ],
+  "rows": 132,
+  "coverage": {
+    "claude-haiku-5-5": 132,
+    "glm-5.3-flash": 132,
+    "qwen3.8-flash": 132
+  },
+  "missing": {
+    "claude-haiku-5-5": 0,
+    "glm-5.3-flash": 0,
+    "qwen3.8-flash": 0
+  },
+  "invalid_values": [],
+  "agreement": {
+    "claim_type": {
+      "fleiss_kappa": 1.0,
+      "percent_agreement": 1.0,
+      "pairwise_cohen": {
+        "claude-haiku-5-5 vs glm-5.3-flash": 1.0,
+        "claude-haiku-5-5 vs qwen3.8-flash": 1.0,
+        "glm-5.3-flash vs qwen3.8-flash": 1.0
+      },
+      "category_counts": {
+        "current_claim": 129,
+        "illustrative": 3
+      },
+      "invalid_values": []
+    },
+    "claim_form": {
+      "fleiss_kappa": 0.9867,
+      "percent_agreement": 0.9848,
+      "pairwise_cohen": {
+        "claude-haiku-5-5 vs glm-5.3-flash": 1.0,
+        "claude-haiku-5-5 vs qwen3.8-flash": 0.98,
+        "glm-5.3-flash vs qwen3.8-flash": 0.98
+      },
+      "category_counts": {
+        "bare": 15,
+        "bare_call": 4,
+        "dependency": 26,
+        "not_a_claim": 3,
+        "path": 41,
+        "qualified": 4,
+        "section_qualified": 39
+      },
+      "invalid_values": []
+    },
+    "context_source": {
+      "fleiss_kappa": 0.9049,
+      "percent_agreement": 0.9318,
+      "pairwise_cohen": {
+        "claude-haiku-5-5 vs glm-5.3-flash": 1.0,
+        "claude-haiku-5-5 vs qwen3.8-flash": 0.858,
+        "glm-5.3-flash vs qwen3.8-flash": 0.858
+      },
+      "category_counts": {
+        "heading": 19,
+        "list": 7,
+        "none": 93,
+        "path_prose": 1,
+        "prose": 5,
+        "table": 7
+      },
+      "invalid_values": []
+    },
+    "defect_is_real": {
+      "fleiss_kappa": 1.0,
+      "percent_agreement": 1.0,
+      "pairwise_cohen": {
+        "claude-haiku-5-5 vs glm-5.3-flash": 1.0,
+        "claude-haiku-5-5 vs qwen3.8-flash": 1.0,
+        "glm-5.3-flash vs qwen3.8-flash": 1.0
+      },
+      "category_counts": {
+        "n/a": 27,
+        "yes": 105
+      },
+      "invalid_values": []
+    },
+    "nei_reason_applies": {
+      "fleiss_kappa": 0.4887,
+      "percent_agreement": 0.6742,
+      "pairwise_cohen": {
+        "claude-haiku-5-5 vs glm-5.3-flash": 0.4206,
+        "claude-haiku-5-5 vs qwen3.8-flash": 0.3858,
+        "glm-5.3-flash vs qwen3.8-flash": 0.9447
+      },
+      "category_counts": {
+        "n/a": 3,
+        "no": 110,
+        "yes": 19
+      },
+      "invalid_values": []
+    },
+    "none_claim_not_extracted": {
+      "fleiss_kappa": 1.0,
+      "percent_agreement": 1.0,
+      "pairwise_cohen": {
+        "claude-haiku-5-5 vs glm-5.3-flash": 1.0,
+        "claude-haiku-5-5 vs qwen3.8-flash": 1.0,
+        "glm-5.3-flash vs qwen3.8-flash": 1.0
+      },
+      "category_counts": {
+        "no": 129,
+        "yes": 3
+      },
+      "invalid_values": []
+    },
+    "control_false_positive": {
+      "fleiss_kappa": 1.0,
+      "percent_agreement": 1.0,
+      "pairwise_cohen": {
+        "claude-haiku-5-5 vs glm-5.3-flash": 1.0,
+        "claude-haiku-5-5 vs qwen3.8-flash": 1.0,
+        "glm-5.3-flash vs qwen3.8-flash": 1.0
+      },
+      "category_counts": {
+        "n/a": 108,
+        "yes": 24
+      },
+      "invalid_values": []
+    },
+    "same_artifact": {
+      "fleiss_kappa": null,
+      "percent_agreement": 1.0,
+      "pairwise_cohen": {
+        "claude-haiku-5-5 vs glm-5.3-flash": null,
+        "claude-haiku-5-5 vs qwen3.8-flash": null,
+        "glm-5.3-flash vs qwen3.8-flash": null
+      },
+      "category_counts": {
+        "n/a": 132
+      },
+      "invalid_values": []
+    }
+  },
+  "majority": {
+    "claim_type": {
+      "current_claim": 129,
+      "illustrative": 3
+    },
+    "claim_form": {
+      "bare": 15,
+      "bare_call": 4,
+      "dependency": 26,
+      "not_a_claim": 3,
+      "path": 41,
+      "qualified": 4,
+      "section_qualified": 39
+    },
+    "context_source": {
+      "heading": 19,
+      "list": 7,
+      "none": 93,
+      "path_prose": 1,
+      "prose": 5,
+      "table": 7
+    },
+    "defect_is_real": {
+      "n/a": 27,
+      "yes": 105
+    },
+    "nei_reason_applies": {
+      "n/a": 3,
+      "no": 110,
+      "yes": 19
+    },
+    "none_claim_not_extracted": {
+      "no": 129,
+      "yes": 3
+    },
+    "control_false_positive": {
+      "n/a": 108,
+      "yes": 24
+    },
+    "same_artifact": {
+      "n/a": 132
+    }
+  },
+  "kpi_checks": {
+    "injection_defect_real_yes": 105,
+    "injection_defect_real_no": 0,
+    "injection_defect_real_na": 3,
+    "control_true_yes": 24,
+    "control_false_positive_no": 0,
+    "nei_legitimate_yes": 8,
+    "nei_legitimate_no": 7,
+    "none_is_miss_no": 4,
+    "none_is_miss_yes": 0
+  },
+  "sensitivity": {
+    "operator_kpi": "REFUTED + every NEI",
+    "operator_detect": 65,
+    "llm_validated_nei_only": 58,
+    "refuted": 50,
+    "nei_legitimate_yes": 8,
+    "nei_legitimate_no": 7,
+    "verified": 69,
+    "llm_adjusted_r_detect": 0.8406
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "artifact_class": "identifier",
+    "direction": "code_side",
+    "kind": "symbol_rename",
+    "file": "quillpad/routes.py",
+    "old": "quillpad.routes.register_routes",
+    "new": "quillpad.routes.register_routes_renamed",
+    "symbol": "register_routes",
+    "target": "quillpad.routes.register_routes()",
+    "doc_path": "README.md",
+    "doc_line_text": "- `quillpad.routes.register_routes()` returns a `RouteTable()` object that describes the HTTP surface.",
+    "target_claim": "The README presents `quillpad.routes.register_routes()` as the current public function returning a `RouteTable()`; after the definition is renamed, that documented qualified identifier no longer resolves in the code.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "Both exemplars rename a code-side definition while surrounding documentation keeps naming the old symbol as current. I followed that pattern by picking a top-level function referenced in dotted call form on a declarative README line and renaming only its definition to a minimal snake_case variant."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"artifact_class\": \"identifier\", \"direction\": \"code_side\", \"kind\": \"symbol_rename\", \"file\": \"quillpad/routes.py\", \"old\": \"quillpad.routes.register_routes\", \"new\": \"quillpad.routes.register_routes_renamed\", \"symbol\": \"register_routes\", \"target\": \"quillpad.routes.register_routes()\", \"doc_path\": \"README.md\", \"doc_line_text\": \"- `quillpad.routes.register_routes()` returns a `RouteTable()` object that describes the HTTP surface.\", \"target_claim\": \"The README presents `quillpad.routes.register_routes()` as the current public function returning a `RouteTable()`; after the definition is renamed, that documented qualified identifier no longer resolves in the code.\", \"exemplar_ids\": [\"example 1\", \"example 2\"], \"rationale\": \"Both exemplars rename a code-side definition while surrounding documentation keeps naming the old symbol as current. I followed that pattern by picking a top-level function referenced in dotted call form on a declarative README line and renaming only its definition to a minimal snake_case variant.\"}",
+  "stderr_tail": ""
+}

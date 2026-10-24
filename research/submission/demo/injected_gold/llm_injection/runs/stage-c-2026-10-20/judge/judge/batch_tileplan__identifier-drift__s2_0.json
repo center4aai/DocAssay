@@ -1,0 +1,33 @@
+{
+  "repo": "tileplan__identifier-drift__s2_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "docs/api.md",
+        "line": 77,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "tileplan.zoom.closest_zoom",
+        "reason": ""
+      }
+    ],
+    "new_nei": [],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "tileplan__identifier-drift__s2_0::0",
+      "repo": "tileplan__identifier-drift__s2_0",
+      "op_id": "llm.identifier-drift",
+      "canonical_class": "identifier-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "tileplan.zoom.closest_zoom",
+        "new": "closest_zoomInjected",
+        "doc_path": "docs/api.md",
+        "target": "closest_zoom"
+      }
+    }
+  ]
+}

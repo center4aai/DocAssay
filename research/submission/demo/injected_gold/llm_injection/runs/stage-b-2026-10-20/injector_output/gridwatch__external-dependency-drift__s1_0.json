@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "click>=8.1",
+    "new": "click>=999",
+    "symbol": "click",
+    "target": "click>=8.1",
+    "doc_path": "README.md",
+    "doc_line_text": "- `click>=8.1`",
+    "target_claim": "The project lists click >=8.1 as one of its runtime dependencies declared in pyproject.toml.",
+    "exemplar_ids": [
+      "1",
+      "2"
+    ],
+    "rationale": "The README's installation section presents click>=8.1 as a current runtime requirement, which is exactly the kind of version constraint a manifest change can falsify."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"external-dependency-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"pyproject.toml\",\n  \"old\": \"click>=8.1\",\n  \"new\": \"click>=999\",\n  \"symbol\": \"click\",\n  \"target\": \"click>=8.1\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"- `click>=8.1`\",\n  \"target_claim\": \"The project lists click >=8.1 as one of its runtime dependencies declared in pyproject.toml.\",\n  \"exemplar_ids\": [\"1\", \"2\"],\n  \"rationale\": \"The README's installation section presents click>=8.1 as a current runtime requirement, which is exactly the kind of version constraint a manifest change can falsify.\"\n}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,657 @@
+{
+  "by_operator": {
+    "bibscan__external-dependency-drift__s1_0::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "bibscan__external-dependency-drift__s2_0::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "bibscan__external-dependency-drift__s3_0::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "bibscan__identifier-drift__s1_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "bibscan__identifier-drift__s2_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "bibscan__identifier-drift__s3_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "bibscan__path-location-drift__s1_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "bibscan__path-location-drift__s2_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "bibscan__path-location-drift__s3_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "bibscan__removed-referent-drift__s1_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "bibscan__removed-referent-drift__s2_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "bibscan__removed-referent-drift__s3_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "contourkit__external-dependency-drift__s1_0::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "contourkit__external-dependency-drift__s2_0::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "contourkit__external-dependency-drift__s3_0::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "contourkit__identifier-drift__s1_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "contourkit__identifier-drift__s2_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "contourkit__identifier-drift__s3_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "contourkit__path-location-drift__s1_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "contourkit__path-location-drift__s2_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "contourkit__path-location-drift__s3_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "contourkit__removed-referent-drift__s1_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "contourkit__removed-referent-drift__s2_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "contourkit__removed-referent-drift__s3_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "morpheme__external-dependency-drift__s1_0::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "morpheme__external-dependency-drift__s2_0::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "morpheme__external-dependency-drift__s3_0::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "morpheme__identifier-drift__s1_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "morpheme__identifier-drift__s2_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "morpheme__identifier-drift__s3_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "morpheme__path-location-drift__s1_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "morpheme__path-location-drift__s2_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "morpheme__path-location-drift__s3_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "morpheme__removed-referent-drift__s1_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "morpheme__removed-referent-drift__s2_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "morpheme__removed-referent-drift__s3_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "sensorbus__external-dependency-drift__s1_0::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "sensorbus__external-dependency-drift__s2_0::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "sensorbus__external-dependency-drift__s3_0::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "sensorbus__identifier-drift__s1_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "sensorbus__identifier-drift__s2_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "sensorbus__identifier-drift__s3_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "sensorbus__path-location-drift__s1_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "sensorbus__path-location-drift__s2_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "sensorbus__path-location-drift__s3_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "sensorbus__removed-referent-drift__s1_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "sensorbus__removed-referent-drift__s2_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "sensorbus__removed-referent-drift__s3_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "serialscope__external-dependency-drift__s1_0::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "serialscope__external-dependency-drift__s2_0::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "serialscope__external-dependency-drift__s3_0::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "serialscope__identifier-drift__s1_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "serialscope__identifier-drift__s2_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "serialscope__identifier-drift__s3_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "serialscope__path-location-drift__s1_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "serialscope__path-location-drift__s2_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "serialscope__path-location-drift__s3_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "serialscope__removed-referent-drift__s1_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "serialscope__removed-referent-drift__s2_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "serialscope__removed-referent-drift__s3_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tileplan__identifier-drift__s1_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tileplan__identifier-drift__s2_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tileplan__identifier-drift__s3_0::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tileplan__path-location-drift__s1_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tileplan__path-location-drift__s2_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tileplan__path-location-drift__s3_0::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tileplan__removed-referent-drift__s1_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tileplan__removed-referent-drift__s2_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tileplan__removed-referent-drift__s3_0::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    }
+  },
+  "per_seed": {
+    "1": {
+      "refuted_injected": 23,
+      "refuted_verified": 23,
+      "refuted": 17,
+      "nei": 5,
+      "none": 1,
+      "refuted_detected": 17,
+      "controls": 0,
+      "controls_clean": 0
+    },
+    "2": {
+      "refuted_injected": 23,
+      "refuted_verified": 23,
+      "refuted": 17,
+      "nei": 4,
+      "none": 2,
+      "refuted_detected": 17,
+      "controls": 0,
+      "controls_clean": 0
+    },
+    "3": {
+      "refuted_injected": 23,
+      "refuted_verified": 23,
+      "refuted": 16,
+      "nei": 6,
+      "none": 1,
+      "refuted_detected": 16,
+      "controls": 0,
+      "controls_clean": 0
+    }
+  }
+}

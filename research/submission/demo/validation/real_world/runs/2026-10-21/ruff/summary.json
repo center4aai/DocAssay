@@ -1,0 +1,18 @@
+{
+  "repo": "ruff",
+  "docs": 657,
+  "claims": 16953,
+  "referents": 2206,
+  "evidence": 15710,
+  "verdicts": {
+    "REFUTED": 232,
+    "NEI": 1746,
+    "SUPPORTED": 418
+  },
+  "refuted_by_predicate": {
+    "DEPENDENCY": 2,
+    "PATH_EXISTS": 229,
+    "SYMBOL_EXISTS": 1
+  },
+  "seconds": 37.2
+}

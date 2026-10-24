@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "docs/guide.md",
+    "old": "docs/guide.md",
+    "new": "docs/user-guide.md",
+    "target": "docs/guide.md",
+    "doc_path": "README.md",
+    "doc_line_text": "See the [user guide](docs/guide.md) for how these pieces fit together and the",
+    "target_claim": "The README states that the user guide is located at docs/guide.md.",
+    "exemplar_ids": [
+      "example 2"
+    ],
+    "rationale": "The README presents the user guide link as a current location, so renaming the guide leaves a natural stale path."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\":true,\"drift_type\":\"path-location-drift\",\"direction\":\"code_side\",\"file\":\"docs/guide.md\",\"old\":\"docs/guide.md\",\"new\":\"docs/user-guide.md\",\"target\":\"docs/guide.md\",\"doc_path\":\"README.md\",\"doc_line_text\":\"See the [user guide](docs/guide.md) for how these pieces fit together and the\",\"target_claim\":\"The README states that the user guide is located at docs/guide.md.\",\"exemplar_ids\":[\"example 2\"],\"rationale\":\"The README presents the user guide link as a current location, so renaming the guide leaves a natural stale path.\"}",
+  "stderr_tail": ""
+}

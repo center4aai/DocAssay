@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "bibscan/names.py",
+    "old": "format_name",
+    "new": null,
+    "symbol": "format_name",
+    "target": "format_name",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `format_name() -> str`",
+    "target_claim": "The bibscan.names module provides a current top-level function named format_name that formats a Name record as display text.",
+    "exemplar_ids": [
+      "example-1",
+      "example-2"
+    ],
+    "rationale": "The API reference presents format_name as an existing public function in the module's current interface, making its definition removal a natural documentation-code drift."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"bibscan/names.py\",\n  \"old\": \"format_name\",\n  \"new\": null,\n  \"symbol\": \"format_name\",\n  \"target\": \"format_name\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"### `format_name() -> str`\",\n  \"target_claim\": \"The bibscan.names module provides a current top-level function named format_name that formats a Name record as display text.\",\n  \"exemplar_ids\": [\"example-1\", \"example-2\"],\n  \"rationale\": \"The API reference presents format_name as an existing public function in the module's current interface, making its definition removal a natural documentation-code drift.\"\n}",
+  "stderr_tail": ""
+}

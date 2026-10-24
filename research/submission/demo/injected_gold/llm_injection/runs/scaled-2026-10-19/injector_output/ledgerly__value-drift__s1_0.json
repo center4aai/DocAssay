@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "value-drift",
+    "artifact_class": "value",
+    "direction": "code_side",
+    "kind": "version_bump",
+    "file": "pyproject.toml",
+    "old": "0.4.2",
+    "new": "0.4.3",
+    "target": "0.4.2",
+    "doc_path": "README.md",
+    "doc_line_text": "This is ledgerly version 0.4.2.",
+    "target_claim": "The project's current version is 0.4.2.",
+    "exemplar_ids": [
+      "triaged:alert-0586cd1b5ddb26aa"
+    ],
+    "rationale": "The exemplar shows a documented version literal left behind after the project version changes. I applied that pattern by bumping the manifest's project version while keeping the README's present-tense version statement unchanged."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"value-drift\",\n  \"artifact_class\": \"value\",\n  \"direction\": \"code_side\",\n  \"kind\": \"version_bump\",\n  \"file\": \"pyproject.toml\",\n  \"old\": \"0.4.2\",\n  \"new\": \"0.4.3\",\n  \"target\": \"0.4.2\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"This is ledgerly version 0.4.2.\",\n  \"target_claim\": \"The project's current version is 0.4.2.\",\n  \"exemplar_ids\": [\n    \"triaged:alert-0586cd1b5ddb26aa\"\n  ],\n  \"rationale\": \"The exemplar shows a documented version literal left behind after the project version changes. I applied that pattern by bumping the manifest's project version while keeping the README's present-tense version statement unchanged.\"\n}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "data/meter_jan.csv",
+    "old": "data/meter_jan.csv",
+    "new": "data/meter_jan_2026.csv",
+    "target": "data/meter_jan.csv",
+    "doc_path": "README.md",
+    "doc_line_text": "- `data/meter_jan.csv`: three hourly readings for meter `M-1042` on",
+    "target_claim": "The sample readings file for meter M-1042 is located at data/meter_jan.csv.",
+    "exemplar_ids": [
+      "example 1",
+      "example 3"
+    ],
+    "rationale": "The README bullet names the sample meter file as a current repository path, so renaming the file leaves that documented location stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"path-location-drift\", \"direction\": \"code_side\", \"file\": \"data/meter_jan.csv\", \"old\": \"data/meter_jan.csv\", \"new\": \"data/meter_jan_2026.csv\", \"target\": \"data/meter_jan.csv\", \"doc_path\": \"README.md\", \"doc_line_text\": \"- `data/meter_jan.csv`: three hourly readings for meter `M-1042` on\", \"target_claim\": \"The sample readings file for meter M-1042 is located at data/meter_jan.csv.\", \"exemplar_ids\": [\"example 1\", \"example 3\"], \"rationale\": \"The README bullet names the sample meter file as a current repository path, so renaming the file leaves that documented location stale.\"}",
+  "stderr_tail": ""
+}

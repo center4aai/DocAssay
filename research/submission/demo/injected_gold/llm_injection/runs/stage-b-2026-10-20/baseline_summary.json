@@ -1,0 +1,32 @@
+{
+  "gaugekit": {
+    "claims": 34,
+    "SUPPORTED": 24,
+    "NEI": 10
+  },
+  "gridwatch": {
+    "claims": 49,
+    "SUPPORTED": 37,
+    "NEI": 12
+  },
+  "plotline": {
+    "claims": 45,
+    "SUPPORTED": 31,
+    "NEI": 14
+  },
+  "palette": {
+    "claims": 50,
+    "NEI": 18,
+    "SUPPORTED": 32
+  },
+  "sheetmusic": {
+    "claims": 41,
+    "SUPPORTED": 28,
+    "NEI": 13
+  },
+  "recipecard": {
+    "claims": 41,
+    "SUPPORTED": 30,
+    "NEI": 11
+  }
+}

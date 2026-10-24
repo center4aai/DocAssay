@@ -1,0 +1,110 @@
+{
+  "auditor_model": "opencode-go/qwen3.8-flash",
+  "auditor_family": "Alibaba / Qwen",
+  "docwriter_model": "opencode-go/claude-haiku-5-5",
+  "docwriter_family": "Anthropic / Claude",
+  "model_substitution": {
+    "planned": "opencode-go/gpt-6-luna",
+    "actual": "opencode-go/qwen3.8-flash",
+    "reason": "GPT-6 Luna failed with 'Country, region, or territory not supported'; Gemini-4 was blocked by workspace privacy settings ('trains on request data'); Grok-4.7 returned 'Endpoint is unavailable'. Qwen3.8 Flash was available and is a different model family from the Claude docwriter, satisfying the independence requirement. This is an infrastructure substitution, not a result-driven change; it was made before the corpus freeze and before any engine or injector run.",
+    "recorded_at": "2026-10-20"
+  },
+  "repos": {
+    "gaugekit": {
+      "rounds": [
+        {"round": 1, "result": "CONSISTENT", "findings": []}
+      ],
+      "fixes": [],
+      "accepted": true
+    },
+    "gridwatch": {
+      "rounds": [
+        {"round": 1, "result": "CONSISTENT", "findings": []}
+      ],
+      "fixes": [],
+      "accepted": true
+    },
+    "plotline": {
+      "rounds": [
+        {"round": 1, "result": "CONSISTENT", "findings": []}
+      ],
+      "fixes": [],
+      "accepted": true
+    },
+    "palette": {
+      "rounds": [
+        {"round": 1, "result": "CONSISTENT", "findings": []}
+      ],
+      "fixes": [],
+      "accepted": true
+    },
+    "sheetmusic": {
+      "rounds": [
+        {"round": 1, "result": "CONSISTENT", "findings": []}
+      ],
+      "fixes": [],
+      "accepted": true
+    },
+    "recipecard": {
+      "rounds": [
+        {
+          "round": 1,
+          "result": "FINDINGS",
+          "findings": [
+            {
+              "file": "README.md",
+              "line": 59,
+              "statement": "from recipecard import load_recipe, scale_recipe, build_shopping_list",
+              "actual": "recipecard/__init__.py defines only __version__; the names live in recipecard.loader, recipecard.scaling and recipecard.shopping.",
+              "why": "The package-level import raises ImportError."
+            },
+            {
+              "file": "docs/guide.md",
+              "line": 57,
+              "statement": "Both are in recipecard.loader, and both are re-exported from the top-level package.",
+              "actual": "The package does not re-export anything.",
+              "why": "The re-export claim is false."
+            },
+            {
+              "file": "docs/api.md",
+              "line": 3,
+              "statement": "All public names below are importable from the recipecard package or from the module listed for each entry.",
+              "actual": "Only the per-module imports are valid.",
+              "why": "The package-level alternative does not exist."
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "result": "CONSISTENT",
+          "findings": []
+        }
+      ],
+      "fixes": [
+        {
+          "file": "README.md",
+          "line": 56,
+          "before": "Import the public names from the package:\n\n```python\nfrom recipecard import load_recipe, scale_recipe, build_shopping_list\n```",
+          "after": "Import the public names from their modules:\n\n```python\nfrom recipecard.loader import load_recipe\nfrom recipecard.scaling import scale_recipe\nfrom recipecard.shopping import build_shopping_list\n```",
+          "reason": "Match the actual package surface."
+        },
+        {
+          "file": "docs/guide.md",
+          "line": 57,
+          "before": "Both are in `recipecard.loader`, and both are re-exported from the top-level package.",
+          "after": "Both are in `recipecard.loader`.",
+          "reason": "Remove the false re-export claim."
+        },
+        {
+          "file": "docs/api.md",
+          "line": 3,
+          "before": "All public names below are importable from the `recipecard` package or from the module listed for each entry.",
+          "after": "All public names below are importable from the module listed for each entry.",
+          "reason": "Only per-module imports exist."
+        }
+      ],
+      "accepted": true
+    }
+  },
+  "note": "Only factual errors were fixed. No style, omission, or non-factual prose was changed. No engine output was used at any point in this audit."
+}

@@ -1,0 +1,47 @@
+{
+  "repo": "serialscope__identifier-drift__s2_0",
+  "tool_diff": {
+    "new_refuted": [],
+    "new_nei": [
+      {
+        "source": "docs/structure.md",
+        "line": 74,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "checksumerror",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 113,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "errors.checksumerror",
+        "reason": "foreign top segment"
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 116,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "errors.checksumerror",
+        "reason": "foreign top segment"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "serialscope__identifier-drift__s2_0::0",
+      "repo": "serialscope__identifier-drift__s2_0",
+      "op_id": "llm.identifier-drift",
+      "canonical_class": "identifier-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "serialscope.errors.ChecksumError",
+        "new": "ChecksumErrorInjected",
+        "doc_path": "docs/structure.md",
+        "target": "ChecksumError"
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "stage-b/output.schema.json",
+  "title": "Natural injector mutation proposal",
+  "description": "One structured mutation emitted by the injector. The model does not choose a harness dispatch kind or artifact class; the harness infers those from the requested drift type and the proposal's fields. Line numbers and definition spans are resolved by the runner.",
+  "oneOf": [
+    { "$ref": "#/$defs/mutation" },
+    { "$ref": "#/$defs/not_injectable" }
+  ],
+  "$defs": {
+    "mutation": {
+      "type": "object",
+      "required": [
+        "injectable",
+        "drift_type",
+        "direction",
+        "target",
+        "doc_path",
+        "doc_line_text",
+        "target_claim",
+        "exemplar_ids",
+        "rationale"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "injectable": { "const": true },
+        "drift_type": {
+          "type": "string",
+          "enum": [
+            "path-location-drift",
+            "identifier-drift",
+            "removed-referent-drift",
+            "external-dependency-drift"
+          ]
+        },
+        "direction": { "type": "string", "enum": ["code_side", "doc_side"] },
+        "file": {
+          "type": "string",
+          "description": "Repository-relative path of the file the mutation edits."
+        },
+        "old": {
+          "type": ["string", "null"],
+          "description": "Value present on disk before the mutation (path, symbol, or constraint)."
+        },
+        "new": {
+          "type": ["string", "null"],
+          "description": "Value present on disk after the mutation; null for a symbol delete or dependency removal."
+        },
+        "symbol": {
+          "type": ["string", "null"],
+          "description": "Bare symbol or normalized dependency name, where applicable."
+        },
+        "target": {
+          "type": "string",
+          "description": "The exact token as written on the document line."
+        },
+        "doc_path": { "type": "string" },
+        "doc_line_text": {
+          "type": "string",
+          "description": "The exact current document line that carries the stale claim."
+        },
+        "target_claim": {
+          "type": "string",
+          "description": "The single documented claim the mutation invalidates."
+        },
+        "exemplar_ids": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Ids of the bank exemplars that anchored target selection."
+        },
+        "rationale": { "type": "string" }
+      }
+    },
+    "not_injectable": {
+      "type": "object",
+      "required": ["injectable", "reason"],
+      "additionalProperties": false,
+      "properties": {
+        "injectable": { "const": false },
+        "reason": { "type": "string" }
+      }
+    }
+  }
+}

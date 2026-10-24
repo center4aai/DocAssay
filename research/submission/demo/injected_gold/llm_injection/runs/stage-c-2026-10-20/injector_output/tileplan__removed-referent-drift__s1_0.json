@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "tileplan/cover.py",
+    "old": "CoverOptions",
+    "new": null,
+    "symbol": "CoverOptions",
+    "target": "CoverOptions",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "Settings for `cover_extent`. `CoverOptions()` takes no arguments.",
+    "target_claim": "The API reference presents `CoverOptions` as the current settings class for `cover_extent` and states that `CoverOptions()` takes no arguments.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "The API reference presents CoverOptions as an ordinary current public class, so deleting its definition leaves the unchanged reference naming a symbol that no longer exists."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"removed-referent-drift\", \"direction\": \"code_side\", \"file\": \"tileplan/cover.py\", \"old\": \"CoverOptions\", \"new\": null, \"symbol\": \"CoverOptions\", \"target\": \"CoverOptions\", \"doc_path\": \"docs/api.md\", \"doc_line_text\": \"Settings for `cover_extent`. `CoverOptions()` takes no arguments.\", \"target_claim\": \"The API reference presents `CoverOptions` as the current settings class for `cover_extent` and states that `CoverOptions()` takes no arguments.\", \"exemplar_ids\": [\"example 1\", \"example 2\"], \"rationale\": \"The API reference presents CoverOptions as an ordinary current public class, so deleting its definition leaves the unchanged reference naming a symbol that no longer exists.\"}",
+  "stderr_tail": ""
+}

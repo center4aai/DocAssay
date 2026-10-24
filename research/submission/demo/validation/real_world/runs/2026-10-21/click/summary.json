@@ -1,0 +1,16 @@
+{
+  "repo": "click",
+  "docs": 36,
+  "claims": 1269,
+  "referents": 255,
+  "evidence": 1430,
+  "verdicts": {
+    "REFUTED": 3,
+    "NEI": 136,
+    "SUPPORTED": 137
+  },
+  "refuted_by_predicate": {
+    "PATH_EXISTS": 3
+  },
+  "seconds": 1.2
+}

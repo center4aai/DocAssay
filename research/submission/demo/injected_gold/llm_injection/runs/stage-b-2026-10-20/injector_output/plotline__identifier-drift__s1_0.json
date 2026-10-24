@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "plotline/canvas.py",
+    "old": "Canvas",
+    "new": "DrawingSurface",
+    "symbol": "Canvas",
+    "target": "Canvas",
+    "doc_path": "docs/guide.md",
+    "doc_line_text": "| `Canvas` | `plotline.canvas` | Drawing size and background. |",
+    "target_claim": "The user guide's model table lists `Canvas` as the class supplied by the `plotline.canvas` module.",
+    "exemplar_ids": [
+      "example-2",
+      "example-3",
+      "example-4"
+    ],
+    "rationale": "The guide's model table names `Canvas` as the public class from `plotline.canvas`, a current API fact a reader would rely on."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"plotline/canvas.py\",\n  \"old\": \"Canvas\",\n  \"new\": \"DrawingSurface\",\n  \"symbol\": \"Canvas\",\n  \"target\": \"Canvas\",\n  \"doc_path\": \"docs/guide.md\",\n  \"doc_line_text\": \"| `Canvas` | `plotline.canvas` | Drawing size and background. |\",\n  \"target_claim\": \"The user guide's model table lists `Canvas` as the class supplied by the `plotline.canvas` module.\",\n  \"exemplar_ids\": [\n    \"example-2\",\n    \"example-3\",\n    \"example-4\"\n  ],\n  \"rationale\": \"The guide's model table names `Canvas` as the public class from `plotline.canvas`, a current API fact a reader would rely on.\"\n}",
+  "stderr_tail": ""
+}

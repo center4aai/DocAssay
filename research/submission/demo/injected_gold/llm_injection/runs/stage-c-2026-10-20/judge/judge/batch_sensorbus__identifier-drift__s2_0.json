@@ -1,0 +1,40 @@
+{
+  "repo": "sensorbus__identifier-drift__s2_0",
+  "tool_diff": {
+    "new_refuted": [],
+    "new_nei": [
+      {
+        "source": "docs/concepts.md",
+        "line": 88,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "convert",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/usage.md",
+        "line": 146,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "convert",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "sensorbus__identifier-drift__s2_0::0",
+      "repo": "sensorbus__identifier-drift__s2_0",
+      "op_id": "llm.identifier-drift",
+      "canonical_class": "identifier-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "sensorbus.units.convert",
+        "new": "convertInjected",
+        "doc_path": "docs/concepts.md",
+        "target": "convert"
+      }
+    }
+  ]
+}

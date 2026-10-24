@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "morpheme/lemmatize.py",
+    "old": "lookup_many()",
+    "new": null,
+    "symbol": "lookup_many",
+    "target": "`lookup_many()`",
+    "doc_path": "docs/concepts.md",
+    "doc_line_text": "`lookup_many()` applies the same lookup to a series of words and returns a",
+    "target_claim": "docs/concepts.md presents `lookup_many()` as current API that applies the lemma lookup to a series of words and returns a list of LemmaResult.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "The concepts page states in the present tense what the public lookup_many() function does, so a reader relies on it as current API."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"removed-referent-drift\", \"direction\": \"code_side\", \"file\": \"morpheme/lemmatize.py\", \"old\": \"lookup_many()\", \"new\": null, \"symbol\": \"lookup_many\", \"target\": \"`lookup_many()`\", \"doc_path\": \"docs/concepts.md\", \"doc_line_text\": \"`lookup_many()` applies the same lookup to a series of words and returns a\", \"target_claim\": \"docs/concepts.md presents `lookup_many()` as current API that applies the lemma lookup to a series of words and returns a list of LemmaResult.\", \"exemplar_ids\": [\"example 1\"], \"rationale\": \"The concepts page states in the present tense what the public lookup_many() function does, so a reader relies on it as current API.\"}",
+  "stderr_tail": ""
+}

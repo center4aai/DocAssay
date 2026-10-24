@@ -1,0 +1,18 @@
+{
+  "repo": "celery",
+  "docs": 204,
+  "claims": 4553,
+  "referents": 728,
+  "evidence": 14516,
+  "verdicts": {
+    "REFUTED": 34,
+    "NEI": 375,
+    "SUPPORTED": 387
+  },
+  "refuted_by_predicate": {
+    "DEPENDENCY": 1,
+    "PATH_EXISTS": 8,
+    "SYMBOL_EXISTS": 25
+  },
+  "seconds": 7.1
+}

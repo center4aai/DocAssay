@@ -1,0 +1,1432 @@
+[
+  {
+    "name": "gaugekit__path-location-drift__s1_0",
+    "repo": "gaugekit",
+    "snapshot_id": "gaugekit__path-location-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gaugekit",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gaugekit__path-location-drift__s1_0.md",
+    "prompt_sha256": "c23a7e3f4c8e4ba6cd1f97b6315b8a550fcf16de9e6ab1adef529d6c99d6b0cb",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-11b43e8e022f032c",
+      "triaged:alert-20bd5530abe7bd74",
+      "triaged:alert-3268c8f275480e9b",
+      "triaged:alert-51d4fae83da0648b"
+    ]
+  },
+  {
+    "name": "gaugekit__path-location-drift__s2_0",
+    "repo": "gaugekit",
+    "snapshot_id": "gaugekit__path-location-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gaugekit",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gaugekit__path-location-drift__s2_0.md",
+    "prompt_sha256": "6855b1ecb6f163701971f9ca08f424092ad566b4015e94362e227b88795b7ab6",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-3d74e717cf488ed1",
+      "triaged:alert-527fdf20b19b2497",
+      "triaged:alert-76cbc1311ef22f89"
+    ]
+  },
+  {
+    "name": "gaugekit__path-location-drift__s3_0",
+    "repo": "gaugekit",
+    "snapshot_id": "gaugekit__path-location-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gaugekit",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gaugekit__path-location-drift__s3_0.md",
+    "prompt_sha256": "406ff5fb70eeb7b4f60811b273d44e0302b3867c8a3b26dff29ba29d4448ed21",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-20bd5530abe7bd74",
+      "triaged:alert-3268c8f275480e9b",
+      "triaged:alert-350586bc1ca4547a",
+      "triaged:alert-527fdf20b19b2497"
+    ]
+  },
+  {
+    "name": "gaugekit__identifier-drift__s1_0",
+    "repo": "gaugekit",
+    "snapshot_id": "gaugekit__identifier-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gaugekit",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gaugekit__identifier-drift__s1_0.md",
+    "prompt_sha256": "e777810d97efe5f14144ee120b622020d8018fcec91c7fedacf9e4af99ba4dde",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-nseindia-list-sme",
+      "triaged:ident-silo-refresh-devices"
+    ]
+  },
+  {
+    "name": "gaugekit__identifier-drift__s2_0",
+    "repo": "gaugekit",
+    "snapshot_id": "gaugekit__identifier-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gaugekit",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gaugekit__identifier-drift__s2_0.md",
+    "prompt_sha256": "b5f77b10dfa7980cb0bc8ea77c495c90a5a3f2caf034343187d8f83e6314df53",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:ident-casehub-incident-summary",
+      "triaged:ident-nseindia-list-sme"
+    ]
+  },
+  {
+    "name": "gaugekit__identifier-drift__s3_0",
+    "repo": "gaugekit",
+    "snapshot_id": "gaugekit__identifier-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gaugekit",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gaugekit__identifier-drift__s3_0.md",
+    "prompt_sha256": "8cb421cf31609ad3fccd05c0b9170765d022ca3e6a24cf3030f8e6dc7184072f",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-nseindia-list-sme"
+    ]
+  },
+  {
+    "name": "gaugekit__removed-referent-drift__s1_0",
+    "repo": "gaugekit",
+    "snapshot_id": "gaugekit__removed-referent-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gaugekit",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gaugekit__removed-referent-drift__s1_0.md",
+    "prompt_sha256": "b04fc48072003642d975cfab9ef48f09b85b6b9f5243a85db24d664491184155",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-f05c17f47af4d5e0",
+      "triaged:alert-f16567688f5ba11f",
+      "triaged:alert-f496c550f01827a6"
+    ]
+  },
+  {
+    "name": "gaugekit__removed-referent-drift__s2_0",
+    "repo": "gaugekit",
+    "snapshot_id": "gaugekit__removed-referent-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gaugekit",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gaugekit__removed-referent-drift__s2_0.md",
+    "prompt_sha256": "1e114bd38e362a0daa32311b4d54b6b6a1b838a7f5d96ed023fb730ba94495ab",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-afab96e198ea0897",
+      "triaged:alert-e1e71cc1ff2a6985",
+      "triaged:alert-f496c550f01827a6"
+    ]
+  },
+  {
+    "name": "gaugekit__removed-referent-drift__s3_0",
+    "repo": "gaugekit",
+    "snapshot_id": "gaugekit__removed-referent-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gaugekit",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gaugekit__removed-referent-drift__s3_0.md",
+    "prompt_sha256": "cf1da3ec3e31a153a1c137358cdc95ee9c9a78e241dede04420d1554c3972ad0",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-afab96e198ea0897",
+      "triaged:alert-f16567688f5ba11f",
+      "triaged:alert-f496c550f01827a6"
+    ]
+  },
+  {
+    "name": "gaugekit__external-dependency-drift__s1_0",
+    "repo": "gaugekit",
+    "snapshot_id": "gaugekit__external-dependency-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gaugekit",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gaugekit__external-dependency-drift__s1_0.md",
+    "prompt_sha256": "8d42716604ba26bbd9cdf113d39a4670bfb5cc9b85d5b30b6ff423c17b7b6d57",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-1ccd5743d77a06ff",
+      "triaged:alert-2daea4b18ad37cf7",
+      "triaged:alert-e0fb492470f8068d",
+      "triaged:alert-f2c043ee40dcc2b0"
+    ]
+  },
+  {
+    "name": "gaugekit__external-dependency-drift__s2_0",
+    "repo": "gaugekit",
+    "snapshot_id": "gaugekit__external-dependency-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gaugekit",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gaugekit__external-dependency-drift__s2_0.md",
+    "prompt_sha256": "295ad4a386a72de3f4b521e3605d84d5c4f3c727da5581c056bcc75894d5ce58",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-1ccd5743d77a06ff",
+      "triaged:alert-2daea4b18ad37cf7",
+      "triaged:alert-f6a52da81652ebc9",
+      "triaged:alert-fed7183254dcae14"
+    ]
+  },
+  {
+    "name": "gaugekit__external-dependency-drift__s3_0",
+    "repo": "gaugekit",
+    "snapshot_id": "gaugekit__external-dependency-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gaugekit",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gaugekit__external-dependency-drift__s3_0.md",
+    "prompt_sha256": "9f3ab02feee0596fd700f5ccd4fa29354c217f4b8f93969baabe24e5cf7e9872",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-1ccd5743d77a06ff",
+      "triaged:alert-d31b5ec93fbc2072",
+      "triaged:alert-f2c043ee40dcc2b0",
+      "triaged:alert-f6a52da81652ebc9"
+    ]
+  },
+  {
+    "name": "gridwatch__path-location-drift__s1_0",
+    "repo": "gridwatch",
+    "snapshot_id": "gridwatch__path-location-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gridwatch",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gridwatch__path-location-drift__s1_0.md",
+    "prompt_sha256": "5daebb51bfb8ef93de969e1b0810e3712011cc6c26118307f23dd946b89da28c",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-11b43e8e022f032c",
+      "triaged:alert-20bd5530abe7bd74",
+      "triaged:alert-527fdf20b19b2497",
+      "triaged:alert-aa7a043237abb063"
+    ]
+  },
+  {
+    "name": "gridwatch__path-location-drift__s2_0",
+    "repo": "gridwatch",
+    "snapshot_id": "gridwatch__path-location-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gridwatch",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gridwatch__path-location-drift__s2_0.md",
+    "prompt_sha256": "22b85e7733c56e697ac2288ade0e82cfb90086d953a4e4496bd9172704e8e348",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-51d4fae83da0648b",
+      "triaged:alert-527fdf20b19b2497",
+      "triaged:alert-60fec720fe85f3eb"
+    ]
+  },
+  {
+    "name": "gridwatch__path-location-drift__s3_0",
+    "repo": "gridwatch",
+    "snapshot_id": "gridwatch__path-location-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gridwatch",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gridwatch__path-location-drift__s3_0.md",
+    "prompt_sha256": "1aee28e93715b23a5eb0cb606916cbe41e3d2f15cff093637ab869d3be52a813",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-11b43e8e022f032c",
+      "triaged:alert-51d4fae83da0648b",
+      "triaged:alert-60fec720fe85f3eb",
+      "triaged:alert-aa7a043237abb063"
+    ]
+  },
+  {
+    "name": "gridwatch__identifier-drift__s1_0",
+    "repo": "gridwatch",
+    "snapshot_id": "gridwatch__identifier-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gridwatch",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gridwatch__identifier-drift__s1_0.md",
+    "prompt_sha256": "5f62b2be554e70694f0a2c09bfb6564f85d96658ce9bad7b1a329835a4dafc58",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:ident-immosquare-my-ip",
+      "triaged:ident-silo-refresh-devices"
+    ]
+  },
+  {
+    "name": "gridwatch__identifier-drift__s2_0",
+    "repo": "gridwatch",
+    "snapshot_id": "gridwatch__identifier-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gridwatch",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gridwatch__identifier-drift__s2_0.md",
+    "prompt_sha256": "c113b42b8f68111d8cc03db8ce845d416b54b1808d2bbbd8dafbf9f1efbf286c",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-casehub-incident-summary"
+    ]
+  },
+  {
+    "name": "gridwatch__identifier-drift__s3_0",
+    "repo": "gridwatch",
+    "snapshot_id": "gridwatch__identifier-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gridwatch",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gridwatch__identifier-drift__s3_0.md",
+    "prompt_sha256": "bf8f00bad3c02617ab0058b9ec58345bcb12ac9b6beae0bae1491c7e6b56c693",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:ident-nseindia-list-sme",
+      "triaged:ident-silo-refresh-devices"
+    ]
+  },
+  {
+    "name": "gridwatch__removed-referent-drift__s1_0",
+    "repo": "gridwatch",
+    "snapshot_id": "gridwatch__removed-referent-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gridwatch",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gridwatch__removed-referent-drift__s1_0.md",
+    "prompt_sha256": "048570bf6c684f31b79122a5cec563ab53337b5022975ccc299ca892d1f0107a",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-afab96e198ea0897",
+      "triaged:alert-e1e71cc1ff2a6985",
+      "triaged:alert-f16567688f5ba11f"
+    ]
+  },
+  {
+    "name": "gridwatch__removed-referent-drift__s2_0",
+    "repo": "gridwatch",
+    "snapshot_id": "gridwatch__removed-referent-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gridwatch",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gridwatch__removed-referent-drift__s2_0.md",
+    "prompt_sha256": "2bd1df7c60da02d94fb18d819549b89e5608d61588dfa5a3f07647c8fa9ad79f",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-e1e71cc1ff2a6985"
+    ]
+  },
+  {
+    "name": "gridwatch__removed-referent-drift__s3_0",
+    "repo": "gridwatch",
+    "snapshot_id": "gridwatch__removed-referent-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gridwatch",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gridwatch__removed-referent-drift__s3_0.md",
+    "prompt_sha256": "048570bf6c684f31b79122a5cec563ab53337b5022975ccc299ca892d1f0107a",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-afab96e198ea0897",
+      "triaged:alert-e1e71cc1ff2a6985",
+      "triaged:alert-f16567688f5ba11f"
+    ]
+  },
+  {
+    "name": "gridwatch__external-dependency-drift__s1_0",
+    "repo": "gridwatch",
+    "snapshot_id": "gridwatch__external-dependency-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gridwatch",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gridwatch__external-dependency-drift__s1_0.md",
+    "prompt_sha256": "a75017d6462765c3733ecbd585a5fc31ab8f1a16c707bd67a86e32e6113d98ff",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-2daea4b18ad37cf7",
+      "triaged:alert-3f0b25c9b7c723d7",
+      "triaged:alert-e0fb492470f8068d",
+      "triaged:alert-f6a52da81652ebc9"
+    ]
+  },
+  {
+    "name": "gridwatch__external-dependency-drift__s2_0",
+    "repo": "gridwatch",
+    "snapshot_id": "gridwatch__external-dependency-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gridwatch",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gridwatch__external-dependency-drift__s2_0.md",
+    "prompt_sha256": "aee55856f376507935d2fdf136871c9f3381b17cb6954ad21ead650f5aa58692",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-3f0b25c9b7c723d7",
+      "triaged:alert-618f0307eb26882e",
+      "triaged:alert-d31b5ec93fbc2072",
+      "triaged:alert-f2c043ee40dcc2b0"
+    ]
+  },
+  {
+    "name": "gridwatch__external-dependency-drift__s3_0",
+    "repo": "gridwatch",
+    "snapshot_id": "gridwatch__external-dependency-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/gridwatch",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/gridwatch__external-dependency-drift__s3_0.md",
+    "prompt_sha256": "1814b5a8d15087afb1b5cf80343efc49f91dc27bca9511cfbf68b8fa3c443906",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-2daea4b18ad37cf7",
+      "triaged:alert-3f0b25c9b7c723d7",
+      "triaged:alert-618f0307eb26882e",
+      "triaged:alert-fed7183254dcae14"
+    ]
+  },
+  {
+    "name": "plotline__path-location-drift__s1_0",
+    "repo": "plotline",
+    "snapshot_id": "plotline__path-location-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/plotline",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/plotline__path-location-drift__s1_0.md",
+    "prompt_sha256": "df49fe2b4a84159be3f2ba13e265564818849eb889e08301ee786cf580dca5a1",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-350586bc1ca4547a",
+      "triaged:alert-aa7a043237abb063"
+    ]
+  },
+  {
+    "name": "plotline__path-location-drift__s2_0",
+    "repo": "plotline",
+    "snapshot_id": "plotline__path-location-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/plotline",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/plotline__path-location-drift__s2_0.md",
+    "prompt_sha256": "336ae762e698d75a3387328d115e8782a0200511cb4596aab8c5a4594684a45f",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-350586bc1ca4547a",
+      "triaged:alert-51d4fae83da0648b",
+      "triaged:alert-60fec720fe85f3eb"
+    ]
+  },
+  {
+    "name": "plotline__path-location-drift__s3_0",
+    "repo": "plotline",
+    "snapshot_id": "plotline__path-location-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/plotline",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/plotline__path-location-drift__s3_0.md",
+    "prompt_sha256": "397ffdf2527aecddbc2c73c4059acbca7839851fac00137e036f4e08ae2504f4",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-20bd5530abe7bd74",
+      "triaged:alert-3268c8f275480e9b",
+      "triaged:alert-350586bc1ca4547a",
+      "triaged:alert-60fec720fe85f3eb"
+    ]
+  },
+  {
+    "name": "plotline__identifier-drift__s1_0",
+    "repo": "plotline",
+    "snapshot_id": "plotline__identifier-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/plotline",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/plotline__identifier-drift__s1_0.md",
+    "prompt_sha256": "4512c2b24763903a52d121679672f12ae269aa55ab7a41be985a6380525f1c69",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:ident-casehub-incident-summary",
+      "triaged:ident-nseindia-list-sme",
+      "triaged:ident-silo-refresh-devices"
+    ]
+  },
+  {
+    "name": "plotline__identifier-drift__s2_0",
+    "repo": "plotline",
+    "snapshot_id": "plotline__identifier-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/plotline",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/plotline__identifier-drift__s2_0.md",
+    "prompt_sha256": "db561a2874c136e5a908d582fd5cd54ccbadd29355ac5b33c48c931397e2c774",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-nseindia-list-sme",
+      "triaged:ident-silo-refresh-devices"
+    ]
+  },
+  {
+    "name": "plotline__identifier-drift__s3_0",
+    "repo": "plotline",
+    "snapshot_id": "plotline__identifier-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/plotline",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/plotline__identifier-drift__s3_0.md",
+    "prompt_sha256": "71cba3ca33f7e39f72688572a597860171b9cf75a53d87a99f4fed92d1cfe909",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-nseindia-list-sme"
+    ]
+  },
+  {
+    "name": "plotline__removed-referent-drift__s1_0",
+    "repo": "plotline",
+    "snapshot_id": "plotline__removed-referent-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/plotline",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/plotline__removed-referent-drift__s1_0.md",
+    "prompt_sha256": "79b42f311a47d80f6c68ab543112c3ae56f135b304202735fdfe8a26ebd7cb87",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-afab96e198ea0897",
+      "triaged:alert-f16567688f5ba11f"
+    ]
+  },
+  {
+    "name": "plotline__removed-referent-drift__s2_0",
+    "repo": "plotline",
+    "snapshot_id": "plotline__removed-referent-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/plotline",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/plotline__removed-referent-drift__s2_0.md",
+    "prompt_sha256": "ce50a6ebe118c2f5f955f47f2d8801fed9e8500f9f4d653621af4fe857c45a95",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-afab96e198ea0897",
+      "triaged:alert-f05c17f47af4d5e0",
+      "triaged:alert-f16567688f5ba11f"
+    ]
+  },
+  {
+    "name": "plotline__removed-referent-drift__s3_0",
+    "repo": "plotline",
+    "snapshot_id": "plotline__removed-referent-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/plotline",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/plotline__removed-referent-drift__s3_0.md",
+    "prompt_sha256": "a309210eff60b32e3be1e9e016e54d0e4ea932cf01fd92786711ede9812486d2",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-2bfdc6ac8403e47a",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-afab96e198ea0897",
+      "triaged:alert-e1e71cc1ff2a6985"
+    ]
+  },
+  {
+    "name": "plotline__external-dependency-drift__s1_0",
+    "repo": "plotline",
+    "snapshot_id": "plotline__external-dependency-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/plotline",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/plotline__external-dependency-drift__s1_0.md",
+    "prompt_sha256": "9a5a48ccdbd71a14a2110874dcc2ef1eed2ef5cbefa13176d3043f2194e25e46",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-2daea4b18ad37cf7",
+      "triaged:alert-39d71642fff1897d",
+      "triaged:alert-3f0b25c9b7c723d7",
+      "triaged:alert-618f0307eb26882e"
+    ]
+  },
+  {
+    "name": "plotline__external-dependency-drift__s2_0",
+    "repo": "plotline",
+    "snapshot_id": "plotline__external-dependency-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/plotline",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/plotline__external-dependency-drift__s2_0.md",
+    "prompt_sha256": "6210465cac7ac0f681583eed80f7568e6adbbc0bdbbde3eaeee82549abcc1363",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-1ccd5743d77a06ff",
+      "triaged:alert-39d71642fff1897d",
+      "triaged:alert-3f0b25c9b7c723d7",
+      "triaged:alert-f6a52da81652ebc9"
+    ]
+  },
+  {
+    "name": "plotline__external-dependency-drift__s3_0",
+    "repo": "plotline",
+    "snapshot_id": "plotline__external-dependency-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/plotline",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/plotline__external-dependency-drift__s3_0.md",
+    "prompt_sha256": "829e04595527ae063887ee2b7da32b5eb6d37eb2875a43818efd2179a811a7a1",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-39d71642fff1897d",
+      "triaged:alert-618f0307eb26882e",
+      "triaged:alert-e0fb492470f8068d",
+      "triaged:alert-fed7183254dcae14"
+    ]
+  },
+  {
+    "name": "palette__path-location-drift__s1_0",
+    "repo": "palette",
+    "snapshot_id": "palette__path-location-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/palette",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/palette__path-location-drift__s1_0.md",
+    "prompt_sha256": "b4fbb8727be904fa464a57c67e6a843f317fc9a50eeee9572b9fbfb08986e33b",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-20bd5530abe7bd74",
+      "triaged:alert-527fdf20b19b2497",
+      "triaged:alert-aa7a043237abb063"
+    ]
+  },
+  {
+    "name": "palette__path-location-drift__s2_0",
+    "repo": "palette",
+    "snapshot_id": "palette__path-location-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/palette",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/palette__path-location-drift__s2_0.md",
+    "prompt_sha256": "717a31b0ac16b540a6fafac3b3d4d80f03e94739f219f5b09f31bc39d431b10b",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-11b43e8e022f032c",
+      "triaged:alert-350586bc1ca4547a",
+      "triaged:alert-3d74e717cf488ed1",
+      "triaged:alert-60fec720fe85f3eb"
+    ]
+  },
+  {
+    "name": "palette__path-location-drift__s3_0",
+    "repo": "palette",
+    "snapshot_id": "palette__path-location-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/palette",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/palette__path-location-drift__s3_0.md",
+    "prompt_sha256": "fa3784e48095a3398365088564943642f7c48cf704be2c418c667eeae6715b16",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-20bd5530abe7bd74",
+      "triaged:alert-350586bc1ca4547a",
+      "triaged:alert-3d74e717cf488ed1"
+    ]
+  },
+  {
+    "name": "palette__identifier-drift__s1_0",
+    "repo": "palette",
+    "snapshot_id": "palette__identifier-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/palette",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/palette__identifier-drift__s1_0.md",
+    "prompt_sha256": "d4193a2edfbce4d24a996c805346ec6a1f93bc1ca04e7f6dd74fdebde142bce7",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:ident-nseindia-list-sme"
+    ]
+  },
+  {
+    "name": "palette__identifier-drift__s2_0",
+    "repo": "palette",
+    "snapshot_id": "palette__identifier-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/palette",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/palette__identifier-drift__s2_0.md",
+    "prompt_sha256": "9e92f10db991e78e4d52f6ec25c19f1afc5691bf0e0f23791abddcdea4715b2d",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-casehub-incident-summary",
+      "triaged:ident-nseindia-list-sme"
+    ]
+  },
+  {
+    "name": "palette__identifier-drift__s3_0",
+    "repo": "palette",
+    "snapshot_id": "palette__identifier-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/palette",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/palette__identifier-drift__s3_0.md",
+    "prompt_sha256": "bfdfb75fc06fa76a5275c5365cef12de9b8fbacd074a5e7a23c7f42c605f2b47",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-nseindia-list-sme"
+    ]
+  },
+  {
+    "name": "palette__removed-referent-drift__s1_0",
+    "repo": "palette",
+    "snapshot_id": "palette__removed-referent-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/palette",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/palette__removed-referent-drift__s1_0.md",
+    "prompt_sha256": "ca9ab92020e59fa438793eb343beea11de799f5aff8f5eb50cd04c1f96335ef5",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-f05c17f47af4d5e0",
+      "triaged:alert-f16567688f5ba11f"
+    ]
+  },
+  {
+    "name": "palette__removed-referent-drift__s2_0",
+    "repo": "palette",
+    "snapshot_id": "palette__removed-referent-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/palette",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/palette__removed-referent-drift__s2_0.md",
+    "prompt_sha256": "d4a7896759f6c24d948d0d1c9524363528b52233e999987a4c0abf90840cc08e",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-f05c17f47af4d5e0",
+      "triaged:alert-f16567688f5ba11f",
+      "triaged:alert-f496c550f01827a6"
+    ]
+  },
+  {
+    "name": "palette__removed-referent-drift__s3_0",
+    "repo": "palette",
+    "snapshot_id": "palette__removed-referent-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/palette",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/palette__removed-referent-drift__s3_0.md",
+    "prompt_sha256": "b22a02961959b11de70c1dde9e9e9179253274b385508d653ed282d77546fdd3",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-f05c17f47af4d5e0",
+      "triaged:alert-f16567688f5ba11f",
+      "triaged:alert-f496c550f01827a6"
+    ]
+  },
+  {
+    "name": "palette__external-dependency-drift__s1_0",
+    "repo": "palette",
+    "snapshot_id": "palette__external-dependency-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/palette",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/palette__external-dependency-drift__s1_0.md",
+    "prompt_sha256": "a22c0636771062dae3b5fb394189df7ed37aaf4fc13285d43ef6aef48ac17cc3",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-618f0307eb26882e",
+      "triaged:alert-d31b5ec93fbc2072",
+      "triaged:alert-f2c043ee40dcc2b0",
+      "triaged:alert-fed7183254dcae14"
+    ]
+  },
+  {
+    "name": "palette__external-dependency-drift__s2_0",
+    "repo": "palette",
+    "snapshot_id": "palette__external-dependency-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/palette",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/palette__external-dependency-drift__s2_0.md",
+    "prompt_sha256": "c8cf3b3cf99b3acea1b831f2fdc0649a716928655eaa4ca27c8f986926f82684",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-1ccd5743d77a06ff",
+      "triaged:alert-618f0307eb26882e",
+      "triaged:alert-e0fb492470f8068d",
+      "triaged:alert-f6a52da81652ebc9"
+    ]
+  },
+  {
+    "name": "palette__external-dependency-drift__s3_0",
+    "repo": "palette",
+    "snapshot_id": "palette__external-dependency-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/palette",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/palette__external-dependency-drift__s3_0.md",
+    "prompt_sha256": "2aafd8a4e4f2bb518e495968081ba940e157ba64c9ed7f1615db2ebcb1cbd9bc",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-1ccd5743d77a06ff",
+      "triaged:alert-2daea4b18ad37cf7",
+      "triaged:alert-f2c043ee40dcc2b0",
+      "triaged:alert-fed7183254dcae14"
+    ]
+  },
+  {
+    "name": "sheetmusic__path-location-drift__s1_0",
+    "repo": "sheetmusic",
+    "snapshot_id": "sheetmusic__path-location-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/sheetmusic",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/sheetmusic__path-location-drift__s1_0.md",
+    "prompt_sha256": "0c9bcdab259630f95d3b33fdbb948909d6c2a22688a637826a5c42ceb36a51e5",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-3268c8f275480e9b",
+      "triaged:alert-527fdf20b19b2497",
+      "triaged:alert-aa7a043237abb063"
+    ]
+  },
+  {
+    "name": "sheetmusic__path-location-drift__s2_0",
+    "repo": "sheetmusic",
+    "snapshot_id": "sheetmusic__path-location-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/sheetmusic",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/sheetmusic__path-location-drift__s2_0.md",
+    "prompt_sha256": "ca6f28bffbd0e68f6e9bd49069bf1c411c497316764fd5452ea1adddee1cbcfb",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-11b43e8e022f032c",
+      "triaged:alert-3268c8f275480e9b",
+      "triaged:alert-3d74e717cf488ed1",
+      "triaged:alert-76cbc1311ef22f89"
+    ]
+  },
+  {
+    "name": "sheetmusic__path-location-drift__s3_0",
+    "repo": "sheetmusic",
+    "snapshot_id": "sheetmusic__path-location-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/sheetmusic",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/sheetmusic__path-location-drift__s3_0.md",
+    "prompt_sha256": "7b55a3fbe989a4331585bbdefbb26c15650cd1ffe22a22d6e721fcd8234c1959",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-350586bc1ca4547a",
+      "triaged:alert-527fdf20b19b2497",
+      "triaged:alert-76cbc1311ef22f89"
+    ]
+  },
+  {
+    "name": "sheetmusic__identifier-drift__s1_0",
+    "repo": "sheetmusic",
+    "snapshot_id": "sheetmusic__identifier-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/sheetmusic",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/sheetmusic__identifier-drift__s1_0.md",
+    "prompt_sha256": "6016cdc2fc797c530d99f7c96f25667656d725fc14114cc98de85520da6e8f3c",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-immosquare-my-ip",
+      "triaged:ident-nseindia-list-sme"
+    ]
+  },
+  {
+    "name": "sheetmusic__identifier-drift__s2_0",
+    "repo": "sheetmusic",
+    "snapshot_id": "sheetmusic__identifier-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/sheetmusic",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/sheetmusic__identifier-drift__s2_0.md",
+    "prompt_sha256": "b7256f41d3d53b100a7aebf204d22b3b1cb1b53fa672688fdca2342cf2d09a44",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:ident-casehub-incident-summary",
+      "triaged:ident-immosquare-my-ip"
+    ]
+  },
+  {
+    "name": "sheetmusic__identifier-drift__s3_0",
+    "repo": "sheetmusic",
+    "snapshot_id": "sheetmusic__identifier-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/sheetmusic",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/sheetmusic__identifier-drift__s3_0.md",
+    "prompt_sha256": "6be9b8fd38059bd9c03e81820acc13c4148b79bd9d6bbbcd1e2771a4bd986136",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-casehub-incident-summary",
+      "triaged:ident-silo-refresh-devices"
+    ]
+  },
+  {
+    "name": "sheetmusic__removed-referent-drift__s1_0",
+    "repo": "sheetmusic",
+    "snapshot_id": "sheetmusic__removed-referent-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/sheetmusic",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/sheetmusic__removed-referent-drift__s1_0.md",
+    "prompt_sha256": "4990d2b83dc637b70665402324484bb19a2bf86f089549f7cb8bd11ac41ddee7",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-afab96e198ea0897",
+      "triaged:alert-e1e71cc1ff2a6985"
+    ]
+  },
+  {
+    "name": "sheetmusic__removed-referent-drift__s2_0",
+    "repo": "sheetmusic",
+    "snapshot_id": "sheetmusic__removed-referent-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/sheetmusic",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/sheetmusic__removed-referent-drift__s2_0.md",
+    "prompt_sha256": "c0bd7ab144f3af0119f9825b31037fbbd57feac9af0e4b8a56a827755e4e1ba2",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-afab96e198ea0897"
+    ]
+  },
+  {
+    "name": "sheetmusic__removed-referent-drift__s3_0",
+    "repo": "sheetmusic",
+    "snapshot_id": "sheetmusic__removed-referent-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/sheetmusic",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/sheetmusic__removed-referent-drift__s3_0.md",
+    "prompt_sha256": "1de3bee6250872b571dc8fb646f8d3d66fa21ced9f434bc5afce0ef0a7962a74",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-2bfdc6ac8403e47a",
+      "triaged:alert-afab96e198ea0897",
+      "triaged:alert-e1e71cc1ff2a6985",
+      "triaged:alert-f496c550f01827a6"
+    ]
+  },
+  {
+    "name": "sheetmusic__external-dependency-drift__s1_0",
+    "repo": "sheetmusic",
+    "snapshot_id": "sheetmusic__external-dependency-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/sheetmusic",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/sheetmusic__external-dependency-drift__s1_0.md",
+    "prompt_sha256": "ed58ba9ba20da7f1b9e224b0bf230dacd055f716b7af528da7de874652eaaf2c",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-1ccd5743d77a06ff",
+      "triaged:alert-39d71642fff1897d",
+      "triaged:alert-3f0b25c9b7c723d7",
+      "triaged:alert-f6a52da81652ebc9"
+    ]
+  },
+  {
+    "name": "sheetmusic__external-dependency-drift__s2_0",
+    "repo": "sheetmusic",
+    "snapshot_id": "sheetmusic__external-dependency-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/sheetmusic",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/sheetmusic__external-dependency-drift__s2_0.md",
+    "prompt_sha256": "a811adfcd807010ad7d545defa021dc89466b2c1b19f4745e4cb08b1b6c29cbd",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-39d71642fff1897d",
+      "triaged:alert-618f0307eb26882e",
+      "triaged:alert-d31b5ec93fbc2072",
+      "triaged:alert-fed7183254dcae14"
+    ]
+  },
+  {
+    "name": "sheetmusic__external-dependency-drift__s3_0",
+    "repo": "sheetmusic",
+    "snapshot_id": "sheetmusic__external-dependency-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/sheetmusic",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/sheetmusic__external-dependency-drift__s3_0.md",
+    "prompt_sha256": "27831e9efedcf91614b4e9a4f6688d8caf63181fc78c12f7fc2ba40ab07ab629",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-1ccd5743d77a06ff",
+      "triaged:alert-2daea4b18ad37cf7",
+      "triaged:alert-5a292f75418b8682",
+      "triaged:alert-618f0307eb26882e"
+    ]
+  },
+  {
+    "name": "recipecard__path-location-drift__s1_0",
+    "repo": "recipecard",
+    "snapshot_id": "recipecard__path-location-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/recipecard",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/recipecard__path-location-drift__s1_0.md",
+    "prompt_sha256": "101a865c040fbe939052e391606185fea932083f6cb05f2c6acab34a4c3d61b1",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-3d74e717cf488ed1",
+      "triaged:alert-51d4fae83da0648b",
+      "triaged:alert-527fdf20b19b2497",
+      "triaged:alert-60fec720fe85f3eb"
+    ]
+  },
+  {
+    "name": "recipecard__path-location-drift__s2_0",
+    "repo": "recipecard",
+    "snapshot_id": "recipecard__path-location-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/recipecard",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/recipecard__path-location-drift__s2_0.md",
+    "prompt_sha256": "34a1311c5344e671673da94ea6ef7439199763ad2cab3ca8afc379d1bcf81415",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-11b43e8e022f032c",
+      "triaged:alert-51d4fae83da0648b",
+      "triaged:alert-76cbc1311ef22f89",
+      "triaged:alert-aa7a043237abb063"
+    ]
+  },
+  {
+    "name": "recipecard__path-location-drift__s3_0",
+    "repo": "recipecard",
+    "snapshot_id": "recipecard__path-location-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/recipecard",
+    "class": "path-location-drift",
+    "kind": "path_rename",
+    "artifact_class": "path",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/recipecard__path-location-drift__s3_0.md",
+    "prompt_sha256": "106faa4db8a9b152b96032f8a2fcd67771fcb4b14c62ef0fbb024ea127f2c88e",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-3268c8f275480e9b",
+      "triaged:alert-350586bc1ca4547a",
+      "triaged:alert-60fec720fe85f3eb"
+    ]
+  },
+  {
+    "name": "recipecard__identifier-drift__s1_0",
+    "repo": "recipecard",
+    "snapshot_id": "recipecard__identifier-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/recipecard",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/recipecard__identifier-drift__s1_0.md",
+    "prompt_sha256": "04a5a4d35625f3ddef46578fabbfd310e10d4370540b0d6d897d0f326f3ac5fa",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:ident-nseindia-list-sme",
+      "triaged:ident-silo-refresh-devices"
+    ]
+  },
+  {
+    "name": "recipecard__identifier-drift__s2_0",
+    "repo": "recipecard",
+    "snapshot_id": "recipecard__identifier-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/recipecard",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/recipecard__identifier-drift__s2_0.md",
+    "prompt_sha256": "717dfe9865b0574dade2d052667922239cae128f1034a201def0a739262ab0d3",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:ident-immosquare-my-ip"
+    ]
+  },
+  {
+    "name": "recipecard__identifier-drift__s3_0",
+    "repo": "recipecard",
+    "snapshot_id": "recipecard__identifier-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/recipecard",
+    "class": "identifier-drift",
+    "kind": "symbol_rename",
+    "artifact_class": "identifier",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/recipecard__identifier-drift__s3_0.md",
+    "prompt_sha256": "04a5a4d35625f3ddef46578fabbfd310e10d4370540b0d6d897d0f326f3ac5fa",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:ident-nseindia-list-sme",
+      "triaged:ident-silo-refresh-devices"
+    ]
+  },
+  {
+    "name": "recipecard__removed-referent-drift__s1_0",
+    "repo": "recipecard",
+    "snapshot_id": "recipecard__removed-referent-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/recipecard",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/recipecard__removed-referent-drift__s1_0.md",
+    "prompt_sha256": "e89cfedcd1c460347fb30b9e9bba0343193656e1a854d4225f48e2da5262da06",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-afab96e198ea0897"
+    ]
+  },
+  {
+    "name": "recipecard__removed-referent-drift__s2_0",
+    "repo": "recipecard",
+    "snapshot_id": "recipecard__removed-referent-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/recipecard",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/recipecard__removed-referent-drift__s2_0.md",
+    "prompt_sha256": "c2bcc5d6876ebd4b46a711e29d27b96a5100fd7d401c68109849eb7c1bdd040f",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-e1e71cc1ff2a6985",
+      "triaged:alert-f05c17f47af4d5e0",
+      "triaged:alert-f16567688f5ba11f"
+    ]
+  },
+  {
+    "name": "recipecard__removed-referent-drift__s3_0",
+    "repo": "recipecard",
+    "snapshot_id": "recipecard__removed-referent-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/recipecard",
+    "class": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "artifact_class": "referent",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/recipecard__removed-referent-drift__s3_0.md",
+    "prompt_sha256": "ef2f78ee7f07fa96578bb32ad910704d7dbc205dab30d7b5890477d7ad7e68d2",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-f05c17f47af4d5e0"
+    ]
+  },
+  {
+    "name": "recipecard__external-dependency-drift__s1_0",
+    "repo": "recipecard",
+    "snapshot_id": "recipecard__external-dependency-drift__s1_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/recipecard",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 1,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/recipecard__external-dependency-drift__s1_0.md",
+    "prompt_sha256": "035f4cd03d9a0b22f06bd7ad11623b77be498b742f00382fcad5ea3df4278357",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-2daea4b18ad37cf7",
+      "triaged:alert-5a292f75418b8682",
+      "triaged:alert-618f0307eb26882e",
+      "triaged:alert-f2c043ee40dcc2b0"
+    ]
+  },
+  {
+    "name": "recipecard__external-dependency-drift__s2_0",
+    "repo": "recipecard",
+    "snapshot_id": "recipecard__external-dependency-drift__s2_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/recipecard",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 2,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/recipecard__external-dependency-drift__s2_0.md",
+    "prompt_sha256": "46a8c59266b20789e0508cc503c0ea8eeb3e56e547958c570e526c514c46e78e",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-2daea4b18ad37cf7",
+      "triaged:alert-3f0b25c9b7c723d7",
+      "triaged:alert-5a292f75418b8682",
+      "triaged:alert-e0fb492470f8068d"
+    ]
+  },
+  {
+    "name": "recipecard__external-dependency-drift__s3_0",
+    "repo": "recipecard",
+    "snapshot_id": "recipecard__external-dependency-drift__s3_0",
+    "src": "./research/submission/demo/injected_gold/synthetic-natural/recipecard",
+    "class": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "artifact_class": "dependency",
+    "sample": 0,
+    "seed": 3,
+    "bundle": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_input/recipecard__external-dependency-drift__s3_0.md",
+    "prompt_sha256": "14516169495243d607925532fc1c1778b491aa8560de7fb533dbfd4de1f8ea75",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "exemplar_ids": [
+      "triaged:alert-2daea4b18ad37cf7",
+      "triaged:alert-39d71642fff1897d",
+      "triaged:alert-5a292f75418b8682",
+      "triaged:alert-fed7183254dcae14"
+    ]
+  }
+]

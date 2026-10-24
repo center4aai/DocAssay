@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "recipecard/scaling.py",
+    "old": "scale_quantity",
+    "new": null,
+    "symbol": "scale_quantity",
+    "target": "scale_quantity",
+    "doc_path": "docs/guide.md",
+    "doc_line_text": "- `scale_quantity` returns a single quantity as a `float`.",
+    "target_claim": "The guide presents `scale_quantity` as a current public function in `recipecard.scaling` that returns a scaled quantity.",
+    "exemplar_ids": [
+      "example-2",
+      "example-3"
+    ],
+    "rationale": "The user guide states in ordinary present tense that `scale_quantity` exists in `recipecard.scaling` and describes its return value, making it a natural current-API reference."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"removed-referent-drift\", \"direction\": \"code_side\", \"file\": \"recipecard/scaling.py\", \"old\": \"scale_quantity\", \"new\": null, \"symbol\": \"scale_quantity\", \"target\": \"scale_quantity\", \"doc_path\": \"docs/guide.md\", \"doc_line_text\": \"- `scale_quantity` returns a single quantity as a `float`.\", \"target_claim\": \"The guide presents `scale_quantity` as a current public function in `recipecard.scaling` that returns a scaled quantity.\", \"exemplar_ids\": [\"example-2\", \"example-3\"], \"rationale\": \"The user guide states in ordinary present tense that `scale_quantity` exists in `recipecard.scaling` and describes its return value, making it a natural current-API reference.\"}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "artifact_class": "referent",
+    "direction": "code_side",
+    "kind": "symbol_delete",
+    "file": "ledgerly/cli.py",
+    "old": "ledgerly.cli.add_entry",
+    "new": null,
+    "symbol": "add_entry",
+    "target": "ledgerly.cli.add_entry()",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "| `ledgerly.cli.add_entry()` | function | `Entry()` |",
+    "target_claim": "`ledgerly.cli.add_entry()` exists as a top-level function that returns an `Entry()`.",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-790cabcef1be9244"
+    ],
+    "rationale": "Following exemplar 58d9824e5aed2a9b, where a code-side API member is dropped while the docs still advertise it, I chose a documented top-level function that has no other callers so its deletion leaves the module and its remaining neighbors intact."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "I'll inspect the repository to confirm the target symbol and document line before proposing the mutation.\n{\"injectable\": true, \"drift_type\": \"removed-referent-drift\", \"artifact_class\": \"referent\", \"direction\": \"code_side\", \"kind\": \"symbol_delete\", \"file\": \"ledgerly/cli.py\", \"old\": \"ledgerly.cli.add_entry\", \"new\": null, \"symbol\": \"add_entry\", \"target\": \"ledgerly.cli.add_entry()\", \"doc_path\": \"docs/api.md\", \"doc_line_text\": \"| `ledgerly.cli.add_entry()` | function | `Entry()` |\", \"target_claim\": \"`ledgerly.cli.add_entry()` exists as a top-level function that returns an `Entry()`.\", \"exemplar_ids\": [\"triaged:alert-58d9824e5aed2a9b\", \"triaged:alert-790cabcef1be9244\"], \"rationale\": \"Following exemplar 58d9824e5aed2a9b, where a code-side API member is dropped while the docs still advertise it, I chose a documented top-level function that has no other callers so its deletion leaves the module and its remaining neighbors intact.\"}",
+  "stderr_tail": ""
+}

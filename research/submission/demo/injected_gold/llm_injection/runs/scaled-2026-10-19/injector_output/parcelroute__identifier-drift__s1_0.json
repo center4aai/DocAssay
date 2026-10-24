@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "artifact_class": "identifier",
+    "direction": "code_side",
+    "kind": "symbol_rename",
+    "file": "parcelroute/models.py",
+    "old": "parcelroute.models.load_parcel",
+    "new": "parcelroute.models.load_parcelInjected",
+    "symbol": "load_parcel",
+    "target": "parcelroute.models.load_parcel()",
+    "doc_path": "README.md",
+    "doc_line_text": "- `parcelroute.models.load_parcel()` returns a `Parcel()` built from stored fields.",
+    "target_claim": "The README states that `parcelroute.models.load_parcel()` is the current function that returns a `Parcel()` built from stored fields; after the definition is renamed, that documented function name no longer resolves in the code.",
+    "exemplar_ids": [
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:alert-e4613ce0dc642fdc"
+    ],
+    "rationale": "Followed the exemplar pattern of renaming a documented top-level symbol in place (the uio mmap -> mmap_prepare rename and the spring-boot module rename). `load_parcel` is a unique top-level function that the README names by qualified call form as a current API, so renaming its definition leaves that reference stale while `parcelroute/models.py` still parses."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"artifact_class\": \"identifier\",\n  \"direction\": \"code_side\",\n  \"kind\": \"symbol_rename\",\n  \"file\": \"parcelroute/models.py\",\n  \"old\": \"parcelroute.models.load_parcel\",\n  \"new\": \"parcelroute.models.load_parcelInjected\",\n  \"symbol\": \"load_parcel\",\n  \"target\": \"parcelroute.models.load_parcel()\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"- `parcelroute.models.load_parcel()` returns a `Parcel()` built from stored fields.\",\n  \"target_claim\": \"The README states that `parcelroute.models.load_parcel()` is the current function that returns a `Parcel()` built from stored fields; after the definition is renamed, that documented function name no longer resolves in the code.\",\n  \"exemplar_ids\": [\"triaged:alert-90c9797475f8f79a\", \"triaged:alert-e4613ce0dc642fdc\"],\n  \"rationale\": \"Followed the exemplar pattern of renaming a documented top-level symbol in place (the uio mmap -> mmap_prepare rename and the spring-boot module rename). `load_parcel` is a unique top-level function that the README names by qualified call form as a current API, so renaming its definition leaves that reference stale while `parcelroute/models.py` still parses.\"\n}",
+  "stderr_tail": ""
+}

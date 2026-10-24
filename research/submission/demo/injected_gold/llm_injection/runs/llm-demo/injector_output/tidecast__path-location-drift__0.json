@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "artifact_class": "path",
+    "direction": "code_side",
+    "kind": "path_rename",
+    "file": "examples/forecast.json",
+    "old": "examples/forecast.json",
+    "new": "examples/forecast_sample.json",
+    "target": "examples/forecast.json",
+    "doc_path": "README.md",
+    "doc_line_text": "`examples/forecast.json` holds a single cached forecast with these fields:",
+    "target_claim": "The document asserts that `examples/forecast.json` is the sample payload file that holds a single cached forecast at that repository location.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "Following the exemplar pattern where a document points at a named resource whose on-disk location shifts, I renamed the sample payload file that the README treats as a current, existing example, leaving the README path token stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"path-location-drift\",\n  \"artifact_class\": \"path\",\n  \"direction\": \"code_side\",\n  \"kind\": \"path_rename\",\n  \"file\": \"examples/forecast.json\",\n  \"old\": \"examples/forecast.json\",\n  \"new\": \"examples/forecast_sample.json\",\n  \"target\": \"examples/forecast.json\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"`examples/forecast.json` holds a single cached forecast with these fields:\",\n  \"target_claim\": \"The document asserts that `examples/forecast.json` is the sample payload file that holds a single cached forecast at that repository location.\",\n  \"exemplar_ids\": [\"example 1\", \"example 2\"],\n  \"rationale\": \"Following the exemplar pattern where a document points at a named resource whose on-disk location shifts, I renamed the sample payload file that the README treats as a current, existing example, leaving the README path token stale.\"\n}",
+  "stderr_tail": ""
+}

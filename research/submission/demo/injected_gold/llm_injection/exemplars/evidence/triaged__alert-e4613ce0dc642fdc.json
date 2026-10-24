@@ -1,0 +1,28 @@
+{
+  "alert_id": "triaged:alert-e4613ce0dc642fdc",
+  "commit_sha": "933f05f58ac6014eaac387d22a76ace8606891d1",
+  "commit_url": "https://github.com/torvalds/linux/commit/933f05f58ac6014eaac387d22a76ace8606891d1",
+  "files": [
+    {
+      "added": [
+        " * @mmap_prepare:\tmmap_prepare operation for this uio device",
+        "\tint (*mmap_prepare)(struct uio_info *info, struct vm_area_desc *desc);"
+      ],
+      "hunks": 2,
+      "matched_location": true,
+      "path": "include/linux/uio_driver.h",
+      "removed": [
+        " * @mmap:\t\tmmap operation for this uio device",
+        "\tint (*mmap)(struct uio_info *info, struct vm_area_struct *vma);"
+      ],
+      "side": "code",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "Documentation/driver-api/uio-howto.rst",
+    "include/linux/uio_driver.h"
+  ],
+  "patch_sha256": "7e8ca60ef2b74f77d44347dc97e91d5587eb1191a1f2e5a76ba0fa3eece96c6d",
+  "status": "ok"
+}

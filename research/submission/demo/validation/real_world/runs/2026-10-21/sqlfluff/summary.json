@@ -1,0 +1,17 @@
+{
+  "repo": "sqlfluff",
+  "docs": 68,
+  "claims": 2175,
+  "referents": 502,
+  "evidence": 20544,
+  "verdicts": {
+    "REFUTED": 16,
+    "SUPPORTED": 267,
+    "NEI": 239
+  },
+  "refuted_by_predicate": {
+    "DEPENDENCY": 1,
+    "PATH_EXISTS": 15
+  },
+  "seconds": 4.6
+}

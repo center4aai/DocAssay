@@ -1,0 +1,62 @@
+{
+  "repo": "contourkit__removed-referent-drift__s2_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "docs/api.md",
+        "line": 30,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "contourkit.cli.main",
+        "reason": ""
+      }
+    ],
+    "new_nei": [
+      {
+        "source": "README.md",
+        "line": 115,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "main",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/api.md",
+        "line": 176,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "main",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/api.md",
+        "line": 190,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "main",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 227,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "main",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "contourkit__removed-referent-drift__s2_0::0",
+      "repo": "contourkit__removed-referent-drift__s2_0",
+      "op_id": "llm.removed-referent-drift",
+      "canonical_class": "removed-referent-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "contourkit.cli.main",
+        "new": null,
+        "doc_path": "README.md",
+        "target": "main()"
+      }
+    }
+  ]
+}

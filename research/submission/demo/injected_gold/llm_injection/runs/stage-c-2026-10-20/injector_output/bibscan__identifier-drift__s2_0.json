@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "bibscan/cli.py",
+    "old": "scan_file",
+    "new": "scan_bibtex_file",
+    "symbol": "scan_file",
+    "target": "scan_file",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "| `bibscan.cli` | `scan_file`, `main` |",
+    "target_claim": "The API reference states that the `bibscan.cli` module contains the function `scan_file`.",
+    "exemplar_ids": [
+      "example 3"
+    ],
+    "rationale": "The module-summary row presents `scan_file` as a current public function, so renaming its definition is a minimal, natural identifier change."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"bibscan/cli.py\",\n  \"old\": \"scan_file\",\n  \"new\": \"scan_bibtex_file\",\n  \"symbol\": \"scan_file\",\n  \"target\": \"scan_file\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"| `bibscan.cli` | `scan_file`, `main` |\",\n  \"target_claim\": \"The API reference states that the `bibscan.cli` module contains the function `scan_file`.\",\n  \"exemplar_ids\": [\"example 3\"],\n  \"rationale\": \"The module-summary row presents `scan_file` as a current public function, so renaming its definition is a minimal, natural identifier change.\"\n}",
+  "stderr_tail": ""
+}

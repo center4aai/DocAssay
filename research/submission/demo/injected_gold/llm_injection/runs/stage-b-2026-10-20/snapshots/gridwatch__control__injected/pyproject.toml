@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gridwatch"
+version = "0.3.0"
+description = "Parse smart-meter interval readings from CSV or JSON files and compute electricity costs under a time-of-use tariff."
+requires-python = ">=3.11"
+dependencies = [
+    "PyYAML>=6.0",
+    "click>=8.1"
+]
+
+[tool.setuptools]
+packages = ["gridwatch"]

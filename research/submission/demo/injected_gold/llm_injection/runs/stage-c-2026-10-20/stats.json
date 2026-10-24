@@ -1,0 +1,26 @@
+{
+  "planned": 72,
+  "overall": {
+    "verified": 69,
+    "verify_failed": 3
+  },
+  "by_class": {
+    "external-dependency-drift": {
+      "planned": 18,
+      "verified": 15,
+      "verify_failed": 3
+    },
+    "identifier-drift": {
+      "planned": 18,
+      "verified": 18
+    },
+    "path-location-drift": {
+      "planned": 18,
+      "verified": 18
+    },
+    "removed-referent-drift": {
+      "planned": 18,
+      "verified": 18
+    }
+  }
+}

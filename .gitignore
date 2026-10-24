@@ -49,8 +49,12 @@ annotation_repos/
 docforge-corpus-backup/
 other_instruments/
 
-# Private research material and local staging packages stay out of this tree.
-/research/
+# Private research material; the published demo artifact is tracked.
+/research/*
+!/research/submission/
+/research/submission/*
+!/research/submission/demo/
+!/research/submission/demo/**
 /supplementary/
 
 # Local agent instructions and worktrees

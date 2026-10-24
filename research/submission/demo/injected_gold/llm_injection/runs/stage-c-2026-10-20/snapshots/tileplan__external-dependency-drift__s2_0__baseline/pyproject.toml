@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tileplan"
+version = "0.4.1"
+description = "Slippy-map tile coordinates, extents, and zoom arithmetic for tiled map pipelines."
+requires-python = ">=3.11"
+dependencies = [
+
+]
+
+[tool.setuptools]
+packages = ["tileplan"]

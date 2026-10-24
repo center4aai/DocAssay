@@ -1,0 +1,48 @@
+{
+  "repo": "serialscope__removed-referent-drift__s1_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "docs/structure.md",
+        "line": 85,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "serialscope.checksums.xor8",
+        "reason": ""
+      }
+    ],
+    "new_nei": [
+      {
+        "source": "README.md",
+        "line": 91,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "checksums.xor8",
+        "reason": "foreign top segment"
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 111,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "xor8",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "serialscope__removed-referent-drift__s1_0::0",
+      "repo": "serialscope__removed-referent-drift__s1_0",
+      "op_id": "llm.removed-referent-drift",
+      "canonical_class": "removed-referent-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "serialscope.checksums.xor8",
+        "new": null,
+        "doc_path": "docs/structure.md",
+        "target": "xor8()"
+      }
+    }
+  ]
+}

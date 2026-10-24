@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "artifact_class": "identifier",
+    "direction": "code_side",
+    "kind": "symbol_rename",
+    "file": "tidecast/store.py",
+    "old": "tidecast.store.ForecastStore",
+    "new": "tidecast.store.ForecastStoreRenamed",
+    "symbol": "ForecastStore",
+    "target": "tidecast.store.ForecastStore",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "| store | `tidecast.store.ForecastStore` | class |",
+    "target_claim": "docs/api.md lists `tidecast.store.ForecastStore` as the class provided by the store module; after the definition is renamed, that documented qualified identifier no longer resolves in the project's code.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "Following the exemplars' in-place code-symbol rename pattern, I selected a unique top-level class that the API reference names by qualified form as a current symbol; renaming its definition leaves the documented identifier stale while tidecast/store.py still parses."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"artifact_class\": \"identifier\",\n  \"direction\": \"code_side\",\n  \"kind\": \"symbol_rename\",\n  \"file\": \"tidecast/store.py\",\n  \"old\": \"tidecast.store.ForecastStore\",\n  \"new\": \"tidecast.store.ForecastStoreRenamed\",\n  \"symbol\": \"ForecastStore\",\n  \"target\": \"tidecast.store.ForecastStore\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"| store | `tidecast.store.ForecastStore` | class |\",\n  \"target_claim\": \"docs/api.md lists `tidecast.store.ForecastStore` as the class provided by the store module; after the definition is renamed, that documented qualified identifier no longer resolves in the project's code.\",\n  \"exemplar_ids\": [\n    \"example 1\",\n    \"example 2\"\n  ],\n  \"rationale\": \"Following the exemplars' in-place code-symbol rename pattern, I selected a unique top-level class that the API reference names by qualified form as a current symbol; renaming its definition leaves the documented identifier stale while tidecast/store.py still parses.\"\n}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,71 @@
+{
+  "project": {
+    "name": "quillpad",
+    "pkg": "quillpad",
+    "version": "0.1.0",
+    "description": "A small local note-taking library with a CLI, a tiny HTTP route table, and a YAML-backed store."
+  },
+  "dependencies": [
+    {"name": "PyYAML", "constraint": ">=6.0"},
+    {"name": "click", "constraint": ">=8.1"},
+    {"name": "fastapi", "constraint": ">=0.110"},
+    {"name": "pydantic", "constraint": ">=2.6"}
+  ],
+  "modules": [
+    {
+      "path": "quillpad/models.py",
+      "symbols": [
+        {"name": "Note", "kind": "class", "return_type": null, "members": ["note_id", "title", "body_text", "created_at", "status"]},
+        {"name": "load_note", "kind": "function", "return_type": "Note", "members": []}
+      ]
+    },
+    {
+      "path": "quillpad/store.py",
+      "symbols": [
+        {"name": "NoteStore", "kind": "class", "return_type": null, "members": ["store_path", "notes"]},
+        {"name": "open_store", "kind": "function", "return_type": "NoteStore", "members": []}
+      ]
+    },
+    {
+      "path": "quillpad/routes.py",
+      "symbols": [
+        {"name": "RouteTable", "kind": "class", "return_type": null, "members": ["routes"]},
+        {"name": "register_routes", "kind": "function", "return_type": "RouteTable", "members": []}
+      ]
+    },
+    {
+      "path": "quillpad/settings.py",
+      "symbols": [
+        {"name": "Settings", "kind": "class", "return_type": null, "members": ["home", "log_level", "store_path"]},
+        {"name": "load_settings", "kind": "function", "return_type": "Settings", "members": []}
+      ]
+    },
+    {
+      "path": "quillpad/constants.py",
+      "symbols": [
+        {"name": "Limits", "kind": "class", "return_type": null, "members": ["max_notes"]}
+      ]
+    },
+    {
+      "path": "quillpad/cli.py",
+      "symbols": [
+        {"name": "main", "kind": "function", "return_type": null, "members": []}
+      ]
+    }
+  ],
+  "config_keys": ["QUILLPAD_HOME", "QUILLPAD_LOG_LEVEL", "QUILLPAD_STORE_PATH"],
+  "endpoints": ["/v1/notes", "/v1/notes/{note_id}", "/v1/health"],
+  "schema_fields": ["note_id", "title", "body_text", "created_at"],
+  "enum_members": ["NOTE_STATUS_DRAFT", "NOTE_STATUS_PUBLISHED", "NOTE_STATUS_ARCHIVED"],
+  "example_commands": ["python -m quillpad serve --port 8080", "pytest -q"],
+  "paths": ["examples/notes.yaml"],
+  "cross_doc_tokens": ["examples/notes.yaml", "quillpad.models.Note"],
+  "data_files": [
+    {"path": "examples/notes.yaml", "content": "notes:\n  - note_id: 1\n    title: Welcome\n    body_text: Hello world\n    created_at: 2026-01-01\n"}
+  ],
+  "docs": [
+    {"path": "README.md", "kind": "readme"},
+    {"path": "docs/configuration.md", "kind": "guide"},
+    {"path": "docs/api.md", "kind": "reference"}
+  ]
+}

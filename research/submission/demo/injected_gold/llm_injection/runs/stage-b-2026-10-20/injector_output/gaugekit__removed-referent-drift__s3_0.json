@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "gaugekit/loader.py",
+    "old": "read_station_id()",
+    "new": null,
+    "symbol": "read_station_id",
+    "target": "read_station_id()",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `read_station_id() -> str`",
+    "target_claim": "The API reference presents `read_station_id() -> str` as a current public function of `gaugekit.loader`.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "The API reference lists read_station_id as an available public loader function, a current API fact readers would rely on."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\":true,\"drift_type\":\"removed-referent-drift\",\"direction\":\"code_side\",\"file\":\"gaugekit/loader.py\",\"old\":\"read_station_id()\",\"new\":null,\"symbol\":\"read_station_id\",\"target\":\"read_station_id()\",\"doc_path\":\"docs/api.md\",\"doc_line_text\":\"### `read_station_id() -> str`\",\"target_claim\":\"The API reference presents `read_station_id() -> str` as a current public function of `gaugekit.loader`.\",\"exemplar_ids\":[\"example 1\"],\"rationale\":\"The API reference lists read_station_id as an available public loader function, a current API fact readers would rely on.\"}",
+  "stderr_tail": ""
+}

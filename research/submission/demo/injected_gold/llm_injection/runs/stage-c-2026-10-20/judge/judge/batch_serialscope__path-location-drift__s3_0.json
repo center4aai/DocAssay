@@ -1,0 +1,301 @@
+{
+  "repo": "serialscope__path-location-drift__s3_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "README.md",
+        "line": 121,
+        "predicate": "PATH_EXISTS",
+        "object": "docs/walkthrough.md",
+        "reason": ""
+      },
+      {
+        "source": "README.md",
+        "line": 127,
+        "predicate": "PATH_EXISTS",
+        "object": "docs/walkthrough.md",
+        "reason": ""
+      },
+      {
+        "source": "docs/structure.md",
+        "line": 78,
+        "predicate": "PATH_EXISTS",
+        "object": "docs/walkthrough.md",
+        "reason": ""
+      }
+    ],
+    "new_nei": [
+      {
+        "source": "docs/tutorial.md",
+        "line": 149,
+        "predicate": "DEPENDENCY",
+        "object": "overrides",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 42,
+        "predicate": "DEPENDENCY",
+        "object": "pathlib",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 142,
+        "predicate": "DEPENDENCY",
+        "object": "py",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 21,
+        "predicate": "DEPENDENCY",
+        "object": "responses",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 87,
+        "predicate": "DEPENDENCY",
+        "object": "responses",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 17,
+        "predicate": "DEPENDENCY",
+        "object": "toml",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/structure.md",
+        "line": 26,
+        "predicate": "PATH_EXISTS",
+        "object": "walkthrough.md",
+        "reason": "unreferenced bare filename"
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 138,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "baudrate",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 4,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "decimal",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 102,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "frame.checksum",
+        "reason": "foreign top segment"
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 113,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "frame.checksum",
+        "reason": "foreign top segment"
+      }
+    ],
+    "new_supported": [
+      {
+        "source": "docs/tutorial.md",
+        "line": 13,
+        "predicate": "DEPENDENCY",
+        "object": "python",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 16,
+        "predicate": "DEPENDENCY",
+        "object": "python",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 167,
+        "predicate": "PATH_EXISTS",
+        "object": "balance_frames.txt",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 170,
+        "predicate": "PATH_EXISTS",
+        "object": "docs/structure.md",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 5,
+        "predicate": "PATH_EXISTS",
+        "object": "examples/",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 166,
+        "predicate": "PATH_EXISTS",
+        "object": "examples/",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 21,
+        "predicate": "PATH_EXISTS",
+        "object": "examples/balance_frames.txt",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 168,
+        "predicate": "PATH_EXISTS",
+        "object": "pump_response.txt",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 17,
+        "predicate": "PATH_EXISTS",
+        "object": "pyproject.toml",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 156,
+        "predicate": "PATH_EXISTS",
+        "object": "serialscope/",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 142,
+        "predicate": "PATH_EXISTS",
+        "object": "serialscope/config.py",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 151,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "cli.default_baud",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 92,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "decode_measurement",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 113,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "errors.checksumerror",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 116,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "errors.checksumerror",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 114,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "errors.framingerror",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 116,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "errors.framingerror",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 115,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "errors.serialscopeerror",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 87,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "framereader",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 85,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "parse_frame",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 72,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "serialscope",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 103,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "serialscope.checksums",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 142,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "serialscope.config.env_defaults",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 90,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "split_fields",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 111,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "xor8",
+        "reason": ""
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "serialscope__path-location-drift__s3_0::0",
+      "repo": "serialscope__path-location-drift__s3_0",
+      "op_id": "llm.path-location-drift",
+      "canonical_class": "path-location-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "docs/walkthrough.md",
+        "new": "docs/tutorial.md",
+        "doc_path": "README.md",
+        "target": "docs/walkthrough.md"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "artifact_class": "referent",
+    "direction": "code_side",
+    "kind": "symbol_delete",
+    "file": "tidecast/cli.py",
+    "old": "tidecast.cli.serve",
+    "new": null,
+    "symbol": "serve",
+    "target": "tidecast.cli.serve",
+    "doc_path": "README.md",
+    "doc_line_text": "The entry points are `tidecast.cli.main` and `tidecast.cli.serve`. Run",
+    "target_claim": "The README presents `tidecast.cli.serve` as one of the package's current command-line entry points; deleting the `serve` definition removes that documented qualified API element.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "Following the exemplar pattern of deleting a top-level code symbol that documentation still advertises by a qualified name, I targeted `serve` because it is neither imported nor called elsewhere in the package. Removing its definition leaves `tidecast/cli.py` parseable while the README entry-point claim becomes stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"artifact_class\": \"referent\",\n  \"direction\": \"code_side\",\n  \"kind\": \"symbol_delete\",\n  \"file\": \"tidecast/cli.py\",\n  \"old\": \"tidecast.cli.serve\",\n  \"new\": null,\n  \"symbol\": \"serve\",\n  \"target\": \"tidecast.cli.serve\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"The entry points are `tidecast.cli.main` and `tidecast.cli.serve`. Run\",\n  \"target_claim\": \"The README presents `tidecast.cli.serve` as one of the package's current command-line entry points; deleting the `serve` definition removes that documented qualified API element.\",\n  \"exemplar_ids\": [\n    \"example 1\",\n    \"example 2\"\n  ],\n  \"rationale\": \"Following the exemplar pattern of deleting a top-level code symbol that documentation still advertises by a qualified name, I targeted `serve` because it is neither imported nor called elsewhere in the package. Removing its definition leaves `tidecast/cli.py` parseable while the README entry-point claim becomes stale.\"\n}",
+  "stderr_tail": ""
+}

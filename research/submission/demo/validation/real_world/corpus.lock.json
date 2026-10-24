@@ -1,0 +1,185 @@
+{
+  "schema": "docassay-real-world-corpus/1",
+  "fetched_at": "2026-10-21T06:37:23+00:00",
+  "pin": "default-branch HEAD at fetch time (full history, blob-filtered clone)",
+  "tool_commit": "cc6a90f+dirty",
+  "repositories": [
+    {
+      "repo": "fastapi",
+      "url": "https://github.com/fastapi/fastapi",
+      "action": "cloned",
+      "branch": "master",
+      "sha": "b2ce629ace6bdd152d577e5f5e256a079ac1e4fd",
+      "commit_date": "2026-10-21T00:55:51+02:00",
+      "subject": "\ud83d\udd16 Release version 0.156.4 (#16558)",
+      "nearest_tag": "0.156.4",
+      "tool_commit": "8014eb1+dirty"
+    },
+    {
+      "repo": "flask",
+      "url": "https://github.com/pallets/flask",
+      "action": "cloned",
+      "branch": "main",
+      "sha": "d086db856be187255b8ec61ef409357393020f32",
+      "commit_date": "2026-10-07T07:02:54-07:00",
+      "subject": "fix typing",
+      "nearest_tag": "3.1.3",
+      "tool_commit": "8014eb1+dirty"
+    },
+    {
+      "repo": "click",
+      "url": "https://github.com/pallets/click",
+      "action": "cloned",
+      "branch": "main",
+      "sha": "2247b35ea1c47c727d7a06e51fa280e12a863ff6",
+      "commit_date": "2026-10-04T15:19:53-07:00",
+      "subject": "Add `Parameter.spec` and deprecate `human_readable_name` (#3877)",
+      "nearest_tag": "8.5.0",
+      "tool_commit": "8014eb1+dirty"
+    },
+    {
+      "repo": "celery",
+      "url": "https://github.com/celery/celery",
+      "action": "cloned",
+      "branch": "main",
+      "sha": "d6d754e21e353629c22803edfc2093f3deeffe9d",
+      "commit_date": "2026-10-20T19:35:35+06:00",
+      "subject": "Remove redundant priority fallback in Task.apply_async() (#10867)",
+      "nearest_tag": "v5.7.0rc1",
+      "tool_commit": "8014eb1+dirty"
+    },
+    {
+      "repo": "sqlfluff",
+      "url": "https://github.com/sqlfluff/sqlfluff",
+      "action": "cloned",
+      "branch": "main",
+      "sha": "ad1231eab8ad9951e186f3a695e8e9abc586300d",
+      "commit_date": "2026-10-20T11:20:29Z",
+      "subject": "BigQuery: parse WITH expressions (#8620)",
+      "nearest_tag": "4.4.0",
+      "tool_commit": "8014eb1+dirty"
+    },
+    {
+      "repo": "dbt-core",
+      "url": "https://github.com/dbt-labs/dbt-core",
+      "action": "cloned",
+      "branch": "main",
+      "sha": "6c62423c0eda54d5185aff0e23f8022c96561763",
+      "commit_date": "2026-10-21T04:08:16Z",
+      "subject": "(dbt-adbc): bump LakeCompute driver for storage fixes",
+      "nearest_tag": "v1.12.0b1",
+      "tool_commit": "8014eb1+dirty"
+    },
+    {
+      "repo": "pydantic",
+      "url": "https://github.com/pydantic/pydantic",
+      "action": "cloned",
+      "branch": "main",
+      "sha": "e3b6f55a8c778a143f3ae3ddb0f7bc4d67795dc3",
+      "commit_date": "2026-10-20T19:48:01Z",
+      "subject": "Fix docs table (#14039)",
+      "nearest_tag": "core-v2.50.0",
+      "tool_commit": "8014eb1+dirty"
+    },
+    {
+      "repo": "httpx",
+      "url": "https://github.com/encode/httpx",
+      "action": "cloned",
+      "branch": "master",
+      "sha": "b5addb64f0161ff6bfe94c124ef76f6a1fba5254",
+      "commit_date": "2026-02-23T10:40:42Z",
+      "subject": "Adapt test_response_decode_text_using_autodetect for chardet 6.0 (#3773)",
+      "nearest_tag": "0.28.1",
+      "tool_commit": "8014eb1+dirty"
+    },
+    {
+      "repo": "aiohttp",
+      "url": "https://github.com/aio-libs/aiohttp",
+      "action": "cloned",
+      "branch": "master",
+      "sha": "72a735c6a43fb6b846ad67e53a042b7bfb9556ab",
+      "commit_date": "2026-10-20T11:08:42Z",
+      "subject": "Bump distlib from 0.4.3 to 0.4.4 (#14084)",
+      "nearest_tag": "v3.14.5",
+      "tool_commit": "8014eb1+dirty"
+    },
+    {
+      "repo": "pip",
+      "url": "https://github.com/pypa/pip",
+      "action": "cloned",
+      "branch": "main",
+      "sha": "9dbd9c36a75d332c84ce6e55004471ab0a474595",
+      "commit_date": "2026-10-20T12:31:31-04:00",
+      "subject": "Merge pull request #14375 from notatallshaw/release/26.2.2",
+      "nearest_tag": "26.2.2",
+      "tool_commit": "cc6a90f+dirty"
+    },
+    {
+      "repo": "black",
+      "url": "https://github.com/psf/black",
+      "action": "cloned",
+      "branch": "main",
+      "sha": "287d570966edf07035498948206b37dfd35b51e3",
+      "commit_date": "2026-10-20T17:15:05-06:00",
+      "subject": "Don't report success when a multi-file run is interrupted (#5542)",
+      "nearest_tag": "26.10.1",
+      "tool_commit": "8014eb1+dirty"
+    },
+    {
+      "repo": "pytest",
+      "url": "https://github.com/pytest-dev/pytest",
+      "action": "cloned",
+      "branch": "main",
+      "sha": "49ea4d08714f9ae519b86ee17b6b50c1dd080f32",
+      "commit_date": "2026-10-20T08:05:09+02:00",
+      "subject": "[pre-commit.ci] pre-commit autoupdate (#15225)",
+      "nearest_tag": "9.2.0.dev0",
+      "tool_commit": "cc6a90f+dirty"
+    },
+    {
+      "repo": "mkdocs",
+      "url": "https://github.com/mkdocs/mkdocs",
+      "action": "cloned",
+      "branch": "master",
+      "sha": "2862536793b3c67d9d83c33e0dd6d50a791928f8",
+      "commit_date": "2025-10-20T14:17:06+01:00",
+      "subject": "Change mkdocs theme <hr> color variable to be light/dark mode responsive (#4046)",
+      "nearest_tag": "1.6.1",
+      "tool_commit": "cc6a90f+dirty"
+    },
+    {
+      "repo": "ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "action": "cloned",
+      "branch": "main",
+      "sha": "d2d9e8a54edf076e38c26ceee209c5f1380be002",
+      "commit_date": "2026-10-20T20:43:32-07:00",
+      "subject": "[ty] Preserve namespace fallback for partial stub packages (#29559)",
+      "nearest_tag": "0.17.1",
+      "tool_commit": "cc6a90f+dirty"
+    },
+    {
+      "repo": "poetry",
+      "url": "https://github.com/python-poetry/poetry",
+      "action": "cloned",
+      "branch": "main",
+      "sha": "20d69404423790b7c1546c54d9ce90a72883fe36",
+      "commit_date": "2026-10-21T06:11:25+02:00",
+      "subject": "chore: update dependencies (#11161)",
+      "nearest_tag": "2.5.1",
+      "tool_commit": "cc6a90f+dirty"
+    },
+    {
+      "repo": "sqlalchemy",
+      "url": "https://github.com/sqlalchemy/sqlalchemy",
+      "action": "cloned",
+      "branch": "main",
+      "sha": "8301becbe64bb7dd87671c2c5285df9f0e22547f",
+      "commit_date": "2026-10-20T22:00:19-04:00",
+      "subject": "apply FromStatement params() when compiling without cache key",
+      "nearest_tag": "rel_2_1_5",
+      "tool_commit": "cc6a90f+dirty"
+    }
+  ],
+  "failures": {}
+}

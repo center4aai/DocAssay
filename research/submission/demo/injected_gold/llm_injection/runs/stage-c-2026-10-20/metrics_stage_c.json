@@ -1,0 +1,828 @@
+{
+  "kpi": {
+    "definition": "detection = a same-artifact REFUTED finding anywhere in the baseline->injected diff, OR a same-artifact NEI. NEI is an explicit abstention with a mention, not silence, and counts as caught. none (no claim / wrong SUPPORTED / other referent) is a miss; R_credit counts REFUTED only.",
+    "primary": "R_detect",
+    "secondary": "R_credit",
+    "diagnostic": "R_target",
+    "decided": "2026-10-21, operator decision after scoring; see deviations.md"
+  },
+  "injections": {
+    "n": 69,
+    "refuted": 50,
+    "nei": 15,
+    "none": 4,
+    "target_line": {
+      "refuted": 39,
+      "nei": 15,
+      "none": 15
+    },
+    "r_credit": 0.725,
+    "r_detect": 0.942,
+    "r_target": 0.565,
+    "abstention_rate": 0.217,
+    "extraction_miss_rate": 0.058,
+    "cross_mention": 11,
+    "both": 12,
+    "r_end": 0.694,
+    "bootstrap": {
+      "r_credit": {
+        "point": 0.7246,
+        "n_entries": 69,
+        "n_clusters": 6,
+        "ci95": [
+          0.5694,
+          0.8841
+        ],
+        "loo_min": 0.6667,
+        "loo_max": 0.7719,
+        "replicates": 10000,
+        "seed": 20261020,
+        "method": "repo-cluster percentile bootstrap; no Wilson",
+        "degenerate": false
+      },
+      "r_detect": {
+        "point": 0.942,
+        "n_entries": 69,
+        "n_clusters": 6,
+        "ci95": [
+          0.873,
+          0.9861
+        ],
+        "loo_min": 0.9298,
+        "loo_max": 0.9667,
+        "replicates": 10000,
+        "seed": 20261020,
+        "method": "repo-cluster percentile bootstrap; no Wilson",
+        "degenerate": false
+      },
+      "r_target": {
+        "point": 0.5652,
+        "n_entries": 69,
+        "n_clusters": 6,
+        "ci95": [
+          0.4762,
+          0.6389
+        ],
+        "loo_min": 0.5439,
+        "loo_max": 0.5965,
+        "replicates": 10000,
+        "seed": 20261020,
+        "method": "repo-cluster percentile bootstrap; no Wilson",
+        "degenerate": false
+      }
+    }
+  },
+  "controls": {
+    "A1": {
+      "required": 6,
+      "evaluated": 6,
+      "dropped": 0,
+      "extracted": 6,
+      "refuted": 0,
+      "specificity": 1.0,
+      "precision_extracted": 1.0,
+      "extraction_rate": 1.0,
+      "false_positives": [],
+      "shortfall": 0
+    },
+    "A2": {
+      "required": 6,
+      "evaluated": 5,
+      "dropped": 0,
+      "extracted": 5,
+      "refuted": 0,
+      "specificity": 1.0,
+      "precision_extracted": 1.0,
+      "extraction_rate": 1.0,
+      "false_positives": [],
+      "shortfall": 1
+    },
+    "A3": {
+      "required": 6,
+      "evaluated": 3,
+      "dropped": 0,
+      "extracted": 3,
+      "refuted": 0,
+      "specificity": 1.0,
+      "precision_extracted": 1.0,
+      "extraction_rate": 1.0,
+      "false_positives": [],
+      "shortfall": 3
+    },
+    "A4": {
+      "required": 6,
+      "evaluated": 5,
+      "dropped": 0,
+      "extracted": 5,
+      "refuted": 0,
+      "specificity": 1.0,
+      "precision_extracted": 1.0,
+      "extraction_rate": 1.0,
+      "false_positives": [],
+      "shortfall": 1
+    },
+    "B": {
+      "required": 6,
+      "evaluated": 5,
+      "dropped": 0,
+      "extracted": 1,
+      "refuted": 0,
+      "specificity": 1.0,
+      "precision_extracted": 1.0,
+      "extraction_rate": 0.2,
+      "false_positives": [],
+      "shortfall": 1
+    },
+    "C": {
+      "required": 0,
+      "evaluated": 0,
+      "dropped": 0,
+      "extracted": 0,
+      "refuted": 0,
+      "specificity": null,
+      "precision_extracted": null,
+      "extraction_rate": null,
+      "false_positives": [],
+      "shortfall": 0,
+      "not_applicable": true
+    }
+  },
+  "control_overall": {
+    "evaluated": 24,
+    "refuted": 0,
+    "specificity": 1.0
+  },
+  "by_class": {
+    "external-dependency-drift": {
+      "n": 15,
+      "refuted": 15,
+      "nei": 0,
+      "none": 0,
+      "target_line": {
+        "refuted": 15,
+        "nei": 0,
+        "none": 0
+      },
+      "r_credit": 1.0,
+      "r_detect": 1.0,
+      "r_target": 1.0,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 0,
+      "both": 3,
+      "primary": "R_credit"
+    },
+    "identifier-drift": {
+      "n": 18,
+      "refuted": 9,
+      "nei": 9,
+      "none": 0,
+      "target_line": {
+        "refuted": 2,
+        "nei": 7,
+        "none": 9
+      },
+      "r_credit": 0.5,
+      "r_detect": 1.0,
+      "r_target": 0.111,
+      "abstention_rate": 0.5,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 7,
+      "both": 1,
+      "primary": "R_credit"
+    },
+    "path-location-drift": {
+      "n": 18,
+      "refuted": 14,
+      "nei": 0,
+      "none": 4,
+      "target_line": {
+        "refuted": 14,
+        "nei": 0,
+        "none": 4
+      },
+      "r_credit": 0.778,
+      "r_detect": 0.778,
+      "r_target": 0.778,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 0.222,
+      "cross_mention": 0,
+      "both": 7,
+      "primary": "R_credit"
+    },
+    "removed-referent-drift": {
+      "n": 18,
+      "refuted": 12,
+      "nei": 6,
+      "none": 0,
+      "target_line": {
+        "refuted": 8,
+        "nei": 8,
+        "none": 2
+      },
+      "r_credit": 0.667,
+      "r_detect": 1.0,
+      "r_target": 0.444,
+      "abstention_rate": 0.333,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 4,
+      "both": 1,
+      "primary": "R_credit"
+    }
+  },
+  "by_claim_form": {
+    "bare": {
+      "n": 14,
+      "refuted": 5,
+      "nei": 9,
+      "none": 0,
+      "target_line": {
+        "refuted": 2,
+        "nei": 3,
+        "none": 9
+      },
+      "r_credit": 0.357,
+      "r_detect": 1.0,
+      "r_target": 0.143,
+      "abstention_rate": 0.643,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 3,
+      "both": 1
+    },
+    "bare_call": {
+      "n": 4,
+      "refuted": 4,
+      "nei": 0,
+      "none": 0,
+      "target_line": {
+        "refuted": 0,
+        "nei": 4,
+        "none": 0
+      },
+      "r_credit": 1.0,
+      "r_detect": 1.0,
+      "r_target": 0.0,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 4,
+      "both": 0
+    },
+    "dependency": {
+      "n": 15,
+      "refuted": 15,
+      "nei": 0,
+      "none": 0,
+      "target_line": {
+        "refuted": 15,
+        "nei": 0,
+        "none": 0
+      },
+      "r_credit": 1.0,
+      "r_detect": 1.0,
+      "r_target": 1.0,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 0,
+      "both": 3
+    },
+    "path": {
+      "n": 20,
+      "refuted": 15,
+      "nei": 1,
+      "none": 4,
+      "target_line": {
+        "refuted": 14,
+        "nei": 0,
+        "none": 6
+      },
+      "r_credit": 0.75,
+      "r_detect": 0.8,
+      "r_target": 0.7,
+      "abstention_rate": 0.05,
+      "extraction_miss_rate": 0.2,
+      "cross_mention": 1,
+      "both": 7
+    },
+    "section_qualified": {
+      "n": 16,
+      "refuted": 11,
+      "nei": 5,
+      "none": 0,
+      "target_line": {
+        "refuted": 8,
+        "nei": 8,
+        "none": 0
+      },
+      "r_credit": 0.688,
+      "r_detect": 1.0,
+      "r_target": 0.5,
+      "abstention_rate": 0.312,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 3,
+      "both": 1
+    }
+  },
+  "by_context_source": {
+    "heading": {
+      "n": 10,
+      "refuted": 6,
+      "nei": 4,
+      "none": 0,
+      "target_line": {
+        "refuted": 5,
+        "nei": 5,
+        "none": 0
+      },
+      "r_credit": 0.6,
+      "r_detect": 1.0,
+      "r_target": 0.5,
+      "abstention_rate": 0.4,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 1,
+      "both": 0
+    },
+    "list": {
+      "n": 4,
+      "refuted": 3,
+      "nei": 1,
+      "none": 0,
+      "target_line": {
+        "refuted": 2,
+        "nei": 2,
+        "none": 0
+      },
+      "r_credit": 0.75,
+      "r_detect": 1.0,
+      "r_target": 0.5,
+      "abstention_rate": 0.25,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 1,
+      "both": 0
+    },
+    "none": {
+      "n": 53,
+      "refuted": 39,
+      "nei": 10,
+      "none": 4,
+      "target_line": {
+        "refuted": 31,
+        "nei": 7,
+        "none": 15
+      },
+      "r_credit": 0.736,
+      "r_detect": 0.925,
+      "r_target": 0.585,
+      "abstention_rate": 0.189,
+      "extraction_miss_rate": 0.075,
+      "cross_mention": 8,
+      "both": 11
+    },
+    "prose": {
+      "n": 2,
+      "refuted": 2,
+      "nei": 0,
+      "none": 0,
+      "target_line": {
+        "refuted": 1,
+        "nei": 1,
+        "none": 0
+      },
+      "r_credit": 1.0,
+      "r_detect": 1.0,
+      "r_target": 0.5,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 1,
+      "both": 1
+    }
+  },
+  "by_genre": {
+    "cookbook": {
+      "n": 1,
+      "refuted": 0,
+      "nei": 0,
+      "none": 1,
+      "target_line": {
+        "refuted": 0,
+        "nei": 0,
+        "none": 1
+      },
+      "r_credit": 0.0,
+      "r_detect": 0.0,
+      "r_target": 0.0,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 1.0,
+      "cross_mention": 0,
+      "both": 0
+    },
+    "explanation": {
+      "n": 6,
+      "refuted": 3,
+      "nei": 3,
+      "none": 0,
+      "target_line": {
+        "refuted": 0,
+        "nei": 5,
+        "none": 1
+      },
+      "r_credit": 0.5,
+      "r_detect": 1.0,
+      "r_target": 0.0,
+      "abstention_rate": 0.5,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 3,
+      "both": 0
+    },
+    "how-to": {
+      "n": 1,
+      "refuted": 0,
+      "nei": 1,
+      "none": 0,
+      "target_line": {
+        "refuted": 0,
+        "nei": 0,
+        "none": 1
+      },
+      "r_credit": 0.0,
+      "r_detect": 1.0,
+      "r_target": 0.0,
+      "abstention_rate": 1.0,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 0,
+      "both": 0
+    },
+    "module map": {
+      "n": 3,
+      "refuted": 2,
+      "nei": 1,
+      "none": 0,
+      "target_line": {
+        "refuted": 2,
+        "nei": 1,
+        "none": 0
+      },
+      "r_credit": 0.667,
+      "r_detect": 1.0,
+      "r_target": 0.667,
+      "abstention_rate": 0.333,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 0,
+      "both": 0
+    },
+    "n/a": {
+      "n": 41,
+      "refuted": 33,
+      "nei": 5,
+      "none": 3,
+      "target_line": {
+        "refuted": 28,
+        "nei": 2,
+        "none": 11
+      },
+      "r_credit": 0.805,
+      "r_detect": 0.927,
+      "r_target": 0.683,
+      "abstention_rate": 0.122,
+      "extraction_miss_rate": 0.073,
+      "cross_mention": 5,
+      "both": 9
+    },
+    "reference": {
+      "n": 16,
+      "refuted": 11,
+      "nei": 5,
+      "none": 0,
+      "target_line": {
+        "refuted": 9,
+        "nei": 6,
+        "none": 1
+      },
+      "r_credit": 0.688,
+      "r_detect": 1.0,
+      "r_target": 0.562,
+      "abstention_rate": 0.312,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 2,
+      "both": 3
+    },
+    "tutorial": {
+      "n": 1,
+      "refuted": 1,
+      "nei": 0,
+      "none": 0,
+      "target_line": {
+        "refuted": 0,
+        "nei": 1,
+        "none": 0
+      },
+      "r_credit": 1.0,
+      "r_detect": 1.0,
+      "r_target": 0.0,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 1,
+      "both": 0
+    }
+  },
+  "by_target_document": {
+    "readme": {
+      "n": 41,
+      "refuted": 33,
+      "nei": 5,
+      "none": 3,
+      "target_line": {
+        "refuted": 28,
+        "nei": 2,
+        "none": 11
+      },
+      "r_credit": 0.805,
+      "r_detect": 0.927,
+      "r_target": 0.683,
+      "abstention_rate": 0.122,
+      "extraction_miss_rate": 0.073,
+      "cross_mention": 5,
+      "both": 9
+    },
+    "reference_document": {
+      "n": 22,
+      "refuted": 13,
+      "nei": 9,
+      "none": 0,
+      "target_line": {
+        "refuted": 11,
+        "nei": 9,
+        "none": 2
+      },
+      "r_credit": 0.591,
+      "r_detect": 1.0,
+      "r_target": 0.5,
+      "abstention_rate": 0.409,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 2,
+      "both": 3
+    },
+    "task_document": {
+      "n": 6,
+      "refuted": 4,
+      "nei": 1,
+      "none": 1,
+      "target_line": {
+        "refuted": 0,
+        "nei": 4,
+        "none": 2
+      },
+      "r_credit": 0.667,
+      "r_detect": 0.833,
+      "r_target": 0.0,
+      "abstention_rate": 0.167,
+      "extraction_miss_rate": 0.167,
+      "cross_mention": 4,
+      "both": 0
+    }
+  },
+  "by_dependency_phrasing": {
+    "inline_backticked": {
+      "n": 15,
+      "refuted": 15,
+      "nei": 0,
+      "none": 0,
+      "target_line": {
+        "refuted": 15,
+        "nei": 0,
+        "none": 0
+      },
+      "r_credit": 1.0,
+      "r_detect": 1.0,
+      "r_target": 1.0,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 0,
+      "both": 3
+    },
+    "n/a": {
+      "n": 54,
+      "refuted": 35,
+      "nei": 15,
+      "none": 4,
+      "target_line": {
+        "refuted": 24,
+        "nei": 15,
+        "none": 15
+      },
+      "r_credit": 0.648,
+      "r_detect": 0.926,
+      "r_target": 0.444,
+      "abstention_rate": 0.278,
+      "extraction_miss_rate": 0.074,
+      "cross_mention": 11,
+      "both": 9
+    }
+  },
+  "by_dependency_form": {
+    "constraint_break": {
+      "n": 15,
+      "refuted": 15,
+      "nei": 0,
+      "none": 0,
+      "target_line": {
+        "refuted": 15,
+        "nei": 0,
+        "none": 0
+      },
+      "r_credit": 1.0,
+      "r_detect": 1.0,
+      "r_target": 1.0,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 0,
+      "both": 3
+    },
+    "n/a": {
+      "n": 54,
+      "refuted": 35,
+      "nei": 15,
+      "none": 4,
+      "target_line": {
+        "refuted": 24,
+        "nei": 15,
+        "none": 15
+      },
+      "r_credit": 0.648,
+      "r_detect": 0.926,
+      "r_target": 0.444,
+      "abstention_rate": 0.278,
+      "extraction_miss_rate": 0.074,
+      "cross_mention": 11,
+      "both": 9
+    }
+  },
+  "by_repo": {
+    "bibscan": {
+      "n": 12,
+      "refuted": 8,
+      "nei": 3,
+      "none": 1,
+      "target_line": {
+        "refuted": 8,
+        "nei": 1,
+        "none": 3
+      },
+      "r_credit": 0.667,
+      "r_detect": 0.917,
+      "r_target": 0.667,
+      "abstention_rate": 0.25,
+      "extraction_miss_rate": 0.083,
+      "cross_mention": 0,
+      "both": 2
+    },
+    "contourkit": {
+      "n": 12,
+      "refuted": 6,
+      "nei": 5,
+      "none": 1,
+      "target_line": {
+        "refuted": 5,
+        "nei": 4,
+        "none": 3
+      },
+      "r_credit": 0.5,
+      "r_detect": 0.917,
+      "r_target": 0.417,
+      "abstention_rate": 0.417,
+      "extraction_miss_rate": 0.083,
+      "cross_mention": 1,
+      "both": 3
+    },
+    "morpheme": {
+      "n": 12,
+      "refuted": 12,
+      "nei": 0,
+      "none": 0,
+      "target_line": {
+        "refuted": 8,
+        "nei": 4,
+        "none": 0
+      },
+      "r_credit": 1.0,
+      "r_detect": 1.0,
+      "r_target": 0.667,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 4,
+      "both": 1
+    },
+    "sensorbus": {
+      "n": 12,
+      "refuted": 6,
+      "nei": 6,
+      "none": 0,
+      "target_line": {
+        "refuted": 6,
+        "nei": 2,
+        "none": 4
+      },
+      "r_credit": 0.5,
+      "r_detect": 1.0,
+      "r_target": 0.5,
+      "abstention_rate": 0.5,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 0,
+      "both": 3
+    },
+    "serialscope": {
+      "n": 12,
+      "refuted": 11,
+      "nei": 1,
+      "none": 0,
+      "target_line": {
+        "refuted": 8,
+        "nei": 3,
+        "none": 1
+      },
+      "r_credit": 0.917,
+      "r_detect": 1.0,
+      "r_target": 0.667,
+      "abstention_rate": 0.083,
+      "extraction_miss_rate": 0.0,
+      "cross_mention": 3,
+      "both": 3
+    },
+    "tileplan": {
+      "n": 9,
+      "refuted": 7,
+      "nei": 0,
+      "none": 2,
+      "target_line": {
+        "refuted": 4,
+        "nei": 1,
+        "none": 4
+      },
+      "r_credit": 0.778,
+      "r_detect": 0.778,
+      "r_target": 0.444,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 0.222,
+      "cross_mention": 3,
+      "both": 0
+    }
+  },
+  "none_subtypes": {
+    "no_claim": 4
+  },
+  "target_line_none_subtypes": {
+    "no_claim": 12,
+    "other_referent": 3
+  },
+  "attribution": {
+    "both": 12,
+    "other_mention": 11,
+    "target_line": 27
+  },
+  "end_to_end": {
+    "planned": 72,
+    "verified": 69,
+    "declined": 0,
+    "invalid": 0,
+    "verify_failed": 3,
+    "apply_failed": 0,
+    "timeout": 0,
+    "no_output": 0,
+    "unresolved": 0,
+    "conflict": 0,
+    "refuted": 50
+  },
+  "effective_sample_size": {
+    "external-dependency-drift": {
+      "entries": 15,
+      "distinct_repo_artifact": 7,
+      "collapsed_targets": 5,
+      "collapsed_entries": 13
+    },
+    "identifier-drift": {
+      "entries": 18,
+      "distinct_repo_artifact": 13,
+      "collapsed_targets": 5,
+      "collapsed_entries": 10
+    },
+    "path-location-drift": {
+      "entries": 18,
+      "distinct_repo_artifact": 11,
+      "collapsed_targets": 6,
+      "collapsed_entries": 13
+    },
+    "removed-referent-drift": {
+      "entries": 18,
+      "distinct_repo_artifact": 15,
+      "collapsed_targets": 3,
+      "collapsed_entries": 6
+    }
+  },
+  "annotation": {
+    "status": "pending",
+    "n": 0
+  },
+  "deviations": [
+    "see deviations.md"
+  ],
+  "baseline_findings": []
+}

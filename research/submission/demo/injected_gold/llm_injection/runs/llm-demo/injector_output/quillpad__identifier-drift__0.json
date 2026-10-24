@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "artifact_class": "identifier",
+    "direction": "code_side",
+    "kind": "symbol_rename",
+    "file": "quillpad/store.py",
+    "old": "quillpad.store.open_store",
+    "new": "quillpad.store.open_store_renamed",
+    "symbol": "open_store",
+    "target": "quillpad.store.open_store()",
+    "doc_path": "README.md",
+    "doc_line_text": "`quillpad.store.open_store()` returns a `NoteStore()` object backed by a YAML store.",
+    "target_claim": "The README states that `quillpad.store.open_store()` is the current API that returns a `NoteStore()` object; after the definition is renamed, the documented qualified identifier no longer resolves in the code.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "Following the exemplar pattern of renaming a code symbol (module/function) that a document references by qualified call form as a current API, I rename the top-level `open_store` function in quillpad/store.py, leaving the README reference stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"artifact_class\": \"identifier\",\n  \"direction\": \"code_side\",\n  \"kind\": \"symbol_rename\",\n  \"file\": \"quillpad/store.py\",\n  \"old\": \"quillpad.store.open_store\",\n  \"new\": \"quillpad.store.open_store_renamed\",\n  \"symbol\": \"open_store\",\n  \"target\": \"quillpad.store.open_store()\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"`quillpad.store.open_store()` returns a `NoteStore()` object backed by a YAML store.\",\n  \"target_claim\": \"The README states that `quillpad.store.open_store()` is the current API that returns a `NoteStore()` object; after the definition is renamed, the documented qualified identifier no longer resolves in the code.\",\n  \"exemplar_ids\": [\"example 1\", \"example 2\"],\n  \"rationale\": \"Following the exemplar pattern of renaming a code symbol (module/function) that a document references by qualified call form as a current API, I rename the top-level `open_store` function in quillpad/store.py, leaving the README reference stale.\"\n}",
+  "stderr_tail": ""
+}

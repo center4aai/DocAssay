@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "artifact_class": "path",
+    "direction": "code_side",
+    "kind": "path_rename",
+    "file": "examples/shipments.toml",
+    "old": "examples/shipments.toml",
+    "new": "examples/shipment_store.toml",
+    "target": "examples/shipments.toml",
+    "doc_path": "README.md",
+    "doc_line_text": "`examples/shipments.toml` holds two example parcels with the `parcel_id`,",
+    "target_claim": "The project ships its example shipment store at `examples/shipments.toml`, holding the two example parcels.",
+    "exemplar_ids": [
+      "example-3",
+      "example-4"
+    ],
+    "rationale": "Following the exemplar pattern of a repository file that another artifact points at by path being moved while the referring text stays put, I rename the example store the README presents as the current on-disk location; the tree change leaves the README's path token dangling."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"path-location-drift\", \"artifact_class\": \"path\", \"direction\": \"code_side\", \"kind\": \"path_rename\", \"file\": \"examples/shipments.toml\", \"old\": \"examples/shipments.toml\", \"new\": \"examples/shipment_store.toml\", \"target\": \"examples/shipments.toml\", \"doc_path\": \"README.md\", \"doc_line_text\": \"`examples/shipments.toml` holds two example parcels with the `parcel_id`,\", \"target_claim\": \"The project ships its example shipment store at `examples/shipments.toml`, holding the two example parcels.\", \"exemplar_ids\": [\"example-3\", \"example-4\"], \"rationale\": \"Following the exemplar pattern of a repository file that another artifact points at by path being moved while the referring text stays put, I rename the example store the README presents as the current on-disk location; the tree change leaves the README's path token dangling.\"}",
+  "stderr_tail": ""
+}

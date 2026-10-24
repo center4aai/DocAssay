@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "morpheme/cli.py",
+    "old": "format_alignment",
+    "new": "render_alignment",
+    "symbol": "format_alignment",
+    "target": "format_alignment()",
+    "doc_path": "docs/concepts.md",
+    "doc_line_text": "`format_alignment()` produces a string: the human-readable rendering of a",
+    "target_claim": "The package exposes a public function named format_alignment that produces the human-readable rendering of a segmentation or lemma analysis.",
+    "exemplar_ids": [
+      "example 3",
+      "example 4"
+    ],
+    "rationale": "The concepts document presents format_alignment() as the current presentation API exported by morpheme.cli, so renaming its top-level definition makes that ordinary present-tense statement false."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"morpheme/cli.py\", \"old\": \"format_alignment\", \"new\": \"render_alignment\", \"symbol\": \"format_alignment\", \"target\": \"format_alignment()\", \"doc_path\": \"docs/concepts.md\", \"doc_line_text\": \"`format_alignment()` produces a string: the human-readable rendering of a\", \"target_claim\": \"The package exposes a public function named format_alignment that produces the human-readable rendering of a segmentation or lemma analysis.\", \"exemplar_ids\": [\"example 3\", \"example 4\"], \"rationale\": \"The concepts document presents format_alignment() as the current presentation API exported by morpheme.cli, so renaming its top-level definition makes that ordinary present-tense statement false.\"}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,26 @@
+{
+  "alert_id": "triaged:alert-0586cd1b5ddb26aa",
+  "commit_sha": "c3a00a3f31fffc7adcd81b66de3fb2c2f0b11558",
+  "commit_url": "https://github.com/torvalds/linux/commit/c3a00a3f31fffc7adcd81b66de3fb2c2f0b11558",
+  "files": [
+    {
+      "added": [
+        "bindgen (optional)     0.71.1           bindgen --version"
+      ],
+      "hunks": 1,
+      "matched_location": true,
+      "path": "Documentation/process/changes.rst",
+      "removed": [
+        "bindgen (optional)     0.65.1           bindgen --version"
+      ],
+      "side": "doc",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "Documentation/process/changes.rst",
+    "Documentation/translations/it_IT/process/changes.rst"
+  ],
+  "patch_sha256": "1eef200d398a38b4de9aad576ad2dab0e32e0e747a7d247a2153f1d3cf2b33a2",
+  "status": "ok"
+}

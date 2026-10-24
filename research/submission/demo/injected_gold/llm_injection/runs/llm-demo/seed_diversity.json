@@ -1,0 +1,194 @@
+{
+  "by_operator": {
+    "ledgerly::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "ledgerly::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "ledgerly::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "ledgerly::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "ledgerly::llm.value-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute::llm.value-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad::llm.value-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast::llm.value-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    }
+  },
+  "per_seed": {
+    "1": {
+      "refuted_injected": 20,
+      "refuted_detected": 14,
+      "doc_drift_injected": 0,
+      "doc_drift_detected": 0,
+      "controls": 0,
+      "controls_clean": 0
+    }
+  }
+}

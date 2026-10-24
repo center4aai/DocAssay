@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "contourkit/geometry.py",
+    "old": "close_ring",
+    "new": null,
+    "symbol": "close_ring",
+    "target": "close_ring",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `close_ring() -> Polyline`",
+    "target_claim": "The public API includes the function close_ring in contourkit.geometry, which closes an open polyline into a closed loop.",
+    "exemplar_ids": [
+      "example-1",
+      "example-2",
+      "example-3"
+    ],
+    "rationale": "The API reference presents close_ring as a current public geometry function, so deleting its definition leaves the document naming a symbol that no longer exists."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"removed-referent-drift\", \"direction\": \"code_side\", \"file\": \"contourkit/geometry.py\", \"old\": \"close_ring\", \"new\": null, \"symbol\": \"close_ring\", \"target\": \"close_ring\", \"doc_path\": \"docs/api.md\", \"doc_line_text\": \"### `close_ring() -> Polyline`\", \"target_claim\": \"The public API includes the function close_ring in contourkit.geometry, which closes an open polyline into a closed loop.\", \"exemplar_ids\": [\"example-1\", \"example-2\", \"example-3\"], \"rationale\": \"The API reference presents close_ring as a current public geometry function, so deleting its definition leaves the document naming a symbol that no longer exists.\"}",
+  "stderr_tail": ""
+}

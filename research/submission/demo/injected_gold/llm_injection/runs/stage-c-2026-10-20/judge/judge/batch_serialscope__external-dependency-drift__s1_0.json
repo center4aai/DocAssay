@@ -1,0 +1,33 @@
+{
+  "repo": "serialscope__external-dependency-drift__s1_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "README.md",
+        "line": 21,
+        "predicate": "DEPENDENCY",
+        "object": "pyserial",
+        "reason": ""
+      }
+    ],
+    "new_nei": [],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "serialscope__external-dependency-drift__s1_0::0",
+      "repo": "serialscope__external-dependency-drift__s1_0",
+      "op_id": "llm.external-dependency-drift",
+      "canonical_class": "external-dependency-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "pyserial",
+        "new": ">=999",
+        "doc_path": "README.md",
+        "target": "pyserial>=3.5"
+      }
+    }
+  ]
+}

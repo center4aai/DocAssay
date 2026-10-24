@@ -1,0 +1,71 @@
+{
+  "project": {
+    "name": "bibscan",
+    "pkg": "bibscan",
+    "version": "0.4.2",
+    "description": "Parse BibTeX databases and CSL styles, then render citations and bibliographies from them."
+  },
+  "dependencies": [
+    {"name": "lxml", "constraint": ">=4.9"},
+    {"name": "python-dateutil", "constraint": ">=2.8"}
+  ],
+  "modules": [
+    {
+      "path": "bibscan/model.py",
+      "symbols": [
+        {"name": "Entry", "kind": "class", "return_type": null, "members": ["key", "entry_type", "fields"]},
+        {"name": "Name", "kind": "class", "return_type": null, "members": ["family", "given", "suffix"]},
+        {"name": "Style", "kind": "class", "return_type": null, "members": ["style_id", "title", "macros"]}
+      ]
+    },
+    {
+      "path": "bibscan/parser.py",
+      "symbols": [
+        {"name": "BibSyntaxError", "kind": "class", "return_type": null, "members": ["line", "column"]},
+        {"name": "parse_bibtex", "kind": "function", "return_type": "list[Entry]", "members": []},
+        {"name": "parse_csl", "kind": "function", "return_type": "Style", "members": []}
+      ]
+    },
+    {
+      "path": "bibscan/names.py",
+      "symbols": [
+        {"name": "PARTICLES", "kind": "constant", "return_type": null, "members": []},
+        {"name": "parse_names", "kind": "function", "return_type": "list[Name]", "members": []},
+        {"name": "format_name", "kind": "function", "return_type": "str", "members": []}
+      ]
+    },
+    {
+      "path": "bibscan/format.py",
+      "symbols": [
+        {"name": "DEFAULT_LOCALE", "kind": "constant", "return_type": null, "members": []},
+        {"name": "format_citation", "kind": "function", "return_type": "str", "members": []},
+        {"name": "format_bibliography", "kind": "function", "return_type": "str", "members": []}
+      ]
+    },
+    {
+      "path": "bibscan/cli.py",
+      "symbols": [
+        {"name": "scan_file", "kind": "function", "return_type": "list[Entry]", "members": []},
+        {"name": "main", "kind": "function", "return_type": "int", "members": []}
+      ]
+    }
+  ],
+  "docs": [
+    {"path": "README.md", "kind": "readme"},
+    {"path": "docs/recipes.md", "kind": "guide"},
+    {"path": "docs/api.md", "kind": "reference"}
+  ],
+  "example_commands": [
+    "bibscan examples/library.bib --style apa",
+    "bibscan examples/library.bib --style apa --bibliography"
+  ],
+  "paths": [
+    "examples/library.bib"
+  ],
+  "data_files": [
+    {
+      "path": "examples/library.bib",
+      "content": "@article{knuth1984,\n  author = {Knuth, Donald E.},\n  title = {Literate Programming},\n  journal = {The Computer Journal},\n  year = {1984},\n  volume = {27},\n  number = {2},\n  pages = {97--111}\n}\n\n@book{lamport1994,\n  author = {Lamport, Leslie},\n  title = {LaTeX: A Document Preparation System},\n  publisher = {Addison-Wesley},\n  year = {1994}\n}\n"
+    }
+  ]
+}

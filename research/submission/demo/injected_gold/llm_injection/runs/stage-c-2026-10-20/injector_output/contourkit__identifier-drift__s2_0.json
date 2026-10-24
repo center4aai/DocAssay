@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "contourkit/geometry.py",
+    "old": "close_ring",
+    "new": "close_polyline",
+    "symbol": "close_ring",
+    "target": "close_ring",
+    "doc_path": "README.md",
+    "doc_line_text": "`polyline_length` measures one, and `close_ring` turns an open line into a closed loop for filled or outlined areas.",
+    "target_claim": "The README presents `close_ring` as a current polyline helper in `contourkit.geometry`; the definition is renamed to `close_polyline`, so that documented name no longer exists.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "The line is an ordinary present-tense description of a currently available public helper, naming `close_ring` as part of the polyline API."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"contourkit/geometry.py\", \"old\": \"close_ring\", \"new\": \"close_polyline\", \"symbol\": \"close_ring\", \"target\": \"close_ring\", \"doc_path\": \"README.md\", \"doc_line_text\": \"`polyline_length` measures one, and `close_ring` turns an open line into a closed loop for filled or outlined areas.\", \"target_claim\": \"The README presents `close_ring` as a current polyline helper in `contourkit.geometry`; the definition is renamed to `close_polyline`, so that documented name no longer exists.\", \"exemplar_ids\": [\"example 1\", \"example 2\"], \"rationale\": \"The line is an ordinary present-tense description of a currently available public helper, naming `close_ring` as part of the polyline API.\"}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "artifact_class": "path",
+    "direction": "code_side",
+    "kind": "path_rename",
+    "file": "examples/forecast.json",
+    "old": "examples/forecast.json",
+    "new": "examples/forecast_sample.json",
+    "target": "examples/forecast.json",
+    "doc_path": "README.md",
+    "doc_line_text": "`examples/forecast.json` holds a single cached forecast with these fields:",
+    "target_claim": "`examples/forecast.json` is the current sample data file holding a single cached forecast with the listed fields.",
+    "exemplar_ids": [
+      "example 1",
+      "example 3"
+    ],
+    "rationale": "Following the code-side path pattern in the exemplars, the sample data file is renamed within its existing directory while the documentation continues to name its old location."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"path-location-drift\", \"artifact_class\": \"path\", \"direction\": \"code_side\", \"kind\": \"path_rename\", \"file\": \"examples/forecast.json\", \"old\": \"examples/forecast.json\", \"new\": \"examples/forecast_sample.json\", \"target\": \"examples/forecast.json\", \"doc_path\": \"README.md\", \"doc_line_text\": \"`examples/forecast.json` holds a single cached forecast with these fields:\", \"target_claim\": \"`examples/forecast.json` is the current sample data file holding a single cached forecast with the listed fields.\", \"exemplar_ids\": [\"example 1\", \"example 3\"], \"rationale\": \"Following the code-side path pattern in the exemplars, the sample data file is renamed within its existing directory while the documentation continues to name its old location.\"}",
+  "stderr_tail": ""
+}

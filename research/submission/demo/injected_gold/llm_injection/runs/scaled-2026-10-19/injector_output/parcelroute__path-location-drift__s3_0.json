@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "artifact_class": "path",
+    "direction": "code_side",
+    "kind": "path_rename",
+    "file": "docs/configuration.md",
+    "old": "docs/configuration.md",
+    "new": "docs/settings.md",
+    "target": "docs/configuration.md",
+    "doc_path": "README.md",
+    "doc_line_text": "- docs/configuration.md covers the environment variables and the store layout.",
+    "target_claim": "The README documentation map says docs/configuration.md is the file covering environment variables and store layout, but after the rename that path no longer exists.",
+    "exemplar_ids": [
+      "example 3"
+    ],
+    "rationale": "Followed the exemplar 3 pattern: a guide document points to a companion file by path, and the companion is moved so the pointer goes stale. Chose a uniquely named documentation file mentioned in the documentation map, keeping the same extension and directory."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\":true,\"drift_type\":\"path-location-drift\",\"artifact_class\":\"path\",\"direction\":\"code_side\",\"kind\":\"path_rename\",\"file\":\"docs/configuration.md\",\"old\":\"docs/configuration.md\",\"new\":\"docs/settings.md\",\"target\":\"docs/configuration.md\",\"doc_path\":\"README.md\",\"doc_line_text\":\"- docs/configuration.md covers the environment variables and the store layout.\",\"target_claim\":\"The README documentation map says docs/configuration.md is the file covering environment variables and store layout, but after the rename that path no longer exists.\",\"exemplar_ids\":[\"example 3\"],\"rationale\":\"Followed the exemplar 3 pattern: a guide document points to a companion file by path, and the companion is moved so the pointer goes stale. Chose a uniquely named documentation file mentioned in the documentation map, keeping the same extension and directory.\"}",
+  "stderr_tail": ""
+}

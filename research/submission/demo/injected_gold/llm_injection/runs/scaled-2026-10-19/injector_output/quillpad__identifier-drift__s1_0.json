@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "artifact_class": "identifier",
+    "direction": "code_side",
+    "kind": "symbol_rename",
+    "file": "quillpad/store.py",
+    "old": "quillpad.store.open_store",
+    "new": "quillpad.store.open_store_renamed",
+    "symbol": "open_store",
+    "target": "quillpad.store.open_store",
+    "doc_path": "README.md",
+    "doc_line_text": "- `quillpad.store.open_store()` returns a `NoteStore()` object backed by a YAML store.",
+    "target_claim": "quillpad.store.open_store() is the public entry point that returns a NoteStore() object; after the rename the documented qualified name no longer resolves.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "Both exemplars rename a code-side definition (module path, operation field) while the surrounding documentation keeps the old name, so I picked a top-level function that a document names in dotted call form and renamed its definition to a minimal snake_case variant."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"artifact_class\": \"identifier\", \"direction\": \"code_side\", \"kind\": \"symbol_rename\", \"file\": \"quillpad/store.py\", \"old\": \"quillpad.store.open_store\", \"new\": \"quillpad.store.open_store_renamed\", \"symbol\": \"open_store\", \"target\": \"quillpad.store.open_store\", \"doc_path\": \"README.md\", \"doc_line_text\": \"- `quillpad.store.open_store()` returns a `NoteStore()` object backed by a YAML store.\", \"target_claim\": \"quillpad.store.open_store() is the public entry point that returns a NoteStore() object; after the rename the documented qualified name no longer resolves.\", \"exemplar_ids\": [\"example 1\", \"example 2\"], \"rationale\": \"Both exemplars rename a code-side definition (module path, operation field) while the surrounding documentation keeps the old name, so I picked a top-level function that a document names in dotted call form and renamed its definition to a minimal snake_case variant.\"}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "pyserial>=3.5",
+    "new": "pyserial>=999",
+    "symbol": "pyserial",
+    "target": "pyserial>=3.5",
+    "doc_path": "README.md",
+    "doc_line_text": "The only runtime dependency is `pyserial>=3.5`, which is installed for you.",
+    "target_claim": "The project's sole runtime dependency is pyserial at version 3.5 or newer, installed automatically with the package.",
+    "exemplar_ids": [
+      "example-2",
+      "example-4"
+    ],
+    "rationale": "The README's Install section states the pyserial version floor as a present requirement, and that floor lives in the project manifest's dependencies list."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "I'll start by examining the bundle's repository files, focusing on the manifest and dependency claims.\n{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \"pyserial>=3.5\", \"new\": \"pyserial>=999\", \"symbol\": \"pyserial\", \"target\": \"pyserial>=3.5\", \"doc_path\": \"README.md\", \"doc_line_text\": \"The only runtime dependency is `pyserial>=3.5`, which is installed for you.\", \"target_claim\": \"The project's sole runtime dependency is pyserial at version 3.5 or newer, installed automatically with the package.\", \"exemplar_ids\": [\"example-2\", \"example-4\"], \"rationale\": \"The README's Install section states the pyserial version floor as a present requirement, and that floor lives in the project manifest's dependencies list.\"}",
+  "stderr_tail": ""
+}

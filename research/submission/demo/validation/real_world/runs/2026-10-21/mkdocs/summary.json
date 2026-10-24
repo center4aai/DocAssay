@@ -1,0 +1,17 @@
+{
+  "repo": "mkdocs",
+  "docs": 36,
+  "claims": 1189,
+  "referents": 268,
+  "evidence": 2447,
+  "verdicts": {
+    "REFUTED": 14,
+    "NEI": 159,
+    "SUPPORTED": 114
+  },
+  "refuted_by_predicate": {
+    "DEPENDENCY": 1,
+    "PATH_EXISTS": 13
+  },
+  "seconds": 1.1
+}

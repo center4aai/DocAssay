@@ -1,0 +1,55 @@
+{
+  "repo": "bibscan__removed-referent-drift__s1_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "README.md",
+        "line": 91,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "bibscan.cli.scan_file",
+        "reason": ""
+      },
+      {
+        "source": "docs/api.md",
+        "line": 21,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "bibscan.cli.scan_file",
+        "reason": ""
+      }
+    ],
+    "new_nei": [
+      {
+        "source": "docs/api.md",
+        "line": 150,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "scan_file",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/recipes.md",
+        "line": 174,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "scan_file",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "bibscan__removed-referent-drift__s1_0::0",
+      "repo": "bibscan__removed-referent-drift__s1_0",
+      "op_id": "llm.removed-referent-drift",
+      "canonical_class": "removed-referent-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "bibscan.cli.scan_file",
+        "new": null,
+        "doc_path": "README.md",
+        "target": "scan_file"
+      }
+    }
+  ]
+}

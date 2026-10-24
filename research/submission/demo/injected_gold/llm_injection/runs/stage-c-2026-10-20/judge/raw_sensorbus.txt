@@ -1,0 +1,339 @@
+[0m
+> build · qwen3.8-flash
+I'll ground the artifact-matching semantics in the repo's actual judge implementation and manifests before ruling.
+[0m$ [0mcd . && ls research/submission/demo/injected_gold/scripts research/submission/demo/injected_gold/engine research/submission/demo/injected_gold/conformance 2>/dev/null
+research/submission/demo/injected_gold/conformance:
+README.md
+run.py
+runs
+
+research/submission/demo/injected_gold/engine:
+__init__.py
+__pycache__
+grammar.py
+oracle.py
+
+research/submission/demo/injected_gold/scripts:
+__pycache__
+_corpus.py
+bootstrap_repo_cluster.py
+build_annotation_sheet.py
+build_controls.py
+check_contamination.py
+check_corpus_surface.py
+check_genres.py
+classify_claim_context.py
+coverage.py
+freeze_corpus.py
+freeze_scope_engine.py
+generate_synthetic.py
+judge_apply.py
+judge_batches.py
+judge_diff.py
+score_injections.py
+stage_b_metrics.py
+stage_c_metrics.py
+validate_catalog.py
+validate_scope.py
+[0m$ [0mcd . && find . -name 'manifest.jsonl' -not -path '*/node_modules/*' | head -30
+<private-archive>/deterministic-operators/runs/smoke/manifest.jsonl
+<private-archive>/deterministic-operators/runs/sweep-2026-10-12/manifest.jsonl
+<private-archive>/deterministic-operators/runs/synthetic-fixed-2026-10-12/manifest.jsonl
+<private-archive>/deterministic-operators/runs/synthetic-2026-10-12/manifest.jsonl
+./research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/manifest.jsonl
+./research/submission/demo/injected_gold/llm_injection/runs/scaled-2026-10-19/manifest.jsonl
+./research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/manifest.jsonl
+./research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/regression-context-qualification/manifest.jsonl
+./research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/regression-trial-plus-e1e2/manifest.jsonl
+./research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/regression-trial-e1e2-e6/manifest.jsonl
+./research/submission/demo/injected_gold/llm_injection/runs/llm-demo/manifest.jsonl
+./research/submission/demo/injected_gold/conformance/runs/demo/manifest.jsonl
+> build · qwen3.8-flash
+[0m→ [0mRead research/submission/demo/injected_gold/scripts/judge_diff.py 
+[0m$ [0mcd . && ls research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/
+README.md
+annotation_codebook.md
+audit
+baseline_findings.json
+bootstrap.json
+claims
+control_config.json
+controls.jsonl
+corpus_design.json
+corpus_freeze.json
+deviations.md
+entries.json
+injector_input
+injector_output
+judge
+judge_rubric.md
+manifest.jsonl
+metrics.json
+metrics.md
+metrics_stage_c.json
+plan.json
+prompts_natural_c
+provenance.json
+scope_engine_freeze.json
+scoring_manifest.jsonl
+seed_diversity.json
+seed_diversity.md
+signoff.md
+snapshots
+stats.json
+taxonomy.json
+> build · qwen3.8-flash
+[0m$ [0mcd ./research/submission/demo/injected_gold/scripts && grep -n "def obj_match" -A 40 score_injections.py
+122:def obj_match(obj: str, target: str) -> bool:
+123-    o = (obj or "").strip().strip("`").rstrip("/.").lower()
+124-    t = (target or "").strip().strip("`").rstrip("/.").lower()
+125-    if not o or not t:
+126-        return False
+127-    if o == t or o.endswith("/" + t) or t.endswith("/" + o):
+128-        return True
+129-    if o.endswith("." + t) or t.endswith("." + o):
+130-        return True
+131-    if o.rsplit("/", 1)[-1] == t.rsplit("/", 1)[-1]:
+132-        return True
+133-    # Last dot-segment only for dotted symbols, never for path extensions.
+134-    if "/" not in o and "/" not in t:
+135-        return o.rsplit(".", 1)[-1] == t.rsplit(".", 1)[-1]
+136-    return False
+137-
+138-
+139-def _claim_key(claim: dict) -> tuple[str, str]:
+140-    return (str(claim.get("source", "")).lower(), str(claim.get("object", "")).lower())
+141-
+142-
+143-def _keys(claims: list[dict], verdict: str) -> set[tuple[str, str]]:
+144-    return {_claim_key(c) for c in claims if c.get("code_verdict") == verdict}
+145-
+146-
+147-def _match_object(entry: dict) -> str:
+148-    """The claim ``object`` the injected defect should surface as.
+149-
+150-    ``obj_match`` compares the engine's predicate ``object`` (the referent: a
+151-    path, a dotted symbol, or a dependency name), not the *value* that changed
+152-    (``old``). They differ for a dependency constraint break: ``old`` is a
+153-    constraint string (``>=6.0``) but the object is the dependency name.
+154-
+155-    Matching on ``old`` there misses genuine refutations, so map each artifact
+156-    class to the referent it produces.
+157-    """
+158-    artifact_class = entry.get("artifact_class")
+159-    if artifact_class == "dependency":
+160-        return entry.get("symbol") or entry.get("target") or ""
+161-    return entry.get("old") or entry.get("target") or ""
+162-
+[0m$ [0mcd ./research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20 && grep -E 'sensorbus__(external-dependency-drift|identifier-drift|path-location-drift|removed-referent-drift)__s[123]_0' manifest.jsonl | python3 -c "
+import sys,json
+for l in sys.stdin:
+    if not l.strip(): continue
+    e=json.loads(l)
+    print(json.dumps(e,ensure_ascii=False))
+" | head -30
+{"repo": "sensorbus__path-location-drift__s1_0", "repo_name": "sensorbus", "snapshot_id": "sensorbus__path-location-drift__s1_0", "op_id": "llm.path-location-drift", "canonical_class": "path-location-drift", "artifact_class": "path", "kind": "path_rename", "form": "n/a", "control": "none", "expected_verdict": "refuted", "surface": "path", "target": "examples/curve_nitrate.csv", "doc_path": "README.md", "line": 72, "file": "examples/curve_nitrate.csv", "old": "examples/curve_nitrate.csv", "new": "examples/nitrate_calibration.csv", "new_raw": null, "symbol": null, "seed": 1, "prompt_sha256": "16d444f137401ed429af0aa57177ad0b9ab9cbcc90a7c1f44546edca3db2414c", "exemplar_ids": ["triaged:alert-20bd5530abe7bd74", "triaged:alert-3268c8f275480e9b", "triaged:alert-350586bc1ca4547a", "triaged:alert-3d74e717cf488ed1"], "rationale": "The README presents the calibration CSV as a current repository file at that exact path, which readers can naturally follow.", "target_claim": "The worked calibration file is located at examples/curve_nitrate.csv in the repository.", "verifier": "ok"}
+{"repo": "sensorbus__path-location-drift__s2_0", "repo_name": "sensorbus", "snapshot_id": "sensorbus__path-location-drift__s2_0", "op_id": "llm.path-location-drift", "canonical_class": "path-location-drift", "artifact_class": "path", "kind": "path_rename", "form": "n/a", "control": "none", "expected_verdict": "refuted", "surface": "path", "target": "examples/curve_nitrate.csv", "doc_path": "README.md", "line": 72, "file": "examples/curve_nitrate.csv", "old": "examples/curve_nitrate.csv", "new": "examples/nitrate_calibration.csv", "new_raw": null, "symbol": null, "seed": 2, "prompt_sha256": "f41ae4e0faa1a030b971b2b08df5ef43a3dbc01f705e013503a4df226aea59ed", "exemplar_ids": ["triaged:alert-3268c8f275480e9b", "triaged:alert-51d4fae83da0648b"], "rationale": "The README presents examples/curve_nitrate.csv in the present tense as the shipped input file for fitting curves, so renaming that file makes the stated location stale.", "target_claim": "The repository contains a worked calibration file at examples/curve_nitrate.csv.", "verifier": "ok"}
+{"repo": "sensorbus__path-location-drift__s3_0", "repo_name": "sensorbus", "snapshot_id": "sensorbus__path-location-drift__s3_0", "op_id": "llm.path-location-drift", "canonical_class": "path-location-drift", "artifact_class": "path", "kind": "path_rename", "form": "n/a", "control": "none", "expected_verdict": "refuted", "surface": "path", "target": "examples/curve_nitrate.csv", "doc_path": "README.md", "line": 72, "file": "examples/curve_nitrate.csv", "old": "examples/curve_nitrate.csv", "new": "examples/curve_nitrate_01.csv", "new_raw": null, "symbol": null, "seed": 3, "prompt_sha256": "146c5d31dc5089d2e23e0cd93ebb393c4569f373303ab9683814c8bb7c1fc32e", "exemplar_ids": ["triaged:alert-20bd5530abe7bd74", "triaged:alert-3d74e717cf488ed1", "triaged:alert-60fec720fe85f3eb"], "rationale": "The README presents `examples/curve_nitrate.csv` in the present tense as the repository's worked calibration file, so renaming it to distinguish the nitrate-01 channel leaves that location stale.", "target_claim": "The README states that the worked calibration file is currently located at `examples/curve_nitrate.csv`.", "verifier": "ok"}
+{"repo": "sensorbus__identifier-drift__s1_0", "repo_name": "sensorbus", "snapshot_id": "sensorbus__identifier-drift__s1_0", "op_id": "llm.identifier-drift", "canonical_class": "identifier-drift", "artifact_class": "identifier", "kind": "symbol_rename", "form": "n/a", "control": "none", "expected_verdict": "refuted", "surface": "identifier", "target": "CalibrationCurve", "doc_path": "README.md", "line": 97, "file": "sensorbus/calibration.py", "old": "sensorbus.calibration.CalibrationCurve", "new": "CalibrationCurveInjected", "new_raw": null, "symbol": "CalibrationCurve", "seed": 1, "prompt_sha256": "7dd6d078866168f85547af91051d4b909030bb5e3b01ed39d0d6ecba2ba2047e", "exemplar_ids": ["triaged:alert-4a2f8a3f229f0f7f", "triaged:alert-90c9797475f8f79a", "triaged:ident-immosquare-my-ip", "triaged:ident-silo-refresh-devices"], "rationale": "The README presents `CalibrationCurve` in the Main concepts section as the current, available class for per-sensor calibration state, matching a top-level definition in the package.", "target_claim": "The current class holding the per-sensor correction is named `CalibrationCurve`.", "verifier": "ok"}
+{"repo": "sensorbus__identifier-drift__s2_0", "repo_name": "sensorbus", "snapshot_id": "sensorbus__identifier-drift__s2_0", "op_id": "llm.identifier-drift", "canonical_class": "identifier-drift", "artifact_class": "identifier", "kind": "symbol_rename", "form": "n/a", "control": "none", "expected_verdict": "refuted", "surface": "identifier", "target": "convert", "doc_path": "docs/concepts.md", "line": 74, "file": "sensorbus/units.py", "old": "sensorbus.units.convert", "new": "convertInjected", "new_raw": null, "symbol": "convert", "seed": 2, "prompt_sha256": "bc22607e3cb755df50a549dbe7f1b98bbb7e7faf57fbcac11c1521577a5f9371", "exemplar_ids": ["triaged:alert-4a2f8a3f229f0f7f", "triaged:alert-e4613ce0dc642fdc", "triaged:ident-immosquare-my-ip", "triaged:ident-silo-refresh-devices"], "rationale": "The line presents convert as a currently exposed function in units.py, making its definition a natural target for an identifier rename.", "target_claim": "docs/concepts.md states that units.py exposes convert as part of the public API.", "verifier": "ok"}
+{"repo": "sensorbus__identifier-drift__s3_0", "repo_name": "sensorbus", "snapshot_id": "sensorbus__identifier-drift__s3_0", "op_id": "llm.identifier-drift", "canonical_class": "identifier-drift", "artifact_class": "identifier", "kind": "symbol_rename", "form": "n/a", "control": "none", "expected_verdict": "refuted", "surface": "identifier", "target": "list_devices", "doc_path": "docs/concepts.md", "line": 115, "file": "sensorbus/devices.py", "old": "sensorbus.devices.list_devices", "new": "list_devicesInjected", "new_raw": null, "symbol": "list_devices", "seed": 3, "prompt_sha256": "916e978eb2553d4c584154832e131d2cc05fd9079a1c46ac2f6051ef15b0f9a8", "exemplar_ids": ["triaged:alert-4a2f8a3f229f0f7f", "triaged:alert-e4613ce0dc642fdc", "triaged:ident-nseindia-list-sme", "triaged:ident-silo-refresh-devices"], "rationale": "The concepts document presents `list_devices` as an existing, importable declaration in the device layer, so renaming its definition leaves the document naming a function that no longer exists.", "target_claim": "The device layer provides a declared function named `list_devices` that returns a `list[str]` of serial ports.", "verifier": "ok"}
+{"repo": "sensorbus__removed-referent-drift__s1_0", "repo_name": "sensorbus", "snapshot_id": "sensorbus__removed-referent-drift__s1_0", "op_id": "llm.removed-referent-drift", "canonical_class": "removed-referent-drift", "artifact_class": "referent", "kind": "symbol_delete", "form": "n/a", "control": "none", "expected_verdict": "refuted", "surface": "referent", "target": "SerialDevice", "doc_path": "docs/usage.md", "line": 20, "file": "sensorbus/devices.py", "old": "sensorbus.devices.SerialDevice", "new": null, "new_raw": null, "symbol": "SerialDevice", "seed": 1, "prompt_sha256": "364f72c4494e262ba586295ce7482b90cefa016f80099a78ce5e863f3eaf0a5c", "exemplar_ids": ["triaged:alert-58d9824e5aed2a9b", "triaged:alert-790cabcef1be9244", "triaged:alert-e1e71cc1ff2a6985", "triaged:alert-f05c17f47af4d5e0"], "rationale": "The guide presents SerialDevice in the present tense as a working record class whose fields you set, so removing its definition from devices.py falsifies an ordinary current-API statement without affecting the rest of the module.", "target_claim": "SerialDevice is a current class you can construct and populate (a plain record of where to read from); deleting its definition leaves the document naming a class that no longer exists.", "verifier": "ok"}
+{"repo": "sensorbus__removed-referent-drift__s2_0", "repo_name": "sensorbus", "snapshot_id": "sensorbus__removed-referent-drift__s2_0", "op_id": "llm.removed-referent-drift", "canonical_class": "removed-referent-drift", "artifact_class": "referent", "kind": "symbol_delete", "form": "n/a", "control": "none", "expected_verdict": "refuted", "surface": "referent", "target": "SerialDevice", "doc_path": "README.md", "line": 113, "file": "sensorbus/devices.py", "old": "sensorbus.devices.SerialDevice", "new": null, "new_raw": null, "symbol": "SerialDevice", "seed": 2, "prompt_sha256": "b61e96a9c71cac221d8f8eb7b91a553094dac0cc65a662a6ae714357ec9fc94e", "exemplar_ids": ["triaged:alert-ac78fb17df858a0b", "triaged:alert-e1e71cc1ff2a6985", "triaged:alert-f05c17f47af4d5e0", "triaged:alert-f496c550f01827a6"], "rationale": "The README presents SerialDevice as the current record for a readable serial port, and the status note says the data classes are real and can be constructed today.", "target_claim": "SerialDevice is the current public class describing a readable serial port, with port, baudrate, and name attributes.", "verifier": "ok"}
+{"repo": "sensorbus__removed-referent-drift__s3_0", "repo_name": "sensorbus", "snapshot_id": "sensorbus__removed-referent-drift__s3_0", "op_id": "llm.removed-referent-drift", "canonical_class": "removed-referent-drift", "artifact_class": "referent", "kind": "symbol_delete", "form": "n/a", "control": "none", "expected_verdict": "refuted", "surface": "referent", "target": "list_devices", "doc_path": "docs/concepts.md", "line": 115, "file": "sensorbus/devices.py", "old": "sensorbus.devices.list_devices", "new": null, "new_raw": null, "symbol": "list_devices", "seed": 3, "prompt_sha256": "1e17edd65c9d208a0ae61a4b7c50f68b2f9a59e92cb01d4c8ed9cbf788eb20b7", "exemplar_ids": ["triaged:alert-2bfdc6ac8403e47a", "triaged:alert-ac78fb17df858a0b", "triaged:alert-e1e71cc1ff2a6985", "triaged:alert-f16567688f5ba11f"], "rationale": "The concepts document presents `list_devices` in the present tense as part of the thin device layer's public API, alongside the real `SerialDevice` record.", "target_claim": "The devices module provides a current `list_devices` function declared to return a `list[str]` of the host's serial ports.", "verifier": "ok"}
+{"repo": "sensorbus__external-dependency-drift__s1_0", "repo_name": "sensorbus", "snapshot_id": "sensorbus__external-dependency-drift__s1_0", "op_id": "llm.external-dependency-drift", "canonical_class": "external-dependency-drift", "artifact_class": "dependency", "kind": "dependency_version_break", "form": "constraint", "control": "none", "expected_verdict": "refuted", "surface": "dependency", "target": "numpy>=1.24", "doc_path": "README.md", "line": 42, "file": "pyproject.toml", "old": "numpy>=1.24", "new": ">=999", "new_raw": "numpy>=999", "symbol": "numpy", "seed": 1, "prompt_sha256": "7c40ec64c31c6771b220105a84125062df67c9079d34ad50cf4beab2ca4358c6", "exemplar_ids": ["triaged:alert-618f0307eb26882e", "triaged:alert-d31b5ec93fbc2072", "triaged:alert-e0fb492470f8068d", "triaged:alert-f6a52da81652ebc9"], "rationale": "The README's installation section presents the declared dependency set as a current, checkable requirement, so changing the numpy constraint falsifies it without touching the document.", "target_claim": "The README states that the project declares numpy>=1.24 as a dependency in pyproject.toml.", "verifier": "ok"}
+{"repo": "sensorbus__external-dependency-drift__s2_0", "repo_name": "sensorbus", "snapshot_id": "sensorbus__external-dependency-drift__s2_0", "op_id": "llm.external-dependency-drift", "canonical_class": "external-dependency-drift", "artifact_class": "dependency", "kind": "dependency_version_break", "form": "constraint", "control": "none", "expected_verdict": "refuted", "surface": "dependency", "target": "numpy>=1.24", "doc_path": "README.md", "line": 42, "file": "pyproject.toml", "old": "numpy>=1.24", "new": ">=999", "new_raw": "numpy>=999", "symbol": "numpy", "seed": 2, "prompt_sha256": "26983eb00f4e8acd8cab09591e8c7a56531385f37a3d2392a76840acc094438b", "exemplar_ids": ["triaged:alert-5a292f75418b8682", "triaged:alert-d31b5ec93fbc2072", "triaged:alert-e0fb492470f8068d", "triaged:alert-f2c043ee40dcc2b0"], "rationale": "The README explicitly lists pyproject's dependency constraints as current project requirements, so raising numpy's manifest bound to a non-overlapping version makes that checkable statement false.", "target_claim": "The project manifest declares numpy>=1.24 as a current dependency requirement.", "verifier": "ok"}
+{"repo": "sensorbus__external-dependency-drift__s3_0", "repo_name": "sensorbus", "snapshot_id": "sensorbus__external-dependency-drift__s3_0", "op_id": "llm.external-dependency-drift", "canonical_class": "external-dependency-drift", "artifact_class": "dependency", "kind": "dependency_version_break", "form": "constraint", "control": "none", "expected_verdict": "refuted", "surface": "dependency", "target": "numpy>=1.24", "doc_path": "README.md", "line": 42, "file": "pyproject.toml", "old": "numpy>=1.24", "new": ">=999", "new_raw": "numpy>=999", "symbol": "numpy", "seed": 3, "prompt_sha256": "748b27a471fbac2890c8f8bb3efdc72ffe8c1778541c0cd419f748d6b2246241", "exemplar_ids": ["triaged:alert-2daea4b18ad37cf7", "triaged:alert-3f0b25c9b7c723d7", "triaged:alert-5a292f75418b8682", "triaged:alert-e0fb492470f8068d"], "rationale": "The README presents the declared NumPy lower bound as a current installation requirement, so raising it in the manifest directly falsifies that ordinary present-tense statement.", "target_claim": "The project requires NumPy version 1.24 or newer.", "verifier": "ok"}
+> build · qwen3.8-flash
+Now let me inspect the actual claim dumps to see how the identifier/referent claims are represented (qualified vs bare, section context) around those lines.
+[0m$ [0mcd ./research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/claims && ls | head -20 && echo "---- s3 identifier baseline/injected: list_devices + concepts 115" && python3 - <<'PY'
+import json,glob
+for f in ["sensorbus__identifier-drift__s3_0__baseline.jsonl","sensorbus__identifier-drift__s3_0__injected.jsonl"]:
+    print("=== ",f)
+    for l in open(f):
+        if not l.strip():continue
+        c=json.loads(l)
+        o=str(c.get("object","")).lower()
+        if "device" in o or "serial" in o:
+            print(json.dumps(c,ensure_ascii=False))
+PY
+bibscan__control__baseline.jsonl
+bibscan__control__injected.jsonl
+bibscan__external-dependency-drift__s1_0__baseline.jsonl
+bibscan__external-dependency-drift__s1_0__injected.jsonl
+bibscan__external-dependency-drift__s2_0__baseline.jsonl
+bibscan__external-dependency-drift__s2_0__injected.jsonl
+bibscan__external-dependency-drift__s3_0__baseline.jsonl
+bibscan__external-dependency-drift__s3_0__injected.jsonl
+bibscan__identifier-drift__s1_0__baseline.jsonl
+bibscan__identifier-drift__s1_0__injected.jsonl
+bibscan__identifier-drift__s2_0__baseline.jsonl
+bibscan__identifier-drift__s2_0__injected.jsonl
+bibscan__identifier-drift__s3_0__baseline.jsonl
+bibscan__identifier-drift__s3_0__injected.jsonl
+bibscan__path-location-drift__s1_0__baseline.jsonl
+bibscan__path-location-drift__s1_0__injected.jsonl
+bibscan__path-location-drift__s2_0__baseline.jsonl
+bibscan__path-location-drift__s2_0__injected.jsonl
+bibscan__path-location-drift__s3_0__baseline.jsonl
+bibscan__path-location-drift__s3_0__injected.jsonl
+---- s3 identifier baseline/injected: list_devices + concepts 115
+===  sensorbus__identifier-drift__s3_0__baseline.jsonl
+{"claim_id": "README.md:20:45", "predicate": "DEPENDENCY", "object": "pyserial", "domain": "", "source": "README.md", "raw_context": "Dependencies are declared in pyproject.toml: pyserial>=3.5, numpy>=1.24,", "extraction_source": "regex", "line_start": 42, "line_end": 42, "context": {"version": ">=3.5", "platform": [], "polarity": [], "restriction": [], "time": [], "arch": []}, "negative": false, "assertion_context_version": ">=3.5", "code_verdict": "SUPPORTED", "code_verdict_layer": "", "code_verdict_reason": "", "code_conflicts": [], "supporting_evidence": ["pyserial:pyproject.toml:>=3.5"], "refuting_evidence": [], "evidence": {"pyserial:pyproject.toml:>=3.5": {"source_file": "pyproject.toml", "line_start": 11, "line_end": 11, "snippet": "\"pyserial>=3.5\","}}}
+{"claim_id": "docs/concepts.md:3:0", "predicate": "PATH_EXISTS", "object": "devices.py", "domain": "", "source": "docs/concepts.md", "raw_context": "devices.py     ->  readings.py  ->  calibration.py  ->  units.py", "extraction_source": "regex", "line_start": 10, "line_end": 10, "context": {"version": null, "platform": [], "polarity": [], "restriction": [], "time": [], "arch": []}, "negative": false, "assertion_context_version": null, "code_verdict": "SUPPORTED", "code_verdict_layer": "", "code_verdict_reason": "", "code_conflicts": [], "supporting_evidence": ["file:sensorbus/devices.py"], "refuting_evidence": [], "evidence": {"file:sensorbus/devices.py": {"source_file": "sensorbus/devices.py", "line_start": 1, "line_end": 1, "snippet": ""}}}
+{"claim_id": "README.md:11:143", "predicate": "SYMBOL_EXISTS", "object": "list_devices", "domain": "", "source": "README.md", "raw_context": "`list_devices` — are declared and currently return `None`, and the module", "extraction_source": "regex", "line_start": 21, "line_end": 21, "context": {"version": null, "platform": [], "polarity": [], "restriction": [], "time": ["currently"], "arch": []}, "negative": false, "assertion_context_version": null, "code_verdict": "SUPPORTED", "code_verdict_layer": "", "code_verdict_reason": "", "code_conflicts": [], "supporting_evidence": ["function:sensorbus.devices.list_devices:sensorbus/devices.py:12"], "refuting_evidence": [], "evidence": {"function:sensorbus.devices.list_devices:sensorbus/devices.py:12": {"source_file": "sensorbus/devices.py", "line_start": 12, "line_end": 14, "snippet": "def list_devices() -> list[str]:"}}}
+{"claim_id": "docs/concepts.md:48:71", "predicate": "SYMBOL_EXISTS", "object": "list_devices", "domain": "", "source": "docs/concepts.md", "raw_context": "`list_devices` is declared to return a `list[str]`. Nothing here tries to", "extraction_source": "regex", "line_start": 115, "line_end": 115, "context": {"version": null, "platform": [], "polarity": [], "restriction": [], "time": [], "arch": []}, "negative": false, "assertion_context_version": null, "code_verdict": "SUPPORTED", "code_verdict_layer": "", "code_verdict_reason": "", "code_conflicts": [], "supporting_evidence": ["function:sensorbus.devices.list_devices:sensorbus/devices.py:12"], "refuting_evidence": [], "evidence": {"function:sensorbus.devices.list_devices:sensorbus/devices.py:12": {"source_file": "sensorbus/devices.py", "line_start": 12, "line_end": 14, "snippet": "def list_devices() -> list[str]:"}}}
+{"claim_id": "docs/usage.md:10:57", "predicate": "SYMBOL_EXISTS", "object": "list_devices", "domain": "", "source": "docs/usage.md", "raw_context": "if you already know the port name from your OS, or call `list_devices`, which is", "extraction_source": "regex", "line_start": 21, "line_end": 21, "context": {"version": null, "platform": [], "polarity": [], "restriction": [], "time": [], "arch": []}, "negative": false, "assertion_context_version": null, "code_verdict": "SUPPORTED", "code_verdict_layer": "", "code_verdict_reason": "", "code_conflicts": [], "supporting_evidence": ["function:sensorbus.devices.list_devices:sensorbus/devices.py:12"], "refuting_evidence": [], "evidence": {"function:sensorbus.devices.list_devices:sensorbus/devices.py:12": {"source_file": "sensorbus/devices.py", "line_start": 12, "line_end": 14, "snippet": "def list_devices() -> list[str]:"}}}
+{"claim_id": "docs/concepts.md:48:1", "predicate": "SYMBOL_EXISTS", "object": "serialdevice", "domain": "", "source": "docs/concepts.md", "raw_context": "`SerialDevice` is three attributes — `port`, `baudrate`, `name` — and", "extraction_source": "regex", "line_start": 114, "line_end": 114, "context": {"version": null, "platform": [], "polarity": [], "restriction": [], "time": [], "arch": []}, "negative": false, "assertion_context_version": null, "code_verdict": "SUPPORTED", "code_verdict_layer": "", "code_verdict_reason": "", "code_conflicts": [], "supporting_evidence": ["class:sensorbus.devices.SerialDevice:sensorbus/devices.py:4"], "refuting_evidence": [], "evidence": {"class:sensorbus.devices.SerialDevice:sensorbus/devices.py:4": {"source_file": "sensorbus/devices.py", "line_start": 4, "line_end": 10, "snippet": "class SerialDevice:"}}}
+{"claim_id": "docs/usage.md:97:13", "predicate": "SYMBOL_EXISTS", "object": "serialdevice.port", "domain": "", "source": "docs/usage.md", "raw_context": "What to set `SerialDevice.port`, `.baudrate`, `.name`", "extraction_source": "regex", "line_start": 172, "line_end": 172, "context": {"version": null, "platform": [], "polarity": [], "restriction": [], "time": [], "arch": []}, "negative": false, "assertion_context_version": null, "code_verdict": "NEI", "code_verdict_layer": "WORLD", "code_verdict_reason": "foreign top segment", "code_conflicts": [], "supporting_evidence": [], "refuting_evidence": [], "evidence": {}}
+===  sensorbus__identifier-drift__s3_0__injected.jsonl
+{"claim_id": "README.md:20:45", "predicate": "DEPENDENCY", "object": "pyserial", "domain": "", "source": "README.md", "raw_context": "Dependencies are declared in pyproject.toml: pyserial>=3.5, numpy>=1.24,", "extraction_source": "regex", "line_start": 42, "line_end": 42, "context": {"version": ">=3.5", "platform": [], "polarity": [], "restriction": [], "time": [], "arch": []}, "negative": false, "assertion_context_version": ">=3.5", "code_verdict": "SUPPORTED", "code_verdict_layer": "", "code_verdict_reason": "", "code_conflicts": [], "supporting_evidence": ["pyserial:pyproject.toml:>=3.5"], "refuting_evidence": [], "evidence": {"pyserial:pyproject.toml:>=3.5": {"source_file": "pyproject.toml", "line_start": 11, "line_end": 11, "snippet": "\"pyserial>=3.5\","}}}
+{"claim_id": "docs/concepts.md:3:0", "predicate": "PATH_EXISTS", "object": "devices.py", "domain": "", "source": "docs/concepts.md", "raw_context": "devices.py     ->  readings.py  ->  calibration.py  ->  units.py", "extraction_source": "regex", "line_start": 10, "line_end": 10, "context": {"version": null, "platform": [], "polarity": [], "restriction": [], "time": [], "arch": []}, "negative": false, "assertion_context_version": null, "code_verdict": "SUPPORTED", "code_verdict_layer": "", "code_verdict_reason": "", "code_conflicts": [], "supporting_evidence": ["file:sensorbus/devices.py"], "refuting_evidence": [], "evidence": {"file:sensorbus/devices.py": {"source_file": "sensorbus/devices.py", "line_start": 1, "line_end": 1, "snippet": ""}}}
+{"claim_id": "README.md:11:143", "predicate": "SYMBOL_EXISTS", "object": "list_devices", "domain": "", "source": "README.md", "raw_context": "`list_devices` — are declared and currently return `None`, and the module", "extraction_source": "regex", "line_start": 21, "line_end": 21, "context": {"version": null, "platform": [], "polarity": [], "restriction": [], "time": ["currently"], "arch": []}, "negative": false, "assertion_context_version": null, "code_verdict": "NEI", "code_verdict_layer": "CLAIM_GATE", "code_verdict_reason": "unresolved bare name", "code_conflicts": [], "supporting_evidence": [], "refuting_evidence": [], "evidence": {}}
+{"claim_id": "docs/concepts.md:48:71", "predicate": "SYMBOL_EXISTS", "object": "list_devices", "domain": "", "source": "docs/concepts.md", "raw_context": "`list_devices` is declared to return a `list[str]`. Nothing here tries to", "extraction_source": "regex", "line_start": 115, "line_end": 115, "context": {"version": null, "platform": [], "polarity": [], "restriction": [], "time": [], "arch": []}, "negative": false, "assertion_context_version": null, "code_verdict": "NEI", "code_verdict_layer": "CLAIM_GATE", "code_verdict_reason": "unresolved bare name", "code_conflicts": [], "supporting_evidence": [], "refuting_evidence": [], "evidence": {}}
+{"claim_id": "docs/usage.md:10:57", "predicate": "SYMBOL_EXISTS", "object": "list_devices", "domain": "", "source": "docs/usage.md", "raw_context": "if you already know the port name from your OS, or call `list_devices`, which is", "extraction_source": "regex", "line_start": 21, "line_end": 21, "context": {"version": null, "platform": [], "polarity": [], "restriction": [], "time": [], "arch": []}, "negative": false, "assertion_context_version": null, "code_verdict": "NEI", "code_verdict_layer": "CLAIM_GATE", "code_verdict_reason": "unresolved bare name", "code_conflicts": [], "supporting_evidence": [], "refuting_evidence": [], "evidence": {}}
+{"claim_id": "docs/concepts.md:48:1", "predicate": "SYMBOL_EXISTS", "object": "serialdevice", "domain": "", "source": "docs/concepts.md", "raw_context": "`SerialDevice` is three attributes — `port`, `baudrate`, `name` — and", "extraction_source": "regex", "line_start": 114, "line_end": 114, "context": {"version": null, "platform": [], "polarity": [], "restriction": [], "time": [], "arch": []}, "negative": false, "assertion_context_version": null, "code_verdict": "SUPPORTED", "code_verdict_layer": "", "code_verdict_reason": "", "code_conflicts": [], "supporting_evidence": ["class:sensorbus.devices.SerialDevice:sensorbus/devices.py:4"], "refuting_evidence": [], "evidence": {"class:sensorbus.devices.SerialDevice:sensorbus/devices.py:4": {"source_file": "sensorbus/devices.py", "line_start": 4, "line_end": 10, "snippet": "class SerialDevice:"}}}
+{"claim_id": "docs/usage.md:97:13", "predicate": "SYMBOL_EXISTS", "object": "serialdevice.port", "domain": "", "source": "docs/usage.md", "raw_context": "What to set `SerialDevice.port`, `.baudrate`, `.name`", "extraction_source": "regex", "line_start": 172, "line_end": 172, "context": {"version": null, "platform": [], "polarity": [], "restriction": [], "time": [], "arch": []}, "negative": false, "assertion_context_version": null, "code_verdict": "NEI", "code_verdict_layer": "WORLD", "code_verdict_reason": "foreign top segment", "code_conflicts": [], "supporting_evidence": [], "refuting_evidence": [], "evidence": {}}
+> build · qwen3.8-flash
+Let me check baseline-vs-injected claim changes for the identifier and referent bundles at the recorded lines.
+[0m✗ [0m failed
+[91m[1mError: [0mInvalid arguments for tool "shell":
+- command: Missing key
+
+Arguments provided:
+{}
+
+Update the arguments and call the tool again.
+> build · qwen3.8-flash
+[0m$ [0mcd ./research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20 && python3 - <<'PY'
+import json
+D="claims"
+repos=["sensorbus__identifier-drift__s1_0","sensorbus__identifier-drift__s2_0","sensorbus__identifier-drift__s3_0",
+"sensorbus__removed-referent-drift__s1_0","sensorbus__removed-referent-drift__s2_0","sensorbus__removed-referent-drift__s3_0"]
+man=[json.loads(l) for l in open("manifest.jsonl") if l.strip()]
+for r in repos:
+    ent=[e for e in man if e["repo"]==r][0]
+    base=[json.loads(l) for l in open(f"{D}/{r}__baseline.jsonl") if l.strip()]
+    inj=[json.loads(l) for l in open(f"{D}/{r}__injected.jsonl") if l.strip()]
+    bk={f"{c['source']}|{c['line_start']}|{c['predicate']}|{c['object']}":c for c in base}
+    print("=====",r,"| recorded:",ent["doc_path"],ent["line"],"target:",ent["target"],"old:",ent["old"],"new:",ent["new"])
+    for c in inj:
+        k=f"{c['source']}|{c['line_start']}|{c['predicate']}|{c['object']}"
+        b=bk.get(k)
+        bv=b["code_verdict"] if b else "ABSENT"
+        if bv!=c["code_verdict"]:
+            ev=(b or {}).get("supporting_evidence",[]) if b else []
+            print("  CHG",f"{c['source']}:{c['line_start']}",c["predicate"],c["object"],"->",c["code_verdict"],c["code_verdict_layer"],repr(c["code_verdict_reason"]),"| base:",bv,Ev if False else ev)
+    for c in base:
+        if c["source"]==ent["doc_path"] and c["line_start"]==ent["line"]:
+            print("  @RECLINE-BASE",c["predicate"],c["object"],"->",c["code_verdict"],c["code_verdict_layer"],repr(c["code_verdict_reason"]),c["raw_context"][:90])
+    for c in inj:
+        if c["source"]==ent["doc_path"] and c["line_start"]==ent["line"]:
+            print("  @RECLINE-INJ",c["predicate"],c["object"],"->",c["code_verdict"],c["code_verdict_layer"],repr(c["code_verdict_reason"]),c["raw_context"][:90])
+PY
+===== sensorbus__identifier-drift__s1_0 | recorded: README.md 97 target: CalibrationCurve old: sensorbus.calibration.CalibrationCurve new: CalibrationCurveInjected
+  CHG docs/usage.md:43 SYMBOL_EXISTS calibrationcurve -> NEI CLAIM_GATE 'unresolved bare name' | base: SUPPORTED ['class:sensorbus.calibration.CalibrationCurve:sensorbus/calibration.py:4']
+===== sensorbus__identifier-drift__s2_0 | recorded: docs/concepts.md 74 target: convert old: sensorbus.units.convert new: convertInjected
+  CHG docs/concepts.md:88 SYMBOL_EXISTS convert -> NEI CLAIM_GATE 'unresolved bare name' | base: SUPPORTED ['function:sensorbus.units.convert:sensorbus/units.py:4']
+  CHG docs/usage.md:146 SYMBOL_EXISTS convert -> NEI CLAIM_GATE 'unresolved bare name' | base: SUPPORTED ['function:sensorbus.units.convert:sensorbus/units.py:4']
+  @RECLINE-BASE DEPENDENCY py -> NEI WORLD 'undeclared (open by transitivity)' units.py exposes convert, canonical_unit, and REGISTRY. The registry is
+  @RECLINE-BASE PATH_EXISTS units.py -> SUPPORTED  '' `units.py` exposes `convert`, `canonical_unit`, and `REGISTRY`. The registry is
+  @RECLINE-INJ DEPENDENCY py -> NEI WORLD 'undeclared (open by transitivity)' units.py exposes convert, canonical_unit, and REGISTRY. The registry is
+  @RECLINE-INJ PATH_EXISTS units.py -> SUPPORTED  '' `units.py` exposes `convert`, `canonical_unit`, and `REGISTRY`. The registry is
+===== sensorbus__identifier-drift__s3_0 | recorded: docs/concepts.md 115 target: list_devices old: sensorbus.devices.list_devices new: list_devicesInjected
+  CHG README.md:21 SYMBOL_EXISTS list_devices -> NEI CLAIM_GATE 'unresolved bare name' | base: SUPPORTED ['function:sensorbus.devices.list_devices:sensorbus/devices.py:12']
+  CHG docs/concepts.md:115 SYMBOL_EXISTS list_devices -> NEI CLAIM_GATE 'unresolved bare name' | base: SUPPORTED ['function:sensorbus.devices.list_devices:sensorbus/devices.py:12']
+  CHG docs/usage.md:21 SYMBOL_EXISTS list_devices -> NEI CLAIM_GATE 'unresolved bare name' | base: SUPPORTED ['function:sensorbus.devices.list_devices:sensorbus/devices.py:12']
+  @RECLINE-BASE SYMBOL_EXISTS list_devices -> SUPPORTED  '' `list_devices` is declared to return a `list[str]`. Nothing here tries to
+  @RECLINE-INJ SYMBOL_EXISTS list_devices -> NEI CLAIM_GATE 'unresolved bare name' `list_devices` is declared to return a `list[str]`. Nothing here tries to
+===== sensorbus__removed-referent-drift__s1_0 | recorded: docs/usage.md 20 target: SerialDevice old: sensorbus.devices.SerialDevice new: None
+  CHG docs/concepts.md:114 SYMBOL_EXISTS serialdevice -> NEI CLAIM_GATE 'unresolved bare name' | base: SUPPORTED ['class:sensorbus.devices.SerialDevice:sensorbus/devices.py:4']
+===== sensorbus__removed-referent-drift__s2_0 | recorded: README.md 113 target: SerialDevice old: sensorbus.devices.SerialDevice new: None
+  CHG docs/concepts.md:114 SYMBOL_EXISTS serialdevice -> NEI CLAIM_GATE 'unresolved bare name' | base: SUPPORTED ['class:sensorbus.devices.SerialDevice:sensorbus/devices.py:4']
+===== sensorbus__removed-referent-drift__s3_0 | recorded: docs/concepts.md 115 target: list_devices old: sensorbus.devices.list_devices new: None
+  CHG README.md:21 SYMBOL_EXISTS list_devices -> NEI CLAIM_GATE 'unresolved bare name' | base: SUPPORTED ['function:sensorbus.devices.list_devices:sensorbus/devices.py:12']
+  CHG docs/concepts.md:115 SYMBOL_EXISTS list_devices -> NEI CLAIM_GATE 'unresolved bare name' | base: SUPPORTED ['function:sensorbus.devices.list_devices:sensorbus/devices.py:12']
+  CHG docs/usage.md:21 SYMBOL_EXISTS list_devices -> NEI CLAIM_GATE 'unresolved bare name' | base: SUPPORTED ['function:sensorbus.devices.list_devices:sensorbus/devices.py:12']
+  @RECLINE-BASE SYMBOL_EXISTS list_devices -> SUPPORTED  '' `list_devices` is declared to return a `list[str]`. Nothing here tries to
+  @RECLINE-INJ SYMBOL_EXISTS list_devices -> NEI CLAIM_GATE 'unresolved bare name' `list_devices` is declared to return a `list[str]`. Nothing here tries to
+> build · qwen3.8-flash
+Let me verify the dependency and path bundles' claim dumps (REFUTED evidence, and that the refuted claim sits on the recorded line).
+[0m$ [0mcd ./research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20 && python3 - <<'PY'
+import json
+D="claims"
+for r in ["sensorbus__external-dependency-drift__s1_0","sensorbus__external-dependency-drift__s2_0","sensorbus__external-dependency-drift__s3_0","sensorbus__path-location-drift__s1_0","sensorbus__path-location-drift__s2_0","sensorbus__path-location-drift__s3_0","sensorbus__removed-referent-drift__s1_0","sensorbus__identifier-drift__s1_0"]:
+    base=[json.loads(l) for l in open(f"{D}/{r}__baseline.jsonl") if l.strip()]
+    inj=[json.loads(l) for l in open(f"{D}/{r}__injected.jsonl") if l.strip()]
+    print("=====",r)
+    for c in inj:
+        if c["code_verdict"]=="REFUTED":
+            print("  INJ-REFUTED",f"{c['source']}:{c['line_start']}",c["predicate"],c["object"],"layer",c["code_verdict_layer"],repr(c["code_verdict_reason"]),[e[:60] for e in c.get("refuting_evidence",[])])
+    for c in base:
+        if c["code_verdict"]=="REFUTED":
+            print("  BASE-REFUTED",f"{c['source']}:{c['line_start']}",c["predicate"],c["object"],repr(c["code_verdict_reason"]))
+    # any REFUTED that is absent in baseline by key
+    bk={f"{c['source']}|{c['line_start']}|{c['predicate']}|{c['object']}" for c in base if c["code_verdict"]=="REFUTED"}
+    for c in inj:
+        k=f"{c['source']}|{c['line_start']}|{c['predicate']}|{c['object']}"
+        if c["code_verdict"]=="REFUTED" and k not in bk:
+            print("  NEW-REFUTED",k)
+PY
+===== sensorbus__external-dependency-drift__s1_0
+  INJ-REFUTED README.md:42 DEPENDENCY numpy layer  '' ['numpy:pyproject.toml:>=999']
+  NEW-REFUTED README.md|42|DEPENDENCY|numpy
+===== sensorbus__external-dependency-drift__s2_0
+  INJ-REFUTED README.md:42 DEPENDENCY numpy layer  '' ['numpy:pyproject.toml:>=999']
+  NEW-REFUTED README.md|42|DEPENDENCY|numpy
+===== sensorbus__external-dependency-drift__s3_0
+  INJ-REFUTED README.md:42 DEPENDENCY numpy layer  '' ['numpy:pyproject.toml:>=999']
+  NEW-REFUTED README.md|42|DEPENDENCY|numpy
+===== sensorbus__path-location-drift__s1_0
+  INJ-REFUTED README.md:72 PATH_EXISTS examples/curve_nitrate.csv layer  '' []
+  INJ-REFUTED docs/concepts.md:57 PATH_EXISTS examples/curve_nitrate.csv layer  '' []
+  INJ-REFUTED docs/usage.md:45 PATH_EXISTS examples/curve_nitrate.csv layer  '' []
+  NEW-REFUTED README.md|72|PATH_EXISTS|examples/curve_nitrate.csv
+  NEW-REFUTED docs/concepts.md|57|PATH_EXISTS|examples/curve_nitrate.csv
+  NEW-REFUTED docs/usage.md|45|PATH_EXISTS|examples/curve_nitrate.csv
+===== sensorbus__path-location-drift__s2_0
+  INJ-REFUTED README.md:72 PATH_EXISTS examples/curve_nitrate.csv layer  '' []
+  INJ-REFUTED docs/concepts.md:57 PATH_EXISTS examples/curve_nitrate.csv layer  '' []
+  INJ-REFUTED docs/usage.md:45 PATH_EXISTS examples/curve_nitrate.csv layer  '' []
+  NEW-REFUTED README.md|72|PATH_EXISTS|examples/curve_nitrate.csv
+  NEW-REFUTED docs/concepts.md|57|PATH_EXISTS|examples/curve_nitrate.csv
+  NEW-REFUTED docs/usage.md|45|PATH_EXISTS|examples/curve_nitrate.csv
+===== sensorbus__path-location-drift__s3_0
+  INJ-REFUTED README.md:72 PATH_EXISTS examples/curve_nitrate.csv layer  '' []
+  INJ-REFUTED docs/concepts.md:57 PATH_EXISTS examples/curve_nitrate.csv layer  '' []
+  INJ-REFUTED docs/usage.md:45 PATH_EXISTS examples/curve_nitrate.csv layer  '' []
+  NEW-REFUTED README.md|72|PATH_EXISTS|examples/curve_nitrate.csv
+  NEW-REFUTED docs/concepts.md|57|PATH_EXISTS|examples/curve_nitrate.csv
+  NEW-REFUTED docs/usage.md|45|PATH_EXISTS|examples/curve_nitrate.csv
+===== sensorbus__removed-referent-drift__s1_0
+===== sensorbus__identifier-drift__s1_0
+[0m$ [0mcd ./research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20 && python3 - <<'PY'
+import json
+r="sensorbus__identifier-drift__s1_0"
+for snap in ("baseline","injected"):
+    cl=[json.loads(l) for l in open(f"claims/{r}__{snap}.jsonl") if l.strip()]
+    print("==",snap)
+    for c in cl:
+        if c["source"]=="README.md" and 90<=c["line_start"]<=105:
+            print("  ",c["line_start"],c["predicate"],c["object"],c["code_verdict"],c["code_verdict_layer"],repr(c["code_verdict_reason"]),c["raw_context"][:80])
+r2="sensorbus__removed-referent-drift__s1_0"
+for snap in ("baseline","injected"):
+    cl=[json.loads(l) for l in open(f"claims/{r2}__{snap}.jsonl") if l.strip()]
+    print("== usage.md 15-25 for",r2,snap)
+    for c in cl:
+        if c["source"]=="docs/usage.md" and 15<=c["line_start"]<=25:
+            print("  ",c["line_start"],c["predicate"],c["object"],c["code_verdict"],c["code_verdict_layer"],repr(c["code_verdict_reason"]),c["raw_context"][:80])
+PY
+== baseline
+   99 SYMBOL_EXISTS reference_unit NEI CLAIM_GATE 'unresolved bare name' by its length), and `reference_unit`. `DEFAULT_ORDER` is the module-level
+== injected
+   99 SYMBOL_EXISTS reference_unit NEI CLAIM_GATE 'unresolved bare name' by its length), and `reference_unit`. `DEFAULT_ORDER` is the module-level
+== usage.md 15-25 for sensorbus__removed-referent-drift__s1_0 baseline
+   21 SYMBOL_EXISTS list_devices SUPPORTED  '' if you already know the port name from your OS, or call `list_devices`, which is
+== usage.md 15-25 for sensorbus__removed-referent-drift__s1_0 injected
+   21 SYMBOL_EXISTS list_devices SUPPORTED  '' if you already know the port name from your OS, or call `list_devices`, which is
+> build · qwen3.8-flash
+{"verdicts":[{"id":"sensorbus__external-dependency-drift__s1_0::0","reaction":"refuted","reason":"New REFUTED DEPENDENCY claim README.md:42 object 'numpy' (refuting evidence numpy:pyproject.toml:>=999 vs documented numpy>=1.24). Same dependency artifact by normalized package name + requirement relation; no such REFUTED in baseline. target_line_status=refuted (recorded README.md:42), attribution=target_line."},{"id":"sensorbus__external-dependency-drift__s2_0::0","reaction":"refuted","reason":"New REFUTED DEPENDENCY claim README.md:42 object 'numpy' (refuting evidence numpy:pyproject.toml:>=999). Same-artifact dependency match (numpy, requirement relation); absent from baseline. target_line_status=refuted (recorded README.md:42), attribution=target_line."},{"id":"sensorbus__external-dependency-drift__s3_0::0","reaction":"refuted","reason":"New REFUTED DEPENDENCY claim README.md:42 object 'numpy' (refuting evidence numpy:pyproject.toml:>=999). Same-artifact dependency match; not REFUTED in baseline. target_line_status=refuted (recorded README.md:42), attribution=target_line."},{"id":"sensorbus__identifier-drift__s1_0::0","reaction":"nei","reason":"No new same-artifact REFUTED anywhere in the diff. Same-artifact claim formed and abstains: docs/usage.md:43 SYMBOL_EXISTS 'calibrationcurve' (the mention the baseline resolved to sensorbus.calibration.CalibrationCurve, i.e. the injected M.T) -> NEI, layer CLAIM_GATE, verbatim reason 'unresolved bare name'. target_line_status=none/no_claim: no claim is formed at the recorded README.md:97; attribution=other_mention."},{"id":"sensorbus__identifier-drift__s2_0::0","reaction":"nei","reason":"No new same-artifact REFUTED. Same-artifact claims abstain: docs/concepts.md:88 and docs/usage.md:146 SYMBOL_EXISTS 'convert', both baseline-resolved to sensorbus.units.convert (injected M.T) -> NEI, layer CLAIM_GATE, verbatim reason 'unresolved bare name'. target_line_status=none/other_referent: recorded docs/concepts.md:74 is covered only by DEPENDENCY 'py' and PATH_EXISTS 'units.py'; attribution=other_mention."},{"id":"sensorbus__identifier-drift__s3_0::0","reaction":"nei","reason":"No new same-artifact REFUTED. Same-artifact claims abstain on and off the line: docs/concepts.md:115 (recorded doc+line), README.md:21, docs/usage.md:21 SYMBOL_EXISTS 'list_devices', all baseline-resolved to sensorbus.devices.list_devices -> NEI, layer CLAIM_GATE, verbatim reason 'unresolved bare name'. target_line_status=nei, attribution=both."},{"id":"sensorbus__path-location-drift__s1_0::0","reaction":"refuted","reason":"New REFUTED PATH_EXISTS claims for object 'examples/curve_nitrate.csv' at README.md:72, docs/concepts.md:57, docs/usage.md:45 - normalized inventory path equal to the injected artifact (renamed to examples/nitrate_calibration.csv); absent from baseline. target_line_status=refuted (recorded README.md:72), attribution=both."},{"id":"sensorbus__path-location-drift__s2_0::0","reaction":"refuted","reason":"New REFUTED PATH_EXISTS 'examples/curve_nitrate.csv' at README.md:72 plus docs/concepts.md:57 and docs/usage.md:45; path match to the injected artifact (moved to examples/nitrate_calibration.csv). target_line_status=refuted (recorded README.md:72), attribution=both."},{"id":"sensorbus__path-location-drift__s3_0::0","reaction":"refuted","reason":"New REFUTED PATH_EXISTS 'examples/curve_nitrate.csv' at README.md:72 plus docs/concepts.md:57 and docs/usage.md:45; path match to the injected artifact (moved to examples/curve_nitrate_01.csv). target_line_status=refuted (recorded README.md:72), attribution=both."},{"id":"sensorbus__removed-referent-drift__s1_0::0","reaction":"nei","reason":"No new same-artifact REFUTED. Same-artifact claim abstains: docs/concepts.md:114 SYMBOL_EXISTS 'serialdevice' (baseline-resolved to sensorbus.devices.SerialDevice, the deleted referent) -> NEI, layer CLAIM_GATE, verbatim reason 'unresolved bare name'. target_line_status=none/no_claim: no claim at the recorded docs/usage.md:20; attribution=other_mention. (docs/usage.md:172 'serialdevice.port' NEI 'foreign top segment' is a different referent, not credited.)"},{"id":"sensorbus__removed-referent-drift__s2_0::0","reaction":"nei","reason":"No new same-artifact REFUTED. Same-artifact claim abstains: docs/concepts.md:114 SYMBOL_EXISTS 'serialdevice' -> NEI, layer CLAIM_GATE, verbatim reason 'unresolved bare name'; referent is the injected/removed sensorbus.devices.SerialDevice. target_line_status=none/no_claim: no claim at the recorded README.md:113; attribution=other_mention."},{"id":"sensorbus__removed-referent-drift__s3_0::0","reaction":"nei","reason":"No new same-artifact REFUTED. Same-artifact claims abstain: docs/concepts.md:115 (recorded doc+line), README.md:21, docs/usage.md:21 SYMBOL_EXISTS 'list_devices', referent sensorbus.devices.list_devices as established in the baseline -> NEI, layer CLAIM_GATE, verbatim reason 'unresolved bare name'. target_line_status=nei, attribution=both."}]}

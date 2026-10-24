@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "artifact_class": "identifier",
+    "direction": "code_side",
+    "kind": "symbol_rename",
+    "file": "tidecast/routes.py",
+    "old": "tidecast.routes.RouteTable",
+    "new": "tidecast.routes.RouteTableRenamed",
+    "symbol": "RouteTable",
+    "target": "tidecast.routes.RouteTable",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "`tidecast.routes.RouteTable` collects the served routes and offers an add operation.",
+    "target_claim": "docs/api.md states that `tidecast.routes.RouteTable` is the class that collects the served routes; after the definition is renamed, the documented qualified identifier no longer resolves in the project's code.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "Followed the exemplar pattern of renaming a documented code symbol in place (the mmap -> mmap_prepare function rename and the module path rename). `RouteTable` is a unique top-level class the API reference names in qualified form as the current routing artifact, so renaming its definition leaves that reference stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"artifact_class\": \"identifier\",\n  \"direction\": \"code_side\",\n  \"kind\": \"symbol_rename\",\n  \"file\": \"tidecast/routes.py\",\n  \"old\": \"tidecast.routes.RouteTable\",\n  \"new\": \"tidecast.routes.RouteTableRenamed\",\n  \"symbol\": \"RouteTable\",\n  \"target\": \"tidecast.routes.RouteTable\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"`tidecast.routes.RouteTable` collects the served routes and offers an add operation.\",\n  \"target_claim\": \"docs/api.md states that `tidecast.routes.RouteTable` is the class that collects the served routes; after the definition is renamed, the documented qualified identifier no longer resolves in the project's code.\",\n  \"exemplar_ids\": [\"example 1\", \"example 2\"],\n  \"rationale\": \"Followed the exemplar pattern of renaming a documented code symbol in place (the mmap -> mmap_prepare function rename and the module path rename). `RouteTable` is a unique top-level class the API reference names in qualified form as the current routing artifact, so renaming its definition leaves that reference stale.\"\n}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "gridwatch/readers.py",
+    "old": "read_csv",
+    "new": "read_intervals_csv",
+    "symbol": "read_csv",
+    "target": "read_csv",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `read_csv() -> list[Reading]`",
+    "target_claim": "docs/api.md presents `read_csv()` as the current public function in `gridwatch.readers` that reads interval readings from a CSV file and returns a list of `Reading` objects.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2",
+      "example 3"
+    ],
+    "rationale": "The API reference names `read_csv` as a current public reader function, so renaming its definition in `gridwatch/readers.py` leaves the document describing a symbol that no longer exists."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"gridwatch/readers.py\", \"old\": \"read_csv\", \"new\": \"read_intervals_csv\", \"symbol\": \"read_csv\", \"target\": \"read_csv\", \"doc_path\": \"docs/api.md\", \"doc_line_text\": \"### `read_csv() -> list[Reading]`\", \"target_claim\": \"docs/api.md presents `read_csv()` as the current public function in `gridwatch.readers` that reads interval readings from a CSV file and returns a list of `Reading` objects.\", \"exemplar_ids\": [\"example 1\", \"example 2\", \"example 3\"], \"rationale\": \"The API reference names `read_csv` as a current public reader function, so renaming its definition in `gridwatch/readers.py` leaves the document describing a symbol that no longer exists.\"}",
+  "stderr_tail": ""
+}

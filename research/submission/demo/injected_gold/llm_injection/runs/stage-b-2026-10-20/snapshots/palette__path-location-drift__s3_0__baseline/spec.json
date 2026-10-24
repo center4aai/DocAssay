@@ -1,0 +1,46 @@
+{
+  "project": {
+    "name": "palette",
+    "pkg": "palette",
+    "version": "0.4.0",
+    "description": "A small library for parsing colors, generating harmonious palettes, and checking WCAG contrast ratios."
+  },
+  "dependencies": [
+    {"name": "click", "constraint": ">=8.1"}
+  ],
+  "modules": [
+    {"path": "palette/colors.py",
+     "symbols": [
+       {"name": "Color", "kind": "class", "return_type": null, "members": ["red", "green", "blue", "alpha"]},
+       {"name": "parse_color", "kind": "function", "return_type": "Color", "members": []}
+     ]},
+    {"path": "palette/convert.py",
+     "symbols": [
+       {"name": "HSL", "kind": "class", "return_type": null, "members": ["hue", "saturation", "lightness"]},
+       {"name": "to_hsl", "kind": "function", "return_type": "HSL", "members": []}
+     ]},
+    {"path": "palette/harmony.py",
+     "symbols": [
+       {"name": "HARMONY_SCHEMES", "kind": "constant", "return_type": null, "members": []},
+       {"name": "generate_palette", "kind": "function", "return_type": "list[Color]", "members": []}
+     ]},
+    {"path": "palette/contrast.py",
+     "symbols": [
+       {"name": "WCAG_AA_MINIMUM", "kind": "constant", "return_type": null, "members": []},
+       {"name": "contrast_ratio", "kind": "function", "return_type": "float", "members": []},
+       {"name": "passes_aa", "kind": "function", "return_type": "bool", "members": []}
+     ]},
+    {"path": "palette/cli.py",
+     "symbols": [
+       {"name": "main", "kind": "function", "return_type": "int", "members": []}
+     ]}
+  ],
+  "docs": [
+    {"path": "README.md", "kind": "readme"},
+    {"path": "docs/guide.md", "kind": "guide"},
+    {"path": "docs/api.md", "kind": "reference"}
+  ],
+  "example_commands": [
+    "palette contrast '#333333' '#ffffff'"
+  ]
+}

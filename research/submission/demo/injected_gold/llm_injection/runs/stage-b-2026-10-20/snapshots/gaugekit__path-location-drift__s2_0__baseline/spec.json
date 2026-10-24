@@ -1,0 +1,49 @@
+{
+  "project": {
+    "name": "gaugekit",
+    "pkg": "gaugekit",
+    "version": "0.4.2",
+    "description": "A small library for loading public stream-gauge CSV exports and computing summary statistics for discharge and gauge height."
+  },
+  "dependencies": [
+    {"name": "numpy", "constraint": ">=1.24"}
+  ],
+  "modules": [
+    {"path": "gaugekit/models.py",
+     "symbols": [
+       {"name": "Reading", "kind": "class", "return_type": null, "members": ["timestamp", "discharge_cfs", "gauge_height_ft"]},
+       {"name": "GaugeSeries", "kind": "class", "return_type": null, "members": ["station_id", "readings"]}
+     ]},
+    {"path": "gaugekit/loader.py",
+     "symbols": [
+       {"name": "load_csv", "kind": "function", "return_type": "GaugeSeries", "members": []},
+       {"name": "read_station_id", "kind": "function", "return_type": "str", "members": []}
+     ]},
+    {"path": "gaugekit/stats.py",
+     "symbols": [
+       {"name": "summarize", "kind": "function", "return_type": "dict[str, float]", "members": []},
+       {"name": "monthly_means", "kind": "function", "return_type": "dict[str, float]", "members": []}
+     ]},
+    {"path": "gaugekit/units.py",
+     "symbols": [
+       {"name": "CFS_PER_CMS", "kind": "constant", "return_type": null, "members": []},
+       {"name": "cfs_to_cms", "kind": "function", "return_type": "float", "members": []}
+     ]},
+    {"path": "gaugekit/errors.py",
+     "symbols": [
+       {"name": "GaugeFormatError", "kind": "class", "return_type": null, "members": ["line_number", "message"]}
+     ]}
+  ],
+  "docs": [
+    {"path": "README.md", "kind": "readme"},
+    {"path": "docs/guide.md", "kind": "guide"},
+    {"path": "docs/api.md", "kind": "reference"}
+  ],
+  "paths": ["examples/sample_gauge.csv"],
+  "data_files": [
+    {
+      "path": "examples/sample_gauge.csv",
+      "text": "station_id,timestamp,discharge_cfs,gauge_height_ft\n01646500,2026-01-01T00:00:00,412.0,3.41\n01646500,2026-01-01T01:00:00,405.5,3.38\n01646500,2026-02-01T00:00:00,530.2,3.92\n01646500,2026-02-01T01:00:00,548.9,3.99\n"
+    }
+  ]
+}

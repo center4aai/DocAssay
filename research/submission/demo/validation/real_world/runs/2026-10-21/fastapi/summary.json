@@ -1,0 +1,17 @@
+{
+  "repo": "fastapi",
+  "docs": 187,
+  "claims": 5385,
+  "referents": 633,
+  "evidence": 15581,
+  "verdicts": {
+    "REFUTED": 23,
+    "NEI": 334,
+    "SUPPORTED": 349
+  },
+  "refuted_by_predicate": {
+    "DEPENDENCY": 4,
+    "PATH_EXISTS": 19
+  },
+  "seconds": 10.8
+}

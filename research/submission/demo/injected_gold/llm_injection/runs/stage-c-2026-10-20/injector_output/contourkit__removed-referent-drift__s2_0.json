@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "contourkit/cli.py",
+    "old": "main",
+    "new": null,
+    "symbol": "main",
+    "target": "main()",
+    "doc_path": "README.md",
+    "doc_line_text": "`contourkit.cli` provides `main()`, which returns an integer exit code, and the",
+    "target_claim": "contourkit.cli provides main() as the command entry point that returns an integer exit code.",
+    "exemplar_ids": [
+      "example-1"
+    ],
+    "rationale": "The README presents main() as the current in-process command entry point of contourkit.cli, making its definition a natural current-API artifact."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"removed-referent-drift\", \"direction\": \"code_side\", \"file\": \"contourkit/cli.py\", \"old\": \"main\", \"new\": null, \"symbol\": \"main\", \"target\": \"main()\", \"doc_path\": \"README.md\", \"doc_line_text\": \"`contourkit.cli` provides `main()`, which returns an integer exit code, and the\", \"target_claim\": \"contourkit.cli provides main() as the command entry point that returns an integer exit code.\", \"exemplar_ids\": [\"example-1\"], \"rationale\": \"The README presents main() as the current in-process command entry point of contourkit.cli, making its definition a natural current-API artifact.\"}",
+  "stderr_tail": ""
+}

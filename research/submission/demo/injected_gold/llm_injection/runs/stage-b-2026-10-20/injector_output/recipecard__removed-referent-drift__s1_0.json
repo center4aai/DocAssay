@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "recipecard/scaling.py",
+    "old": "scale_quantity",
+    "new": null,
+    "symbol": "scale_quantity",
+    "target": "scale_quantity",
+    "doc_path": "docs/guide.md",
+    "doc_line_text": "- `scale_quantity` returns a single quantity as a `float`.",
+    "target_claim": "The scaling API includes a function named scale_quantity that returns a single quantity as a float.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "The guide presents scale_quantity as a present-tense member of the public scaling API, and it is a standalone definition with no internal callers, so deleting it leaves a clean removed referent."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"removed-referent-drift\", \"direction\": \"code_side\", \"file\": \"recipecard/scaling.py\", \"old\": \"scale_quantity\", \"new\": null, \"symbol\": \"scale_quantity\", \"target\": \"scale_quantity\", \"doc_path\": \"docs/guide.md\", \"doc_line_text\": \"- `scale_quantity` returns a single quantity as a `float`.\", \"target_claim\": \"The scaling API includes a function named scale_quantity that returns a single quantity as a float.\", \"exemplar_ids\": [\"example 1\", \"example 2\"], \"rationale\": \"The guide presents scale_quantity as a present-tense member of the public scaling API, and it is a standalone definition with no internal callers, so deleting it leaves a clean removed referent.\"}",
+  "stderr_tail": ""
+}

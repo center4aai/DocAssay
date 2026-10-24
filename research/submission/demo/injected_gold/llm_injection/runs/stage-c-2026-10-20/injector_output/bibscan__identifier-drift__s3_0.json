@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "bibscan/names.py",
+    "old": "format_name",
+    "new": "format_person_name",
+    "symbol": "format_name",
+    "target": "format_name",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "| `bibscan.names` | `PARTICLES`, `parse_names`, `format_name` |",
+    "target_claim": "The `bibscan.names` module exposes a function named `format_name`, listed alongside `PARTICLES` and `parse_names` as part of its contents.",
+    "exemplar_ids": [
+      "example_3"
+    ],
+    "rationale": "The module summary table presents `format_name` as a current public function of `bibscan.names`, so renaming the top-level definition to the equally plain `format_person_name` makes that checkable statement false."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"bibscan/names.py\", \"old\": \"format_name\", \"new\": \"format_person_name\", \"symbol\": \"format_name\", \"target\": \"format_name\", \"doc_path\": \"docs/api.md\", \"doc_line_text\": \"| `bibscan.names` | `PARTICLES`, `parse_names`, `format_name` |\", \"target_claim\": \"The `bibscan.names` module exposes a function named `format_name`, listed alongside `PARTICLES` and `parse_names` as part of its contents.\", \"exemplar_ids\": [\"example_3\"], \"rationale\": \"The module summary table presents `format_name` as a current public function of `bibscan.names`, so renaming the top-level definition to the equally plain `format_person_name` makes that checkable statement false.\"}",
+  "stderr_tail": ""
+}

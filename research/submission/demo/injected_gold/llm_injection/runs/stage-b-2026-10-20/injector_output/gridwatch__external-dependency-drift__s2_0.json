@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "PyYAML>=6.0",
+    "new": "PyYAML>=999",
+    "symbol": "pyyaml",
+    "target": "PyYAML>=6.0",
+    "doc_path": "README.md",
+    "doc_line_text": "- `PyYAML>=6.0`",
+    "target_claim": "PyYAML is a declared runtime dependency constrained to version 6.0 or newer.",
+    "exemplar_ids": [
+      "example 1",
+      "example 3"
+    ],
+    "rationale": "The README explicitly lists PyYAML>=6.0 as a current runtime dependency declared in pyproject.toml, making it a natural checkable requirement."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\":true,\"drift_type\":\"external-dependency-drift\",\"direction\":\"code_side\",\"file\":\"pyproject.toml\",\"old\":\"PyYAML>=6.0\",\"new\":\"PyYAML>=999\",\"symbol\":\"pyyaml\",\"target\":\"PyYAML>=6.0\",\"doc_path\":\"README.md\",\"doc_line_text\":\"- `PyYAML>=6.0`\",\"target_claim\":\"PyYAML is a declared runtime dependency constrained to version 6.0 or newer.\",\"exemplar_ids\":[\"example 1\",\"example 3\"],\"rationale\":\"The README explicitly lists PyYAML>=6.0 as a current runtime dependency declared in pyproject.toml, making it a natural checkable requirement.\"}",
+  "stderr_tail": ""
+}

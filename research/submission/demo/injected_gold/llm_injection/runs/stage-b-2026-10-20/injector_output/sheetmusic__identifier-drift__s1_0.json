@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "sheetmusic/notes.py",
+    "old": "note_to_semitone",
+    "new": "note_name_to_semitone",
+    "symbol": "note_to_semitone",
+    "target": "note_to_semitone()",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `note_to_semitone() -> int`",
+    "target_claim": "The API reference lists note_to_semitone() as a current function in sheetmusic.notes.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2",
+      "example 4"
+    ],
+    "rationale": "The API reference presents note_to_semitone() as a current public function, so renaming its definition is a natural identifier drift."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\":true,\"drift_type\":\"identifier-drift\",\"direction\":\"code_side\",\"file\":\"sheetmusic/notes.py\",\"old\":\"note_to_semitone\",\"new\":\"note_name_to_semitone\",\"symbol\":\"note_to_semitone\",\"target\":\"note_to_semitone()\",\"doc_path\":\"docs/api.md\",\"doc_line_text\":\"### `note_to_semitone() -> int`\",\"target_claim\":\"The API reference lists note_to_semitone() as a current function in sheetmusic.notes.\",\"exemplar_ids\":[\"example 1\",\"example 2\",\"example 4\"],\"rationale\":\"The API reference presents note_to_semitone() as a current public function, so renaming its definition is a natural identifier drift.\"}",
+  "stderr_tail": ""
+}

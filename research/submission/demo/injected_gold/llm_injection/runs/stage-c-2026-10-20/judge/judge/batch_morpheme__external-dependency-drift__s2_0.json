@@ -1,0 +1,33 @@
+{
+  "repo": "morpheme__external-dependency-drift__s2_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "README.md",
+        "line": 10,
+        "predicate": "DEPENDENCY",
+        "object": "pyyaml",
+        "reason": ""
+      }
+    ],
+    "new_nei": [],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "morpheme__external-dependency-drift__s2_0::0",
+      "repo": "morpheme__external-dependency-drift__s2_0",
+      "op_id": "llm.external-dependency-drift",
+      "canonical_class": "external-dependency-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "pyyaml",
+        "new": ">=999",
+        "doc_path": "README.md",
+        "target": "PyYAML>=6.0"
+      }
+    }
+  ]
+}

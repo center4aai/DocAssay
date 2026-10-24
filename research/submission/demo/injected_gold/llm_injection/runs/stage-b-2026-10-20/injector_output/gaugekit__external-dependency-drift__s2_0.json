@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "numpy>=1.24",
+    "new": "numpy>=999",
+    "symbol": "numpy",
+    "target": "numpy>=1.24",
+    "doc_path": "README.md",
+    "doc_line_text": "gaugekit depends on NumPy (`numpy>=1.24`). From a checkout of the repository:",
+    "target_claim": "NumPy is a current install requirement with version constraint numpy>=1.24.",
+    "exemplar_ids": [
+      "example-1",
+      "example-4"
+    ],
+    "rationale": "The installation section states the project's dependency constraint in the present tense, exactly the kind of version requirement a manifest edit can falsify."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \"numpy>=1.24\", \"new\": \"numpy>=999\", \"symbol\": \"numpy\", \"target\": \"numpy>=1.24\", \"doc_path\": \"README.md\", \"doc_line_text\": \"gaugekit depends on NumPy (`numpy>=1.24`). From a checkout of the repository:\", \"target_claim\": \"NumPy is a current install requirement with version constraint numpy>=1.24.\", \"exemplar_ids\": [\"example-1\", \"example-4\"], \"rationale\": \"The installation section states the project's dependency constraint in the present tense, exactly the kind of version requirement a manifest edit can falsify.\"}",
+  "stderr_tail": ""
+}

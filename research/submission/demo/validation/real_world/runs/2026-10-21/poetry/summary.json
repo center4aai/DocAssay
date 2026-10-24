@@ -1,0 +1,16 @@
+{
+  "repo": "poetry",
+  "docs": 45,
+  "claims": 1732,
+  "referents": 194,
+  "evidence": 7589,
+  "verdicts": {
+    "REFUTED": 1,
+    "NEI": 151,
+    "SUPPORTED": 74
+  },
+  "refuted_by_predicate": {
+    "DEPENDENCY": 1
+  },
+  "seconds": 2.7
+}

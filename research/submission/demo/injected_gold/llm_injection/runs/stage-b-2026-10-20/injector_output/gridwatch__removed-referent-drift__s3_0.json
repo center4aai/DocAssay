@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "gridwatch/readers.py",
+    "old": "read_json",
+    "new": null,
+    "symbol": "read_json",
+    "target": "read_json",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `read_json() -> list[Reading]`",
+    "target_claim": "The API reference lists `read_json()` as a current `gridwatch.readers` function that reads JSON interval readings and returns a list of `Reading` objects.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "`read_json` is presented as current public API and is not imported or called elsewhere in the source, so deleting its definition leaves a natural stale documentation reference."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"gridwatch/readers.py\",\n  \"old\": \"read_json\",\n  \"new\": null,\n  \"symbol\": \"read_json\",\n  \"target\": \"read_json\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"### `read_json() -> list[Reading]`\",\n  \"target_claim\": \"The API reference lists `read_json()` as a current `gridwatch.readers` function that reads JSON interval readings and returns a list of `Reading` objects.\",\n  \"exemplar_ids\": [\"example 1\"],\n  \"rationale\": \"`read_json` is presented as current public API and is not imported or called elsewhere in the source, so deleting its definition leaves a natural stale documentation reference.\"\n}",
+  "stderr_tail": ""
+}

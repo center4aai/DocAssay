@@ -1,0 +1,95 @@
+{
+  "project": {
+    "name": "tidecast",
+    "pkg": "tidecast",
+    "version": "0.4.1",
+    "description": "A small local weather-forecast cache that fetches forecasts and serves them from a JSON-file store."
+  },
+  "dependencies": [
+    {"name": "requests", "constraint": ">=2.31"},
+    {"name": "flask", "constraint": ">=3.0"},
+    {"name": "click", "constraint": ">=8.1"},
+    {"name": "platformdirs", "constraint": ">=4.2"}
+  ],
+  "modules": [
+    {
+      "path": "tidecast/models.py",
+      "symbols": [
+        {"name": "Forecast", "kind": "class", "return_type": null, "members": ["station_id", "issued_at", "temperature_c", "sky_condition"]},
+        {"name": "parse_forecast", "kind": "function", "return_type": "Forecast", "members": []}
+      ]
+    },
+    {
+      "path": "tidecast/store.py",
+      "symbols": [
+        {"name": "ForecastStore", "kind": "class", "return_type": null, "members": ["root", "load", "save"]},
+        {"name": "default_store", "kind": "function", "return_type": "ForecastStore", "members": []}
+      ]
+    },
+    {
+      "path": "tidecast/routes.py",
+      "symbols": [
+        {"name": "RouteTable", "kind": "class", "return_type": null, "members": ["routes", "add"]},
+        {"name": "build_routes", "kind": "function", "return_type": "RouteTable", "members": []}
+      ]
+    },
+    {
+      "path": "tidecast/config.py",
+      "symbols": [
+        {"name": "Settings", "kind": "class", "return_type": null, "members": ["home", "log_level", "cache_ttl"]},
+        {"name": "load_settings", "kind": "function", "return_type": "Settings", "members": []}
+      ]
+    },
+    {
+      "path": "tidecast/cli.py",
+      "symbols": [
+        {"name": "main", "kind": "function", "return_type": null, "members": []},
+        {"name": "serve", "kind": "function", "return_type": null, "members": []}
+      ]
+    }
+  ],
+  "config_keys": [
+    "TIDECAST_HOME",
+    "TIDECAST_LOG_LEVEL",
+    "TIDECAST_CACHE_TTL",
+    "TIDECAST_HTTP_PORT"
+  ],
+  "endpoints": [
+    "/v1/forecast",
+    "/v1/stations",
+    "/v1/health"
+  ],
+  "schema_fields": [
+    "station_id",
+    "issued_at",
+    "temperature_c",
+    "sky_condition"
+  ],
+  "enum_members": [
+    "SKY_CLEAR",
+    "SKY_CLOUDY",
+    "SKY_RAIN"
+  ],
+  "example_commands": [
+    "python -m tidecast serve --port 8080",
+    "pytest -q"
+  ],
+  "paths": [
+    "examples/forecast.json"
+  ],
+  "data_files": [
+    {
+      "path": "examples/forecast.json",
+      "content": "{\n  \"station_id\": \"KSFO\",\n  \"issued_at\": \"2026-10-12T09:00:00Z\",\n  \"temperature_c\": 16.5,\n  \"sky_condition\": \"SKY_CLOUDY\"\n}\n"
+    }
+  ],
+  "cross_doc_tokens": [
+    "examples/forecast.json",
+    "tidecast.models.Forecast"
+  ],
+  "docs": [
+    {"path": "README.md", "kind": "readme"},
+    {"path": "docs/configuration.md", "kind": "guide"},
+    {"path": "docs/api.md", "kind": "reference"}
+  ]
+}

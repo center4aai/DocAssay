@@ -1,0 +1,224 @@
+{
+  "overall": {
+    "refuted": {
+      "outcome": "refuted",
+      "point": 0.486,
+      "ci95": [
+        0.375,
+        0.611
+      ],
+      "n_entries": 72,
+      "n_clusters": 6,
+      "replicates": 10000,
+      "seed": 20261020,
+      "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+    },
+    "nei": {
+      "outcome": "nei",
+      "point": 0.097,
+      "ci95": [
+        0.042,
+        0.167
+      ],
+      "n_entries": 72,
+      "n_clusters": 6,
+      "replicates": 10000,
+      "seed": 20261020,
+      "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+    },
+    "none": {
+      "outcome": "none",
+      "point": 0.417,
+      "ci95": [
+        0.278,
+        0.569
+      ],
+      "n_entries": 72,
+      "n_clusters": 6,
+      "replicates": 10000,
+      "seed": 20261020,
+      "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+    }
+  },
+  "by_class": {
+    "external-dependency-drift": {
+      "refuted": {
+        "outcome": "refuted",
+        "point": 0.778,
+        "ci95": [
+          0.444,
+          1.0
+        ],
+        "n_entries": 18,
+        "n_clusters": 6,
+        "replicates": 10000,
+        "seed": 20261020,
+        "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+      },
+      "nei": {
+        "outcome": "nei",
+        "point": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_entries": 18,
+        "n_clusters": 6,
+        "replicates": 10000,
+        "seed": 20261020,
+        "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+      },
+      "none": {
+        "outcome": "none",
+        "point": 0.222,
+        "ci95": [
+          0.0,
+          0.556
+        ],
+        "n_entries": 18,
+        "n_clusters": 6,
+        "replicates": 10000,
+        "seed": 20261020,
+        "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+      }
+    },
+    "identifier-drift": {
+      "refuted": {
+        "outcome": "refuted",
+        "point": 0.056,
+        "ci95": [
+          0.0,
+          0.167
+        ],
+        "n_entries": 18,
+        "n_clusters": 6,
+        "replicates": 10000,
+        "seed": 20261020,
+        "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+      },
+      "nei": {
+        "outcome": "nei",
+        "point": 0.056,
+        "ci95": [
+          0.0,
+          0.167
+        ],
+        "n_entries": 18,
+        "n_clusters": 6,
+        "replicates": 10000,
+        "seed": 20261020,
+        "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+      },
+      "none": {
+        "outcome": "none",
+        "point": 0.889,
+        "ci95": [
+          0.778,
+          1.0
+        ],
+        "n_entries": 18,
+        "n_clusters": 6,
+        "replicates": 10000,
+        "seed": 20261020,
+        "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+      }
+    },
+    "path-location-drift": {
+      "refuted": {
+        "outcome": "refuted",
+        "point": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n_entries": 18,
+        "n_clusters": 6,
+        "replicates": 10000,
+        "seed": 20261020,
+        "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+      },
+      "nei": {
+        "outcome": "nei",
+        "point": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_entries": 18,
+        "n_clusters": 6,
+        "replicates": 10000,
+        "seed": 20261020,
+        "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+      },
+      "none": {
+        "outcome": "none",
+        "point": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_entries": 18,
+        "n_clusters": 6,
+        "replicates": 10000,
+        "seed": 20261020,
+        "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+      }
+    },
+    "removed-referent-drift": {
+      "refuted": {
+        "outcome": "refuted",
+        "point": 0.111,
+        "ci95": [
+          0.0,
+          0.333
+        ],
+        "n_entries": 18,
+        "n_clusters": 6,
+        "replicates": 10000,
+        "seed": 20261020,
+        "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+      },
+      "nei": {
+        "outcome": "nei",
+        "point": 0.333,
+        "ci95": [
+          0.111,
+          0.611
+        ],
+        "n_entries": 18,
+        "n_clusters": 6,
+        "replicates": 10000,
+        "seed": 20261020,
+        "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+      },
+      "none": {
+        "outcome": "none",
+        "point": 0.556,
+        "ci95": [
+          0.222,
+          0.889
+        ],
+        "n_entries": 18,
+        "n_clusters": 6,
+        "replicates": 10000,
+        "seed": 20261020,
+        "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+      }
+    }
+  },
+  "controls": {
+    "precision": {
+      "outcome": "clean",
+      "point": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "n_entries": 18,
+      "n_clusters": 6,
+      "replicates": 10000,
+      "seed": 20261020,
+      "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+    }
+  }
+}

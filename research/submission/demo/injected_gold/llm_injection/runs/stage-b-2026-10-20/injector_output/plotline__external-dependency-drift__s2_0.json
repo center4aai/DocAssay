@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "numpy>=1.24",
+    "new": "numpy>=999",
+    "symbol": "numpy",
+    "target": "numpy>=1.24",
+    "doc_path": "README.md",
+    "doc_line_text": "`numpy>=1.24`. Install it from a local checkout with pip:",
+    "target_claim": "The project manifest declares a dependency on numpy>=1.24.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "The Installation section states the project's current declared numpy version requirement, an ordinary checkable fact about pyproject.toml."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"external-dependency-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"pyproject.toml\",\n  \"old\": \"numpy>=1.24\",\n  \"new\": \"numpy>=999\",\n  \"symbol\": \"numpy\",\n  \"target\": \"numpy>=1.24\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"`numpy>=1.24`. Install it from a local checkout with pip:\",\n  \"target_claim\": \"The project manifest declares a dependency on numpy>=1.24.\",\n  \"exemplar_ids\": [\"example 1\"],\n  \"rationale\": \"The Installation section states the project's current declared numpy version requirement, an ordinary checkable fact about pyproject.toml.\"\n}",
+  "stderr_tail": ""
+}

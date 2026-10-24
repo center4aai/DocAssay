@@ -1,0 +1,35 @@
+{
+  "alert_id": "triaged:ident-immosquare-my-ip",
+  "commit_sha": "92ab4acea6a497ddcbd53641fcbbcb655379eff5",
+  "commit_url": "https://github.com/immosquare/immosquare-constants/commit/92ab4acea6a497ddcbd53641fcbbcb655379eff5",
+  "files": [
+    {
+      "added": [
+        "| Module     | Fichier                              | Description                                                                                                                                                                                                                                                                                                                                    |",
+        "| ---------- | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |",
+        "| **Ip**     | `lib/immosquare-constants/ip.rb`     | Détection IP (local, public, client) via `get_ips`, IP publique via `my_ip_from_aws` (alias déprécié `get_my_ip_from_aws`, retrait à partir de 2027-01, timeouts de connexion et de lecture de 2 s), résolution DNS du host (CDN/reverse proxy) via `get_front_ip`. `IpResult` expose les formats JSON/hash/array et `each`/`each_with_index`. |",
+        "| **Locale** | `lib/immosquare-constants/locale.rb` | Mapping codes locales → noms natifs (`:fr`, `:\"fr-CA\"`). Constante `LOCALES`, méthodes `native_name_for_locale`, `languages_with_native_names`.                                                                                                                                                                                                |",
+        "| **Color**  | `lib/immosquare-constants/color.rb`  | Mapping noms CSS → hex. Constante `COLORS`, lookup case-insensitive.                                                                                                                                                                                                                                                                           |",
+        "| **Regex**  | `lib/immosquare-constants/regex.rb`  | Validation email : `email_raw`, `email`, `email_in_string`.                                                                                                                                                                                                                                                                                    |"
+      ],
+      "hunks": 1,
+      "matched_location": true,
+      "path": "CLAUDE.md",
+      "removed": [
+        "| Module     | Fichier                              | Description                                                                                                                                                                                                                         |",
+        "| ---------- | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |",
+        "| **Ip**     | `lib/immosquare-constants/ip.rb`     | Détection IP (local, public, client) via `get_ips`, IP publique via `get_my_ip_from_aws`, résolution DNS du host (CDN/reverse proxy) via `get_front_ip`. `IpResult` expose les formats JSON/hash/array et `each`/`each_with_index`. |",
+        "| **Locale** | `lib/immosquare-constants/locale.rb` | Mapping codes locales → noms natifs (`:fr`, `:\"fr-CA\"`). Constante `LOCALES`, méthodes `native_name_for_locale`, `languages_with_native_names`.                                                                                     |",
+        "| **Color**  | `lib/immosquare-constants/color.rb`  | Mapping noms CSS → hex. Constante `COLORS`, lookup case-insensitive.                                                                                                                                                                |",
+        "| **Regex**  | `lib/immosquare-constants/regex.rb`  | Validation email : `email_raw`, `email`, `email_in_string`.                                                                                                                                                                         |"
+      ],
+      "side": "doc",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "CLAUDE.md"
+  ],
+  "patch_sha256": "e0b6420de55c1119b8fc9ece8ff604600ce71aabda3574686b1fad1e9d52529d",
+  "status": "ok"
+}

@@ -1,0 +1,84 @@
+{
+  "project": {
+    "name": "serialscope",
+    "pkg": "serialscope",
+    "version": "0.3.1",
+    "description": "Frame, checksum, and decode serial-line responses from lab instruments such as balances and syringe pumps."
+  },
+  "dependencies": [
+    {"name": "pyserial", "constraint": ">=3.5"}
+  ],
+  "modules": [
+    {
+      "path": "serialscope/errors.py",
+      "symbols": [
+        {"name": "SerialScopeError", "kind": "class", "return_type": null, "members": []},
+        {"name": "FramingError", "kind": "class", "return_type": null, "members": []},
+        {"name": "ChecksumError", "kind": "class", "return_type": null, "members": []}
+      ]
+    },
+    {
+      "path": "serialscope/checksums.py",
+      "symbols": [
+        {"name": "crc16_ccitt", "kind": "function", "return_type": "int", "members": []},
+        {"name": "xor8", "kind": "function", "return_type": "int", "members": []},
+        {"name": "CRC16_INIT", "kind": "constant", "return_type": null, "members": []}
+      ]
+    },
+    {
+      "path": "serialscope/frames.py",
+      "symbols": [
+        {"name": "Frame", "kind": "class", "return_type": null, "members": ["address", "payload", "checksum"]},
+        {"name": "FrameReader", "kind": "class", "return_type": null, "members": ["checksum_mode", "buffer"]},
+        {"name": "parse_frame", "kind": "function", "return_type": "Frame", "members": []},
+        {"name": "STX", "kind": "constant", "return_type": null, "members": []}
+      ]
+    },
+    {
+      "path": "serialscope/codecs.py",
+      "symbols": [
+        {"name": "decode_measurement", "kind": "function", "return_type": "Decimal", "members": []},
+        {"name": "split_fields", "kind": "function", "return_type": "list[str]", "members": []}
+      ]
+    },
+    {
+      "path": "serialscope/transport.py",
+      "symbols": [
+        {"name": "SerialTransport", "kind": "class", "return_type": null, "members": ["port", "baudrate", "timeout"]},
+        {"name": "open_port", "kind": "function", "return_type": "SerialTransport", "members": []}
+      ]
+    },
+    {
+      "path": "serialscope/cli.py",
+      "symbols": [
+        {"name": "build_parser", "kind": "function", "return_type": "argparse.ArgumentParser", "members": []},
+        {"name": "main", "kind": "function", "return_type": "int", "members": []},
+        {"name": "DEFAULT_BAUD", "kind": "constant", "return_type": null, "members": []}
+      ]
+    }
+  ],
+  "docs": [
+    {"path": "README.md", "kind": "readme"},
+    {"path": "docs/walkthrough.md", "kind": "guide"},
+    {"path": "docs/structure.md", "kind": "reference"}
+  ],
+  "config_keys": ["SERIALSCOPE_PORT", "SERIALSCOPE_BAUD"],
+  "example_commands": [
+    "serialscope read --port /dev/ttyUSB0 --baud 9600 --count 5",
+    "serialscope decode examples/balance_frames.txt"
+  ],
+  "paths": [
+    "examples/balance_frames.txt",
+    "examples/pump_response.txt"
+  ],
+  "data_files": [
+    {
+      "path": "examples/balance_frames.txt",
+      "content": "02 53 20 20 20 20 31 32 2e 33 34 35 20 67 03 1a 4f\n02 53 20 20 20 20 20 30 2e 30 30 30 20 67 03 12 3d\n"
+    },
+    {
+      "path": "examples/pump_response.txt",
+      "content": "02 30 31 3a 49 4e 46 55 53 45 3b 30 2e 35 30 6d 6c 2f 6d 69 6e 03 5c 2a\n"
+    }
+  ]
+}

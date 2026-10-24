@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "artifact_class": "dependency",
+    "direction": "code_side",
+    "kind": "dependency_version_break",
+    "file": "pyproject.toml",
+    "old": ">=2.6",
+    "new": ">=999",
+    "symbol": "pydantic",
+    "target": "pydantic",
+    "doc_path": "README.md",
+    "doc_line_text": "| `pydantic` | `>=2.6` |",
+    "target_claim": "The README states that the runtime dependency `pydantic` requires version `>=2.6`, but the manifest now declares `pydantic>=999`.",
+    "exemplar_ids": [
+      "example-2",
+      "example-4"
+    ],
+    "rationale": "Following the version-constraint mismatch pattern in the exemplars, I changed a documented dependency bound in the project manifest while leaving the documentation unchanged."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"external-dependency-drift\",\n  \"artifact_class\": \"dependency\",\n  \"direction\": \"code_side\",\n  \"kind\": \"dependency_version_break\",\n  \"file\": \"pyproject.toml\",\n  \"old\": \">=2.6\",\n  \"new\": \">=999\",\n  \"symbol\": \"pydantic\",\n  \"target\": \"pydantic\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"| `pydantic` | `>=2.6` |\",\n  \"target_claim\": \"The README states that the runtime dependency `pydantic` requires version `>=2.6`, but the manifest now declares `pydantic>=999`.\",\n  \"exemplar_ids\": [\n    \"example-2\",\n    \"example-4\"\n  ],\n  \"rationale\": \"Following the version-constraint mismatch pattern in the exemplars, I changed a documented dependency bound in the project manifest while leaving the documentation unchanged.\"\n}",
+  "stderr_tail": ""
+}

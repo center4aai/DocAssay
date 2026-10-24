@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "artifact_class": "identifier",
+    "direction": "code_side",
+    "kind": "symbol_rename",
+    "file": "ledgerly/models.py",
+    "old": "ledgerly.models.parse_entry",
+    "new": "ledgerly.models.read_entry",
+    "symbol": "parse_entry",
+    "target": "ledgerly.models.parse_entry()",
+    "doc_path": "README.md",
+    "doc_line_text": "`ledgerly.models.parse_entry()` returns an `Entry()` built from a single CSV row.",
+    "target_claim": "The document states that the current model API exposes `ledgerly.models.parse_entry()` and that it returns an `Entry()` parsed from one CSV row; after the definition is renamed, that documented identifier no longer resolves.",
+    "exemplar_ids": [
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:alert-e4613ce0dc642fdc"
+    ],
+    "rationale": "Both exemplars rename a code-side definition while the documentation keeps naming the old identifier by its qualified/call form; I applied that pattern to the top-level parse_entry function that README names as a current model API."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\":true,\"drift_type\":\"identifier-drift\",\"artifact_class\":\"identifier\",\"direction\":\"code_side\",\"kind\":\"symbol_rename\",\"file\":\"ledgerly/models.py\",\"old\":\"ledgerly.models.parse_entry\",\"new\":\"ledgerly.models.read_entry\",\"symbol\":\"parse_entry\",\"target\":\"ledgerly.models.parse_entry()\",\"doc_path\":\"README.md\",\"doc_line_text\":\"`ledgerly.models.parse_entry()` returns an `Entry()` built from a single CSV row.\",\"target_claim\":\"The document states that the current model API exposes `ledgerly.models.parse_entry()` and that it returns an `Entry()` parsed from one CSV row; after the definition is renamed, that documented identifier no longer resolves.\",\"exemplar_ids\":[\"triaged:alert-90c9797475f8f79a\",\"triaged:alert-e4613ce0dc642fdc\"],\"rationale\":\"Both exemplars rename a code-side definition while the documentation keeps naming the old identifier by its qualified/call form; I applied that pattern to the top-level parse_entry function that README names as a current model API.\"}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "genre_assignment": "checked",
+  "repos": [
+    {
+      "repo": "contourkit",
+      "ok": true,
+      "violations": [],
+      "genre_check": {
+        "status": "checked"
+      }
+    },
+    {
+      "repo": "tileplan",
+      "ok": true,
+      "violations": [],
+      "genre_check": {
+        "status": "checked"
+      }
+    },
+    {
+      "repo": "morpheme",
+      "ok": true,
+      "violations": [],
+      "genre_check": {
+        "status": "checked"
+      }
+    },
+    {
+      "repo": "bibscan",
+      "ok": true,
+      "violations": [],
+      "genre_check": {
+        "status": "checked"
+      }
+    },
+    {
+      "repo": "serialscope",
+      "ok": true,
+      "violations": [],
+      "genre_check": {
+        "status": "checked"
+      }
+    },
+    {
+      "repo": "sensorbus",
+      "ok": true,
+      "violations": [],
+      "genre_check": {
+        "status": "checked"
+      }
+    }
+  ]
+}

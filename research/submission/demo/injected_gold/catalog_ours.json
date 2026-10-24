@@ -1,0 +1,20 @@
+{
+  "schema_version": "2.0",
+  "catalog_id": "injected_gold.ours",
+  "version": "2026-10-07",
+  "frozen": false,
+  "layer": "ours",
+  "append_only": true,
+  "policy": {
+    "allowed": [
+      "incidents from our own runs/audits with a repo/doc/line reference",
+      "real reported bugs (maintainer confirmations, issue/PR links)"
+    ],
+    "forbidden": [
+      "categories derived from the engine's predicates or its advertised capabilities",
+      "hand-made synthetic cases without a real incident/report"
+    ],
+    "ordering": "filled incrementally, AFTER catalog_external.json is frozen; must never be used to select/define the external layer"
+  },
+  "entries": []
+}

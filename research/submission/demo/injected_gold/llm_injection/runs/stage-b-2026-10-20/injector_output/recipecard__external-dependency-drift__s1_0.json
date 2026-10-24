@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "pyyaml>=6.0",
+    "new": "pyyaml>=999",
+    "symbol": "pyyaml",
+    "target": "PyYAML",
+    "doc_path": "README.md",
+    "doc_line_text": "- PyYAML `>=6.0`",
+    "target_claim": "PyYAML >=6.0 is a current dependency requirement of recipecard.",
+    "exemplar_ids": [
+      "2"
+    ],
+    "rationale": "The README states the project's current dependency constraints in its installation section, making this an ordinary checkable requirement."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\":true,\"drift_type\":\"external-dependency-drift\",\"direction\":\"code_side\",\"file\":\"pyproject.toml\",\"old\":\"pyyaml>=6.0\",\"new\":\"pyyaml>=999\",\"symbol\":\"pyyaml\",\"target\":\"PyYAML\",\"doc_path\":\"README.md\",\"doc_line_text\":\"- PyYAML `>=6.0`\",\"target_claim\":\"PyYAML >=6.0 is a current dependency requirement of recipecard.\",\"exemplar_ids\":[\"2\"],\"rationale\":\"The README states the project's current dependency constraints in its installation section, making this an ordinary checkable requirement.\"}",
+  "stderr_tail": ""
+}

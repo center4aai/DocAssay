@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "artifact_class": "path",
+    "direction": "code_side",
+    "kind": "path_rename",
+    "file": "examples/forecast.json",
+    "old": "examples/forecast.json",
+    "new": "examples/forecast_sample.json",
+    "target": "examples/forecast.json",
+    "doc_path": "README.md",
+    "doc_line_text": "`examples/forecast.json` holds a single cached forecast with these fields:",
+    "target_claim": "The README states that `examples/forecast.json` is the sample payload holding a single cached forecast with the documented fields; after renaming, that path no longer exists.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "Following the path-reference pattern in the exemplars, I selected a uniquely named sample-data file that a README treats as an existing current location and renamed it minimally in place, leaving the documentation pointing at the old path."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"path-location-drift\", \"artifact_class\": \"path\", \"direction\": \"code_side\", \"kind\": \"path_rename\", \"file\": \"examples/forecast.json\", \"old\": \"examples/forecast.json\", \"new\": \"examples/forecast_sample.json\", \"target\": \"examples/forecast.json\", \"doc_path\": \"README.md\", \"doc_line_text\": \"`examples/forecast.json` holds a single cached forecast with these fields:\", \"target_claim\": \"The README states that `examples/forecast.json` is the sample payload holding a single cached forecast with the documented fields; after renaming, that path no longer exists.\", \"exemplar_ids\": [\"example 1\", \"example 2\"], \"rationale\": \"Following the path-reference pattern in the exemplars, I selected a uniquely named sample-data file that a README treats as an existing current location and renamed it minimally in place, leaving the documentation pointing at the old path.\"}",
+  "stderr_tail": ""
+}

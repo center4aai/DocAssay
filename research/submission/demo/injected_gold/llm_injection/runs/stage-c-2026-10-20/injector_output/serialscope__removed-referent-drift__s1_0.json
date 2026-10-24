@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "serialscope/checksums.py",
+    "old": "xor8()",
+    "new": null,
+    "symbol": "xor8",
+    "target": "xor8()",
+    "doc_path": "docs/structure.md",
+    "doc_line_text": "- `xor8()` — the eight-bit XOR alternative, declared to return `int`.",
+    "target_claim": "docs/structure.md presents `xor8()` as one of the checksum routines the module currently offers, but its definition is removed from `serialscope/checksums.py`.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "The checksum section names `xor8()` as a current public function with a declared return type, making it a natural API surface for a removed-referent defect."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"serialscope/checksums.py\",\n  \"old\": \"xor8()\",\n  \"new\": null,\n  \"symbol\": \"xor8\",\n  \"target\": \"xor8()\",\n  \"doc_path\": \"docs/structure.md\",\n  \"doc_line_text\": \"- `xor8()` — the eight-bit XOR alternative, declared to return `int`.\",\n  \"target_claim\": \"docs/structure.md presents `xor8()` as one of the checksum routines the module currently offers, but its definition is removed from `serialscope/checksums.py`.\",\n  \"exemplar_ids\": [\n    \"example 1\"\n  ],\n  \"rationale\": \"The checksum section names `xor8()` as a current public function with a declared return type, making it a natural API surface for a removed-referent defect.\"\n}",
+  "stderr_tail": ""
+}

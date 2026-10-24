@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "pyserial>=3.5",
+    "new": "pyserial>=999",
+    "symbol": "pyserial",
+    "target": "pyserial>=3.5",
+    "doc_path": "README.md",
+    "doc_line_text": "The only runtime dependency is `pyserial>=3.5`, which is installed for you.",
+    "target_claim": "The project's sole runtime dependency is pyserial with a minimum version of 3.5.",
+    "exemplar_ids": [
+      "example-4"
+    ],
+    "rationale": "The README presents pyserial>=3.5 as the project's current install requirement, and the manifest lists that exact constraint."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \"pyserial>=3.5\", \"new\": \"pyserial>=999\", \"symbol\": \"pyserial\", \"target\": \"pyserial>=3.5\", \"doc_path\": \"README.md\", \"doc_line_text\": \"The only runtime dependency is `pyserial>=3.5`, which is installed for you.\", \"target_claim\": \"The project's sole runtime dependency is pyserial with a minimum version of 3.5.\", \"exemplar_ids\": [\"example-4\"], \"rationale\": \"The README presents pyserial>=3.5 as the project's current install requirement, and the manifest lists that exact constraint.\"}",
+  "stderr_tail": ""
+}

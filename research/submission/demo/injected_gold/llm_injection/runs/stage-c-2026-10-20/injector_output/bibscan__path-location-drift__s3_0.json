@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "examples/library.bib",
+    "old": "examples/library.bib",
+    "new": "examples/bibliography.bib",
+    "target": "examples/library.bib",
+    "doc_path": "docs/recipes.md",
+    "doc_line_text": "The repository ships one database, `examples/library.bib`, with two entries:",
+    "target_claim": "The repository's bundled example database is located at examples/library.bib.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "The recipes document presents examples/library.bib as the current bundled database, so renaming that file makes the stated location stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"path-location-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"examples/library.bib\",\n  \"old\": \"examples/library.bib\",\n  \"new\": \"examples/bibliography.bib\",\n  \"target\": \"examples/library.bib\",\n  \"doc_path\": \"docs/recipes.md\",\n  \"doc_line_text\": \"The repository ships one database, `examples/library.bib`, with two entries:\",\n  \"target_claim\": \"The repository's bundled example database is located at examples/library.bib.\",\n  \"exemplar_ids\": [\"example 1\", \"example 2\"],\n  \"rationale\": \"The recipes document presents examples/library.bib as the current bundled database, so renaming that file makes the stated location stale.\"\n}",
+  "stderr_tail": ""
+}

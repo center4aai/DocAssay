@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "value-drift",
+    "artifact_class": "value",
+    "direction": "code_side",
+    "kind": "version_bump",
+    "file": "pyproject.toml",
+    "old": "0.1.0",
+    "new": "0.1.1",
+    "target": "0.1.0",
+    "doc_path": "README.md",
+    "doc_line_text": "This is quillpad version 0.1.0.",
+    "target_claim": "README.md states that the current quillpad version is 0.1.0.",
+    "exemplar_ids": [
+      "triaged:alert-0586cd1b5ddb26aa"
+    ],
+    "rationale": "Following the exemplar shape of a document line carrying a version literal that advances elsewhere in the project, I targeted the ordinary present-tense version statement and bumped the project's own manifest version by one patch component."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"value-drift\", \"artifact_class\": \"value\", \"direction\": \"code_side\", \"kind\": \"version_bump\", \"file\": \"pyproject.toml\", \"old\": \"0.1.0\", \"new\": \"0.1.1\", \"target\": \"0.1.0\", \"doc_path\": \"README.md\", \"doc_line_text\": \"This is quillpad version 0.1.0.\", \"target_claim\": \"README.md states that the current quillpad version is 0.1.0.\", \"exemplar_ids\": [\"triaged:alert-0586cd1b5ddb26aa\"], \"rationale\": \"Following the exemplar shape of a document line carrying a version literal that advances elsewhere in the project, I targeted the ordinary present-tense version statement and bumped the project's own manifest version by one patch component.\"}",
+  "stderr_tail": ""
+}

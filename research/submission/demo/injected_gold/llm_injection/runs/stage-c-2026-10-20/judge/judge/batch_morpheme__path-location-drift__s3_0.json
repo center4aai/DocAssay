@@ -1,0 +1,364 @@
+{
+  "repo": "morpheme__path-location-drift__s3_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "README.md",
+        "line": 88,
+        "predicate": "PATH_EXISTS",
+        "object": "docs/api.md",
+        "reason": ""
+      }
+    ],
+    "new_nei": [
+      {
+        "source": "docs/reference.md",
+        "line": 126,
+        "predicate": "DEPENDENCY",
+        "object": "outcome",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 112,
+        "predicate": "DEPENDENCY",
+        "object": "retry",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 176,
+        "predicate": "DEPENDENCY",
+        "object": "toml",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 112,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "backtrack",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 139,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "confidence",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 27,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "entries",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 61,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "form",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 63,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "gloss",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 62,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "kind",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 26,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "language",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 137,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "lemma",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 111,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "max_morphemes",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 177,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme",
+        "reason": "negated bare name"
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 64,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "productivity",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 28,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "provenance",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 138,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "suffixes",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 136,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "surface",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": [
+      {
+        "source": "docs/reference.md",
+        "line": 177,
+        "predicate": "DEPENDENCY",
+        "object": "python",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 76,
+        "predicate": "PATH_EXISTS",
+        "object": "examples/tir_affixes.yaml",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 176,
+        "predicate": "PATH_EXISTS",
+        "object": "examples/words.txt",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 176,
+        "predicate": "PATH_EXISTS",
+        "object": "pyproject.toml",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 171,
+        "predicate": "PATH_EXISTS",
+        "object": "words.txt",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 195,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "__version__",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 72,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "affix",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 155,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "lemmaresult",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 36,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "lexicon",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 110,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "lexicon",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 177,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "main",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 3,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 47,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.affixes",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 49,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.affixes.affix",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 66,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.affixes.parse_affix_table",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 4,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.cli",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 157,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.cli",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 180,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.cli.format_alignment",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 159,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.cli.main",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 122,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.lemmatize",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 124,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.lemmatize.lemmaresult",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 141,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.lemmatize.lookup_lemma",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 149,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.lemmatize.lookup_many",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 12,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.lexicon",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 38,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.lexicon.default_language",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 14,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.lexicon.lexicon",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 30,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.lexicon.load_lexicon",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 96,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.segmenter",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 114,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.segmenter.segment",
+        "reason": ""
+      },
+      {
+        "source": "docs/reference.md",
+        "line": 98,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.segmenter.segmenter",
+        "reason": ""
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "morpheme__path-location-drift__s3_0::0",
+      "repo": "morpheme__path-location-drift__s3_0",
+      "op_id": "llm.path-location-drift",
+      "canonical_class": "path-location-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "docs/api.md",
+        "new": "docs/reference.md",
+        "doc_path": "README.md",
+        "target": "docs/api.md"
+      }
+    }
+  ]
+}

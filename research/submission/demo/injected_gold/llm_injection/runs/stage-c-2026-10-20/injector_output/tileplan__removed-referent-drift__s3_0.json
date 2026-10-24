@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "tileplan/quadkey.py",
+    "old": "from_quadkey",
+    "new": null,
+    "symbol": "from_quadkey",
+    "target": "from_quadkey()",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `from_quadkey() -> Tile`",
+    "target_claim": "The API reference presents `from_quadkey` as a current public function in `tileplan.quadkey`.",
+    "exemplar_ids": [
+      "example 1",
+      "example 4"
+    ],
+    "rationale": "The API reference lists `from_quadkey` as a current public function, so deleting its definition leaves a documented API name with no implementation."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"tileplan/quadkey.py\",\n  \"old\": \"from_quadkey\",\n  \"new\": null,\n  \"symbol\": \"from_quadkey\",\n  \"target\": \"from_quadkey()\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"### `from_quadkey() -> Tile`\",\n  \"target_claim\": \"The API reference presents `from_quadkey` as a current public function in `tileplan.quadkey`.\",\n  \"exemplar_ids\": [\n    \"example 1\",\n    \"example 4\"\n  ],\n  \"rationale\": \"The API reference lists `from_quadkey` as a current public function, so deleting its definition leaves a documented API name with no implementation.\"\n}",
+  "stderr_tail": ""
+}

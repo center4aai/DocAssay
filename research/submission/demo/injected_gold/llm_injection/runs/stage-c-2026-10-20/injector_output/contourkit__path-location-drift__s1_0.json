@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "docs/walkthrough.md",
+    "old": "docs/walkthrough.md",
+    "new": "docs/tutorial.md",
+    "target": "docs/walkthrough.md",
+    "doc_path": "README.md",
+    "doc_line_text": "- [docs/walkthrough.md](docs/walkthrough.md) — a step-by-step tour of the",
+    "target_claim": "The walkthrough guide is located at docs/walkthrough.md.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "README's Documentation section presents docs/walkthrough.md as the current location of the walkthrough guide, which a maintainer would treat as a checkable fact about the repository layout."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"path-location-drift\", \"direction\": \"code_side\", \"file\": \"docs/walkthrough.md\", \"old\": \"docs/walkthrough.md\", \"new\": \"docs/tutorial.md\", \"target\": \"docs/walkthrough.md\", \"doc_path\": \"README.md\", \"doc_line_text\": \"- [docs/walkthrough.md](docs/walkthrough.md) — a step-by-step tour of the\", \"target_claim\": \"The walkthrough guide is located at docs/walkthrough.md.\", \"exemplar_ids\": [\"example 1\"], \"rationale\": \"README's Documentation section presents docs/walkthrough.md as the current location of the walkthrough guide, which a maintainer would treat as a checkable fact about the repository layout.\"}",
+  "stderr_tail": ""
+}

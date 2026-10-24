@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "sensorbus/calibration.py",
+    "old": "CalibrationCurve",
+    "new": "SensorCalibration",
+    "symbol": "CalibrationCurve",
+    "target": "CalibrationCurve",
+    "doc_path": "README.md",
+    "doc_line_text": "**Calibration curves.** A `CalibrationCurve` holds the per-sensor correction:",
+    "target_claim": "The current class holding the per-sensor correction is named `CalibrationCurve`.",
+    "exemplar_ids": [
+      "example 1",
+      "example 4"
+    ],
+    "rationale": "The README presents `CalibrationCurve` in the Main concepts section as the current, available class for per-sensor calibration state, matching a top-level definition in the package."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"sensorbus/calibration.py\", \"old\": \"CalibrationCurve\", \"new\": \"SensorCalibration\", \"symbol\": \"CalibrationCurve\", \"target\": \"CalibrationCurve\", \"doc_path\": \"README.md\", \"doc_line_text\": \"**Calibration curves.** A `CalibrationCurve` holds the per-sensor correction:\", \"target_claim\": \"The current class holding the per-sensor correction is named `CalibrationCurve`.\", \"exemplar_ids\": [\"example 1\", \"example 4\"], \"rationale\": \"The README presents `CalibrationCurve` in the Main concepts section as the current, available class for per-sensor calibration state, matching a top-level definition in the package.\"}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,98 @@
+{
+  "project": {
+    "name": "parcelroute",
+    "pkg": "parcelroute",
+    "version": "0.3.1",
+    "description": "A small parcel routing library with a CLI, a tiny HTTP route table, and a TOML-file shipment store."
+  },
+  "dependencies": [
+    {"name": "pydantic", "constraint": ">=2.6"},
+    {"name": "click", "constraint": ">=8.1"},
+    {"name": "tomlkit", "constraint": ">=0.12"},
+    {"name": "uvicorn", "constraint": ">=0.29"}
+  ],
+  "modules": [
+    {
+      "path": "parcelroute/models.py",
+      "symbols": [
+        {"name": "Parcel", "kind": "class", "return_type": null, "members": ["parcel_id", "destination_code", "weight_grams", "created_at"]},
+        {"name": "RoutePlan", "kind": "class", "return_type": null, "members": ["parcel_id", "hop_codes", "total_grams"]},
+        {"name": "load_parcel", "kind": "function", "return_type": "Parcel", "members": []}
+      ]
+    },
+    {
+      "path": "parcelroute/store.py",
+      "symbols": [
+        {"name": "ShipmentStore", "kind": "class", "return_type": null, "members": ["store_path", "list_parcels", "save_parcel"]},
+        {"name": "read_store", "kind": "function", "return_type": "ShipmentStore", "members": []}
+      ]
+    },
+    {
+      "path": "parcelroute/routing.py",
+      "symbols": [
+        {"name": "plan_route", "kind": "function", "return_type": "RoutePlan", "members": []},
+        {"name": "PARCEL_STATUS_PENDING", "kind": "constant", "return_type": null, "members": []},
+        {"name": "PARCEL_STATUS_IN_TRANSIT", "kind": "constant", "return_type": null, "members": []},
+        {"name": "PARCEL_STATUS_DELIVERED", "kind": "constant", "return_type": null, "members": []}
+      ]
+    },
+    {
+      "path": "parcelroute/api.py",
+      "symbols": [
+        {"name": "build_router", "kind": "function", "return_type": null, "members": []},
+        {"name": "list_parcels_endpoint", "kind": "function", "return_type": null, "members": []}
+      ]
+    },
+    {
+      "path": "parcelroute/cli.py",
+      "symbols": [
+        {"name": "main", "kind": "function", "return_type": null, "members": []},
+        {"name": "serve", "kind": "function", "return_type": null, "members": []}
+      ]
+    }
+  ],
+  "config_keys": [
+    "PARCELROUTE_HOME",
+    "PARCELROUTE_LOG_LEVEL",
+    "PARCELROUTE_STORE_PATH",
+    "PARCELROUTE_MAX_HOPS"
+  ],
+  "endpoints": [
+    "/v1/parcels",
+    "/v1/plans",
+    "/v1/health"
+  ],
+  "schema_fields": [
+    "parcel_id",
+    "destination_code",
+    "weight_grams",
+    "created_at"
+  ],
+  "enum_members": [
+    "PARCEL_STATUS_PENDING",
+    "PARCEL_STATUS_IN_TRANSIT",
+    "PARCEL_STATUS_DELIVERED"
+  ],
+  "example_commands": [
+    "python -m parcelroute serve --port 8080",
+    "pytest -q"
+  ],
+  "paths": [
+    "examples/shipments.toml"
+  ],
+  "data_files": [
+    {
+      "path": "examples/shipments.toml",
+      "text": "# Example shipment store used by the parcelroute docs.\n\n[parcel.parcel_1001]\nparcel_id = \"parcel_1001\"\ndestination_code = \"NL-AMS\"\nweight_grams = 420\ncreated_at = \"2026-01-04T09:15:00Z\"\n\n[parcel.parcel_1002]\nparcel_id = \"parcel_1002\"\ndestination_code = \"DE-BER\"\nweight_grams = 1350\ncreated_at = \"2026-01-05T14:02:00Z\"\n"
+    }
+  ],
+  "cross_doc_tokens": [
+    "examples/shipments.toml",
+    "parcelroute.models.Parcel"
+  ],
+  "docs": [
+    {"path": "README.md", "kind": "readme"},
+    {"path": "docs/configuration.md", "kind": "guide"},
+    {"path": "docs/api.md", "kind": "reference"}
+  ]
+}

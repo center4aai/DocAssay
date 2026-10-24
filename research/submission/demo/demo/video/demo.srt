@@ -1,0 +1,237 @@
+1
+00:00:00,000 --> 00:00:02,110
+Do you see the error?
+
+2
+00:00:02,655 --> 00:00:07,450
+The documented path misses a directory — the
+file lives one level deeper.
+
+3
+00:00:07,585 --> 00:00:09,990
+The documented path does not exist.
+
+4
+00:00:10,175 --> 00:00:14,090
+Errors like this have always existed — no
+amount of care prevents them.
+
+5
+00:00:14,245 --> 00:00:19,000
+What changed is the volume: more documentation
+is written by AI coding agents.
+
+6
+00:00:19,180 --> 00:00:23,120
+A 2026 study of 612 agent configuration files
+
+7
+00:00:23,120 --> 00:00:26,840
+found stale references in 23% of repositories.
+
+8
+00:00:27,090 --> 00:00:29,540
+Reviewing that by hand does not scale;
+
+9
+00:00:29,650 --> 00:00:33,490
+asking another model just swaps a stale claim
+for a guess.
+
+10
+00:00:33,805 --> 00:00:36,880
+We split a document into atomic claims and
+check each one
+
+11
+00:00:36,880 --> 00:00:40,150
+against a fact inventory built from the
+repository itself.
+
+12
+00:00:40,445 --> 00:00:44,690
+The verdict is discrete: SUPPORTED, REFUTED,
+or NEI.
+
+13
+00:00:44,745 --> 00:00:49,210
+NEI is not a confidence threshold — it means
+the inventory cannot decide.
+
+14
+00:00:49,405 --> 00:00:54,910
+Six predicates, one fixed inventory each: path
+and Dockerfile read the file listing,
+
+15
+00:00:55,045 --> 00:00:58,670
+symbol reads the Python tree, dependency reads
+the manifests,
+
+16
+00:00:58,805 --> 00:01:02,830
+license and CI read the license field and the
+workflows directory.
+
+17
+00:01:03,085 --> 00:01:06,320
+No language model sits in the deciding path.
+
+18
+00:01:06,640 --> 00:01:09,370
+Let's run it live on a different project.
+
+19
+00:01:09,645 --> 00:01:12,200
+Paste the repository URL and clone it
+
+20
+00:01:12,270 --> 00:01:15,115
+the whole analysis runs in less than a second.
+
+21
+00:01:15,363 --> 00:01:20,420
+Here is the report: claims with verdicts,
+coverage, five predicates.
+
+22
+00:01:20,730 --> 00:01:23,120
+Exactly one claim is refuted.
+
+23
+00:01:23,440 --> 00:01:27,520
+Open it: the example calls httpx.Mounts
+
+24
+00:01:27,530 --> 00:01:30,340
+a class that does not exist anywhere in the
+project;
+
+25
+00:01:30,440 --> 00:01:32,900
+the name appears only in this document.
+
+26
+00:01:33,170 --> 00:01:37,610
+This is a real divergence, confirmed against
+git history.
+
+27
+00:01:37,925 --> 00:01:40,320
+Now a yellow one: NEI.
+
+28
+00:01:40,510 --> 00:01:45,020
+The documentation mentions asgi-lifespan; the
+project does not declare it
+
+29
+00:01:45,080 --> 00:01:49,420
+but that is not proof it is absent, because
+the dependency graph is open.
+
+30
+00:01:49,680 --> 00:01:54,340
+The layer and the reason are printed on the
+card.
+
+31
+00:01:55,530 --> 00:01:59,800
+A tool that reports findings is not yet a tool
+that works
+
+32
+00:01:59,900 --> 00:02:02,160
+so we manufacture the defects.
+
+33
+00:02:02,430 --> 00:02:05,390
+Six held-out repositories in three domains.
+
+34
+00:02:05,615 --> 00:02:08,270
+We inject one drift of a known class,
+
+35
+00:02:08,395 --> 00:02:10,520
+prove on disk with an engine-free oracle
+
+36
+00:02:10,520 --> 00:02:13,250
+that the artifact existed before and is gone
+after,
+
+37
+00:02:13,345 --> 00:02:15,710
+and measure the tool's reaction.
+
+38
+00:02:16,125 --> 00:02:21,770
+Sixty-nine verified injections, sixty-five
+detected — recall 0.942,
+
+39
+00:02:21,905 --> 00:02:26,830
+confidence interval 0.873 to 0.986.
+
+40
+00:02:27,235 --> 00:02:31,660
+Fifty by a closed-world refutation, fifteen by
+a named abstention.
+
+41
+00:02:31,840 --> 00:02:37,690
+We also ran it on real, widely used projects.
+Sixteen of them.
+
+42
+00:02:37,965 --> 00:02:43,520
+Eight carry drift that we confirmed against
+git history — 32 defects in total.
+
+43
+00:02:43,810 --> 00:02:46,230
+Some of these have been wrong for years.
+
+44
+00:02:46,485 --> 00:02:51,960
+In Celery, a contributing guide still points
+at a file deleted in 2016.
+
+45
+00:02:52,270 --> 00:02:56,780
+In SQLFluff, the path we opened with was
+written in 2023
+
+46
+00:02:56,890 --> 00:02:59,620
+a year after the file had already moved.
+
+47
+00:02:59,860 --> 00:03:02,100
+We do not replace human review,
+
+48
+00:03:02,210 --> 00:03:05,450
+and we do not guarantee that documentation is
+correct.
+
+49
+00:03:05,725 --> 00:03:09,400
+We find provable divergences between
+documentation and code
+
+50
+00:03:09,500 --> 00:03:12,260
+and stay silent when the evidence is not
+there.
+
+51
+00:03:12,500 --> 00:03:16,850
+The same facts are served to coding agents
+over MCP. Open source;
+
+52
+00:03:16,985 --> 00:03:20,900
+the container and the frozen corpus reproduce
+every number on this screen.

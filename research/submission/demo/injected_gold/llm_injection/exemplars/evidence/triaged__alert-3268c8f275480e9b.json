@@ -1,0 +1,41 @@
+{
+  "alert_id": "triaged:alert-3268c8f275480e9b",
+  "commit_sha": "cf6e724e99ef288f743e63aa3b092576a6940911",
+  "commit_url": "https://github.com/Significant-Gravitas/AutoGPT/commit/cf6e724e99ef288f743e63aa3b092576a6940911",
+  "files": [
+    {
+      "added": [
+        "import NewControlPanel from \"../../NewBlockMenu/NewControlPanel/NewControlPanel\";",
+        "import CustomEdge from \"../edges/CustomEdge\";",
+        "import { useFlow } from \"./useFlow\";",
+        "import { useNodeStore } from \"../../../stores/nodeStore\";",
+        "import { CustomNode } from \"../nodes/CustomNode\";",
+        "import { useCustomEdge } from \"../edges/useCustomEdge\";",
+        "  // We use this hook to load the graph and convert them into custom nodes and edges.",
+        "  useFlow();",
+        "",
+        "          maxZoom={2}",
+        "          minZoom={0.1}"
+      ],
+      "hunks": 3,
+      "matched_location": true,
+      "path": "autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/Flow/Flow.tsx",
+      "removed": [
+        "import { useNodeStore } from \"../../stores/nodeStore\";",
+        "",
+        "import NewControlPanel from \"../NewBlockMenu/NewControlPanel/NewControlPanel\";",
+        "import { CustomNode } from \"./nodes/CustomNode\";",
+        "import { useCustomEdge } from \"./edges/useCustomEdge\";",
+        "import CustomEdge from \"./edges/CustomEdge\";"
+      ],
+      "side": "code",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/docs/README.md",
+    "autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/Flow/Flow.tsx"
+  ],
+  "patch_sha256": "be4b5a9c11e86ad037cefdbb4e0720aeed9995349823a259468d8a5c1d6073e8",
+  "status": "ok"
+}

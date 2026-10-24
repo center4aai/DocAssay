@@ -1,0 +1,33 @@
+{
+  "repo": "bibscan__identifier-drift__s1_0",
+  "tool_diff": {
+    "new_refuted": [],
+    "new_nei": [
+      {
+        "source": "docs/api.md",
+        "line": 117,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "format_name",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "bibscan__identifier-drift__s1_0::0",
+      "repo": "bibscan__identifier-drift__s1_0",
+      "op_id": "llm.identifier-drift",
+      "canonical_class": "identifier-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "bibscan.names.format_name",
+        "new": "format_nameInjected",
+        "doc_path": "README.md",
+        "target": "format_name"
+      }
+    }
+  ]
+}

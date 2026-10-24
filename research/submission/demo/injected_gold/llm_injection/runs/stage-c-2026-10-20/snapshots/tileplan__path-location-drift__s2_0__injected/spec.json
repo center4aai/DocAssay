@@ -1,0 +1,71 @@
+{
+  "project": {
+    "name": "tileplan",
+    "pkg": "tileplan",
+    "version": "0.4.1",
+    "description": "Slippy-map tile coordinates, extents, and zoom arithmetic for tiled map pipelines."
+  },
+  "dependencies": [],
+  "modules": [
+    {
+      "path": "tileplan/coords.py",
+      "symbols": [
+        {"name": "Tile", "kind": "class", "return_type": null, "members": ["z", "x", "y"]},
+        {"name": "tile_from_lonlat", "kind": "function", "return_type": "Tile", "members": []},
+        {"name": "lonlat_from_tile", "kind": "function", "return_type": "tuple[float, float]", "members": []}
+      ]
+    },
+    {
+      "path": "tileplan/extent.py",
+      "symbols": [
+        {"name": "Extent", "kind": "class", "return_type": null, "members": ["west", "south", "east", "north"]},
+        {"name": "tile_extent", "kind": "function", "return_type": "Extent", "members": []},
+        {"name": "merge_extents", "kind": "function", "return_type": "Extent", "members": []}
+      ]
+    },
+    {
+      "path": "tileplan/zoom.py",
+      "symbols": [
+        {"name": "MAX_ZOOM", "kind": "constant", "return_type": null, "members": []},
+        {"name": "resolution_at", "kind": "function", "return_type": "float", "members": []},
+        {"name": "closest_zoom", "kind": "function", "return_type": "int", "members": []}
+      ]
+    },
+    {
+      "path": "tileplan/hierarchy.py",
+      "symbols": [
+        {"name": "children", "kind": "function", "return_type": "list[Tile]", "members": []},
+        {"name": "parent", "kind": "function", "return_type": "Tile", "members": []},
+        {"name": "descendants", "kind": "function", "return_type": "list[Tile]", "members": []}
+      ]
+    },
+    {
+      "path": "tileplan/quadkey.py",
+      "symbols": [
+        {"name": "to_quadkey", "kind": "function", "return_type": "str", "members": []},
+        {"name": "from_quadkey", "kind": "function", "return_type": "Tile", "members": []}
+      ]
+    },
+    {
+      "path": "tileplan/cover.py",
+      "symbols": [
+        {"name": "CoverOptions", "kind": "class", "return_type": null, "members": ["zoom", "buffer_tiles", "limit"]},
+        {"name": "cover_extent", "kind": "function", "return_type": "list[Tile]", "members": []}
+      ]
+    }
+  ],
+  "paths": [
+    "examples/bay_area.geojson"
+  ],
+  "data_files": [
+    {
+      "path": "examples/bay_area.geojson",
+      "content": "{\n  \"type\": \"FeatureCollection\",\n  \"features\": [\n    {\n      \"type\": \"Feature\",\n      \"properties\": {\"name\": \"Bay Area view\"},\n      \"geometry\": {\n        \"type\": \"Polygon\",\n        \"coordinates\": [[[-122.52, 37.70], [-122.35, 37.70], [-122.35, 37.83], [-122.52, 37.83], [-122.52, 37.70]]]\n      }\n    }\n  ]\n}\n"
+    }
+  ],
+  "docs": [
+    {"path": "README.md", "kind": "readme"},
+    {"path": "docs/usage.md", "kind": "guide"},
+    {"path": "docs/api.md", "kind": "reference"}
+  ]
+}

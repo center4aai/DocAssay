@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "artifact_class": "referent",
+    "direction": "code_side",
+    "kind": "symbol_delete",
+    "file": "parcelroute/api.py",
+    "old": "parcelroute.api.list_parcels_endpoint",
+    "new": null,
+    "symbol": "list_parcels_endpoint",
+    "target": "parcelroute.api.list_parcels_endpoint",
+    "doc_path": "README.md",
+    "doc_line_text": "  `parcelroute.api.list_parcels_endpoint` handling the parcel listing route.",
+    "target_claim": "The README presents `parcelroute.api.list_parcels_endpoint` as the current handler for the parcel listing route; deleting its definition removes that documented function from `parcelroute.api`.",
+    "exemplar_ids": [
+      "example 2",
+      "example 3"
+    ],
+    "rationale": "Followed the exemplar pattern of removing a top-level code symbol that documentation still advertises by a qualified name. `list_parcels_endpoint` is defined only in `parcelroute/api.py` and is not imported or called elsewhere, so deleting its definition leaves the module parseable while the README reference becomes stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"artifact_class\": \"referent\",\n  \"direction\": \"code_side\",\n  \"kind\": \"symbol_delete\",\n  \"file\": \"parcelroute/api.py\",\n  \"old\": \"parcelroute.api.list_parcels_endpoint\",\n  \"new\": null,\n  \"symbol\": \"list_parcels_endpoint\",\n  \"target\": \"parcelroute.api.list_parcels_endpoint\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"  `parcelroute.api.list_parcels_endpoint` handling the parcel listing route.\",\n  \"target_claim\": \"The README presents `parcelroute.api.list_parcels_endpoint` as the current handler for the parcel listing route; deleting its definition removes that documented function from `parcelroute.api`.\",\n  \"exemplar_ids\": [\n    \"example 2\",\n    \"example 3\"\n  ],\n  \"rationale\": \"Followed the exemplar pattern of removing a top-level code symbol that documentation still advertises by a qualified name. `list_parcels_endpoint` is defined only in `parcelroute/api.py` and is not imported or called elsewhere, so deleting its definition leaves the module parseable while the README reference becomes stale.\"\n}",
+  "stderr_tail": ""
+}

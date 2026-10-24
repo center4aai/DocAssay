@@ -1,0 +1,3864 @@
+{
+  "selection_order": [
+    "README.md",
+    "task_document",
+    "reference_document"
+  ],
+  "seed": 20261020,
+  "repos": {
+    "contourkit": {
+      "A1": {
+        "candidates": [
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/api.md",
+            "old": "docs/api.md",
+            "resolved": "docs/api.md",
+            "doc_path": "README.md",
+            "line": 15,
+            "doc_line_text": "attributes, and function signatures described in [docs/api.md](docs/api.md);"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/api.md",
+            "old": "docs/api.md",
+            "resolved": "docs/api.md",
+            "doc_path": "README.md",
+            "line": 75,
+            "doc_line_text": "[docs/api.md](docs/api.md) for the exact surface."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/terrain.asc",
+            "old": "examples/terrain.asc",
+            "resolved": "examples/terrain.asc",
+            "doc_path": "README.md",
+            "line": 107,
+            "doc_line_text": "`examples/terrain.asc` is a 5 \u00d7 5 ESRI ASCII grid with a header of `ncols 5`,"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/walkthrough.md",
+            "old": "docs/walkthrough.md",
+            "resolved": "docs/walkthrough.md",
+            "doc_path": "README.md",
+            "line": 129,
+            "doc_line_text": "- [docs/walkthrough.md](docs/walkthrough.md) \u2014 a step-by-step tour of the"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/terrain.asc",
+            "old": "examples/terrain.asc",
+            "resolved": "examples/terrain.asc",
+            "doc_path": "README.md",
+            "line": 130,
+            "doc_line_text": "  contour pipeline using `examples/terrain.asc`."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/api.md",
+            "old": "docs/api.md",
+            "resolved": "docs/api.md",
+            "doc_path": "README.md",
+            "line": 131,
+            "doc_line_text": "- [docs/api.md](docs/api.md) \u2014 the public classes, functions, and constants."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/terrain.asc",
+            "old": "examples/terrain.asc",
+            "resolved": "examples/terrain.asc",
+            "doc_path": "docs/api.md",
+            "line": 67,
+            "doc_line_text": "whitespace-separated row of values per line. `examples/terrain.asc` in this"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/terrain.asc",
+            "old": "examples/terrain.asc",
+            "resolved": "examples/terrain.asc",
+            "doc_path": "docs/walkthrough.md",
+            "line": 6,
+            "doc_line_text": "the repository, `examples/terrain.asc`."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/terrain.asc",
+            "old": "examples/terrain.asc",
+            "resolved": "examples/terrain.asc",
+            "doc_path": "docs/walkthrough.md",
+            "line": 33,
+            "doc_line_text": "Open `examples/terrain.asc`. It is an ESRI ASCII grid: six header lines, then"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/api.md",
+            "old": "docs/api.md",
+            "resolved": "docs/api.md",
+            "doc_path": "docs/walkthrough.md",
+            "line": 254,
+            "doc_line_text": "From here, [docs/api.md](docs/api.md) lists every public name with its exact"
+          }
+        ],
+        "selected": {
+          "canonical_class": "path-location-drift",
+          "artifact_class": "path",
+          "target": "docs/api.md",
+          "old": "docs/api.md",
+          "resolved": "docs/api.md",
+          "doc_path": "README.md",
+          "line": 15,
+          "doc_line_text": "attributes, and function signatures described in [docs/api.md](docs/api.md);"
+        },
+        "rejected": [
+          {
+            "target": "docs/api.md",
+            "doc_path": "README.md",
+            "line": 75,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/terrain.asc",
+            "doc_path": "README.md",
+            "line": 107,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "docs/walkthrough.md",
+            "doc_path": "README.md",
+            "line": 129,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/terrain.asc",
+            "doc_path": "README.md",
+            "line": 130,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "docs/api.md",
+            "doc_path": "README.md",
+            "line": 131,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/terrain.asc",
+            "doc_path": "docs/api.md",
+            "line": 67,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/terrain.asc",
+            "doc_path": "docs/walkthrough.md",
+            "line": 6,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/terrain.asc",
+            "doc_path": "docs/walkthrough.md",
+            "line": 33,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "docs/api.md",
+            "doc_path": "docs/walkthrough.md",
+            "line": 254,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "A2": {
+        "candidates": [
+          {
+            "canonical_class": "external-dependency-drift",
+            "artifact_class": "dependency",
+            "target": "click",
+            "old": "click",
+            "symbol": "click",
+            "doc_path": "README.md",
+            "line": 23,
+            "doc_line_text": "`numpy>=1.26` and `click>=8.1`."
+          },
+          {
+            "canonical_class": "external-dependency-drift",
+            "artifact_class": "dependency",
+            "target": "click",
+            "old": "click",
+            "symbol": "click",
+            "doc_path": "docs/api.md",
+            "line": 190,
+            "doc_line_text": "`main()` is called in-process. Note that although `click>=8.1` is a declared"
+          },
+          {
+            "canonical_class": "external-dependency-drift",
+            "artifact_class": "dependency",
+            "target": "click",
+            "old": "click",
+            "symbol": "click",
+            "doc_path": "docs/api.md",
+            "line": 209,
+            "doc_line_text": "- Dependencies: `numpy>=1.26`, `click>=8.1`"
+          },
+          {
+            "canonical_class": "external-dependency-drift",
+            "artifact_class": "dependency",
+            "target": "numpy",
+            "old": "numpy",
+            "symbol": "numpy",
+            "doc_path": "docs/walkthrough.md",
+            "line": 28,
+            "doc_line_text": "You need Python 3.11 or newer. contourkit depends on `numpy>=1.26` and"
+          },
+          {
+            "canonical_class": "external-dependency-drift",
+            "artifact_class": "dependency",
+            "target": "click",
+            "old": "click",
+            "symbol": "click",
+            "doc_path": "docs/walkthrough.md",
+            "line": 29,
+            "doc_line_text": "`click>=8.1`."
+          }
+        ],
+        "selected": {
+          "canonical_class": "external-dependency-drift",
+          "artifact_class": "dependency",
+          "target": "click",
+          "old": "click",
+          "symbol": "click",
+          "doc_path": "README.md",
+          "line": 23,
+          "doc_line_text": "`numpy>=1.26` and `click>=8.1`."
+        },
+        "rejected": [
+          {
+            "target": "click",
+            "doc_path": "docs/api.md",
+            "line": 190,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "click",
+            "doc_path": "docs/api.md",
+            "line": 209,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "numpy",
+            "doc_path": "docs/walkthrough.md",
+            "line": 28,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "click",
+            "doc_path": "docs/walkthrough.md",
+            "line": 29,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "A3": {
+        "candidates": [
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "contourkit.geometry.Polyline",
+            "old": "contourkit.geometry.Polyline",
+            "symbol": "contourkit.geometry.Polyline",
+            "doc_path": "docs/walkthrough.md",
+            "line": 155,
+            "doc_line_text": "The unit of output is `contourkit.geometry.Polyline`, which has exactly two"
+          }
+        ],
+        "selected": {
+          "canonical_class": "identifier-drift",
+          "artifact_class": "identifier",
+          "target": "contourkit.geometry.Polyline",
+          "old": "contourkit.geometry.Polyline",
+          "symbol": "contourkit.geometry.Polyline",
+          "doc_path": "docs/walkthrough.md",
+          "line": 155,
+          "doc_line_text": "The unit of output is `contourkit.geometry.Polyline`, which has exactly two"
+        },
+        "rejected": [],
+        "status": "selected"
+      },
+      "A4": {
+        "candidates": [
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "main",
+            "old": "main",
+            "symbol": "contourkit.cli.main",
+            "doc_path": "README.md",
+            "line": 115,
+            "doc_line_text": "`contourkit.cli` provides `main()`, which returns an integer exit code, and the",
+            "context_module": "contourkit.cli",
+            "context_source": "prose"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "ElevationRaster",
+            "old": "ElevationRaster",
+            "symbol": "contourkit.raster.ElevationRaster",
+            "doc_path": "docs/api.md",
+            "line": 34,
+            "doc_line_text": "### `class ElevationRaster()`",
+            "context_module": "contourkit.raster",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "load_ascii_grid",
+            "old": "load_ascii_grid",
+            "symbol": "contourkit.raster.load_ascii_grid",
+            "doc_path": "docs/api.md",
+            "line": 60,
+            "doc_line_text": "### `load_ascii_grid() -> ElevationRaster`",
+            "context_module": "contourkit.raster",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "ElevationRaster",
+            "old": "ElevationRaster",
+            "symbol": "contourkit.raster.ElevationRaster",
+            "doc_path": "docs/api.md",
+            "line": 62,
+            "doc_line_text": "Reads an ESRI ASCII grid into an `ElevationRaster`. Takes no arguments in",
+            "context_module": "contourkit.raster",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "sample_nearest",
+            "old": "sample_nearest",
+            "symbol": "contourkit.sampling.sample_nearest",
+            "doc_path": "docs/api.md",
+            "line": 87,
+            "doc_line_text": "### `sample_nearest() -> float`",
+            "context_module": "contourkit.sampling",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "sample_bilinear",
+            "old": "sample_bilinear",
+            "symbol": "contourkit.sampling.sample_bilinear",
+            "doc_path": "docs/api.md",
+            "line": 92,
+            "doc_line_text": "### `sample_bilinear() -> float`",
+            "context_module": "contourkit.sampling",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "gradient_magnitude",
+            "old": "gradient_magnitude",
+            "symbol": "contourkit.sampling.gradient_magnitude",
+            "doc_path": "docs/api.md",
+            "line": 98,
+            "doc_line_text": "### `gradient_magnitude() -> float`",
+            "context_module": "contourkit.sampling",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "contour_levels",
+            "old": "contour_levels",
+            "symbol": "contourkit.marching.contour_levels",
+            "doc_path": "docs/api.md",
+            "line": 105,
+            "doc_line_text": "### `contour_levels() -> list[float]`",
+            "context_module": "contourkit.marching",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "trace_contour",
+            "old": "trace_contour",
+            "symbol": "contourkit.marching.trace_contour",
+            "doc_path": "docs/api.md",
+            "line": 114,
+            "doc_line_text": "### `trace_contour() -> list[Polyline]`",
+            "context_module": "contourkit.marching",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Polyline",
+            "old": "Polyline",
+            "symbol": "contourkit.geometry.Polyline",
+            "doc_path": "docs/api.md",
+            "line": 121,
+            "doc_line_text": "per requested level. The `Polyline` type lives in `contourkit.geometry`.",
+            "context_module": "contourkit.geometry",
+            "context_source": "prose"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Polyline",
+            "old": "Polyline",
+            "symbol": "contourkit.geometry.Polyline",
+            "doc_path": "docs/api.md",
+            "line": 125,
+            "doc_line_text": "### `class Polyline()`",
+            "context_module": "contourkit.geometry",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "polyline_length",
+            "old": "polyline_length",
+            "symbol": "contourkit.geometry.polyline_length",
+            "doc_path": "docs/api.md",
+            "line": 147,
+            "doc_line_text": "### `polyline_length() -> float`",
+            "context_module": "contourkit.geometry",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "close_ring",
+            "old": "close_ring",
+            "symbol": "contourkit.geometry.close_ring",
+            "doc_path": "docs/api.md",
+            "line": 152,
+            "doc_line_text": "### `close_ring() -> Polyline`",
+            "context_module": "contourkit.geometry",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "douglas_peucker",
+            "old": "douglas_peucker",
+            "symbol": "contourkit.simplify.douglas_peucker",
+            "doc_path": "docs/api.md",
+            "line": 162,
+            "doc_line_text": "### `douglas_peucker() -> Polyline`",
+            "context_module": "contourkit.simplify",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "simplify_contours",
+            "old": "simplify_contours",
+            "symbol": "contourkit.simplify.simplify_contours",
+            "doc_path": "docs/api.md",
+            "line": 167,
+            "doc_line_text": "### `simplify_contours() -> list[Polyline]`",
+            "context_module": "contourkit.simplify",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "main",
+            "old": "main",
+            "symbol": "contourkit.cli.main",
+            "doc_path": "docs/api.md",
+            "line": 176,
+            "doc_line_text": "### `main() -> int`",
+            "context_module": "contourkit.cli",
+            "context_source": "heading"
+          }
+        ],
+        "selected": {
+          "canonical_class": "identifier-drift",
+          "artifact_class": "identifier",
+          "target": "main",
+          "old": "main",
+          "symbol": "contourkit.cli.main",
+          "doc_path": "README.md",
+          "line": 115,
+          "doc_line_text": "`contourkit.cli` provides `main()`, which returns an integer exit code, and the",
+          "context_module": "contourkit.cli",
+          "context_source": "prose"
+        },
+        "rejected": [
+          {
+            "target": "ElevationRaster",
+            "doc_path": "docs/api.md",
+            "line": 34,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "load_ascii_grid",
+            "doc_path": "docs/api.md",
+            "line": 60,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "ElevationRaster",
+            "doc_path": "docs/api.md",
+            "line": 62,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "sample_nearest",
+            "doc_path": "docs/api.md",
+            "line": 87,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "sample_bilinear",
+            "doc_path": "docs/api.md",
+            "line": 92,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "gradient_magnitude",
+            "doc_path": "docs/api.md",
+            "line": 98,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "contour_levels",
+            "doc_path": "docs/api.md",
+            "line": 105,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "trace_contour",
+            "doc_path": "docs/api.md",
+            "line": 114,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Polyline",
+            "doc_path": "docs/api.md",
+            "line": 121,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Polyline",
+            "doc_path": "docs/api.md",
+            "line": 125,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "polyline_length",
+            "doc_path": "docs/api.md",
+            "line": 147,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "close_ring",
+            "doc_path": "docs/api.md",
+            "line": 152,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "douglas_peucker",
+            "doc_path": "docs/api.md",
+            "line": 162,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "simplify_contours",
+            "doc_path": "docs/api.md",
+            "line": 167,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "main",
+            "doc_path": "docs/api.md",
+            "line": 176,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "B": {
+        "candidates": [
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "ElevationRaster",
+            "old": "ElevationRaster",
+            "symbol": "ElevationRaster",
+            "doc_path": "README.md",
+            "line": 79,
+            "doc_line_text": "**Raster.** An `ElevationRaster` holds `data` (the elevation values),"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "contour_levels",
+            "old": "contour_levels",
+            "symbol": "contour_levels",
+            "doc_path": "README.md",
+            "line": 91,
+            "doc_line_text": "**Contour tracing.** `contour_levels()` chooses the elevations to draw, and"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Polyline",
+            "old": "Polyline",
+            "symbol": "Polyline",
+            "doc_path": "README.md",
+            "line": 95,
+            "doc_line_text": "**Polylines.** A `Polyline` has two attributes: `points`, the ordered"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "douglas_peucker",
+            "old": "douglas_peucker",
+            "symbol": "douglas_peucker",
+            "doc_path": "README.md",
+            "line": 100,
+            "doc_line_text": "**Simplification.** `douglas_peucker` thins a single polyline while keeping its"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "ElevationRaster",
+            "old": "ElevationRaster",
+            "symbol": "ElevationRaster",
+            "doc_path": "docs/api.md",
+            "line": 25,
+            "doc_line_text": "| `contourkit.raster` | `ElevationRaster`, `load_ascii_grid`, `DEFAULT_NODATA` |"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "sample_nearest",
+            "old": "sample_nearest",
+            "symbol": "sample_nearest",
+            "doc_path": "docs/api.md",
+            "line": 26,
+            "doc_line_text": "| `contourkit.sampling` | `sample_nearest`, `sample_bilinear`, `gradient_magnitude` |"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "contour_levels",
+            "old": "contour_levels",
+            "symbol": "contour_levels",
+            "doc_path": "docs/api.md",
+            "line": 27,
+            "doc_line_text": "| `contourkit.marching` | `contour_levels`, `trace_contour` |"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Polyline",
+            "old": "Polyline",
+            "symbol": "Polyline",
+            "doc_path": "docs/api.md",
+            "line": 28,
+            "doc_line_text": "| `contourkit.geometry` | `Polyline`, `polyline_length`, `close_ring` |"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "douglas_peucker",
+            "old": "douglas_peucker",
+            "symbol": "douglas_peucker",
+            "doc_path": "docs/api.md",
+            "line": 29,
+            "doc_line_text": "| `contourkit.simplify` | `douglas_peucker`, `simplify_contours` |"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "main",
+            "old": "main",
+            "symbol": "main",
+            "doc_path": "docs/api.md",
+            "line": 30,
+            "doc_line_text": "| `contourkit.cli` | `main`, `DEFAULT_TOLERANCE` |"
+          }
+        ],
+        "selected": {
+          "canonical_class": "identifier-drift",
+          "artifact_class": "identifier",
+          "target": "ElevationRaster",
+          "old": "ElevationRaster",
+          "symbol": "ElevationRaster",
+          "doc_path": "README.md",
+          "line": 79,
+          "doc_line_text": "**Raster.** An `ElevationRaster` holds `data` (the elevation values),"
+        },
+        "rejected": [
+          {
+            "target": "contour_levels",
+            "doc_path": "README.md",
+            "line": 91,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Polyline",
+            "doc_path": "README.md",
+            "line": 95,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "douglas_peucker",
+            "doc_path": "README.md",
+            "line": 100,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "ElevationRaster",
+            "doc_path": "docs/api.md",
+            "line": 25,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "sample_nearest",
+            "doc_path": "docs/api.md",
+            "line": 26,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "contour_levels",
+            "doc_path": "docs/api.md",
+            "line": 27,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Polyline",
+            "doc_path": "docs/api.md",
+            "line": 28,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "douglas_peucker",
+            "doc_path": "docs/api.md",
+            "line": 29,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "main",
+            "doc_path": "docs/api.md",
+            "line": 30,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "C": {
+        "candidates": [],
+        "selected": null,
+        "rejected": [],
+        "status": "no_candidate"
+      }
+    },
+    "tileplan": {
+      "A1": {
+        "candidates": [
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "tileplan/coords.py",
+            "old": "tileplan/coords.py",
+            "resolved": "tileplan/coords.py",
+            "doc_path": "README.md",
+            "line": 91,
+            "doc_line_text": "| `tileplan/coords.py` | `Tile`, `tile_from_lonlat`, `lonlat_from_tile` |"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "tileplan/extent.py",
+            "old": "tileplan/extent.py",
+            "resolved": "tileplan/extent.py",
+            "doc_path": "README.md",
+            "line": 92,
+            "doc_line_text": "| `tileplan/extent.py` | `Extent`, `tile_extent`, `merge_extents` |"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "tileplan/zoom.py",
+            "old": "tileplan/zoom.py",
+            "resolved": "tileplan/zoom.py",
+            "doc_path": "README.md",
+            "line": 93,
+            "doc_line_text": "| `tileplan/zoom.py` | `MAX_ZOOM`, `resolution_at`, `closest_zoom` |"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "tileplan/hierarchy.py",
+            "old": "tileplan/hierarchy.py",
+            "resolved": "tileplan/hierarchy.py",
+            "doc_path": "README.md",
+            "line": 94,
+            "doc_line_text": "| `tileplan/hierarchy.py` | `children`, `parent`, `descendants` |"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "tileplan/quadkey.py",
+            "old": "tileplan/quadkey.py",
+            "resolved": "tileplan/quadkey.py",
+            "doc_path": "README.md",
+            "line": 95,
+            "doc_line_text": "| `tileplan/quadkey.py` | `to_quadkey`, `from_quadkey` |"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "tileplan/cover.py",
+            "old": "tileplan/cover.py",
+            "resolved": "tileplan/cover.py",
+            "doc_path": "README.md",
+            "line": 96,
+            "doc_line_text": "| `tileplan/cover.py` | `CoverOptions`, `cover_extent` |"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/bay_area.geojson",
+            "old": "examples/bay_area.geojson",
+            "resolved": "examples/bay_area.geojson",
+            "doc_path": "README.md",
+            "line": 102,
+            "doc_line_text": "`examples/bay_area.geojson` is a GeoJSON `FeatureCollection` with a single `Polygon`"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/usage.md",
+            "old": "docs/usage.md",
+            "resolved": "docs/usage.md",
+            "doc_path": "README.md",
+            "line": 109,
+            "doc_line_text": "- [`docs/usage.md`](docs/usage.md) \u2014 a worked walkthrough of covering an extent and"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/api.md",
+            "old": "docs/api.md",
+            "resolved": "docs/api.md",
+            "doc_path": "README.md",
+            "line": 111,
+            "doc_line_text": "- [`docs/api.md`](docs/api.md) \u2014 the full public interface."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/bay_area.geojson",
+            "old": "examples/bay_area.geojson",
+            "resolved": "examples/bay_area.geojson",
+            "doc_path": "docs/api.md",
+            "line": 132,
+            "doc_line_text": "`examples/bay_area.geojson` is a GeoJSON `FeatureCollection` containing one `Feature`"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/bay_area.geojson",
+            "old": "examples/bay_area.geojson",
+            "resolved": "examples/bay_area.geojson",
+            "doc_path": "docs/usage.md",
+            "line": 8,
+            "doc_line_text": "The running example uses `examples/bay_area.geojson`, whose polygon spans longitude"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "../README.md",
+            "old": "../README.md",
+            "resolved": "README.md",
+            "doc_path": "docs/usage.md",
+            "line": 144,
+            "doc_line_text": "- [`../README.md`](../README.md) \u2014 installation and concepts."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "api.md",
+            "old": "api.md",
+            "resolved": "docs/api.md",
+            "doc_path": "docs/usage.md",
+            "line": 145,
+            "doc_line_text": "- [`api.md`](api.md) \u2014 exact signatures for every public name."
+          }
+        ],
+        "selected": {
+          "canonical_class": "path-location-drift",
+          "artifact_class": "path",
+          "target": "tileplan/coords.py",
+          "old": "tileplan/coords.py",
+          "resolved": "tileplan/coords.py",
+          "doc_path": "README.md",
+          "line": 91,
+          "doc_line_text": "| `tileplan/coords.py` | `Tile`, `tile_from_lonlat`, `lonlat_from_tile` |"
+        },
+        "rejected": [
+          {
+            "target": "tileplan/extent.py",
+            "doc_path": "README.md",
+            "line": 92,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "tileplan/zoom.py",
+            "doc_path": "README.md",
+            "line": 93,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "tileplan/hierarchy.py",
+            "doc_path": "README.md",
+            "line": 94,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "tileplan/quadkey.py",
+            "doc_path": "README.md",
+            "line": 95,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "tileplan/cover.py",
+            "doc_path": "README.md",
+            "line": 96,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/bay_area.geojson",
+            "doc_path": "README.md",
+            "line": 102,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "docs/usage.md",
+            "doc_path": "README.md",
+            "line": 109,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "docs/api.md",
+            "doc_path": "README.md",
+            "line": 111,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/bay_area.geojson",
+            "doc_path": "docs/api.md",
+            "line": 132,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/bay_area.geojson",
+            "doc_path": "docs/usage.md",
+            "line": 8,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "../README.md",
+            "doc_path": "docs/usage.md",
+            "line": 144,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "api.md",
+            "doc_path": "docs/usage.md",
+            "line": 145,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "A2": {
+        "candidates": [],
+        "selected": null,
+        "rejected": [],
+        "status": "no_candidate"
+      },
+      "A3": {
+        "candidates": [
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "tileplan.coords.Tile",
+            "old": "tileplan.coords.Tile",
+            "symbol": "tileplan.coords.Tile",
+            "doc_path": "README.md",
+            "line": 65,
+            "doc_line_text": "`tileplan.coords.Tile` holds the triple as the attributes `z`, `x`, and `y`."
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "tileplan.extent.Extent",
+            "old": "tileplan.extent.Extent",
+            "symbol": "tileplan.extent.Extent",
+            "doc_path": "README.md",
+            "line": 68,
+            "doc_line_text": "`south`, `east`, and `north` on `tileplan.extent.Extent`. `tile_extent` maps a tile to"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "tileplan.zoom.resolution_at",
+            "old": "tileplan.zoom.resolution_at",
+            "symbol": "tileplan.zoom.resolution_at",
+            "doc_path": "README.md",
+            "line": 71,
+            "doc_line_text": "**Zoom arithmetic.** `tileplan.zoom.resolution_at` relates a zoom level to ground"
+          }
+        ],
+        "selected": {
+          "canonical_class": "identifier-drift",
+          "artifact_class": "identifier",
+          "target": "tileplan.coords.Tile",
+          "old": "tileplan.coords.Tile",
+          "symbol": "tileplan.coords.Tile",
+          "doc_path": "README.md",
+          "line": 65,
+          "doc_line_text": "`tileplan.coords.Tile` holds the triple as the attributes `z`, `x`, and `y`."
+        },
+        "rejected": [
+          {
+            "target": "tileplan.extent.Extent",
+            "doc_path": "README.md",
+            "line": 68,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "tileplan.zoom.resolution_at",
+            "doc_path": "README.md",
+            "line": 71,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "A4": {
+        "candidates": [
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Tile",
+            "old": "Tile",
+            "symbol": "tileplan.coords.Tile",
+            "doc_path": "docs/api.md",
+            "line": 22,
+            "doc_line_text": "### `class Tile`",
+            "context_module": "tileplan.coords",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Tile",
+            "old": "Tile",
+            "symbol": "tileplan.coords.Tile",
+            "doc_path": "docs/api.md",
+            "line": 24,
+            "doc_line_text": "A tile address. `Tile()` takes no arguments.",
+            "context_module": "tileplan.coords",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "tile_from_lonlat",
+            "old": "tile_from_lonlat",
+            "symbol": "tileplan.coords.tile_from_lonlat",
+            "doc_path": "docs/api.md",
+            "line": 34,
+            "doc_line_text": "### `tile_from_lonlat() -> Tile`",
+            "context_module": "tileplan.coords",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Tile",
+            "old": "Tile",
+            "symbol": "tileplan.coords.Tile",
+            "doc_path": "docs/api.md",
+            "line": 36,
+            "doc_line_text": "Returns the `Tile` that contains the point being converted. Takes no arguments.",
+            "context_module": "tileplan.coords",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "lonlat_from_tile",
+            "old": "lonlat_from_tile",
+            "symbol": "tileplan.coords.lonlat_from_tile",
+            "doc_path": "docs/api.md",
+            "line": 38,
+            "doc_line_text": "### `lonlat_from_tile() -> tuple[float, float]`",
+            "context_module": "tileplan.coords",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Extent",
+            "old": "Extent",
+            "symbol": "tileplan.extent.Extent",
+            "doc_path": "docs/api.md",
+            "line": 45,
+            "doc_line_text": "### `class Extent`",
+            "context_module": "tileplan.extent",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Extent",
+            "old": "Extent",
+            "symbol": "tileplan.extent.Extent",
+            "doc_path": "docs/api.md",
+            "line": 47,
+            "doc_line_text": "A geographic bounding box in degrees. `Extent()` takes no arguments.",
+            "context_module": "tileplan.extent",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "tile_extent",
+            "old": "tile_extent",
+            "symbol": "tileplan.extent.tile_extent",
+            "doc_path": "docs/api.md",
+            "line": 58,
+            "doc_line_text": "### `tile_extent() -> Extent`",
+            "context_module": "tileplan.extent",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Extent",
+            "old": "Extent",
+            "symbol": "tileplan.extent.Extent",
+            "doc_path": "docs/api.md",
+            "line": 60,
+            "doc_line_text": "Returns the `Extent` covered by the tile being converted. Takes no arguments.",
+            "context_module": "tileplan.extent",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "merge_extents",
+            "old": "merge_extents",
+            "symbol": "tileplan.extent.merge_extents",
+            "doc_path": "docs/api.md",
+            "line": 62,
+            "doc_line_text": "### `merge_extents() -> Extent`",
+            "context_module": "tileplan.extent",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Extent",
+            "old": "Extent",
+            "symbol": "tileplan.extent.Extent",
+            "doc_path": "docs/api.md",
+            "line": 64,
+            "doc_line_text": "Returns an `Extent` spanning the extents being merged. Takes no arguments.",
+            "context_module": "tileplan.extent",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "resolution_at",
+            "old": "resolution_at",
+            "symbol": "tileplan.zoom.resolution_at",
+            "doc_path": "docs/api.md",
+            "line": 73,
+            "doc_line_text": "### `resolution_at() -> float`",
+            "context_module": "tileplan.zoom",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "closest_zoom",
+            "old": "closest_zoom",
+            "symbol": "tileplan.zoom.closest_zoom",
+            "doc_path": "docs/api.md",
+            "line": 77,
+            "doc_line_text": "### `closest_zoom() -> int`",
+            "context_module": "tileplan.zoom",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "children",
+            "old": "children",
+            "symbol": "tileplan.hierarchy.children",
+            "doc_path": "docs/api.md",
+            "line": 84,
+            "doc_line_text": "### `children() -> list[Tile]`",
+            "context_module": "tileplan.hierarchy",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "parent",
+            "old": "parent",
+            "symbol": "tileplan.hierarchy.parent",
+            "doc_path": "docs/api.md",
+            "line": 89,
+            "doc_line_text": "### `parent() -> Tile`",
+            "context_module": "tileplan.hierarchy",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "descendants",
+            "old": "descendants",
+            "symbol": "tileplan.hierarchy.descendants",
+            "doc_path": "docs/api.md",
+            "line": 93,
+            "doc_line_text": "### `descendants() -> list[Tile]`",
+            "context_module": "tileplan.hierarchy",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "to_quadkey",
+            "old": "to_quadkey",
+            "symbol": "tileplan.quadkey.to_quadkey",
+            "doc_path": "docs/api.md",
+            "line": 104,
+            "doc_line_text": "### `to_quadkey() -> str`",
+            "context_module": "tileplan.quadkey",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "from_quadkey",
+            "old": "from_quadkey",
+            "symbol": "tileplan.quadkey.from_quadkey",
+            "doc_path": "docs/api.md",
+            "line": 108,
+            "doc_line_text": "### `from_quadkey() -> Tile`",
+            "context_module": "tileplan.quadkey",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "CoverOptions",
+            "old": "CoverOptions",
+            "symbol": "tileplan.cover.CoverOptions",
+            "doc_path": "docs/api.md",
+            "line": 114,
+            "doc_line_text": "### `class CoverOptions`",
+            "context_module": "tileplan.cover",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "cover_extent",
+            "old": "cover_extent",
+            "symbol": "tileplan.cover.cover_extent",
+            "doc_path": "docs/api.md",
+            "line": 126,
+            "doc_line_text": "### `cover_extent() -> list[Tile]`",
+            "context_module": "tileplan.cover",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "CoverOptions",
+            "old": "CoverOptions",
+            "symbol": "tileplan.cover.CoverOptions",
+            "doc_path": "docs/api.md",
+            "line": 128,
+            "doc_line_text": "Returns the tiles covering an extent under the given `CoverOptions`. Takes no arguments.",
+            "context_module": "tileplan.cover",
+            "context_source": "heading"
+          }
+        ],
+        "selected": {
+          "canonical_class": "identifier-drift",
+          "artifact_class": "identifier",
+          "target": "Tile",
+          "old": "Tile",
+          "symbol": "tileplan.coords.Tile",
+          "doc_path": "docs/api.md",
+          "line": 22,
+          "doc_line_text": "### `class Tile`",
+          "context_module": "tileplan.coords",
+          "context_source": "heading"
+        },
+        "rejected": [
+          {
+            "target": "Tile",
+            "doc_path": "docs/api.md",
+            "line": 24,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "tile_from_lonlat",
+            "doc_path": "docs/api.md",
+            "line": 34,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Tile",
+            "doc_path": "docs/api.md",
+            "line": 36,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "lonlat_from_tile",
+            "doc_path": "docs/api.md",
+            "line": 38,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Extent",
+            "doc_path": "docs/api.md",
+            "line": 45,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Extent",
+            "doc_path": "docs/api.md",
+            "line": 47,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "tile_extent",
+            "doc_path": "docs/api.md",
+            "line": 58,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Extent",
+            "doc_path": "docs/api.md",
+            "line": 60,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "merge_extents",
+            "doc_path": "docs/api.md",
+            "line": 62,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Extent",
+            "doc_path": "docs/api.md",
+            "line": 64,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "resolution_at",
+            "doc_path": "docs/api.md",
+            "line": 73,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "closest_zoom",
+            "doc_path": "docs/api.md",
+            "line": 77,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "children",
+            "doc_path": "docs/api.md",
+            "line": 84,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "parent",
+            "doc_path": "docs/api.md",
+            "line": 89,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "descendants",
+            "doc_path": "docs/api.md",
+            "line": 93,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "to_quadkey",
+            "doc_path": "docs/api.md",
+            "line": 104,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "from_quadkey",
+            "doc_path": "docs/api.md",
+            "line": 108,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "CoverOptions",
+            "doc_path": "docs/api.md",
+            "line": 114,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "cover_extent",
+            "doc_path": "docs/api.md",
+            "line": 126,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "CoverOptions",
+            "doc_path": "docs/api.md",
+            "line": 128,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "B": {
+        "candidates": [],
+        "selected": null,
+        "rejected": [],
+        "status": "no_candidate"
+      },
+      "C": {
+        "candidates": [],
+        "selected": null,
+        "rejected": [],
+        "status": "no_candidate"
+      }
+    },
+    "morpheme": {
+      "A1": {
+        "candidates": [
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/",
+            "old": "examples/",
+            "resolved": "examples/",
+            "doc_path": "README.md",
+            "line": 51,
+            "doc_line_text": "Two files under `examples/` define the sample language pack used in the"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/tir_affixes.yaml",
+            "old": "examples/tir_affixes.yaml",
+            "resolved": "examples/tir_affixes.yaml",
+            "doc_path": "README.md",
+            "line": 54,
+            "doc_line_text": "- `examples/tir_affixes.yaml` \u2014 an affix table with `language: tir` and three"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/words.txt",
+            "old": "examples/words.txt",
+            "resolved": "examples/words.txt",
+            "doc_path": "README.md",
+            "line": 58,
+            "doc_line_text": "- `examples/words.txt` \u2014 a plain word list, one word per line:"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/concepts.md",
+            "old": "docs/concepts.md",
+            "resolved": "docs/concepts.md",
+            "doc_path": "README.md",
+            "line": 87,
+            "doc_line_text": "`docs/concepts.md` explains how these pieces are meant to fit together, and"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/api.md",
+            "old": "docs/api.md",
+            "resolved": "docs/api.md",
+            "doc_path": "README.md",
+            "line": 88,
+            "doc_line_text": "`docs/api.md` lists the classes and functions with their exact signatures."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/tir_affixes.yaml",
+            "old": "examples/tir_affixes.yaml",
+            "resolved": "examples/tir_affixes.yaml",
+            "doc_path": "docs/api.md",
+            "line": 76,
+            "doc_line_text": "The example table, `examples/tir_affixes.yaml`, is a YAML document with a"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/tir_affixes.yaml",
+            "old": "examples/tir_affixes.yaml",
+            "resolved": "examples/tir_affixes.yaml",
+            "doc_path": "docs/concepts.md",
+            "line": 16,
+            "doc_line_text": "an affix table. In the example pack, `examples/tir_affixes.yaml`, the table is a"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/words.txt",
+            "old": "examples/words.txt",
+            "resolved": "examples/words.txt",
+            "doc_path": "docs/concepts.md",
+            "line": 63,
+            "doc_line_text": "  file, `examples/words.txt`, one word per line."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/words.txt",
+            "old": "examples/words.txt",
+            "resolved": "examples/words.txt",
+            "doc_path": "docs/concepts.md",
+            "line": 109,
+            "doc_line_text": "`examples/words.txt` produces."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "morpheme/cli.py",
+            "old": "morpheme/cli.py",
+            "resolved": "morpheme/cli.py",
+            "doc_path": "docs/concepts.md",
+            "line": 118,
+            "doc_line_text": "The CLI in `morpheme/cli.py` is intentionally thin. `main()` returns an `int`"
+          }
+        ],
+        "selected": {
+          "canonical_class": "path-location-drift",
+          "artifact_class": "path",
+          "target": "examples/",
+          "old": "examples/",
+          "resolved": "examples/",
+          "doc_path": "README.md",
+          "line": 51,
+          "doc_line_text": "Two files under `examples/` define the sample language pack used in the"
+        },
+        "rejected": [
+          {
+            "target": "examples/tir_affixes.yaml",
+            "doc_path": "README.md",
+            "line": 54,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/words.txt",
+            "doc_path": "README.md",
+            "line": 58,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "docs/concepts.md",
+            "doc_path": "README.md",
+            "line": 87,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "docs/api.md",
+            "doc_path": "README.md",
+            "line": 88,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/tir_affixes.yaml",
+            "doc_path": "docs/api.md",
+            "line": 76,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/tir_affixes.yaml",
+            "doc_path": "docs/concepts.md",
+            "line": 16,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/words.txt",
+            "doc_path": "docs/concepts.md",
+            "line": 63,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/words.txt",
+            "doc_path": "docs/concepts.md",
+            "line": 109,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "morpheme/cli.py",
+            "doc_path": "docs/concepts.md",
+            "line": 118,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "A2": {
+        "candidates": [
+          {
+            "canonical_class": "external-dependency-drift",
+            "artifact_class": "dependency",
+            "target": "pyyaml",
+            "old": "pyyaml",
+            "symbol": "pyyaml",
+            "doc_path": "README.md",
+            "line": 10,
+            "doc_line_text": "on `regex>=2024.5` and `PyYAML>=6.0`."
+          }
+        ],
+        "selected": {
+          "canonical_class": "external-dependency-drift",
+          "artifact_class": "dependency",
+          "target": "pyyaml",
+          "old": "pyyaml",
+          "symbol": "pyyaml",
+          "doc_path": "README.md",
+          "line": 10,
+          "doc_line_text": "on `regex>=2024.5` and `PyYAML>=6.0`."
+        },
+        "rejected": [],
+        "status": "selected"
+      },
+      "A3": {
+        "candidates": [],
+        "selected": null,
+        "rejected": [],
+        "status": "no_candidate"
+      },
+      "A4": {
+        "candidates": [
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Lexicon",
+            "old": "Lexicon",
+            "symbol": "morpheme.lexicon.Lexicon",
+            "doc_path": "docs/api.md",
+            "line": 14,
+            "doc_line_text": "### `class Lexicon`",
+            "context_module": "morpheme.lexicon",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "load_lexicon",
+            "old": "load_lexicon",
+            "symbol": "morpheme.lexicon.load_lexicon",
+            "doc_path": "docs/api.md",
+            "line": 30,
+            "doc_line_text": "### `load_lexicon`",
+            "context_module": "morpheme.lexicon",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Lexicon",
+            "old": "Lexicon",
+            "symbol": "morpheme.lexicon.Lexicon",
+            "doc_path": "docs/api.md",
+            "line": 36,
+            "doc_line_text": "Returns the lexicon to work with. The annotated return type is `Lexicon`.",
+            "context_module": "morpheme.lexicon",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Affix",
+            "old": "Affix",
+            "symbol": "morpheme.affixes.Affix",
+            "doc_path": "docs/api.md",
+            "line": 49,
+            "doc_line_text": "### `class Affix`",
+            "context_module": "morpheme.affixes",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "parse_affix_table",
+            "old": "parse_affix_table",
+            "symbol": "morpheme.affixes.parse_affix_table",
+            "doc_path": "docs/api.md",
+            "line": 66,
+            "doc_line_text": "### `parse_affix_table`",
+            "context_module": "morpheme.affixes",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Affix",
+            "old": "Affix",
+            "symbol": "morpheme.affixes.Affix",
+            "doc_path": "docs/api.md",
+            "line": 72,
+            "doc_line_text": "Returns the parsed affix entries, one `Affix` per table entry.",
+            "context_module": "morpheme.affixes",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Segmenter",
+            "old": "Segmenter",
+            "symbol": "morpheme.segmenter.Segmenter",
+            "doc_path": "docs/api.md",
+            "line": 98,
+            "doc_line_text": "### `class Segmenter`",
+            "context_module": "morpheme.segmenter",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "segment",
+            "old": "segment",
+            "symbol": "morpheme.segmenter.segment",
+            "doc_path": "docs/api.md",
+            "line": 114,
+            "doc_line_text": "### `segment`",
+            "context_module": "morpheme.segmenter",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "LemmaResult",
+            "old": "LemmaResult",
+            "symbol": "morpheme.lemmatize.LemmaResult",
+            "doc_path": "docs/api.md",
+            "line": 124,
+            "doc_line_text": "### `class LemmaResult`",
+            "context_module": "morpheme.lemmatize",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "lookup_lemma",
+            "old": "lookup_lemma",
+            "symbol": "morpheme.lemmatize.lookup_lemma",
+            "doc_path": "docs/api.md",
+            "line": 141,
+            "doc_line_text": "### `lookup_lemma`",
+            "context_module": "morpheme.lemmatize",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "lookup_many",
+            "old": "lookup_many",
+            "symbol": "morpheme.lemmatize.lookup_many",
+            "doc_path": "docs/api.md",
+            "line": 149,
+            "doc_line_text": "### `lookup_many`",
+            "context_module": "morpheme.lemmatize",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "LemmaResult",
+            "old": "LemmaResult",
+            "symbol": "morpheme.lemmatize.LemmaResult",
+            "doc_path": "docs/api.md",
+            "line": 155,
+            "doc_line_text": "Returns one `LemmaResult` per input word, in input order.",
+            "context_module": "morpheme.lemmatize",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "main",
+            "old": "main",
+            "symbol": "morpheme.cli.main",
+            "doc_path": "docs/api.md",
+            "line": 159,
+            "doc_line_text": "### `main`",
+            "context_module": "morpheme.cli",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "format_alignment",
+            "old": "format_alignment",
+            "symbol": "morpheme.cli.format_alignment",
+            "doc_path": "docs/api.md",
+            "line": 180,
+            "doc_line_text": "### `format_alignment`",
+            "context_module": "morpheme.cli",
+            "context_source": "heading"
+          }
+        ],
+        "selected": {
+          "canonical_class": "identifier-drift",
+          "artifact_class": "identifier",
+          "target": "Lexicon",
+          "old": "Lexicon",
+          "symbol": "morpheme.lexicon.Lexicon",
+          "doc_path": "docs/api.md",
+          "line": 14,
+          "doc_line_text": "### `class Lexicon`",
+          "context_module": "morpheme.lexicon",
+          "context_source": "heading"
+        },
+        "rejected": [
+          {
+            "target": "load_lexicon",
+            "doc_path": "docs/api.md",
+            "line": 30,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Lexicon",
+            "doc_path": "docs/api.md",
+            "line": 36,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Affix",
+            "doc_path": "docs/api.md",
+            "line": 49,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "parse_affix_table",
+            "doc_path": "docs/api.md",
+            "line": 66,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Affix",
+            "doc_path": "docs/api.md",
+            "line": 72,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Segmenter",
+            "doc_path": "docs/api.md",
+            "line": 98,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "segment",
+            "doc_path": "docs/api.md",
+            "line": 114,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "LemmaResult",
+            "doc_path": "docs/api.md",
+            "line": 124,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "lookup_lemma",
+            "doc_path": "docs/api.md",
+            "line": 141,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "lookup_many",
+            "doc_path": "docs/api.md",
+            "line": 149,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "LemmaResult",
+            "doc_path": "docs/api.md",
+            "line": 155,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "main",
+            "doc_path": "docs/api.md",
+            "line": 159,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "format_alignment",
+            "doc_path": "docs/api.md",
+            "line": 180,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "B": {
+        "candidates": [
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "LemmaResult",
+            "old": "LemmaResult",
+            "symbol": "LemmaResult",
+            "doc_path": "README.md",
+            "line": 83,
+            "doc_line_text": "- **Lemmatization** \u2014 mapping a surface form back to its lemma. A `LemmaResult`"
+          }
+        ],
+        "selected": {
+          "canonical_class": "identifier-drift",
+          "artifact_class": "identifier",
+          "target": "LemmaResult",
+          "old": "LemmaResult",
+          "symbol": "LemmaResult",
+          "doc_path": "README.md",
+          "line": 83,
+          "doc_line_text": "- **Lemmatization** \u2014 mapping a surface form back to its lemma. A `LemmaResult`"
+        },
+        "rejected": [],
+        "status": "selected"
+      },
+      "C": {
+        "candidates": [],
+        "selected": null,
+        "rejected": [],
+        "status": "no_candidate"
+      }
+    },
+    "bibscan": {
+      "A1": {
+        "candidates": [
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "pyproject.toml",
+            "old": "pyproject.toml",
+            "resolved": "pyproject.toml",
+            "doc_path": "README.md",
+            "line": 27,
+            "doc_line_text": "declared in `pyproject.toml` and installed for you."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/library.bib",
+            "old": "examples/library.bib",
+            "resolved": "examples/library.bib",
+            "doc_path": "README.md",
+            "line": 63,
+            "doc_line_text": "The bundled database `examples/library.bib` holds two entries \u2014 `knuth1984`"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/recipes.md",
+            "old": "docs/recipes.md",
+            "resolved": "docs/recipes.md",
+            "doc_path": "README.md",
+            "line": 99,
+            "doc_line_text": "- [`docs/recipes.md`](docs/recipes.md) \u2014 short, task-oriented examples."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/api.md",
+            "old": "docs/api.md",
+            "resolved": "docs/api.md",
+            "doc_path": "README.md",
+            "line": 100,
+            "doc_line_text": "- [`docs/api.md`](docs/api.md) \u2014 the complete public interface."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "__init__.py",
+            "old": "__init__.py",
+            "resolved": "bibscan/__init__.py",
+            "doc_path": "docs/api.md",
+            "line": 10,
+            "doc_line_text": "The package's `__init__.py` defines only `__version__`. Import everything else"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "api.md",
+            "old": "api.md",
+            "resolved": "docs/api.md",
+            "doc_path": "docs/recipes.md",
+            "line": 4,
+            "doc_line_text": "They use the public interface described in [`api.md`](api.md)."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/library.bib",
+            "old": "examples/library.bib",
+            "resolved": "examples/library.bib",
+            "doc_path": "docs/recipes.md",
+            "line": 58,
+            "doc_line_text": "This is the same entry that appears first in `examples/library.bib`."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/library.bib",
+            "old": "examples/library.bib",
+            "resolved": "examples/library.bib",
+            "doc_path": "docs/recipes.md",
+            "line": 62,
+            "doc_line_text": "The repository ships one database, `examples/library.bib`, with two entries:"
+          }
+        ],
+        "selected": {
+          "canonical_class": "path-location-drift",
+          "artifact_class": "path",
+          "target": "pyproject.toml",
+          "old": "pyproject.toml",
+          "resolved": "pyproject.toml",
+          "doc_path": "README.md",
+          "line": 27,
+          "doc_line_text": "declared in `pyproject.toml` and installed for you."
+        },
+        "rejected": [
+          {
+            "target": "examples/library.bib",
+            "doc_path": "README.md",
+            "line": 63,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "docs/recipes.md",
+            "doc_path": "README.md",
+            "line": 99,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "docs/api.md",
+            "doc_path": "README.md",
+            "line": 100,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "__init__.py",
+            "doc_path": "docs/api.md",
+            "line": 10,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "api.md",
+            "doc_path": "docs/recipes.md",
+            "line": 4,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/library.bib",
+            "doc_path": "docs/recipes.md",
+            "line": 58,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/library.bib",
+            "doc_path": "docs/recipes.md",
+            "line": 62,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "A2": {
+        "candidates": [
+          {
+            "canonical_class": "external-dependency-drift",
+            "artifact_class": "dependency",
+            "target": "lxml",
+            "old": "lxml",
+            "symbol": "lxml",
+            "doc_path": "README.md",
+            "line": 26,
+            "doc_line_text": "The only runtime dependencies are `lxml>=4.9` and `python-dateutil>=2.8`, both"
+          }
+        ],
+        "selected": {
+          "canonical_class": "external-dependency-drift",
+          "artifact_class": "dependency",
+          "target": "lxml",
+          "old": "lxml",
+          "symbol": "lxml",
+          "doc_path": "README.md",
+          "line": 26,
+          "doc_line_text": "The only runtime dependencies are `lxml>=4.9` and `python-dateutil>=2.8`, both"
+        },
+        "rejected": [],
+        "status": "selected"
+      },
+      "A3": {
+        "candidates": [
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "bibscan.parser.parse_bibtex",
+            "old": "bibscan.parser.parse_bibtex",
+            "symbol": "bibscan.parser.parse_bibtex",
+            "doc_path": "README.md",
+            "line": 75,
+            "doc_line_text": "**Parsing.** `bibscan.parser.parse_bibtex` is the entry point for BibTeX input"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "bibscan.parser.parse_csl",
+            "old": "bibscan.parser.parse_csl",
+            "symbol": "bibscan.parser.parse_csl",
+            "doc_path": "README.md",
+            "line": 76,
+            "doc_line_text": "and `bibscan.parser.parse_csl` for CSL styles. The module also defines"
+          }
+        ],
+        "selected": {
+          "canonical_class": "identifier-drift",
+          "artifact_class": "identifier",
+          "target": "bibscan.parser.parse_bibtex",
+          "old": "bibscan.parser.parse_bibtex",
+          "symbol": "bibscan.parser.parse_bibtex",
+          "doc_path": "README.md",
+          "line": 75,
+          "doc_line_text": "**Parsing.** `bibscan.parser.parse_bibtex` is the entry point for BibTeX input"
+        },
+        "rejected": [
+          {
+            "target": "bibscan.parser.parse_csl",
+            "doc_path": "README.md",
+            "line": 76,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "A4": {
+        "candidates": [
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "format_citation",
+            "old": "format_citation",
+            "symbol": "bibscan.format.format_citation",
+            "doc_path": "README.md",
+            "line": 86,
+            "doc_line_text": "**Formatting.** `bibscan.format` renders output. `format_citation` produces a",
+            "context_module": "bibscan.format",
+            "context_source": "prose"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "scan_file",
+            "old": "scan_file",
+            "symbol": "bibscan.cli.scan_file",
+            "doc_path": "README.md",
+            "line": 91,
+            "doc_line_text": "**Command line.** `bibscan.cli` contains `scan_file`, typed as returning a list",
+            "context_module": "bibscan.cli",
+            "context_source": "prose"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Entry",
+            "old": "Entry",
+            "symbol": "bibscan.model.Entry",
+            "doc_path": "docs/api.md",
+            "line": 25,
+            "doc_line_text": "### `class Entry`",
+            "context_module": "bibscan.model",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Name",
+            "old": "Name",
+            "symbol": "bibscan.model.Name",
+            "doc_path": "docs/api.md",
+            "line": 45,
+            "doc_line_text": "### `class Name`",
+            "context_module": "bibscan.model",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Style",
+            "old": "Style",
+            "symbol": "bibscan.model.Style",
+            "doc_path": "docs/api.md",
+            "line": 57,
+            "doc_line_text": "### `class Style`",
+            "context_module": "bibscan.model",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "BibSyntaxError",
+            "old": "BibSyntaxError",
+            "symbol": "bibscan.parser.BibSyntaxError",
+            "doc_path": "docs/api.md",
+            "line": 70,
+            "doc_line_text": "### `class BibSyntaxError`",
+            "context_module": "bibscan.parser",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "BibSyntaxError",
+            "old": "BibSyntaxError",
+            "symbol": "bibscan.parser.BibSyntaxError",
+            "doc_path": "docs/api.md",
+            "line": 80,
+            "doc_line_text": "`BibSyntaxError` is declared as a plain class with no base class other than the",
+            "context_module": "bibscan.parser",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "parse_bibtex",
+            "old": "parse_bibtex",
+            "symbol": "bibscan.parser.parse_bibtex",
+            "doc_path": "docs/api.md",
+            "line": 83,
+            "doc_line_text": "### `parse_bibtex() -> list[Entry]`",
+            "context_module": "bibscan.parser",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "parse_csl",
+            "old": "parse_csl",
+            "symbol": "bibscan.parser.parse_csl",
+            "doc_path": "docs/api.md",
+            "line": 90,
+            "doc_line_text": "### `parse_csl() -> Style`",
+            "context_module": "bibscan.parser",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "parse_names",
+            "old": "parse_names",
+            "symbol": "bibscan.names.parse_names",
+            "doc_path": "docs/api.md",
+            "line": 110,
+            "doc_line_text": "### `parse_names() -> list[Name]`",
+            "context_module": "bibscan.names",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "format_name",
+            "old": "format_name",
+            "symbol": "bibscan.names.format_name",
+            "doc_path": "docs/api.md",
+            "line": 117,
+            "doc_line_text": "### `format_name() -> str`",
+            "context_module": "bibscan.names",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "format_citation",
+            "old": "format_citation",
+            "symbol": "bibscan.format.format_citation",
+            "doc_path": "docs/api.md",
+            "line": 134,
+            "doc_line_text": "### `format_citation() -> str`",
+            "context_module": "bibscan.format",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "format_bibliography",
+            "old": "format_bibliography",
+            "symbol": "bibscan.format.format_bibliography",
+            "doc_path": "docs/api.md",
+            "line": 141,
+            "doc_line_text": "### `format_bibliography() -> str`",
+            "context_module": "bibscan.format",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "scan_file",
+            "old": "scan_file",
+            "symbol": "bibscan.cli.scan_file",
+            "doc_path": "docs/api.md",
+            "line": 150,
+            "doc_line_text": "### `scan_file() -> list[Entry]`",
+            "context_module": "bibscan.cli",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "main",
+            "old": "main",
+            "symbol": "bibscan.cli.main",
+            "doc_path": "docs/api.md",
+            "line": 158,
+            "doc_line_text": "### `main() -> int`",
+            "context_module": "bibscan.cli",
+            "context_source": "heading"
+          }
+        ],
+        "selected": {
+          "canonical_class": "identifier-drift",
+          "artifact_class": "identifier",
+          "target": "format_citation",
+          "old": "format_citation",
+          "symbol": "bibscan.format.format_citation",
+          "doc_path": "README.md",
+          "line": 86,
+          "doc_line_text": "**Formatting.** `bibscan.format` renders output. `format_citation` produces a",
+          "context_module": "bibscan.format",
+          "context_source": "prose"
+        },
+        "rejected": [
+          {
+            "target": "scan_file",
+            "doc_path": "README.md",
+            "line": 91,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Entry",
+            "doc_path": "docs/api.md",
+            "line": 25,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Name",
+            "doc_path": "docs/api.md",
+            "line": 45,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Style",
+            "doc_path": "docs/api.md",
+            "line": 57,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "BibSyntaxError",
+            "doc_path": "docs/api.md",
+            "line": 70,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "BibSyntaxError",
+            "doc_path": "docs/api.md",
+            "line": 80,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "parse_bibtex",
+            "doc_path": "docs/api.md",
+            "line": 83,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "parse_csl",
+            "doc_path": "docs/api.md",
+            "line": 90,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "parse_names",
+            "doc_path": "docs/api.md",
+            "line": 110,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "format_name",
+            "doc_path": "docs/api.md",
+            "line": 117,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "format_citation",
+            "doc_path": "docs/api.md",
+            "line": 134,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "format_bibliography",
+            "doc_path": "docs/api.md",
+            "line": 141,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "scan_file",
+            "doc_path": "docs/api.md",
+            "line": 150,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "main",
+            "doc_path": "docs/api.md",
+            "line": 158,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "B": {
+        "candidates": [
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Entry",
+            "old": "Entry",
+            "symbol": "Entry",
+            "doc_path": "README.md",
+            "line": 69,
+            "doc_line_text": "**Records.** BibTeX entries are represented by `Entry`, with a citation `key`,"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Entry",
+            "old": "Entry",
+            "symbol": "Entry",
+            "doc_path": "docs/api.md",
+            "line": 17,
+            "doc_line_text": "| `bibscan.model` | `Entry`, `Name`, `Style` |"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "BibSyntaxError",
+            "old": "BibSyntaxError",
+            "symbol": "BibSyntaxError",
+            "doc_path": "docs/api.md",
+            "line": 18,
+            "doc_line_text": "| `bibscan.parser` | `BibSyntaxError`, `parse_bibtex`, `parse_csl` |"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "scan_file",
+            "old": "scan_file",
+            "symbol": "scan_file",
+            "doc_path": "docs/api.md",
+            "line": 21,
+            "doc_line_text": "| `bibscan.cli` | `scan_file`, `main` |"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Style",
+            "old": "Style",
+            "symbol": "Style",
+            "doc_path": "docs/api.md",
+            "line": 180,
+            "doc_line_text": "- Type annotations on the parser functions (`list[Entry]`, `Style`) are written"
+          }
+        ],
+        "selected": {
+          "canonical_class": "identifier-drift",
+          "artifact_class": "identifier",
+          "target": "Entry",
+          "old": "Entry",
+          "symbol": "Entry",
+          "doc_path": "README.md",
+          "line": 69,
+          "doc_line_text": "**Records.** BibTeX entries are represented by `Entry`, with a citation `key`,"
+        },
+        "rejected": [
+          {
+            "target": "Entry",
+            "doc_path": "docs/api.md",
+            "line": 17,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "BibSyntaxError",
+            "doc_path": "docs/api.md",
+            "line": 18,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "scan_file",
+            "doc_path": "docs/api.md",
+            "line": 21,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Style",
+            "doc_path": "docs/api.md",
+            "line": 180,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "C": {
+        "candidates": [],
+        "selected": null,
+        "rejected": [],
+        "status": "no_candidate"
+      }
+    },
+    "serialscope": {
+      "A1": {
+        "candidates": [
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/",
+            "old": "examples/",
+            "resolved": "examples/",
+            "doc_path": "README.md",
+            "line": 26,
+            "doc_line_text": "delimiter envelope. Both capture files in `examples/` follow the same shape:"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/balance_frames.txt",
+            "old": "examples/balance_frames.txt",
+            "resolved": "examples/balance_frames.txt",
+            "doc_path": "README.md",
+            "line": 32,
+            "doc_line_text": "`examples/balance_frames.txt` holds two weighings:"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/pump_response.txt",
+            "old": "examples/pump_response.txt",
+            "resolved": "examples/pump_response.txt",
+            "doc_path": "README.md",
+            "line": 40,
+            "doc_line_text": "`examples/pump_response.txt` holds one pump status line:"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/walkthrough.md",
+            "old": "docs/walkthrough.md",
+            "resolved": "docs/walkthrough.md",
+            "doc_path": "README.md",
+            "line": 121,
+            "doc_line_text": "and attributes described here as the contract, and see `docs/walkthrough.md` for"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/walkthrough.md",
+            "old": "docs/walkthrough.md",
+            "resolved": "docs/walkthrough.md",
+            "doc_path": "README.md",
+            "line": 127,
+            "doc_line_text": "- `docs/walkthrough.md` \u2014 decode a captured balance response end to end."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/structure.md",
+            "old": "docs/structure.md",
+            "resolved": "docs/structure.md",
+            "doc_path": "README.md",
+            "line": 128,
+            "doc_line_text": "- `docs/structure.md` \u2014 what each module is responsible for and how the pieces"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "serialscope/",
+            "old": "serialscope/",
+            "resolved": "serialscope/",
+            "doc_path": "docs/structure.md",
+            "line": 3,
+            "doc_line_text": "`serialscope` is a flat package: seven small modules under `serialscope/`, each"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/",
+            "old": "examples/",
+            "resolved": "examples/",
+            "doc_path": "docs/structure.md",
+            "line": 4,
+            "doc_line_text": "owning one step of the job, plus a pair of capture files under `examples/` that"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "serialscope/__init__.py",
+            "old": "serialscope/__init__.py",
+            "resolved": "serialscope/__init__.py",
+            "doc_path": "docs/structure.md",
+            "line": 60,
+            "doc_line_text": "## `serialscope/__init__.py`"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "serialscope/errors.py",
+            "old": "serialscope/errors.py",
+            "resolved": "serialscope/errors.py",
+            "doc_path": "docs/structure.md",
+            "line": 67,
+            "doc_line_text": "## `serialscope/errors.py`"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/walkthrough.md",
+            "old": "docs/walkthrough.md",
+            "resolved": "docs/walkthrough.md",
+            "doc_path": "docs/structure.md",
+            "line": 78,
+            "doc_line_text": "documentation of the failure modes; see `docs/walkthrough.md` step 5."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "serialscope/checksums.py",
+            "old": "serialscope/checksums.py",
+            "resolved": "serialscope/checksums.py",
+            "doc_path": "docs/structure.md",
+            "line": 80,
+            "doc_line_text": "## `serialscope/checksums.py`"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "serialscope/frames.py",
+            "old": "serialscope/frames.py",
+            "resolved": "serialscope/frames.py",
+            "doc_path": "docs/structure.md",
+            "line": 92,
+            "doc_line_text": "## `serialscope/frames.py`"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/balance_frames.txt",
+            "old": "examples/balance_frames.txt",
+            "resolved": "examples/balance_frames.txt",
+            "doc_path": "docs/structure.md",
+            "line": 106,
+            "doc_line_text": "checksum bytes, as in `examples/balance_frames.txt`. `parse_frame` is for data you"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "serialscope/codecs.py",
+            "old": "serialscope/codecs.py",
+            "resolved": "serialscope/codecs.py",
+            "doc_path": "docs/structure.md",
+            "line": 110,
+            "doc_line_text": "## `serialscope/codecs.py`"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/balance_frames.txt",
+            "old": "examples/balance_frames.txt",
+            "resolved": "examples/balance_frames.txt",
+            "doc_path": "docs/structure.md",
+            "line": 121,
+            "doc_line_text": "`examples/balance_frames.txt` decodes to space-separated fields"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/pump_response.txt",
+            "old": "examples/pump_response.txt",
+            "resolved": "examples/pump_response.txt",
+            "doc_path": "docs/structure.md",
+            "line": 122,
+            "doc_line_text": "(`S`, `12.345`, `g`), while `examples/pump_response.txt` decodes to a"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "serialscope/transport.py",
+            "old": "serialscope/transport.py",
+            "resolved": "serialscope/transport.py",
+            "doc_path": "docs/structure.md",
+            "line": 126,
+            "doc_line_text": "## `serialscope/transport.py`"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "serialscope/config.py",
+            "old": "serialscope/config.py",
+            "resolved": "serialscope/config.py",
+            "doc_path": "docs/structure.md",
+            "line": 139,
+            "doc_line_text": "## `serialscope/config.py`"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "serialscope/cli.py",
+            "old": "serialscope/cli.py",
+            "resolved": "serialscope/cli.py",
+            "doc_path": "docs/structure.md",
+            "line": 153,
+            "doc_line_text": "## `serialscope/cli.py`"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/",
+            "old": "examples/",
+            "resolved": "examples/",
+            "doc_path": "docs/structure.md",
+            "line": 167,
+            "doc_line_text": "## `examples/`"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "balance_frames.txt",
+            "old": "balance_frames.txt",
+            "resolved": "examples/balance_frames.txt",
+            "doc_path": "docs/structure.md",
+            "line": 171,
+            "doc_line_text": "- `balance_frames.txt` \u2014 `S    12.345 g` and `S     0.000 g`."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "pump_response.txt",
+            "old": "pump_response.txt",
+            "resolved": "examples/pump_response.txt",
+            "doc_path": "docs/structure.md",
+            "line": 172,
+            "doc_line_text": "- `pump_response.txt` \u2014 `01:INFUSE;0.50ml/min`."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/",
+            "old": "examples/",
+            "resolved": "examples/",
+            "doc_path": "docs/walkthrough.md",
+            "line": 5,
+            "doc_line_text": "files under `examples/`, so you can follow it without any hardware attached."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "pyproject.toml",
+            "old": "pyproject.toml",
+            "resolved": "pyproject.toml",
+            "doc_path": "docs/walkthrough.md",
+            "line": 17,
+            "doc_line_text": "or newer \u2014 that is what `pyproject.toml` requires."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/balance_frames.txt",
+            "old": "examples/balance_frames.txt",
+            "resolved": "examples/balance_frames.txt",
+            "doc_path": "docs/walkthrough.md",
+            "line": 21,
+            "doc_line_text": "`examples/balance_frames.txt` contains two responses, one per line, written as"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "serialscope/config.py",
+            "old": "serialscope/config.py",
+            "resolved": "serialscope/config.py",
+            "doc_path": "docs/walkthrough.md",
+            "line": 142,
+            "doc_line_text": "environment variables, listed in `serialscope/config.py` as `ENV_DEFAULTS`:"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/",
+            "old": "examples/",
+            "resolved": "examples/",
+            "doc_path": "docs/walkthrough.md",
+            "line": 166,
+            "doc_line_text": "The capture files under `examples/` are the fixture set for this pipeline:"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "balance_frames.txt",
+            "old": "balance_frames.txt",
+            "resolved": "examples/balance_frames.txt",
+            "doc_path": "docs/walkthrough.md",
+            "line": 167,
+            "doc_line_text": "`balance_frames.txt` for the fixed-width weighing format and"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "pump_response.txt",
+            "old": "pump_response.txt",
+            "resolved": "examples/pump_response.txt",
+            "doc_path": "docs/walkthrough.md",
+            "line": 168,
+            "doc_line_text": "`pump_response.txt` for the `;`-separated pump status format. When you add a new"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/structure.md",
+            "old": "docs/structure.md",
+            "resolved": "docs/structure.md",
+            "doc_path": "docs/walkthrough.md",
+            "line": 170,
+            "doc_line_text": "touching your acquisition script. `docs/structure.md` describes which module owns"
+          }
+        ],
+        "selected": {
+          "canonical_class": "path-location-drift",
+          "artifact_class": "path",
+          "target": "examples/",
+          "old": "examples/",
+          "resolved": "examples/",
+          "doc_path": "README.md",
+          "line": 26,
+          "doc_line_text": "delimiter envelope. Both capture files in `examples/` follow the same shape:"
+        },
+        "rejected": [
+          {
+            "target": "examples/balance_frames.txt",
+            "doc_path": "README.md",
+            "line": 32,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/pump_response.txt",
+            "doc_path": "README.md",
+            "line": 40,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "docs/walkthrough.md",
+            "doc_path": "README.md",
+            "line": 121,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "docs/walkthrough.md",
+            "doc_path": "README.md",
+            "line": 127,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "docs/structure.md",
+            "doc_path": "README.md",
+            "line": 128,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "serialscope/",
+            "doc_path": "docs/structure.md",
+            "line": 3,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/",
+            "doc_path": "docs/structure.md",
+            "line": 4,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "serialscope/__init__.py",
+            "doc_path": "docs/structure.md",
+            "line": 60,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "serialscope/errors.py",
+            "doc_path": "docs/structure.md",
+            "line": 67,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "docs/walkthrough.md",
+            "doc_path": "docs/structure.md",
+            "line": 78,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "serialscope/checksums.py",
+            "doc_path": "docs/structure.md",
+            "line": 80,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "serialscope/frames.py",
+            "doc_path": "docs/structure.md",
+            "line": 92,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/balance_frames.txt",
+            "doc_path": "docs/structure.md",
+            "line": 106,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "serialscope/codecs.py",
+            "doc_path": "docs/structure.md",
+            "line": 110,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/balance_frames.txt",
+            "doc_path": "docs/structure.md",
+            "line": 121,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/pump_response.txt",
+            "doc_path": "docs/structure.md",
+            "line": 122,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "serialscope/transport.py",
+            "doc_path": "docs/structure.md",
+            "line": 126,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "serialscope/config.py",
+            "doc_path": "docs/structure.md",
+            "line": 139,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "serialscope/cli.py",
+            "doc_path": "docs/structure.md",
+            "line": 153,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/",
+            "doc_path": "docs/structure.md",
+            "line": 167,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "balance_frames.txt",
+            "doc_path": "docs/structure.md",
+            "line": 171,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "pump_response.txt",
+            "doc_path": "docs/structure.md",
+            "line": 172,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/",
+            "doc_path": "docs/walkthrough.md",
+            "line": 5,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "pyproject.toml",
+            "doc_path": "docs/walkthrough.md",
+            "line": 17,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/balance_frames.txt",
+            "doc_path": "docs/walkthrough.md",
+            "line": 21,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "serialscope/config.py",
+            "doc_path": "docs/walkthrough.md",
+            "line": 142,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/",
+            "doc_path": "docs/walkthrough.md",
+            "line": 166,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "balance_frames.txt",
+            "doc_path": "docs/walkthrough.md",
+            "line": 167,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "pump_response.txt",
+            "doc_path": "docs/walkthrough.md",
+            "line": 168,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "docs/structure.md",
+            "doc_path": "docs/walkthrough.md",
+            "line": 170,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "A2": {
+        "candidates": [
+          {
+            "canonical_class": "external-dependency-drift",
+            "artifact_class": "dependency",
+            "target": "pyserial",
+            "old": "pyserial",
+            "symbol": "pyserial",
+            "doc_path": "README.md",
+            "line": 21,
+            "doc_line_text": "The only runtime dependency is `pyserial>=3.5`, which is installed for you."
+          },
+          {
+            "canonical_class": "external-dependency-drift",
+            "artifact_class": "dependency",
+            "target": "pyserial",
+            "old": "pyserial",
+            "symbol": "pyserial",
+            "doc_path": "docs/structure.md",
+            "line": 128,
+            "doc_line_text": "The serial line. This is the module that `pyserial` is a dependency for."
+          }
+        ],
+        "selected": {
+          "canonical_class": "external-dependency-drift",
+          "artifact_class": "dependency",
+          "target": "pyserial",
+          "old": "pyserial",
+          "symbol": "pyserial",
+          "doc_path": "README.md",
+          "line": 21,
+          "doc_line_text": "The only runtime dependency is `pyserial>=3.5`, which is installed for you."
+        },
+        "rejected": [
+          {
+            "target": "pyserial",
+            "doc_path": "docs/structure.md",
+            "line": 128,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "A3": {
+        "candidates": [],
+        "selected": null,
+        "rejected": [],
+        "status": "no_candidate"
+      },
+      "A4": {
+        "candidates": [
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "SerialScopeError",
+            "old": "SerialScopeError",
+            "symbol": "serialscope.errors.SerialScopeError",
+            "doc_path": "docs/structure.md",
+            "line": 71,
+            "doc_line_text": "- `SerialScopeError` \u2014 the umbrella name for this package's failures.",
+            "context_module": "serialscope.errors",
+            "context_source": "list"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "FramingError",
+            "old": "FramingError",
+            "symbol": "serialscope.errors.FramingError",
+            "doc_path": "docs/structure.md",
+            "line": 72,
+            "doc_line_text": "- `FramingError` \u2014 the response envelope did not line up: missing start marker,",
+            "context_module": "serialscope.errors",
+            "context_source": "list"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "ChecksumError",
+            "old": "ChecksumError",
+            "symbol": "serialscope.errors.ChecksumError",
+            "doc_path": "docs/structure.md",
+            "line": 74,
+            "doc_line_text": "- `ChecksumError` \u2014 the trailing bytes did not match the payload.",
+            "context_module": "serialscope.errors",
+            "context_source": "list"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "crc16_ccitt",
+            "old": "crc16_ccitt",
+            "symbol": "serialscope.checksums.crc16_ccitt",
+            "doc_path": "docs/structure.md",
+            "line": 84,
+            "doc_line_text": "- `crc16_ccitt()` \u2014 the CRC-16 path, declared to return `int`.",
+            "context_module": "serialscope.checksums",
+            "context_source": "list"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "xor8",
+            "old": "xor8",
+            "symbol": "serialscope.checksums.xor8",
+            "doc_path": "docs/structure.md",
+            "line": 85,
+            "doc_line_text": "- `xor8()` \u2014 the eight-bit XOR alternative, declared to return `int`.",
+            "context_module": "serialscope.checksums",
+            "context_source": "list"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Frame",
+            "old": "Frame",
+            "symbol": "serialscope.frames.Frame",
+            "doc_path": "docs/structure.md",
+            "line": 94,
+            "doc_line_text": "The core of the package. Everything downstream consumes a `Frame`.",
+            "context_module": "serialscope.frames",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Frame",
+            "old": "Frame",
+            "symbol": "serialscope.frames.Frame",
+            "doc_path": "docs/structure.md",
+            "line": 96,
+            "doc_line_text": "- `Frame` \u2014 a parsed response. The constructor takes no arguments and sets three",
+            "context_module": "serialscope.frames",
+            "context_source": "list"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Frame",
+            "old": "Frame",
+            "symbol": "serialscope.frames.Frame",
+            "doc_path": "docs/structure.md",
+            "line": 102,
+            "doc_line_text": "  declared to return `Frame`.",
+            "context_module": "serialscope.frames",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "FrameReader",
+            "old": "FrameReader",
+            "symbol": "serialscope.frames.FrameReader",
+            "doc_path": "docs/structure.md",
+            "line": 107,
+            "doc_line_text": "already have in hand (a capture file, a single read); `FrameReader` is for data",
+            "context_module": "serialscope.frames",
+            "context_source": "heading"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "split_fields",
+            "old": "split_fields",
+            "symbol": "serialscope.codecs.split_fields",
+            "doc_path": "docs/structure.md",
+            "line": 115,
+            "doc_line_text": "- `split_fields()` \u2014 breaks a payload into field strings, declared to return",
+            "context_module": "serialscope.codecs",
+            "context_source": "list"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "build_parser",
+            "old": "build_parser",
+            "symbol": "serialscope.cli.build_parser",
+            "doc_path": "docs/structure.md",
+            "line": 157,
+            "doc_line_text": "- `build_parser()` \u2014 builds and returns an `argparse.ArgumentParser`.",
+            "context_module": "serialscope.cli",
+            "context_source": "list"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "main",
+            "old": "main",
+            "symbol": "serialscope.cli.main",
+            "doc_path": "docs/structure.md",
+            "line": 158,
+            "doc_line_text": "- `main()` \u2014 the entry point, declared to return `int`.",
+            "context_module": "serialscope.cli",
+            "context_source": "list"
+          }
+        ],
+        "selected": {
+          "canonical_class": "identifier-drift",
+          "artifact_class": "identifier",
+          "target": "SerialScopeError",
+          "old": "SerialScopeError",
+          "symbol": "serialscope.errors.SerialScopeError",
+          "doc_path": "docs/structure.md",
+          "line": 71,
+          "doc_line_text": "- `SerialScopeError` \u2014 the umbrella name for this package's failures.",
+          "context_module": "serialscope.errors",
+          "context_source": "list"
+        },
+        "rejected": [
+          {
+            "target": "FramingError",
+            "doc_path": "docs/structure.md",
+            "line": 72,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "ChecksumError",
+            "doc_path": "docs/structure.md",
+            "line": 74,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "crc16_ccitt",
+            "doc_path": "docs/structure.md",
+            "line": 84,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "xor8",
+            "doc_path": "docs/structure.md",
+            "line": 85,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Frame",
+            "doc_path": "docs/structure.md",
+            "line": 94,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Frame",
+            "doc_path": "docs/structure.md",
+            "line": 96,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Frame",
+            "doc_path": "docs/structure.md",
+            "line": 102,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "FrameReader",
+            "doc_path": "docs/structure.md",
+            "line": 107,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "split_fields",
+            "doc_path": "docs/structure.md",
+            "line": 115,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "build_parser",
+            "doc_path": "docs/structure.md",
+            "line": 157,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "main",
+            "doc_path": "docs/structure.md",
+            "line": 158,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "B": {
+        "candidates": [
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Frame",
+            "old": "Frame",
+            "symbol": "Frame",
+            "doc_path": "README.md",
+            "line": 84,
+            "doc_line_text": "**Frames.** A `Frame` is the unit everything else works on: the instrument"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "FrameReader",
+            "old": "FrameReader",
+            "symbol": "FrameReader",
+            "doc_path": "docs/structure.md",
+            "line": 98,
+            "doc_line_text": "- `FrameReader` \u2014 the streaming reader. Keeps `buffer` (bytes received but not"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "parse_frame",
+            "old": "parse_frame",
+            "symbol": "parse_frame",
+            "doc_path": "docs/structure.md",
+            "line": 101,
+            "doc_line_text": "- `parse_frame()` \u2014 one-shot conversion of a complete response into a `Frame`,"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "decode_measurement",
+            "old": "decode_measurement",
+            "symbol": "decode_measurement",
+            "doc_path": "docs/structure.md",
+            "line": 117,
+            "doc_line_text": "- `decode_measurement()` \u2014 converts a measurement field to a `Decimal`, declared"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "SerialTransport",
+            "old": "SerialTransport",
+            "symbol": "SerialTransport",
+            "doc_path": "docs/structure.md",
+            "line": 130,
+            "doc_line_text": "- `SerialTransport` \u2014 holder for the three connection settings: `port`,"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "open_port",
+            "old": "open_port",
+            "symbol": "open_port",
+            "doc_path": "docs/structure.md",
+            "line": 133,
+            "doc_line_text": "- `open_port()` \u2014 opens the connection and returns a `SerialTransport`."
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "decode_measurement",
+            "old": "decode_measurement",
+            "symbol": "decode_measurement",
+            "doc_path": "docs/walkthrough.md",
+            "line": 92,
+            "doc_line_text": "- `decode_measurement` produces the `Decimal` \u2014 not a `float` \u2014 so a 0.001 g"
+          }
+        ],
+        "selected": {
+          "canonical_class": "identifier-drift",
+          "artifact_class": "identifier",
+          "target": "Frame",
+          "old": "Frame",
+          "symbol": "Frame",
+          "doc_path": "README.md",
+          "line": 84,
+          "doc_line_text": "**Frames.** A `Frame` is the unit everything else works on: the instrument"
+        },
+        "rejected": [
+          {
+            "target": "FrameReader",
+            "doc_path": "docs/structure.md",
+            "line": 98,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "parse_frame",
+            "doc_path": "docs/structure.md",
+            "line": 101,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "decode_measurement",
+            "doc_path": "docs/structure.md",
+            "line": 117,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "SerialTransport",
+            "doc_path": "docs/structure.md",
+            "line": 130,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "open_port",
+            "doc_path": "docs/structure.md",
+            "line": 133,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "decode_measurement",
+            "doc_path": "docs/walkthrough.md",
+            "line": 92,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "C": {
+        "candidates": [],
+        "selected": null,
+        "rejected": [],
+        "status": "no_candidate"
+      }
+    },
+    "sensorbus": {
+      "A1": {
+        "candidates": [
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "pyproject.toml",
+            "old": "pyproject.toml",
+            "resolved": "pyproject.toml",
+            "doc_path": "README.md",
+            "line": 42,
+            "doc_line_text": "Dependencies are declared in `pyproject.toml`: `pyserial>=3.5`, `numpy>=1.24`,"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/curve_nitrate.csv",
+            "old": "examples/curve_nitrate.csv",
+            "resolved": "examples/curve_nitrate.csv",
+            "doc_path": "README.md",
+            "line": 72,
+            "doc_line_text": "There is a worked calibration file in the repository, `examples/curve_nitrate.csv`,"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/usage.md",
+            "old": "docs/usage.md",
+            "resolved": "docs/usage.md",
+            "doc_path": "README.md",
+            "line": 119,
+            "doc_line_text": "- [`docs/usage.md`](docs/usage.md) \u2014 a worked how-to for a bench with more than"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "docs/concepts.md",
+            "old": "docs/concepts.md",
+            "resolved": "docs/concepts.md",
+            "doc_path": "README.md",
+            "line": 121,
+            "doc_line_text": "- [`docs/concepts.md`](docs/concepts.md) \u2014 why the library is split into these"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "usage.md",
+            "old": "usage.md",
+            "resolved": "docs/usage.md",
+            "doc_path": "docs/concepts.md",
+            "line": 5,
+            "doc_line_text": "procedure, read [`usage.md`](usage.md)."
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/curve_nitrate.csv",
+            "old": "examples/curve_nitrate.csv",
+            "resolved": "examples/curve_nitrate.csv",
+            "doc_path": "docs/concepts.md",
+            "line": 57,
+            "doc_line_text": "`examples/curve_nitrate.csv`, shows the shape of those points \u2014 `sensor_id`,"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "units.py",
+            "old": "units.py",
+            "resolved": "sensorbus/units.py",
+            "doc_path": "docs/concepts.md",
+            "line": 74,
+            "doc_line_text": "`units.py` exposes `convert`, `canonical_unit`, and `REGISTRY`. The registry is"
+          },
+          {
+            "canonical_class": "path-location-drift",
+            "artifact_class": "path",
+            "target": "examples/curve_nitrate.csv",
+            "old": "examples/curve_nitrate.csv",
+            "resolved": "examples/curve_nitrate.csv",
+            "doc_path": "docs/usage.md",
+            "line": 45,
+            "doc_line_text": "layout as `examples/curve_nitrate.csv` \u2014 `sensor_id`, `reference`, `observed` \u2014"
+          }
+        ],
+        "selected": {
+          "canonical_class": "path-location-drift",
+          "artifact_class": "path",
+          "target": "pyproject.toml",
+          "old": "pyproject.toml",
+          "resolved": "pyproject.toml",
+          "doc_path": "README.md",
+          "line": 42,
+          "doc_line_text": "Dependencies are declared in `pyproject.toml`: `pyserial>=3.5`, `numpy>=1.24`,"
+        },
+        "rejected": [
+          {
+            "target": "examples/curve_nitrate.csv",
+            "doc_path": "README.md",
+            "line": 72,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "docs/usage.md",
+            "doc_path": "README.md",
+            "line": 119,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "docs/concepts.md",
+            "doc_path": "README.md",
+            "line": 121,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "usage.md",
+            "doc_path": "docs/concepts.md",
+            "line": 5,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/curve_nitrate.csv",
+            "doc_path": "docs/concepts.md",
+            "line": 57,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "units.py",
+            "doc_path": "docs/concepts.md",
+            "line": 74,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "examples/curve_nitrate.csv",
+            "doc_path": "docs/usage.md",
+            "line": 45,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "A2": {
+        "candidates": [
+          {
+            "canonical_class": "external-dependency-drift",
+            "artifact_class": "dependency",
+            "target": "numpy",
+            "old": "numpy",
+            "symbol": "numpy",
+            "doc_path": "README.md",
+            "line": 42,
+            "doc_line_text": "Dependencies are declared in `pyproject.toml`: `pyserial>=3.5`, `numpy>=1.24`,"
+          },
+          {
+            "canonical_class": "external-dependency-drift",
+            "artifact_class": "dependency",
+            "target": "pint",
+            "old": "pint",
+            "symbol": "pint",
+            "doc_path": "README.md",
+            "line": 43,
+            "doc_line_text": "and `pint>=0.23`."
+          }
+        ],
+        "selected": {
+          "canonical_class": "external-dependency-drift",
+          "artifact_class": "dependency",
+          "target": "numpy",
+          "old": "numpy",
+          "symbol": "numpy",
+          "doc_path": "README.md",
+          "line": 42,
+          "doc_line_text": "Dependencies are declared in `pyproject.toml`: `pyserial>=3.5`, `numpy>=1.24`,"
+        },
+        "rejected": [
+          {
+            "target": "pint",
+            "doc_path": "README.md",
+            "line": 43,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "A3": {
+        "candidates": [],
+        "selected": null,
+        "rejected": [],
+        "status": "no_candidate"
+      },
+      "A4": {
+        "candidates": [],
+        "selected": null,
+        "rejected": [],
+        "status": "no_candidate"
+      },
+      "B": {
+        "candidates": [
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Reading",
+            "old": "Reading",
+            "symbol": "Reading",
+            "doc_path": "README.md",
+            "line": 91,
+            "doc_line_text": "**Readings.** A `Reading` is one number from one sensor at one time: `sensor_id`,"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "CalibrationCurve",
+            "old": "CalibrationCurve",
+            "symbol": "CalibrationCurve",
+            "doc_path": "README.md",
+            "line": 97,
+            "doc_line_text": "**Calibration curves.** A `CalibrationCurve` holds the per-sensor correction:"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "convert",
+            "old": "convert",
+            "symbol": "convert",
+            "doc_path": "README.md",
+            "line": 102,
+            "doc_line_text": "**Units.** `convert` maps a value from one unit to another; `canonical_unit`"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Bus",
+            "old": "Bus",
+            "symbol": "Bus",
+            "doc_path": "README.md",
+            "line": 107,
+            "doc_line_text": "**The bus.** A `Bus` is the collection point. It carries a `registry` (the unit"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "SerialDevice",
+            "old": "SerialDevice",
+            "symbol": "SerialDevice",
+            "doc_path": "README.md",
+            "line": 113,
+            "doc_line_text": "**Devices.** `SerialDevice` describes a port you can read from \u2014 `port`,"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "SerialDevice",
+            "old": "SerialDevice",
+            "symbol": "SerialDevice",
+            "doc_path": "docs/concepts.md",
+            "line": 136,
+            "doc_line_text": "| Which port, at what speed | `SerialDevice` |"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "Reading",
+            "old": "Reading",
+            "symbol": "Reading",
+            "doc_path": "docs/concepts.md",
+            "line": 137,
+            "doc_line_text": "| What the device said, and in what unit | `Reading` |"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "ReadingBatch",
+            "old": "ReadingBatch",
+            "symbol": "ReadingBatch",
+            "doc_path": "docs/concepts.md",
+            "line": 138,
+            "doc_line_text": "| Which readings belong together | `ReadingBatch` |"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "CalibrationCurve",
+            "old": "CalibrationCurve",
+            "symbol": "CalibrationCurve",
+            "doc_path": "docs/concepts.md",
+            "line": 139,
+            "doc_line_text": "| How this sensor is off, and against what scale | `CalibrationCurve` |"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "canonical_unit",
+            "old": "canonical_unit",
+            "symbol": "canonical_unit",
+            "doc_path": "docs/concepts.md",
+            "line": 141,
+            "doc_line_text": "| Which unit to standardise on | `canonical_unit` |"
+          },
+          {
+            "canonical_class": "identifier-drift",
+            "artifact_class": "identifier",
+            "target": "canonical_unit",
+            "old": "canonical_unit",
+            "symbol": "canonical_unit",
+            "doc_path": "docs/usage.md",
+            "line": 176,
+            "doc_line_text": "| Units | `canonical_unit`, `convert` | every reading carries the unit it was actually measured in |"
+          }
+        ],
+        "selected": {
+          "canonical_class": "identifier-drift",
+          "artifact_class": "identifier",
+          "target": "Reading",
+          "old": "Reading",
+          "symbol": "Reading",
+          "doc_path": "README.md",
+          "line": 91,
+          "doc_line_text": "**Readings.** A `Reading` is one number from one sensor at one time: `sensor_id`,"
+        },
+        "rejected": [
+          {
+            "target": "CalibrationCurve",
+            "doc_path": "README.md",
+            "line": 97,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "convert",
+            "doc_path": "README.md",
+            "line": 102,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Bus",
+            "doc_path": "README.md",
+            "line": 107,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "SerialDevice",
+            "doc_path": "README.md",
+            "line": 113,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "SerialDevice",
+            "doc_path": "docs/concepts.md",
+            "line": 136,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "Reading",
+            "doc_path": "docs/concepts.md",
+            "line": 137,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "ReadingBatch",
+            "doc_path": "docs/concepts.md",
+            "line": 138,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "CalibrationCurve",
+            "doc_path": "docs/concepts.md",
+            "line": 139,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "canonical_unit",
+            "doc_path": "docs/concepts.md",
+            "line": 141,
+            "reason": "not_selected_by_order_or_dedup"
+          },
+          {
+            "target": "canonical_unit",
+            "doc_path": "docs/usage.md",
+            "line": 176,
+            "reason": "not_selected_by_order_or_dedup"
+          }
+        ],
+        "status": "selected"
+      },
+      "C": {
+        "candidates": [],
+        "selected": null,
+        "rejected": [],
+        "status": "no_candidate"
+      }
+    }
+  }
+}

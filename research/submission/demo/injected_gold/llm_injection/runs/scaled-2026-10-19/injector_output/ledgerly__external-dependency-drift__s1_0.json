@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "artifact_class": "dependency",
+    "direction": "code_side",
+    "kind": "dependency_version_break",
+    "file": "pyproject.toml",
+    "old": ">=8.1",
+    "new": ">=999",
+    "symbol": "click",
+    "target": "click",
+    "doc_path": "README.md",
+    "doc_line_text": "| `click` | `>=8.1` |",
+    "target_claim": "README.md states that the `click` dependency is constrained to `>=8.1`, while the manifest now declares `>=999`, a bound that does not satisfy that documented constraint.",
+    "exemplar_ids": [
+      "triaged:alert-fed7183254dcae14",
+      "triaged:alert-f6a52da81652ebc9"
+    ],
+    "rationale": "Followed the exemplar pattern where documentation states a minimum dependency version but the project's declared requirement has moved to a non-overlapping bound (bindgen 0.65.1 vs 0.71.1), and where a documented runtime requirement is contradicted by the actual dependency declaration. The README table is the current requirement statement for `click`, so breaking its bound in the manifest leaves the document stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"artifact_class\": \"dependency\", \"direction\": \"code_side\", \"kind\": \"dependency_version_break\", \"file\": \"pyproject.toml\", \"old\": \">=8.1\", \"new\": \">=999\", \"symbol\": \"click\", \"target\": \"click\", \"doc_path\": \"README.md\", \"doc_line_text\": \"| `click` | `>=8.1` |\", \"target_claim\": \"README.md states that the `click` dependency is constrained to `>=8.1`, while the manifest now declares `>=999`, a bound that does not satisfy that documented constraint.\", \"exemplar_ids\": [\"triaged:alert-fed7183254dcae14\", \"triaged:alert-f6a52da81652ebc9\"], \"rationale\": \"Followed the exemplar pattern where documentation states a minimum dependency version but the project's declared requirement has moved to a non-overlapping bound (bindgen 0.65.1 vs 0.71.1), and where a documented runtime requirement is contradicted by the actual dependency declaration. The README table is the current requirement statement for `click`, so breaking its bound in the manifest leaves the document stale.\"}",
+  "stderr_tail": ""
+}

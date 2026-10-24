@@ -1,0 +1,17 @@
+{
+  "repo": "sqlalchemy",
+  "docs": 155,
+  "claims": 7498,
+  "referents": 753,
+  "evidence": 53742,
+  "verdicts": {
+    "REFUTED": 4,
+    "SUPPORTED": 246,
+    "NEI": 569
+  },
+  "refuted_by_predicate": {
+    "SYMBOL_EXISTS": 3,
+    "PATH_EXISTS": 1
+  },
+  "seconds": 13.5
+}

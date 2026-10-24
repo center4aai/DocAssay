@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "artifact_class": "path",
+    "direction": "code_side",
+    "kind": "path_rename",
+    "file": "examples/notes.yaml",
+    "old": "examples/notes.yaml",
+    "new": "examples/sample_notes.yaml",
+    "target": "examples/notes.yaml",
+    "doc_path": "README.md",
+    "doc_line_text": "The sample data lives in `examples/notes.yaml`. Load a note with `quillpad.models.load_note()`:",
+    "target_claim": "The sample data file referenced by the quick start exists at `examples/notes.yaml`.",
+    "exemplar_ids": [
+      "example 4"
+    ],
+    "rationale": "Followed the exemplar pattern where a README names a repository file by path and the tree is renamed, leaving the documented location stale. Renaming the sample data file keeps its extension and directory while invalidating the README quick-start path."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"path-location-drift\",\n  \"artifact_class\": \"path\",\n  \"direction\": \"code_side\",\n  \"kind\": \"path_rename\",\n  \"file\": \"examples/notes.yaml\",\n  \"old\": \"examples/notes.yaml\",\n  \"new\": \"examples/sample_notes.yaml\",\n  \"target\": \"examples/notes.yaml\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"The sample data lives in `examples/notes.yaml`. Load a note with `quillpad.models.load_note()`:\",\n  \"target_claim\": \"The sample data file referenced by the quick start exists at `examples/notes.yaml`.\",\n  \"exemplar_ids\": [\"example 4\"],\n  \"rationale\": \"Followed the exemplar pattern where a README names a repository file by path and the tree is renamed, leaving the documented location stale. Renaming the sample data file keeps its extension and directory while invalidating the README quick-start path.\"\n}",
+  "stderr_tail": ""
+}

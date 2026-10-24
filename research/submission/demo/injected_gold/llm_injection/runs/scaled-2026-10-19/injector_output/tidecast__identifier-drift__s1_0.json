@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "artifact_class": "identifier",
+    "direction": "code_side",
+    "kind": "symbol_rename",
+    "file": "tidecast/routes.py",
+    "old": "tidecast.routes.build_routes",
+    "new": "tidecast.routes.create_routes",
+    "symbol": "build_routes",
+    "target": "build_routes()",
+    "doc_path": "README.md",
+    "doc_line_text": "The route table built by `build_routes()` exposes these paths:",
+    "target_claim": "The route table is built by the function `build_routes()`.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "Following the exemplars' code-side API rename pattern, I selected a top-level function that the README names in call form and renamed it to a plausible alternative while leaving the documented name unchanged."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"artifact_class\": \"identifier\",\n  \"direction\": \"code_side\",\n  \"kind\": \"symbol_rename\",\n  \"file\": \"tidecast/routes.py\",\n  \"old\": \"tidecast.routes.build_routes\",\n  \"new\": \"tidecast.routes.create_routes\",\n  \"symbol\": \"build_routes\",\n  \"target\": \"build_routes()\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"The route table built by `build_routes()` exposes these paths:\",\n  \"target_claim\": \"The route table is built by the function `build_routes()`.\",\n  \"exemplar_ids\": [\"example 1\", \"example 2\"],\n  \"rationale\": \"Following the exemplars' code-side API rename pattern, I selected a top-level function that the README names in call form and renamed it to a plausible alternative while leaving the documented name unchanged.\"\n}",
+  "stderr_tail": ""
+}

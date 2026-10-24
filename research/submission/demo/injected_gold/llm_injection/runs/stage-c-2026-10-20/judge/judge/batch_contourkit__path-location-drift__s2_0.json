@@ -1,0 +1,25 @@
+{
+  "repo": "contourkit__path-location-drift__s2_0",
+  "tool_diff": {
+    "new_refuted": [],
+    "new_nei": [],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "contourkit__path-location-drift__s2_0::0",
+      "repo": "contourkit__path-location-drift__s2_0",
+      "op_id": "llm.path-location-drift",
+      "canonical_class": "path-location-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "examples/terrain.asc",
+        "new": "examples/data/terrain.asc",
+        "doc_path": "README.md",
+        "target": "examples/terrain.asc"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1552 @@
+{
+  "ok": true,
+  "hits": {
+    "shingle12": [],
+    "paragraph_hash": [],
+    "jaccard8": [],
+    "common_25": [],
+    "heading_sequence": [],
+    "source_line": [
+      {
+        "file": "contourkit/contourkit/__init__.py",
+        "line": 2,
+        "reference": "synthetic/tidecast/tidecast/__init__.py:2"
+      },
+      {
+        "file": "contourkit/contourkit/cli.py",
+        "line": 4,
+        "reference": "synthetic/ledgerly/ledgerly/cli.py:4"
+      },
+      {
+        "file": "contourkit/contourkit/cli.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "contourkit/contourkit/geometry.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "contourkit/contourkit/geometry.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "contourkit/contourkit/geometry.py",
+        "line": 12,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "contourkit/contourkit/geometry.py",
+        "line": 16,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "contourkit/contourkit/marching.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "contourkit/contourkit/marching.py",
+        "line": 9,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "contourkit/contourkit/raster.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "contourkit/contourkit/raster.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "contourkit/contourkit/raster.py",
+        "line": 13,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "contourkit/contourkit/sampling.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "contourkit/contourkit/sampling.py",
+        "line": 9,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "contourkit/contourkit/sampling.py",
+        "line": 13,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "contourkit/contourkit/simplify.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "contourkit/contourkit/simplify.py",
+        "line": 9,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "contourkit/pyproject.toml",
+        "line": 1,
+        "reference": "synthetic/tidecast/pyproject.toml:1"
+      },
+      {
+        "file": "contourkit/pyproject.toml",
+        "line": 2,
+        "reference": "synthetic/tidecast/pyproject.toml:2"
+      },
+      {
+        "file": "contourkit/pyproject.toml",
+        "line": 3,
+        "reference": "synthetic/tidecast/pyproject.toml:3"
+      },
+      {
+        "file": "contourkit/pyproject.toml",
+        "line": 7,
+        "reference": "synthetic/tidecast/pyproject.toml:7"
+      },
+      {
+        "file": "contourkit/pyproject.toml",
+        "line": 9,
+        "reference": "synthetic/tidecast/pyproject.toml:9"
+      },
+      {
+        "file": "contourkit/pyproject.toml",
+        "line": 10,
+        "reference": "synthetic/tidecast/pyproject.toml:10"
+      },
+      {
+        "file": "contourkit/pyproject.toml",
+        "line": 15,
+        "reference": "synthetic/tidecast/pyproject.toml:17"
+      },
+      {
+        "file": "tileplan/pyproject.toml",
+        "line": 1,
+        "reference": "synthetic/tidecast/pyproject.toml:1"
+      },
+      {
+        "file": "tileplan/pyproject.toml",
+        "line": 2,
+        "reference": "synthetic/tidecast/pyproject.toml:2"
+      },
+      {
+        "file": "tileplan/pyproject.toml",
+        "line": 3,
+        "reference": "synthetic/tidecast/pyproject.toml:3"
+      },
+      {
+        "file": "tileplan/pyproject.toml",
+        "line": 7,
+        "reference": "synthetic/tidecast/pyproject.toml:7"
+      },
+      {
+        "file": "tileplan/pyproject.toml",
+        "line": 9,
+        "reference": "synthetic/tidecast/pyproject.toml:9"
+      },
+      {
+        "file": "tileplan/pyproject.toml",
+        "line": 10,
+        "reference": "synthetic/tidecast/pyproject.toml:10"
+      },
+      {
+        "file": "tileplan/pyproject.toml",
+        "line": 14,
+        "reference": "synthetic/tidecast/pyproject.toml:17"
+      },
+      {
+        "file": "tileplan/tileplan/__init__.py",
+        "line": 2,
+        "reference": "synthetic/tidecast/tidecast/__init__.py:2"
+      },
+      {
+        "file": "tileplan/tileplan/coords.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "tileplan/tileplan/coords.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "tileplan/tileplan/coords.py",
+        "line": 13,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "tileplan/tileplan/coords.py",
+        "line": 17,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "tileplan/tileplan/cover.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "tileplan/tileplan/cover.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "tileplan/tileplan/cover.py",
+        "line": 13,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "tileplan/tileplan/extent.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "tileplan/tileplan/extent.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "tileplan/tileplan/extent.py",
+        "line": 14,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "tileplan/tileplan/extent.py",
+        "line": 18,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "tileplan/tileplan/hierarchy.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "tileplan/tileplan/hierarchy.py",
+        "line": 9,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "tileplan/tileplan/hierarchy.py",
+        "line": 13,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "tileplan/tileplan/quadkey.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "tileplan/tileplan/quadkey.py",
+        "line": 9,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "tileplan/tileplan/zoom.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "tileplan/tileplan/zoom.py",
+        "line": 11,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "morpheme/morpheme/__init__.py",
+        "line": 2,
+        "reference": "synthetic/ledgerly/ledgerly/__init__.py:2"
+      },
+      {
+        "file": "morpheme/morpheme/affixes.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "morpheme/morpheme/affixes.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "morpheme/morpheme/affixes.py",
+        "line": 14,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "morpheme/morpheme/cli.py",
+        "line": 4,
+        "reference": "synthetic/ledgerly/ledgerly/cli.py:4"
+      },
+      {
+        "file": "morpheme/morpheme/cli.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "morpheme/morpheme/cli.py",
+        "line": 9,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "morpheme/morpheme/lemmatize.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "morpheme/morpheme/lemmatize.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "morpheme/morpheme/lemmatize.py",
+        "line": 14,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "morpheme/morpheme/lemmatize.py",
+        "line": 18,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "morpheme/morpheme/lexicon.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "morpheme/morpheme/lexicon.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "morpheme/morpheme/lexicon.py",
+        "line": 9,
+        "reference": "synthetic/ledgerly/ledgerly/store.py:9"
+      },
+      {
+        "file": "morpheme/morpheme/lexicon.py",
+        "line": 13,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "morpheme/morpheme/segmenter.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "morpheme/morpheme/segmenter.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "morpheme/morpheme/segmenter.py",
+        "line": 13,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "morpheme/pyproject.toml",
+        "line": 1,
+        "reference": "synthetic/tidecast/pyproject.toml:1"
+      },
+      {
+        "file": "morpheme/pyproject.toml",
+        "line": 2,
+        "reference": "synthetic/tidecast/pyproject.toml:2"
+      },
+      {
+        "file": "morpheme/pyproject.toml",
+        "line": 3,
+        "reference": "synthetic/tidecast/pyproject.toml:3"
+      },
+      {
+        "file": "morpheme/pyproject.toml",
+        "line": 7,
+        "reference": "synthetic/ledgerly/pyproject.toml:7"
+      },
+      {
+        "file": "morpheme/pyproject.toml",
+        "line": 9,
+        "reference": "synthetic/tidecast/pyproject.toml:9"
+      },
+      {
+        "file": "morpheme/pyproject.toml",
+        "line": 10,
+        "reference": "synthetic/tidecast/pyproject.toml:10"
+      },
+      {
+        "file": "morpheme/pyproject.toml",
+        "line": 15,
+        "reference": "synthetic/tidecast/pyproject.toml:17"
+      },
+      {
+        "file": "bibscan/bibscan/__init__.py",
+        "line": 2,
+        "reference": "synthetic/ledgerly/ledgerly/__init__.py:2"
+      },
+      {
+        "file": "bibscan/bibscan/cli.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "bibscan/bibscan/cli.py",
+        "line": 8,
+        "reference": "synthetic/ledgerly/ledgerly/cli.py:4"
+      },
+      {
+        "file": "bibscan/bibscan/cli.py",
+        "line": 9,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "bibscan/bibscan/format.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "bibscan/bibscan/format.py",
+        "line": 11,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "bibscan/bibscan/model.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "bibscan/bibscan/model.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "bibscan/bibscan/model.py",
+        "line": 13,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "bibscan/bibscan/model.py",
+        "line": 15,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "bibscan/bibscan/model.py",
+        "line": 21,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "bibscan/bibscan/model.py",
+        "line": 23,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "bibscan/bibscan/model.py",
+        "line": 25,
+        "reference": "synthetic/quillpad/quillpad/models.py:9"
+      },
+      {
+        "file": "bibscan/bibscan/names.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "bibscan/bibscan/names.py",
+        "line": 11,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "bibscan/bibscan/parser.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "bibscan/bibscan/parser.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "bibscan/bibscan/parser.py",
+        "line": 12,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "bibscan/bibscan/parser.py",
+        "line": 16,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "bibscan/pyproject.toml",
+        "line": 1,
+        "reference": "synthetic/tidecast/pyproject.toml:1"
+      },
+      {
+        "file": "bibscan/pyproject.toml",
+        "line": 2,
+        "reference": "synthetic/tidecast/pyproject.toml:2"
+      },
+      {
+        "file": "bibscan/pyproject.toml",
+        "line": 3,
+        "reference": "synthetic/tidecast/pyproject.toml:3"
+      },
+      {
+        "file": "bibscan/pyproject.toml",
+        "line": 7,
+        "reference": "synthetic/ledgerly/pyproject.toml:7"
+      },
+      {
+        "file": "bibscan/pyproject.toml",
+        "line": 9,
+        "reference": "synthetic/tidecast/pyproject.toml:9"
+      },
+      {
+        "file": "bibscan/pyproject.toml",
+        "line": 10,
+        "reference": "synthetic/tidecast/pyproject.toml:10"
+      },
+      {
+        "file": "bibscan/pyproject.toml",
+        "line": 15,
+        "reference": "synthetic/tidecast/pyproject.toml:17"
+      },
+      {
+        "file": "serialscope/pyproject.toml",
+        "line": 1,
+        "reference": "synthetic/tidecast/pyproject.toml:1"
+      },
+      {
+        "file": "serialscope/pyproject.toml",
+        "line": 2,
+        "reference": "synthetic/tidecast/pyproject.toml:2"
+      },
+      {
+        "file": "serialscope/pyproject.toml",
+        "line": 3,
+        "reference": "synthetic/tidecast/pyproject.toml:3"
+      },
+      {
+        "file": "serialscope/pyproject.toml",
+        "line": 7,
+        "reference": "synthetic/parcelroute/pyproject.toml:7"
+      },
+      {
+        "file": "serialscope/pyproject.toml",
+        "line": 9,
+        "reference": "synthetic/tidecast/pyproject.toml:9"
+      },
+      {
+        "file": "serialscope/pyproject.toml",
+        "line": 10,
+        "reference": "synthetic/tidecast/pyproject.toml:10"
+      },
+      {
+        "file": "serialscope/pyproject.toml",
+        "line": 14,
+        "reference": "synthetic/tidecast/pyproject.toml:17"
+      },
+      {
+        "file": "serialscope/serialscope/__init__.py",
+        "line": 2,
+        "reference": "synthetic/parcelroute/parcelroute/__init__.py:2"
+      },
+      {
+        "file": "serialscope/serialscope/checksums.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "serialscope/serialscope/checksums.py",
+        "line": 9,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "serialscope/serialscope/cli.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "serialscope/serialscope/cli.py",
+        "line": 8,
+        "reference": "synthetic/ledgerly/ledgerly/cli.py:4"
+      },
+      {
+        "file": "serialscope/serialscope/cli.py",
+        "line": 9,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "serialscope/serialscope/codecs.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "serialscope/serialscope/codecs.py",
+        "line": 9,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "serialscope/serialscope/config.py",
+        "line": 4,
+        "reference": "synthetic/tidecast/tidecast/config.py:17"
+      },
+      {
+        "file": "serialscope/serialscope/errors.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "serialscope/serialscope/errors.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "serialscope/serialscope/errors.py",
+        "line": 11,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "serialscope/serialscope/errors.py",
+        "line": 13,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "serialscope/serialscope/errors.py",
+        "line": 17,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "serialscope/serialscope/errors.py",
+        "line": 19,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "serialscope/serialscope/frames.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "serialscope/serialscope/frames.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "serialscope/serialscope/frames.py",
+        "line": 13,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "serialscope/serialscope/frames.py",
+        "line": 15,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "serialscope/serialscope/frames.py",
+        "line": 20,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "serialscope/serialscope/transport.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "serialscope/serialscope/transport.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "serialscope/serialscope/transport.py",
+        "line": 13,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "sensorbus/pyproject.toml",
+        "line": 1,
+        "reference": "synthetic/tidecast/pyproject.toml:1"
+      },
+      {
+        "file": "sensorbus/pyproject.toml",
+        "line": 2,
+        "reference": "synthetic/tidecast/pyproject.toml:2"
+      },
+      {
+        "file": "sensorbus/pyproject.toml",
+        "line": 3,
+        "reference": "synthetic/tidecast/pyproject.toml:3"
+      },
+      {
+        "file": "sensorbus/pyproject.toml",
+        "line": 7,
+        "reference": "synthetic/tidecast/pyproject.toml:7"
+      },
+      {
+        "file": "sensorbus/pyproject.toml",
+        "line": 9,
+        "reference": "synthetic/tidecast/pyproject.toml:9"
+      },
+      {
+        "file": "sensorbus/pyproject.toml",
+        "line": 10,
+        "reference": "synthetic/tidecast/pyproject.toml:10"
+      },
+      {
+        "file": "sensorbus/pyproject.toml",
+        "line": 16,
+        "reference": "synthetic/tidecast/pyproject.toml:17"
+      },
+      {
+        "file": "sensorbus/sensorbus/__init__.py",
+        "line": 2,
+        "reference": "synthetic/tidecast/tidecast/__init__.py:2"
+      },
+      {
+        "file": "sensorbus/sensorbus/bus.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "sensorbus/sensorbus/bus.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "sensorbus/sensorbus/bus.py",
+        "line": 13,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "sensorbus/sensorbus/calibration.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "sensorbus/sensorbus/calibration.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "sensorbus/sensorbus/calibration.py",
+        "line": 13,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "sensorbus/sensorbus/devices.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "sensorbus/sensorbus/devices.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "sensorbus/sensorbus/devices.py",
+        "line": 10,
+        "reference": "synthetic-natural/recipecard/recipecard/models.py:8"
+      },
+      {
+        "file": "sensorbus/sensorbus/devices.py",
+        "line": 13,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "sensorbus/sensorbus/readings.py",
+        "line": 4,
+        "reference": "synthetic-natural/gridwatch/gridwatch/models.py:4"
+      },
+      {
+        "file": "sensorbus/sensorbus/readings.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "sensorbus/sensorbus/readings.py",
+        "line": 7,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "sensorbus/sensorbus/readings.py",
+        "line": 10,
+        "reference": "synthetic-natural/recipecard/recipecard/models.py:10"
+      },
+      {
+        "file": "sensorbus/sensorbus/readings.py",
+        "line": 11,
+        "reference": "synthetic-natural/gridwatch/gridwatch/models.py:9"
+      },
+      {
+        "file": "sensorbus/sensorbus/readings.py",
+        "line": 14,
+        "reference": "synthetic/tidecast/tidecast/store.py:5"
+      },
+      {
+        "file": "sensorbus/sensorbus/readings.py",
+        "line": 16,
+        "reference": "synthetic/tidecast/tidecast/store.py:7"
+      },
+      {
+        "file": "sensorbus/sensorbus/readings.py",
+        "line": 17,
+        "reference": "synthetic-natural/gaugekit/gaugekit/models.py:17"
+      },
+      {
+        "file": "sensorbus/sensorbus/readings.py",
+        "line": 21,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "sensorbus/sensorbus/units.py",
+        "line": 5,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      },
+      {
+        "file": "sensorbus/sensorbus/units.py",
+        "line": 9,
+        "reference": "synthetic/tidecast/tidecast/store.py:13"
+      }
+    ],
+    "name_collision": [],
+    "name_collision_generic": [
+      {
+        "repo": "contourkit",
+        "name": "click>=8.1"
+      },
+      {
+        "repo": "contourkit",
+        "name": "main"
+      },
+      {
+        "repo": "morpheme",
+        "name": "PyYAML>=6.0"
+      },
+      {
+        "repo": "morpheme",
+        "name": "main"
+      },
+      {
+        "repo": "bibscan",
+        "name": "Entry"
+      },
+      {
+        "repo": "bibscan",
+        "name": "main"
+      },
+      {
+        "repo": "serialscope",
+        "name": "main"
+      },
+      {
+        "repo": "sensorbus",
+        "name": "Reading"
+      },
+      {
+        "repo": "sensorbus",
+        "name": "numpy>=1.24"
+      }
+    ],
+    "file_fingerprint": [
+      {
+        "doc": "contourkit/README.md",
+        "same_name": "synthetic-natural/README.md",
+        "lines": 131,
+        "words": 656
+      },
+      {
+        "doc": "contourkit/README.md",
+        "same_name": "synthetic-natural/gaugekit/README.md",
+        "lines": 131,
+        "words": 656
+      },
+      {
+        "doc": "contourkit/README.md",
+        "same_name": "synthetic-natural/gridwatch/README.md",
+        "lines": 131,
+        "words": 656
+      },
+      {
+        "doc": "contourkit/README.md",
+        "same_name": "synthetic-natural/palette/README.md",
+        "lines": 131,
+        "words": 656
+      },
+      {
+        "doc": "contourkit/README.md",
+        "same_name": "synthetic-natural/plotline/README.md",
+        "lines": 131,
+        "words": 656
+      },
+      {
+        "doc": "contourkit/README.md",
+        "same_name": "synthetic-natural/recipecard/README.md",
+        "lines": 131,
+        "words": 656
+      },
+      {
+        "doc": "contourkit/README.md",
+        "same_name": "synthetic-natural/sheetmusic/README.md",
+        "lines": 131,
+        "words": 656
+      },
+      {
+        "doc": "contourkit/README.md",
+        "same_name": "synthetic/README.md",
+        "lines": 131,
+        "words": 656
+      },
+      {
+        "doc": "contourkit/README.md",
+        "same_name": "synthetic/ledgerly/README.md",
+        "lines": 131,
+        "words": 656
+      },
+      {
+        "doc": "contourkit/README.md",
+        "same_name": "synthetic/parcelroute/README.md",
+        "lines": 131,
+        "words": 656
+      },
+      {
+        "doc": "contourkit/README.md",
+        "same_name": "synthetic/quillpad/README.md",
+        "lines": 131,
+        "words": 656
+      },
+      {
+        "doc": "contourkit/README.md",
+        "same_name": "synthetic/tidecast/README.md",
+        "lines": 131,
+        "words": 656
+      },
+      {
+        "doc": "contourkit/docs/api.md",
+        "same_name": "synthetic-natural/gaugekit/docs/api.md",
+        "lines": 211,
+        "words": 962
+      },
+      {
+        "doc": "contourkit/docs/api.md",
+        "same_name": "synthetic-natural/gridwatch/docs/api.md",
+        "lines": 211,
+        "words": 962
+      },
+      {
+        "doc": "contourkit/docs/api.md",
+        "same_name": "synthetic-natural/palette/docs/api.md",
+        "lines": 211,
+        "words": 962
+      },
+      {
+        "doc": "contourkit/docs/api.md",
+        "same_name": "synthetic-natural/plotline/docs/api.md",
+        "lines": 211,
+        "words": 962
+      },
+      {
+        "doc": "contourkit/docs/api.md",
+        "same_name": "synthetic-natural/recipecard/docs/api.md",
+        "lines": 211,
+        "words": 962
+      },
+      {
+        "doc": "contourkit/docs/api.md",
+        "same_name": "synthetic-natural/sheetmusic/docs/api.md",
+        "lines": 211,
+        "words": 962
+      },
+      {
+        "doc": "contourkit/docs/api.md",
+        "same_name": "synthetic/ledgerly/docs/api.md",
+        "lines": 211,
+        "words": 962
+      },
+      {
+        "doc": "contourkit/docs/api.md",
+        "same_name": "synthetic/parcelroute/docs/api.md",
+        "lines": 211,
+        "words": 962
+      },
+      {
+        "doc": "contourkit/docs/api.md",
+        "same_name": "synthetic/quillpad/docs/api.md",
+        "lines": 211,
+        "words": 962
+      },
+      {
+        "doc": "contourkit/docs/api.md",
+        "same_name": "synthetic/tidecast/docs/api.md",
+        "lines": 211,
+        "words": 962
+      },
+      {
+        "doc": "tileplan/README.md",
+        "same_name": "synthetic-natural/README.md",
+        "lines": 111,
+        "words": 657
+      },
+      {
+        "doc": "tileplan/README.md",
+        "same_name": "synthetic-natural/gaugekit/README.md",
+        "lines": 111,
+        "words": 657
+      },
+      {
+        "doc": "tileplan/README.md",
+        "same_name": "synthetic-natural/gridwatch/README.md",
+        "lines": 111,
+        "words": 657
+      },
+      {
+        "doc": "tileplan/README.md",
+        "same_name": "synthetic-natural/palette/README.md",
+        "lines": 111,
+        "words": 657
+      },
+      {
+        "doc": "tileplan/README.md",
+        "same_name": "synthetic-natural/plotline/README.md",
+        "lines": 111,
+        "words": 657
+      },
+      {
+        "doc": "tileplan/README.md",
+        "same_name": "synthetic-natural/recipecard/README.md",
+        "lines": 111,
+        "words": 657
+      },
+      {
+        "doc": "tileplan/README.md",
+        "same_name": "synthetic-natural/sheetmusic/README.md",
+        "lines": 111,
+        "words": 657
+      },
+      {
+        "doc": "tileplan/README.md",
+        "same_name": "synthetic/README.md",
+        "lines": 111,
+        "words": 657
+      },
+      {
+        "doc": "tileplan/README.md",
+        "same_name": "synthetic/ledgerly/README.md",
+        "lines": 111,
+        "words": 657
+      },
+      {
+        "doc": "tileplan/README.md",
+        "same_name": "synthetic/parcelroute/README.md",
+        "lines": 111,
+        "words": 657
+      },
+      {
+        "doc": "tileplan/README.md",
+        "same_name": "synthetic/quillpad/README.md",
+        "lines": 111,
+        "words": 657
+      },
+      {
+        "doc": "tileplan/README.md",
+        "same_name": "synthetic/tidecast/README.md",
+        "lines": 111,
+        "words": 657
+      },
+      {
+        "doc": "tileplan/docs/api.md",
+        "same_name": "synthetic-natural/gaugekit/docs/api.md",
+        "lines": 139,
+        "words": 608
+      },
+      {
+        "doc": "tileplan/docs/api.md",
+        "same_name": "synthetic-natural/gridwatch/docs/api.md",
+        "lines": 139,
+        "words": 608
+      },
+      {
+        "doc": "tileplan/docs/api.md",
+        "same_name": "synthetic-natural/palette/docs/api.md",
+        "lines": 139,
+        "words": 608
+      },
+      {
+        "doc": "tileplan/docs/api.md",
+        "same_name": "synthetic-natural/plotline/docs/api.md",
+        "lines": 139,
+        "words": 608
+      },
+      {
+        "doc": "tileplan/docs/api.md",
+        "same_name": "synthetic-natural/recipecard/docs/api.md",
+        "lines": 139,
+        "words": 608
+      },
+      {
+        "doc": "tileplan/docs/api.md",
+        "same_name": "synthetic-natural/sheetmusic/docs/api.md",
+        "lines": 139,
+        "words": 608
+      },
+      {
+        "doc": "tileplan/docs/api.md",
+        "same_name": "synthetic/ledgerly/docs/api.md",
+        "lines": 139,
+        "words": 608
+      },
+      {
+        "doc": "tileplan/docs/api.md",
+        "same_name": "synthetic/parcelroute/docs/api.md",
+        "lines": 139,
+        "words": 608
+      },
+      {
+        "doc": "tileplan/docs/api.md",
+        "same_name": "synthetic/quillpad/docs/api.md",
+        "lines": 139,
+        "words": 608
+      },
+      {
+        "doc": "tileplan/docs/api.md",
+        "same_name": "synthetic/tidecast/docs/api.md",
+        "lines": 139,
+        "words": 608
+      },
+      {
+        "doc": "morpheme/README.md",
+        "same_name": "synthetic-natural/README.md",
+        "lines": 88,
+        "words": 478
+      },
+      {
+        "doc": "morpheme/README.md",
+        "same_name": "synthetic-natural/gaugekit/README.md",
+        "lines": 88,
+        "words": 478
+      },
+      {
+        "doc": "morpheme/README.md",
+        "same_name": "synthetic-natural/gridwatch/README.md",
+        "lines": 88,
+        "words": 478
+      },
+      {
+        "doc": "morpheme/README.md",
+        "same_name": "synthetic-natural/palette/README.md",
+        "lines": 88,
+        "words": 478
+      },
+      {
+        "doc": "morpheme/README.md",
+        "same_name": "synthetic-natural/plotline/README.md",
+        "lines": 88,
+        "words": 478
+      },
+      {
+        "doc": "morpheme/README.md",
+        "same_name": "synthetic-natural/recipecard/README.md",
+        "lines": 88,
+        "words": 478
+      },
+      {
+        "doc": "morpheme/README.md",
+        "same_name": "synthetic-natural/sheetmusic/README.md",
+        "lines": 88,
+        "words": 478
+      },
+      {
+        "doc": "morpheme/README.md",
+        "same_name": "synthetic/README.md",
+        "lines": 88,
+        "words": 478
+      },
+      {
+        "doc": "morpheme/README.md",
+        "same_name": "synthetic/ledgerly/README.md",
+        "lines": 88,
+        "words": 478
+      },
+      {
+        "doc": "morpheme/README.md",
+        "same_name": "synthetic/parcelroute/README.md",
+        "lines": 88,
+        "words": 478
+      },
+      {
+        "doc": "morpheme/README.md",
+        "same_name": "synthetic/quillpad/README.md",
+        "lines": 88,
+        "words": 478
+      },
+      {
+        "doc": "morpheme/README.md",
+        "same_name": "synthetic/tidecast/README.md",
+        "lines": 88,
+        "words": 478
+      },
+      {
+        "doc": "morpheme/docs/api.md",
+        "same_name": "synthetic-natural/gaugekit/docs/api.md",
+        "lines": 196,
+        "words": 682
+      },
+      {
+        "doc": "morpheme/docs/api.md",
+        "same_name": "synthetic-natural/gridwatch/docs/api.md",
+        "lines": 196,
+        "words": 682
+      },
+      {
+        "doc": "morpheme/docs/api.md",
+        "same_name": "synthetic-natural/palette/docs/api.md",
+        "lines": 196,
+        "words": 682
+      },
+      {
+        "doc": "morpheme/docs/api.md",
+        "same_name": "synthetic-natural/plotline/docs/api.md",
+        "lines": 196,
+        "words": 682
+      },
+      {
+        "doc": "morpheme/docs/api.md",
+        "same_name": "synthetic-natural/recipecard/docs/api.md",
+        "lines": 196,
+        "words": 682
+      },
+      {
+        "doc": "morpheme/docs/api.md",
+        "same_name": "synthetic-natural/sheetmusic/docs/api.md",
+        "lines": 196,
+        "words": 682
+      },
+      {
+        "doc": "morpheme/docs/api.md",
+        "same_name": "synthetic/ledgerly/docs/api.md",
+        "lines": 196,
+        "words": 682
+      },
+      {
+        "doc": "morpheme/docs/api.md",
+        "same_name": "synthetic/parcelroute/docs/api.md",
+        "lines": 196,
+        "words": 682
+      },
+      {
+        "doc": "morpheme/docs/api.md",
+        "same_name": "synthetic/quillpad/docs/api.md",
+        "lines": 196,
+        "words": 682
+      },
+      {
+        "doc": "morpheme/docs/api.md",
+        "same_name": "synthetic/tidecast/docs/api.md",
+        "lines": 196,
+        "words": 682
+      },
+      {
+        "doc": "bibscan/README.md",
+        "same_name": "synthetic-natural/README.md",
+        "lines": 100,
+        "words": 532
+      },
+      {
+        "doc": "bibscan/README.md",
+        "same_name": "synthetic-natural/gaugekit/README.md",
+        "lines": 100,
+        "words": 532
+      },
+      {
+        "doc": "bibscan/README.md",
+        "same_name": "synthetic-natural/gridwatch/README.md",
+        "lines": 100,
+        "words": 532
+      },
+      {
+        "doc": "bibscan/README.md",
+        "same_name": "synthetic-natural/palette/README.md",
+        "lines": 100,
+        "words": 532
+      },
+      {
+        "doc": "bibscan/README.md",
+        "same_name": "synthetic-natural/plotline/README.md",
+        "lines": 100,
+        "words": 532
+      },
+      {
+        "doc": "bibscan/README.md",
+        "same_name": "synthetic-natural/recipecard/README.md",
+        "lines": 100,
+        "words": 532
+      },
+      {
+        "doc": "bibscan/README.md",
+        "same_name": "synthetic-natural/sheetmusic/README.md",
+        "lines": 100,
+        "words": 532
+      },
+      {
+        "doc": "bibscan/README.md",
+        "same_name": "synthetic/README.md",
+        "lines": 100,
+        "words": 532
+      },
+      {
+        "doc": "bibscan/README.md",
+        "same_name": "synthetic/ledgerly/README.md",
+        "lines": 100,
+        "words": 532
+      },
+      {
+        "doc": "bibscan/README.md",
+        "same_name": "synthetic/parcelroute/README.md",
+        "lines": 100,
+        "words": 532
+      },
+      {
+        "doc": "bibscan/README.md",
+        "same_name": "synthetic/quillpad/README.md",
+        "lines": 100,
+        "words": 532
+      },
+      {
+        "doc": "bibscan/README.md",
+        "same_name": "synthetic/tidecast/README.md",
+        "lines": 100,
+        "words": 532
+      },
+      {
+        "doc": "bibscan/docs/api.md",
+        "same_name": "synthetic-natural/gaugekit/docs/api.md",
+        "lines": 183,
+        "words": 724
+      },
+      {
+        "doc": "bibscan/docs/api.md",
+        "same_name": "synthetic-natural/gridwatch/docs/api.md",
+        "lines": 183,
+        "words": 724
+      },
+      {
+        "doc": "bibscan/docs/api.md",
+        "same_name": "synthetic-natural/palette/docs/api.md",
+        "lines": 183,
+        "words": 724
+      },
+      {
+        "doc": "bibscan/docs/api.md",
+        "same_name": "synthetic-natural/plotline/docs/api.md",
+        "lines": 183,
+        "words": 724
+      },
+      {
+        "doc": "bibscan/docs/api.md",
+        "same_name": "synthetic-natural/recipecard/docs/api.md",
+        "lines": 183,
+        "words": 724
+      },
+      {
+        "doc": "bibscan/docs/api.md",
+        "same_name": "synthetic-natural/sheetmusic/docs/api.md",
+        "lines": 183,
+        "words": 724
+      },
+      {
+        "doc": "bibscan/docs/api.md",
+        "same_name": "synthetic/ledgerly/docs/api.md",
+        "lines": 183,
+        "words": 724
+      },
+      {
+        "doc": "bibscan/docs/api.md",
+        "same_name": "synthetic/parcelroute/docs/api.md",
+        "lines": 183,
+        "words": 724
+      },
+      {
+        "doc": "bibscan/docs/api.md",
+        "same_name": "synthetic/quillpad/docs/api.md",
+        "lines": 183,
+        "words": 724
+      },
+      {
+        "doc": "bibscan/docs/api.md",
+        "same_name": "synthetic/tidecast/docs/api.md",
+        "lines": 183,
+        "words": 724
+      },
+      {
+        "doc": "serialscope/README.md",
+        "same_name": "synthetic-natural/README.md",
+        "lines": 129,
+        "words": 736
+      },
+      {
+        "doc": "serialscope/README.md",
+        "same_name": "synthetic-natural/gaugekit/README.md",
+        "lines": 129,
+        "words": 736
+      },
+      {
+        "doc": "serialscope/README.md",
+        "same_name": "synthetic-natural/gridwatch/README.md",
+        "lines": 129,
+        "words": 736
+      },
+      {
+        "doc": "serialscope/README.md",
+        "same_name": "synthetic-natural/palette/README.md",
+        "lines": 129,
+        "words": 736
+      },
+      {
+        "doc": "serialscope/README.md",
+        "same_name": "synthetic-natural/plotline/README.md",
+        "lines": 129,
+        "words": 736
+      },
+      {
+        "doc": "serialscope/README.md",
+        "same_name": "synthetic-natural/recipecard/README.md",
+        "lines": 129,
+        "words": 736
+      },
+      {
+        "doc": "serialscope/README.md",
+        "same_name": "synthetic-natural/sheetmusic/README.md",
+        "lines": 129,
+        "words": 736
+      },
+      {
+        "doc": "serialscope/README.md",
+        "same_name": "synthetic/README.md",
+        "lines": 129,
+        "words": 736
+      },
+      {
+        "doc": "serialscope/README.md",
+        "same_name": "synthetic/ledgerly/README.md",
+        "lines": 129,
+        "words": 736
+      },
+      {
+        "doc": "serialscope/README.md",
+        "same_name": "synthetic/parcelroute/README.md",
+        "lines": 129,
+        "words": 736
+      },
+      {
+        "doc": "serialscope/README.md",
+        "same_name": "synthetic/quillpad/README.md",
+        "lines": 129,
+        "words": 736
+      },
+      {
+        "doc": "serialscope/README.md",
+        "same_name": "synthetic/tidecast/README.md",
+        "lines": 129,
+        "words": 736
+      },
+      {
+        "doc": "sensorbus/README.md",
+        "same_name": "synthetic-natural/README.md",
+        "lines": 122,
+        "words": 665
+      },
+      {
+        "doc": "sensorbus/README.md",
+        "same_name": "synthetic-natural/gaugekit/README.md",
+        "lines": 122,
+        "words": 665
+      },
+      {
+        "doc": "sensorbus/README.md",
+        "same_name": "synthetic-natural/gridwatch/README.md",
+        "lines": 122,
+        "words": 665
+      },
+      {
+        "doc": "sensorbus/README.md",
+        "same_name": "synthetic-natural/palette/README.md",
+        "lines": 122,
+        "words": 665
+      },
+      {
+        "doc": "sensorbus/README.md",
+        "same_name": "synthetic-natural/plotline/README.md",
+        "lines": 122,
+        "words": 665
+      },
+      {
+        "doc": "sensorbus/README.md",
+        "same_name": "synthetic-natural/recipecard/README.md",
+        "lines": 122,
+        "words": 665
+      },
+      {
+        "doc": "sensorbus/README.md",
+        "same_name": "synthetic-natural/sheetmusic/README.md",
+        "lines": 122,
+        "words": 665
+      },
+      {
+        "doc": "sensorbus/README.md",
+        "same_name": "synthetic/README.md",
+        "lines": 122,
+        "words": 665
+      },
+      {
+        "doc": "sensorbus/README.md",
+        "same_name": "synthetic/ledgerly/README.md",
+        "lines": 122,
+        "words": 665
+      },
+      {
+        "doc": "sensorbus/README.md",
+        "same_name": "synthetic/parcelroute/README.md",
+        "lines": 122,
+        "words": 665
+      },
+      {
+        "doc": "sensorbus/README.md",
+        "same_name": "synthetic/quillpad/README.md",
+        "lines": 122,
+        "words": 665
+      },
+      {
+        "doc": "sensorbus/README.md",
+        "same_name": "synthetic/tidecast/README.md",
+        "lines": 122,
+        "words": 665
+      }
+    ]
+  },
+  "reviewed_by_design": {
+    "source_line": "matches are deterministic materialiser template lines (imports, signatures, placeholder assignments, placeholder returns); every Stage C project is generated by the same materialiser",
+    "name_collision_generic": "shared Python symbol names (for example `main`) and real dependency requirement strings; not project or package identity",
+    "file_fingerprint": "the same filename (README.md) across corpora; line and word counts differ"
+  },
+  "reference_names": [
+    "Bus",
+    "CalibrationCurve",
+    "DEFAULT_ORDER",
+    "DEFAULT_WINDOW",
+    "REGISTRY",
+    "Reading",
+    "ReadingBatch",
+    "SerialDevice",
+    "__version__",
+    "canonical_unit",
+    "collect",
+    "convert",
+    "fit_curve",
+    "list_devices",
+    "numpy>=1.24",
+    "parse_line",
+    "pint>=0.23",
+    "pyserial>=3.5",
+    "sensorbus"
+  ],
+  "note": "A hit is reviewed, not auto-rejected. Expected and ignored: the same filename (README.md) and the standard Python package shape. The 12-token check is the minimum; the expanded checks are reported."
+}

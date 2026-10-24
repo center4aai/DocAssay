@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recipecard"
+version = "0.3.0"
+description = "A small library and command-line tool for loading recipe files, scaling ingredient quantities to a new serving count, and combining recipes into a shopping list."
+requires-python = ">=3.11"
+dependencies = [
+    "PyYAML>=6.0",
+    "click>=8.1"
+]
+
+[tool.setuptools]
+packages = ["recipecard"]

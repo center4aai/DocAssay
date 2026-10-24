@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "contourkit/geometry.py",
+    "old": "close_ring",
+    "new": "close_polyline",
+    "symbol": "close_ring",
+    "target": "close_ring",
+    "doc_path": "README.md",
+    "doc_line_text": "`polyline_length` measures one, and `close_ring` turns an open line into a",
+    "target_claim": "`close_ring` is presented as the current contourkit.geometry function that turns an open line into a closed loop.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "The README's Polyline section describes `close_ring` as a present, usable helper, making its definition a natural target for an identifier rename."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"contourkit/geometry.py\", \"old\": \"close_ring\", \"new\": \"close_polyline\", \"symbol\": \"close_ring\", \"target\": \"close_ring\", \"doc_path\": \"README.md\", \"doc_line_text\": \"`polyline_length` measures one, and `close_ring` turns an open line into a\", \"target_claim\": \"`close_ring` is presented as the current contourkit.geometry function that turns an open line into a closed loop.\", \"exemplar_ids\": [\"example 1\", \"example 2\"], \"rationale\": \"The README's Polyline section describes `close_ring` as a present, usable helper, making its definition a natural target for an identifier rename.\"}",
+  "stderr_tail": ""
+}

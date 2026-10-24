@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "ruleset_id": "llm_injection.exemplar_rules",
+  "version": "2026-10-20",
+  "frozen": true,
+  "principle": "Deterministic, engine-free assignment of human-triaged real incidents to the tool's predicate-backed in-scope drift classes. This file is frozen before any bank build; it is auditable prose-regex only and never reads src/docassay. It decides exemplar CLASS membership, not whether an incident is a real defect (that is the triage source's job) and not what the injector finally mutates.",
+  "target_classes": {
+    "path-location-drift": {
+      "artifact_class": "path",
+      "predicate": "PATH_EXISTS",
+      "unit": "repo"
+    },
+    "external-dependency-drift": {
+      "artifact_class": "dependency",
+      "predicate": "DEPENDENCY",
+      "unit": "repo"
+    },
+    "removed-referent-drift": {
+      "artifact_class": "referent",
+      "predicate": "SYMBOL_EXISTS",
+      "unit": "repo"
+    },
+    "identifier-drift": {
+      "artifact_class": "identifier",
+      "predicate": "SYMBOL_EXISTS",
+      "unit": "repo"
+    }
+  },
+  "precedence": [
+    "path-location-drift",
+    "external-dependency-drift",
+    "removed-referent-drift",
+    "identifier-drift"
+  ],
+  "rules": {
+    "path-location-drift": {
+      "all_of": [
+        "\\b(file|files|filename|directory|directories|folder|path|paths|link|links|url|urls|docs?/|[A-Za-z0-9_./-]+\\.(?:md|rst|py|json|ya?ml|toml|cfg|txt|sh|tsx?|js|go|java|cc?|h|rs))\\b",
+        "(no longer exists|no longer available|no longer at|moved|relocat|renamed|deleted|removed|at that path|new (location|path)|wrong (path|location)|stale (link|path))"
+      ],
+      "note": "A path-shaped token AND a location-change predicate, unless the sentence is a symbol/field rename (\\`code renamed it to ...\\`) so those reach identifier-drift.",
+      "none_of": [
+        "\\b(?:code\\s+)?renam(?:ed|es)\\s+(?:it|them)\\s+to\\b"
+      ]
+    },
+    "external-dependency-drift": {
+      "any_of": [
+        "\\bdependenc(y|ies)\\b",
+        "\\bthird[- ]party\\b",
+        "\\bpu?pip install\\b|\\bnpm install\\b|\\buv (add|pip)\\b",
+        "\\bpackage(\\.json)?\\b",
+        "\\brequirements?\\b",
+        "\\bminimum (version|required version)\\b",
+        "\\brequires? (version|node|python|node\\.js|rust|go)\\b",
+        "\\bversion constraint\\b|\\bconstraint\\b",
+        "\\brequires? .{0,24}(>=|>=?\\d)"
+      ],
+      "note": "Declared/external requirement language. Broad by construction; the injector only ever mutates a declared manifest entry, so noisy exemplars still anchor target selection."
+    },
+    "removed-referent-drift": {
+      "any_of": [
+        "\\bremoved\\b",
+        "\\bdeleted\\b",
+        "\\bno longer (exists|available|present|valid|supported|defined|listed|documented)\\b",
+        "\\bhas been removed\\b|\\bwas removed\\b|\\bwere removed\\b",
+        "\\bdropped from\\b|\\bdropped\\b",
+        "\\bnot (defined|present) anymore\\b"
+      ],
+      "note": "A removed/deleted referent (code symbol or documented element). Renames are excluded here and assigned to identifier-drift."
+    },
+    "identifier-drift": {
+      "any_of": [
+        "\\brenamed\\b",
+        "\\brename[d]? (from|to)\\b",
+        "\\bnow called\\b",
+        "\\bwas renamed\\b|\\bwere renamed\\b|\\bhas been renamed\\b",
+        "\\bsuperseded by\\b",
+        "\\brenames?\\s+(?:it|them|this|that)?\\s*to\\b"
+      ],
+      "note": "A renamed identifier/referent. Placement last in precedence so path prefixes win on file renames. Present-tense 'renames it to' is included; an explicit none_of guard in path-location-drift keeps symbol/field renames out of the path class."
+    }
+  }
+}

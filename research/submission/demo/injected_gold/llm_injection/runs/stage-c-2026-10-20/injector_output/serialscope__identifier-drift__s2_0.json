@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "serialscope/errors.py",
+    "old": "ChecksumError",
+    "new": "ChecksumMismatchError",
+    "symbol": "ChecksumError",
+    "target": "ChecksumError",
+    "doc_path": "docs/structure.md",
+    "doc_line_text": "- `ChecksumError` — the trailing bytes did not match the payload.",
+    "target_claim": "The module documentation presents `ChecksumError` as the current named error class for a checksum mismatch, so a reader would import that name from `serialscope.errors`.",
+    "exemplar_ids": [
+      "example 2",
+      "example 4"
+    ],
+    "rationale": "The structure guide's error list is a plain current-API statement naming the class a caller is expected to use, making a definition rename a natural documentation/repository drift."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"serialscope/errors.py\", \"old\": \"ChecksumError\", \"new\": \"ChecksumMismatchError\", \"symbol\": \"ChecksumError\", \"target\": \"ChecksumError\", \"doc_path\": \"docs/structure.md\", \"doc_line_text\": \"- `ChecksumError` — the trailing bytes did not match the payload.\", \"target_claim\": \"The module documentation presents `ChecksumError` as the current named error class for a checksum mismatch, so a reader would import that name from `serialscope.errors`.\", \"exemplar_ids\": [\"example 2\", \"example 4\"], \"rationale\": \"The structure guide's error list is a plain current-API statement naming the class a caller is expected to use, making a definition rename a natural documentation/repository drift.\"}",
+  "stderr_tail": ""
+}

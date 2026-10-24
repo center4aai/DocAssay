@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "artifact_class": "path",
+    "direction": "code_side",
+    "kind": "path_rename",
+    "file": "examples/entries.csv",
+    "old": "examples/entries.csv",
+    "new": "examples/sample_entries.csv",
+    "target": "examples/entries.csv",
+    "doc_path": "README.md",
+    "doc_line_text": "The bundled sample ledger is the CSV file `examples/entries.csv`, which holds",
+    "target_claim": "The bundled sample ledger CSV is located at `examples/entries.csv`.",
+    "exemplar_ids": [
+      "example 1",
+      "example 4"
+    ],
+    "rationale": "Followed the exemplar pattern of a current file path being relocated in the tree while references keep the old location, choosing a uniquely named bundled data file that README presents as an existing location."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"path-location-drift\",\n  \"artifact_class\": \"path\",\n  \"direction\": \"code_side\",\n  \"kind\": \"path_rename\",\n  \"file\": \"examples/entries.csv\",\n  \"old\": \"examples/entries.csv\",\n  \"new\": \"examples/sample_entries.csv\",\n  \"target\": \"examples/entries.csv\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"The bundled sample ledger is the CSV file `examples/entries.csv`, which holds\",\n  \"target_claim\": \"The bundled sample ledger CSV is located at `examples/entries.csv`.\",\n  \"exemplar_ids\": [\"example 1\", \"example 4\"],\n  \"rationale\": \"Followed the exemplar pattern of a current file path being relocated in the tree while references keep the old location, choosing a uniquely named bundled data file that README presents as an existing location.\"\n}",
+  "stderr_tail": ""
+}

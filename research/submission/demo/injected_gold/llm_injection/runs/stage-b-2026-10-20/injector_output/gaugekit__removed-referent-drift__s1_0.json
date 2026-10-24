@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "gaugekit/stats.py",
+    "old": "monthly_means",
+    "new": null,
+    "symbol": "monthly_means",
+    "target": "monthly_means",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `monthly_means() -> dict[str, float]`",
+    "target_claim": "The API reference presents `monthly_means` as a current public function of `gaugekit.stats` that computes monthly mean values for a series.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "The API reference lists `monthly_means` as an ordinary public function alongside `summarize`, making its presence in `gaugekit/stats.py` a plain checkable current-state fact."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"removed-referent-drift\", \"direction\": \"code_side\", \"file\": \"gaugekit/stats.py\", \"old\": \"monthly_means\", \"new\": null, \"symbol\": \"monthly_means\", \"target\": \"monthly_means\", \"doc_path\": \"docs/api.md\", \"doc_line_text\": \"### `monthly_means() -> dict[str, float]`\", \"target_claim\": \"The API reference presents `monthly_means` as a current public function of `gaugekit.stats` that computes monthly mean values for a series.\", \"exemplar_ids\": [\"example 1\"], \"rationale\": \"The API reference lists `monthly_means` as an ordinary public function alongside `summarize`, making its presence in `gaugekit/stats.py` a plain checkable current-state fact.\"}",
+  "stderr_tail": ""
+}

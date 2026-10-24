@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "gaugekit/errors.py",
+    "old": "GaugeFormatError",
+    "new": null,
+    "symbol": "GaugeFormatError",
+    "target": "GaugeFormatError",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `GaugeFormatError`",
+    "target_claim": "GaugeFormatError is a public class provided by gaugekit.errors as the error type for malformed input.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "The API reference lists GaugeFormatError as the current public error class for malformed input, so removing its definition leaves a documented public symbol that no longer exists."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"gaugekit/errors.py\",\n  \"old\": \"GaugeFormatError\",\n  \"new\": null,\n  \"symbol\": \"GaugeFormatError\",\n  \"target\": \"GaugeFormatError\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"### `GaugeFormatError`\",\n  \"target_claim\": \"GaugeFormatError is a public class provided by gaugekit.errors as the error type for malformed input.\",\n  \"exemplar_ids\": [\"example 1\"],\n  \"rationale\": \"The API reference lists GaugeFormatError as the current public error class for malformed input, so removing its definition leaves a documented public symbol that no longer exists.\"\n}",
+  "stderr_tail": ""
+}

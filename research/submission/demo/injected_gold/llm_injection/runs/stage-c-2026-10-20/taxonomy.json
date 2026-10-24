@@ -1,0 +1,81 @@
+{
+  "stage": "C",
+  "arm": "C-ext",
+  "created": "2026-10-20",
+  "normative_source": "research/submission/demo/validation/stage-c-plan.md §2.1",
+  "note": "Single source of truth for every categorical field in Stage C. No second genre, claim-form, or context list may exist in a prompt, spec, or report.",
+  "dimensions": {
+    "genre": {
+      "values": ["tutorial", "how-to", "reference", "explanation", "cookbook", "module map"],
+      "applies_to": "non-README documents only",
+      "readme": "n/a"
+    },
+    "target_document": {
+      "values": ["readme", "task_document", "reference_document"]
+    },
+    "claim_form": {
+      "values": [
+        "path",
+        "dependency",
+        "qualified",
+        "section_qualified",
+        "bare_call",
+        "bare",
+        "not_a_claim"
+      ],
+      "section_qualified_arm": "C-ext"
+    },
+    "context_source": {
+      "values": ["heading", "table", "prose", "list", "path_prose", "none"]
+    },
+    "dependency_phrasing": {
+      "values": [
+        "name_only",
+        "display_plus_constraint",
+        "inline_backticked",
+        "table_row",
+        "extras",
+        "environment_marker",
+        "multi_in_sentence",
+        "range",
+        "install_command"
+      ]
+    },
+    "dependency_form": {
+      "values": ["constraint_break", "removal"]
+    },
+    "outcome": {
+      "values": ["refuted", "nei", "none"]
+    },
+    "none_sub": {
+      "values": ["no_claim", "other_referent", "supported"]
+    },
+    "target_line_status": {
+      "values": ["refuted", "nei", "none"]
+    },
+    "attribution": {
+      "values": ["target_line", "other_mention", "both"]
+    },
+    "bundle_status": {
+      "values": [
+        "verified",
+        "declined",
+        "invalid",
+        "verify_failed",
+        "apply_failed",
+        "timeout",
+        "no_output",
+        "unresolved",
+        "conflict"
+      ]
+    }
+  },
+  "active_classes": [
+    "path-location-drift",
+    "identifier-drift",
+    "removed-referent-drift",
+    "external-dependency-drift"
+  ],
+  "seeds": [1, 2, 3],
+  "primary_bundles": 72
+}

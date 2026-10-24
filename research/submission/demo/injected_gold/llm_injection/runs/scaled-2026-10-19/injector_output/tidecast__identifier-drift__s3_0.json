@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "artifact_class": "identifier",
+    "direction": "code_side",
+    "kind": "symbol_rename",
+    "file": "tidecast/routes.py",
+    "old": "tidecast.routes.RouteTable",
+    "new": "tidecast.routes.RouteTableRenamed",
+    "symbol": "RouteTable",
+    "target": "tidecast.routes.RouteTable",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "`tidecast.routes.RouteTable` collects the served routes and offers an add operation.",
+    "target_claim": "The class `tidecast.routes.RouteTable` collects the served routes and offers an add operation.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "The exemplars rename a code-side module/dependency and a function-pointer identifier while the documentation keeps the old name. I followed that pattern by renaming the documented top-level class `RouteTable` in code only, leaving the API reference's qualified name stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"artifact_class\": \"identifier\",\n  \"direction\": \"code_side\",\n  \"kind\": \"symbol_rename\",\n  \"file\": \"tidecast/routes.py\",\n  \"old\": \"tidecast.routes.RouteTable\",\n  \"new\": \"tidecast.routes.RouteTableRenamed\",\n  \"symbol\": \"RouteTable\",\n  \"target\": \"tidecast.routes.RouteTable\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"`tidecast.routes.RouteTable` collects the served routes and offers an add operation.\",\n  \"target_claim\": \"The class `tidecast.routes.RouteTable` collects the served routes and offers an add operation.\",\n  \"exemplar_ids\": [\"example 1\", \"example 2\"],\n  \"rationale\": \"The exemplars rename a code-side module/dependency and a function-pointer identifier while the documentation keeps the old name. I followed that pattern by renaming the documented top-level class `RouteTable` in code only, leaving the API reference's qualified name stale.\"\n}",
+  "stderr_tail": ""
+}

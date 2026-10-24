@@ -1,0 +1,12 @@
+title: Pancakes
+servings: 4
+ingredients:
+  - name: flour
+    quantity: 240
+    unit: g
+  - name: milk
+    quantity: 300
+    unit: ml
+  - name: egg
+    quantity: 2
+    unit: whole

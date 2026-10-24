@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "examples/terrain.asc",
+    "old": "examples/terrain.asc",
+    "new": "examples/data/terrain.asc",
+    "target": "examples/terrain.asc",
+    "doc_path": "README.md",
+    "doc_line_text": "`examples/terrain.asc` is a 5 × 5 ESRI ASCII grid with a header of `ncols 5`,",
+    "target_claim": "The example ESRI ASCII grid is located at examples/terrain.asc in the repository.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "The README presents examples/terrain.asc as the repository's current example fixture, so relocating it to examples/data/terrain.asc naturally falsifies that location claim."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"path-location-drift\", \"direction\": \"code_side\", \"file\": \"examples/terrain.asc\", \"old\": \"examples/terrain.asc\", \"new\": \"examples/data/terrain.asc\", \"target\": \"examples/terrain.asc\", \"doc_path\": \"README.md\", \"doc_line_text\": \"`examples/terrain.asc` is a 5 × 5 ESRI ASCII grid with a header of `ncols 5`,\", \"target_claim\": \"The example ESRI ASCII grid is located at examples/terrain.asc in the repository.\", \"exemplar_ids\": [\"example 1\"], \"rationale\": \"The README presents examples/terrain.asc as the repository's current example fixture, so relocating it to examples/data/terrain.asc naturally falsifies that location claim.\"}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,43 @@
+{
+  "by_operator": {
+    "ci_workflow_false_claim::ci_workflow.false_claim": {
+      "pool_size": null,
+      "seeds": [
+        0
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "dockerfile_false_claim::dockerfile.false_claim": {
+      "pool_size": null,
+      "seeds": [
+        0
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "license_false_claim::license.false_claim": {
+      "pool_size": null,
+      "seeds": [
+        0
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    }
+  },
+  "per_seed": {
+    "0": {
+      "refuted_injected": 3,
+      "refuted_verified": 3,
+      "refuted": 3,
+      "nei": 0,
+      "none": 0,
+      "refuted_detected": 3,
+      "controls": 0,
+      "controls_clean": 0
+    }
+  }
+}

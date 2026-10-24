@@ -1,0 +1,69 @@
+{
+  "alert_id": "triaged:alert-1ccd5743d77a06ff",
+  "commit_sha": "b28711ac98e8b43bfbf5c918022018a54dcedd45",
+  "commit_url": "https://github.com/torvalds/linux/commit/b28711ac98e8b43bfbf5c918022018a54dcedd45",
+  "files": [
+    {
+      "added": [
+        "\tdepends on RUSTC_LLVM_VERSION >= 190103 || \\"
+      ],
+      "hunks": 1,
+      "matched_location": false,
+      "path": "arch/Kconfig",
+      "removed": [
+        "\tdepends on RUSTC_VERSION >= 107900",
+        "\tdepends on (RUSTC_LLVM_VERSION >= 190103 && RUSTC_VERSION >= 108200) || \\"
+      ],
+      "side": "code",
+      "truncated": false
+    },
+    {
+      "added": [],
+      "hunks": 1,
+      "matched_location": false,
+      "path": "arch/arm64/Kconfig",
+      "removed": [
+        "\t# Shadow call stack is only supported on certain rustc versions.",
+        "\t#",
+        "\t# When using the UNWIND_PATCH_PAC_INTO_SCS option, rustc version 1.80+ is",
+        "\t# required due to use of the -Zfixed-x18 flag.",
+        "\t#",
+        "\t# Otherwise, rustc version 1.82+ is required due to use of the",
+        "\t# -Zsanitizer=shadow-call-stack flag.",
+        "\tdepends on !SHADOW_CALL_STACK || RUSTC_VERSION >= 108200 || RUSTC_VERSION >= 108000 && UNWIND_PATCH_PAC_INTO_SCS"
+      ],
+      "side": "code",
+      "truncated": false
+    },
+    {
+      "added": [],
+      "hunks": 1,
+      "matched_location": false,
+      "path": "arch/riscv/Kconfig",
+      "removed": [
+        "\t# Shadow call stack requires rustc version 1.82+ due to use of the",
+        "\t# -Zsanitizer=shadow-call-stack flag.",
+        "\tdepends on !SHADOW_CALL_STACK || RUSTC_VERSION >= 108200"
+      ],
+      "side": "code",
+      "truncated": false
+    },
+    {
+      "added": [],
+      "hunks": 1,
+      "matched_location": false,
+      "path": "init/Kconfig",
+      "removed": [
+        "\tdepends on !CALL_PADDING || RUSTC_VERSION >= 108100",
+        "\tdepends on !(MITIGATION_RETHUNK && KASAN) || RUSTC_VERSION >= 108300"
+      ],
+      "side": "code",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "Documentation/translations/it_IT/process/changes.rst"
+  ],
+  "patch_sha256": "d7915c92f3b918393248e13816fb5e1a0227014b35b93359e1ae0cab71f32a43",
+  "status": "ok"
+}

@@ -1,0 +1,62 @@
+{
+  "repo": "bibscan__removed-referent-drift__s2_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "docs/api.md",
+        "line": 18,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "bibscan.parser.bibsyntaxerror",
+        "reason": ""
+      }
+    ],
+    "new_nei": [
+      {
+        "source": "README.md",
+        "line": 78,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "bibsyntaxerror",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/api.md",
+        "line": 70,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "bibsyntaxerror",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/api.md",
+        "line": 80,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "bibsyntaxerror",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/recipes.md",
+        "line": 199,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "bibsyntaxerror",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "bibscan__removed-referent-drift__s2_0::0",
+      "repo": "bibscan__removed-referent-drift__s2_0",
+      "op_id": "llm.removed-referent-drift",
+      "canonical_class": "removed-referent-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "bibscan.parser.BibSyntaxError",
+        "new": null,
+        "doc_path": "docs/api.md",
+        "target": "BibSyntaxError"
+      }
+    }
+  ]
+}

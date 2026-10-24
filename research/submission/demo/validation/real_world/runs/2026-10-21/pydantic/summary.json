@@ -1,0 +1,17 @@
+{
+  "repo": "pydantic",
+  "docs": 96,
+  "claims": 4252,
+  "referents": 736,
+  "evidence": 14620,
+  "verdicts": {
+    "REFUTED": 6,
+    "SUPPORTED": 395,
+    "NEI": 384
+  },
+  "refuted_by_predicate": {
+    "PATH_EXISTS": 5,
+    "SYMBOL_EXISTS": 1
+  },
+  "seconds": 4.2
+}

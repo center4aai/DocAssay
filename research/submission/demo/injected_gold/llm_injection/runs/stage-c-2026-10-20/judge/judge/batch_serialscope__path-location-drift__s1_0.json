@@ -1,0 +1,61 @@
+{
+  "repo": "serialscope__path-location-drift__s1_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "README.md",
+        "line": 40,
+        "predicate": "PATH_EXISTS",
+        "object": "examples/pump_response.txt",
+        "reason": ""
+      },
+      {
+        "source": "docs/structure.md",
+        "line": 122,
+        "predicate": "PATH_EXISTS",
+        "object": "examples/pump_response.txt",
+        "reason": ""
+      },
+      {
+        "source": "docs/structure.md",
+        "line": 172,
+        "predicate": "PATH_EXISTS",
+        "object": "pump_response.txt",
+        "reason": ""
+      },
+      {
+        "source": "docs/structure.md",
+        "line": 24,
+        "predicate": "PATH_EXISTS",
+        "object": "pump_response.txt",
+        "reason": ""
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 168,
+        "predicate": "PATH_EXISTS",
+        "object": "pump_response.txt",
+        "reason": ""
+      }
+    ],
+    "new_nei": [],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "serialscope__path-location-drift__s1_0::0",
+      "repo": "serialscope__path-location-drift__s1_0",
+      "op_id": "llm.path-location-drift",
+      "canonical_class": "path-location-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "examples/pump_response.txt",
+        "new": "examples/pump_status.txt",
+        "doc_path": "README.md",
+        "target": "examples/pump_response.txt"
+      }
+    }
+  ]
+}

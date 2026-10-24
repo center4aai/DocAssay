@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "artifact_class": "referent",
+    "direction": "code_side",
+    "kind": "symbol_delete",
+    "file": "quillpad/cli.py",
+    "old": "quillpad.cli.main",
+    "new": null,
+    "symbol": "main",
+    "target": "quillpad.cli.main()",
+    "doc_path": "README.md",
+    "doc_line_text": "- `quillpad.cli.main()` is the command-line entry point.",
+    "target_claim": "The README presents `quillpad.cli.main()` as the current command-line entry point; deleting the `main` definition removes that documented API element.",
+    "exemplar_ids": [
+      "example 2",
+      "example 3"
+    ],
+    "rationale": "Followed the exemplar pattern of deleting a top-level code symbol that documentation still advertises by a qualified name, as in the Groq and helper-removal incidents. `main` is not imported or called elsewhere in the package, so its removal leaves `quillpad/cli.py` parseable while the README assertion becomes stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"artifact_class\": \"referent\",\n  \"direction\": \"code_side\",\n  \"kind\": \"symbol_delete\",\n  \"file\": \"quillpad/cli.py\",\n  \"old\": \"quillpad.cli.main\",\n  \"new\": null,\n  \"symbol\": \"main\",\n  \"target\": \"quillpad.cli.main()\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"- `quillpad.cli.main()` is the command-line entry point.\",\n  \"target_claim\": \"The README presents `quillpad.cli.main()` as the current command-line entry point; deleting the `main` definition removes that documented API element.\",\n  \"exemplar_ids\": [\"example 2\", \"example 3\"],\n  \"rationale\": \"Followed the exemplar pattern of deleting a top-level code symbol that documentation still advertises by a qualified name, as in the Groq and helper-removal incidents. `main` is not imported or called elsewhere in the package, so its removal leaves `quillpad/cli.py` parseable while the README assertion becomes stale.\"\n}",
+  "stderr_tail": ""
+}

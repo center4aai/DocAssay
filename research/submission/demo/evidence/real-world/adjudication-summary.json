@@ -1,0 +1,71 @@
+{
+  "reviewed": 284,
+  "labels": {
+    "PREDICATE_FP": 139,
+    "GENRE_EXAMPLE": 66,
+    "GENERATED_ARTIFACT": 34,
+    "HISTORICAL": 13,
+    "REAL_DRIFT": 32
+  },
+  "real_drift_share": 0.113,
+  "by_status": {
+    "PRESENT_NOW": {
+      "PREDICATE_FP": 8,
+      "GENRE_EXAMPLE": 13,
+      "HISTORICAL": 4,
+      "REAL_DRIFT": 1,
+      "GENERATED_ARTIFACT": 1
+    },
+    "NEVER_EXISTED": {
+      "GENRE_EXAMPLE": 50,
+      "PREDICATE_FP": 28,
+      "GENERATED_ARTIFACT": 29,
+      "REAL_DRIFT": 12
+    },
+    "MODULE_PRESENT": {
+      "PREDICATE_FP": 6,
+      "REAL_DRIFT": 13,
+      "HISTORICAL": 6,
+      "GENRE_EXAMPLE": 1
+    },
+    "EXISTED_AND_DELETED": {
+      "REAL_DRIFT": 6,
+      "PREDICATE_FP": 97,
+      "GENRE_EXAMPLE": 2,
+      "HISTORICAL": 3,
+      "GENERATED_ARTIFACT": 4
+    }
+  },
+  "by_predicate": {
+    "DEPENDENCY": {
+      "PREDICATE_FP": 5,
+      "GENRE_EXAMPLE": 13,
+      "HISTORICAL": 4,
+      "REAL_DRIFT": 1,
+      "GENERATED_ARTIFACT": 1
+    },
+    "PATH_EXISTS": {
+      "GENRE_EXAMPLE": 50,
+      "PREDICATE_FP": 25,
+      "GENERATED_ARTIFACT": 33,
+      "REAL_DRIFT": 16
+    },
+    "SYMBOL_EXISTS": {
+      "PREDICATE_FP": 109,
+      "REAL_DRIFT": 15,
+      "HISTORICAL": 9,
+      "GENRE_EXAMPLE": 3
+    }
+  },
+  "missing": [],
+  "extra": [],
+  "duplicates": [
+    "fastapi::DEPENDENCY|python|",
+    "flask::DEPENDENCY|python|",
+    "flask::DEPENDENCY|werkzeug|",
+    "pip::DEPENDENCY|python|",
+    "pip::DEPENDENCY|setuptools|",
+    "pip::DEPENDENCY|virtualenv|",
+    "ruff::DEPENDENCY|black|"
+  ]
+}

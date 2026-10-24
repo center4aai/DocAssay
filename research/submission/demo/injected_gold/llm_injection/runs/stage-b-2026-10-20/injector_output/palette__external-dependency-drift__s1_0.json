@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "click>=8.1",
+    "new": "click>=999",
+    "symbol": "click",
+    "target": "click>=8.1",
+    "doc_path": "README.md",
+    "doc_line_text": "The only declared runtime dependency is `click>=8.1`.",
+    "target_claim": "The project declares `click>=8.1` as its only runtime dependency.",
+    "exemplar_ids": [
+      "example 2",
+      "example 4"
+    ],
+    "rationale": "The README states the project's current declared runtime dependency and its version constraint as an ordinary installation fact."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \"click>=8.1\", \"new\": \"click>=999\", \"symbol\": \"click\", \"target\": \"click>=8.1\", \"doc_path\": \"README.md\", \"doc_line_text\": \"The only declared runtime dependency is `click>=8.1`.\", \"target_claim\": \"The project declares `click>=8.1` as its only runtime dependency.\", \"exemplar_ids\": [\"example 2\", \"example 4\"], \"rationale\": \"The README states the project's current declared runtime dependency and its version constraint as an ordinary installation fact.\"}",
+  "stderr_tail": ""
+}

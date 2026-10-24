@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "sheetmusic/parser.py",
+    "old": "parse_chord",
+    "new": "parse_chord_symbol",
+    "symbol": "parse_chord",
+    "target": "parse_chord",
+    "doc_path": "docs/guide.md",
+    "doc_line_text": "The `sheetmusic.parser` module declares `parse_chord` (returns `Chord`) and",
+    "target_claim": "The sheetmusic.parser module currently declares a function named parse_chord that returns a Chord.",
+    "exemplar_ids": [
+      "example-1"
+    ],
+    "rationale": "The guide presents parse_chord as a current public function of the parser module, and its top-level definition is renamed while the guide is left unchanged."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"sheetmusic/parser.py\",\n  \"old\": \"parse_chord\",\n  \"new\": \"parse_chord_symbol\",\n  \"symbol\": \"parse_chord\",\n  \"target\": \"parse_chord\",\n  \"doc_path\": \"docs/guide.md\",\n  \"doc_line_text\": \"The `sheetmusic.parser` module declares `parse_chord` (returns `Chord`) and\",\n  \"target_claim\": \"The sheetmusic.parser module currently declares a function named parse_chord that returns a Chord.\",\n  \"exemplar_ids\": [\"example-1\"],\n  \"rationale\": \"The guide presents parse_chord as a current public function of the parser module, and its top-level definition is renamed while the guide is left unchanged.\"\n}",
+  "stderr_tail": ""
+}

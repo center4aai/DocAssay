@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "palette"
+version = "0.4.0"
+description = "A small library for parsing colors, generating harmonious palettes, and checking WCAG contrast ratios."
+requires-python = ">=3.11"
+dependencies = [
+    "click>=999"
+]
+
+[tool.setuptools]
+packages = ["palette"]

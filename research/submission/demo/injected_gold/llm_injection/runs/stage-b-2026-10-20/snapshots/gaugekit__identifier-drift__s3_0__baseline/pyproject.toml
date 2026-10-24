@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gaugekit"
+version = "0.4.2"
+description = "A small library for loading public stream-gauge CSV exports and computing summary statistics for discharge and gauge height."
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.24"
+]
+
+[tool.setuptools]
+packages = ["gaugekit"]

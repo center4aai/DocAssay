@@ -1,0 +1,65 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Geist,46,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,3,8,0,2,72,72,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.11,Default,,0,0,0,,Do you see the error?
+Dialogue: 0,0:00:02.66,0:00:07.45,Default,,0,0,0,,The documented path misses a directory — the\Nfile lives one level deeper.
+Dialogue: 0,0:00:07.58,0:00:09.99,Default,,0,0,0,,The documented path does not exist.
+Dialogue: 0,0:00:10.17,0:00:14.09,Default,,0,0,0,,Errors like this have always existed — no\Namount of care prevents them.
+Dialogue: 0,0:00:14.24,0:00:19.00,Default,,0,0,0,,What changed is the volume: more documentation\Nis written by AI coding agents.
+Dialogue: 0,0:00:19.18,0:00:23.12,Default,,0,0,0,,A 2026 study of 612 agent configuration files
+Dialogue: 0,0:00:23.12,0:00:26.84,Default,,0,0,0,,found stale references in 23% of repositories.
+Dialogue: 0,0:00:27.09,0:00:29.54,Default,,0,0,0,,Reviewing that by hand does not scale;
+Dialogue: 0,0:00:29.65,0:00:33.49,Default,,0,0,0,,asking another model just swaps a stale claim\Nfor a guess.
+Dialogue: 0,0:00:33.80,0:00:36.88,Default,,0,0,0,,We split a document into atomic claims and\Ncheck each one
+Dialogue: 0,0:00:36.88,0:00:40.15,Default,,0,0,0,,against a fact inventory built from the\Nrepository itself.
+Dialogue: 0,0:00:40.45,0:00:44.69,Default,,0,0,0,,The verdict is discrete: SUPPORTED, REFUTED,\Nor NEI.
+Dialogue: 0,0:00:44.74,0:00:49.21,Default,,0,0,0,,NEI is not a confidence threshold — it means\Nthe inventory cannot decide.
+Dialogue: 0,0:00:49.40,0:00:54.91,Default,,0,0,0,,Six predicates, one fixed inventory each: path\Nand Dockerfile read the file listing,
+Dialogue: 0,0:00:55.04,0:00:58.67,Default,,0,0,0,,symbol reads the Python tree, dependency reads\Nthe manifests,
+Dialogue: 0,0:00:58.80,0:01:02.83,Default,,0,0,0,,license and CI read the license field and the\Nworkflows directory.
+Dialogue: 0,0:01:03.08,0:01:06.32,Default,,0,0,0,,No language model sits in the deciding path.
+Dialogue: 0,0:01:06.64,0:01:09.37,Default,,0,0,0,,Let's run it live on a different project.
+Dialogue: 0,0:01:09.65,0:01:12.20,Default,,0,0,0,,Paste the repository URL and clone it
+Dialogue: 0,0:01:12.27,0:01:15.12,Default,,0,0,0,,the whole analysis runs in less than a second.
+Dialogue: 0,0:01:15.36,0:01:20.42,Default,,0,0,0,,Here is the report: claims with verdicts,\Ncoverage, five predicates.
+Dialogue: 0,0:01:20.73,0:01:23.12,Default,,0,0,0,,Exactly one claim is refuted.
+Dialogue: 0,0:01:23.44,0:01:27.52,Default,,0,0,0,,Open it: the example calls httpx.Mounts
+Dialogue: 0,0:01:27.53,0:01:30.34,Default,,0,0,0,,a class that does not exist anywhere in the\Nproject;
+Dialogue: 0,0:01:30.44,0:01:32.90,Default,,0,0,0,,the name appears only in this document.
+Dialogue: 0,0:01:33.17,0:01:37.61,Default,,0,0,0,,This is a real divergence, confirmed against\Ngit history.
+Dialogue: 0,0:01:37.92,0:01:40.32,Default,,0,0,0,,Now a yellow one: NEI.
+Dialogue: 0,0:01:40.51,0:01:45.02,Default,,0,0,0,,The documentation mentions asgi-lifespan; the\Nproject does not declare it
+Dialogue: 0,0:01:45.08,0:01:49.42,Default,,0,0,0,,but that is not proof it is absent, because\Nthe dependency graph is open.
+Dialogue: 0,0:01:49.68,0:01:54.34,Default,,0,0,0,,The layer and the reason are printed on the\Ncard.
+Dialogue: 0,0:01:55.53,0:01:59.80,Default,,0,0,0,,A tool that reports findings is not yet a tool\Nthat works
+Dialogue: 0,0:01:59.90,0:02:02.16,Default,,0,0,0,,so we manufacture the defects.
+Dialogue: 0,0:02:02.43,0:02:05.39,Default,,0,0,0,,Six held-out repositories in three domains.
+Dialogue: 0,0:02:05.62,0:02:08.27,Default,,0,0,0,,We inject one drift of a known class,
+Dialogue: 0,0:02:08.40,0:02:10.52,Default,,0,0,0,,prove on disk with an engine-free oracle
+Dialogue: 0,0:02:10.52,0:02:13.25,Default,,0,0,0,,that the artifact existed before and is gone\Nafter,
+Dialogue: 0,0:02:13.34,0:02:15.71,Default,,0,0,0,,and measure the tool's reaction.
+Dialogue: 0,0:02:16.12,0:02:21.77,Default,,0,0,0,,Sixty-nine verified injections, sixty-five\Ndetected — recall 0.942,
+Dialogue: 0,0:02:21.90,0:02:26.83,Default,,0,0,0,,confidence interval 0.873 to 0.986.
+Dialogue: 0,0:02:27.23,0:02:31.66,Default,,0,0,0,,Fifty by a closed-world refutation, fifteen by\Na named abstention.
+Dialogue: 0,0:02:31.84,0:02:37.69,Default,,0,0,0,,We also ran it on real, widely used projects.\NSixteen of them.
+Dialogue: 0,0:02:37.96,0:02:43.52,Default,,0,0,0,,Eight carry drift that we confirmed against\Ngit history — 32 defects in total.
+Dialogue: 0,0:02:43.81,0:02:46.23,Default,,0,0,0,,Some of these have been wrong for years.
+Dialogue: 0,0:02:46.48,0:02:51.96,Default,,0,0,0,,In Celery, a contributing guide still points\Nat a file deleted in 2016.
+Dialogue: 0,0:02:52.27,0:02:56.78,Default,,0,0,0,,In SQLFluff, the path we opened with was\Nwritten in 2023
+Dialogue: 0,0:02:56.89,0:02:59.62,Default,,0,0,0,,a year after the file had already moved.
+Dialogue: 0,0:02:59.86,0:03:02.10,Default,,0,0,0,,We do not replace human review,
+Dialogue: 0,0:03:02.21,0:03:05.45,Default,,0,0,0,,and we do not guarantee that documentation is\Ncorrect.
+Dialogue: 0,0:03:05.72,0:03:09.40,Default,,0,0,0,,We find provable divergences between\Ndocumentation and code
+Dialogue: 0,0:03:09.50,0:03:12.26,Default,,0,0,0,,and stay silent when the evidence is not\Nthere.
+Dialogue: 0,0:03:12.50,0:03:16.85,Default,,0,0,0,,The same facts are served to coding agents\Nover MCP. Open source;
+Dialogue: 0,0:03:16.98,0:03:20.90,Default,,0,0,0,,the container and the frozen corpus reproduce\Nevery number on this screen.

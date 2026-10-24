@@ -1,0 +1,83 @@
+[
+  {
+    "name": "dockerfile.false_claim",
+    "origin": "conformance",
+    "source_repo": "quillpad",
+    "kind": "claim_dockerfile",
+    "control": "none",
+    "expected_verdict": "refuted",
+    "verifier": "ok"
+  },
+  {
+    "name": "dockerfile.control_present",
+    "origin": "conformance",
+    "source_repo": "quillpad",
+    "kind": "control_claim",
+    "control": "consistent_present",
+    "expected_verdict": null,
+    "verifier": "ok"
+  },
+  {
+    "name": "dockerfile.mention",
+    "origin": "conformance",
+    "source_repo": "quillpad",
+    "kind": "control_claim",
+    "control": "consistent_absent",
+    "expected_verdict": null,
+    "verifier": "ok"
+  },
+  {
+    "name": "ci_workflow.false_claim",
+    "origin": "conformance",
+    "source_repo": "quillpad",
+    "kind": "claim_ci_workflow",
+    "control": "none",
+    "expected_verdict": "refuted",
+    "verifier": "ok"
+  },
+  {
+    "name": "ci_workflow.control_present",
+    "origin": "conformance",
+    "source_repo": "quillpad",
+    "kind": "control_claim",
+    "control": "consistent_present",
+    "expected_verdict": null,
+    "verifier": "ok"
+  },
+  {
+    "name": "ci_workflow.mention",
+    "origin": "conformance",
+    "source_repo": "quillpad",
+    "kind": "control_claim",
+    "control": "consistent_absent",
+    "expected_verdict": null,
+    "verifier": "ok"
+  },
+  {
+    "name": "license.false_claim",
+    "origin": "conformance",
+    "source_repo": "quillpad",
+    "kind": "claim_license",
+    "control": "none",
+    "expected_verdict": "refuted",
+    "verifier": "ok"
+  },
+  {
+    "name": "license.control_present",
+    "origin": "conformance",
+    "source_repo": "quillpad",
+    "kind": "control_claim",
+    "control": "consistent_present",
+    "expected_verdict": null,
+    "verifier": "ok"
+  },
+  {
+    "name": "license.mention",
+    "origin": "conformance",
+    "source_repo": "quillpad",
+    "kind": "control_claim",
+    "control": "consistent_absent",
+    "expected_verdict": null,
+    "verifier": "ok"
+  }
+]

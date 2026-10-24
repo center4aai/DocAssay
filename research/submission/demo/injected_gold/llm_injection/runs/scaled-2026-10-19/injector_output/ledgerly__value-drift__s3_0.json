@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "value-drift",
+    "artifact_class": "value",
+    "direction": "code_side",
+    "kind": "version_bump",
+    "file": "pyproject.toml",
+    "old": "0.4.2",
+    "new": "0.4.3",
+    "target": "0.4.2",
+    "doc_path": "README.md",
+    "doc_line_text": "This is ledgerly version 0.4.2.",
+    "target_claim": "The README states that the project's current version is 0.4.2, which the bumped manifest version 0.4.3 contradicts.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "Following the exemplar's shape of a stale version literal stated in documentation, the manifest's own project version is bumped by one patch component while the README's current-state version sentence is left unchanged."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"value-drift\",\n  \"artifact_class\": \"value\",\n  \"direction\": \"code_side\",\n  \"kind\": \"version_bump\",\n  \"file\": \"pyproject.toml\",\n  \"old\": \"0.4.2\",\n  \"new\": \"0.4.3\",\n  \"target\": \"0.4.2\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"This is ledgerly version 0.4.2.\",\n  \"target_claim\": \"The README states that the project's current version is 0.4.2, which the bumped manifest version 0.4.3 contradicts.\",\n  \"exemplar_ids\": [\n    \"example 1\"\n  ],\n  \"rationale\": \"Following the exemplar's shape of a stale version literal stated in documentation, the manifest's own project version is bumped by one patch component while the README's current-state version sentence is left unchanged.\"\n}",
+  "stderr_tail": ""
+}

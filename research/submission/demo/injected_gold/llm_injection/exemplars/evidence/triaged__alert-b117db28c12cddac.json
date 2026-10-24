@@ -1,0 +1,22 @@
+{
+  "alert_id": "triaged:alert-b117db28c12cddac",
+  "commit_sha": "a318832414b7015f4597d3ee4e394cd69f9ec7e9",
+  "commit_url": "https://github.com/Significant-Gravitas/AutoGPT/commit/a318832414b7015f4597d3ee4e394cd69f9ec7e9",
+  "files": [
+    {
+      "added": [],
+      "hunks": 0,
+      "matched_location": true,
+      "path": "docs/platform/new_blocks.md",
+      "removed": [],
+      "side": "doc",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "docs/content/index.md",
+    "docs/platform/new_blocks.md"
+  ],
+  "patch_sha256": "8ba2da9ea96c9d8461da089855a8358a2991304ddb85e6b53a228515c602fee6",
+  "status": "ok"
+}

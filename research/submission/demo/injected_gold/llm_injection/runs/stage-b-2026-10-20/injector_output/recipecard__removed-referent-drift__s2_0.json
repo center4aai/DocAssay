@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "recipecard/scaling.py",
+    "old": "scale_quantity",
+    "new": null,
+    "symbol": "scale_quantity",
+    "target": "scale_quantity",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `scale_quantity() -> float`",
+    "target_claim": "The API reference presents `scale_quantity` as a public, importable function in `recipecard.scaling` that returns a float.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "`scale_quantity` is listed in the API reference as a public scaling helper, while `scale_recipe` is the name the README and guide actually use, so deleting the single definition is a natural current-API removal."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"removed-referent-drift\", \"direction\": \"code_side\", \"file\": \"recipecard/scaling.py\", \"old\": \"scale_quantity\", \"new\": null, \"symbol\": \"scale_quantity\", \"target\": \"scale_quantity\", \"doc_path\": \"docs/api.md\", \"doc_line_text\": \"### `scale_quantity() -> float`\", \"target_claim\": \"The API reference presents `scale_quantity` as a public, importable function in `recipecard.scaling` that returns a float.\", \"exemplar_ids\": [\"example 1\", \"example 2\"], \"rationale\": \"`scale_quantity` is listed in the API reference as a public scaling helper, while `scale_recipe` is the name the README and guide actually use, so deleting the single definition is a natural current-API removal.\"}",
+  "stderr_tail": ""
+}

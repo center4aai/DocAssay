@@ -1,0 +1,55 @@
+{
+  "repo": "tileplan__removed-referent-drift__s1_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "README.md",
+        "line": 96,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "tileplan.cover.coveroptions",
+        "reason": ""
+      },
+      {
+        "source": "docs/api.md",
+        "line": 114,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "tileplan.cover.coveroptions",
+        "reason": ""
+      }
+    ],
+    "new_nei": [
+      {
+        "source": "docs/api.md",
+        "line": 116,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "coveroptions",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/api.md",
+        "line": 128,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "coveroptions",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "tileplan__removed-referent-drift__s1_0::0",
+      "repo": "tileplan__removed-referent-drift__s1_0",
+      "op_id": "llm.removed-referent-drift",
+      "canonical_class": "removed-referent-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "tileplan.cover.CoverOptions",
+        "new": null,
+        "doc_path": "docs/api.md",
+        "target": "CoverOptions"
+      }
+    }
+  ]
+}

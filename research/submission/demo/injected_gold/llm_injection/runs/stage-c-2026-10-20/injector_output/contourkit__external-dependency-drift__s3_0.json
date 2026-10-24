@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": ">=8.1",
+    "new": ">=999",
+    "symbol": "click",
+    "target": "click>=8.1",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "- Dependencies: `numpy>=1.26`, `click>=8.1`",
+    "target_claim": "The package currently requires click>=8.1 as a runtime dependency.",
+    "exemplar_ids": [
+      "example 1",
+      "example 3"
+    ],
+    "rationale": "The API reference states the exact dependency constraint as a current fact about release 0.4.1, so a reader would rely on it when installing the package."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \">=8.1\", \"new\": \">=999\", \"symbol\": \"click\", \"target\": \"click>=8.1\", \"doc_path\": \"docs/api.md\", \"doc_line_text\": \"- Dependencies: `numpy>=1.26`, `click>=8.1`\", \"target_claim\": \"The package currently requires click>=8.1 as a runtime dependency.\", \"exemplar_ids\": [\"example 1\", \"example 3\"], \"rationale\": \"The API reference states the exact dependency constraint as a current fact about release 0.4.1, so a reader would rely on it when installing the package.\"}",
+  "stderr_tail": ""
+}

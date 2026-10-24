@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "artifact_class": "referent",
+    "direction": "code_side",
+    "kind": "symbol_delete",
+    "file": "ledgerly/reports.py",
+    "old": "ledgerly.reports.summarize",
+    "new": null,
+    "symbol": "summarize",
+    "target": "ledgerly.reports.summarize()",
+    "doc_path": "README.md",
+    "doc_line_text": "`ledgerly.reports.summarize()` returns an `AccountSummary()` for the account you",
+    "target_claim": "The README presents `ledgerly.reports.summarize()` as the current reporting function that returns an `AccountSummary()` for the account you name; once the `summarize` definition is deleted the documented qualified name no longer exists in the code.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "Followed the example-1 pattern of removing a top-level code symbol that a document still advertises by a qualified name, with example 2 anchoring that the document keeps its original claim after the code side changes. `summarize` is defined only in `ledgerly/reports.py`, is not imported or called anywhere else in the package, and its removal leaves the module parseable while the README statement about it stays stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"artifact_class\": \"referent\",\n  \"direction\": \"code_side\",\n  \"kind\": \"symbol_delete\",\n  \"file\": \"ledgerly/reports.py\",\n  \"old\": \"ledgerly.reports.summarize\",\n  \"new\": null,\n  \"symbol\": \"summarize\",\n  \"target\": \"ledgerly.reports.summarize()\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"`ledgerly.reports.summarize()` returns an `AccountSummary()` for the account you\",\n  \"target_claim\": \"The README presents `ledgerly.reports.summarize()` as the current reporting function that returns an `AccountSummary()` for the account you name; once the `summarize` definition is deleted the documented qualified name no longer exists in the code.\",\n  \"exemplar_ids\": [\"example 1\", \"example 2\"],\n  \"rationale\": \"Followed the example-1 pattern of removing a top-level code symbol that a document still advertises by a qualified name, with example 2 anchoring that the document keeps its original claim after the code side changes. `summarize` is defined only in `ledgerly/reports.py`, is not imported or called anywhere else in the package, and its removal leaves the module parseable while the README statement about it stays stale.\"\n}",
+  "stderr_tail": ""
+}

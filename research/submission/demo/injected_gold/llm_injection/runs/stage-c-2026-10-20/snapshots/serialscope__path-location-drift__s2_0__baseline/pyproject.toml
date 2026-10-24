@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "serialscope"
+version = "0.3.1"
+description = "Frame, checksum, and decode serial-line responses from lab instruments such as balances and syringe pumps."
+requires-python = ">=3.11"
+dependencies = [
+    "pyserial>=3.5"
+]
+
+[tool.setuptools]
+packages = ["serialscope"]

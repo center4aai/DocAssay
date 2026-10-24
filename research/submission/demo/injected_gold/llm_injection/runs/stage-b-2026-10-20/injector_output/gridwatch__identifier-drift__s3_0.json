@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "gridwatch/costing.py",
+    "old": "compute_cost",
+    "new": "calculate_cost",
+    "symbol": "compute_cost",
+    "target": "compute_cost()",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `compute_cost() -> float`",
+    "target_claim": "The API reference presents `compute_cost()` as the current costing function of `gridwatch.costing` that returns the electricity cost as a float.",
+    "exemplar_ids": [
+      "example-3"
+    ],
+    "rationale": "The API reference lists `compute_cost()` as the module's present costing entry point, so renaming its top-level definition to `calculate_cost` leaves that documented API name stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"gridwatch/costing.py\", \"old\": \"compute_cost\", \"new\": \"calculate_cost\", \"symbol\": \"compute_cost\", \"target\": \"compute_cost()\", \"doc_path\": \"docs/api.md\", \"doc_line_text\": \"### `compute_cost() -> float`\", \"target_claim\": \"The API reference presents `compute_cost()` as the current costing function of `gridwatch.costing` that returns the electricity cost as a float.\", \"exemplar_ids\": [\"example-3\"], \"rationale\": \"The API reference lists `compute_cost()` as the module's present costing entry point, so renaming its top-level definition to `calculate_cost` leaves that documented API name stale.\"}",
+  "stderr_tail": ""
+}

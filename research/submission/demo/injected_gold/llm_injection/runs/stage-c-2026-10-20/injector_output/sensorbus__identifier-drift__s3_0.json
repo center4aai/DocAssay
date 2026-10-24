@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "sensorbus/devices.py",
+    "old": "list_devices",
+    "new": "list_serial_ports",
+    "symbol": "list_devices",
+    "target": "list_devices",
+    "doc_path": "docs/concepts.md",
+    "doc_line_text": "`list_devices` is declared to return a `list[str]`. Nothing here tries to",
+    "target_claim": "The device layer provides a declared function named `list_devices` that returns a `list[str]` of serial ports.",
+    "exemplar_ids": [
+      "example 2"
+    ],
+    "rationale": "The concepts document presents `list_devices` as an existing, importable declaration in the device layer, so renaming its definition leaves the document naming a function that no longer exists."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"sensorbus/devices.py\", \"old\": \"list_devices\", \"new\": \"list_serial_ports\", \"symbol\": \"list_devices\", \"target\": \"list_devices\", \"doc_path\": \"docs/concepts.md\", \"doc_line_text\": \"`list_devices` is declared to return a `list[str]`. Nothing here tries to\", \"target_claim\": \"The device layer provides a declared function named `list_devices` that returns a `list[str]` of serial ports.\", \"exemplar_ids\": [\"example 2\"], \"rationale\": \"The concepts document presents `list_devices` as an existing, importable declaration in the device layer, so renaming its definition leaves the document naming a function that no longer exists.\"}",
+  "stderr_tail": ""
+}

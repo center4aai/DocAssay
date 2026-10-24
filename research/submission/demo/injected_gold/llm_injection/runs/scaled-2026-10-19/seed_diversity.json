@@ -1,0 +1,507 @@
+{
+  "by_operator": {
+    "ledgerly__s1::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "ledgerly__s1::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "ledgerly__s1::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "ledgerly__s1::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "ledgerly__s1::llm.value-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "ledgerly__s2::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "ledgerly__s2::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "ledgerly__s2::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "ledgerly__s2::llm.value-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "ledgerly__s3::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "ledgerly__s3::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "ledgerly__s3::llm.value-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute__s1::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute__s1::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute__s1::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute__s1::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute__s1::llm.value-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute__s2::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute__s2::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute__s2::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute__s2::llm.value-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute__s3::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute__s3::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute__s3::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "parcelroute__s3::llm.value-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad__s1::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad__s1::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad__s1::llm.value-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad__s2::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad__s2::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad__s2::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad__s2::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad__s2::llm.value-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad__s3::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad__s3::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad__s3::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad__s3::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "quillpad__s3::llm.value-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast__s1::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast__s1::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast__s1::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast__s1::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast__s1::llm.value-drift": {
+      "pool_size": null,
+      "seeds": [
+        1
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast__s2::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast__s2::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast__s2::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast__s2::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast__s2::llm.value-drift": {
+      "pool_size": null,
+      "seeds": [
+        2
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast__s3::llm.external-dependency-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast__s3::llm.identifier-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast__s3::llm.path-location-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast__s3::llm.removed-referent-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    },
+    "tidecast__s3::llm.value-drift": {
+      "pool_size": null,
+      "seeds": [
+        3
+      ],
+      "n_entries": 1,
+      "distinct_targets": 1,
+      "coverage": null
+    }
+  },
+  "per_seed": {
+    "1": {
+      "refuted_injected": 18,
+      "refuted_detected": 16,
+      "doc_drift_injected": 0,
+      "doc_drift_detected": 0,
+      "controls": 0,
+      "controls_clean": 0
+    },
+    "2": {
+      "refuted_injected": 18,
+      "refuted_detected": 17,
+      "doc_drift_injected": 0,
+      "doc_drift_detected": 0,
+      "controls": 0,
+      "controls_clean": 0
+    },
+    "3": {
+      "refuted_injected": 17,
+      "refuted_detected": 16,
+      "doc_drift_injected": 0,
+      "doc_drift_detected": 0,
+      "controls": 0,
+      "controls_clean": 0
+    }
+  }
+}

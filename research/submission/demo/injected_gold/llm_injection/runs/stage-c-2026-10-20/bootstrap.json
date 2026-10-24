@@ -1,0 +1,47 @@
+{
+  "r_credit": {
+    "point": 0.7246,
+    "n_entries": 69,
+    "n_clusters": 6,
+    "ci95": [
+      0.5694,
+      0.8841
+    ],
+    "loo_min": 0.6667,
+    "loo_max": 0.7719,
+    "replicates": 10000,
+    "seed": 20261020,
+    "method": "repo-cluster percentile bootstrap; no Wilson",
+    "degenerate": false
+  },
+  "r_detect": {
+    "point": 0.942,
+    "n_entries": 69,
+    "n_clusters": 6,
+    "ci95": [
+      0.873,
+      0.9861
+    ],
+    "loo_min": 0.9298,
+    "loo_max": 0.9667,
+    "replicates": 10000,
+    "seed": 20261020,
+    "method": "repo-cluster percentile bootstrap; no Wilson",
+    "degenerate": false
+  },
+  "r_target": {
+    "point": 0.5652,
+    "n_entries": 69,
+    "n_clusters": 6,
+    "ci95": [
+      0.4762,
+      0.6389
+    ],
+    "loo_min": 0.5439,
+    "loo_max": 0.5965,
+    "replicates": 10000,
+    "seed": 20261020,
+    "method": "repo-cluster percentile bootstrap; no Wilson",
+    "degenerate": false
+  }
+}

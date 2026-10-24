@@ -1,0 +1,41 @@
+{
+  "repo": "tileplan__identifier-drift__s3_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "docs/api.md",
+        "line": 62,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "tileplan.extent.merge_extents",
+        "reason": ""
+      }
+    ],
+    "new_nei": [
+      {
+        "source": "docs/usage.md",
+        "line": 28,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "merge_extents",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "tileplan__identifier-drift__s3_0::0",
+      "repo": "tileplan__identifier-drift__s3_0",
+      "op_id": "llm.identifier-drift",
+      "canonical_class": "identifier-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "tileplan.extent.merge_extents",
+        "new": "merge_extentsInjected",
+        "doc_path": "README.md",
+        "target": "merge_extents"
+      }
+    }
+  ]
+}

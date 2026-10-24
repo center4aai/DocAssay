@@ -1,0 +1,27 @@
+{
+  "alert_id": "triaged:ident-casehub-incident-summary",
+  "commit_sha": "a38e2e1ad72ede05fa819efd9f8f6c4bde8f05d4",
+  "commit_url": "https://github.com/casehubio/soc/commit/a38e2e1ad72ede05fa819efd9f8f6c4bde8f05d4",
+  "files": [
+    {
+      "added": [
+        "`SocIncidentResource.toSummary()` passes `Instant.now()` to the `createdAt` field of `IncidentSummaryResponse`. The timestamp changes on every API call instead of reflecting when the incident was actually created.",
+        "The `import java.time.Instant` can be removed since `IncidentSummaryResponse` already imports it and `toSummary()` no longer references `Instant` directly."
+      ],
+      "hunks": 2,
+      "matched_location": true,
+      "path": "docs/specs/issue-32-incident-summary-createdat/2026-08-18-incident-summary-createdat-design.md",
+      "removed": [
+        "`SocIncidentResource.toSummary()` passes `Instant.now()` to the `createdAt` field of `IncidentSummaryDto`. The timestamp changes on every API call instead of reflecting when the incident was actually created.",
+        "The `import java.time.Instant` can be removed since `IncidentSummaryDto` already imports it and `toSummary()` no longer references `Instant` directly."
+      ],
+      "side": "doc",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "docs/specs/issue-32-incident-summary-createdat/2026-08-18-incident-summary-createdat-design.md"
+  ],
+  "patch_sha256": "7f9bf87c75719bbdb3c27b2800f2625a87a6c6f2de2d4d11bd792ba9327c9aa0",
+  "status": "ok"
+}

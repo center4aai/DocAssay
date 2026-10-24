@@ -1,0 +1,6 @@
+sensor_id,reference,observed
+nitrate-01,0.00,0.03
+nitrate-01,1.00,1.05
+nitrate-01,5.00,4.91
+nitrate-01,10.00,10.12
+nitrate-01,25.00,24.78

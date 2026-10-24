@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "docs/recipes.md",
+    "old": "docs/recipes.md",
+    "new": "docs/howto.md",
+    "target": "docs/recipes.md",
+    "doc_path": "README.md",
+    "doc_line_text": "- [`docs/recipes.md`](docs/recipes.md) — short, task-oriented examples.",
+    "target_claim": "The README points readers to `docs/recipes.md` as the current guide of short, task-oriented examples.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "The README's documentation list presents `docs/recipes.md` as a current file readers can open, so renaming that file leaves a natural stale location."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"path-location-drift\", \"direction\": \"code_side\", \"file\": \"docs/recipes.md\", \"old\": \"docs/recipes.md\", \"new\": \"docs/howto.md\", \"target\": \"docs/recipes.md\", \"doc_path\": \"README.md\", \"doc_line_text\": \"- [`docs/recipes.md`](docs/recipes.md) — short, task-oriented examples.\", \"target_claim\": \"The README points readers to `docs/recipes.md` as the current guide of short, task-oriented examples.\", \"exemplar_ids\": [\"example 1\", \"example 2\"], \"rationale\": \"The README's documentation list presents `docs/recipes.md` as a current file readers can open, so renaming that file leaves a natural stale location.\"}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "pyyaml>=6.0",
+    "new": "pyyaml>=999",
+    "symbol": "pyyaml",
+    "target": "PyYAML>=6.0",
+    "doc_path": "README.md",
+    "doc_line_text": "on `regex>=2024.5` and `PyYAML>=6.0`.",
+    "target_claim": "The project depends on PyYAML with a minimum version of 6.0.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "The README line plainly states PyYAML>=6.0 as a current install requirement, so raising the manifest bound to a non-overlapping version makes that ordinary dependency statement false without altering the document."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\":true,\"drift_type\":\"external-dependency-drift\",\"direction\":\"code_side\",\"file\":\"pyproject.toml\",\"old\":\"pyyaml>=6.0\",\"new\":\"pyyaml>=999\",\"symbol\":\"pyyaml\",\"target\":\"PyYAML>=6.0\",\"doc_path\":\"README.md\",\"doc_line_text\":\"on `regex>=2024.5` and `PyYAML>=6.0`.\",\"target_claim\":\"The project depends on PyYAML with a minimum version of 6.0.\",\"exemplar_ids\":[\"example 1\"],\"rationale\":\"The README line plainly states PyYAML>=6.0 as a current install requirement, so raising the manifest bound to a non-overlapping version makes that ordinary dependency statement false without altering the document.\"}",
+  "stderr_tail": ""
+}

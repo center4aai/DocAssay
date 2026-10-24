@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "palette/cli.py",
+    "old": "main",
+    "new": null,
+    "symbol": "main",
+    "target": "`main`",
+    "doc_path": "README.md",
+    "doc_line_text": "The package includes a `main` function in `palette/cli.py`. The `pyproject.toml`",
+    "target_claim": "The package includes a `main` function in `palette/cli.py`.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "The README presents `main` in `palette/cli.py` as a current part of the package, and no console script or other module imports it, so deleting the definition cleanly falsifies that statement."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"palette/cli.py\",\n  \"old\": \"main\",\n  \"new\": null,\n  \"symbol\": \"main\",\n  \"target\": \"`main`\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"The package includes a `main` function in `palette/cli.py`. The `pyproject.toml`\",\n  \"target_claim\": \"The package includes a `main` function in `palette/cli.py`.\",\n  \"exemplar_ids\": [\n    \"example 1\"\n  ],\n  \"rationale\": \"The README presents `main` in `palette/cli.py` as a current part of the package, and no console script or other module imports it, so deleting the definition cleanly falsifies that statement.\"\n}",
+  "stderr_tail": ""
+}

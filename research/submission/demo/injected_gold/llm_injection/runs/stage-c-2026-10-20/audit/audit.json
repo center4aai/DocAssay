@@ -1,0 +1,44 @@
+{
+  "rounds": 1,
+  "repos": {
+    "bibscan": {
+      "audit": "CONSISTENT",
+      "findings": [],
+      "corrections": []
+    },
+    "contourkit": {
+      "audit": "CONSISTENT",
+      "findings": [],
+      "corrections": []
+    },
+    "morpheme": {
+      "audit": "CONSISTENT",
+      "findings": [],
+      "corrections": []
+    },
+    "sensorbus": {
+      "audit": "CONSISTENT",
+      "findings": [],
+      "corrections": []
+    },
+    "serialscope": {
+      "audit": "CONSISTENT",
+      "findings": [],
+      "corrections": []
+    },
+    "tileplan": {
+      "audit": "CONSISTENT",
+      "findings": [],
+      "corrections": []
+    }
+  },
+  "post_checks": [
+    {
+      "check": "relative-link resolution in documents",
+      "finding": "contourkit/docs/walkthrough.md:254 used [docs/api.md](docs/api.md); relative to docs/ this resolves to docs/docs/api.md",
+      "repair": "link text and target changed to api.md",
+      "stage": "post-corpus-freeze, pre-scoring; found by the baseline finding at docs/walkthrough.md:254, not by the consistency audit",
+      "note": "the consistency audit judged factual statements and did not check link resolution; the link text is not a factual claim about a path in the project"
+    }
+  ]
+}

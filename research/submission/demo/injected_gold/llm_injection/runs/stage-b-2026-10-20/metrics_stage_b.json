@@ -1,0 +1,680 @@
+{
+  "run": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20",
+  "manifest": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/scoring_manifest.jsonl",
+  "summary": {
+    "injections": {
+      "n": 72,
+      "refuted": 35,
+      "nei": 7,
+      "none": 30,
+      "refutation_rate": 0.486,
+      "abstention_rate": 0.097,
+      "extraction_miss_rate": 0.417
+    },
+    "controls": {
+      "n": 18,
+      "clean": 18,
+      "refuted": 0,
+      "nei": 1,
+      "none": 17,
+      "precision": 1.0
+    },
+    "by_class": {
+      "external-dependency-drift": {
+        "injections": {
+          "n": 18,
+          "refuted": 14,
+          "nei": 0,
+          "none": 4,
+          "refutation_rate": 0.778,
+          "abstention_rate": 0.0,
+          "extraction_miss_rate": 0.222
+        },
+        "none_subtypes": {
+          "supported": 4
+        },
+        "controls": {
+          "n": 6,
+          "clean": 6,
+          "refuted": 0,
+          "nei": 0,
+          "none": 6,
+          "precision": 1.0
+        }
+      },
+      "identifier-drift": {
+        "injections": {
+          "n": 18,
+          "refuted": 1,
+          "nei": 1,
+          "none": 16,
+          "refutation_rate": 0.056,
+          "abstention_rate": 0.056,
+          "extraction_miss_rate": 0.889
+        },
+        "none_subtypes": {
+          "no_claim": 9,
+          "other_referent": 6,
+          "supported": 1
+        },
+        "controls": {
+          "n": 6,
+          "clean": 6,
+          "refuted": 0,
+          "nei": 0,
+          "none": 6,
+          "precision": 1.0
+        }
+      },
+      "path-location-drift": {
+        "injections": {
+          "n": 18,
+          "refuted": 18,
+          "nei": 0,
+          "none": 0,
+          "refutation_rate": 1.0,
+          "abstention_rate": 0.0,
+          "extraction_miss_rate": 0.0
+        },
+        "none_subtypes": {},
+        "controls": {
+          "n": 6,
+          "clean": 6,
+          "refuted": 0,
+          "nei": 1,
+          "none": 5,
+          "precision": 1.0
+        }
+      },
+      "removed-referent-drift": {
+        "injections": {
+          "n": 18,
+          "refuted": 2,
+          "nei": 6,
+          "none": 10,
+          "refutation_rate": 0.111,
+          "abstention_rate": 0.333,
+          "extraction_miss_rate": 0.556
+        },
+        "none_subtypes": {
+          "no_claim": 7,
+          "other_referent": 2,
+          "supported": 1
+        },
+        "controls": {
+          "n": 0,
+          "clean": 0,
+          "refuted": 0,
+          "nei": 0,
+          "none": 0,
+          "precision": null
+        }
+      }
+    },
+    "by_claim_form": {
+      "bare": {
+        "n": 32,
+        "refuted": 2,
+        "nei": 7,
+        "none": 23,
+        "refutation_rate": 0.062,
+        "abstention_rate": 0.219,
+        "extraction_miss_rate": 0.719
+      },
+      "bare_call": {
+        "n": 3,
+        "refuted": 0,
+        "nei": 0,
+        "none": 3,
+        "refutation_rate": 0.0,
+        "abstention_rate": 0.0,
+        "extraction_miss_rate": 1.0
+      },
+      "dependency": {
+        "n": 18,
+        "refuted": 14,
+        "nei": 0,
+        "none": 4,
+        "refutation_rate": 0.778,
+        "abstention_rate": 0.0,
+        "extraction_miss_rate": 0.222
+      },
+      "path": {
+        "n": 18,
+        "refuted": 18,
+        "nei": 0,
+        "none": 0,
+        "refutation_rate": 1.0,
+        "abstention_rate": 0.0,
+        "extraction_miss_rate": 0.0
+      },
+      "qualified": {
+        "n": 1,
+        "refuted": 1,
+        "nei": 0,
+        "none": 0,
+        "refutation_rate": 1.0,
+        "abstention_rate": 0.0,
+        "extraction_miss_rate": 0.0
+      }
+    },
+    "none_subtypes": {
+      "no_claim": 16,
+      "other_referent": 8,
+      "supported": 6
+    },
+    "control_subtypes": {
+      "nei": 1,
+      "no_claim": 2,
+      "other_referent": 2,
+      "supported": 13
+    },
+    "bootstrap": {
+      "overall": {
+        "refuted": {
+          "outcome": "refuted",
+          "point": 0.486,
+          "ci95": [
+            0.375,
+            0.611
+          ],
+          "n_entries": 72,
+          "n_clusters": 6,
+          "replicates": 10000,
+          "seed": 20261020,
+          "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+        },
+        "nei": {
+          "outcome": "nei",
+          "point": 0.097,
+          "ci95": [
+            0.042,
+            0.167
+          ],
+          "n_entries": 72,
+          "n_clusters": 6,
+          "replicates": 10000,
+          "seed": 20261020,
+          "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+        },
+        "none": {
+          "outcome": "none",
+          "point": 0.417,
+          "ci95": [
+            0.278,
+            0.569
+          ],
+          "n_entries": 72,
+          "n_clusters": 6,
+          "replicates": 10000,
+          "seed": 20261020,
+          "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+        }
+      },
+      "by_class": {
+        "external-dependency-drift": {
+          "refuted": {
+            "outcome": "refuted",
+            "point": 0.778,
+            "ci95": [
+              0.444,
+              1.0
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          },
+          "nei": {
+            "outcome": "nei",
+            "point": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          },
+          "none": {
+            "outcome": "none",
+            "point": 0.222,
+            "ci95": [
+              0.0,
+              0.556
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          }
+        },
+        "identifier-drift": {
+          "refuted": {
+            "outcome": "refuted",
+            "point": 0.056,
+            "ci95": [
+              0.0,
+              0.167
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          },
+          "nei": {
+            "outcome": "nei",
+            "point": 0.056,
+            "ci95": [
+              0.0,
+              0.167
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          },
+          "none": {
+            "outcome": "none",
+            "point": 0.889,
+            "ci95": [
+              0.778,
+              1.0
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          }
+        },
+        "path-location-drift": {
+          "refuted": {
+            "outcome": "refuted",
+            "point": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          },
+          "nei": {
+            "outcome": "nei",
+            "point": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          },
+          "none": {
+            "outcome": "none",
+            "point": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          }
+        },
+        "removed-referent-drift": {
+          "refuted": {
+            "outcome": "refuted",
+            "point": 0.111,
+            "ci95": [
+              0.0,
+              0.333
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          },
+          "nei": {
+            "outcome": "nei",
+            "point": 0.333,
+            "ci95": [
+              0.111,
+              0.611
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          },
+          "none": {
+            "outcome": "none",
+            "point": 0.556,
+            "ci95": [
+              0.222,
+              0.889
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          }
+        }
+      },
+      "controls": {
+        "precision": {
+          "outcome": "clean",
+          "point": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "n_entries": 18,
+          "n_clusters": 6,
+          "replicates": 10000,
+          "seed": 20261020,
+          "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+        }
+      }
+    }
+  },
+  "end_to_end": {
+    "overall": {
+      "planned": 72,
+      "refuted": 35,
+      "nei": 7,
+      "none": 30,
+      "end_to_end_refutation": 0.486,
+      "end_to_end_abstention": 0.097,
+      "end_to_end_miss": 0.417,
+      "statuses": {
+        "verified": 72
+      },
+      "bootstrap": {
+        "refuted": {
+          "outcome": "refuted",
+          "point": 0.486,
+          "ci95": [
+            0.375,
+            0.611
+          ],
+          "n_entries": 72,
+          "n_clusters": 6,
+          "replicates": 10000,
+          "seed": 20261020,
+          "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+        },
+        "nei": {
+          "outcome": "nei",
+          "point": 0.097,
+          "ci95": [
+            0.042,
+            0.167
+          ],
+          "n_entries": 72,
+          "n_clusters": 6,
+          "replicates": 10000,
+          "seed": 20261020,
+          "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+        },
+        "none": {
+          "outcome": "none",
+          "point": 0.417,
+          "ci95": [
+            0.278,
+            0.569
+          ],
+          "n_entries": 72,
+          "n_clusters": 6,
+          "replicates": 10000,
+          "seed": 20261020,
+          "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+        }
+      }
+    },
+    "by_class": {
+      "external-dependency-drift": {
+        "planned": 18,
+        "refuted": 14,
+        "nei": 0,
+        "none": 4,
+        "end_to_end_refutation": 0.778,
+        "end_to_end_abstention": 0.0,
+        "end_to_end_miss": 0.222,
+        "statuses": {
+          "verified": 18
+        },
+        "bootstrap": {
+          "refuted": {
+            "outcome": "refuted",
+            "point": 0.778,
+            "ci95": [
+              0.444,
+              1.0
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          },
+          "nei": {
+            "outcome": "nei",
+            "point": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          },
+          "none": {
+            "outcome": "none",
+            "point": 0.222,
+            "ci95": [
+              0.0,
+              0.556
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          }
+        }
+      },
+      "identifier-drift": {
+        "planned": 18,
+        "refuted": 1,
+        "nei": 1,
+        "none": 16,
+        "end_to_end_refutation": 0.056,
+        "end_to_end_abstention": 0.056,
+        "end_to_end_miss": 0.889,
+        "statuses": {
+          "verified": 18
+        },
+        "bootstrap": {
+          "refuted": {
+            "outcome": "refuted",
+            "point": 0.056,
+            "ci95": [
+              0.0,
+              0.167
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          },
+          "nei": {
+            "outcome": "nei",
+            "point": 0.056,
+            "ci95": [
+              0.0,
+              0.167
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          },
+          "none": {
+            "outcome": "none",
+            "point": 0.889,
+            "ci95": [
+              0.778,
+              1.0
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          }
+        }
+      },
+      "path-location-drift": {
+        "planned": 18,
+        "refuted": 18,
+        "nei": 0,
+        "none": 0,
+        "end_to_end_refutation": 1.0,
+        "end_to_end_abstention": 0.0,
+        "end_to_end_miss": 0.0,
+        "statuses": {
+          "verified": 18
+        },
+        "bootstrap": {
+          "refuted": {
+            "outcome": "refuted",
+            "point": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          },
+          "nei": {
+            "outcome": "nei",
+            "point": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          },
+          "none": {
+            "outcome": "none",
+            "point": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          }
+        }
+      },
+      "removed-referent-drift": {
+        "planned": 18,
+        "refuted": 2,
+        "nei": 6,
+        "none": 10,
+        "end_to_end_refutation": 0.111,
+        "end_to_end_abstention": 0.333,
+        "end_to_end_miss": 0.556,
+        "statuses": {
+          "verified": 18
+        },
+        "bootstrap": {
+          "refuted": {
+            "outcome": "refuted",
+            "point": 0.111,
+            "ci95": [
+              0.0,
+              0.333
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          },
+          "nei": {
+            "outcome": "nei",
+            "point": 0.333,
+            "ci95": [
+              0.111,
+              0.611
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          },
+          "none": {
+            "outcome": "none",
+            "point": 0.556,
+            "ci95": [
+              0.222,
+              0.889
+            ],
+            "n_entries": 18,
+            "n_clusters": 6,
+            "replicates": 10000,
+            "seed": 20261020,
+            "method": "repo-cluster bootstrap (repositories resampled with replacement)"
+          }
+        }
+      }
+    }
+  },
+  "injector": {
+    "planned": 72,
+    "statuses": {
+      "verified": 72
+    }
+  },
+  "baseline_findings": [],
+  "controls_source": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/controls.jsonl",
+  "notes": [
+    "Verified-only rates use the verified manifest as the denominator.",
+    "End-to-end rates use all planned bundles; declines and generator failures count as none.",
+    "Headline CIs are repo-cluster bootstrap, not Wilson.",
+    "NEI is an abstention, not a miss."
+  ]
+}

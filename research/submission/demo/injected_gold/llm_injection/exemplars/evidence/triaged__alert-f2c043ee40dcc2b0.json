@@ -1,0 +1,27 @@
+{
+  "alert_id": "triaged:alert-f2c043ee40dcc2b0",
+  "commit_sha": "7d411a468671ae59c1e5a32701f6ad1d735b12c0",
+  "commit_url": "https://github.com/ollama/ollama/commit/7d411a468671ae59c1e5a32701f6ad1d735b12c0",
+  "files": [
+    {
+      "added": [
+        "const results = await client.webSearch(\"what is ollama?\");",
+        "const fetchResult = await client.webFetch(\"https://ollama.com\");"
+      ],
+      "hunks": 2,
+      "matched_location": true,
+      "path": "docs/capabilities/web-search.mdx",
+      "removed": [
+        "const results = await client.webSearch({ query: \"what is ollama?\" });",
+        "const fetchResult = await client.webFetch({ url: \"https://ollama.com\" });"
+      ],
+      "side": "doc",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "docs/capabilities/web-search.mdx"
+  ],
+  "patch_sha256": "54b2c0ea5fa4d1313f5da8d7af2ebbd53c23d879b305a6e38b24c16444229cd0",
+  "status": "ok"
+}

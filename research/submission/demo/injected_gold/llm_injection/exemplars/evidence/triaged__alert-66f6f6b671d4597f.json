@@ -1,0 +1,22 @@
+{
+  "alert_id": "triaged:alert-66f6f6b671d4597f",
+  "commit_sha": "2d5e066c8cb2f54f398243dcb922e615ac94a509",
+  "commit_url": "https://github.com/ollama/ollama/commit/2d5e066c8cb2f54f398243dcb922e615ac94a509",
+  "files": [
+    {
+      "added": [],
+      "hunks": 0,
+      "matched_location": true,
+      "path": "docs/api-reference.md",
+      "removed": [],
+      "side": "doc",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "docs/api-reference.md",
+    "README.md"
+  ],
+  "patch_sha256": "4490ceb11dd331ade59013baa6fe830aa048804c4b059cbe5903cc4fa6f83314",
+  "status": "ok"
+}

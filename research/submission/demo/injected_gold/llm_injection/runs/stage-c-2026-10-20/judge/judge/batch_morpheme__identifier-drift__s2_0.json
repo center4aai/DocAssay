@@ -1,0 +1,48 @@
+{
+  "repo": "morpheme__identifier-drift__s2_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "docs/api.md",
+        "line": 180,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.cli.format_alignment",
+        "reason": ""
+      }
+    ],
+    "new_nei": [
+      {
+        "source": "README.md",
+        "line": 70,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "format_alignment",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/concepts.md",
+        "line": 113,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "format_alignment",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "morpheme__identifier-drift__s2_0::0",
+      "repo": "morpheme__identifier-drift__s2_0",
+      "op_id": "llm.identifier-drift",
+      "canonical_class": "identifier-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "morpheme.cli.format_alignment",
+        "new": "format_alignmentInjected",
+        "doc_path": "docs/concepts.md",
+        "target": "format_alignment()"
+      }
+    }
+  ]
+}

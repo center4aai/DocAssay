@@ -1,0 +1,25 @@
+{
+  "repo": "bibscan__path-location-drift__s3_0",
+  "tool_diff": {
+    "new_refuted": [],
+    "new_nei": [],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "bibscan__path-location-drift__s3_0::0",
+      "repo": "bibscan__path-location-drift__s3_0",
+      "op_id": "llm.path-location-drift",
+      "canonical_class": "path-location-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "examples/library.bib",
+        "new": "examples/bibliography.bib",
+        "doc_path": "docs/recipes.md",
+        "target": "examples/library.bib"
+      }
+    }
+  ]
+}

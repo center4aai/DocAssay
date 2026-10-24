@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "lxml>=4.9",
+    "new": "lxml>=999",
+    "symbol": "lxml",
+    "target": "lxml>=4.9",
+    "doc_path": "README.md",
+    "doc_line_text": "The only runtime dependencies are `lxml>=4.9` and `python-dateutil>=2.8`, both",
+    "target_claim": "The project's only runtime dependencies are lxml>=4.9 and python-dateutil>=2.8, both declared in pyproject.toml.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "The README installation section presents the runtime dependency versions as a current requirement, so changing the manifest's lxml constraint makes that claim false."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"external-dependency-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"pyproject.toml\",\n  \"old\": \"lxml>=4.9\",\n  \"new\": \"lxml>=999\",\n  \"symbol\": \"lxml\",\n  \"target\": \"lxml>=4.9\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"The only runtime dependencies are `lxml>=4.9` and `python-dateutil>=2.8`, both\",\n  \"target_claim\": \"The project's only runtime dependencies are lxml>=4.9 and python-dateutil>=2.8, both declared in pyproject.toml.\",\n  \"exemplar_ids\": [\n    \"example 1\"\n  ],\n  \"rationale\": \"The README installation section presents the runtime dependency versions as a current requirement, so changing the manifest's lxml constraint makes that claim false.\"\n}",
+  "stderr_tail": ""
+}

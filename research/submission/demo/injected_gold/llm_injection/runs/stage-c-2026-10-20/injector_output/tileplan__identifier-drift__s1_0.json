@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "tileplan/extent.py",
+    "old": "merge_extents",
+    "new": "combine_extents",
+    "symbol": "merge_extents",
+    "target": "merge_extents",
+    "doc_path": "README.md",
+    "doc_line_text": "the box it covers; `merge_extents` combines boxes.",
+    "target_claim": "`merge_extents` is the current public function in `tileplan.extent` that combines boxes into a single `Extent`.",
+    "exemplar_ids": [
+      "example 2",
+      "example 4"
+    ],
+    "rationale": "The README's Concepts section presents `merge_extents` in the present tense as the library's current extents-combining API, which a reader would rely on when importing and calling it."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"tileplan/extent.py\", \"old\": \"merge_extents\", \"new\": \"combine_extents\", \"symbol\": \"merge_extents\", \"target\": \"merge_extents\", \"doc_path\": \"README.md\", \"doc_line_text\": \"the box it covers; `merge_extents` combines boxes.\", \"target_claim\": \"`merge_extents` is the current public function in `tileplan.extent` that combines boxes into a single `Extent`.\", \"exemplar_ids\": [\"example 2\", \"example 4\"], \"rationale\": \"The README's Concepts section presents `merge_extents` in the present tense as the library's current extents-combining API, which a reader would rely on when importing and calling it.\"}",
+  "stderr_tail": ""
+}

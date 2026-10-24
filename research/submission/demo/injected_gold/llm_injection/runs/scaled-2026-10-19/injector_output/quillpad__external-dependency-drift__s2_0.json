@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "artifact_class": "dependency",
+    "direction": "code_side",
+    "kind": "dependency_version_break",
+    "file": "pyproject.toml",
+    "old": ">=0.110",
+    "new": ">=999",
+    "symbol": "fastapi",
+    "target": "fastapi",
+    "doc_path": "README.md",
+    "doc_line_text": "quillpad depends on `PyYAML` (`>=6.0`), `click` (`>=8.1`), `fastapi` (`>=0.110`), and `pydantic` (`>=2.6`).",
+    "target_claim": "The README states that quillpad depends on `fastapi` with the constraint `>=0.110`.",
+    "exemplar_ids": [
+      "triaged:alert-1ccd5743d77a06ff",
+      "triaged:alert-3f0b25c9b7c723d7"
+    ],
+    "rationale": "The selected exemplars show a declared version bound diverging from the version that surrounding configuration or documentation presupposes. Here the README presents `fastapi` (`>=0.110`) as a current dependency requirement, so I raised the manifest's declared constraint to `>=999`, which excludes the documented `0.110`, and left the document unchanged."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"external-dependency-drift\",\n  \"artifact_class\": \"dependency\",\n  \"direction\": \"code_side\",\n  \"kind\": \"dependency_version_break\",\n  \"file\": \"pyproject.toml\",\n  \"old\": \">=0.110\",\n  \"new\": \">=999\",\n  \"symbol\": \"fastapi\",\n  \"target\": \"fastapi\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"quillpad depends on `PyYAML` (`>=6.0`), `click` (`>=8.1`), `fastapi` (`>=0.110`), and `pydantic` (`>=2.6`).\",\n  \"target_claim\": \"The README states that quillpad depends on `fastapi` with the constraint `>=0.110`.\",\n  \"exemplar_ids\": [\n    \"triaged:alert-1ccd5743d77a06ff\",\n    \"triaged:alert-3f0b25c9b7c723d7\"\n  ],\n  \"rationale\": \"The selected exemplars show a declared version bound diverging from the version that surrounding configuration or documentation presupposes. Here the README presents `fastapi` (`>=0.110`) as a current dependency requirement, so I raised the manifest's declared constraint to `>=999`, which excludes the documented `0.110`, and left the document unchanged.\"\n}",
+  "stderr_tail": ""
+}

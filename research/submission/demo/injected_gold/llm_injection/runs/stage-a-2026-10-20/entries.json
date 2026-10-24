@@ -1,0 +1,762 @@
+[
+  {
+    "run": "stage-a-s1",
+    "repo": "quillpad__s1",
+    "class": "path-location-drift",
+    "target": "examples/notes.yaml",
+    "doc": "README.md:32",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [
+      [
+        "PATH_EXISTS",
+        "examples/notes.yaml",
+        "REFUTED"
+      ]
+    ],
+    "doc_line_text": "The repository ships a sample notes file at [`examples/notes.yaml`](examples/notes.yaml). It shows the layout the store works with: a top-level `notes` list where each entry has a `note_id`, `title`, `body_text`, and `created_at`.",
+    "target_claim": "The repository ships the sample notes file at examples/notes.yaml."
+  },
+  {
+    "run": "stage-a-s1",
+    "repo": "quillpad__s1",
+    "class": "identifier-drift",
+    "target": "load_settings()",
+    "doc": "docs/configuration.md:3",
+    "reaction": "nei",
+    "detected": false,
+    "on_line": [
+      [
+        "DEPENDENCY",
+        "py",
+        "NEI"
+      ],
+      [
+        "PATH_EXISTS",
+        "quillpad/settings.py",
+        "SUPPORTED"
+      ],
+      [
+        "SYMBOL_EXISTS",
+        "load_settings",
+        "NEI"
+      ],
+      [
+        "SYMBOL_EXISTS",
+        "settings",
+        "SUPPORTED"
+      ]
+    ],
+    "doc_line_text": "quillpad reads its runtime settings from environment variables. The settings are modeled by the `Settings` class in `quillpad/settings.py`, and `load_settings()` is the function that builds one.",
+    "target_claim": "`load_settings()` is the function in `quillpad/settings.py` that builds a `Settings` instance."
+  },
+  {
+    "run": "stage-a-s1",
+    "repo": "quillpad__s1",
+    "class": "value-drift",
+    "target": "0.1.0",
+    "doc": "README.md:5",
+    "reaction": "none",
+    "detected": false,
+    "on_line": [],
+    "doc_line_text": "The current project version is 0.1.0.",
+    "target_claim": "The README states that the current project version is 0.1.0, but the manifest now declares 0.1.1."
+  },
+  {
+    "run": "stage-a-s1",
+    "repo": "tidecast__s1",
+    "class": "path-location-drift",
+    "target": "examples/forecast.json",
+    "doc": "README.md:53",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [],
+    "doc_line_text": "`examples/forecast.json` holds a single cached forecast with these fields:",
+    "target_claim": "The sample forecast payload is currently stored at examples/forecast.json."
+  },
+  {
+    "run": "stage-a-s1",
+    "repo": "tidecast__s1",
+    "class": "identifier-drift",
+    "target": "Forecast",
+    "doc": "README.md:57",
+    "reaction": "none",
+    "detected": false,
+    "on_line": [],
+    "doc_line_text": "- **Forecast**: one forecast for one weather station. It has a `station_id`,",
+    "target_claim": "The value-model class for a forecast is named Forecast."
+  },
+  {
+    "run": "stage-a-s1",
+    "repo": "tidecast__s1",
+    "class": "removed-referent-drift",
+    "target": "load_settings()",
+    "doc": "docs/configuration.md:18",
+    "reaction": "nei",
+    "detected": false,
+    "on_line": [
+      [
+        "SYMBOL_EXISTS",
+        "load_settings",
+        "NEI"
+      ]
+    ],
+    "doc_line_text": "The settings loader is not finished. `load_settings()` returns `None` and does",
+    "target_claim": "The configuration guide states that `load_settings()` currently exists as the settings loader and returns `None`; deleting its definition leaves the guide describing a function that is no longer present."
+  },
+  {
+    "run": "stage-a-s1",
+    "repo": "tidecast__s1",
+    "class": "external-dependency-drift",
+    "target": "click",
+    "doc": "README.md:19",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [
+      [
+        "DEPENDENCY",
+        "click",
+        "REFUTED"
+      ]
+    ],
+    "doc_line_text": "| `click` | `>=8.1` |",
+    "target_claim": "The runtime dependency `click` is constrained to `>=8.1`."
+  },
+  {
+    "run": "stage-a-s1",
+    "repo": "tidecast__s1",
+    "class": "value-drift",
+    "target": "0.4.1",
+    "doc": "README.md:5",
+    "reaction": "none",
+    "detected": false,
+    "on_line": [],
+    "doc_line_text": "The current project version is 0.4.1.",
+    "target_claim": "The README states that the project's current version is 0.4.1, while pyproject.toml now declares version 0.4.2."
+  },
+  {
+    "run": "stage-a-s1",
+    "repo": "ledgerly__s1",
+    "class": "path-location-drift",
+    "target": "examples/entries.csv",
+    "doc": "docs/configuration.md:37",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [
+      [
+        "PATH_EXISTS",
+        "examples/entries.csv",
+        "REFUTED"
+      ]
+    ],
+    "doc_line_text": "`examples/entries.csv` in the repository is a sample file in this format.",
+    "target_claim": "The repository's sample ledger file is located at `examples/entries.csv`."
+  },
+  {
+    "run": "stage-a-s1",
+    "repo": "ledgerly__s1",
+    "class": "external-dependency-drift",
+    "target": "click",
+    "doc": "README.md:27",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [
+      [
+        "DEPENDENCY",
+        "click",
+        "REFUTED"
+      ]
+    ],
+    "doc_line_text": "| `click` | `>=8.1` |",
+    "target_claim": "click is a runtime dependency required at version 8.1 or newer."
+  },
+  {
+    "run": "stage-a-s1",
+    "repo": "ledgerly__s1",
+    "class": "value-drift",
+    "target": "0.4.2",
+    "doc": "README.md:7",
+    "reaction": "none",
+    "detected": false,
+    "on_line": [],
+    "doc_line_text": "This is version 0.4.2. The package is early, and several functions are still",
+    "target_claim": "The README states that the project is currently version 0.4.2."
+  },
+  {
+    "run": "stage-a-s1",
+    "repo": "parcelroute__s1",
+    "class": "path-location-drift",
+    "target": "examples/shipments.toml",
+    "doc": "README.md:47",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [
+      [
+        "DEPENDENCY",
+        "toml",
+        "NEI"
+      ],
+      [
+        "PATH_EXISTS",
+        "examples/shipments.toml",
+        "REFUTED"
+      ]
+    ],
+    "doc_line_text": "The example shipment file, [examples/shipments.toml](examples/shipments.toml),",
+    "target_claim": "The example shipment file that shows the TOML layout the shipment store is meant to read is located at `examples/shipments.toml`."
+  },
+  {
+    "run": "stage-a-s1",
+    "repo": "parcelroute__s1",
+    "class": "removed-referent-drift",
+    "target": "load_parcel()",
+    "doc": "docs/api.md:43",
+    "reaction": "nei",
+    "detected": false,
+    "on_line": [
+      [
+        "SYMBOL_EXISTS",
+        "load_parcel",
+        "NEI"
+      ]
+    ],
+    "doc_line_text": "### `load_parcel()`",
+    "target_claim": "`load_parcel()` is a current public function in `parcelroute/models.py`; deleting its definition removes the documented function."
+  },
+  {
+    "run": "stage-a-s1",
+    "repo": "parcelroute__s1",
+    "class": "external-dependency-drift",
+    "target": "uvicorn",
+    "doc": "README.md:30",
+    "reaction": "none",
+    "detected": false,
+    "on_line": [
+      [
+        "DEPENDENCY",
+        "click",
+        "SUPPORTED"
+      ],
+      [
+        "DEPENDENCY",
+        "tomlkit",
+        "SUPPORTED"
+      ],
+      [
+        "DEPENDENCY",
+        "uvicorn",
+        "SUPPORTED"
+      ]
+    ],
+    "doc_line_text": "| `uvicorn` | `>=0.29` |",
+    "target_claim": "README states that the project's `uvicorn` runtime dependency is required with the constraint `>=0.29`."
+  },
+  {
+    "run": "stage-a-s1",
+    "repo": "parcelroute__s1",
+    "class": "value-drift",
+    "target": "0.3.1",
+    "doc": "README.md:7",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [],
+    "doc_line_text": "Version: 0.3.1",
+    "target_claim": "The parcelroute project's current version is 0.3.1."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "quillpad__s2",
+    "class": "path-location-drift",
+    "target": "examples/notes.yaml",
+    "doc": "README.md:32",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [
+      [
+        "PATH_EXISTS",
+        "examples/notes.yaml",
+        "REFUTED"
+      ]
+    ],
+    "doc_line_text": "The repository ships a sample notes file at [`examples/notes.yaml`](examples/notes.yaml). It shows the layout the store works with: a top-level `notes` list where each entry has a `note_id`, `title`, `body_text`, and `created_at`.",
+    "target_claim": "The repository's sample notes file is located at examples/notes.yaml."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "quillpad__s3",
+    "class": "path-location-drift",
+    "target": "examples/notes.yaml",
+    "doc": "README.md:32",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [
+      [
+        "PATH_EXISTS",
+        "examples/notes.yaml",
+        "REFUTED"
+      ]
+    ],
+    "doc_line_text": "The repository ships a sample notes file at [`examples/notes.yaml`](examples/notes.yaml). It shows the layout the store works with: a top-level `notes` list where each entry has a `note_id`, `title`, `body_text`, and `created_at`.",
+    "target_claim": "The repository's sample notes file is located at `examples/notes.yaml`."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "quillpad__s2",
+    "class": "identifier-drift",
+    "target": "open_store()",
+    "doc": "README.md:55",
+    "reaction": "nei",
+    "detected": false,
+    "on_line": [
+      [
+        "SYMBOL_EXISTS",
+        "open_store",
+        "NEI"
+      ]
+    ],
+    "doc_line_text": "- **NoteStore**: a collection of notes kept in a YAML file. It is created by `open_store()` and exposes `store_path` and `notes`.",
+    "target_claim": "README.md states that a NoteStore is created by the current `open_store()` factory; after the definition is renamed, the documented call no longer names a project function."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "quillpad__s3",
+    "class": "identifier-drift",
+    "target": "open_store",
+    "doc": "README.md:55",
+    "reaction": "nei",
+    "detected": false,
+    "on_line": [
+      [
+        "SYMBOL_EXISTS",
+        "open_store",
+        "NEI"
+      ]
+    ],
+    "doc_line_text": "- **NoteStore**: a collection of notes kept in a YAML file. It is created by `open_store()` and exposes `store_path` and `notes`.",
+    "target_claim": "The README states that a `NoteStore` is created by `open_store()`; after the definition is renamed, that documented factory no longer exists."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "quillpad__s3",
+    "class": "external-dependency-drift",
+    "target": "pydantic",
+    "doc": "README.md:28",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [
+      [
+        "DEPENDENCY",
+        "pydantic",
+        "REFUTED"
+      ]
+    ],
+    "doc_line_text": "- pydantic 2.6 or newer",
+    "target_claim": "Installing quillpad pulls in pydantic at version 2.6 or newer."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "quillpad__s2",
+    "class": "value-drift",
+    "target": "0.1.0",
+    "doc": "README.md:5",
+    "reaction": "none",
+    "detected": false,
+    "on_line": [],
+    "doc_line_text": "The current project version is 0.1.0.",
+    "target_claim": "The README states that the current project version is 0.1.0."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "quillpad__s3",
+    "class": "value-drift",
+    "target": "0.1.0",
+    "doc": "README.md:5",
+    "reaction": "none",
+    "detected": false,
+    "on_line": [],
+    "doc_line_text": "This is version 0.1.0. The package layout and public names are in place, but the functions and constructors are still placeholders: they return `None` for now, so quillpad does not yet load or save notes. Treat the APIs below as the shape the project is growing toward.",
+    "target_claim": "The project's current version is 0.1.0."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "tidecast__s2",
+    "class": "path-location-drift",
+    "target": "examples/forecast.json",
+    "doc": "README.md:53",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [],
+    "doc_line_text": "An example forecast is in [`examples/forecast.json`](examples/forecast.json).",
+    "target_claim": "The example forecast is located at the current path examples/forecast.json."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "tidecast__s3",
+    "class": "path-location-drift",
+    "target": "examples/forecast.json",
+    "doc": "README.md:53",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [],
+    "doc_line_text": "An example forecast is in [`examples/forecast.json`](examples/forecast.json).",
+    "target_claim": "The README states that the example forecast is located at `examples/forecast.json`; after the rename it no longer exists at that path."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "tidecast__s2",
+    "class": "identifier-drift",
+    "target": "`parse_forecast()`",
+    "doc": "docs/api.md:38",
+    "reaction": "nei",
+    "detected": false,
+    "on_line": [
+      [
+        "SYMBOL_EXISTS",
+        "parse_forecast",
+        "NEI"
+      ]
+    ],
+    "doc_line_text": "### `parse_forecast()`",
+    "target_claim": "docs/api.md lists `parse_forecast()` as a public function in `tidecast.models`; after the definition is renamed, that documented callable no longer exists in the code."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "tidecast__s3",
+    "class": "identifier-drift",
+    "target": "serve()",
+    "doc": "docs/api.md:103",
+    "reaction": "nei",
+    "detected": false,
+    "on_line": [
+      [
+        "SYMBOL_EXISTS",
+        "main",
+        "SUPPORTED"
+      ],
+      [
+        "SYMBOL_EXISTS",
+        "serve",
+        "NEI"
+      ],
+      [
+        "SYMBOL_EXISTS",
+        "tidecast.cli",
+        "SUPPORTED"
+      ]
+    ],
+    "doc_line_text": "`tidecast.cli` defines `main()` and `serve()`. Both are placeholders that",
+    "target_claim": "`tidecast.cli` defines a current `serve()` function."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "tidecast__s2",
+    "class": "removed-referent-drift",
+    "target": "serve()",
+    "doc": "docs/api.md:103",
+    "reaction": "nei",
+    "detected": false,
+    "on_line": [
+      [
+        "SYMBOL_EXISTS",
+        "main",
+        "SUPPORTED"
+      ],
+      [
+        "SYMBOL_EXISTS",
+        "serve",
+        "NEI"
+      ],
+      [
+        "SYMBOL_EXISTS",
+        "tidecast.cli",
+        "SUPPORTED"
+      ]
+    ],
+    "doc_line_text": "`tidecast.cli` defines `main()` and `serve()`. Both are placeholders that",
+    "target_claim": "`tidecast.cli` defines a current `serve()` command-line function."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "tidecast__s2",
+    "class": "external-dependency-drift",
+    "target": "requests",
+    "doc": "README.md:17",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [
+      [
+        "DEPENDENCY",
+        "requests",
+        "REFUTED"
+      ]
+    ],
+    "doc_line_text": "  - `requests` (>=2.31)",
+    "target_claim": "The README states that `requests` is a runtime dependency constrained to `>=2.31`."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "tidecast__s3",
+    "class": "external-dependency-drift",
+    "target": "requests",
+    "doc": "README.md:17",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [
+      [
+        "DEPENDENCY",
+        "requests",
+        "REFUTED"
+      ]
+    ],
+    "doc_line_text": "  - `requests` (>=2.31)",
+    "target_claim": "The `requests` runtime dependency is required at version `>=2.31`."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "tidecast__s2",
+    "class": "value-drift",
+    "target": "0.4.1",
+    "doc": "README.md:5",
+    "reaction": "none",
+    "detected": false,
+    "on_line": [],
+    "doc_line_text": "The current release is version 0.4.1.",
+    "target_claim": "The project's current release is version 0.4.1."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "tidecast__s3",
+    "class": "value-drift",
+    "target": "0.4.1",
+    "doc": "README.md:5",
+    "reaction": "none",
+    "detected": false,
+    "on_line": [],
+    "doc_line_text": "The current project version is 0.4.1.",
+    "target_claim": "The README states that the project's current version is 0.4.1, while the manifest now declares 0.4.2."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "ledgerly__s2",
+    "class": "path-location-drift",
+    "target": "examples/entries.csv",
+    "doc": "docs/configuration.md:37",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [
+      [
+        "PATH_EXISTS",
+        "examples/entries.csv",
+        "REFUTED"
+      ]
+    ],
+    "doc_line_text": "`examples/entries.csv` in the repository is a sample file in this format.",
+    "target_claim": "The repository contains the sample ledger file at `examples/entries.csv`."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "ledgerly__s3",
+    "class": "path-location-drift",
+    "target": "ledgerly/config.py",
+    "doc": "docs/configuration.md:17",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [
+      [
+        "DEPENDENCY",
+        "py",
+        "NEI"
+      ],
+      [
+        "PATH_EXISTS",
+        "ledgerly/config.py",
+        "REFUTED"
+      ]
+    ],
+    "doc_line_text": "`ledgerly/config.py` in the `ENV_DEFAULTS` mapping.",
+    "target_claim": "The configuration defaults are declared in `ledgerly/config.py` in the `ENV_DEFAULTS` mapping."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "ledgerly__s3",
+    "class": "identifier-drift",
+    "target": "ledgerly.cli.main",
+    "doc": "docs/api.md:95",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [
+      [
+        "SYMBOL_EXISTS",
+        "ledgerly.cli.main",
+        "REFUTED"
+      ]
+    ],
+    "doc_line_text": "### `ledgerly.cli.main`",
+    "target_claim": "The API reference presents `ledgerly.cli.main` as the current command-line entry-point function, but the definition in `ledgerly/cli.py` is renamed to `run`, so the documented identifier no longer resolves."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "ledgerly__s2",
+    "class": "removed-referent-drift",
+    "target": "format_entry",
+    "doc": "docs/api.md:22",
+    "reaction": "none",
+    "detected": false,
+    "on_line": [],
+    "doc_line_text": "### `format_entry`",
+    "target_claim": "The API reference presents `format_entry` in its Models section as a current public function of `ledgerly.models`."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "ledgerly__s2",
+    "class": "external-dependency-drift",
+    "target": "click",
+    "doc": "README.md:27",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [
+      [
+        "DEPENDENCY",
+        "click",
+        "REFUTED"
+      ]
+    ],
+    "doc_line_text": "- `click` (>= 8.1)",
+    "target_claim": "README.md states that ledgerly declares `click` as a runtime dependency with the constraint `>= 8.1`."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "ledgerly__s3",
+    "class": "external-dependency-drift",
+    "target": "click",
+    "doc": "README.md:27",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [
+      [
+        "DEPENDENCY",
+        "click",
+        "REFUTED"
+      ]
+    ],
+    "doc_line_text": "- `click` (>= 8.1)",
+    "target_claim": "README.md states that the `click` runtime dependency is constrained to `>=8.1`; the manifest now declares `click>=999`."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "ledgerly__s2",
+    "class": "value-drift",
+    "target": "0.4.2",
+    "doc": "README.md:7",
+    "reaction": "none",
+    "detected": false,
+    "on_line": [],
+    "doc_line_text": "The current project version is 0.4.2.",
+    "target_claim": "The README states that the project's current version is 0.4.2."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "ledgerly__s3",
+    "class": "value-drift",
+    "target": "0.4.2",
+    "doc": "README.md:7",
+    "reaction": "none",
+    "detected": false,
+    "on_line": [],
+    "doc_line_text": "This is version 0.4.2. The package is early, and several functions are still",
+    "target_claim": "The project's current version is 0.4.2."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "parcelroute__s3",
+    "class": "identifier-drift",
+    "target": "build_router()",
+    "doc": "docs/api.md:92",
+    "reaction": "nei",
+    "detected": false,
+    "on_line": [
+      [
+        "SYMBOL_EXISTS",
+        "build_router",
+        "NEI"
+      ]
+    ],
+    "doc_line_text": "### `build_router()`",
+    "target_claim": "docs/api.md lists `build_router()` as the current public function that builds the router for the route table; after the definition is renamed, that documented callable no longer exists in the module."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "parcelroute__s2",
+    "class": "removed-referent-drift",
+    "target": "serve()",
+    "doc": "docs/configuration.md:49",
+    "reaction": "nei",
+    "detected": false,
+    "on_line": [
+      [
+        "DEPENDENCY",
+        "py",
+        "NEI"
+      ],
+      [
+        "PATH_EXISTS",
+        "parcelroute/cli.py",
+        "SUPPORTED"
+      ],
+      [
+        "SYMBOL_EXISTS",
+        "main",
+        "SUPPORTED"
+      ],
+      [
+        "SYMBOL_EXISTS",
+        "serve",
+        "NEI"
+      ]
+    ],
+    "doc_line_text": "`parcelroute/cli.py` defines `main()` and `serve()`. The package does not",
+    "target_claim": "The configuration guide states that parcelroute/cli.py defines both main() and serve(), presenting serve() as a current command function available for direct import."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "parcelroute__s2",
+    "class": "external-dependency-drift",
+    "target": "pydantic",
+    "doc": "README.md:29",
+    "reaction": "none",
+    "detected": false,
+    "on_line": [
+      [
+        "DEPENDENCY",
+        "pydantic",
+        "SUPPORTED"
+      ]
+    ],
+    "doc_line_text": "Installing pulls in the declared dependencies: `pydantic` (2.6 or newer),",
+    "target_claim": "README states that installing the project pulls in `pydantic` at version 2.6 or newer."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "parcelroute__s2",
+    "class": "value-drift",
+    "target": "0.3.1",
+    "doc": "README.md:7",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [],
+    "doc_line_text": "Version: 0.3.1",
+    "target_claim": "README.md states that the current project version is 0.3.1."
+  },
+  {
+    "run": "stage-a-s23",
+    "repo": "parcelroute__s3",
+    "class": "value-drift",
+    "target": "0.3.1",
+    "doc": "README.md:7",
+    "reaction": "refuted",
+    "detected": true,
+    "on_line": [],
+    "doc_line_text": "Version: 0.3.1",
+    "target_claim": "The project's current version is 0.3.1."
+  }
+]

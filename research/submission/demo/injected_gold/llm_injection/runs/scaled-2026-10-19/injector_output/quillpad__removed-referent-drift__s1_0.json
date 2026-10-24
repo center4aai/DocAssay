@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "artifact_class": "referent",
+    "direction": "code_side",
+    "kind": "symbol_delete",
+    "file": "quillpad/constants.py",
+    "old": "quillpad.constants.Limits",
+    "new": null,
+    "symbol": "Limits",
+    "target": "quillpad.constants.Limits",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "`quillpad.constants.Limits` holds the `max_notes` bound, and the status members are `NOTE_STATUS_DRAFT`, `NOTE_STATUS_PUBLISHED`, and `NOTE_STATUS_ARCHIVED`.",
+    "target_claim": "The Limits class exists and holds the max_notes bound.",
+    "exemplar_ids": [
+      "example 2"
+    ],
+    "rationale": "Following example 2's pattern of removing a code definition, I chose Limits because the API reference presents it by qualified name as a current class, while no other module imports or uses it."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"removed-referent-drift\", \"artifact_class\": \"referent\", \"direction\": \"code_side\", \"kind\": \"symbol_delete\", \"file\": \"quillpad/constants.py\", \"old\": \"quillpad.constants.Limits\", \"new\": null, \"symbol\": \"Limits\", \"target\": \"quillpad.constants.Limits\", \"doc_path\": \"docs/api.md\", \"doc_line_text\": \"`quillpad.constants.Limits` holds the `max_notes` bound, and the status members are `NOTE_STATUS_DRAFT`, `NOTE_STATUS_PUBLISHED`, and `NOTE_STATUS_ARCHIVED`.\", \"target_claim\": \"The Limits class exists and holds the max_notes bound.\", \"exemplar_ids\": [\"example 2\"], \"rationale\": \"Following example 2's pattern of removing a code definition, I chose Limits because the API reference presents it by qualified name as a current class, while no other module imports or uses it.\"}",
+  "stderr_tail": ""
+}

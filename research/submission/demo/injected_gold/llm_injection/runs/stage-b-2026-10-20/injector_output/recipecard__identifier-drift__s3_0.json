@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "recipecard/scaling.py",
+    "old": "scale_quantity",
+    "new": "scale_amount",
+    "symbol": "scale_quantity",
+    "target": "scale_quantity",
+    "doc_path": "docs/guide.md",
+    "doc_line_text": "- `scale_quantity` returns a single quantity as a `float`.",
+    "target_claim": "The guide presents `scale_quantity` as the current function that returns a single quantity as a `float`.",
+    "exemplar_ids": [
+      "example 1",
+      "example 3"
+    ],
+    "rationale": "The guide names `scale_quantity` as an available API function with a stated return type, which a reader would rely on when importing from `recipecard.scaling`."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "​\n[error] provider.rate-limit: Streaming response failed: [rate_limit_error] capacity is temporarily limited, retry later\n{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"recipecard/scaling.py\", \"old\": \"scale_quantity\", \"new\": \"scale_amount\", \"symbol\": \"scale_quantity\", \"target\": \"scale_quantity\", \"doc_path\": \"docs/guide.md\", \"doc_line_text\": \"- `scale_quantity` returns a single quantity as a `float`.\", \"target_claim\": \"The guide presents `scale_quantity` as the current function that returns a single quantity as a `float`.\", \"exemplar_ids\": [\"example 1\", \"example 3\"], \"rationale\": \"The guide names `scale_quantity` as an available API function with a stated return type, which a reader would rely on when importing from `recipecard.scaling`.\"}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,77 @@
+{
+  "project": {
+    "name": "contourkit",
+    "pkg": "contourkit",
+    "version": "0.4.1",
+    "description": "Sample elevation rasters, trace contour polylines across them, and simplify the results for lightweight terrain maps."
+  },
+  "dependencies": [
+    {"name": "numpy", "constraint": ">=1.26"},
+    {"name": "click", "constraint": ">=8.1"}
+  ],
+  "modules": [
+    {
+      "path": "contourkit/raster.py",
+      "symbols": [
+        {"name": "ElevationRaster", "kind": "class", "return_type": null, "members": ["data", "transform", "nodata"]},
+        {"name": "load_ascii_grid", "kind": "function", "return_type": "ElevationRaster", "members": []},
+        {"name": "DEFAULT_NODATA", "kind": "constant", "return_type": null, "members": []}
+      ]
+    },
+    {
+      "path": "contourkit/sampling.py",
+      "symbols": [
+        {"name": "sample_nearest", "kind": "function", "return_type": "float", "members": []},
+        {"name": "sample_bilinear", "kind": "function", "return_type": "float", "members": []},
+        {"name": "gradient_magnitude", "kind": "function", "return_type": "float", "members": []}
+      ]
+    },
+    {
+      "path": "contourkit/marching.py",
+      "symbols": [
+        {"name": "contour_levels", "kind": "function", "return_type": "list[float]", "members": []},
+        {"name": "trace_contour", "kind": "function", "return_type": "list[Polyline]", "members": []}
+      ]
+    },
+    {
+      "path": "contourkit/geometry.py",
+      "symbols": [
+        {"name": "Polyline", "kind": "class", "return_type": null, "members": ["points", "level"]},
+        {"name": "polyline_length", "kind": "function", "return_type": "float", "members": []},
+        {"name": "close_ring", "kind": "function", "return_type": "Polyline", "members": []}
+      ]
+    },
+    {
+      "path": "contourkit/simplify.py",
+      "symbols": [
+        {"name": "douglas_peucker", "kind": "function", "return_type": "Polyline", "members": []},
+        {"name": "simplify_contours", "kind": "function", "return_type": "list[Polyline]", "members": []}
+      ]
+    },
+    {
+      "path": "contourkit/cli.py",
+      "symbols": [
+        {"name": "main", "kind": "function", "return_type": "int", "members": []},
+        {"name": "DEFAULT_TOLERANCE", "kind": "constant", "return_type": null, "members": []}
+      ]
+    }
+  ],
+  "example_commands": [
+    "contourkit trace examples/terrain.asc --interval 10 --simplify 0.5 -o contours.geojson",
+    "python -m contourkit trace examples/terrain.asc --interval 5"
+  ],
+  "paths": [
+    "examples/terrain.asc"
+  ],
+  "data_files": [
+    {
+      "path": "examples/terrain.asc",
+      "content": "ncols 5\nnrows 5\nxllcorner 0\nyllcorner 0\ncellsize 10\nNODATA_value -9999\n100 104 108 112 116\n106 110 114 118 122\n112 116 120 124 128\n118 122 126 130 134\n124 128 132 136 140\n"
+    }
+  ],
+  "docs": [
+    {"path": "README.md", "kind": "readme"},
+    {"path": "docs/walkthrough.md", "kind": "guide"},
+    {"path": "docs/api.md", "kind": "reference"}
+  ]
+}

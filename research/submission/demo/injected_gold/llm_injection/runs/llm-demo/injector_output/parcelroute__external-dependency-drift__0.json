@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "artifact_class": "dependency",
+    "direction": "code_side",
+    "kind": "dependency_version_break",
+    "file": "pyproject.toml",
+    "old": ">=2.6",
+    "new": ">=999",
+    "symbol": "pydantic",
+    "target": "pydantic",
+    "doc_path": "README.md",
+    "doc_line_text": "| `pydantic` | `>=2.6` |",
+    "target_claim": "README states that the runtime dependency `pydantic` is required with constraint `>=2.6`.",
+    "exemplar_ids": [
+      "triaged:alert-1ccd5743d77a06ff",
+      "triaged:alert-e0fb492470f8068d"
+    ],
+    "rationale": "Follows the exemplar pattern of a documented version requirement contradicting the declared/toolchain constraint: the README presents `pydantic` (`>=2.6`) as a current runtime requirement while pyproject.toml declares it, so raising the manifest bound to a non-overlapping `>=999` makes the documented constraint false."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"external-dependency-drift\",\n  \"artifact_class\": \"dependency\",\n  \"direction\": \"code_side\",\n  \"kind\": \"dependency_version_break\",\n  \"file\": \"pyproject.toml\",\n  \"old\": \">=2.6\",\n  \"new\": \">=999\",\n  \"symbol\": \"pydantic\",\n  \"target\": \"pydantic\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"| `pydantic` | `>=2.6` |\",\n  \"target_claim\": \"README states that the runtime dependency `pydantic` is required with constraint `>=2.6`.\",\n  \"exemplar_ids\": [\n    \"triaged:alert-1ccd5743d77a06ff\",\n    \"triaged:alert-e0fb492470f8068d\"\n  ],\n  \"rationale\": \"Follows the exemplar pattern of a documented version requirement contradicting the declared/toolchain constraint: the README presents `pydantic` (`>=2.6`) as a current runtime requirement while pyproject.toml declares it, so raising the manifest bound to a non-overlapping `>=999` makes the documented constraint false.\"\n}",
+  "stderr_tail": ""
+}

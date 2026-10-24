@@ -1,0 +1,116 @@
+{
+  "stage": "C",
+  "arm": "C-ext",
+  "recorded_at": "2026-10-20",
+  "scope_engine_freeze": {
+    "path": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/scope_engine_freeze.json",
+    "engine_tree_sha": "21ac874c78f80ccdfa597dea824d4ff37f098f92",
+    "aggregate_sha256": "043f45af2a8d",
+    "files": 131
+  },
+  "corpus_freeze": {
+    "path": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/corpus_freeze.json",
+    "corpus": "synthetic-natural-stage-c-2026-10-20-v2",
+    "aggregate_sha256": "5cbfa8893d1b589d",
+    "files": 78
+  },
+  "points": [
+    {
+      "point": "before S1",
+      "result": "pass",
+      "note": "initial S0 freeze; later S0 corrections are recorded in deviations.md"
+    },
+    {
+      "point": "before the injector run",
+      "result": "pass",
+      "note": "scope/engine and corpus v2 verified before llm_inject run"
+    },
+    {
+      "point": "before scoring",
+      "result": "pass",
+      "note": "scope/engine and corpus v2 verified before score_injections"
+    },
+    {
+      "point": "after scoring",
+      "result": "pass",
+      "note": "both freezes re-verified after the reported metrics; no mismatch"
+    }
+  ],
+  "identifier_update": {
+    "date": "2026-10-21",
+    "scored_engine_tree_sha": "21ac874c78f80ccdfa597dea824d4ff37f098f92",
+    "final_engine_tree_sha": "bdec549f5665c31653319d93541590e753f5eaba",
+    "scored_aggregate_sha256_prefix": "043f45af2a8d",
+    "final_aggregate_sha256": "59cbfe105c80",
+    "scope_engine_refrozen": true,
+    "verify_after_update": "pass",
+    "note": "Package identifier update after scoring. Identifier-only change: no predicate, threshold, vocabulary entry, gate or verdict rule differs. The four recorded verification points above are the historical record of the scored run; the re-freeze covers the final tree."
+  },
+  "postscore": {
+    "date": "2026-10-21",
+    "scored_engine_tree_sha": "21ac874c78f80ccdfa597dea824d4ff37f098f92",
+    "updated_engine_tree_sha": "bdec549f5665c31653319d93541590e753f5eaba",
+    "final_engine_tree_sha": "bc6af4f78d83440a20f69215767488a3f49f300a",
+    "scored_aggregate_sha256_prefix": "043f45af2a8d",
+    "updated_aggregate_sha256": "59cbfe105c80af4f931310e63ccda53ad82a73977574a68db54a46f212825fc8",
+    "final_aggregate_sha256": "6b124f6aff9da73a91a06a898a9350f57c861509fd324f5c980e053a3b9e5005",
+    "scope_engine_refrozen": true,
+    "verify_after_refreeze": "pass",
+    "decision_path_unchanged": true,
+    "rescore": {
+      "claim_dumps": 150,
+      "claim_dumps_identical": 150,
+      "refuted_detected": 50,
+      "recall_refuted": 0.725,
+      "abstention_rate": 0.217,
+      "detected_kpi": "65/69",
+      "artifact": "rescore-2026-10-21/"
+    },
+    "note": "Demo-surface changes (web server, zip upload, find_project_root wrapper descent, MCP summary, mcp>=2) landed after scoring and trip the engine_code/environment hashes without touching the verdict layer. Re-frozen on the final tree; the scored corpus was re-scored and all 150 claim dumps are byte-identical (see rescore-2026-10-21/). See scope_engine_freeze.json -> postscore_note."
+  },
+  "release": {
+    "date": "2026-10-23",
+    "base_engine_tree_sha": "bc6af4f78d83440a20f69215767488a3f49f300a",
+    "final_engine_tree_sha": "877b681596112d37d4937bb099514e497872508c",
+    "base_aggregate_sha256": "6b124f6aff9da73a91a06a898a9350f57c861509fd324f5c980e053a3b9e5005",
+    "final_aggregate_sha256": "db5b752048f5dedae2c3703d15ec5009eb5340af12cfd0e406ad9d91e60681bc",
+    "files": 132,
+    "scope_engine_refrozen": true,
+    "verify_after_refreeze": "pass",
+    "decision_path_unchanged": true,
+    "rescore": {
+      "claim_dumps": 150,
+      "claim_dumps_identical": 150,
+      "refuted_detected": 50,
+      "recall_refuted": 0.725,
+      "abstention_rate": 0.217,
+      "detected_kpi": "65/69",
+      "artifact": "rescore-publicrelease/"
+    },
+    "note": "Release cleanup: removed unused internal helpers, legacy lda naming, external font loading, stale package exclusions and public placeholders. No predicate, threshold, vocabulary entry, gate, extraction rule or verdict rule changed; the freeze was rebuilt on the release tree and the Stage C claim dumps are byte-identical."
+  },
+  "packaging": {
+    "date": "2026-10-24",
+    "what": "Artifact moved into the release tree; separate staging removed; annotation wording neutralised (human -> independent/external); pyproject ruff excludes for synthetic corpora.",
+    "why_refrozen": "The packaging cleanup edits the protocol, the Stage C plan, the annotation codebook/instructions, the judge rubric and three annotation scripts. The freeze is rebuilt on the final tree; the engine tree hash is unchanged.",
+    "base_aggregate_sha256": "db5b752048f5dedae2c3703d15ec5009eb5340af12cfd0e406ad9d91e60681bc",
+    "final_engine_tree_sha": "877b681596112d37d4937bb099514e497872508c",
+    "final_aggregate_sha256": "dc1a943eba3ad5ef636076b834846d38212c5739926b20b8d081cdaaa0ce1cbd",
+    "files": 132,
+    "scope_engine_refrozen": true,
+    "corpus_aggregate_sha256": "5cbfa8893d1b589db255f884de8bf4bcdbf160e8fc898baf2b60e4bde3319116",
+    "corpus_files": 78,
+    "verify_after_refreeze": "pass",
+    "decision_path_unchanged": true,
+    "rescore": {
+      "claim_dumps": 150,
+      "claim_dumps_identical": 150,
+      "refuted_detected": 50,
+      "recall_refuted": 0.725,
+      "abstention_rate": 0.217,
+      "detected_kpi": "65/69",
+      "artifact": "rescore-publicrelease/ (input) and a fresh /tmp run at packaging time"
+    },
+    "note": "No predicate, gate, threshold, vocabulary entry, extraction rule or verdict rule differs. The 150 Stage C claim dumps reproduce byte-identically from the frozen snapshots. The freeze records the staging commit; the engine tree hash is the binding identifier."
+  }
+}

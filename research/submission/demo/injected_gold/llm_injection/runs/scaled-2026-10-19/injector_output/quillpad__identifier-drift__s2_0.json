@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "artifact_class": "identifier",
+    "direction": "code_side",
+    "kind": "symbol_rename",
+    "file": "quillpad/models.py",
+    "old": "quillpad.models.load_note",
+    "new": "quillpad.models.load_note_renamed",
+    "symbol": "load_note",
+    "target": "quillpad.models.load_note()",
+    "doc_path": "README.md",
+    "doc_line_text": "`quillpad.models.load_note()` returns a `Note()` object. Each result is a `quillpad.models.Note()` populated from the fields in `examples/notes.yaml`.",
+    "target_claim": "The README states that `quillpad.models.load_note()` is the current public function that returns a `Note()` object; after the definition is renamed, that documented qualified identifier no longer resolves in the code.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "Both exemplars rename a code-side definition while the documentation keeps naming the old symbol as the current API. I followed that pattern by picking a top-level function referenced in dotted call form on a declarative README line and renaming only its definition to a minimal snake_case variant."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"artifact_class\": \"identifier\",\n  \"direction\": \"code_side\",\n  \"kind\": \"symbol_rename\",\n  \"file\": \"quillpad/models.py\",\n  \"old\": \"quillpad.models.load_note\",\n  \"new\": \"quillpad.models.load_note_renamed\",\n  \"symbol\": \"load_note\",\n  \"target\": \"quillpad.models.load_note()\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"`quillpad.models.load_note()` returns a `Note()` object. Each result is a `quillpad.models.Note()` populated from the fields in `examples/notes.yaml`.\",\n  \"target_claim\": \"The README states that `quillpad.models.load_note()` is the current public function that returns a `Note()` object; after the definition is renamed, that documented qualified identifier no longer resolves in the code.\",\n  \"exemplar_ids\": [\n    \"example 1\",\n    \"example 2\"\n  ],\n  \"rationale\": \"Both exemplars rename a code-side definition while the documentation keeps naming the old symbol as the current API. I followed that pattern by picking a top-level function referenced in dotted call form on a declarative README line and renaming only its definition to a minimal snake_case variant.\"\n}",
+  "stderr_tail": ""
+}

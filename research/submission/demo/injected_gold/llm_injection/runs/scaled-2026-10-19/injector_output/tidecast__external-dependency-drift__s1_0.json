@@ -1,0 +1,28 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "artifact_class": "dependency",
+    "direction": "code_side",
+    "kind": "dependency_version_break",
+    "file": "pyproject.toml",
+    "old": ">=8.1",
+    "new": ">=999",
+    "symbol": "click",
+    "target": "click",
+    "doc_path": "README.md",
+    "doc_line_text": "| `click` | `>=8.1` |",
+    "target_claim": "The documentation states that the `click` runtime dependency requires version `>=8.1`.",
+    "exemplar_ids": [
+      "triaged:alert-1ccd5743d77a06ff",
+      "triaged:alert-fed7183254dcae14",
+      "triaged:alert-2daea4b18ad37cf7",
+      "triaged:alert-618f0307eb26882e"
+    ],
+    "rationale": "Following the exemplar pattern of a documented minimum version contradicted by the declared requirement (rustc and bindgen minimums), I target the README dependency table's `click` constraint and move the manifest declaration to a non-overlapping bound, leaving the documentation unchanged."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"artifact_class\": \"dependency\", \"direction\": \"code_side\", \"kind\": \"dependency_version_break\", \"file\": \"pyproject.toml\", \"old\": \">=8.1\", \"new\": \">=999\", \"symbol\": \"click\", \"target\": \"click\", \"doc_path\": \"README.md\", \"doc_line_text\": \"| `click` | `>=8.1` |\", \"target_claim\": \"The documentation states that the `click` runtime dependency requires version `>=8.1`.\", \"exemplar_ids\": [\"triaged:alert-1ccd5743d77a06ff\", \"triaged:alert-fed7183254dcae14\", \"triaged:alert-2daea4b18ad37cf7\", \"triaged:alert-618f0307eb26882e\"], \"rationale\": \"Following the exemplar pattern of a documented minimum version contradicted by the declared requirement (rustc and bindgen minimums), I target the README dependency table's `click` constraint and move the manifest declaration to a non-overlapping bound, leaving the documentation unchanged.\"}",
+  "stderr_tail": ""
+}

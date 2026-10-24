@@ -1,0 +1,17 @@
+services:
+  docassay:
+    image: docassay:demo
+    ports:
+      - "${DOCASSAY_PORT:-8000}:${DOCASSAY_PORT:-8000}"
+    environment:
+      # Bind in the container and publish the same port on the host:
+      #   DOCASSAY_PORT=8010 docker compose ... up
+      DOCASSAY_PORT: "${DOCASSAY_PORT:-8000}"
+    # The image already contains the demo corpus and its default command.
+    # Only the analysis cache is persisted across runs.
+    volumes:
+      - docassay-cache:/home/app/.local/share/docassay
+    # Liveness comes from the image's HEALTHCHECK (it follows DOCASSAY_PORT).
+
+volumes:
+  docassay-cache:

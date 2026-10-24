@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "plotline/scales.py",
+    "old": "nice_ticks",
+    "new": null,
+    "symbol": "nice_ticks",
+    "target": "nice_ticks",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `nice_ticks() -> list[float]`",
+    "target_claim": "The API reference presents `nice_ticks() -> list[float]` in `plotline.scales` as a current public function.",
+    "exemplar_ids": [
+      "example-1"
+    ],
+    "rationale": "The API reference presents `nice_ticks` as a public function of `plotline.scales`, so deleting its definition leaves the document naming a symbol that no longer exists."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\":true,\"drift_type\":\"removed-referent-drift\",\"direction\":\"code_side\",\"file\":\"plotline/scales.py\",\"old\":\"nice_ticks\",\"new\":null,\"symbol\":\"nice_ticks\",\"target\":\"nice_ticks\",\"doc_path\":\"docs/api.md\",\"doc_line_text\":\"### `nice_ticks() -> list[float]`\",\"target_claim\":\"The API reference presents `nice_ticks() -> list[float]` in `plotline.scales` as a current public function.\",\"exemplar_ids\":[\"example-1\"],\"rationale\":\"The API reference presents `nice_ticks` as a public function of `plotline.scales`, so deleting its definition leaves the document naming a symbol that no longer exists.\"}",
+  "stderr_tail": ""
+}

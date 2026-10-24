@@ -1,0 +1,281 @@
+[
+  {
+    "name": "quillpad__path-location-drift__0",
+    "repo": "quillpad",
+    "drift_type": "path-location-drift",
+    "kind": "path_rename",
+    "seed": 1,
+    "prompt_sha256": "275b5e1b9b3f043a0369935349faba3e50da9f3a82f5782afdb9ae9ef978b17c",
+    "exemplar_ids": [
+      "triaged:alert-11b43e8e022f032c",
+      "triaged:alert-20bd5530abe7bd74",
+      "triaged:alert-3d74e717cf488ed1",
+      "triaged:alert-60fec720fe85f3eb"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "quillpad__identifier-drift__0",
+    "repo": "quillpad",
+    "drift_type": "identifier-drift",
+    "kind": "symbol_rename",
+    "seed": 1,
+    "prompt_sha256": "22611f93d0b0d5af7d5a3f2ef053d15a40e9f9c7026c7c4dcb4f77ba7c56b349",
+    "exemplar_ids": [
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:alert-e4613ce0dc642fdc"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "quillpad__removed-referent-drift__0",
+    "repo": "quillpad",
+    "drift_type": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "seed": 1,
+    "prompt_sha256": "6dc84ab304dc47eeca52a20a80998bb43ed4664910c9f47dbdb406fe4d9000fc",
+    "exemplar_ids": [
+      "triaged:alert-2bfdc6ac8403e47a",
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-f16567688f5ba11f"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "quillpad__external-dependency-drift__0",
+    "repo": "quillpad",
+    "drift_type": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "seed": 1,
+    "prompt_sha256": "34c13d70489b3e79ddda7b106f4ba40844d14da97525cc72dfd1e733d3e4cfbc",
+    "exemplar_ids": [
+      "triaged:alert-39d71642fff1897d",
+      "triaged:alert-3f0b25c9b7c723d7",
+      "triaged:alert-d31b5ec93fbc2072",
+      "triaged:alert-f2c043ee40dcc2b0"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "quillpad__value-drift__0",
+    "repo": "quillpad",
+    "drift_type": "value-drift",
+    "kind": "version_bump",
+    "seed": 1,
+    "prompt_sha256": "60789a09955d151c6e891e02d1580c476f0e54962ebe467440891e0a528190ef",
+    "exemplar_ids": [
+      "triaged:alert-0586cd1b5ddb26aa"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "tidecast__path-location-drift__0",
+    "repo": "tidecast",
+    "drift_type": "path-location-drift",
+    "kind": "path_rename",
+    "seed": 1,
+    "prompt_sha256": "799275bced65d1064bd601263950db7f4c2d3b943ecf14bf66a77fc0ac778182",
+    "exemplar_ids": [
+      "triaged:alert-11b43e8e022f032c",
+      "triaged:alert-350586bc1ca4547a",
+      "triaged:alert-3d74e717cf488ed1",
+      "triaged:alert-76cbc1311ef22f89"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "tidecast__identifier-drift__0",
+    "repo": "tidecast",
+    "drift_type": "identifier-drift",
+    "kind": "symbol_rename",
+    "seed": 1,
+    "prompt_sha256": "98a2443f79558cbfd563e80bd670eda445b5d2be9815fa9b12a9312868952ca1",
+    "exemplar_ids": [
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:alert-e4613ce0dc642fdc"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "tidecast__removed-referent-drift__0",
+    "repo": "tidecast",
+    "drift_type": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "seed": 1,
+    "prompt_sha256": "08b8a516fae8ff760079a1bfa669f025a91a06e1c6a7f76894930d1a5302c229",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-afab96e198ea0897"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "tidecast__external-dependency-drift__0",
+    "repo": "tidecast",
+    "drift_type": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "seed": 1,
+    "prompt_sha256": "a07424608e0a46295b3aae0b36bab27b09850e6962f246a28ca3d0696a39ad4a",
+    "exemplar_ids": [
+      "triaged:alert-1ccd5743d77a06ff",
+      "triaged:alert-2daea4b18ad37cf7",
+      "triaged:alert-618f0307eb26882e",
+      "triaged:alert-fed7183254dcae14"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "tidecast__value-drift__0",
+    "repo": "tidecast",
+    "drift_type": "value-drift",
+    "kind": "version_bump",
+    "seed": 1,
+    "prompt_sha256": "95d95089b06f8a35f367070ab54397772a40d8772babb21dd0d86f0f8b3026e9",
+    "exemplar_ids": [
+      "triaged:alert-0586cd1b5ddb26aa"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "ledgerly__path-location-drift__0",
+    "repo": "ledgerly",
+    "drift_type": "path-location-drift",
+    "kind": "path_rename",
+    "seed": 1,
+    "prompt_sha256": "fea702726936eff82bb9ed679e7de088b8067e2e3a572db0f640faaa67d7ba52",
+    "exemplar_ids": [
+      "triaged:alert-3d74e717cf488ed1",
+      "triaged:alert-60fec720fe85f3eb",
+      "triaged:alert-76cbc1311ef22f89"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "ledgerly__identifier-drift__0",
+    "repo": "ledgerly",
+    "drift_type": "identifier-drift",
+    "kind": "symbol_rename",
+    "seed": 1,
+    "prompt_sha256": "9fddb71b3d9a2a69e5c32f71318dc265e94c732b00dc48c57b36672e8d57329e",
+    "exemplar_ids": [
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:alert-e4613ce0dc642fdc"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "ledgerly__removed-referent-drift__0",
+    "repo": "ledgerly",
+    "drift_type": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "seed": 1,
+    "prompt_sha256": "3a9653a1a02cd640afe93182761597dbd2367a8bf95c33d3bec561fb2d0cc65e",
+    "exemplar_ids": [
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-afab96e198ea0897",
+      "triaged:alert-e1e71cc1ff2a6985",
+      "triaged:alert-f16567688f5ba11f"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "ledgerly__external-dependency-drift__0",
+    "repo": "ledgerly",
+    "drift_type": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "seed": 1,
+    "prompt_sha256": "ea761c0a5c3b6c47ba66134b862beea4d8abee340abf3aa3d0c82d406d85f332",
+    "exemplar_ids": [
+      "triaged:alert-39d71642fff1897d",
+      "triaged:alert-618f0307eb26882e",
+      "triaged:alert-f6a52da81652ebc9",
+      "triaged:alert-fed7183254dcae14"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "ledgerly__value-drift__0",
+    "repo": "ledgerly",
+    "drift_type": "value-drift",
+    "kind": "version_bump",
+    "seed": 1,
+    "prompt_sha256": "cc25b1e64ed75987c607b5ff17dc7fd73e59f4c81ecd7537269165e228dd2bee",
+    "exemplar_ids": [
+      "triaged:alert-0586cd1b5ddb26aa"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "parcelroute__path-location-drift__0",
+    "repo": "parcelroute",
+    "drift_type": "path-location-drift",
+    "kind": "path_rename",
+    "seed": 1,
+    "prompt_sha256": "344ec1f727fdfd625a2ef7858a85c8d7b492dabd5354811125195e2d0adc01a1",
+    "exemplar_ids": [
+      "triaged:alert-11b43e8e022f032c",
+      "triaged:alert-350586bc1ca4547a",
+      "triaged:alert-527fdf20b19b2497",
+      "triaged:alert-aa7a043237abb063"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "parcelroute__identifier-drift__0",
+    "repo": "parcelroute",
+    "drift_type": "identifier-drift",
+    "kind": "symbol_rename",
+    "seed": 1,
+    "prompt_sha256": "962f74b2542b3feddece0195eba349bba39ab8026e6ab82d2ca84f1268768e70",
+    "exemplar_ids": [
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:alert-e4613ce0dc642fdc"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "parcelroute__removed-referent-drift__0",
+    "repo": "parcelroute",
+    "drift_type": "removed-referent-drift",
+    "kind": "symbol_delete",
+    "seed": 1,
+    "prompt_sha256": "c20115c53467717296cd881425d2cf3ea84381aee7a51311a013ebe04e5b4934",
+    "exemplar_ids": [
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-e1e71cc1ff2a6985",
+      "triaged:alert-f05c17f47af4d5e0",
+      "triaged:alert-f16567688f5ba11f"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "parcelroute__external-dependency-drift__0",
+    "repo": "parcelroute",
+    "drift_type": "external-dependency-drift",
+    "kind": "dependency_version_break",
+    "seed": 1,
+    "prompt_sha256": "129b1f9757544eb54c9d3d09f108f3ca105d4d80b37ea35774309929c5f3bcaa",
+    "exemplar_ids": [
+      "triaged:alert-1ccd5743d77a06ff",
+      "triaged:alert-5a292f75418b8682",
+      "triaged:alert-e0fb492470f8068d",
+      "triaged:alert-f2c043ee40dcc2b0"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  },
+  {
+    "name": "parcelroute__value-drift__0",
+    "repo": "parcelroute",
+    "drift_type": "value-drift",
+    "kind": "version_bump",
+    "seed": 1,
+    "prompt_sha256": "122a5338dca116b0cc6300b8a9c9a82667ff26f0a4053c0b2dbc2564faf6bb6f",
+    "exemplar_ids": [
+      "triaged:alert-0586cd1b5ddb26aa"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash"
+  }
+]

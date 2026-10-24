@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "artifact_class": "dependency",
+    "direction": "code_side",
+    "kind": "dependency_version_break",
+    "file": "pyproject.toml",
+    "old": ">=8.1",
+    "new": ">=999",
+    "symbol": "click",
+    "target": "click",
+    "doc_path": "README.md",
+    "doc_line_text": "| `click` | `>=8.1` |",
+    "target_claim": "README.md's installation table states that ledgerly requires the `click` dependency with the constraint `>=8.1`.",
+    "exemplar_ids": [
+      "triaged:alert-fed7183254dcae14"
+    ],
+    "rationale": "Following the exemplar pattern of a document stating a minimum version that the project's declared requirement no longer satisfies (bindgen 0.65.1 vs the 0.71.1 minimum), I targeted a dependency presented as a current requirement with a simple bound and tightened the manifest constraint to a bound that does not intersect the documented `>=8.1`."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "I'll inspect the repository to find the exact manifest contents so my proposed mutation is mechanically checkable.\nNow let me check the exemplar bank for the exact exemplar ids referenced by this class.\n{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"artifact_class\": \"dependency\", \"direction\": \"code_side\", \"kind\": \"dependency_version_break\", \"file\": \"pyproject.toml\", \"old\": \">=8.1\", \"new\": \">=999\", \"symbol\": \"click\", \"target\": \"click\", \"doc_path\": \"README.md\", \"doc_line_text\": \"| `click` | `>=8.1` |\", \"target_claim\": \"README.md's installation table states that ledgerly requires the `click` dependency with the constraint `>=8.1`.\", \"exemplar_ids\": [\"triaged:alert-fed7183254dcae14\"], \"rationale\": \"Following the exemplar pattern of a document stating a minimum version that the project's declared requirement no longer satisfies (bindgen 0.65.1 vs the 0.71.1 minimum), I targeted a dependency presented as a current requirement with a simple bound and tightened the manifest constraint to a bound that does not intersect the documented `>=8.1`.\"}",
+  "stderr_tail": ""
+}

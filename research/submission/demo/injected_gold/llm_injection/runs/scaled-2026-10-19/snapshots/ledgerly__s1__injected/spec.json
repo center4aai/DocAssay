@@ -1,0 +1,74 @@
+{
+  "project": {
+    "name": "ledgerly",
+    "pkg": "ledgerly",
+    "version": "0.4.2",
+    "description": "A small double-entry bookkeeping library with a CLI, a tiny HTTP route table, and a CSV-file ledger store."
+  },
+  "dependencies": [
+    {"name": "click", "constraint": ">=8.1"},
+    {"name": "pydantic", "constraint": ">=2.6"},
+    {"name": "python-dateutil", "constraint": ">=2.9"},
+    {"name": "tabulate", "constraint": ">=0.9"}
+  ],
+  "modules": [
+    {
+      "path": "ledgerly/models.py",
+      "symbols": [
+        {"name": "Entry", "kind": "class", "return_type": null, "members": ["entry_id", "account", "amount", "memo", "posted_at"]},
+        {"name": "parse_entry", "kind": "function", "return_type": "Entry", "members": []},
+        {"name": "format_entry", "kind": "function", "return_type": "str", "members": []}
+      ]
+    },
+    {
+      "path": "ledgerly/store.py",
+      "symbols": [
+        {"name": "LedgerStore", "kind": "class", "return_type": null, "members": ["path", "entries"]},
+        {"name": "load_store", "kind": "function", "return_type": "LedgerStore", "members": []},
+        {"name": "save_store", "kind": "function", "return_type": "int", "members": []}
+      ]
+    },
+    {
+      "path": "ledgerly/reports.py",
+      "symbols": [
+        {"name": "AccountSummary", "kind": "class", "return_type": null, "members": ["account", "balance", "entry_count"]},
+        {"name": "summarize", "kind": "function", "return_type": "AccountSummary", "members": []}
+      ]
+    },
+    {
+      "path": "ledgerly/routes.py",
+      "symbols": [
+        {"name": "RouteTable", "kind": "class", "return_type": null, "members": ["routes"]},
+        {"name": "build_routes", "kind": "function", "return_type": "RouteTable", "members": []}
+      ]
+    },
+    {
+      "path": "ledgerly/cli.py",
+      "symbols": [
+        {"name": "main", "kind": "function", "return_type": "int", "members": []},
+        {"name": "add_entry", "kind": "function", "return_type": "Entry", "members": []}
+      ]
+    }
+  ],
+  "config_keys": ["LEDGERLY_HOME", "LEDGERLY_LEDGER_PATH", "LEDGERLY_LOG_LEVEL", "LEDGERLY_DEFAULT_CURRENCY"],
+  "endpoints": ["/v1/entries", "/v1/reports/summary", "/v1/health"],
+  "schema_fields": ["entry_id", "account", "amount", "posted_at"],
+  "enum_members": ["ENTRY_STATUS_PENDING", "ENTRY_STATUS_POSTED", "ENTRY_STATUS_VOID"],
+  "example_commands": [
+    "python -m ledgerly add --account cash --amount 42.50 --memo \"invoice 1042\"",
+    "python -m ledgerly serve --port 8080"
+  ],
+  "paths": ["examples/entries.csv", "docs/configuration.md"],
+  "data_files": [
+    {
+      "path": "examples/entries.csv",
+      "content": "entry_id,account,amount,memo,posted_at\n1e2f3a,cash,42.50,invoice 1042,2026-03-01\n4b5c6d,revenue,-42.50,invoice 1042,2026-03-01\n7a8b9c,rent,-1200.00,march rent,2026-03-02\n"
+    }
+  ],
+  "cross_doc_tokens": ["examples/entries.csv", "ledgerly.store.LedgerStore"],
+  "docs": [
+    {"path": "README.md", "kind": "readme"},
+    {"path": "docs/configuration.md", "kind": "guide"},
+    {"path": "docs/api.md", "kind": "reference"}
+  ]
+}

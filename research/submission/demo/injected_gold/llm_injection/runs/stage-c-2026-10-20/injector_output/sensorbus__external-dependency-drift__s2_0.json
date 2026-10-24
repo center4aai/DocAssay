@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "numpy>=1.24",
+    "new": "numpy>=999",
+    "symbol": "numpy",
+    "target": "numpy>=1.24",
+    "doc_path": "README.md",
+    "doc_line_text": "Dependencies are declared in `pyproject.toml`: `pyserial>=3.5`, `numpy>=1.24`,",
+    "target_claim": "The project manifest declares numpy>=1.24 as a current dependency requirement.",
+    "exemplar_ids": [
+      "2"
+    ],
+    "rationale": "The README explicitly lists pyproject's dependency constraints as current project requirements, so raising numpy's manifest bound to a non-overlapping version makes that checkable statement false."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \"numpy>=1.24\", \"new\": \"numpy>=999\", \"symbol\": \"numpy\", \"target\": \"numpy>=1.24\", \"doc_path\": \"README.md\", \"doc_line_text\": \"Dependencies are declared in `pyproject.toml`: `pyserial>=3.5`, `numpy>=1.24`,\", \"target_claim\": \"The project manifest declares numpy>=1.24 as a current dependency requirement.\", \"exemplar_ids\": [\"2\"], \"rationale\": \"The README explicitly lists pyproject's dependency constraints as current project requirements, so raising numpy's manifest bound to a non-overlapping version makes that checkable statement false.\"}",
+  "stderr_tail": ""
+}

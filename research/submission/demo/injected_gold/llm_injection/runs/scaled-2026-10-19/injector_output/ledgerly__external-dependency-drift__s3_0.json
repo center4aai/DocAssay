@@ -1,0 +1,7 @@
+{
+  "status": "no_json",
+  "proposal": null,
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "[error] provider.transport: getaddrinfo ENOTFOUND opencode.ai",
+  "stderr_tail": ""
+}

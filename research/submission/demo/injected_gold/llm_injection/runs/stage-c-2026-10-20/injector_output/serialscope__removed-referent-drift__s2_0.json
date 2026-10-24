@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "serialscope/checksums.py",
+    "old": "xor8",
+    "new": null,
+    "symbol": "xor8",
+    "target": "xor8",
+    "doc_path": "docs/structure.md",
+    "doc_line_text": "- `xor8()` — the eight-bit XOR alternative, declared to return `int`.",
+    "target_claim": "`xor8()` is the eight-bit XOR checksum alternative the checksums module offers, declared to return `int`.",
+    "exemplar_ids": [
+      "example-2",
+      "example-3"
+    ],
+    "rationale": "The module map presents xor8() as a current public checksum alternative, so deleting its definition leaves the documentation naming a symbol that no longer exists."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"serialscope/checksums.py\",\n  \"old\": \"xor8\",\n  \"new\": null,\n  \"symbol\": \"xor8\",\n  \"target\": \"xor8\",\n  \"doc_path\": \"docs/structure.md\",\n  \"doc_line_text\": \"- `xor8()` — the eight-bit XOR alternative, declared to return `int`.\",\n  \"target_claim\": \"`xor8()` is the eight-bit XOR checksum alternative the checksums module offers, declared to return `int`.\",\n  \"exemplar_ids\": [\"example-2\", \"example-3\"],\n  \"rationale\": \"The module map presents xor8() as a current public checksum alternative, so deleting its definition leaves the documentation naming a symbol that no longer exists.\"\n}",
+  "stderr_tail": ""
+}

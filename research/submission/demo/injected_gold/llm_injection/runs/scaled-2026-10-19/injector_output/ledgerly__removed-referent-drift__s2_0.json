@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "artifact_class": "referent",
+    "direction": "code_side",
+    "kind": "symbol_delete",
+    "file": "ledgerly/models.py",
+    "old": "ledgerly.models.format_entry",
+    "new": null,
+    "symbol": "format_entry",
+    "target": "ledgerly.models.format_entry",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "`ledgerly.models.format_entry()` returns a `str` display line.",
+    "target_claim": "The document states that `ledgerly.models.format_entry()` is an available function that returns a `str` display line; with the definition deleted, no such function exists.",
+    "exemplar_ids": [
+      "example-1",
+      "example-3"
+    ],
+    "rationale": "Following exemplar 3 (a documented symbol removed with no remaining in-project role) and exemplar 1 (deletion of a definition rather than a rename), I chose `format_entry`, a top-level function referenced only by a qualified name in the docs and never imported or called elsewhere, so removing its block leaves the module parseable and only the documented API claim stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"artifact_class\": \"referent\",\n  \"direction\": \"code_side\",\n  \"kind\": \"symbol_delete\",\n  \"file\": \"ledgerly/models.py\",\n  \"old\": \"ledgerly.models.format_entry\",\n  \"new\": null,\n  \"symbol\": \"format_entry\",\n  \"target\": \"ledgerly.models.format_entry\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"`ledgerly.models.format_entry()` returns a `str` display line.\",\n  \"target_claim\": \"The document states that `ledgerly.models.format_entry()` is an available function that returns a `str` display line; with the definition deleted, no such function exists.\",\n  \"exemplar_ids\": [\"example-1\", \"example-3\"],\n  \"rationale\": \"Following exemplar 3 (a documented symbol removed with no remaining in-project role) and exemplar 1 (deletion of a definition rather than a rename), I chose `format_entry`, a top-level function referenced only by a qualified name in the docs and never imported or called elsewhere, so removing its block leaves the module parseable and only the documented API claim stale.\"\n}",
+  "stderr_tail": ""
+}

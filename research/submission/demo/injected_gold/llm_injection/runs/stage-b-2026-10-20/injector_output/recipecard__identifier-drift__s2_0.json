@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "recipecard/models.py",
+    "old": "Ingredient",
+    "new": "IngredientLine",
+    "symbol": "Ingredient",
+    "target": "Ingredient",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `Ingredient`",
+    "target_claim": "The API reference lists `Ingredient` as a public class in `recipecard.models`.",
+    "exemplar_ids": [
+      "1",
+      "2"
+    ],
+    "rationale": "The API reference heading names `Ingredient` as the public model class readers import, so renaming the class leaves the documented name stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"recipecard/models.py\",\n  \"old\": \"Ingredient\",\n  \"new\": \"IngredientLine\",\n  \"symbol\": \"Ingredient\",\n  \"target\": \"Ingredient\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"### `Ingredient`\",\n  \"target_claim\": \"The API reference lists `Ingredient` as a public class in `recipecard.models`.\",\n  \"exemplar_ids\": [\"1\", \"2\"],\n  \"rationale\": \"The API reference heading names `Ingredient` as the public model class readers import, so renaming the class leaves the documented name stale.\"\n}",
+  "stderr_tail": ""
+}

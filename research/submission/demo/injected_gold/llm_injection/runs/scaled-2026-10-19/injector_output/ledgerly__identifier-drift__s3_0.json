@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "artifact_class": "identifier",
+    "direction": "code_side",
+    "kind": "symbol_rename",
+    "file": "ledgerly/models.py",
+    "old": "ledgerly.models.format_entry",
+    "new": "ledgerly.models.format_entry_renamed",
+    "symbol": "format_entry",
+    "target": "`ledgerly.models.format_entry()`",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "`ledgerly.models.format_entry()` returns a `str` display line.",
+    "target_claim": "`ledgerly.models.format_entry()` is a callable function that returns a `str` display line.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "The exemplars show a code-side API member renamed while the documentation keeps the old name; here a uniquely named top-level function referenced in call form is renamed with a minimal suffix so the documented callable no longer resolves."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"artifact_class\": \"identifier\", \"direction\": \"code_side\", \"kind\": \"symbol_rename\", \"file\": \"ledgerly/models.py\", \"old\": \"ledgerly.models.format_entry\", \"new\": \"ledgerly.models.format_entry_renamed\", \"symbol\": \"format_entry\", \"target\": \"`ledgerly.models.format_entry()`\", \"doc_path\": \"docs/api.md\", \"doc_line_text\": \"`ledgerly.models.format_entry()` returns a `str` display line.\", \"target_claim\": \"`ledgerly.models.format_entry()` is a callable function that returns a `str` display line.\", \"exemplar_ids\": [\"example 1\", \"example 2\"], \"rationale\": \"The exemplars show a code-side API member renamed while the documentation keeps the old name; here a uniquely named top-level function referenced in call form is renamed with a minimal suffix so the documented callable no longer resolves.\"}",
+  "stderr_tail": ""
+}

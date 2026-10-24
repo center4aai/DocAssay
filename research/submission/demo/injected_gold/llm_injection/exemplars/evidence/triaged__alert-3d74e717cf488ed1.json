@@ -1,0 +1,40 @@
+{
+  "alert_id": "triaged:alert-3d74e717cf488ed1",
+  "commit_sha": "30fdd229a434cfae409cc07456684315bf95a561",
+  "commit_url": "https://github.com/ollama/ollama/commit/30fdd229a434cfae409cc07456684315bf95a561",
+  "files": [
+    {
+      "added": [
+        "\t// This gates both safetensors LLM and imagegen model creation",
+        "",
+        "\t// Standard Modelfile + API path"
+      ],
+      "hunks": 3,
+      "matched_location": true,
+      "path": "cmd/cmd.go",
+      "removed": [
+        "\t\"github.com/ollama/ollama/x/create\"",
+        "\t\t\t// No Modelfile found - check if current directory is an image gen model",
+        "\t\t\tif create.IsTensorModelDir(\".\") {",
+        "\t\t\t\tif !isLocalhost() {",
+        "\t\t\t\t\treturn errors.New(\"remote safetensor model creation not yet supported\")",
+        "\t\t\t\t}",
+        "\t\t\t\tquantize, _ := cmd.Flags().GetString(\"quantize\")",
+        "\t\t\t\treturn xcreateclient.CreateModel(xcreateclient.CreateOptions{",
+        "\t\t\t\t\tModelName: modelName,",
+        "\t\t\t\t\tModelDir:  \".\",",
+        "\t\t\t\t\tQuantize:  quantize,",
+        "\t\t\t\t}, p)",
+        "\t\t\t}"
+      ],
+      "side": "code",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "cmd/cmd.go",
+    "x/imagegen/README.md"
+  ],
+  "patch_sha256": "f3571185758880b07496e64f4a19b1a6bac1bb7832c428189654ba173cec6fa7",
+  "status": "ok"
+}

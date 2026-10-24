@@ -1,0 +1,76 @@
+{
+  "repo": "morpheme__path-location-drift__s1_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "README.md",
+        "line": 58,
+        "predicate": "PATH_EXISTS",
+        "object": "examples/words.txt",
+        "reason": ""
+      },
+      {
+        "source": "docs/api.md",
+        "line": 176,
+        "predicate": "PATH_EXISTS",
+        "object": "examples/words.txt",
+        "reason": ""
+      },
+      {
+        "source": "docs/concepts.md",
+        "line": 63,
+        "predicate": "PATH_EXISTS",
+        "object": "examples/words.txt",
+        "reason": ""
+      },
+      {
+        "source": "docs/concepts.md",
+        "line": 109,
+        "predicate": "PATH_EXISTS",
+        "object": "examples/words.txt",
+        "reason": ""
+      }
+    ],
+    "new_nei": [
+      {
+        "source": "README.md",
+        "line": 65,
+        "predicate": "PATH_EXISTS",
+        "object": "words.txt",
+        "reason": "unreferenced bare filename"
+      },
+      {
+        "source": "docs/api.md",
+        "line": 171,
+        "predicate": "PATH_EXISTS",
+        "object": "words.txt",
+        "reason": "unreferenced bare filename"
+      },
+      {
+        "source": "docs/concepts.md",
+        "line": 124,
+        "predicate": "PATH_EXISTS",
+        "object": "words.txt",
+        "reason": "unreferenced bare filename"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "morpheme__path-location-drift__s1_0::0",
+      "repo": "morpheme__path-location-drift__s1_0",
+      "op_id": "llm.path-location-drift",
+      "canonical_class": "path-location-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "examples/words.txt",
+        "new": "examples/wordlist.txt",
+        "doc_path": "README.md",
+        "target": "examples/words.txt"
+      }
+    }
+  ]
+}

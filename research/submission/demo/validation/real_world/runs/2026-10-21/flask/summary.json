@@ -1,0 +1,18 @@
+{
+  "repo": "flask",
+  "docs": 80,
+  "claims": 2212,
+  "referents": 301,
+  "evidence": 1155,
+  "verdicts": {
+    "REFUTED": 12,
+    "NEI": 229,
+    "SUPPORTED": 95
+  },
+  "refuted_by_predicate": {
+    "DEPENDENCY": 8,
+    "PATH_EXISTS": 3,
+    "SYMBOL_EXISTS": 1
+  },
+  "seconds": 1.7
+}

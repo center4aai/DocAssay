@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "palette/harmony.py",
+    "old": "generate_palette",
+    "new": "generate_harmony_palette",
+    "symbol": "generate_palette",
+    "target": "generate_palette",
+    "doc_path": "docs/guide.md",
+    "doc_line_text": "`palette/harmony.py` provides `generate_palette`, which is annotated to return a",
+    "target_claim": "palette/harmony.py provides a function named generate_palette.",
+    "exemplar_ids": [
+      "example_1",
+      "example_2",
+      "example_3",
+      "example_4"
+    ],
+    "rationale": "The guide presents generate_palette as a current function provided by palette/harmony.py, so renaming only its definition is a minimal, natural code-side change."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"palette/harmony.py\", \"old\": \"generate_palette\", \"new\": \"generate_harmony_palette\", \"symbol\": \"generate_palette\", \"target\": \"generate_palette\", \"doc_path\": \"docs/guide.md\", \"doc_line_text\": \"`palette/harmony.py` provides `generate_palette`, which is annotated to return a\", \"target_claim\": \"palette/harmony.py provides a function named generate_palette.\", \"exemplar_ids\": [\"example_1\", \"example_2\", \"example_3\", \"example_4\"], \"rationale\": \"The guide presents generate_palette as a current function provided by palette/harmony.py, so renaming only its definition is a minimal, natural code-side change.\"}",
+  "stderr_tail": ""
+}

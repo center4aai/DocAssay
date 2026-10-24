@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "docs/guide.md",
+    "old": "docs/guide.md",
+    "new": "docs/user-guide.md",
+    "target": "docs/guide.md",
+    "doc_path": "README.md",
+    "doc_line_text": "- [User guide](docs/guide.md): the recipe file format, units, and how the",
+    "target_claim": "The README presents docs/guide.md as the current location of the user guide.",
+    "exemplar_ids": [
+      "example 2",
+      "example 4"
+    ],
+    "rationale": "The README documentation section presents docs/guide.md as the current location of the user guide, so renaming that file leaves a natural stale link."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"path-location-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"docs/guide.md\",\n  \"old\": \"docs/guide.md\",\n  \"new\": \"docs/user-guide.md\",\n  \"target\": \"docs/guide.md\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"- [User guide](docs/guide.md): the recipe file format, units, and how the\",\n  \"target_claim\": \"The README presents docs/guide.md as the current location of the user guide.\",\n  \"exemplar_ids\": [\n    \"example 2\",\n    \"example 4\"\n  ],\n  \"rationale\": \"The README documentation section presents docs/guide.md as the current location of the user guide, so renaming that file leaves a natural stale link.\"\n}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,34 @@
+{
+  "repos": {
+    "bibscan": {
+      "task_document": "cookbook",
+      "reference_document": "reference",
+      "rationale": "docs/recipes.md is a collection of several short, self-contained recipes for separate common tasks rather than a single end-to-end walkthrough, while docs/api.md exists to look up exact module, class, function and constant names with signatures and stated behavior."
+    },
+    "contourkit": {
+      "task_document": "tutorial",
+      "reference_document": "reference",
+      "rationale": "docs/walkthrough.md teaches a newcomer the end-to-end contour pipeline step by step, while docs/api.md exists to look up exact public names, signatures, attributes, and constant values."
+    },
+    "morpheme": {
+      "task_document": "explanation",
+      "reference_document": "reference",
+      "rationale": "docs/concepts.md explains the design model, vocabulary, and rationale behind the library's parts, while docs/api.md is a lookup surface that states exact names, signatures, attributes, and return types."
+    },
+    "sensorbus": {
+      "task_document": "how-to",
+      "reference_document": "explanation",
+      "rationale": "usage.md walks a user who already knows the basics through one concrete problem (adding a second nitrate channel), while concepts.md explains the design reasons behind the module split and each layer's responsibilities."
+    },
+    "serialscope": {
+      "task_document": "tutorial",
+      "reference_document": "module map",
+      "rationale": "walkthrough.md teaches a newcomer to decode a captured balance response step by step, while structure.md explains what each module is responsible for and how the modules relate, which is the module-map genre."
+    },
+    "tileplan": {
+      "task_document": "how-to",
+      "reference_document": "reference",
+      "rationale": "docs/usage.md is a task-oriented guide that presupposes README-level familiarity and walks through the one concrete job of turning a bounding box into a tile list and quadkeys, while docs/api.md exists purely to look up the public modules, classes, constants, signatures, and return types."
+    }
+  }
+}

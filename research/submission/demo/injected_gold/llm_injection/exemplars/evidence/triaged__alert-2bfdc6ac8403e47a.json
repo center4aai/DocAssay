@@ -1,0 +1,26 @@
+{
+  "alert_id": "triaged:alert-2bfdc6ac8403e47a",
+  "commit_sha": "9de209c183de3a52220b37262e2a0e0d52719de5",
+  "commit_url": "https://github.com/torvalds/linux/commit/9de209c183de3a52220b37262e2a0e0d52719de5",
+  "files": [
+    {
+      "added": [],
+      "hunks": 1,
+      "matched_location": true,
+      "path": "Documentation/dev-tools/kasan.rst",
+      "removed": [
+        "For slab, both software KASAN modes support SLUB and SLAB allocators, while",
+        "Hardware Tag-Based KASAN only supports SLUB.",
+        ""
+      ],
+      "side": "doc",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "Documentation/dev-tools/kasan.rst",
+    "Documentation/translations/zh_TW/dev-tools/kasan.rst"
+  ],
+  "patch_sha256": "f598d4ccff31b11caa2ea3b59f8d874d79a22081ce2884b4e90a40c6295538d3",
+  "status": "ok"
+}

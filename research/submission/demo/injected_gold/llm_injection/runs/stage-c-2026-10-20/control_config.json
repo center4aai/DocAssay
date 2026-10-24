@@ -1,0 +1,73 @@
+{
+  "stage": "C",
+  "arm": "C-ext",
+  "created": "2026-10-20",
+  "normative_source": "research/submission/demo/validation/stage-c-plan.md Appendix B and §6",
+  "seed": 20261020,
+  "selection_order": ["README.md", "task_document", "reference_document"],
+  "shuffle": "random.Random(seed + zlib.crc32((repo + family).encode()))",
+  "note": "Both arms are pre-registered. Only the set applicable to the C1 arm is evaluated. The selector never imports docassay.",
+  "families": {
+    "A1": {
+      "name": "consistent-present, path",
+      "applies_to_arm": ["C-ext", "C-base"],
+      "required": 6,
+      "candidate": "inline-code path or Markdown link target, not negated, not in a fence",
+      "truth_check": "token resolves to a tracked path in the baseline"
+    },
+    "A2": {
+      "name": "consistent-present, dependency",
+      "applies_to_arm": ["C-ext", "C-base"],
+      "required": 6,
+      "candidate": "line names a declared dependency, with or without a version constraint, not historical/conditional",
+      "truth_check": "the dependency is declared, and any claimed constraint is satisfied"
+    },
+    "A3": {
+      "name": "consistent-present, qualified symbol",
+      "applies_to_arm": ["C-ext", "C-base"],
+      "required": 6,
+      "candidate": "inline-code dotted name with a project-owned top, not negated, not in a fence",
+      "truth_check": "the qualified name resolves in the AST inventory"
+    },
+    "A4": {
+      "name": "consistent-present, section-qualified symbol",
+      "applies_to_arm": ["C-ext"],
+      "required": 6,
+      "candidate": "inline-code bare member under a heading/table/prose/list/path_prose module context per SCOPE §3.3.2, exactly one candidate token",
+      "truth_check": "the qualified name resolves in the AST inventory"
+    },
+    "B": {
+      "name": "non-module context trap",
+      "applies_to_arm": ["C-ext"],
+      "required": 6,
+      "candidate": "inline-code bare symbol under a heading/column/prose context that is not a project module (e.g. Parsing, helpers, utilities), exactly one candidate token",
+      "truth_check": "the symbol exists somewhere in the project; the context does not resolve to a project module"
+    },
+    "C": {
+      "name": "consistent-absent (optional)",
+      "applies_to_arm": ["C-ext", "C-base"],
+      "required": 0,
+      "max": 6,
+      "candidate": "current-state absence statement (no, not, does not ship/include/depend, without) about an artifact",
+      "truth_check": "the artifact is truly absent; NEI expected"
+    }
+  },
+  "drop_reasons": [
+    "no_candidate",
+    "truth_check_failed",
+    "not_current",
+    "undetermined",
+    "context_absent",
+    "context_is_module",
+    "ambiguous",
+    "audit_changed_line"
+  ],
+  "applicable": {
+    "C-ext": ["A1", "A2", "A3", "A4", "B", "C"],
+    "C-base": ["A1", "A2", "A3", "C"]
+  },
+  "not_applicable_scope": {
+    "C-ext": [],
+    "C-base": ["A4", "B"]
+  }
+}

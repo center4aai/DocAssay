@@ -1,0 +1,106 @@
+{
+  "stage": "C",
+  "arm": "C-ext",
+  "created": "2026-10-20",
+  "normative_source": "research/submission/demo/validation/stage-c-plan.md §2.2–§2.6",
+  "corpus_dir": "research/submission/demo/injected_gold/synthetic-natural-c",
+  "seed": 20261020,
+  "classes": [
+    "path-location-drift",
+    "identifier-drift",
+    "removed-referent-drift",
+    "external-dependency-drift"
+  ],
+  "seeds": [1, 2, 3],
+  "documents_per_repo": 3,
+  "domains": {
+    "geospatial": ["contourkit", "tileplan"],
+    "language": ["morpheme", "bibscan"],
+    "instrument": ["serialscope", "sensorbus"]
+  },
+  "repos": [
+    {
+      "name": "contourkit",
+      "domain": "geospatial / terrain",
+      "description": "Elevation raster sampling, contour polylines, and simplification.",
+      "task_document": {"path": "docs/walkthrough.md", "genre": "tutorial"},
+      "reference_document": {"path": "docs/api.md", "genre": "reference"},
+      "backups": {"repo": "heightgrid", "task_genre": "how-to", "reference_genre": "explanation"},
+      "config_keys_allowed": false
+    },
+    {
+      "name": "tileplan",
+      "domain": "geospatial / mapping",
+      "description": "Slippy-map tile coordinates, extents, and zoom arithmetic.",
+      "task_document": {"path": "docs/usage.md", "genre": "how-to"},
+      "reference_document": {"path": "docs/api.md", "genre": "reference"},
+      "backups": {"repo": "heightgrid", "task_genre": "tutorial", "reference_genre": "explanation"},
+      "config_keys_allowed": false
+    },
+    {
+      "name": "morpheme",
+      "domain": "language / text",
+      "description": "Morphological segmentation and lemma lookup for a small language pack.",
+      "task_document": {"path": "docs/concepts.md", "genre": "explanation"},
+      "reference_document": {"path": "docs/api.md", "genre": "reference"},
+      "backups": {"repo": "tokenfold", "task_genre": "reference", "reference_genre": "explanation"},
+      "config_keys_allowed": false
+    },
+    {
+      "name": "bibscan",
+      "domain": "language / scholarly text",
+      "description": "BibTeX/CSL parsing and citation formatting.",
+      "task_document": {"path": "docs/recipes.md", "genre": "cookbook"},
+      "reference_document": {"path": "docs/api.md", "genre": "reference"},
+      "backups": {"repo": "tokenfold", "task_genre": "how-to", "reference_genre": "reference"},
+      "config_keys_allowed": false
+    },
+    {
+      "name": "serialscope",
+      "domain": "instrument / lab hardware",
+      "description": "Serial-line framing and decoding for lab instruments.",
+      "task_document": {"path": "docs/walkthrough.md", "genre": "tutorial"},
+      "reference_document": {"path": "docs/structure.md", "genre": "module map"},
+      "backups": {"repo": "pulsecount", "task_genre": "how-to", "reference_genre": "reference"},
+      "config_keys_allowed": true
+    },
+    {
+      "name": "sensorbus",
+      "domain": "instrument / lab hardware",
+      "description": "Sensor reading aggregation, calibration, and unit conversion.",
+      "task_document": {"path": "docs/usage.md", "genre": "how-to"},
+      "reference_document": {"path": "docs/concepts.md", "genre": "explanation"},
+      "backups": {"repo": "pulsecount", "task_genre": "tutorial", "reference_genre": "module map"},
+      "config_keys_allowed": true
+    }
+  ],
+  "backup_repos": {
+    "geospatial": "heightgrid",
+    "language": "tokenfold",
+    "instrument": "pulsecount"
+  },
+  "forbidden_spec_keys": ["endpoints", "schema_fields", "enum_members"],
+  "dependency_phrasing_inventory": [
+    "name_only",
+    "display_plus_constraint",
+    "inline_backticked",
+    "table_row",
+    "extras",
+    "environment_marker",
+    "multi_in_sentence",
+    "range",
+    "install_command"
+  ],
+  "context_source_inventory": ["heading", "table", "prose", "list", "path_prose", "none"],
+  "models": {
+    "architect": "opencode-go/gpt-6-luna",
+    "docwriter": "opencode-go/gpt-6-luna",
+    "auditor": "opencode-go/gemini-4-argon-contributor",
+    "injector": "opencode-go/deepseek-v4.1-flash",
+    "adjudicator": "opencode-go/qwen3.8-flash"
+  },
+  "role_families": {
+    "stage_b_docwriter_family": "anthropic/claude",
+    "stage_c_docwriter_family": "openai/gpt"
+  }
+}

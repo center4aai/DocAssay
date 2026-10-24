@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "artifact_class": "identifier",
+    "direction": "code_side",
+    "kind": "symbol_rename",
+    "file": "parcelroute/api.py",
+    "old": "parcelroute.api.list_parcels_endpoint",
+    "new": "parcelroute.api.list_parcels_handler",
+    "symbol": "list_parcels_endpoint",
+    "target": "parcelroute.api.list_parcels_endpoint()",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "| `parcelroute.api.list_parcels_endpoint()` | A payload of parcels | Answers the parcel listing route. |",
+    "target_claim": "docs/api.md names `parcelroute.api.list_parcels_endpoint()` as the current function that answers the parcel listing route.",
+    "exemplar_ids": [
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:alert-e4613ce0dc642fdc"
+    ],
+    "rationale": "Followed the exemplar pattern of renaming a code symbol that documentation still cites under its old name (the spring-boot module token rename and the uio mmap-to-mmap_prepare rename). `list_parcels_endpoint` is a unique top-level function named by qualified call form as a current API in the reference table, so renaming its definition leaves that documented identifier unresolved while the module still parses."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"artifact_class\": \"identifier\",\n  \"direction\": \"code_side\",\n  \"kind\": \"symbol_rename\",\n  \"file\": \"parcelroute/api.py\",\n  \"old\": \"parcelroute.api.list_parcels_endpoint\",\n  \"new\": \"parcelroute.api.list_parcels_handler\",\n  \"symbol\": \"list_parcels_endpoint\",\n  \"target\": \"parcelroute.api.list_parcels_endpoint()\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"| `parcelroute.api.list_parcels_endpoint()` | A payload of parcels | Answers the parcel listing route. |\",\n  \"target_claim\": \"docs/api.md names `parcelroute.api.list_parcels_endpoint()` as the current function that answers the parcel listing route.\",\n  \"exemplar_ids\": [\n    \"triaged:alert-90c9797475f8f79a\",\n    \"triaged:alert-e4613ce0dc642fdc\"\n  ],\n  \"rationale\": \"Followed the exemplar pattern of renaming a code symbol that documentation still cites under its old name (the spring-boot module token rename and the uio mmap-to-mmap_prepare rename). `list_parcels_endpoint` is a unique top-level function named by qualified call form as a current API in the reference table, so renaming its definition leaves that documented identifier unresolved while the module still parses.\"\n}",
+  "stderr_tail": ""
+}

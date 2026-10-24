@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "docs/guide.md",
+    "old": "docs/guide.md",
+    "new": "docs/user-guide.md",
+    "target": "docs/guide.md",
+    "doc_path": "README.md",
+    "doc_line_text": "- [User guide](docs/guide.md) covers chords, progressions, and the module",
+    "target_claim": "The user guide is located at docs/guide.md.",
+    "exemplar_ids": [
+      "example 1",
+      "example 3"
+    ],
+    "rationale": "The README's Documentation section presents docs/guide.md as the current location of the user guide."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "[error] provider.transport: Connection lost while reading the response: ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()\n{\n  \"injectable\": true,\n  \"drift_type\": \"path-location-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"docs/guide.md\",\n  \"old\": \"docs/guide.md\",\n  \"new\": \"docs/user-guide.md\",\n  \"target\": \"docs/guide.md\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"- [User guide](docs/guide.md) covers chords, progressions, and the module\",\n  \"target_claim\": \"The user guide is located at docs/guide.md.\",\n  \"exemplar_ids\": [\n    \"example 1\",\n    \"example 3\"\n  ],\n  \"rationale\": \"The README's Documentation section presents docs/guide.md as the current location of the user guide.\"\n}",
+  "stderr_tail": ""
+}

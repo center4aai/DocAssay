@@ -1,0 +1,52 @@
+[
+  {
+    "batch": "dbt-stale-1",
+    "findings": 32,
+    "file": "research/submission/demo/validation/real_world/triage/inbox/dbt-stale-1.jsonl"
+  },
+  {
+    "batch": "dbt-stale-2",
+    "findings": 32,
+    "file": "research/submission/demo/validation/real_world/triage/inbox/dbt-stale-2.jsonl"
+  },
+  {
+    "batch": "dbt-stale-3",
+    "findings": 31,
+    "file": "research/submission/demo/validation/real_world/triage/inbox/dbt-stale-3.jsonl"
+  },
+  {
+    "batch": "stale-other",
+    "findings": 17,
+    "file": "research/submission/demo/validation/real_world/triage/inbox/stale-other.jsonl"
+  },
+  {
+    "batch": "module-present",
+    "findings": 26,
+    "file": "research/submission/demo/validation/real_world/triage/inbox/module-present.jsonl"
+  },
+  {
+    "batch": "present-now-1",
+    "findings": 20,
+    "file": "research/submission/demo/validation/real_world/triage/inbox/present-now-1.jsonl"
+  },
+  {
+    "batch": "present-now-2",
+    "findings": 20,
+    "file": "research/submission/demo/validation/real_world/triage/inbox/present-now-2.jsonl"
+  },
+  {
+    "batch": "never-high-authority-1",
+    "findings": 40,
+    "file": "research/submission/demo/validation/real_world/triage/inbox/never-high-authority-1.jsonl"
+  },
+  {
+    "batch": "never-high-authority-2",
+    "findings": 40,
+    "file": "research/submission/demo/validation/real_world/triage/inbox/never-high-authority-2.jsonl"
+  },
+  {
+    "batch": "never-high-authority-3",
+    "findings": 39,
+    "file": "research/submission/demo/validation/real_world/triage/inbox/never-high-authority-3.jsonl"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "alert_id": "triaged:alert-5a292f75418b8682",
+  "commit_sha": "20aee967067ae4a57a29405e89300f879d209972",
+  "commit_url": "https://github.com/ollama/ollama/commit/20aee967067ae4a57a29405e89300f879d209972",
+  "files": [
+    {
+      "added": [
+        "- (Optional) VULKAN GPU support",
+        "    - [VULKAN SDK](https://vulkan.lunarg.com/sdk/home) - useful for AMD/Intel GPUs",
+        "> Building for Vulkan requires VULKAN_SDK environment variable:",
+        "> ",
+        "> PowerShell",
+        "> ```powershell",
+        "> $env:VULKAN_SDK=\"C:\\VulkanSDK\\<version>\"",
+        "> ```",
+        "> CMD",
+        "> ```cmd",
+        "> set VULKAN_SDK=C:\\VulkanSDK\\<version>",
+        "> ```",
+        "",
+        "",
+        "- (Optional) VULKAN GPU support",
+        "    - [VULKAN SDK](https://vulkan.lunarg.com/sdk/home) - useful for AMD/Intel GPUs",
+        "    - Or install via package manager: `sudo apt install vulkan-sdk` (Ubuntu/Debian) or `sudo dnf install vulkan-sdk` (Fedora/CentOS)"
+      ],
+      "hunks": 4,
+      "matched_location": true,
+      "path": "docs/development.md",
+      "removed": [
+        ""
+      ],
+      "side": "doc",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "docs/development.md"
+  ],
+  "patch_sha256": "fad36c28850fdb0d61356470aca38c6bbb744f93ccac8c38e93aecd5ea3965b2",
+  "status": "ok"
+}

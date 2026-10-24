@@ -1,0 +1,57 @@
+{
+  "alert_id": "triaged:alert-4a2f8a3f229f0f7f",
+  "commit_sha": "cf6e724e99ef288f743e63aa3b092576a6940911",
+  "commit_url": "https://github.com/Significant-Gravitas/AutoGPT/commit/cf6e724e99ef288f743e63aa3b092576a6940911",
+  "files": [
+    {
+      "added": [
+        "  id: fieldId,",
+        "  const { isArrayItem, arrayFieldHandleId } = useContext(ArrayEditorContext);",
+        "  let handleId = null;",
+        "  if (!isArrayItem) {",
+        "    handleId = generateHandleId(fieldId);",
+        "  } else {",
+        "    handleId = arrayFieldHandleId;",
+        "  }",
+        "",
+        "  const isConnected = isInputConnected(nodeId, handleId);",
+        "",
+        "    <div className=\"mt-4 w-[350px] space-y-1\">",
+        "        <label htmlFor={fieldId} className=\"flex items-center gap-1\">",
+        "            <NodeHandle",
+        "              handleId={handleId}",
+        "              isConnected={isConnected}",
+        "              side=\"left\"",
+        "            />"
+      ],
+      "hunks": 3,
+      "matched_location": true,
+      "path": "autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/nodes/templates/FieldTemplate.tsx",
+      "removed": [
+        "  id,",
+        "  const {",
+        "    isArrayItem,",
+        "    fieldKey: arrayFieldKey,",
+        "    isConnected: isArrayItemConnected,",
+        "  } = useContext(ArrayEditorContext);",
+        "  let fieldKey = generateHandleId(id);",
+        "  let isConnected = isInputConnected(nodeId, fieldKey);",
+        "  if (isArrayItem) {",
+        "    fieldKey = arrayFieldKey;",
+        "    isConnected = isArrayItemConnected;",
+        "  }",
+        "    <div className=\"mt-4 w-[400px] space-y-1\">",
+        "        <label htmlFor={id} className=\"flex items-center gap-1\">",
+        "            <NodeHandle id={fieldKey} isConnected={isConnected} side=\"left\" />"
+      ],
+      "side": "code",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/docs/FORM_CREATOR.md",
+    "autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/nodes/templates/FieldTemplate.tsx"
+  ],
+  "patch_sha256": "be4b5a9c11e86ad037cefdbb4e0720aeed9995349823a259468d8a5c1d6073e8",
+  "status": "ok"
+}

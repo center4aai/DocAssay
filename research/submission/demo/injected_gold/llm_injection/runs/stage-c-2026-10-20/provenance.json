@@ -1,0 +1,1354 @@
+[
+  {
+    "name": "contourkit__path-location-drift__s1_0",
+    "repo": "contourkit",
+    "snapshot_id": "contourkit__path-location-drift__s1_0",
+    "drift_type": "path-location-drift",
+    "seed": 1,
+    "prompt_sha256": "338c360670415271d0acca19b7e864c0adc44418bcdf06d1bc1dc677005d61e2",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-20bd5530abe7bd74",
+      "triaged:alert-3d74e717cf488ed1",
+      "triaged:alert-76cbc1311ef22f89"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "contourkit__path-location-drift__s2_0",
+    "repo": "contourkit",
+    "snapshot_id": "contourkit__path-location-drift__s2_0",
+    "drift_type": "path-location-drift",
+    "seed": 2,
+    "prompt_sha256": "736f380ac05427907e19c6a9c201973bdafc718e2d0dd0b72a923b2b08195ca8",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-60fec720fe85f3eb",
+      "triaged:alert-aa7a043237abb063"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "contourkit__path-location-drift__s3_0",
+    "repo": "contourkit",
+    "snapshot_id": "contourkit__path-location-drift__s3_0",
+    "drift_type": "path-location-drift",
+    "seed": 3,
+    "prompt_sha256": "ed38fc1ae94a898b8b485a6c7063b2d152b8497dcbc1552a04f9c13612e19c3f",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-11b43e8e022f032c",
+      "triaged:alert-20bd5530abe7bd74",
+      "triaged:alert-60fec720fe85f3eb"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "contourkit__identifier-drift__s1_0",
+    "repo": "contourkit",
+    "snapshot_id": "contourkit__identifier-drift__s1_0",
+    "drift_type": "identifier-drift",
+    "seed": 1,
+    "prompt_sha256": "c5aab47ec39376d530cd2e6a8342fa11430e6d88cae93a93bd850990eb861a7b",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:ident-casehub-incident-summary",
+      "triaged:ident-immosquare-my-ip",
+      "triaged:ident-nseindia-list-sme"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "contourkit__identifier-drift__s2_0",
+    "repo": "contourkit",
+    "snapshot_id": "contourkit__identifier-drift__s2_0",
+    "drift_type": "identifier-drift",
+    "seed": 2,
+    "prompt_sha256": "e4dd9c9200b3f3fb24a4d54226b121ac99179fbe05c934560321fc56447775e0",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:ident-silo-refresh-devices"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "contourkit__identifier-drift__s3_0",
+    "repo": "contourkit",
+    "snapshot_id": "contourkit__identifier-drift__s3_0",
+    "drift_type": "identifier-drift",
+    "seed": 3,
+    "prompt_sha256": "86f2cda8f57d8bf95e6de0fa92177c6206cac910ba6b931b50efcda67770a2a3",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-immosquare-my-ip",
+      "triaged:ident-silo-refresh-devices"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "contourkit__removed-referent-drift__s1_0",
+    "repo": "contourkit",
+    "snapshot_id": "contourkit__removed-referent-drift__s1_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 1,
+    "prompt_sha256": "9bb8e0c4372d298fda6f68f2333e3df103f2c94b7437e82c84d0b5ea540b847c",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-e1e71cc1ff2a6985",
+      "triaged:alert-f16567688f5ba11f",
+      "triaged:alert-f496c550f01827a6"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "contourkit__removed-referent-drift__s2_0",
+    "repo": "contourkit",
+    "snapshot_id": "contourkit__removed-referent-drift__s2_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 2,
+    "prompt_sha256": "f6b9e5a3539da4eb684f9b05eca764e2154b5e13ee0bf01343d88aecb24fef6c",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-2bfdc6ac8403e47a",
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-e1e71cc1ff2a6985"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "contourkit__removed-referent-drift__s3_0",
+    "repo": "contourkit",
+    "snapshot_id": "contourkit__removed-referent-drift__s3_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 3,
+    "prompt_sha256": "2f401779952e8735360d57a644d03e144e922a60863cb43fec1f1a0b22e02ceb",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-afab96e198ea0897",
+      "triaged:alert-e1e71cc1ff2a6985"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "contourkit__external-dependency-drift__s1_0",
+    "repo": "contourkit",
+    "snapshot_id": "contourkit__external-dependency-drift__s1_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 1,
+    "prompt_sha256": "ccd554a76727531b8b951a830fd92a7745f38952e6a2ddddce30068c7bc830d4",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-1ccd5743d77a06ff",
+      "triaged:alert-39d71642fff1897d",
+      "triaged:alert-3f0b25c9b7c723d7",
+      "triaged:alert-d31b5ec93fbc2072"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "contourkit__external-dependency-drift__s2_0",
+    "repo": "contourkit",
+    "snapshot_id": "contourkit__external-dependency-drift__s2_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 2,
+    "prompt_sha256": "5ba516912457e95a1f16b337ccb52876ecc5b548e102a9732802de4e54a16cba",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-2daea4b18ad37cf7",
+      "triaged:alert-39d71642fff1897d",
+      "triaged:alert-5a292f75418b8682",
+      "triaged:alert-f6a52da81652ebc9"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "contourkit__external-dependency-drift__s3_0",
+    "repo": "contourkit",
+    "snapshot_id": "contourkit__external-dependency-drift__s3_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 3,
+    "prompt_sha256": "17f5d0c84350dae02d90925d1ebefedcff1636a5fc2e7803e379eef1b1adefaf",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-2daea4b18ad37cf7",
+      "triaged:alert-39d71642fff1897d",
+      "triaged:alert-d31b5ec93fbc2072",
+      "triaged:alert-f2c043ee40dcc2b0"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "tileplan__path-location-drift__s1_0",
+    "repo": "tileplan",
+    "snapshot_id": "tileplan__path-location-drift__s1_0",
+    "drift_type": "path-location-drift",
+    "seed": 1,
+    "prompt_sha256": "ef25130bbb2e7ca2ba282b27a611bf88e058d07904ff07e5c25a2cfe6a77a368",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-20bd5530abe7bd74",
+      "triaged:alert-3268c8f275480e9b",
+      "triaged:alert-51d4fae83da0648b"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "tileplan__path-location-drift__s2_0",
+    "repo": "tileplan",
+    "snapshot_id": "tileplan__path-location-drift__s2_0",
+    "drift_type": "path-location-drift",
+    "seed": 2,
+    "prompt_sha256": "f02367cb08c0624b76ca4ff437000dc4bb269f21527514c7833c7fff2505bacd",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-11b43e8e022f032c",
+      "triaged:alert-20bd5530abe7bd74",
+      "triaged:alert-3268c8f275480e9b",
+      "triaged:alert-527fdf20b19b2497"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "tileplan__path-location-drift__s3_0",
+    "repo": "tileplan",
+    "snapshot_id": "tileplan__path-location-drift__s3_0",
+    "drift_type": "path-location-drift",
+    "seed": 3,
+    "prompt_sha256": "23a00a932603b378d5c92fa086b6567f05d8c7c528c5c0c382d75817ec3030ef",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-3d74e717cf488ed1",
+      "triaged:alert-51d4fae83da0648b",
+      "triaged:alert-60fec720fe85f3eb",
+      "triaged:alert-aa7a043237abb063"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "tileplan__identifier-drift__s1_0",
+    "repo": "tileplan",
+    "snapshot_id": "tileplan__identifier-drift__s1_0",
+    "drift_type": "identifier-drift",
+    "seed": 1,
+    "prompt_sha256": "2ba8690e748a763c1e9848b151f1b947d035860f71e2ce6e93d31c2b38ea0f36",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-casehub-incident-summary",
+      "triaged:ident-nseindia-list-sme"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "tileplan__identifier-drift__s2_0",
+    "repo": "tileplan",
+    "snapshot_id": "tileplan__identifier-drift__s2_0",
+    "drift_type": "identifier-drift",
+    "seed": 2,
+    "prompt_sha256": "cab7ed2e67449d976ea755c05925c1c58063c84ac525827ffaef46abfa69aaff",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-immosquare-my-ip",
+      "triaged:ident-nseindia-list-sme"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "tileplan__identifier-drift__s3_0",
+    "repo": "tileplan",
+    "snapshot_id": "tileplan__identifier-drift__s3_0",
+    "drift_type": "identifier-drift",
+    "seed": 3,
+    "prompt_sha256": "7e913a4999531ec97f11c2c298395eddfaf888287f4d478c0a269efc6cb45c0e",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:ident-immosquare-my-ip"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "tileplan__removed-referent-drift__s1_0",
+    "repo": "tileplan",
+    "snapshot_id": "tileplan__removed-referent-drift__s1_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 1,
+    "prompt_sha256": "926762fe51ec2247d8506930748a68cfe25b5413cf97ce27eb3f9a35813d4822",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-afab96e198ea0897",
+      "triaged:alert-f16567688f5ba11f"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "tileplan__removed-referent-drift__s2_0",
+    "repo": "tileplan",
+    "snapshot_id": "tileplan__removed-referent-drift__s2_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 2,
+    "prompt_sha256": "e6c4256d62b7e3c2c5b08e78695d52436ee1b0f809e47f93eace9876656d8599",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-f05c17f47af4d5e0",
+      "triaged:alert-f16567688f5ba11f",
+      "triaged:alert-f496c550f01827a6"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "tileplan__removed-referent-drift__s3_0",
+    "repo": "tileplan",
+    "snapshot_id": "tileplan__removed-referent-drift__s3_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 3,
+    "prompt_sha256": "babe268c33a955e88aecf17da8dc9e777ec8813df2c9a00fe87e57f56a6b92d5",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-2bfdc6ac8403e47a",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-e1e71cc1ff2a6985",
+      "triaged:alert-f16567688f5ba11f"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "tileplan__external-dependency-drift__s1_0",
+    "repo": "tileplan",
+    "snapshot_id": "tileplan__external-dependency-drift__s1_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 1,
+    "prompt_sha256": "74213894d2a43c3ac68886b2b7f3f944594200c8e88205f361726f234f110249",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-2daea4b18ad37cf7",
+      "triaged:alert-39d71642fff1897d",
+      "triaged:alert-3f0b25c9b7c723d7",
+      "triaged:alert-e0fb492470f8068d"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verify_failed",
+    "verifier": "rejected: constraint is None, expected '>=999'"
+  },
+  {
+    "name": "tileplan__external-dependency-drift__s2_0",
+    "repo": "tileplan",
+    "snapshot_id": "tileplan__external-dependency-drift__s2_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 2,
+    "prompt_sha256": "88a85ae353970bbe5b135e156c493339a3b2fe53e0ce1fd64850787d53c42b2b",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-d31b5ec93fbc2072",
+      "triaged:alert-e0fb492470f8068d",
+      "triaged:alert-f2c043ee40dcc2b0",
+      "triaged:alert-f6a52da81652ebc9"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verify_failed",
+    "verifier": "rejected: constraint is None, expected '>=999'"
+  },
+  {
+    "name": "tileplan__external-dependency-drift__s3_0",
+    "repo": "tileplan",
+    "snapshot_id": "tileplan__external-dependency-drift__s3_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 3,
+    "prompt_sha256": "92579d0e15de1d9f47862d55faacdd0eff7a8340cac23949291de1bfa9f7f5b7",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-5a292f75418b8682",
+      "triaged:alert-e0fb492470f8068d",
+      "triaged:alert-f2c043ee40dcc2b0",
+      "triaged:alert-fed7183254dcae14"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verify_failed",
+    "verifier": "rejected: constraint is None, expected '>=999'"
+  },
+  {
+    "name": "morpheme__path-location-drift__s1_0",
+    "repo": "morpheme",
+    "snapshot_id": "morpheme__path-location-drift__s1_0",
+    "drift_type": "path-location-drift",
+    "seed": 1,
+    "prompt_sha256": "d2a24c21a489744f67f7b2c4d837e76d012f0ce0f9913a95bbba6cddfb216094",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-11b43e8e022f032c",
+      "triaged:alert-51d4fae83da0648b",
+      "triaged:alert-60fec720fe85f3eb"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "morpheme__path-location-drift__s2_0",
+    "repo": "morpheme",
+    "snapshot_id": "morpheme__path-location-drift__s2_0",
+    "drift_type": "path-location-drift",
+    "seed": 2,
+    "prompt_sha256": "5a2f5e8c58d8dcfd89f7e91d77f9d816f485f6c1ea3472c621e92f65d5d2f785",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-11b43e8e022f032c",
+      "triaged:alert-3d74e717cf488ed1",
+      "triaged:alert-60fec720fe85f3eb"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "morpheme__path-location-drift__s3_0",
+    "repo": "morpheme",
+    "snapshot_id": "morpheme__path-location-drift__s3_0",
+    "drift_type": "path-location-drift",
+    "seed": 3,
+    "prompt_sha256": "1610f28ad2bec37cfc48e3c5f7f6349fd9c4fd6f9fb85188734b3dfcb3fe228e",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-350586bc1ca4547a",
+      "triaged:alert-60fec720fe85f3eb",
+      "triaged:alert-76cbc1311ef22f89",
+      "triaged:alert-aa7a043237abb063"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "morpheme__identifier-drift__s1_0",
+    "repo": "morpheme",
+    "snapshot_id": "morpheme__identifier-drift__s1_0",
+    "drift_type": "identifier-drift",
+    "seed": 1,
+    "prompt_sha256": "505762c56273def93a6326aabc501ab9d59e2e66cda4eda5bcb03794f51ddc07",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-immosquare-my-ip",
+      "triaged:ident-silo-refresh-devices"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "morpheme__identifier-drift__s2_0",
+    "repo": "morpheme",
+    "snapshot_id": "morpheme__identifier-drift__s2_0",
+    "drift_type": "identifier-drift",
+    "seed": 2,
+    "prompt_sha256": "ada7d53f2b525d7d5bdf07bf38469c6c56dd168c25d8fd4b5422e7bd09deabe1",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:ident-casehub-incident-summary"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "morpheme__identifier-drift__s3_0",
+    "repo": "morpheme",
+    "snapshot_id": "morpheme__identifier-drift__s3_0",
+    "drift_type": "identifier-drift",
+    "seed": 3,
+    "prompt_sha256": "3407066b72998bb55cfd1a79350bdaa27a2b632da14c9c4ff7380352c20b3627",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-immosquare-my-ip",
+      "triaged:ident-nseindia-list-sme"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "morpheme__removed-referent-drift__s1_0",
+    "repo": "morpheme",
+    "snapshot_id": "morpheme__removed-referent-drift__s1_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 1,
+    "prompt_sha256": "957912ee1e4aa6404e28155b7a3fb4e6b0c3910c097ce22f686ccde6cdb8ffc1",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-e1e71cc1ff2a6985",
+      "triaged:alert-f496c550f01827a6"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "morpheme__removed-referent-drift__s2_0",
+    "repo": "morpheme",
+    "snapshot_id": "morpheme__removed-referent-drift__s2_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 2,
+    "prompt_sha256": "2cb93ec99e906f3e529905c32cf75e947ce45bfb2d0ec8072b3bfcf1ea1ec642",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-e1e71cc1ff2a6985",
+      "triaged:alert-f05c17f47af4d5e0"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "morpheme__removed-referent-drift__s3_0",
+    "repo": "morpheme",
+    "snapshot_id": "morpheme__removed-referent-drift__s3_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 3,
+    "prompt_sha256": "19728f37fd5c80f4b7e332b60e2d4e920116012ee957dab2b4ab0a15b65e5289",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-f16567688f5ba11f",
+      "triaged:alert-f496c550f01827a6"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "morpheme__external-dependency-drift__s1_0",
+    "repo": "morpheme",
+    "snapshot_id": "morpheme__external-dependency-drift__s1_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 1,
+    "prompt_sha256": "df07562199118f8da99457e13ed088ff65eacdb456f339272221ea1ac8642447",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-39d71642fff1897d",
+      "triaged:alert-d31b5ec93fbc2072",
+      "triaged:alert-f6a52da81652ebc9",
+      "triaged:alert-fed7183254dcae14"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "morpheme__external-dependency-drift__s2_0",
+    "repo": "morpheme",
+    "snapshot_id": "morpheme__external-dependency-drift__s2_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 2,
+    "prompt_sha256": "cde2f2f1a5a44705b764256a5fe10f11c78ef8aca979bc23ff5e5c5f06ffb018",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-1ccd5743d77a06ff",
+      "triaged:alert-618f0307eb26882e",
+      "triaged:alert-f6a52da81652ebc9",
+      "triaged:alert-fed7183254dcae14"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "morpheme__external-dependency-drift__s3_0",
+    "repo": "morpheme",
+    "snapshot_id": "morpheme__external-dependency-drift__s3_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 3,
+    "prompt_sha256": "f1d42c648b78be9ba07040bc915af6ff34af6e9bdddec4ef5853746213a82f91",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-5a292f75418b8682",
+      "triaged:alert-618f0307eb26882e",
+      "triaged:alert-f2c043ee40dcc2b0",
+      "triaged:alert-f6a52da81652ebc9"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "bibscan__path-location-drift__s1_0",
+    "repo": "bibscan",
+    "snapshot_id": "bibscan__path-location-drift__s1_0",
+    "drift_type": "path-location-drift",
+    "seed": 1,
+    "prompt_sha256": "9937a821ac44af42f7f4e83e598380984332f23e31f237596054b8ac77148197",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-11b43e8e022f032c",
+      "triaged:alert-3d74e717cf488ed1",
+      "triaged:alert-51d4fae83da0648b",
+      "triaged:alert-527fdf20b19b2497"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "bibscan__path-location-drift__s2_0",
+    "repo": "bibscan",
+    "snapshot_id": "bibscan__path-location-drift__s2_0",
+    "drift_type": "path-location-drift",
+    "seed": 2,
+    "prompt_sha256": "69833ca3084b56913f459560a6bd1d1b632b1d0df03a18f158e7a7a1d7135efe",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-20bd5530abe7bd74",
+      "triaged:alert-527fdf20b19b2497"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "bibscan__path-location-drift__s3_0",
+    "repo": "bibscan",
+    "snapshot_id": "bibscan__path-location-drift__s3_0",
+    "drift_type": "path-location-drift",
+    "seed": 3,
+    "prompt_sha256": "3bb933479d403e2e6c93f16fef15cc49c6184ea9de10687b958b26f0b2ad4f11",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-3268c8f275480e9b",
+      "triaged:alert-51d4fae83da0648b",
+      "triaged:alert-76cbc1311ef22f89"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "bibscan__identifier-drift__s1_0",
+    "repo": "bibscan",
+    "snapshot_id": "bibscan__identifier-drift__s1_0",
+    "drift_type": "identifier-drift",
+    "seed": 1,
+    "prompt_sha256": "eec0ffff6bc10c842921780b8c48eac57d4d5f48459ab4322f440c9741ea8b98",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-immosquare-my-ip"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "bibscan__identifier-drift__s2_0",
+    "repo": "bibscan",
+    "snapshot_id": "bibscan__identifier-drift__s2_0",
+    "drift_type": "identifier-drift",
+    "seed": 2,
+    "prompt_sha256": "0d5e172078e750e17fe1750ee0aa57dd8ac86c1b01d1fff8ba3a060924bba82b",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-casehub-incident-summary"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "bibscan__identifier-drift__s3_0",
+    "repo": "bibscan",
+    "snapshot_id": "bibscan__identifier-drift__s3_0",
+    "drift_type": "identifier-drift",
+    "seed": 3,
+    "prompt_sha256": "b7e0deedb156653ced981d509b6c1463e66433be840a2a9c9a1adbd98ac8fe6f",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-nseindia-list-sme",
+      "triaged:ident-silo-refresh-devices"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "bibscan__removed-referent-drift__s1_0",
+    "repo": "bibscan",
+    "snapshot_id": "bibscan__removed-referent-drift__s1_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 1,
+    "prompt_sha256": "e2de8eb382cf9ceff6f7288b87d02d2bdf68d44390f2ee221f1e553422cfeba6",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-2bfdc6ac8403e47a",
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-afab96e198ea0897",
+      "triaged:alert-f05c17f47af4d5e0"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "bibscan__removed-referent-drift__s2_0",
+    "repo": "bibscan",
+    "snapshot_id": "bibscan__removed-referent-drift__s2_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 2,
+    "prompt_sha256": "3989dc692789598258b6ffb6025a17f67259137770ba0afab7abf9cb761b6755",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-e1e71cc1ff2a6985",
+      "triaged:alert-f16567688f5ba11f"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "bibscan__removed-referent-drift__s3_0",
+    "repo": "bibscan",
+    "snapshot_id": "bibscan__removed-referent-drift__s3_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 3,
+    "prompt_sha256": "d2baa7d63209aa377e349a8492d1b9a13f9552ff3a854be1639313c42aec2e5b",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-afab96e198ea0897",
+      "triaged:alert-e1e71cc1ff2a6985",
+      "triaged:alert-f496c550f01827a6"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "bibscan__external-dependency-drift__s1_0",
+    "repo": "bibscan",
+    "snapshot_id": "bibscan__external-dependency-drift__s1_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 1,
+    "prompt_sha256": "b269d0787502bd1a300d0a19afce4e72cd150bfdd3b8322ee21726d8959ac841",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-1ccd5743d77a06ff",
+      "triaged:alert-39d71642fff1897d",
+      "triaged:alert-e0fb492470f8068d",
+      "triaged:alert-f6a52da81652ebc9"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "bibscan__external-dependency-drift__s2_0",
+    "repo": "bibscan",
+    "snapshot_id": "bibscan__external-dependency-drift__s2_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 2,
+    "prompt_sha256": "fe9224b116e35b8ff9d87a0231c5add0d70f8109b7610bc4a49b11d6a6637d19",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-5a292f75418b8682",
+      "triaged:alert-618f0307eb26882e",
+      "triaged:alert-f6a52da81652ebc9",
+      "triaged:alert-fed7183254dcae14"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "bibscan__external-dependency-drift__s3_0",
+    "repo": "bibscan",
+    "snapshot_id": "bibscan__external-dependency-drift__s3_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 3,
+    "prompt_sha256": "801e2bfad71a4b82beb2f65cdce628af5b683b26d1329477b9d480b8cdd2f867",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-39d71642fff1897d",
+      "triaged:alert-5a292f75418b8682",
+      "triaged:alert-d31b5ec93fbc2072",
+      "triaged:alert-fed7183254dcae14"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "serialscope__path-location-drift__s1_0",
+    "repo": "serialscope",
+    "snapshot_id": "serialscope__path-location-drift__s1_0",
+    "drift_type": "path-location-drift",
+    "seed": 1,
+    "prompt_sha256": "153f00b946c4dc694d5010f53a658cb84d5b0b6dee8838b71926400b084765a3",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-20bd5530abe7bd74",
+      "triaged:alert-3268c8f275480e9b",
+      "triaged:alert-aa7a043237abb063"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "serialscope__path-location-drift__s2_0",
+    "repo": "serialscope",
+    "snapshot_id": "serialscope__path-location-drift__s2_0",
+    "drift_type": "path-location-drift",
+    "seed": 2,
+    "prompt_sha256": "88706f4e8d5d2e94b5e2b4d4e0d89ed5bbd9c5a2d99870eb519f98745002ebcf",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-11b43e8e022f032c",
+      "triaged:alert-20bd5530abe7bd74",
+      "triaged:alert-350586bc1ca4547a",
+      "triaged:alert-527fdf20b19b2497"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "serialscope__path-location-drift__s3_0",
+    "repo": "serialscope",
+    "snapshot_id": "serialscope__path-location-drift__s3_0",
+    "drift_type": "path-location-drift",
+    "seed": 3,
+    "prompt_sha256": "0bc9237f25c58a229305dbe4e40dce27e6823d9d7325da82e7947a2b27400ef6",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-3268c8f275480e9b",
+      "triaged:alert-aa7a043237abb063"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "serialscope__identifier-drift__s1_0",
+    "repo": "serialscope",
+    "snapshot_id": "serialscope__identifier-drift__s1_0",
+    "drift_type": "identifier-drift",
+    "seed": 1,
+    "prompt_sha256": "4b517b66d7068433d8fc7c3fbae42e08a200649bbfda57ffb191a18e17d2f30e",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:ident-casehub-incident-summary",
+      "triaged:ident-immosquare-my-ip",
+      "triaged:ident-nseindia-list-sme"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "serialscope__identifier-drift__s2_0",
+    "repo": "serialscope",
+    "snapshot_id": "serialscope__identifier-drift__s2_0",
+    "drift_type": "identifier-drift",
+    "seed": 2,
+    "prompt_sha256": "5b294e28e146965e608a1eac4ef0147bb5eb001c5cc0e0de8618c0f71c5a38e6",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-4e6ffd8b9ad6347e",
+      "triaged:ident-immosquare-my-ip",
+      "triaged:ident-silo-refresh-devices"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "serialscope__identifier-drift__s3_0",
+    "repo": "serialscope",
+    "snapshot_id": "serialscope__identifier-drift__s3_0",
+    "drift_type": "identifier-drift",
+    "seed": 3,
+    "prompt_sha256": "fef11b5ad86c3a87ce3de4098d174ff2482c59a389f4cec4e8e01dc01126d4a1",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:ident-casehub-incident-summary",
+      "triaged:ident-immosquare-my-ip",
+      "triaged:ident-nseindia-list-sme"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "serialscope__removed-referent-drift__s1_0",
+    "repo": "serialscope",
+    "snapshot_id": "serialscope__removed-referent-drift__s1_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 1,
+    "prompt_sha256": "2bf1d48dc49964d9782c9e9dcd4b7db351f1cce4bfdfa2f7a6df683c9388a01f",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-afab96e198ea0897",
+      "triaged:alert-e1e71cc1ff2a6985",
+      "triaged:alert-f16567688f5ba11f"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "serialscope__removed-referent-drift__s2_0",
+    "repo": "serialscope",
+    "snapshot_id": "serialscope__removed-referent-drift__s2_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 2,
+    "prompt_sha256": "d5b05c203cfdc8756a1d418b6f7eea07ee5e04d0ebcc3c62539ce85cc0197be8",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-2bfdc6ac8403e47a",
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-f16567688f5ba11f"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "serialscope__removed-referent-drift__s3_0",
+    "repo": "serialscope",
+    "snapshot_id": "serialscope__removed-referent-drift__s3_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 3,
+    "prompt_sha256": "43c88aadc22015cd76276c69e84d3cbe43c1120ac88071a8c3ef39b0e1f7c984",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-2bfdc6ac8403e47a",
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-f496c550f01827a6"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "serialscope__external-dependency-drift__s1_0",
+    "repo": "serialscope",
+    "snapshot_id": "serialscope__external-dependency-drift__s1_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 1,
+    "prompt_sha256": "0387c01988ed56635f4276783fa6647851112f1aee9ec820c5c38477aaf4f894",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-5a292f75418b8682",
+      "triaged:alert-d31b5ec93fbc2072",
+      "triaged:alert-e0fb492470f8068d",
+      "triaged:alert-fed7183254dcae14"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "serialscope__external-dependency-drift__s2_0",
+    "repo": "serialscope",
+    "snapshot_id": "serialscope__external-dependency-drift__s2_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 2,
+    "prompt_sha256": "482eb4fc2d018d5dd0f65aade24905ca69e7654fcc1e72995d6eae7636c9d419",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-5a292f75418b8682",
+      "triaged:alert-e0fb492470f8068d",
+      "triaged:alert-f6a52da81652ebc9",
+      "triaged:alert-fed7183254dcae14"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "serialscope__external-dependency-drift__s3_0",
+    "repo": "serialscope",
+    "snapshot_id": "serialscope__external-dependency-drift__s3_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 3,
+    "prompt_sha256": "98d2771281c15fa83e5def179af56d3d546d93e3b272c7f5e6f81be3a22e8f2a",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-1ccd5743d77a06ff",
+      "triaged:alert-2daea4b18ad37cf7",
+      "triaged:alert-d31b5ec93fbc2072",
+      "triaged:alert-fed7183254dcae14"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "sensorbus__path-location-drift__s1_0",
+    "repo": "sensorbus",
+    "snapshot_id": "sensorbus__path-location-drift__s1_0",
+    "drift_type": "path-location-drift",
+    "seed": 1,
+    "prompt_sha256": "16d444f137401ed429af0aa57177ad0b9ab9cbcc90a7c1f44546edca3db2414c",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-20bd5530abe7bd74",
+      "triaged:alert-3268c8f275480e9b",
+      "triaged:alert-350586bc1ca4547a",
+      "triaged:alert-3d74e717cf488ed1"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "sensorbus__path-location-drift__s2_0",
+    "repo": "sensorbus",
+    "snapshot_id": "sensorbus__path-location-drift__s2_0",
+    "drift_type": "path-location-drift",
+    "seed": 2,
+    "prompt_sha256": "f41ae4e0faa1a030b971b2b08df5ef43a3dbc01f705e013503a4df226aea59ed",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-3268c8f275480e9b",
+      "triaged:alert-51d4fae83da0648b"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "sensorbus__path-location-drift__s3_0",
+    "repo": "sensorbus",
+    "snapshot_id": "sensorbus__path-location-drift__s3_0",
+    "drift_type": "path-location-drift",
+    "seed": 3,
+    "prompt_sha256": "146c5d31dc5089d2e23e0cd93ebb393c4569f373303ab9683814c8bb7c1fc32e",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-20bd5530abe7bd74",
+      "triaged:alert-3d74e717cf488ed1",
+      "triaged:alert-60fec720fe85f3eb"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "path_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "sensorbus__identifier-drift__s1_0",
+    "repo": "sensorbus",
+    "snapshot_id": "sensorbus__identifier-drift__s1_0",
+    "drift_type": "identifier-drift",
+    "seed": 1,
+    "prompt_sha256": "7dd6d078866168f85547af91051d4b909030bb5e3b01ed39d0d6ecba2ba2047e",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:ident-immosquare-my-ip",
+      "triaged:ident-silo-refresh-devices"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "sensorbus__identifier-drift__s2_0",
+    "repo": "sensorbus",
+    "snapshot_id": "sensorbus__identifier-drift__s2_0",
+    "drift_type": "identifier-drift",
+    "seed": 2,
+    "prompt_sha256": "bc22607e3cb755df50a549dbe7f1b98bbb7e7faf57fbcac11c1521577a5f9371",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-immosquare-my-ip",
+      "triaged:ident-silo-refresh-devices"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "sensorbus__identifier-drift__s3_0",
+    "repo": "sensorbus",
+    "snapshot_id": "sensorbus__identifier-drift__s3_0",
+    "drift_type": "identifier-drift",
+    "seed": 3,
+    "prompt_sha256": "916e978eb2553d4c584154832e131d2cc05fd9079a1c46ac2f6051ef15b0f9a8",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-4a2f8a3f229f0f7f",
+      "triaged:alert-e4613ce0dc642fdc",
+      "triaged:ident-nseindia-list-sme",
+      "triaged:ident-silo-refresh-devices"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_rename",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "sensorbus__removed-referent-drift__s1_0",
+    "repo": "sensorbus",
+    "snapshot_id": "sensorbus__removed-referent-drift__s1_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 1,
+    "prompt_sha256": "364f72c4494e262ba586295ce7482b90cefa016f80099a78ce5e863f3eaf0a5c",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-e1e71cc1ff2a6985",
+      "triaged:alert-f05c17f47af4d5e0"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "sensorbus__removed-referent-drift__s2_0",
+    "repo": "sensorbus",
+    "snapshot_id": "sensorbus__removed-referent-drift__s2_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 2,
+    "prompt_sha256": "b61e96a9c71cac221d8f8eb7b91a553094dac0cc65a662a6ae714357ec9fc94e",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-e1e71cc1ff2a6985",
+      "triaged:alert-f05c17f47af4d5e0",
+      "triaged:alert-f496c550f01827a6"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "sensorbus__removed-referent-drift__s3_0",
+    "repo": "sensorbus",
+    "snapshot_id": "sensorbus__removed-referent-drift__s3_0",
+    "drift_type": "removed-referent-drift",
+    "seed": 3,
+    "prompt_sha256": "1e17edd65c9d208a0ae61a4b7c50f68b2f9a59e92cb01d4c8ed9cbf788eb20b7",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-2bfdc6ac8403e47a",
+      "triaged:alert-ac78fb17df858a0b",
+      "triaged:alert-e1e71cc1ff2a6985",
+      "triaged:alert-f16567688f5ba11f"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "symbol_delete",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "sensorbus__external-dependency-drift__s1_0",
+    "repo": "sensorbus",
+    "snapshot_id": "sensorbus__external-dependency-drift__s1_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 1,
+    "prompt_sha256": "7c40ec64c31c6771b220105a84125062df67c9079d34ad50cf4beab2ca4358c6",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-618f0307eb26882e",
+      "triaged:alert-d31b5ec93fbc2072",
+      "triaged:alert-e0fb492470f8068d",
+      "triaged:alert-f6a52da81652ebc9"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "sensorbus__external-dependency-drift__s2_0",
+    "repo": "sensorbus",
+    "snapshot_id": "sensorbus__external-dependency-drift__s2_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 2,
+    "prompt_sha256": "26983eb00f4e8acd8cab09591e8c7a56531385f37a3d2392a76840acc094438b",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-5a292f75418b8682",
+      "triaged:alert-d31b5ec93fbc2072",
+      "triaged:alert-e0fb492470f8068d",
+      "triaged:alert-f2c043ee40dcc2b0"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verified",
+    "verifier": "ok"
+  },
+  {
+    "name": "sensorbus__external-dependency-drift__s3_0",
+    "repo": "sensorbus",
+    "snapshot_id": "sensorbus__external-dependency-drift__s3_0",
+    "drift_type": "external-dependency-drift",
+    "seed": 3,
+    "prompt_sha256": "748b27a471fbac2890c8f8bb3efdc72ffe8c1778541c0cd419f748d6b2246241",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c",
+    "exemplar_ids": [
+      "triaged:alert-2daea4b18ad37cf7",
+      "triaged:alert-3f0b25c9b7c723d7",
+      "triaged:alert-5a292f75418b8682",
+      "triaged:alert-e0fb492470f8068d"
+    ],
+    "injector_model": "opencode-go/deepseek-v4.1-flash",
+    "kind": "dependency_version_break",
+    "status": "verified",
+    "verifier": "ok"
+  }
+]

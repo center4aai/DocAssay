@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "palette/colors.py",
+    "old": "parse_color",
+    "new": "parse_color_spec",
+    "symbol": "parse_color",
+    "target": "parse_color",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `parse_color() -> Color`",
+    "target_claim": "The API reference presents `parse_color() -> Color` as a current public function in `palette.colors`.",
+    "exemplar_ids": [
+      "example 4"
+    ],
+    "rationale": "The API reference lists `parse_color` as the current public entry point for building a `Color`, so renaming its definition naturally leaves the documentation stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"palette/colors.py\", \"old\": \"parse_color\", \"new\": \"parse_color_spec\", \"symbol\": \"parse_color\", \"target\": \"parse_color\", \"doc_path\": \"docs/api.md\", \"doc_line_text\": \"### `parse_color() -> Color`\", \"target_claim\": \"The API reference presents `parse_color() -> Color` as a current public function in `palette.colors`.\", \"exemplar_ids\": [\"example 4\"], \"rationale\": \"The API reference lists `parse_color` as the current public entry point for building a `Color`, so renaming its definition naturally leaves the documentation stale.\"}",
+  "stderr_tail": ""
+}

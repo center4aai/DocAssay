@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "artifact_class": "path",
+    "direction": "code_side",
+    "kind": "path_rename",
+    "file": "docs/configuration.md",
+    "old": "docs/configuration.md",
+    "new": "docs/configuration-reference.md",
+    "target": "docs/configuration.md",
+    "doc_path": "README.md",
+    "doc_line_text": "- docs/configuration.md covers the environment variables and the store layout.",
+    "target_claim": "The README's documentation map says the configuration guide is located at docs/configuration.md.",
+    "exemplar_ids": [
+      "example 1",
+      "example 3"
+    ],
+    "rationale": "Following the linked-file pattern in the exemplars, I selected a current documentation path named in the README and renamed the underlying guide so the reference no longer resolves."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"path-location-drift\",\n  \"artifact_class\": \"path\",\n  \"direction\": \"code_side\",\n  \"kind\": \"path_rename\",\n  \"file\": \"docs/configuration.md\",\n  \"old\": \"docs/configuration.md\",\n  \"new\": \"docs/configuration-reference.md\",\n  \"target\": \"docs/configuration.md\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"- docs/configuration.md covers the environment variables and the store layout.\",\n  \"target_claim\": \"The README's documentation map says the configuration guide is located at docs/configuration.md.\",\n  \"exemplar_ids\": [\n    \"example 1\",\n    \"example 3\"\n  ],\n  \"rationale\": \"Following the linked-file pattern in the exemplars, I selected a current documentation path named in the README and renamed the underlying guide so the reference no longer resolves.\"\n}",
+  "stderr_tail": ""
+}

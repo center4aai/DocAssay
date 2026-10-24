@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "artifact_class": "referent",
+    "direction": "code_side",
+    "kind": "symbol_delete",
+    "file": "parcelroute/api.py",
+    "old": "parcelroute.api.build_router",
+    "new": null,
+    "symbol": "build_router",
+    "target": "parcelroute.api.build_router",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "| `/v1/health` | `parcelroute.api.build_router` | Reports the health of the running route table. |",
+    "target_claim": "The `/v1/health` endpoint is handled by `parcelroute.api.build_router`.",
+    "exemplar_ids": [
+      "triaged:alert-58d9824e5aed2a9b",
+      "triaged:alert-790cabcef1be9244",
+      "triaged:alert-ac78fb17df858a0b"
+    ],
+    "rationale": "Followed the exemplar pattern of removing a top-level code symbol that documentation still advertises as a current API by a qualified name. `build_router` is defined only in `parcelroute/api.py` and is not imported or called elsewhere, so deleting its definition leaves the module parseable while the API reference's handler claim becomes stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"artifact_class\": \"referent\",\n  \"direction\": \"code_side\",\n  \"kind\": \"symbol_delete\",\n  \"file\": \"parcelroute/api.py\",\n  \"old\": \"parcelroute.api.build_router\",\n  \"new\": null,\n  \"symbol\": \"build_router\",\n  \"target\": \"parcelroute.api.build_router\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"| `/v1/health` | `parcelroute.api.build_router` | Reports the health of the running route table. |\",\n  \"target_claim\": \"The `/v1/health` endpoint is handled by `parcelroute.api.build_router`.\",\n  \"exemplar_ids\": [\n    \"triaged:alert-58d9824e5aed2a9b\",\n    \"triaged:alert-790cabcef1be9244\",\n    \"triaged:alert-ac78fb17df858a0b\"\n  ],\n  \"rationale\": \"Followed the exemplar pattern of removing a top-level code symbol that documentation still advertises as a current API by a qualified name. `build_router` is defined only in `parcelroute/api.py` and is not imported or called elsewhere, so deleting its definition leaves the module parseable while the API reference's handler claim becomes stale.\"\n}",
+  "stderr_tail": ""
+}

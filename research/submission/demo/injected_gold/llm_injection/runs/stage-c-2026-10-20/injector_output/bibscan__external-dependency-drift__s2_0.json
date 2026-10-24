@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "lxml>=4.9",
+    "new": "lxml>=999",
+    "symbol": "lxml",
+    "target": "lxml>=4.9",
+    "doc_path": "README.md",
+    "doc_line_text": "The only runtime dependencies are `lxml>=4.9` and `python-dateutil>=2.8`, both",
+    "target_claim": "The project's runtime dependency on lxml is satisfied by lxml>=4.9.",
+    "exemplar_ids": [
+      "example 4"
+    ],
+    "rationale": "The README presents the versioned lxml requirement as a current installation fact, so raising the manifest constraint makes that statement false."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\":true,\"drift_type\":\"external-dependency-drift\",\"direction\":\"code_side\",\"file\":\"pyproject.toml\",\"old\":\"lxml>=4.9\",\"new\":\"lxml>=999\",\"symbol\":\"lxml\",\"target\":\"lxml>=4.9\",\"doc_path\":\"README.md\",\"doc_line_text\":\"The only runtime dependencies are `lxml>=4.9` and `python-dateutil>=2.8`, both\",\"target_claim\":\"The project's runtime dependency on lxml is satisfied by lxml>=4.9.\",\"exemplar_ids\":[\"example 4\"],\"rationale\":\"The README presents the versioned lxml requirement as a current installation fact, so raising the manifest constraint makes that statement false.\"}",
+  "stderr_tail": ""
+}

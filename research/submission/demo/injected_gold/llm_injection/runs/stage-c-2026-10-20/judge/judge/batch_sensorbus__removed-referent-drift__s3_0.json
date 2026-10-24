@@ -1,0 +1,47 @@
+{
+  "repo": "sensorbus__removed-referent-drift__s3_0",
+  "tool_diff": {
+    "new_refuted": [],
+    "new_nei": [
+      {
+        "source": "README.md",
+        "line": 21,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "list_devices",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/concepts.md",
+        "line": 115,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "list_devices",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/usage.md",
+        "line": 21,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "list_devices",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "sensorbus__removed-referent-drift__s3_0::0",
+      "repo": "sensorbus__removed-referent-drift__s3_0",
+      "op_id": "llm.removed-referent-drift",
+      "canonical_class": "removed-referent-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "sensorbus.devices.list_devices",
+        "new": null,
+        "doc_path": "docs/concepts.md",
+        "target": "list_devices"
+      }
+    }
+  ]
+}

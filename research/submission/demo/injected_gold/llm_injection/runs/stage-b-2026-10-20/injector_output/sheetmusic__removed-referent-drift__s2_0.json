@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "sheetmusic/notes.py",
+    "old": "note_to_semitone",
+    "new": null,
+    "symbol": "note_to_semitone",
+    "target": "note_to_semitone",
+    "doc_path": "docs/guide.md",
+    "doc_line_text": "The `sheetmusic.notes` module declares `note_to_semitone` (returns `int`) and",
+    "target_claim": "The `sheetmusic.notes` module declares a current public function `note_to_semitone` that returns `int`.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "The guide presents `note_to_semitone` as a declared function of the current `sheetmusic.notes` module, and deleting only that definition falsifies the statement while leaving the rest of the module intact."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"sheetmusic/notes.py\",\n  \"old\": \"note_to_semitone\",\n  \"new\": null,\n  \"symbol\": \"note_to_semitone\",\n  \"target\": \"note_to_semitone\",\n  \"doc_path\": \"docs/guide.md\",\n  \"doc_line_text\": \"The `sheetmusic.notes` module declares `note_to_semitone` (returns `int`) and\",\n  \"target_claim\": \"The `sheetmusic.notes` module declares a current public function `note_to_semitone` that returns `int`.\",\n  \"exemplar_ids\": [\"example 1\", \"example 2\"],\n  \"rationale\": \"The guide presents `note_to_semitone` as a declared function of the current `sheetmusic.notes` module, and deleting only that definition falsifies the statement while leaving the rest of the module intact.\"\n}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,168 @@
+{
+  "alert_id": "triaged:alert-790cabcef1be9244",
+  "commit_sha": "0d6af9bcf383bcdf601e670bb605861b01e318e7",
+  "commit_url": "https://github.com/torvalds/linux/commit/0d6af9bcf383bcdf601e670bb605861b01e318e7",
+  "files": [
+    {
+      "added": [
+        "\tunsigned int\tmax;\t\t/* size of this swap device */",
+        "\t\t\t\t\t * inuse_pages and all cluster lists.",
+        "\t\t\t\t\t * Other fields are only changed"
+      ],
+      "hunks": 6,
+      "matched_location": false,
+      "path": "include/linux/swap.h",
+      "removed": [
+        "\tSWP_CONTINUED\t= (1 << 5),\t/* swap_map has count continuation */",
+        "/* Bit flag in swap_map */",
+        "#define COUNT_CONTINUED\t0x80\t/* Flag swap_map continuation for full count */",
+        "",
+        "/* Special value in first swap_map */",
+        "#define SWAP_MAP_MAX\t0x3e\t/* Max count */",
+        "#define SWAP_MAP_BAD\t0x3f\t/* Note page is bad */",
+        "",
+        "/* Special value in each swap_map continuation */",
+        "#define SWAP_CONT_MAX\t0x7f\t/* Max count */",
+        "",
+        "\tunsigned int\tmax;\t\t/* extent of the swap_map */",
+        "\tunsigned char *swap_map;\t/* vmalloc'ed array of usage counts */",
+        "\t\t\t\t\t * swap_map, inuse_pages and all cluster",
+        "\t\t\t\t\t * lists. other fields are only changed",
+        "\tspinlock_t cont_lock;\t\t/*",
+        "\t\t\t\t\t * protect swap count continuation page",
+        "\t\t\t\t\t * list.",
+        "\t\t\t\t\t */",
+        "extern int add_swap_count_continuation(swp_entry_t, gfp_t);",
+        "static inline int add_swap_count_continuation(swp_entry_t swp, gfp_t gfp_mask)",
+        "{",
+        "\treturn 0;",
+        "}",
+        ""
+      ],
+      "side": "code",
+      "truncated": false
+    },
+    {
+      "added": [
+        "\t\tif (swap_retry_table_alloc(entry, GFP_KERNEL) < 0) {"
+      ],
+      "hunks": 1,
+      "matched_location": false,
+      "path": "mm/memory.c",
+      "removed": [
+        "\t\tif (add_swap_count_continuation(entry, GFP_KERNEL) < 0) {"
+      ],
+      "side": "code",
+      "truncated": false
+    },
+    {
+      "added": [
+        "\tunsigned int *extend_table;\t/* For large swap count, protected by ci->lock */",
+        "extern int swap_retry_table_alloc(swp_entry_t entry, gfp_t gfp);",
+        "",
+        "extern void __swap_cluster_free_entries(struct swap_info_struct *si,",
+        "\t\t\t\t\tstruct swap_cluster_info *ci,",
+        "\t\t\t\t\tunsigned int ci_off, unsigned int nr_pages);",
+        "static inline int swap_retry_table_alloc(swp_entry_t entry, gfp_t gfp)",
+        "{",
+        "\treturn -EINVAL;",
+        "}",
+        ""
+      ],
+      "hunks": 4,
+      "matched_location": false,
+      "path": "mm/swap.h",
+      "removed": [
+        "extern void swap_entries_free(struct swap_info_struct *si,",
+        "\t\t\t      struct swap_cluster_info *ci,",
+        "\t\t\t      unsigned long offset, unsigned int nr_pages);"
+      ],
+      "side": "code",
+      "truncated": false
+    },
+    {
+      "added": [
+        "\tunsigned int ci_off = swp_cluster_offset(entry), ci_end;",
+        "\tunsigned long pfn = folio_pfn(folio);",
+        "\tunsigned long old_tb;",
+        "\tci_end = ci_off + nr_pages;",
+        "\t\told_tb = __swap_table_get(ci, ci_off);",
+        "\t\tVM_WARN_ON_ONCE(swp_tb_is_folio(old_tb));",
+        "\t\t__swap_table_set(ci, ci_off, pfn_to_swp_tb(pfn, __swp_tb_get_count(old_tb)));",
+        "\tunsigned int ci_start, ci_off, ci_end;",
+        "\t\tif (unlikely(!__swp_tb_get_count(old_tb))) {",
+        "\tint count;",
+        "\tunsigned long old_tb;",
+        "\t\told_tb = __swap_table_get(ci, ci_off);",
+        "\t\tcount = __swp_tb_get_count(old_tb);",
+        "\t\tif (count)",
+        "\t\t/* If shadow is NULL, we sets an empty shadow. */",
+        "\t\t__swap_table_set(ci, ci_off, shadow_to_swp_tb(shadow, count));",
+        "\t\t__swap_cluster_free_entries(si, ci, ci_start, nr_pages);",
+        "\t\tci_off = ci_start;",
+        "\t\t\tif (!__swp_tb_get_count(__swap_table_get(ci, ci_off)))",
+        "\t\t\t\t__swap_cluster_free_entries(si, ci, ci_off, 1);",
+        "\t\t} while (++ci_off < ci_end);",
+        "\tunsigned long pfn = folio_pfn(new);",
+        "\tunsigned long old_tb;",
+        "\t\told_tb = __swap_table_get(ci, ci_off);",
+        "\t\t__swap_table_set(ci, ci_off, pfn_to_swp_tb(pfn, __swp_tb_get_count(old_tb)));",
+        "\t\tWARN_ON_ONCE(swp_tb_is_folio(old) || swp_tb_get_count(old));"
+      ],
+      "hunks": 8,
+      "matched_location": false,
+      "path": "mm/swap_state.c",
+      "removed": [
+        "\tunsigned long new_tb;",
+        "\tunsigned int ci_start, ci_off, ci_end;",
+        "\tnew_tb = folio_to_swp_tb(folio, 0);",
+        "\tci_start = swp_cluster_offset(entry);",
+        "\tci_off = ci_start;",
+        "\tci_end = ci_start + nr_pages;",
+        "\t\tVM_WARN_ON_ONCE(swp_tb_is_folio(__swap_table_get(ci, ci_off)));",
+        "\t\t__swap_table_set(ci, ci_off, new_tb);",
+        "\tunsigned int ci_start, ci_off, ci_end, offset;",
+        "\toffset = swp_offset(entry);",
+        "\t\tif (unlikely(!__swap_count(swp_entry(swp_type(entry), offset)))) {",
+        "\t\toffset++;",
+        "\tunsigned long old_tb, new_tb;",
+        "\tnew_tb = shadow_to_swp_tb(shadow, 0);",
+        "\t\t/* If shadow is NULL, we sets an empty shadow */",
+        "\t\told_tb = __swap_table_xchg(ci, ci_off, new_tb);",
+        "\t\tif (__swap_count(swp_entry(si->type,",
+        "\t\t\t\t swp_offset(entry) + ci_off - ci_start)))",
+        "\t\tswap_entries_free(si, ci, swp_offset(entry), nr_pages);",
+        "\t\t\tif (!__swap_count(entry))",
+        "\t\t\t\tswap_entries_free(si, ci, swp_offset(entry), 1);",
+        "\t\t\tentry.val++;",
+        "\t\t} while (--nr_pages);",
+        "\tunsigned long old_tb, new_tb;",
+        "\tnew_tb = folio_to_swp_tb(new, 0);",
+        "\t\told_tb = __swap_table_xchg(ci, ci_off, new_tb);",
+        "\t\tWARN_ON_ONCE(swp_tb_is_folio(old));"
+      ],
+      "side": "code",
+      "truncated": false
+    },
+    {
+      "added": [
+        "static inline unsigned long __swp_tb_mk_count(unsigned long swp_tb, int count)",
+        "{",
+        "\treturn ((swp_tb & ~SWP_TB_COUNT_MASK) | __count_to_swp_tb(count));",
+        "}",
+        ""
+      ],
+      "hunks": 1,
+      "matched_location": false,
+      "path": "mm/swap_table.h",
+      "removed": [],
+      "side": "code",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "Documentation/admin-guide/mm/zswap.rst"
+  ],
+  "patch_sha256": "b67219a8b85596d74f12cf41a31bd230bd531c0ac7f1ec0351c4c95dba10b3fa",
+  "status": "ok"
+}

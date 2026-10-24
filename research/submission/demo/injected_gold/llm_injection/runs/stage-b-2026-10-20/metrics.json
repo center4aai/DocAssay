@@ -1,0 +1,885 @@
+{
+  "date": "2026-10-20",
+  "seed": 1,
+  "repos": [
+    "gaugekit__control",
+    "gaugekit__external-dependency-drift__s1_0",
+    "gaugekit__external-dependency-drift__s2_0",
+    "gaugekit__external-dependency-drift__s3_0",
+    "gaugekit__identifier-drift__s1_0",
+    "gaugekit__identifier-drift__s2_0",
+    "gaugekit__identifier-drift__s3_0",
+    "gaugekit__path-location-drift__s1_0",
+    "gaugekit__path-location-drift__s2_0",
+    "gaugekit__path-location-drift__s3_0",
+    "gaugekit__removed-referent-drift__s1_0",
+    "gaugekit__removed-referent-drift__s2_0",
+    "gaugekit__removed-referent-drift__s3_0",
+    "gridwatch__control",
+    "gridwatch__external-dependency-drift__s1_0",
+    "gridwatch__external-dependency-drift__s2_0",
+    "gridwatch__external-dependency-drift__s3_0",
+    "gridwatch__identifier-drift__s1_0",
+    "gridwatch__identifier-drift__s2_0",
+    "gridwatch__identifier-drift__s3_0",
+    "gridwatch__path-location-drift__s1_0",
+    "gridwatch__path-location-drift__s2_0",
+    "gridwatch__path-location-drift__s3_0",
+    "gridwatch__removed-referent-drift__s1_0",
+    "gridwatch__removed-referent-drift__s2_0",
+    "gridwatch__removed-referent-drift__s3_0",
+    "palette__control",
+    "palette__external-dependency-drift__s1_0",
+    "palette__external-dependency-drift__s2_0",
+    "palette__external-dependency-drift__s3_0",
+    "palette__identifier-drift__s1_0",
+    "palette__identifier-drift__s2_0",
+    "palette__identifier-drift__s3_0",
+    "palette__path-location-drift__s1_0",
+    "palette__path-location-drift__s2_0",
+    "palette__path-location-drift__s3_0",
+    "palette__removed-referent-drift__s1_0",
+    "palette__removed-referent-drift__s2_0",
+    "palette__removed-referent-drift__s3_0",
+    "plotline__control",
+    "plotline__external-dependency-drift__s1_0",
+    "plotline__external-dependency-drift__s2_0",
+    "plotline__external-dependency-drift__s3_0",
+    "plotline__identifier-drift__s1_0",
+    "plotline__identifier-drift__s2_0",
+    "plotline__identifier-drift__s3_0",
+    "plotline__path-location-drift__s1_0",
+    "plotline__path-location-drift__s2_0",
+    "plotline__path-location-drift__s3_0",
+    "plotline__removed-referent-drift__s1_0",
+    "plotline__removed-referent-drift__s2_0",
+    "plotline__removed-referent-drift__s3_0",
+    "recipecard__control",
+    "recipecard__external-dependency-drift__s1_0",
+    "recipecard__external-dependency-drift__s2_0",
+    "recipecard__external-dependency-drift__s3_0",
+    "recipecard__identifier-drift__s1_0",
+    "recipecard__identifier-drift__s2_0",
+    "recipecard__identifier-drift__s3_0",
+    "recipecard__path-location-drift__s1_0",
+    "recipecard__path-location-drift__s2_0",
+    "recipecard__path-location-drift__s3_0",
+    "recipecard__removed-referent-drift__s1_0",
+    "recipecard__removed-referent-drift__s2_0",
+    "recipecard__removed-referent-drift__s3_0",
+    "sheetmusic__control",
+    "sheetmusic__external-dependency-drift__s1_0",
+    "sheetmusic__external-dependency-drift__s2_0",
+    "sheetmusic__external-dependency-drift__s3_0",
+    "sheetmusic__identifier-drift__s1_0",
+    "sheetmusic__identifier-drift__s2_0",
+    "sheetmusic__identifier-drift__s3_0",
+    "sheetmusic__path-location-drift__s1_0",
+    "sheetmusic__path-location-drift__s2_0",
+    "sheetmusic__path-location-drift__s3_0",
+    "sheetmusic__removed-referent-drift__s1_0",
+    "sheetmusic__removed-referent-drift__s2_0",
+    "sheetmusic__removed-referent-drift__s3_0"
+  ],
+  "engine": [
+    "./.venv/bin/python3",
+    "-m",
+    "docassay.core.dump_claims"
+  ],
+  "contamination": "synthetic: generated repos, docs and code consistent by construction (uncontaminated evaluation corpus)",
+  "overall": {
+    "refuted_injected": 72,
+    "refuted_verified": 72,
+    "refuted": 35,
+    "nei": 7,
+    "none": 30,
+    "refuted_detected": 35,
+    "recall_refuted": 0.486,
+    "recall_ci95": [
+      0.374,
+      0.599
+    ],
+    "refutation_rate": 0.486,
+    "refutation_ci95": [
+      0.374,
+      0.599
+    ],
+    "abstention_rate": 0.097,
+    "extraction_miss_rate": 0.417,
+    "completeness_gap_injected": 0,
+    "completeness_gap_detected": 0,
+    "completeness_gap_refuted": 0,
+    "controls": 18,
+    "controls_clean": 18,
+    "precision": 1.0,
+    "precision_ci95": [
+      0.824,
+      1.0
+    ]
+  },
+  "by_class": {
+    "external-dependency-drift": {
+      "refuted": {
+        "injected": 18,
+        "verified": 18,
+        "refuted": 14,
+        "nei": 0,
+        "none": 4,
+        "detected": 14,
+        "recall": 0.778,
+        "recall_ci95": [
+          0.548,
+          0.91
+        ],
+        "refutation_rate": 0.778,
+        "refutation_ci95": [
+          0.548,
+          0.91
+        ],
+        "abstention_rate": 0.0,
+        "extraction_miss_rate": 0.222,
+        "reactions": {
+          "none": 4,
+          "refuted": 14
+        }
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "verified": 0,
+        "refuted": 0,
+        "nei": 0,
+        "none": 0,
+        "detected": 0,
+        "recall": null,
+        "recall_ci95": null,
+        "refutation_rate": null,
+        "refutation_ci95": null,
+        "abstention_rate": null,
+        "extraction_miss_rate": null,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 6,
+        "clean": 6,
+        "precision": 1.0,
+        "precision_ci95": [
+          0.61,
+          1.0
+        ]
+      }
+    },
+    "identifier-drift": {
+      "refuted": {
+        "injected": 18,
+        "verified": 18,
+        "refuted": 1,
+        "nei": 1,
+        "none": 16,
+        "detected": 1,
+        "recall": 0.056,
+        "recall_ci95": [
+          0.01,
+          0.258
+        ],
+        "refutation_rate": 0.056,
+        "refutation_ci95": [
+          0.01,
+          0.258
+        ],
+        "abstention_rate": 0.056,
+        "extraction_miss_rate": 0.889,
+        "reactions": {
+          "nei": 1,
+          "none": 16,
+          "refuted": 1
+        }
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "verified": 0,
+        "refuted": 0,
+        "nei": 0,
+        "none": 0,
+        "detected": 0,
+        "recall": null,
+        "recall_ci95": null,
+        "refutation_rate": null,
+        "refutation_ci95": null,
+        "abstention_rate": null,
+        "extraction_miss_rate": null,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 6,
+        "clean": 6,
+        "precision": 1.0,
+        "precision_ci95": [
+          0.61,
+          1.0
+        ]
+      }
+    },
+    "path-location-drift": {
+      "refuted": {
+        "injected": 18,
+        "verified": 18,
+        "refuted": 18,
+        "nei": 0,
+        "none": 0,
+        "detected": 18,
+        "recall": 1.0,
+        "recall_ci95": [
+          0.824,
+          1.0
+        ],
+        "refutation_rate": 1.0,
+        "refutation_ci95": [
+          0.824,
+          1.0
+        ],
+        "abstention_rate": 0.0,
+        "extraction_miss_rate": 0.0,
+        "reactions": {
+          "refuted": 18
+        }
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "verified": 0,
+        "refuted": 0,
+        "nei": 0,
+        "none": 0,
+        "detected": 0,
+        "recall": null,
+        "recall_ci95": null,
+        "refutation_rate": null,
+        "refutation_ci95": null,
+        "abstention_rate": null,
+        "extraction_miss_rate": null,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 6,
+        "clean": 6,
+        "precision": 1.0,
+        "precision_ci95": [
+          0.61,
+          1.0
+        ]
+      }
+    },
+    "removed-referent-drift": {
+      "refuted": {
+        "injected": 18,
+        "verified": 18,
+        "refuted": 2,
+        "nei": 6,
+        "none": 10,
+        "detected": 2,
+        "recall": 0.111,
+        "recall_ci95": [
+          0.031,
+          0.328
+        ],
+        "refutation_rate": 0.111,
+        "refutation_ci95": [
+          0.031,
+          0.328
+        ],
+        "abstention_rate": 0.333,
+        "extraction_miss_rate": 0.556,
+        "reactions": {
+          "nei": 6,
+          "none": 10,
+          "refuted": 2
+        }
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "verified": 0,
+        "refuted": 0,
+        "nei": 0,
+        "none": 0,
+        "detected": 0,
+        "recall": null,
+        "recall_ci95": null,
+        "refutation_rate": null,
+        "refutation_ci95": null,
+        "abstention_rate": null,
+        "extraction_miss_rate": null,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 0,
+        "clean": 0,
+        "precision": null,
+        "precision_ci95": null
+      }
+    }
+  },
+  "by_claim_form": {
+    "bare": {
+      "injected": 32,
+      "verified": 32,
+      "refuted": 2,
+      "nei": 7,
+      "none": 23,
+      "refutation_rate": 0.062,
+      "abstention_rate": 0.219,
+      "extraction_miss_rate": 0.719,
+      "controls": 6,
+      "controls_clean": 6,
+      "precision": 1.0
+    },
+    "bare_call": {
+      "injected": 3,
+      "verified": 3,
+      "refuted": 0,
+      "nei": 0,
+      "none": 3,
+      "refutation_rate": 0.0,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 1.0,
+      "controls": 0,
+      "controls_clean": 0,
+      "precision": null
+    },
+    "dependency": {
+      "injected": 18,
+      "verified": 18,
+      "refuted": 14,
+      "nei": 0,
+      "none": 4,
+      "refutation_rate": 0.778,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 0.222,
+      "controls": 6,
+      "controls_clean": 6,
+      "precision": 1.0
+    },
+    "path": {
+      "injected": 18,
+      "verified": 18,
+      "refuted": 18,
+      "nei": 0,
+      "none": 0,
+      "refutation_rate": 1.0,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 0.0,
+      "controls": 6,
+      "controls_clean": 6,
+      "precision": 1.0
+    },
+    "qualified": {
+      "injected": 1,
+      "verified": 1,
+      "refuted": 1,
+      "nei": 0,
+      "none": 0,
+      "refutation_rate": 1.0,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 0.0,
+      "controls": 0,
+      "controls_clean": 0,
+      "precision": null
+    }
+  },
+  "control_false_refutes": [],
+  "unattributed_findings": {
+    "gaugekit__control": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gaugekit__external-dependency-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gaugekit__external-dependency-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gaugekit__external-dependency-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gaugekit__identifier-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gaugekit__identifier-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gaugekit__identifier-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gaugekit__path-location-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 2,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gaugekit__path-location-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 2,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gaugekit__path-location-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 2,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gaugekit__removed-referent-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gaugekit__removed-referent-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gaugekit__removed-referent-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gridwatch__control": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gridwatch__external-dependency-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gridwatch__external-dependency-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gridwatch__external-dependency-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gridwatch__identifier-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gridwatch__identifier-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gridwatch__identifier-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gridwatch__path-location-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 2,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gridwatch__path-location-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 2,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gridwatch__path-location-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 2,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gridwatch__removed-referent-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gridwatch__removed-referent-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "gridwatch__removed-referent-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "palette__control": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "palette__external-dependency-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "palette__external-dependency-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "palette__external-dependency-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "palette__identifier-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "palette__identifier-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "palette__identifier-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "palette__path-location-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "palette__path-location-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "palette__path-location-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "palette__removed-referent-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "palette__removed-referent-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "palette__removed-referent-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "plotline__control": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "plotline__external-dependency-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "plotline__external-dependency-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "plotline__external-dependency-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "plotline__identifier-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "plotline__identifier-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "plotline__identifier-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "plotline__path-location-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 2,
+      "unattributed": 0,
+      "examples": []
+    },
+    "plotline__path-location-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 2,
+      "unattributed": 0,
+      "examples": []
+    },
+    "plotline__path-location-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 2,
+      "unattributed": 0,
+      "examples": []
+    },
+    "plotline__removed-referent-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "plotline__removed-referent-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "plotline__removed-referent-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "recipecard__control": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "recipecard__external-dependency-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "recipecard__external-dependency-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "recipecard__external-dependency-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "recipecard__identifier-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "recipecard__identifier-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "recipecard__identifier-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "recipecard__path-location-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "recipecard__path-location-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "recipecard__path-location-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "recipecard__removed-referent-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "recipecard__removed-referent-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "recipecard__removed-referent-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sheetmusic__control": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sheetmusic__external-dependency-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sheetmusic__external-dependency-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sheetmusic__external-dependency-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sheetmusic__identifier-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sheetmusic__identifier-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sheetmusic__identifier-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sheetmusic__path-location-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sheetmusic__path-location-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sheetmusic__path-location-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sheetmusic__removed-referent-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sheetmusic__removed-referent-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sheetmusic__removed-referent-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    }
+  },
+  "boundary": {
+    "out_of_scope_repo_expr": [
+      "behavior-drift",
+      "signature-drift",
+      "constraint-drift",
+      "security-drift",
+      "exception-contract-drift",
+      "null-semantics-drift",
+      "format-encoding-drift",
+      "polarity-order-drift",
+      "lifecycle-contract-drift",
+      "return-value-semantics-drift",
+      "parameter-mismatch",
+      "unused-parameter",
+      "copy-edit-drift"
+    ],
+    "out_of_scope_doc_process_data": [
+      "presentation-format",
+      "documentation-process",
+      "documentation-tooling",
+      "data-quality",
+      "control-repair-failure"
+    ],
+    "candidate_unconfirmed": [
+      "error-message-drift"
+    ]
+  }
+}

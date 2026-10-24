@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "numpy>=1.26",
+    "new": "numpy>=999",
+    "symbol": "numpy",
+    "target": "numpy>=1.26",
+    "doc_path": "README.md",
+    "doc_line_text": "`numpy>=1.26` and `click>=8.1`.",
+    "target_claim": "contourkit's runtime dependencies are numpy>=1.26 and click>=8.1.",
+    "exemplar_ids": [
+      "example 1",
+      "example 3"
+    ],
+    "rationale": "The installation section presents numpy>=1.26 as the project's current runtime requirement, so raising the manifest constraint to an unreachable numpy>=999 naturally falsifies that ordinary present-tense statement."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \"numpy>=1.26\", \"new\": \"numpy>=999\", \"symbol\": \"numpy\", \"target\": \"numpy>=1.26\", \"doc_path\": \"README.md\", \"doc_line_text\": \"`numpy>=1.26` and `click>=8.1`.\", \"target_claim\": \"contourkit's runtime dependencies are numpy>=1.26 and click>=8.1.\", \"exemplar_ids\": [\"example 1\", \"example 3\"], \"rationale\": \"The installation section presents numpy>=1.26 as the project's current runtime requirement, so raising the manifest constraint to an unreachable numpy>=999 naturally falsifies that ordinary present-tense statement.\"}",
+  "stderr_tail": ""
+}

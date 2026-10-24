@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bibscan"
+version = "0.4.2"
+description = "Parse BibTeX databases and CSL styles, then render citations and bibliographies from them."
+requires-python = ">=3.11"
+dependencies = [
+    "lxml>=999",
+    "python-dateutil>=2.8"
+]
+
+[tool.setuptools]
+packages = ["bibscan"]

@@ -1,0 +1,43 @@
+{
+  "project": {
+    "name": "plotline",
+    "pkg": "plotline",
+    "version": "0.4.2",
+    "description": "A small library of SVG chart primitives for building line and bar charts as plain SVG markup."
+  },
+  "dependencies": [
+    {"name": "numpy", "constraint": ">=1.24"}
+  ],
+  "modules": [
+    {"path": "plotline/canvas.py",
+     "symbols": [
+       {"name": "Canvas", "kind": "class", "return_type": null, "members": ["width", "height", "background"]},
+       {"name": "DEFAULT_BACKGROUND", "kind": "constant", "return_type": null, "members": []}
+     ]},
+    {"path": "plotline/scales.py",
+     "symbols": [
+       {"name": "LinearScale", "kind": "class", "return_type": null, "members": ["domain_min", "domain_max", "range_min", "range_max"]},
+       {"name": "nice_ticks", "kind": "function", "return_type": "list[float]", "members": []}
+     ]},
+    {"path": "plotline/marks.py",
+     "symbols": [
+       {"name": "LineMark", "kind": "class", "return_type": null, "members": ["xs", "ys", "stroke"]},
+       {"name": "BarMark", "kind": "class", "return_type": null, "members": ["labels", "values", "fill"]}
+     ]},
+    {"path": "plotline/palette.py",
+     "symbols": [
+       {"name": "CATEGORY_COLORS", "kind": "constant", "return_type": null, "members": []},
+       {"name": "categorical_colors", "kind": "function", "return_type": "list[str]", "members": []}
+     ]},
+    {"path": "plotline/render.py",
+     "symbols": [
+       {"name": "render_svg", "kind": "function", "return_type": "str", "members": []},
+       {"name": "write_svg", "kind": "function", "return_type": "None", "members": []}
+     ]}
+  ],
+  "docs": [
+    {"path": "README.md", "kind": "readme"},
+    {"path": "docs/guide.md", "kind": "guide"},
+    {"path": "docs/api.md", "kind": "reference"}
+  ]
+}

@@ -1,0 +1,13 @@
+  gaugekit__path-location-drift__s1_0: ok
+  gaugekit__path-location-drift__s2_0: ok
+  gaugekit__path-location-drift__s3_0: ok
+  gaugekit__identifier-drift__s1_0: ok
+  gaugekit__identifier-drift__s2_0: ok
+  gaugekit__identifier-drift__s3_0: ok
+  gaugekit__removed-referent-drift__s1_0: ok
+  gaugekit__removed-referent-drift__s2_0: ok
+  gaugekit__removed-referent-drift__s3_0: ok
+  gaugekit__external-dependency-drift__s1_0: ok
+  gaugekit__external-dependency-drift__s2_0: ok
+  gaugekit__external-dependency-drift__s3_0: ok
+ran injector on 12 bundles -> research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/injector_output

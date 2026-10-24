@@ -1,0 +1,31 @@
+{
+  "alert_id": "triaged:ident-nseindia-list-sme",
+  "commit_sha": "0e0a77bb98eac005fdabcaca51b6e14f8da59e79",
+  "commit_url": "https://github.com/BennyThadikaran/NseIndiaApi/commit/0e0a77bb98eac005fdabcaca51b6e14f8da59e79",
+  "files": [
+    {
+      "added": [
+        "        :param data: Output of one of :meth:`list_sme` or",
+        "            :meth:`list_equity_stocks_by_index`.",
+        "        :param data: Output of one of :meth:`list_sme` or",
+        "            :meth:`list_equity_stocks_by_index`."
+      ],
+      "hunks": 2,
+      "matched_location": true,
+      "path": "src/nse/NSE.py",
+      "removed": [
+        "        :param data: Output of one of :meth:`listSme` or",
+        "            :meth:`listEquityStocksByIndex`.",
+        "        :param data: Output of one of :meth:`listSme` or",
+        "            :meth:`listEquityStocksByIndex`."
+      ],
+      "side": "code",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "src/nse/NSE.py"
+  ],
+  "patch_sha256": "65674165be99014654fff812b60f288dbc4d79792c9fd97b4f6a26113d6018da",
+  "status": "ok"
+}

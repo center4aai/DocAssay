@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "gridwatch/readers.py",
+    "old": "gridwatch.readers.read_json",
+    "new": null,
+    "symbol": "read_json",
+    "target": "gridwatch.readers.read_json",
+    "doc_path": "docs/guide.md",
+    "doc_line_text": "`gridwatch.readers.read_json` is declared to read readings from JSON. The source does not yet define the JSON layout, so this guide does not document one.",
+    "target_claim": "The guide presents `gridwatch.readers.read_json` as a currently declared reader function that reads interval readings from JSON.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "The guide names `gridwatch.readers.read_json` as a current API function, so removing its definition naturally falsifies that statement."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\":true,\"drift_type\":\"removed-referent-drift\",\"direction\":\"code_side\",\"file\":\"gridwatch/readers.py\",\"old\":\"gridwatch.readers.read_json\",\"new\":null,\"symbol\":\"read_json\",\"target\":\"gridwatch.readers.read_json\",\"doc_path\":\"docs/guide.md\",\"doc_line_text\":\"`gridwatch.readers.read_json` is declared to read readings from JSON. The source does not yet define the JSON layout, so this guide does not document one.\",\"target_claim\":\"The guide presents `gridwatch.readers.read_json` as a currently declared reader function that reads interval readings from JSON.\",\"exemplar_ids\":[\"example 1\",\"example 2\"],\"rationale\":\"The guide names `gridwatch.readers.read_json` as a current API function, so removing its definition naturally falsifies that statement.\"}",
+  "stderr_tail": ""
+}

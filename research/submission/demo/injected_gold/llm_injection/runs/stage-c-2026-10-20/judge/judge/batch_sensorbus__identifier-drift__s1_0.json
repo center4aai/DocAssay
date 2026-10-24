@@ -1,0 +1,33 @@
+{
+  "repo": "sensorbus__identifier-drift__s1_0",
+  "tool_diff": {
+    "new_refuted": [],
+    "new_nei": [
+      {
+        "source": "docs/usage.md",
+        "line": 43,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "calibrationcurve",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "sensorbus__identifier-drift__s1_0::0",
+      "repo": "sensorbus__identifier-drift__s1_0",
+      "op_id": "llm.identifier-drift",
+      "canonical_class": "identifier-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "sensorbus.calibration.CalibrationCurve",
+        "new": "CalibrationCurveInjected",
+        "doc_path": "README.md",
+        "target": "CalibrationCurve"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "artifact_class": "path",
+    "direction": "code_side",
+    "kind": "path_rename",
+    "file": "docs/configuration.md",
+    "old": "docs/configuration.md",
+    "new": "docs/config.md",
+    "target": "docs/configuration.md",
+    "doc_path": "README.md",
+    "doc_line_text": "- docs/configuration.md describes environment variables and settings.",
+    "target_claim": "The README presents docs/configuration.md as the existing guide for environment variables and settings; after the rename that path no longer exists.",
+    "exemplar_ids": [
+      "example 1",
+      "example 3"
+    ],
+    "rationale": "Followed the exemplar pattern of a current file reference being invalidated by a tree-side rename. Chose the single-mention guide path so the rename falsifies one ordinary current-state claim."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"path-location-drift\",\n  \"artifact_class\": \"path\",\n  \"direction\": \"code_side\",\n  \"kind\": \"path_rename\",\n  \"file\": \"docs/configuration.md\",\n  \"old\": \"docs/configuration.md\",\n  \"new\": \"docs/config.md\",\n  \"target\": \"docs/configuration.md\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"- docs/configuration.md describes environment variables and settings.\",\n  \"target_claim\": \"The README presents docs/configuration.md as the existing guide for environment variables and settings; after the rename that path no longer exists.\",\n  \"exemplar_ids\": [\"example 1\", \"example 3\"],\n  \"rationale\": \"Followed the exemplar pattern of a current file reference being invalidated by a tree-side rename. Chose the single-mention guide path so the rename falsifies one ordinary current-state claim.\"\n}",
+  "stderr_tail": ""
+}

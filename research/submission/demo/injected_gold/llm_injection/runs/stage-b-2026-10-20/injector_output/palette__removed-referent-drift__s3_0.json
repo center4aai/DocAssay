@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "palette/cli.py",
+    "old": "main",
+    "new": null,
+    "symbol": "main",
+    "target": "main",
+    "doc_path": "README.md",
+    "doc_line_text": "The package includes a `main` function in `palette/cli.py`. The `pyproject.toml`",
+    "target_claim": "The package includes a `main` function in `palette/cli.py`.",
+    "exemplar_ids": [
+      "example 1",
+      "example 4"
+    ],
+    "rationale": "The README presents `main` as the package's current command-line function, so removing its definition creates a natural removed-referent inconsistency."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"palette/cli.py\",\n  \"old\": \"main\",\n  \"new\": null,\n  \"symbol\": \"main\",\n  \"target\": \"main\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"The package includes a `main` function in `palette/cli.py`. The `pyproject.toml`\",\n  \"target_claim\": \"The package includes a `main` function in `palette/cli.py`.\",\n  \"exemplar_ids\": [\"example 1\", \"example 4\"],\n  \"rationale\": \"The README presents `main` as the package's current command-line function, so removing its definition creates a natural removed-referent inconsistency.\"\n}",
+  "stderr_tail": ""
+}

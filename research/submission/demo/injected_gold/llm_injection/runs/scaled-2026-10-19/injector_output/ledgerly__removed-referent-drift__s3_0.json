@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "artifact_class": "referent",
+    "direction": "code_side",
+    "kind": "symbol_delete",
+    "file": "ledgerly/models.py",
+    "old": "ledgerly.models.format_entry",
+    "new": null,
+    "symbol": "format_entry",
+    "target": "ledgerly.models.format_entry()",
+    "doc_path": "README.md",
+    "doc_line_text": "`ledgerly.models.format_entry()` renders that record as a display line.",
+    "target_claim": "ledgerly.models.format_entry() exists and renders an Entry as a display line.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "Example 1 removes a documented code-side symbol while the documentation still presents it as available; I followed that selection pattern by choosing the standalone formatting helper named in the README and deleting only its definition."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"artifact_class\": \"referent\",\n  \"direction\": \"code_side\",\n  \"kind\": \"symbol_delete\",\n  \"file\": \"ledgerly/models.py\",\n  \"old\": \"ledgerly.models.format_entry\",\n  \"new\": null,\n  \"symbol\": \"format_entry\",\n  \"target\": \"ledgerly.models.format_entry()\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"`ledgerly.models.format_entry()` renders that record as a display line.\",\n  \"target_claim\": \"ledgerly.models.format_entry() exists and renders an Entry as a display line.\",\n  \"exemplar_ids\": [\"example 1\"],\n  \"rationale\": \"Example 1 removes a documented code-side symbol while the documentation still presents it as available; I followed that selection pattern by choosing the standalone formatting helper named in the README and deleting only its definition.\"\n}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,4 @@
+entry_id,account,amount,memo,posted_at
+1e2f3a,cash,42.50,invoice 1042,2026-03-01
+4b5c6d,revenue,-42.50,invoice 1042,2026-03-01
+7a8b9c,rent,-1200.00,march rent,2026-03-02

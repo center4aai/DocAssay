@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "sensorbus/devices.py",
+    "old": "list_devices",
+    "new": null,
+    "symbol": "list_devices",
+    "target": "list_devices",
+    "doc_path": "docs/concepts.md",
+    "doc_line_text": "`list_devices` is declared to return a `list[str]`. Nothing here tries to",
+    "target_claim": "The devices module provides a current `list_devices` function declared to return a `list[str]` of the host's serial ports.",
+    "exemplar_ids": [
+      "example-2"
+    ],
+    "rationale": "The concepts document presents `list_devices` in the present tense as part of the thin device layer's public API, alongside the real `SerialDevice` record."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"removed-referent-drift\", \"direction\": \"code_side\", \"file\": \"sensorbus/devices.py\", \"old\": \"list_devices\", \"new\": null, \"symbol\": \"list_devices\", \"target\": \"list_devices\", \"doc_path\": \"docs/concepts.md\", \"doc_line_text\": \"`list_devices` is declared to return a `list[str]`. Nothing here tries to\", \"target_claim\": \"The devices module provides a current `list_devices` function declared to return a `list[str]` of the host's serial ports.\", \"exemplar_ids\": [\"example-2\"], \"rationale\": \"The concepts document presents `list_devices` in the present tense as part of the thin device layer's public API, alongside the real `SerialDevice` record.\"}",
+  "stderr_tail": ""
+}

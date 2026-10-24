@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "click>=8.1",
+    "new": "click>=999",
+    "symbol": "click",
+    "target": "click",
+    "doc_path": "README.md",
+    "doc_line_text": "- click `>=8.1`",
+    "target_claim": "The project requires click at version 8.1 or newer.",
+    "exemplar_ids": [
+      "example-2"
+    ],
+    "rationale": "The README's installation section presents click>=8.1 as a current dependency requirement, which a raised manifest bound of >=999 directly falsifies."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "[error] provider.transport: Connection lost while reading the response: ECONNRESET: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()\n{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \"click>=8.1\", \"new\": \"click>=999\", \"symbol\": \"click\", \"target\": \"click\", \"doc_path\": \"README.md\", \"doc_line_text\": \"- click `>=8.1`\", \"target_claim\": \"The project requires click at version 8.1 or newer.\", \"exemplar_ids\": [\"example-2\"], \"rationale\": \"The README's installation section presents click>=8.1 as a current dependency requirement, which a raised manifest bound of >=999 directly falsifies.\"}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,25 @@
+{
+  "alert_id": "triaged:ident-silo-refresh-devices",
+  "commit_sha": "d70ae0855e53f10ad0d754d9511a8264bc54472e",
+  "commit_url": "https://github.com/amontlabs/silo/commit/d70ae0855e53f10ad0d754d9511a8264bc54472e",
+  "files": [
+    {
+      "added": [
+        "[`refreshDevices`](../app/SiloUI/src/desktop/production-source.ts) and"
+      ],
+      "hunks": 1,
+      "matched_location": true,
+      "path": "docs/SiloUI-CHECKPOINTS-PLAN.md",
+      "removed": [
+        "[`refreshComputers`](../app/SiloUI/src/desktop/production-source.ts) and"
+      ],
+      "side": "doc",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "docs/SiloUI-CHECKPOINTS-PLAN.md"
+  ],
+  "patch_sha256": "3cc24977e297d9e5fc359529f42e2e8e8a35f57728766eafd8d7f9f38cdea856",
+  "status": "ok"
+}

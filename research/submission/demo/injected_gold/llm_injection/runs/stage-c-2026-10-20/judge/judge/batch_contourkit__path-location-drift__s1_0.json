@@ -1,0 +1,224 @@
+{
+  "repo": "contourkit__path-location-drift__s1_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "README.md",
+        "line": 129,
+        "predicate": "PATH_EXISTS",
+        "object": "docs/walkthrough.md",
+        "reason": ""
+      }
+    ],
+    "new_nei": [
+      {
+        "source": "docs/tutorial.md",
+        "line": 86,
+        "predicate": "DEPENDENCY",
+        "object": "build",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 33,
+        "predicate": "DEPENDENCY",
+        "object": "six",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 228,
+        "predicate": "DEPENDENCY",
+        "object": "toml",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 228,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "__main__",
+        "reason": "non-symbol mention"
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 228,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "console_scripts",
+        "reason": "non-symbol mention"
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 77,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "data",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 79,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "nodata",
+        "reason": "unresolved bare name"
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 227,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "sys.exit",
+        "reason": "foreign top segment"
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 78,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "transform",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": [
+      {
+        "source": "docs/tutorial.md",
+        "line": 29,
+        "predicate": "DEPENDENCY",
+        "object": "click",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 28,
+        "predicate": "DEPENDENCY",
+        "object": "numpy",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 28,
+        "predicate": "DEPENDENCY",
+        "object": "python",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 254,
+        "predicate": "PATH_EXISTS",
+        "object": "api.md",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 254,
+        "predicate": "PATH_EXISTS",
+        "object": "docs/api.md",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 228,
+        "predicate": "PATH_EXISTS",
+        "object": "pyproject.toml",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 185,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "close_ring",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 132,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "contour_levels",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 217,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "contourkit.cli",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 209,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "contourkit.cli.default_tolerance",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 155,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "contourkit.geometry.polyline",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 98,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "contourkit.sampling",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 202,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "douglas_peucker",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 72,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "load_ascii_grid",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 227,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "main",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 181,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "polyline_length",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 202,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "simplify_contours",
+        "reason": ""
+      },
+      {
+        "source": "docs/tutorial.md",
+        "line": 145,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "trace_contour",
+        "reason": ""
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "contourkit__path-location-drift__s1_0::0",
+      "repo": "contourkit__path-location-drift__s1_0",
+      "op_id": "llm.path-location-drift",
+      "canonical_class": "path-location-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "docs/walkthrough.md",
+        "new": "docs/tutorial.md",
+        "doc_path": "README.md",
+        "target": "docs/walkthrough.md"
+      }
+    }
+  ]
+}

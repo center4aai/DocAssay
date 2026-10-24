@@ -1,0 +1,33 @@
+# syntax=docker/dockerfile:1
+# Reviewer-facing demo image: the public tool image plus the frozen demo corpus.
+#
+# The tool image build context excludes the research tree, so the corpus is
+# layered on here instead of being baked into the base image.
+# Build the base image first from the repository root:
+#
+#   docker buildx build --platform linux/amd64 -t docassay:base-amd64 --load .
+#
+# Then, from this directory:
+#
+#   docker buildx build --platform linux/amd64 \
+#       --build-arg BASE=docassay:base-amd64 \
+#       -t docassay:demo --load -f Dockerfile.demo .
+#
+# The image is self-contained: `docker run -p 8000:8000 docassay:demo`
+# lists the twelve demo projects without any mount.
+
+ARG BASE=docassay:base
+FROM ${BASE}
+
+# Baked demo corpus: one injected drift per project, so the UI has something to
+# refute out of the box. Read-only in practice; the analysis cache lives in
+# /home/app/.local/share/docassay, which the base image already owns as `app`.
+COPY corpus /app/demo_corpus
+
+CMD ["web", \
+     "--host", "0.0.0.0", \
+     "--static", "/app/web/dist", \
+     "--corpus", "/app/demo_corpus", \
+     "--allow-root", "/app/demo_corpus", \
+     "--allowed-host", "*", \
+     "--allow-bare-index"]

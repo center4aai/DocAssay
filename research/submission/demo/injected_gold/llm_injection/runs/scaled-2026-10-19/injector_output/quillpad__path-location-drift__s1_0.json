@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "artifact_class": "path",
+    "direction": "code_side",
+    "kind": "path_rename",
+    "file": "docs/api.md",
+    "old": "docs/api.md",
+    "new": "docs/api_reference.md",
+    "target": "docs/api.md",
+    "doc_path": "README.md",
+    "doc_line_text": "- docs/api.md lists the models, store, routes, settings, and CLI symbols.",
+    "target_claim": "The API reference document is located at docs/api.md and lists the project's models, store, routes, settings, and CLI symbols.",
+    "exemplar_ids": [
+      "4"
+    ],
+    "rationale": "I followed the exemplar pattern where a README names a current file path that is later replaced by a differently named file. The README's Documentation section names docs/api.md as the current API reference, so renaming that file makes the documented location stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"path-location-drift\", \"artifact_class\": \"path\", \"direction\": \"code_side\", \"kind\": \"path_rename\", \"file\": \"docs/api.md\", \"old\": \"docs/api.md\", \"new\": \"docs/api_reference.md\", \"target\": \"docs/api.md\", \"doc_path\": \"README.md\", \"doc_line_text\": \"- docs/api.md lists the models, store, routes, settings, and CLI symbols.\", \"target_claim\": \"The API reference document is located at docs/api.md and lists the project's models, store, routes, settings, and CLI symbols.\", \"exemplar_ids\": [\"4\"], \"rationale\": \"I followed the exemplar pattern where a README names a current file path that is later replaced by a differently named file. The README's Documentation section names docs/api.md as the current API reference, so renaming that file makes the documented location stale.\"}",
+  "stderr_tail": ""
+}

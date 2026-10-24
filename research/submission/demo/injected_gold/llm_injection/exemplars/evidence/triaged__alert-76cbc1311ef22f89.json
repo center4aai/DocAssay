@@ -1,0 +1,26 @@
+{
+  "alert_id": "triaged:alert-76cbc1311ef22f89",
+  "commit_sha": "59d242f69c6538f4df03f4f001d741e12607db0d",
+  "commit_url": "https://github.com/Significant-Gravitas/AutoGPT/commit/59d242f69c6538f4df03f4f001d741e12607db0d",
+  "files": [
+    {
+      "added": [],
+      "hunks": 3,
+      "matched_location": true,
+      "path": "autogpt_platform/frontend/src/services/feature-flags/use-get-flag.ts",
+      "removed": [
+        "  AGENT_ACTIVITY = \"agent-activity\",",
+        "  [Flag.AGENT_ACTIVITY]: boolean;",
+        "  [Flag.AGENT_ACTIVITY]: true,"
+      ],
+      "side": "code",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "autogpt_platform/frontend/README.md",
+    "autogpt_platform/frontend/src/services/feature-flags/use-get-flag.ts"
+  ],
+  "patch_sha256": "94f51710986bcd7bf8621543586191e9921849681203de38f9c2dbd64c83475a",
+  "status": "ok"
+}

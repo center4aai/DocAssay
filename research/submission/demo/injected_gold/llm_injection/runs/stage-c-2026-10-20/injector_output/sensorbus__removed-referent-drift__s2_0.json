@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "sensorbus/devices.py",
+    "old": "SerialDevice",
+    "new": null,
+    "symbol": "SerialDevice",
+    "target": "SerialDevice",
+    "doc_path": "README.md",
+    "doc_line_text": "**Devices.** `SerialDevice` describes a port you can read from — `port`,",
+    "target_claim": "SerialDevice is the current public class describing a readable serial port, with port, baudrate, and name attributes.",
+    "exemplar_ids": [
+      "example-1"
+    ],
+    "rationale": "The README presents SerialDevice as the current record for a readable serial port, and the status note says the data classes are real and can be constructed today."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"sensorbus/devices.py\",\n  \"old\": \"SerialDevice\",\n  \"new\": null,\n  \"symbol\": \"SerialDevice\",\n  \"target\": \"SerialDevice\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"**Devices.** `SerialDevice` describes a port you can read from — `port`,\",\n  \"target_claim\": \"SerialDevice is the current public class describing a readable serial port, with port, baudrate, and name attributes.\",\n  \"exemplar_ids\": [\"example-1\"],\n  \"rationale\": \"The README presents SerialDevice as the current record for a readable serial port, and the status note says the data classes are real and can be constructed today.\"\n}",
+  "stderr_tail": ""
+}

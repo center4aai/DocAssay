@@ -1,0 +1,47 @@
+{
+  "repo": "contourkit__external-dependency-drift__s1_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "README.md",
+        "line": 23,
+        "predicate": "DEPENDENCY",
+        "object": "numpy",
+        "reason": ""
+      },
+      {
+        "source": "docs/api.md",
+        "line": 209,
+        "predicate": "DEPENDENCY",
+        "object": "numpy",
+        "reason": ""
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 28,
+        "predicate": "DEPENDENCY",
+        "object": "numpy",
+        "reason": ""
+      }
+    ],
+    "new_nei": [],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "contourkit__external-dependency-drift__s1_0::0",
+      "repo": "contourkit__external-dependency-drift__s1_0",
+      "op_id": "llm.external-dependency-drift",
+      "canonical_class": "external-dependency-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "numpy",
+        "new": ">=999",
+        "doc_path": "docs/api.md",
+        "target": "numpy>=1.26"
+      }
+    }
+  ]
+}

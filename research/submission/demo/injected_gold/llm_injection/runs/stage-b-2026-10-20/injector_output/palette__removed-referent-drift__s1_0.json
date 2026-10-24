@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "palette/cli.py",
+    "old": "main",
+    "new": null,
+    "symbol": "main",
+    "target": "main",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `main() -> int`",
+    "target_claim": "The API reference documents `main() -> int` as a current function defined in `palette/cli.py`.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "The API reference presents `main` as the current command-line entry point, so deleting its definition leaves a natural removed-referent defect."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"palette/cli.py\",\n  \"old\": \"main\",\n  \"new\": null,\n  \"symbol\": \"main\",\n  \"target\": \"main\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"### `main() -> int`\",\n  \"target_claim\": \"The API reference documents `main() -> int` as a current function defined in `palette/cli.py`.\",\n  \"exemplar_ids\": [\"example 1\"],\n  \"rationale\": \"The API reference presents `main` as the current command-line entry point, so deleting its definition leaves a natural removed-referent defect.\"\n}",
+  "stderr_tail": ""
+}

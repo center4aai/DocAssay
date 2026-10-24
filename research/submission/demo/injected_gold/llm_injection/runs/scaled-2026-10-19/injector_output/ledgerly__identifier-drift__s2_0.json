@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "artifact_class": "identifier",
+    "direction": "code_side",
+    "kind": "symbol_rename",
+    "file": "ledgerly/routes.py",
+    "old": "ledgerly.routes.build_routes",
+    "new": "ledgerly.routes.build_route_table",
+    "symbol": "build_routes",
+    "target": "ledgerly.routes.build_routes()",
+    "doc_path": "README.md",
+    "doc_line_text": "`ledgerly.routes.build_routes()` returns a `RouteTable()`.",
+    "target_claim": "The README states that `ledgerly.routes.build_routes()` is the current function that returns a `RouteTable()`; after the definition is renamed, the documented qualified identifier no longer resolves in the code.",
+    "exemplar_ids": [
+      "triaged:alert-90c9797475f8f79a",
+      "triaged:alert-e4613ce0dc642fdc"
+    ],
+    "rationale": "Followed the exemplar pattern of renaming a documented top-level API symbol in code while the document keeps the old qualified call form. `build_routes` is a unique top-level function, so renaming its definition to `build_route_table` leaves the README claim stale while `routes.py` still parses."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"artifact_class\": \"identifier\",\n  \"direction\": \"code_side\",\n  \"kind\": \"symbol_rename\",\n  \"file\": \"ledgerly/routes.py\",\n  \"old\": \"ledgerly.routes.build_routes\",\n  \"new\": \"ledgerly.routes.build_route_table\",\n  \"symbol\": \"build_routes\",\n  \"target\": \"ledgerly.routes.build_routes()\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"`ledgerly.routes.build_routes()` returns a `RouteTable()`.\",\n  \"target_claim\": \"The README states that `ledgerly.routes.build_routes()` is the current function that returns a `RouteTable()`; after the definition is renamed, the documented qualified identifier no longer resolves in the code.\",\n  \"exemplar_ids\": [\n    \"triaged:alert-90c9797475f8f79a\",\n    \"triaged:alert-e4613ce0dc642fdc\"\n  ],\n  \"rationale\": \"Followed the exemplar pattern of renaming a documented top-level API symbol in code while the document keeps the old qualified call form. `build_routes` is a unique top-level function, so renaming its definition to `build_route_table` leaves the README claim stale while `routes.py` still parses.\"\n}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,175 @@
+{
+  "repo": "bibscan__path-location-drift__s1_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "README.md",
+        "line": 99,
+        "predicate": "PATH_EXISTS",
+        "object": "docs/recipes.md",
+        "reason": ""
+      }
+    ],
+    "new_nei": [
+      {
+        "source": "docs/cookbook.md",
+        "line": 34,
+        "predicate": "DEPENDENCY",
+        "object": "build",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 103,
+        "predicate": "DEPENDENCY",
+        "object": "build",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 162,
+        "predicate": "DEPENDENCY",
+        "object": "parse",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 163,
+        "predicate": "DEPENDENCY",
+        "object": "parse",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 186,
+        "predicate": "DEPENDENCY",
+        "object": "parse",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 67,
+        "predicate": "DEPENDENCY",
+        "object": "pathlib",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 113,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "bibscan.names.name",
+        "reason": "last segment is a domain name ending (.name)"
+      }
+    ],
+    "new_supported": [
+      {
+        "source": "docs/cookbook.md",
+        "line": 16,
+        "predicate": "DEPENDENCY",
+        "object": "python",
+        "reason": ""
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 19,
+        "predicate": "DEPENDENCY",
+        "object": "python",
+        "reason": ""
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 4,
+        "predicate": "PATH_EXISTS",
+        "object": "api.md",
+        "reason": ""
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 4,
+        "predicate": "PATH_EXISTS",
+        "object": "docs/api.md",
+        "reason": ""
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 7,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "bibscan",
+        "reason": ""
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 150,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "bibscan.format",
+        "reason": ""
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 113,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "bibscan.names",
+        "reason": ""
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 199,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "bibsyntaxerror",
+        "reason": ""
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 36,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "entry",
+        "reason": ""
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 175,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "main",
+        "reason": ""
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 103,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "parse_csl",
+        "reason": ""
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 133,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "particles",
+        "reason": ""
+      },
+      {
+        "source": "docs/cookbook.md",
+        "line": 174,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "scan_file",
+        "reason": ""
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "bibscan__path-location-drift__s1_0::0",
+      "repo": "bibscan__path-location-drift__s1_0",
+      "op_id": "llm.path-location-drift",
+      "canonical_class": "path-location-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "docs/recipes.md",
+        "new": "docs/cookbook.md",
+        "doc_path": "README.md",
+        "target": "docs/recipes.md"
+      }
+    }
+  ]
+}

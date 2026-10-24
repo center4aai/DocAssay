@@ -1,0 +1,44 @@
+{
+  "judged": 69,
+  "missing_verdicts": 0,
+  "agreement_with_deterministic": 1.0,
+  "reactions": {
+    "nei": 11,
+    "none": 8,
+    "refuted": 50
+  },
+  "by_class": {
+    "external-dependency-drift": {
+      "refuted_injected": 15,
+      "refuted_detected": 15,
+      "controls": 0,
+      "controls_clean": 0,
+      "recall": 1.0,
+      "precision": null
+    },
+    "identifier-drift": {
+      "refuted_injected": 18,
+      "refuted_detected": 9,
+      "controls": 0,
+      "controls_clean": 0,
+      "recall": 0.5,
+      "precision": null
+    },
+    "path-location-drift": {
+      "refuted_injected": 18,
+      "refuted_detected": 14,
+      "controls": 0,
+      "controls_clean": 0,
+      "recall": 0.778,
+      "precision": null
+    },
+    "removed-referent-drift": {
+      "refuted_injected": 18,
+      "refuted_detected": 12,
+      "controls": 0,
+      "controls_clean": 0,
+      "recall": 0.667,
+      "precision": null
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "verdicts": [
+    {
+      "id": "sensorbus__external-dependency-drift__s1_0::0",
+      "reaction": "refuted",
+      "reason": "New REFUTED DEPENDENCY claim README.md:42 object 'numpy' (refuting evidence numpy:pyproject.toml:>=999 vs documented numpy>=1.24). Same dependency artifact by normalized package name + requirement relation; no such REFUTED in baseline. target_line_status=refuted (recorded README.md:42), attribution=target_line."
+    },
+    {
+      "id": "sensorbus__external-dependency-drift__s2_0::0",
+      "reaction": "refuted",
+      "reason": "New REFUTED DEPENDENCY claim README.md:42 object 'numpy' (refuting evidence numpy:pyproject.toml:>=999). Same-artifact dependency match (numpy, requirement relation); absent from baseline. target_line_status=refuted (recorded README.md:42), attribution=target_line."
+    },
+    {
+      "id": "sensorbus__external-dependency-drift__s3_0::0",
+      "reaction": "refuted",
+      "reason": "New REFUTED DEPENDENCY claim README.md:42 object 'numpy' (refuting evidence numpy:pyproject.toml:>=999). Same-artifact dependency match; not REFUTED in baseline. target_line_status=refuted (recorded README.md:42), attribution=target_line."
+    },
+    {
+      "id": "sensorbus__identifier-drift__s1_0::0",
+      "reaction": "nei",
+      "reason": "No new same-artifact REFUTED anywhere in the diff. Same-artifact claim formed and abstains: docs/usage.md:43 SYMBOL_EXISTS 'calibrationcurve' (the mention the baseline resolved to sensorbus.calibration.CalibrationCurve, i.e. the injected M.T) -> NEI, layer CLAIM_GATE, verbatim reason 'unresolved bare name'. target_line_status=none/no_claim: no claim is formed at the recorded README.md:97; attribution=other_mention."
+    },
+    {
+      "id": "sensorbus__identifier-drift__s2_0::0",
+      "reaction": "nei",
+      "reason": "No new same-artifact REFUTED. Same-artifact claims abstain: docs/concepts.md:88 and docs/usage.md:146 SYMBOL_EXISTS 'convert', both baseline-resolved to sensorbus.units.convert (injected M.T) -> NEI, layer CLAIM_GATE, verbatim reason 'unresolved bare name'. target_line_status=none/other_referent: recorded docs/concepts.md:74 is covered only by DEPENDENCY 'py' and PATH_EXISTS 'units.py'; attribution=other_mention."
+    },
+    {
+      "id": "sensorbus__identifier-drift__s3_0::0",
+      "reaction": "nei",
+      "reason": "No new same-artifact REFUTED. Same-artifact claims abstain on and off the line: docs/concepts.md:115 (recorded doc+line), README.md:21, docs/usage.md:21 SYMBOL_EXISTS 'list_devices', all baseline-resolved to sensorbus.devices.list_devices -> NEI, layer CLAIM_GATE, verbatim reason 'unresolved bare name'. target_line_status=nei, attribution=both."
+    },
+    {
+      "id": "sensorbus__path-location-drift__s1_0::0",
+      "reaction": "refuted",
+      "reason": "New REFUTED PATH_EXISTS claims for object 'examples/curve_nitrate.csv' at README.md:72, docs/concepts.md:57, docs/usage.md:45 - normalized inventory path equal to the injected artifact (renamed to examples/nitrate_calibration.csv); absent from baseline. target_line_status=refuted (recorded README.md:72), attribution=both."
+    },
+    {
+      "id": "sensorbus__path-location-drift__s2_0::0",
+      "reaction": "refuted",
+      "reason": "New REFUTED PATH_EXISTS 'examples/curve_nitrate.csv' at README.md:72 plus docs/concepts.md:57 and docs/usage.md:45; path match to the injected artifact (moved to examples/nitrate_calibration.csv). target_line_status=refuted (recorded README.md:72), attribution=both."
+    },
+    {
+      "id": "sensorbus__path-location-drift__s3_0::0",
+      "reaction": "refuted",
+      "reason": "New REFUTED PATH_EXISTS 'examples/curve_nitrate.csv' at README.md:72 plus docs/concepts.md:57 and docs/usage.md:45; path match to the injected artifact (moved to examples/curve_nitrate_01.csv). target_line_status=refuted (recorded README.md:72), attribution=both."
+    },
+    {
+      "id": "sensorbus__removed-referent-drift__s1_0::0",
+      "reaction": "nei",
+      "reason": "No new same-artifact REFUTED. Same-artifact claim abstains: docs/concepts.md:114 SYMBOL_EXISTS 'serialdevice' (baseline-resolved to sensorbus.devices.SerialDevice, the deleted referent) -> NEI, layer CLAIM_GATE, verbatim reason 'unresolved bare name'. target_line_status=none/no_claim: no claim at the recorded docs/usage.md:20; attribution=other_mention. (docs/usage.md:172 'serialdevice.port' NEI 'foreign top segment' is a different referent, not credited.)"
+    },
+    {
+      "id": "sensorbus__removed-referent-drift__s2_0::0",
+      "reaction": "nei",
+      "reason": "No new same-artifact REFUTED. Same-artifact claim abstains: docs/concepts.md:114 SYMBOL_EXISTS 'serialdevice' -> NEI, layer CLAIM_GATE, verbatim reason 'unresolved bare name'; referent is the injected/removed sensorbus.devices.SerialDevice. target_line_status=none/no_claim: no claim at the recorded README.md:113; attribution=other_mention."
+    },
+    {
+      "id": "sensorbus__removed-referent-drift__s3_0::0",
+      "reaction": "nei",
+      "reason": "No new same-artifact REFUTED. Same-artifact claims abstain: docs/concepts.md:115 (recorded doc+line), README.md:21, docs/usage.md:21 SYMBOL_EXISTS 'list_devices', referent sensorbus.devices.list_devices as established in the baseline -> NEI, layer CLAIM_GATE, verbatim reason 'unresolved bare name'. target_line_status=nei, attribution=both."
+    }
+  ]
+}

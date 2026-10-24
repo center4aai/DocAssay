@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "boundary_id": "injected_gold.operators.boundary",
+  "version": "2026-10-12",
+  "note": "Expressiveness boundary: canonical classes that are NOT implemented as injection operators. They are reported separately as the limit of the current predicate vocabulary, never mixed into recall. Values are copied from normalization.json; scripts/validate_scope.py checks that every class listed here has scope != in or unit != repo in normalization.json.",
+  "out_of_scope_repo_expr": [
+    "behavior-drift",
+    "signature-drift",
+    "constraint-drift",
+    "security-drift",
+    "exception-contract-drift",
+    "null-semantics-drift",
+    "format-encoding-drift",
+    "polarity-order-drift",
+    "lifecycle-contract-drift",
+    "return-value-semantics-drift",
+    "parameter-mismatch",
+    "unused-parameter",
+    "copy-edit-drift"
+  ],
+  "out_of_scope_doc_process_data": [
+    "presentation-format",
+    "documentation-process",
+    "documentation-tooling",
+    "data-quality",
+    "control-repair-failure"
+  ],
+  "candidate_unconfirmed": [
+    "error-message-drift"
+  ],
+  "control_classes": [
+    "control-pre-existing",
+    "control-misinterpreted",
+    "control-illustrative",
+    "control-benign-equivalence",
+    "control-incorrect-external",
+    "rubric-correctness",
+    "rubric-up-to-date",
+    "rubric-completeness",
+    "axis-commit-induced"
+  ]
+}

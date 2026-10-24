@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "tileplan/extent.py",
+    "old": "merge_extents",
+    "new": "combine_extents",
+    "symbol": "merge_extents",
+    "target": "merge_extents",
+    "doc_path": "README.md",
+    "doc_line_text": "| `tileplan/extent.py` | `Extent`, `tile_extent`, `merge_extents` |",
+    "target_claim": "The package layout table lists `merge_extents` as a public name provided by `tileplan/extent.py`.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "The package-layout table is a current, checkable statement of the module's public API."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"tileplan/extent.py\", \"old\": \"merge_extents\", \"new\": \"combine_extents\", \"symbol\": \"merge_extents\", \"target\": \"merge_extents\", \"doc_path\": \"README.md\", \"doc_line_text\": \"| `tileplan/extent.py` | `Extent`, `tile_extent`, `merge_extents` |\", \"target_claim\": \"The package layout table lists `merge_extents` as a public name provided by `tileplan/extent.py`.\", \"exemplar_ids\": [\"example 1\", \"example 2\"], \"rationale\": \"The package-layout table is a current, checkable statement of the module's public API.\"}",
+  "stderr_tail": ""
+}

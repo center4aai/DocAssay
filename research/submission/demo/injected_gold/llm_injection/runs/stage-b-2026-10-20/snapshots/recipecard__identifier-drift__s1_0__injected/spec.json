@@ -1,0 +1,59 @@
+{
+  "project": {
+    "name": "recipecard",
+    "pkg": "recipecard",
+    "version": "0.3.0",
+    "description": "A small library and command-line tool for loading recipe files, scaling ingredient quantities to a new serving count, and combining recipes into a shopping list."
+  },
+  "dependencies": [
+    {"name": "PyYAML", "constraint": ">=6.0"},
+    {"name": "click", "constraint": ">=8.1"}
+  ],
+  "modules": [
+    {"path": "recipecard/models.py",
+     "symbols": [
+       {"name": "Ingredient", "kind": "class", "return_type": null, "members": ["name", "quantity", "unit"]},
+       {"name": "Recipe", "kind": "class", "return_type": null, "members": ["title", "servings", "ingredients"]}
+     ]},
+    {"path": "recipecard/units.py",
+     "symbols": [
+       {"name": "KNOWN_UNITS", "kind": "constant", "return_type": null, "members": []},
+       {"name": "normalize_unit", "kind": "function", "return_type": "str", "members": []}
+     ]},
+    {"path": "recipecard/loader.py",
+     "symbols": [
+       {"name": "load_recipe", "kind": "function", "return_type": "Recipe", "members": []},
+       {"name": "load_recipes", "kind": "function", "return_type": "list[Recipe]", "members": []}
+     ]},
+    {"path": "recipecard/scaling.py",
+     "symbols": [
+       {"name": "scale_quantity", "kind": "function", "return_type": "float", "members": []},
+       {"name": "scale_recipe", "kind": "function", "return_type": "Recipe", "members": []}
+     ]},
+    {"path": "recipecard/shopping.py",
+     "symbols": [
+       {"name": "ShoppingList", "kind": "class", "return_type": null, "members": ["items"]},
+       {"name": "build_shopping_list", "kind": "function", "return_type": "ShoppingList", "members": []}
+     ]},
+    {"path": "recipecard/cli.py",
+     "symbols": [
+       {"name": "main", "kind": "function", "return_type": "int", "members": []}
+     ]}
+  ],
+  "docs": [
+    {"path": "README.md", "kind": "readme"},
+    {"path": "docs/guide.md", "kind": "guide"},
+    {"path": "docs/api.md", "kind": "reference"}
+  ],
+  "example_commands": [
+    "recipecard scale examples/pancakes.yaml --servings 6",
+    "recipecard shopping examples/pancakes.yaml examples/pancakes.yaml --format text"
+  ],
+  "paths": [
+    "examples/pancakes.yaml"
+  ],
+  "data_files": [
+    {"path": "examples/pancakes.yaml",
+     "text": "title: Pancakes\nservings: 4\ningredients:\n  - name: flour\n    quantity: 240\n    unit: g\n  - name: milk\n    quantity: 300\n    unit: ml\n  - name: egg\n    quantity: 2\n    unit: whole\n"}
+  ]
+}

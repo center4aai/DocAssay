@@ -1,0 +1,33 @@
+{
+  "repo": "sensorbus__removed-referent-drift__s1_0",
+  "tool_diff": {
+    "new_refuted": [],
+    "new_nei": [
+      {
+        "source": "docs/concepts.md",
+        "line": 114,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "serialdevice",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "sensorbus__removed-referent-drift__s1_0::0",
+      "repo": "sensorbus__removed-referent-drift__s1_0",
+      "op_id": "llm.removed-referent-drift",
+      "canonical_class": "removed-referent-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "sensorbus.devices.SerialDevice",
+        "new": null,
+        "doc_path": "docs/usage.md",
+        "target": "SerialDevice"
+      }
+    }
+  ]
+}

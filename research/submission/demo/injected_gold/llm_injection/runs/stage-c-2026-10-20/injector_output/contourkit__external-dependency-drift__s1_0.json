@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "numpy>=1.26",
+    "new": "numpy>=999",
+    "symbol": "numpy",
+    "target": "numpy>=1.26",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "- Dependencies: `numpy>=1.26`, `click>=8.1`",
+    "target_claim": "The package metadata states that numpy>=1.26 is a current runtime dependency.",
+    "exemplar_ids": [
+      "example 1",
+      "example 4"
+    ],
+    "rationale": "The API reference's package-metadata list presents numpy>=1.26 as the project's present runtime requirement, so tightening the manifest bound makes that ordinary current-state fact false."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"external-dependency-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"pyproject.toml\",\n  \"old\": \"numpy>=1.26\",\n  \"new\": \"numpy>=999\",\n  \"symbol\": \"numpy\",\n  \"target\": \"numpy>=1.26\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"- Dependencies: `numpy>=1.26`, `click>=8.1`\",\n  \"target_claim\": \"The package metadata states that numpy>=1.26 is a current runtime dependency.\",\n  \"exemplar_ids\": [\"example 1\", \"example 4\"],\n  \"rationale\": \"The API reference's package-metadata list presents numpy>=1.26 as the project's present runtime requirement, so tightening the manifest bound makes that ordinary current-state fact false.\"\n}",
+  "stderr_tail": ""
+}

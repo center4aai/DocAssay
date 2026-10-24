@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "plotline/canvas.py",
+    "old": "Canvas",
+    "new": null,
+    "symbol": "Canvas",
+    "target": "Canvas",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "A drawing surface. `Canvas()` takes no arguments.",
+    "target_claim": "The API reference states that `plotline.canvas` provides a `Canvas` drawing surface whose constructor takes no arguments.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "The API reference presents `Canvas` as a current public class defined by the package, so deleting its definition leaves the documented name with no referent in the code."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"removed-referent-drift\", \"direction\": \"code_side\", \"file\": \"plotline/canvas.py\", \"old\": \"Canvas\", \"new\": null, \"symbol\": \"Canvas\", \"target\": \"Canvas\", \"doc_path\": \"docs/api.md\", \"doc_line_text\": \"A drawing surface. `Canvas()` takes no arguments.\", \"target_claim\": \"The API reference states that `plotline.canvas` provides a `Canvas` drawing surface whose constructor takes no arguments.\", \"exemplar_ids\": [\"example 1\"], \"rationale\": \"The API reference presents `Canvas` as a current public class defined by the package, so deleting its definition leaves the documented name with no referent in the code.\"}",
+  "stderr_tail": ""
+}

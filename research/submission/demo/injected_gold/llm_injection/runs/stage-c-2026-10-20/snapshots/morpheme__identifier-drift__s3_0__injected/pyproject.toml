@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "morpheme"
+version = "0.4.2"
+description = "Morphological segmentation and lemma lookup for a small language pack."
+requires-python = ">=3.11"
+dependencies = [
+    "regex>=2024.5",
+    "PyYAML>=6.0"
+]
+
+[tool.setuptools]
+packages = ["morpheme"]

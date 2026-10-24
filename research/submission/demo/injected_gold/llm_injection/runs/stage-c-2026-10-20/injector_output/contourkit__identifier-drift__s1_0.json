@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "contourkit/geometry.py",
+    "old": "close_ring",
+    "new": "close_polyline",
+    "symbol": "close_ring",
+    "target": "close_ring()",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `close_ring() -> Polyline`",
+    "target_claim": "The API reference lists `close_ring()` as the current public function in `contourkit.geometry` that returns a closed Polyline.",
+    "exemplar_ids": [
+      "example 1",
+      "example 4"
+    ],
+    "rationale": "The API reference heading presents `close_ring()` as a current public function, so renaming its top-level definition directly falsifies a checkable API statement."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"contourkit/geometry.py\",\n  \"old\": \"close_ring\",\n  \"new\": \"close_polyline\",\n  \"symbol\": \"close_ring\",\n  \"target\": \"close_ring()\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"### `close_ring() -> Polyline`\",\n  \"target_claim\": \"The API reference lists `close_ring()` as the current public function in `contourkit.geometry` that returns a closed Polyline.\",\n  \"exemplar_ids\": [\n    \"example 1\",\n    \"example 4\"\n  ],\n  \"rationale\": \"The API reference heading presents `close_ring()` as a current public function, so renaming its top-level definition directly falsifies a checkable API statement.\"\n}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,36 @@
+{
+  "alert_id": "triaged:alert-350586bc1ca4547a",
+  "commit_sha": "66fb8575ced090a969c9529c88ee57a8df1259c2",
+  "commit_url": "https://github.com/ollama/ollama/commit/66fb8575ced090a969c9529c88ee57a8df1259c2",
+  "files": [
+    {
+      "added": [],
+      "hunks": 1,
+      "matched_location": true,
+      "path": "docs/windows.md",
+      "removed": [
+        "### Changing Model Location",
+        "",
+        "To change where Ollama stores the downloaded models instead of using your home directory, set the environment variable `OLLAMA_MODELS` in your user account.",
+        "",
+        "1. Start the Settings (Windows 11) or Control Panel (Windows 10) application and search for _environment variables_.",
+        "",
+        "2. Click on _Edit environment variables for your account_.",
+        "",
+        "3. Edit or create a new variable for your user account for `OLLAMA_MODELS` where you want the models stored",
+        "",
+        "4. Click OK/Apply to save.",
+        "",
+        "If Ollama is already running, Quit the tray application and relaunch it from the Start menu, or a new terminal started after you saved the environment variables.",
+        ""
+      ],
+      "side": "doc",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "docs/windows.md"
+  ],
+  "patch_sha256": "8be84f97a1ab99169365f1cb703cd79d7feb51ca88a52abfe4e92cd70ce09a2e",
+  "status": "ok"
+}

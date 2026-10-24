@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "morpheme/cli.py",
+    "old": "format_alignment()",
+    "new": "render_alignment",
+    "symbol": "format_alignment",
+    "target": "format_alignment()",
+    "doc_path": "docs/concepts.md",
+    "doc_line_text": "`format_alignment()` produces a string: the human-readable rendering of a",
+    "target_claim": "`format_alignment()` is the current function that produces the human-readable rendering string for a segmentation or lemma analysis.",
+    "exemplar_ids": [
+      "example 2",
+      "example 3"
+    ],
+    "rationale": "The concepts document presents `format_alignment()` in the present tense as the function that renders segmentation and lemma analyses, so renaming its definition in `morpheme/cli.py` leaves that current-API statement referring to a name that no longer exists."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"morpheme/cli.py\", \"old\": \"format_alignment()\", \"new\": \"render_alignment\", \"symbol\": \"format_alignment\", \"target\": \"format_alignment()\", \"doc_path\": \"docs/concepts.md\", \"doc_line_text\": \"`format_alignment()` produces a string: the human-readable rendering of a\", \"target_claim\": \"`format_alignment()` is the current function that produces the human-readable rendering string for a segmentation or lemma analysis.\", \"exemplar_ids\": [\"example 2\", \"example 3\"], \"rationale\": \"The concepts document presents `format_alignment()` in the present tense as the function that renders segmentation and lemma analyses, so renaming its definition in `morpheme/cli.py` leaves that current-API statement referring to a name that no longer exists.\"}",
+  "stderr_tail": ""
+}

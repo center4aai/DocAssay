@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "value-drift",
+    "artifact_class": "value",
+    "direction": "code_side",
+    "kind": "version_bump",
+    "file": "pyproject.toml",
+    "old": "0.3.1",
+    "new": "0.3.2",
+    "target": "0.3.1",
+    "doc_path": "README.md",
+    "doc_line_text": "This is parcelroute version 0.3.1.",
+    "target_claim": "The project's current version is 0.3.1.",
+    "exemplar_ids": [
+      "triaged:alert-0586cd1b5ddb26aa"
+    ],
+    "rationale": "Followed the exemplar's shape: a document states the project's current version literal while the authoritative version advances to the next patch."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"value-drift\",\n  \"artifact_class\": \"value\",\n  \"direction\": \"code_side\",\n  \"kind\": \"version_bump\",\n  \"file\": \"pyproject.toml\",\n  \"old\": \"0.3.1\",\n  \"new\": \"0.3.2\",\n  \"target\": \"0.3.1\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"This is parcelroute version 0.3.1.\",\n  \"target_claim\": \"The project's current version is 0.3.1.\",\n  \"exemplar_ids\": [\n    \"triaged:alert-0586cd1b5ddb26aa\"\n  ],\n  \"rationale\": \"Followed the exemplar's shape: a document states the project's current version literal while the authoritative version advances to the next patch.\"\n}",
+  "stderr_tail": ""
+}

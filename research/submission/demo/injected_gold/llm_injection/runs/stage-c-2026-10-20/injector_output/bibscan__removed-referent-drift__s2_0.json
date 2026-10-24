@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "bibscan/parser.py",
+    "old": "BibSyntaxError",
+    "new": null,
+    "symbol": "BibSyntaxError",
+    "target": "BibSyntaxError",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "| `bibscan.parser` | `BibSyntaxError`, `parse_bibtex`, `parse_csl` |",
+    "target_claim": "The API reference's module summary states that `bibscan.parser` currently contains `BibSyntaxError` as a public class.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "The module-summary table presents `BibSyntaxError` as available current API, making deletion of its class definition a natural current-state documentation drift."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"bibscan/parser.py\",\n  \"old\": \"BibSyntaxError\",\n  \"new\": null,\n  \"symbol\": \"BibSyntaxError\",\n  \"target\": \"BibSyntaxError\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"| `bibscan.parser` | `BibSyntaxError`, `parse_bibtex`, `parse_csl` |\",\n  \"target_claim\": \"The API reference's module summary states that `bibscan.parser` currently contains `BibSyntaxError` as a public class.\",\n  \"exemplar_ids\": [\"example 1\"],\n  \"rationale\": \"The module-summary table presents `BibSyntaxError` as available current API, making deletion of its class definition a natural current-state documentation drift.\"\n}",
+  "stderr_tail": ""
+}

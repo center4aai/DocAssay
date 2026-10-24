@@ -1,0 +1,548 @@
+{
+  "verdicts": [
+    {
+      "id": "contourkit__path-location-drift__s1_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:129 PATH_EXISTS docs/walkthrough.md"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "contourkit__path-location-drift__s2_0::0",
+      "reaction": "none",
+      "matched": [],
+      "rule": "no_new_finding"
+    },
+    {
+      "id": "contourkit__path-location-drift__s3_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:129 PATH_EXISTS docs/walkthrough.md"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "contourkit__identifier-drift__s1_0::0",
+      "reaction": "nei",
+      "matched": [
+        "docs/api.md:152 SYMBOL_EXISTS close_ring"
+      ],
+      "rule": "new_nei"
+    },
+    {
+      "id": "contourkit__identifier-drift__s2_0::0",
+      "reaction": "nei",
+      "matched": [
+        "docs/api.md:152 SYMBOL_EXISTS close_ring"
+      ],
+      "rule": "new_nei"
+    },
+    {
+      "id": "contourkit__identifier-drift__s3_0::0",
+      "reaction": "nei",
+      "matched": [
+        "docs/api.md:152 SYMBOL_EXISTS close_ring"
+      ],
+      "rule": "new_nei"
+    },
+    {
+      "id": "contourkit__removed-referent-drift__s1_0::0",
+      "reaction": "nei",
+      "matched": [
+        "docs/api.md:152 SYMBOL_EXISTS close_ring"
+      ],
+      "rule": "new_nei"
+    },
+    {
+      "id": "contourkit__removed-referent-drift__s2_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/api.md:30 SYMBOL_EXISTS contourkit.cli.main"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "contourkit__removed-referent-drift__s3_0::0",
+      "reaction": "nei",
+      "matched": [
+        "docs/api.md:152 SYMBOL_EXISTS close_ring"
+      ],
+      "rule": "new_nei"
+    },
+    {
+      "id": "contourkit__external-dependency-drift__s1_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:23 DEPENDENCY numpy"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "contourkit__external-dependency-drift__s2_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:23 DEPENDENCY numpy"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "contourkit__external-dependency-drift__s3_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:23 DEPENDENCY click"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "tileplan__path-location-drift__s1_0::0",
+      "reaction": "none",
+      "matched": [],
+      "rule": "no_new_finding"
+    },
+    {
+      "id": "tileplan__path-location-drift__s2_0::0",
+      "reaction": "none",
+      "matched": [],
+      "rule": "no_new_finding"
+    },
+    {
+      "id": "tileplan__path-location-drift__s3_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:109 PATH_EXISTS docs/usage.md"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "tileplan__identifier-drift__s1_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/api.md:62 SYMBOL_EXISTS tileplan.extent.merge_extents"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "tileplan__identifier-drift__s2_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/api.md:77 SYMBOL_EXISTS tileplan.zoom.closest_zoom"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "tileplan__identifier-drift__s3_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/api.md:62 SYMBOL_EXISTS tileplan.extent.merge_extents"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "tileplan__removed-referent-drift__s1_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:96 SYMBOL_EXISTS tileplan.cover.coveroptions"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "tileplan__removed-referent-drift__s2_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/api.md:108 SYMBOL_EXISTS tileplan.quadkey.from_quadkey"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "tileplan__removed-referent-drift__s3_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/api.md:108 SYMBOL_EXISTS tileplan.quadkey.from_quadkey"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "morpheme__path-location-drift__s1_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:58 PATH_EXISTS examples/words.txt"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "morpheme__path-location-drift__s2_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:88 PATH_EXISTS docs/api.md"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "morpheme__path-location-drift__s3_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:88 PATH_EXISTS docs/api.md"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "morpheme__identifier-drift__s1_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/api.md:180 SYMBOL_EXISTS morpheme.cli.format_alignment"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "morpheme__identifier-drift__s2_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/api.md:180 SYMBOL_EXISTS morpheme.cli.format_alignment"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "morpheme__identifier-drift__s3_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/api.md:49 SYMBOL_EXISTS morpheme.affixes.affix"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "morpheme__removed-referent-drift__s1_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/api.md:180 SYMBOL_EXISTS morpheme.cli.format_alignment"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "morpheme__removed-referent-drift__s2_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/api.md:180 SYMBOL_EXISTS morpheme.cli.format_alignment"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "morpheme__removed-referent-drift__s3_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/api.md:149 SYMBOL_EXISTS morpheme.lemmatize.lookup_many"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "morpheme__external-dependency-drift__s1_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:10 DEPENDENCY pyyaml"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "morpheme__external-dependency-drift__s2_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:10 DEPENDENCY pyyaml"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "morpheme__external-dependency-drift__s3_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:10 DEPENDENCY pyyaml"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "bibscan__path-location-drift__s1_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:99 PATH_EXISTS docs/recipes.md"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "bibscan__path-location-drift__s2_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:99 PATH_EXISTS docs/recipes.md"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "bibscan__path-location-drift__s3_0::0",
+      "reaction": "none",
+      "matched": [],
+      "rule": "no_new_finding"
+    },
+    {
+      "id": "bibscan__identifier-drift__s1_0::0",
+      "reaction": "nei",
+      "matched": [
+        "docs/api.md:117 SYMBOL_EXISTS format_name"
+      ],
+      "rule": "new_nei"
+    },
+    {
+      "id": "bibscan__identifier-drift__s2_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:91 SYMBOL_EXISTS bibscan.cli.scan_file"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "bibscan__identifier-drift__s3_0::0",
+      "reaction": "nei",
+      "matched": [
+        "docs/api.md:117 SYMBOL_EXISTS format_name"
+      ],
+      "rule": "new_nei"
+    },
+    {
+      "id": "bibscan__removed-referent-drift__s1_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:91 SYMBOL_EXISTS bibscan.cli.scan_file"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "bibscan__removed-referent-drift__s2_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/api.md:18 SYMBOL_EXISTS bibscan.parser.bibsyntaxerror"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "bibscan__removed-referent-drift__s3_0::0",
+      "reaction": "nei",
+      "matched": [
+        "docs/api.md:117 SYMBOL_EXISTS format_name"
+      ],
+      "rule": "new_nei"
+    },
+    {
+      "id": "bibscan__external-dependency-drift__s1_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:26 DEPENDENCY lxml"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "bibscan__external-dependency-drift__s2_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:26 DEPENDENCY lxml"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "bibscan__external-dependency-drift__s3_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:26 DEPENDENCY python-dateutil"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "serialscope__path-location-drift__s1_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:40 PATH_EXISTS examples/pump_response.txt"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "serialscope__path-location-drift__s2_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:40 PATH_EXISTS examples/pump_response.txt"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "serialscope__path-location-drift__s3_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:121 PATH_EXISTS docs/walkthrough.md"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "serialscope__identifier-drift__s1_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/structure.md:101 SYMBOL_EXISTS serialscope.frames.parse_frame"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "serialscope__identifier-drift__s2_0::0",
+      "reaction": "nei",
+      "matched": [
+        "docs/structure.md:74 SYMBOL_EXISTS checksumerror"
+      ],
+      "rule": "new_nei"
+    },
+    {
+      "id": "serialscope__identifier-drift__s3_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/structure.md:101 SYMBOL_EXISTS serialscope.frames.parse_frame"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "serialscope__removed-referent-drift__s1_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/structure.md:85 SYMBOL_EXISTS serialscope.checksums.xor8"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "serialscope__removed-referent-drift__s2_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/structure.md:85 SYMBOL_EXISTS serialscope.checksums.xor8"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "serialscope__removed-referent-drift__s3_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "docs/structure.md:117 SYMBOL_EXISTS serialscope.codecs.decode_measurement"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "serialscope__external-dependency-drift__s1_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:21 DEPENDENCY pyserial"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "serialscope__external-dependency-drift__s2_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:21 DEPENDENCY pyserial"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "serialscope__external-dependency-drift__s3_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:21 DEPENDENCY pyserial"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "sensorbus__path-location-drift__s1_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:72 PATH_EXISTS examples/curve_nitrate.csv"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "sensorbus__path-location-drift__s2_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:72 PATH_EXISTS examples/curve_nitrate.csv"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "sensorbus__path-location-drift__s3_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:72 PATH_EXISTS examples/curve_nitrate.csv"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "sensorbus__identifier-drift__s1_0::0",
+      "reaction": "nei",
+      "matched": [
+        "docs/usage.md:43 SYMBOL_EXISTS calibrationcurve"
+      ],
+      "rule": "new_nei"
+    },
+    {
+      "id": "sensorbus__identifier-drift__s2_0::0",
+      "reaction": "nei",
+      "matched": [
+        "docs/concepts.md:88 SYMBOL_EXISTS convert"
+      ],
+      "rule": "new_nei"
+    },
+    {
+      "id": "sensorbus__identifier-drift__s3_0::0",
+      "reaction": "nei",
+      "matched": [
+        "README.md:21 SYMBOL_EXISTS list_devices"
+      ],
+      "rule": "new_nei"
+    },
+    {
+      "id": "sensorbus__removed-referent-drift__s1_0::0",
+      "reaction": "nei",
+      "matched": [
+        "docs/concepts.md:114 SYMBOL_EXISTS serialdevice"
+      ],
+      "rule": "new_nei"
+    },
+    {
+      "id": "sensorbus__removed-referent-drift__s2_0::0",
+      "reaction": "nei",
+      "matched": [
+        "docs/concepts.md:114 SYMBOL_EXISTS serialdevice"
+      ],
+      "rule": "new_nei"
+    },
+    {
+      "id": "sensorbus__removed-referent-drift__s3_0::0",
+      "reaction": "nei",
+      "matched": [
+        "README.md:21 SYMBOL_EXISTS list_devices"
+      ],
+      "rule": "new_nei"
+    },
+    {
+      "id": "sensorbus__external-dependency-drift__s1_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:42 DEPENDENCY numpy"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "sensorbus__external-dependency-drift__s2_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:42 DEPENDENCY numpy"
+      ],
+      "rule": "new_refuted_strong"
+    },
+    {
+      "id": "sensorbus__external-dependency-drift__s3_0::0",
+      "reaction": "refuted",
+      "matched": [
+        "README.md:42 DEPENDENCY numpy"
+      ],
+      "rule": "new_refuted_strong"
+    }
+  ]
+}

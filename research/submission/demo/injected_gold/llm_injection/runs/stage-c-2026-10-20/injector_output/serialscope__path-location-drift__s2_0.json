@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "examples/pump_response.txt",
+    "old": "examples/pump_response.txt",
+    "new": "examples/pump_status.txt",
+    "target": "examples/pump_response.txt",
+    "doc_path": "README.md",
+    "doc_line_text": "`examples/pump_response.txt` holds one pump status line:",
+    "target_claim": "The pump status capture is located at examples/pump_response.txt in the repository.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "The README presents this path as the current location of the pump capture that a reader should open, so renaming the file makes the statement false while leaving the document intact."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"path-location-drift\", \"direction\": \"code_side\", \"file\": \"examples/pump_response.txt\", \"old\": \"examples/pump_response.txt\", \"new\": \"examples/pump_status.txt\", \"target\": \"examples/pump_response.txt\", \"doc_path\": \"README.md\", \"doc_line_text\": \"`examples/pump_response.txt` holds one pump status line:\", \"target_claim\": \"The pump status capture is located at examples/pump_response.txt in the repository.\", \"exemplar_ids\": [\"example 1\"], \"rationale\": \"The README presents this path as the current location of the pump capture that a reader should open, so renaming the file makes the statement false while leaving the document intact.\"}",
+  "stderr_tail": ""
+}

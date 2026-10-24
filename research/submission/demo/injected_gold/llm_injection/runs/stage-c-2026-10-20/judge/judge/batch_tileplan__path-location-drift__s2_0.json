@@ -1,0 +1,25 @@
+{
+  "repo": "tileplan__path-location-drift__s2_0",
+  "tool_diff": {
+    "new_refuted": [],
+    "new_nei": [],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "tileplan__path-location-drift__s2_0::0",
+      "repo": "tileplan__path-location-drift__s2_0",
+      "op_id": "llm.path-location-drift",
+      "canonical_class": "path-location-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "examples/bay_area.geojson",
+        "new": "examples/bay_area_view.geojson",
+        "doc_path": "README.md",
+        "target": "examples/bay_area.geojson"
+      }
+    }
+  ]
+}

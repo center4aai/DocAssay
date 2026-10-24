@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "plotline/palette.py",
+    "old": "categorical_colors",
+    "new": null,
+    "symbol": "categorical_colors",
+    "target": "categorical_colors",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `categorical_colors() -> list[str]`",
+    "target_claim": "The API reference presents `categorical_colors()` as a function currently provided by `plotline.palette`.",
+    "exemplar_ids": [
+      "example 1",
+      "example 3"
+    ],
+    "rationale": "The API reference heading declares `categorical_colors` as a present public function of the palette module, a plain current-API statement a reader would rely on."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"plotline/palette.py\",\n  \"old\": \"categorical_colors\",\n  \"new\": null,\n  \"symbol\": \"categorical_colors\",\n  \"target\": \"categorical_colors\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"### `categorical_colors() -> list[str]`\",\n  \"target_claim\": \"The API reference presents `categorical_colors()` as a function currently provided by `plotline.palette`.\",\n  \"exemplar_ids\": [\"example 1\", \"example 3\"],\n  \"rationale\": \"The API reference heading declares `categorical_colors` as a present public function of the palette module, a plain current-API statement a reader would rely on.\"\n}",
+  "stderr_tail": ""
+}

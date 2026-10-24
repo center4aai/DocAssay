@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "serialscope/codecs.py",
+    "old": "codecs.decode_measurement",
+    "new": null,
+    "symbol": "decode_measurement",
+    "target": "codecs.decode_measurement",
+    "doc_path": "README.md",
+    "doc_line_text": "`codecs.decode_measurement` converts a measurement field into a `Decimal` so you",
+    "target_claim": "The codecs module provides decode_measurement as a current function that converts a measurement field into a Decimal.",
+    "exemplar_ids": [
+      "example 2"
+    ],
+    "rationale": "The README's Main concepts section presents codecs.decode_measurement as an available present-day API function, so deleting its definition is a natural removed-referent drift."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"serialscope/codecs.py\",\n  \"old\": \"codecs.decode_measurement\",\n  \"new\": null,\n  \"symbol\": \"decode_measurement\",\n  \"target\": \"codecs.decode_measurement\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"`codecs.decode_measurement` converts a measurement field into a `Decimal` so you\",\n  \"target_claim\": \"The codecs module provides decode_measurement as a current function that converts a measurement field into a Decimal.\",\n  \"exemplar_ids\": [\"example 2\"],\n  \"rationale\": \"The README's Main concepts section presents codecs.decode_measurement as an available present-day API function, so deleting its definition is a natural removed-referent drift.\"\n}",
+  "stderr_tail": ""
+}

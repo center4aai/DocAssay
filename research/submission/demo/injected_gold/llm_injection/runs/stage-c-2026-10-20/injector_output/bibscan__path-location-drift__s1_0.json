@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "docs/recipes.md",
+    "old": "docs/recipes.md",
+    "new": "docs/cookbook.md",
+    "target": "docs/recipes.md",
+    "doc_path": "README.md",
+    "doc_line_text": "- [`docs/recipes.md`](docs/recipes.md) — short, task-oriented examples.",
+    "target_claim": "The recipes guide is located at docs/recipes.md.",
+    "exemplar_ids": [
+      "example 1",
+      "example 3"
+    ],
+    "rationale": "The README's documentation list presents docs/recipes.md as the current path of the recipes guide, so renaming that file leaves a natural stale location reference."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"path-location-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"docs/recipes.md\",\n  \"old\": \"docs/recipes.md\",\n  \"new\": \"docs/cookbook.md\",\n  \"target\": \"docs/recipes.md\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"- [`docs/recipes.md`](docs/recipes.md) — short, task-oriented examples.\",\n  \"target_claim\": \"The recipes guide is located at docs/recipes.md.\",\n  \"exemplar_ids\": [\"example 1\", \"example 3\"],\n  \"rationale\": \"The README's documentation list presents docs/recipes.md as the current path of the recipes guide, so renaming that file leaves a natural stale location reference.\"\n}",
+  "stderr_tail": ""
+}

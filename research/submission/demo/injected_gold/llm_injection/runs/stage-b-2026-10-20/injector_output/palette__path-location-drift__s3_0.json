@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "docs/guide.md",
+    "old": "docs/guide.md",
+    "new": "docs/user-guide.md",
+    "target": "docs/guide.md",
+    "doc_path": "README.md",
+    "doc_line_text": "- [Guide](docs/guide.md): the color and palette concepts used by the library and",
+    "target_claim": "The guide documentation is located at `docs/guide.md`.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "The README's Documentation section presents `docs/guide.md` as the current location of the guide, so renaming the file leaves that link pointing to a path that no longer exists."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\":true,\"drift_type\":\"path-location-drift\",\"direction\":\"code_side\",\"file\":\"docs/guide.md\",\"old\":\"docs/guide.md\",\"new\":\"docs/user-guide.md\",\"target\":\"docs/guide.md\",\"doc_path\":\"README.md\",\"doc_line_text\":\"- [Guide](docs/guide.md): the color and palette concepts used by the library and\",\"target_claim\":\"The guide documentation is located at `docs/guide.md`.\",\"exemplar_ids\":[\"example 1\",\"example 2\"],\"rationale\":\"The README's Documentation section presents `docs/guide.md` as the current location of the guide, so renaming the file leaves that link pointing to a path that no longer exists.\"}",
+  "stderr_tail": ""
+}

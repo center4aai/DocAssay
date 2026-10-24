@@ -1,0 +1,168 @@
+{
+  "repo": "tileplan__path-location-drift__s3_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "README.md",
+        "line": 109,
+        "predicate": "PATH_EXISTS",
+        "object": "docs/usage.md",
+        "reason": ""
+      }
+    ],
+    "new_nei": [
+      {
+        "source": "docs/walkthrough.md",
+        "line": 38,
+        "predicate": "DEPENDENCY",
+        "object": "build",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 60,
+        "predicate": "DEPENDENCY",
+        "object": "build",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 137,
+        "predicate": "DEPENDENCY",
+        "object": "build",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 4,
+        "predicate": "DEPENDENCY",
+        "object": "constantly",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 63,
+        "predicate": "DEPENDENCY",
+        "object": "construct",
+        "reason": "undeclared (open by transitivity)"
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 28,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "featurecollection",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": [
+      {
+        "source": "docs/walkthrough.md",
+        "line": 145,
+        "predicate": "PATH_EXISTS",
+        "object": "api.md",
+        "reason": ""
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 145,
+        "predicate": "PATH_EXISTS",
+        "object": "docs/api.md",
+        "reason": ""
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 144,
+        "predicate": "PATH_EXISTS",
+        "object": "readme.md",
+        "reason": ""
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 95,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "descendants",
+        "reason": ""
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 11,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "extent",
+        "reason": ""
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 13,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "extent",
+        "reason": ""
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 112,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "from_quadkey",
+        "reason": ""
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 28,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "merge_extents",
+        "reason": ""
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 97,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "parent",
+        "reason": ""
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 26,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "tile_extent",
+        "reason": ""
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 127,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "tile_from_lonlat",
+        "reason": ""
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 118,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "tileplan.coords",
+        "reason": ""
+      },
+      {
+        "source": "docs/walkthrough.md",
+        "line": 111,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "to_quadkey",
+        "reason": ""
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "tileplan__path-location-drift__s3_0::0",
+      "repo": "tileplan__path-location-drift__s3_0",
+      "op_id": "llm.path-location-drift",
+      "canonical_class": "path-location-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "docs/usage.md",
+        "new": "docs/walkthrough.md",
+        "doc_path": "README.md",
+        "target": "docs/usage.md"
+      }
+    }
+  ]
+}

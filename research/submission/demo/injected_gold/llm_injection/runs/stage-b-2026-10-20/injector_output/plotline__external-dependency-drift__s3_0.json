@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "numpy>=1.24",
+    "new": "numpy>=999",
+    "symbol": "numpy",
+    "target": "numpy>=1.24",
+    "doc_path": "README.md",
+    "doc_line_text": "`numpy>=1.24`. Install it from a local checkout with pip:",
+    "target_claim": "The project declares a dependency on numpy>=1.24.",
+    "exemplar_ids": [
+      "example-4"
+    ],
+    "rationale": "The installation section states the project's current dependency constraint, which is a checkable fact about the manifest."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \"numpy>=1.24\", \"new\": \"numpy>=999\", \"symbol\": \"numpy\", \"target\": \"numpy>=1.24\", \"doc_path\": \"README.md\", \"doc_line_text\": \"`numpy>=1.24`. Install it from a local checkout with pip:\", \"target_claim\": \"The project declares a dependency on numpy>=1.24.\", \"exemplar_ids\": [\"example-4\"], \"rationale\": \"The installation section states the project's current dependency constraint, which is a checkable fact about the manifest.\"}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "examples/bay_area.geojson",
+    "old": "examples/bay_area.geojson",
+    "new": "examples/bay_area_view.geojson",
+    "target": "examples/bay_area.geojson",
+    "doc_path": "README.md",
+    "doc_line_text": "`examples/bay_area.geojson` is a GeoJSON `FeatureCollection` with a single `Polygon`",
+    "target_claim": "The example GeoJSON dataset is located at examples/bay_area.geojson.",
+    "exemplar_ids": [
+      "example 3"
+    ],
+    "rationale": "The README's Example data section presents examples/bay_area.geojson as the current location of the shipped sample dataset."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"path-location-drift\", \"direction\": \"code_side\", \"file\": \"examples/bay_area.geojson\", \"old\": \"examples/bay_area.geojson\", \"new\": \"examples/bay_area_view.geojson\", \"target\": \"examples/bay_area.geojson\", \"doc_path\": \"README.md\", \"doc_line_text\": \"`examples/bay_area.geojson` is a GeoJSON `FeatureCollection` with a single `Polygon`\", \"target_claim\": \"The example GeoJSON dataset is located at examples/bay_area.geojson.\", \"exemplar_ids\": [\"example 3\"], \"rationale\": \"The README's Example data section presents examples/bay_area.geojson as the current location of the shipped sample dataset.\"}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,69 @@
+{
+  "project": {
+    "name": "gridwatch",
+    "pkg": "gridwatch",
+    "version": "0.3.0",
+    "description": "Parse smart-meter interval readings from CSV or JSON files and compute electricity costs under a time-of-use tariff."
+  },
+  "dependencies": [
+    {"name": "PyYAML", "constraint": ">=6.0"},
+    {"name": "click", "constraint": ">=8.1"}
+  ],
+  "modules": [
+    {
+      "path": "gridwatch/models.py",
+      "symbols": [
+        {"name": "Reading", "kind": "class", "return_type": null, "members": ["meter_id", "timestamp", "kwh"]}
+      ]
+    },
+    {
+      "path": "gridwatch/readers.py",
+      "symbols": [
+        {"name": "read_csv", "kind": "function", "return_type": "list[Reading]", "members": []},
+        {"name": "read_json", "kind": "function", "return_type": "list[Reading]", "members": []}
+      ]
+    },
+    {
+      "path": "gridwatch/tariff.py",
+      "symbols": [
+        {"name": "Tariff", "kind": "class", "return_type": null, "members": ["peak_rate", "offpeak_rate", "peak_start_hour", "peak_end_hour"]},
+        {"name": "load_tariff", "kind": "function", "return_type": "Tariff", "members": []}
+      ]
+    },
+    {
+      "path": "gridwatch/costing.py",
+      "symbols": [
+        {"name": "compute_cost", "kind": "function", "return_type": "float", "members": []},
+        {"name": "ROUNDING_DECIMALS", "kind": "constant", "return_type": null, "members": []}
+      ]
+    },
+    {
+      "path": "gridwatch/cli.py",
+      "symbols": [
+        {"name": "main", "kind": "function", "return_type": "int", "members": []}
+      ]
+    }
+  ],
+  "docs": [
+    {"path": "README.md", "kind": "readme"},
+    {"path": "docs/guide.md", "kind": "guide"},
+    {"path": "docs/api.md", "kind": "reference"}
+  ],
+  "example_commands": [
+    "gridwatch cost data/meter_jan.csv --tariff data/tariff.yaml"
+  ],
+  "paths": [
+    "data/meter_jan.csv",
+    "data/tariff.yaml"
+  ],
+  "data_files": [
+    {
+      "path": "data/meter_jan.csv",
+      "content": "meter_id,timestamp,kwh\nM-1042,2026-01-05T16:00:00,0.82\nM-1042,2026-01-05T17:00:00,1.14\nM-1042,2026-01-05T18:00:00,0.97\n"
+    },
+    {
+      "path": "data/tariff.yaml",
+      "content": "peak_rate: 0.32\noffpeak_rate: 0.11\npeak_start_hour: 17\npeak_end_hour: 21\n"
+    }
+  ]
+}

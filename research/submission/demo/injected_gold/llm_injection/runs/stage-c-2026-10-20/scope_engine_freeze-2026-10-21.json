@@ -1,0 +1,233 @@
+{
+  "stage": "C",
+  "arm": "C-ext",
+  "frozen_at": "2026-10-21T11:41:18+00:00",
+  "branch": "main",
+  "git_commit": "9067b51097168ae42f72581ff2e4b252de68f146",
+  "engine_tree_sha": "bc6af4f78d83440a20f69215767488a3f49f300a",
+  "python_version": "3.12.13",
+  "files": {
+    "scope_protocol": {
+      "research/submission/demo/validation/SCOPE.md": "0d11964f3e4805d16da66f9fbd79a0837f2bb9f4e630f646814d6279d57072cc",
+      "research/submission/demo/validation/protocol.md": "537b4dfcbdb79616a9395d5d0031524573247f0063d6f63b0adc65e8223c65a9",
+      "research/submission/demo/validation/stage-c-plan.md": "0ff2bed2192be970aaa0f645bcd52622ee408ef12f2db204ec9b43b4c7b383c2"
+    },
+    "engine_code": {
+      "src/docassay/api.py": "dff126775d46028fa58ce7a68f38e7e03b7fd356ebb2018d1e85e0f43002806c",
+      "src/docassay/core/__init__.py": "3ab65eb601187d969b93e64db4cd6ea9f688799b27cd2c05850162eceeda69ad",
+      "src/docassay/core/analyze_repo.py": "973ff53c2e9b4fcfb5cae43b0796ce6db4b6eef8261829b615db04c8eee0f6ea",
+      "src/docassay/core/assertions.py": "ed45dbb75fdb88cb542c79b143379e99590cf79ff7ef144492f677d438799a6b",
+      "src/docassay/core/bundle.py": "cc020993779e4b9de92df2de21f663ba880093b907a45d08453ba3c954f0fbb9",
+      "src/docassay/core/cli.py": "510e1b272c5eefbc7e6160af89cb170f5c79385207703b76e6c9a198313c92c5",
+      "src/docassay/core/domains.py": "95601a9e1a42e432d09f5950760862daca32995e5d0b4deebcbc9d045de755ca",
+      "src/docassay/core/dump_claims.py": "65364fb6b1c4dda230041fd2390241d326325b8b3e2c768bf5d05224e1e5d80d",
+      "src/docassay/core/models.py": "3e9d420b74380bc134f85243bf85326803b459358f419e8eb28a62dd75c9930c",
+      "src/docassay/core/pipeline.py": "2b28f0a652392d9a6faabccc3c9bb0a47218a1d27907298c0e44dff3878fba12",
+      "src/docassay/core/sarif.py": "5ed7742af6dfa2c3afb60c37318aa7d5f3f57c2697389d522e8354298e3f73fa",
+      "src/docassay/core/triage_report.py": "c5384f158b1a1c81b144acf28b2eae882b908a6cee8593b3aca0be10af755a4b",
+      "src/docassay/core/windows.py": "5a5bfd36c132a830a0140d2f20c23bae7435c90cd7092d6bd4a003fecde3660f",
+      "src/docassay/data/__init__.py": "685513380dc14355cbaf23ba33e49721cbbaab2cd5b72f51ad6f0f608c5ed3f5",
+      "src/docassay/evidence/__init__.py": "048a89c8a34fb94985802270dac7de64288331f09714d5809f857c0b51abb248",
+      "src/docassay/evidence/git.py": "e039c0d4329f98e173ae0e3e5b6419b2df479d7942972198d2a847e6b97b388a",
+      "src/docassay/evidence/infra.py": "b39892dc8324da7126333ce71a95884f79408f480500b7a656c8fec26f4b37d7",
+      "src/docassay/evidence/listing.py": "f8c73608cb6f7e5304565d8384754f5d7c0d87f893e3cdeea631ebb2ffb07306",
+      "src/docassay/evidence/manifests.py": "0a61a7d4a888ceedc86d616769ab9a52acddd2afbc528864f34cededaebd9b76",
+      "src/docassay/evidence/project.py": "6609c20d596e6ed78fdba2eb616e8b29514ec052416dcb693058e556073bb2c4",
+      "src/docassay/evidence/symbols.py": "3438e57ac26a72b3bb85fcb7bba638a20bb44d487fbf3d1f58694cebe16d7860",
+      "src/docassay/markers/__init__.py": "b077613d1a7510b8d00f67a3b7208278f6afc1c1228ce2cf419c3d73c6831bfa",
+      "src/docassay/markers/context.py": "7fd4a883d8721d8f6fef67652c447df7be12964e61cee0e5a0e08cde1e0e6063",
+      "src/docassay/markers/version.py": "2a2be2148e4b6f928913fa091b21dd859420120819286beb0abb6519e31fecf2",
+      "src/docassay/mcp_server.py": "5273af9f3b7acd3be51c8a9a09609ed4c274553ae8f9cfc20743984689847d87",
+      "src/docassay/predicates/__init__.py": "b14f4f1a51e1d0bf29dea57d01f1a49fb611e727e64c7e575c63d5e736f5cbb5",
+      "src/docassay/predicates/base.py": "5a5e6eba1a95efc33850033ee3eeb5ce0e1b1a6395744ef4593dd7f64619630e",
+      "src/docassay/predicates/crossdoc.py": "a87d336aa946d00dc9b5e2e5e8d34d209a8b0ca7f23143c72ecf31cb9529d054",
+      "src/docassay/predicates/dependency.py": "918c2b08ae2ecd229668540ee6a769312abe0f74e254957bc9d9270b7de75fe8",
+      "src/docassay/predicates/infra.py": "3680a00716a29af578c41e75d21c286f40d5a294d8165200edecbd950e0441d7",
+      "src/docassay/predicates/listing.py": "c54ea442fac5fa0fa6e6ea211dec2f109c1ea1899f9c57461589c8775fae913e",
+      "src/docassay/predicates/negation.py": "55c2d2d491466d3a20b986aa3398d996036088fee593e39e622af1abf13b5d4a",
+      "src/docassay/predicates/structure.py": "901b326a97f9957aae4e9dbf4af4d922b805133918da412cfc7aa649fab1c1e4",
+      "src/docassay/tests/test_abstention_rules.py": "317796ced299821597b82a68593386d69310f7ddab44bf9f3f2455958a9f98c8",
+      "src/docassay/tests/test_api.py": "f56a916871934cabcf319f54d8a021a2b8abb22ec2f0c37d131fc4f5722faadc",
+      "src/docassay/tests/test_bundle.py": "2d800150c048a6f549e28de4617594d82407955cc5f454383f799d3b5bf90564",
+      "src/docassay/tests/test_code_roots.py": "30dcb9502d1c768fc9fc5852fd99282181632aedf0bdcd35b8f3d0faa84b146e",
+      "src/docassay/tests/test_crossdoc.py": "a3b3b992186f639acc42f0cf19713c3dc2a1c8f9ad1fc706c8c3e33f425f2b7a",
+      "src/docassay/tests/test_dependency.py": "4f9095a268541ae5b59a6798c1c891e0d56683c0b9487dc55ed2700e9bbfae98",
+      "src/docassay/tests/test_dependency_precision_context.py": "a52adef2902e2a8c2ab4e409d7a44851ac0bdb5cae118eb15d8218278a9a41c4",
+      "src/docassay/tests/test_dependency_version_context.py": "6108290a05d00c839563990b7b61386701046d1a48b7fa9440ca59ffd20f0a43",
+      "src/docassay/tests/test_domains.py": "9c4f30890cb6310b0429aacff59c5f681bfd67907f5af109629b6b8b29e6929a",
+      "src/docassay/tests/test_extraction_gaps.py": "c8a3bb7ec0e1f9965ac1576c920bda8456ad6e776d9f05bcbba671e3b9d77970",
+      "src/docassay/tests/test_infra.py": "500343c3da410e7bbd3379a510626baa962cd9772dc09fe1c508abed9ffd9b9d",
+      "src/docassay/tests/test_manifests.py": "2bb978269ab129d46e4de56f74f364adc3c8d266aa7ff14cd638e935d82c0d98",
+      "src/docassay/tests/test_mcp_server.py": "13b27375f12e765b79f97f027d1ed6303e1d3363dbb4e0f23a011bef92d0b65b",
+      "src/docassay/tests/test_path_exists.py": "3d699ddf868c8ad9c75db4c76c510232a7bf3bf8630b253208b4cbea4a78ce29",
+      "src/docassay/tests/test_predicates.py": "73f078c287b2ad998a55844337599803e719622b0660d482f48f606c4971321a",
+      "src/docassay/tests/test_provenance.py": "07670643c3b727752a52ddbcaad7f7aefb3f40492b0803b7eb48e1b247398f1a",
+      "src/docassay/tests/test_sarif.py": "52e22645c4184a1429a40d01d06f628cf2c26a1f1f57e5978b7daa9140116341",
+      "src/docassay/tests/test_symbol_context_qualification.py": "3eb9b7d4b8c2cfe3683347c4459fe9c74956da89b2e886e7e8f8dfa9baa5383a",
+      "src/docassay/tests/test_symbol_exists.py": "8f1a4d886db619fa2e4b101991db875796aff744ad3aaffa00a715e5b4f7d26a",
+      "src/docassay/tests/test_triage.py": "a69d495b8c811657dd0758029bc05d188f9c3a24a6b9c9f8dd13b29d263e4cce",
+      "src/docassay/tests/test_vocabulary_integrity.py": "33802fc0fbba617d942b7223205f73577c9feba2f7988f63959d29e7a57956bf",
+      "src/docassay/tests/test_webapp.py": "505bdbfba13a9e73504add7d7bf1e28404d9feb5ca77ac818216d92ed115be91",
+      "src/docassay/triage/__init__.py": "362a9ba0d3a15651dcbd40bb725fa03d69aed2b711bbda225278d12be4aaed73",
+      "src/docassay/triage/adjudicate.py": "4e1bbfa42ee428c59d3884bb76f9ec510f9bbd97a0ef164dfbf6b786f2b30604",
+      "src/docassay/triage/aggregate.py": "8797c0eb42ac82e04797790510bf9db7ca59071ef53059fe0740c0d235680394",
+      "src/docassay/triage/classifier.py": "fff461a7dbe88c96f05e86838baf874b4455b175015f2695b7b7adaa68eb52af",
+      "src/docassay/triage/findings.py": "08d0562673e9c6e88f818fddcad68d8660a97762162d33d93f279c59b7a8e51a",
+      "src/docassay/triage/report.py": "8e23ccc7ad0f94e299f4bf06d26c7c600d50cb050070c854df93515274edb630",
+      "src/docassay/triage/sampling.py": "c65a957a46ee7b8c4711bebec55e2c8ee9a1498974eb9adfe37ed8bb1ea2e83a",
+      "src/docassay/triage/score.py": "d6fcc36cfd410bc2ed4daf974e0e0819267a598d759ecb2e4a876a73dc5f1090",
+      "src/docassay/triage/signals.py": "daca2c32371127bb86b809e667144f1374781626908cc7b22d76a5669b8b80e8",
+      "src/docassay/triage/taxonomy.py": "9201ebdbe7753247c963ba09f8c405559c1fd14fb6b3ef0cd932e4306a1b34c7",
+      "src/docassay/vocabularies/__init__.py": "44e16d51b7090218cc9d400da1404a03997015362d2523c0521fff221df99e4c",
+      "src/docassay/vocabularies/dependency.py": "a001adc1d89f09a6828ec4356e2b7af8196993293664b1fbb7a80d5e0736f935",
+      "src/docassay/vocabularies/markers.py": "882d9e672f9cfa4bc61fd5fd1001f720f97fde27af478bb117ccfeebb342b13c",
+      "src/docassay/vocabularies/structure.py": "4a1df8adc4188c1841ad8d81836be7d0acd435c2bcfd98ef0f885daded41fb37",
+      "src/docassay/webapp/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/docassay/webapp/__main__.py": "049841d00a4810af742061a7e9e043e48a99fe75da0fe6df4c2b334560a7f44a",
+      "src/docassay/webapp/server.py": "085ee75108ce3254ea43ddc490730884064e4aa5224b1bfec9e286bdf5b77d13",
+      "src/docassay/webapp/zip_safe.py": "668cb73cc5e73c379a7e08b4e1602417fa6acce01ab1640fd198dec8c8862c8f"
+    },
+    "engine_data": {
+      "src/docassay/data/dependency.json": "88b8edbf9708f882c72c32d4cba701d02920c3c6e28a68319d1c5a6508f3e8e8",
+      "src/docassay/data/markers.json": "1febca08e9e29f2f4992b54501f263b65c7de13c18033feb61c078c7d97f555d",
+      "src/docassay/data/pipeline.json": "8df498f019f53bcc76de04d4c9addc5806f04f86c7d346330c715d4d09de6bda",
+      "src/docassay/data/project.json": "4d9f2892db3032a69eafa58655fb01240d47a74b1fa42d9ade3972824e32acd0",
+      "src/docassay/data/structure.json": "137eba20befdaf8553e14ff97b4fad31c6bc16b77a45312440d614fffa06f806",
+      "src/docassay/vocabularies/__init__.py": "44e16d51b7090218cc9d400da1404a03997015362d2523c0521fff221df99e4c",
+      "src/docassay/vocabularies/dependency.py": "a001adc1d89f09a6828ec4356e2b7af8196993293664b1fbb7a80d5e0736f935",
+      "src/docassay/vocabularies/markers.py": "882d9e672f9cfa4bc61fd5fd1001f720f97fde27af478bb117ccfeebb342b13c",
+      "src/docassay/vocabularies/structure.py": "4a1df8adc4188c1841ad8d81836be7d0acd435c2bcfd98ef0f885daded41fb37"
+    },
+    "environment": {
+      ".python-version": "33307da56af13f791584518fef2e49641180bfbf2ef7b2d256c9ab6fad564f80",
+      "pyproject.toml": "d0dfbcb3f120eaf8db731e1681a70caad5c39e4b089700ce12c8f66706d159ae",
+      "uv.lock": "4644de00c07e5722b22e1190e84ef7b7a34bb068ef497e6d178b7f2080242407"
+    },
+    "engine_free": {
+      "research/submission/demo/injected_gold/engine/__init__.py": "b61e95f6f17964eddf59db0028b9112d0bef89284931aff3b959513e65678b82",
+      "research/submission/demo/injected_gold/engine/grammar.py": "81add26b39aae5310e6cda70158acfc45b5f0a534d5514ef9c3d1075e4b4c5b9",
+      "research/submission/demo/injected_gold/engine/oracle.py": "882db1f8ca084ed77a68e723ccbffd0729267979b9f5260d20507b1cf508e0ab",
+      "research/submission/demo/injected_gold/scripts/_corpus.py": "aa883b74ad97cffa8f3fa3ef8ac96f879035898e19da361c8ff1038c4295e4c9",
+      "research/submission/demo/injected_gold/scripts/generate_synthetic.py": "f5ac29f8e3498ffc86c183a95f4aaf2f8649f9f145f8c901ba84f3edfd326784"
+    },
+    "injector_harness": {
+      "research/submission/demo/injected_gold/llm_injection/scripts/build_exemplar_bank.py": "abf9156cb8cf703bfc2763c8036c741946d9e1c9d622a314d9ca461a0f116d6b",
+      "research/submission/demo/injected_gold/llm_injection/scripts/fetch_exemplar_evidence.py": "da0963d3a49fbd1977e6cda6d589b4a24db67e7592354aec31419d7516070a33",
+      "research/submission/demo/injected_gold/llm_injection/scripts/llm_inject.py": "c511a479edbcdadc3dfaa6cf28794cc7da174c05aa227b88c2fa2f4162408f9b",
+      "research/submission/demo/injected_gold/scripts/judge_apply.py": "08a8a513ee271296ae86fcd62f2370df213add1e46176a8a8161ef6aab108b94",
+      "research/submission/demo/injected_gold/scripts/judge_batches.py": "c3f403a98ecf66ce755312c524cb76e23dfdf9bda42b6766449b4a44f125682c",
+      "research/submission/demo/injected_gold/scripts/judge_diff.py": "3e966234fc111f6c594b59c20633f6f10e676c928638c0d430fc6397df37e37f"
+    },
+    "freeze_tooling": {
+      "research/submission/demo/injected_gold/scripts/freeze_corpus.py": "a993111eb77b85dbc099bd12c2fb4f1bbb01b58602290c47d2e370eab12b4ade",
+      "research/submission/demo/injected_gold/scripts/freeze_scope_engine.py": "4db53ca6e1e9e949d3bcde52fea607cd2502c6febb504e5e4e3428e65ee021c8"
+    },
+    "prompts": {
+      "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c/DIFF.md": "cbc0ebc561e268e4ddff0df1ed9d5e89a6db3a45a82e55eee9cebcb0eb3b5802",
+      "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c/auditor.md": "872f4891b3b8342285fc51ba5c552a8be7ed3ebe4aed4da89363642f815c91df",
+      "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c/class.external-dependency.md": "ab927834bed98ed36f83dd3cfeb9d8a8c2a976c5ed515e256355168d5e956c43",
+      "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c/class.identifier.md": "1a9e7240d2818576649c6e34b3f13edbb10715427f2574a2d358dbba9302e833",
+      "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c/class.path-location.md": "8f74f1f14ed47bdcc3659cc6c4ca744d70105eac11fb9750bc41c7c595b9877e",
+      "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c/class.removed-referent.md": "c786f524faed7dbfb7d346069218b4fa39442b733d4e2ddf1e1d233a5489b44d",
+      "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c/docwriter.md": "039fdc66c56ff1c587f95497b82e12fa923f47389057c5431ce36d947d3c6973",
+      "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c/genre_rubric.md": "b261a75461a9752413a5219598877e15e9fa909d15307ed244df84ba815915f6",
+      "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c/injector.system.md": "8f0c0b5b4985f0a6a80c13dc65df782a77114a21a135dc6d61c1a318c9f00b4a",
+      "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/prompts_natural_c/output.schema.json": "c7cff09b73c6ea5cd70fd85a3aef4a157348e27045ef4d786595f8dca29abc87"
+    },
+    "annotation": {
+      "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/annotation_codebook.md": "aca2177a0beb0b92d373c34a7c584a88082fe0ea977285a4ca1ec7153e0f4293",
+      "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/annotation_instructions.md": "105da2a848405923228c64b15dcb799b2f3912a07fd48b10702e313efa8f79bd",
+      "research/submission/demo/injected_gold/scripts/classify_claim_context.py": "2771b16fefb511a9ef388fec44a6e69786c45503e93e149221256aede9686fe0"
+    },
+    "agents": {
+      ".opencode/agents/repo-architect.md": "bf749fb9322809dd1749e9ec5c958635048f9b329a5c0bcd847c33252082a218",
+      ".opencode/agents/repo-auditor.md": "9b17aa47f4b67fee646f022ad0f1290837a986fd7b067e753ff5623130930bb1",
+      ".opencode/agents/repo-docwriter.md": "72be39bcb45ac7e9fa9f72c1e9840aeef4cd1fd6af53325298ee405419c8cfe3",
+      ".opencode/agents/repo-injector.md": "0a7446e3230e3332afbd545082c698f597440721b70a9ca19bab0de7861d028d"
+    },
+    "corpus_design": {
+      "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/corpus_design.json": "1703e6494c859d9384c4f727abfc6508b766ee8ea565a7603afab325ff29b5ed",
+      "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/taxonomy.json": "025a0ff8bb681ee16e15ed37db064e9fc569833355dbdacff9bc437b3d0e038a"
+    },
+    "analysis": {
+      "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/control_config.json": "1783e97348bb32b1b7f92834258b0df075751c0c85b2875dbaa2e8f782543e67",
+      "research/submission/demo/injected_gold/llm_injection/runs/stage-c-2026-10-20/judge_rubric.md": "809c7248f7edcbe7ba361be25aaf31d8216601ebee467357553401537c88683d",
+      "research/submission/demo/injected_gold/scripts/annotation_agreement.py": "cd07d3216747af3f49315eba4f33914f9ddf44d8f2bcb6e00e302a8f1cc6361a",
+      "research/submission/demo/injected_gold/scripts/bootstrap_repo_cluster.py": "2b19d1cf53ddb03227ca7405e5693f379b0bb6476e63b68e309017ed21246579",
+      "research/submission/demo/injected_gold/scripts/build_annotation_sheet.py": "9b2d23a3da5298724564b2a78e14fddd3cdc979f3b13379d884b259483d0af17",
+      "research/submission/demo/injected_gold/scripts/build_controls.py": "10130540e9c7ad518c1a5eed793eeef586c77bb223dc0b6fd964d61bc6809d2f",
+      "research/submission/demo/injected_gold/scripts/check_contamination.py": "2cee043e6b90a9a114e3023283a8b655cf46b361f7a860c84ba006635dcedc51",
+      "research/submission/demo/injected_gold/scripts/check_corpus_surface.py": "ab67cc318b401a939dec0e360b0202d5a5bb5968e38993372b3f0a145811f859",
+      "research/submission/demo/injected_gold/scripts/check_genres.py": "5b35cd925ab011f1a7399780b5829bcf9ffa83c374681ade0667db3ea1e4d4d9",
+      "research/submission/demo/injected_gold/scripts/score_injections.py": "4097b7a7e7198a3fe0d38bfe16a7d8d0bdda3213cacdd8b705ddd5ae7f75f164",
+      "research/submission/demo/injected_gold/scripts/stage_c_metrics.py": "a7a736f5fc15ccdd712e3c7e9b84a1399bb428f7ae41951fea27eac369dd242b"
+    }
+  },
+  "counts": {
+    "scope_protocol": 3,
+    "engine_code": 73,
+    "engine_data": 9,
+    "environment": 3,
+    "engine_free": 5,
+    "injector_harness": 6,
+    "freeze_tooling": 2,
+    "prompts": 10,
+    "annotation": 3,
+    "agents": 4,
+    "corpus_design": 2,
+    "analysis": 11
+  },
+  "models": {
+    "adjudicator": {
+      "id": "opencode-go/qwen3.8-flash",
+      "sha256": "0139ad2778b87c155189c818e7009b1e03bb068dcb6adb6c0d0374b754abb53d"
+    },
+    "architect": {
+      "id": "opencode-go/gpt-6-luna",
+      "sha256": "6c834a35b83904c60b7b4a77dd2d59a70698dcfcb7557999d4266ae62c0f417d"
+    },
+    "auditor": {
+      "id": "opencode-go/gemini-4-argon-contributor",
+      "sha256": "1cf6098d31f39542e4a7bf786e4000f166cac553e35bc79778e4d0bc95997171"
+    },
+    "docwriter": {
+      "id": "opencode-go/gpt-6-luna",
+      "sha256": "6c834a35b83904c60b7b4a77dd2d59a70698dcfcb7557999d4266ae62c0f417d"
+    },
+    "injector": {
+      "id": "opencode-go/deepseek-v4.1-flash",
+      "sha256": "11bd2a5fe7979cf84f28d86127d995859333fb94710ae86e66b41966b24c81f2"
+    }
+  },
+  "bootstrap_seed": 20261020,
+  "aggregate_sha256": "6b124f6aff9da73a91a06a898a9350f57c861509fd324f5c980e053a3b9e5005",
+  "verification_points": [
+    "before S1",
+    "before the injector run",
+    "before scoring",
+    "after scoring"
+  ],
+  "note": "Scope/engine freeze taken before any Stage C spec is written. The engine tree hash is binding; research-only commits may advance HEAD. Verify with --verify at the four recorded points.",
+  "identifier_note": {
+    "what": "The package identifier was updated to DocAssay and the package to src/docassay after the Stage C run was scored. The update is identifier-only: no predicate, threshold, vocabulary entry, gate or verdict rule changed.",
+    "scored_engine_tree_sha": "21ac874c78f80ccdfa597dea824d4ff37f098f92",
+    "scored_aggregate_sha256_prefix": "043f45af2a8d",
+    "final_engine_tree_sha": "bdec549f5665c31653319d93541590e753f5eaba",
+    "final_aggregate_sha256": "59cbfe105c80af4f931310e63ccda53ad82a73977574a68db54a46f212825fc8",
+    "verified_after_update": true,
+    "why_refrozen": "A file-content hash cannot survive an identifier change of every module; the freeze is therefore rebuilt on the final tree so that --verify is meaningful for the artifact. The binding proof that the scored engine was not changed is the pre-update tree hash above plus the identifier-only diff."
+  },
+  "postscore_note": {
+    "date": "2026-10-21",
+    "what": "Demo-surface changes made after the Stage C run was scored and after the identifier-update re-freeze: a container-ready web server (--public-url, --allow-bare-index, unauthenticated /health, loopback token redirect, DOCASSAY_PORT), tolerant zip upload (skip __MACOSX/._* entries and symlinks instead of rejecting the archive), find_project_root descent into a pure wrapper directory, an MCP repo://summary resource in place of repo://facts, and the matching tests; environment: the optional agent extra is now mcp>=2,<3.",
+    "why_refrozen": "The engine_code and environment groups hash every .py file under src/docassay plus pyproject.toml/uv.lock, so a UI-only change invalidates the freeze even though it cannot change a verdict. The freeze is rebuilt on the final tree so that --verify is meaningful for the artifact; the scored tree stays recorded in identifier_note and in verification.json.",
+    "decision_path_unchanged": "No predicate, gate, threshold, vocabulary entry, extraction rule or verdict rule was added, removed or changed. The only change inside core is find_project_root, which descends into a wrapper directory that holds exactly one child and no files; every scored input is a repository root with a top-level manifest, so the first iteration returns and the new branch never executes.",
+    "evidence": "Stage C was re-scored from the frozen snapshots with the final tree: score_injections.py --force reproduced all 150 claim dumps byte-identically (diff -rq: no differences) and 50 refuted (0.725, abstention 0.217) -- the same 65/69 and the same per-class split. The cited real-world rows reproduce too: sqlfluff 68 docs / 2175 claims / 16 REFUTED, celery 204 / 4553 / 34, httpx 25 / 1023 / 110-1-113 with coverage 0.50. See rescore-2026-10-21/.",
+    "scored_engine_tree_sha": "21ac874c78f80ccdfa597dea824d4ff37f098f92",
+    "updated_engine_tree_sha": "bdec549f5665c31653319d93541590e753f5eaba",
+    "final_engine_tree_sha": "bc6af4f78d83440a20f69215767488a3f49f300a",
+    "scored_aggregate_sha256_prefix": "043f45af2a8d",
+    "updated_aggregate_sha256": "59cbfe105c80af4f931310e63ccda53ad82a73977574a68db54a46f212825fc8",
+    "final_aggregate_sha256": "6b124f6aff9da73a91a06a898a9350f57c861509fd324f5c980e053a3b9e5005"
+  }
+}

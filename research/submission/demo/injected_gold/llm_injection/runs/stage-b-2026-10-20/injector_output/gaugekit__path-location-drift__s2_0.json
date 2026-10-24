@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "examples/sample_gauge.csv",
+    "old": "examples/sample_gauge.csv",
+    "new": "examples/gauge_sample.csv",
+    "target": "examples/sample_gauge.csv",
+    "doc_path": "README.md",
+    "doc_line_text": "The repository includes `examples/sample_gauge.csv`, a four-row file in the expected layout (see the [guide](docs/guide.md#csv-format)).",
+    "target_claim": "The repository includes the example CSV file at examples/sample_gauge.csv.",
+    "exemplar_ids": [
+      "example 2"
+    ],
+    "rationale": "The README presents examples/sample_gauge.csv as the current bundled example file, making it a natural location statement to invalidate by renaming the file."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"path-location-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"examples/sample_gauge.csv\",\n  \"old\": \"examples/sample_gauge.csv\",\n  \"new\": \"examples/gauge_sample.csv\",\n  \"target\": \"examples/sample_gauge.csv\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"The repository includes `examples/sample_gauge.csv`, a four-row file in the expected layout (see the [guide](docs/guide.md#csv-format)).\",\n  \"target_claim\": \"The repository includes the example CSV file at examples/sample_gauge.csv.\",\n  \"exemplar_ids\": [\"example 2\"],\n  \"rationale\": \"The README presents examples/sample_gauge.csv as the current bundled example file, making it a natural location statement to invalidate by renaming the file.\"\n}",
+  "stderr_tail": ""
+}

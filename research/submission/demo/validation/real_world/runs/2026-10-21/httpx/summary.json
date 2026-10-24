@@ -1,0 +1,16 @@
+{
+  "repo": "httpx",
+  "docs": 25,
+  "claims": 1023,
+  "referents": 217,
+  "evidence": 1828,
+  "verdicts": {
+    "REFUTED": 1,
+    "SUPPORTED": 110,
+    "NEI": 113
+  },
+  "refuted_by_predicate": {
+    "SYMBOL_EXISTS": 1
+  },
+  "seconds": 0.8
+}

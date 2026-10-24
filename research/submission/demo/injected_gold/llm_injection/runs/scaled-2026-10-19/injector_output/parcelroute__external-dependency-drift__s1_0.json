@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "artifact_class": "dependency",
+    "direction": "code_side",
+    "kind": "dependency_version_break",
+    "file": "pyproject.toml",
+    "old": ">=8.1",
+    "new": ">=999",
+    "symbol": "click",
+    "target": "click",
+    "doc_path": "README.md",
+    "doc_line_text": "| `click` | `>=8.1` |",
+    "target_claim": "The README states that the project's click runtime dependency is constrained to >=8.1.",
+    "exemplar_ids": [
+      "example-1"
+    ],
+    "rationale": "Follows the exemplar pattern of changing a manifest version bound so that it no longer matches the constraint documented for a declared dependency."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"artifact_class\": \"dependency\", \"direction\": \"code_side\", \"kind\": \"dependency_version_break\", \"file\": \"pyproject.toml\", \"old\": \">=8.1\", \"new\": \">=999\", \"symbol\": \"click\", \"target\": \"click\", \"doc_path\": \"README.md\", \"doc_line_text\": \"| `click` | `>=8.1` |\", \"target_claim\": \"The README states that the project's click runtime dependency is constrained to >=8.1.\", \"exemplar_ids\": [\"example-1\"], \"rationale\": \"Follows the exemplar pattern of changing a manifest version bound so that it no longer matches the constraint documented for a declared dependency.\"}",
+  "stderr_tail": ""
+}

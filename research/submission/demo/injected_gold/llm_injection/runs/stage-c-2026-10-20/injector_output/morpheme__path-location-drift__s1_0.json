@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "examples/words.txt",
+    "old": "examples/words.txt",
+    "new": "examples/wordlist.txt",
+    "target": "examples/words.txt",
+    "doc_path": "README.md",
+    "doc_line_text": "- `examples/words.txt` — a plain word list, one word per line:",
+    "target_claim": "The README states that the example word list is located at `examples/words.txt`.",
+    "exemplar_ids": [
+      "example 2",
+      "example 3"
+    ],
+    "rationale": "The README's Example data section presents `examples/words.txt` as the current location of the sample word list, so renaming the file leaves that location stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\":true,\"drift_type\":\"path-location-drift\",\"direction\":\"code_side\",\"file\":\"examples/words.txt\",\"old\":\"examples/words.txt\",\"new\":\"examples/wordlist.txt\",\"target\":\"examples/words.txt\",\"doc_path\":\"README.md\",\"doc_line_text\":\"- `examples/words.txt` — a plain word list, one word per line:\",\"target_claim\":\"The README states that the example word list is located at `examples/words.txt`.\",\"exemplar_ids\":[\"example 2\",\"example 3\"],\"rationale\":\"The README's Example data section presents `examples/words.txt` as the current location of the sample word list, so renaming the file leaves that location stale.\"}",
+  "stderr_tail": ""
+}

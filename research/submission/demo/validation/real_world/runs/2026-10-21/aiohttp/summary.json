@@ -1,0 +1,18 @@
+{
+  "repo": "aiohttp",
+  "docs": 152,
+  "claims": 2354,
+  "referents": 439,
+  "evidence": 5081,
+  "verdicts": {
+    "REFUTED": 15,
+    "NEI": 222,
+    "SUPPORTED": 241
+  },
+  "refuted_by_predicate": {
+    "DEPENDENCY": 2,
+    "PATH_EXISTS": 12,
+    "SYMBOL_EXISTS": 1
+  },
+  "seconds": 2.1
+}

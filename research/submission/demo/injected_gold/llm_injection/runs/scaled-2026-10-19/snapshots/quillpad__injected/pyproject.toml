@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quillpad"
+version = "0.1.1"
+description = "A small local note-taking library with a CLI, a tiny HTTP route table, and a YAML-backed store."
+requires-python = ">=3.11"
+dependencies = [
+    "PyYAML>=6.0",
+    "click>=999",
+    "fastapi>=999",
+    "pydantic>=2.6"
+]
+
+[tool.setuptools]
+packages = ["quillpad"]

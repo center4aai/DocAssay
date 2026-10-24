@@ -1,0 +1,241 @@
+{
+  "date": "2026-10-14",
+  "seed": 1,
+  "repos": [
+    "ledgerly",
+    "parcelroute",
+    "quillpad",
+    "tidecast"
+  ],
+  "engine": [
+    "./.venv/bin/python3",
+    "-m",
+    "docassay.core.dump_claims"
+  ],
+  "contamination": "synthetic: generated repos, docs and code consistent by construction (uncontaminated evaluation corpus)",
+  "overall": {
+    "refuted_injected": 20,
+    "refuted_detected": 14,
+    "recall_refuted": 0.7,
+    "recall_ci95": [
+      0.481,
+      0.855
+    ],
+    "doc_drift_injected": 0,
+    "doc_drift_detected": 0,
+    "completeness_gap_injected": 0,
+    "completeness_gap_detected": 0,
+    "controls": 0,
+    "controls_clean": 0,
+    "precision": null,
+    "precision_ci95": null
+  },
+  "by_class": {
+    "external-dependency-drift": {
+      "refuted": {
+        "injected": 4,
+        "detected": 3,
+        "recall": 0.75,
+        "recall_ci95": [
+          0.301,
+          0.954
+        ],
+        "reactions": {
+          "none": 1,
+          "refuted": 3
+        }
+      },
+      "doc_drift": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 0,
+        "clean": 0,
+        "precision": null,
+        "precision_ci95": null
+      }
+    },
+    "identifier-drift": {
+      "refuted": {
+        "injected": 4,
+        "detected": 4,
+        "recall": 1.0,
+        "recall_ci95": [
+          0.51,
+          1.0
+        ],
+        "reactions": {
+          "refuted": 4
+        }
+      },
+      "doc_drift": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 0,
+        "clean": 0,
+        "precision": null,
+        "precision_ci95": null
+      }
+    },
+    "path-location-drift": {
+      "refuted": {
+        "injected": 4,
+        "detected": 4,
+        "recall": 1.0,
+        "recall_ci95": [
+          0.51,
+          1.0
+        ],
+        "reactions": {
+          "refuted": 4
+        }
+      },
+      "doc_drift": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 0,
+        "clean": 0,
+        "precision": null,
+        "precision_ci95": null
+      }
+    },
+    "removed-referent-drift": {
+      "refuted": {
+        "injected": 4,
+        "detected": 3,
+        "recall": 0.75,
+        "recall_ci95": [
+          0.301,
+          0.954
+        ],
+        "reactions": {
+          "none": 1,
+          "refuted": 3
+        }
+      },
+      "doc_drift": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 0,
+        "clean": 0,
+        "precision": null,
+        "precision_ci95": null
+      }
+    },
+    "value-drift": {
+      "refuted": {
+        "injected": 4,
+        "detected": 0,
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.49
+        ],
+        "reactions": {
+          "none": 4
+        }
+      },
+      "doc_drift": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 0,
+        "clean": 0,
+        "precision": null,
+        "precision_ci95": null
+      }
+    }
+  },
+  "control_false_refutes": [],
+  "unattributed_findings": {
+    "ledgerly": {
+      "baseline_refuted": 0,
+      "new_refuted": 11,
+      "unattributed": 0,
+      "examples": []
+    },
+    "parcelroute": {
+      "baseline_refuted": 0,
+      "new_refuted": 15,
+      "unattributed": 0,
+      "examples": []
+    },
+    "quillpad": {
+      "baseline_refuted": 0,
+      "new_refuted": 8,
+      "unattributed": 0,
+      "examples": []
+    },
+    "tidecast": {
+      "baseline_refuted": 0,
+      "new_refuted": 13,
+      "unattributed": 0,
+      "examples": []
+    }
+  },
+  "boundary": {
+    "out_of_scope_repo_expr": [
+      "behavior-drift",
+      "signature-drift",
+      "constraint-drift",
+      "security-drift",
+      "exception-contract-drift",
+      "null-semantics-drift",
+      "format-encoding-drift",
+      "polarity-order-drift",
+      "lifecycle-contract-drift",
+      "return-value-semantics-drift",
+      "parameter-mismatch",
+      "unused-parameter",
+      "copy-edit-drift"
+    ],
+    "out_of_scope_doc_process_data": [
+      "presentation-format",
+      "documentation-process",
+      "documentation-tooling",
+      "data-quality",
+      "control-repair-failure"
+    ],
+    "candidate_unconfirmed": [
+      "error-message-drift"
+    ]
+  }
+}

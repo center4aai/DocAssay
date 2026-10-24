@@ -1,0 +1,298 @@
+{
+  "date": "2026-10-19",
+  "seed": 1,
+  "repos": [
+    "ledgerly__s1",
+    "ledgerly__s2",
+    "ledgerly__s3",
+    "parcelroute__s1",
+    "parcelroute__s2",
+    "parcelroute__s3",
+    "quillpad__s1",
+    "quillpad__s2",
+    "quillpad__s3",
+    "tidecast__s1",
+    "tidecast__s2",
+    "tidecast__s3"
+  ],
+  "engine": [
+    "./.venv/bin/python3",
+    "-m",
+    "docassay.core.dump_claims"
+  ],
+  "contamination": "synthetic: generated repos, docs and code consistent by construction (uncontaminated evaluation corpus)",
+  "overall": {
+    "refuted_injected": 53,
+    "refuted_detected": 49,
+    "recall_refuted": 0.925,
+    "recall_ci95": [
+      0.821,
+      0.97
+    ],
+    "doc_drift_injected": 0,
+    "doc_drift_detected": 0,
+    "completeness_gap_injected": 0,
+    "completeness_gap_detected": 0,
+    "controls": 0,
+    "controls_clean": 0,
+    "precision": null,
+    "precision_ci95": null
+  },
+  "by_class": {
+    "external-dependency-drift": {
+      "refuted": {
+        "injected": 9,
+        "detected": 8,
+        "recall": 0.889,
+        "recall_ci95": [
+          0.565,
+          0.98
+        ],
+        "reactions": {
+          "none": 1,
+          "refuted": 8
+        }
+      },
+      "doc_drift": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 0,
+        "clean": 0,
+        "precision": null,
+        "precision_ci95": null
+      }
+    },
+    "identifier-drift": {
+      "refuted": {
+        "injected": 11,
+        "detected": 10,
+        "recall": 0.909,
+        "recall_ci95": [
+          0.623,
+          0.984
+        ],
+        "reactions": {
+          "nei": 1,
+          "refuted": 10
+        }
+      },
+      "doc_drift": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 0,
+        "clean": 0,
+        "precision": null,
+        "precision_ci95": null
+      }
+    },
+    "path-location-drift": {
+      "refuted": {
+        "injected": 12,
+        "detected": 12,
+        "recall": 1.0,
+        "recall_ci95": [
+          0.758,
+          1.0
+        ],
+        "reactions": {
+          "refuted": 12
+        }
+      },
+      "doc_drift": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 0,
+        "clean": 0,
+        "precision": null,
+        "precision_ci95": null
+      }
+    },
+    "removed-referent-drift": {
+      "refuted": {
+        "injected": 9,
+        "detected": 7,
+        "recall": 0.778,
+        "recall_ci95": [
+          0.453,
+          0.937
+        ],
+        "reactions": {
+          "none": 2,
+          "refuted": 7
+        }
+      },
+      "doc_drift": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 0,
+        "clean": 0,
+        "precision": null,
+        "precision_ci95": null
+      }
+    },
+    "value-drift": {
+      "refuted": {
+        "injected": 12,
+        "detected": 12,
+        "recall": 1.0,
+        "recall_ci95": [
+          0.758,
+          1.0
+        ],
+        "reactions": {
+          "refuted": 12
+        }
+      },
+      "doc_drift": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "detected": 0,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 0,
+        "clean": 0,
+        "precision": null,
+        "precision_ci95": null
+      }
+    }
+  },
+  "control_false_refutes": [],
+  "unattributed_findings": {
+    "ledgerly__s1": {
+      "baseline_refuted": 0,
+      "new_refuted": 12,
+      "unattributed": 0,
+      "examples": []
+    },
+    "ledgerly__s2": {
+      "baseline_refuted": 0,
+      "new_refuted": 13,
+      "unattributed": 0,
+      "examples": []
+    },
+    "ledgerly__s3": {
+      "baseline_refuted": 0,
+      "new_refuted": 9,
+      "unattributed": 0,
+      "examples": []
+    },
+    "parcelroute__s1": {
+      "baseline_refuted": 0,
+      "new_refuted": 9,
+      "unattributed": 0,
+      "examples": []
+    },
+    "parcelroute__s2": {
+      "baseline_refuted": 0,
+      "new_refuted": 6,
+      "unattributed": 0,
+      "examples": []
+    },
+    "parcelroute__s3": {
+      "baseline_refuted": 0,
+      "new_refuted": 6,
+      "unattributed": 0,
+      "examples": []
+    },
+    "quillpad__s1": {
+      "baseline_refuted": 0,
+      "new_refuted": 5,
+      "unattributed": 0,
+      "examples": []
+    },
+    "quillpad__s2": {
+      "baseline_refuted": 0,
+      "new_refuted": 10,
+      "unattributed": 0,
+      "examples": []
+    },
+    "quillpad__s3": {
+      "baseline_refuted": 0,
+      "new_refuted": 5,
+      "unattributed": 0,
+      "examples": []
+    },
+    "tidecast__s1": {
+      "baseline_refuted": 0,
+      "new_refuted": 11,
+      "unattributed": 0,
+      "examples": []
+    },
+    "tidecast__s2": {
+      "baseline_refuted": 0,
+      "new_refuted": 14,
+      "unattributed": 0,
+      "examples": []
+    },
+    "tidecast__s3": {
+      "baseline_refuted": 0,
+      "new_refuted": 14,
+      "unattributed": 0,
+      "examples": []
+    }
+  },
+  "boundary": {
+    "out_of_scope_repo_expr": [
+      "behavior-drift",
+      "signature-drift",
+      "constraint-drift",
+      "security-drift",
+      "exception-contract-drift",
+      "null-semantics-drift",
+      "format-encoding-drift",
+      "polarity-order-drift",
+      "lifecycle-contract-drift",
+      "return-value-semantics-drift",
+      "parameter-mismatch",
+      "unused-parameter",
+      "copy-edit-drift"
+    ],
+    "out_of_scope_doc_process_data": [
+      "presentation-format",
+      "documentation-process",
+      "documentation-tooling",
+      "data-quality",
+      "control-repair-failure"
+    ],
+    "candidate_unconfirmed": [
+      "error-message-drift"
+    ]
+  }
+}

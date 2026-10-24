@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "artifact_class": "path",
+    "direction": "code_side",
+    "kind": "path_rename",
+    "file": "docs/api.md",
+    "old": "docs/api.md",
+    "new": "docs/api-reference.md",
+    "target": "docs/api.md",
+    "doc_path": "README.md",
+    "doc_line_text": "- docs/api.md covers the endpoints, the schema fields and the enum members.",
+    "target_claim": "docs/api.md is the API reference covering endpoints, schema fields, and enum members.",
+    "exemplar_ids": [
+      "example 1",
+      "example 4"
+    ],
+    "rationale": "Following example 1's guide-file rename and example 4's README path reference, I renamed the API guide so the README's current documentation-map entry points at a missing file."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"path-location-drift\",\n  \"artifact_class\": \"path\",\n  \"direction\": \"code_side\",\n  \"kind\": \"path_rename\",\n  \"file\": \"docs/api.md\",\n  \"old\": \"docs/api.md\",\n  \"new\": \"docs/api-reference.md\",\n  \"target\": \"docs/api.md\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"- docs/api.md covers the endpoints, the schema fields and the enum members.\",\n  \"target_claim\": \"docs/api.md is the API reference covering endpoints, schema fields, and enum members.\",\n  \"exemplar_ids\": [\n    \"example 1\",\n    \"example 4\"\n  ],\n  \"rationale\": \"Following example 1's guide-file rename and example 4's README path reference, I renamed the API guide so the README's current documentation-map entry points at a missing file.\"\n}",
+  "stderr_tail": ""
+}

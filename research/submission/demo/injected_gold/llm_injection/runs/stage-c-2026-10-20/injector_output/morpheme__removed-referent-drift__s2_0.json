@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "morpheme/cli.py",
+    "old": "format_alignment",
+    "new": null,
+    "symbol": "format_alignment",
+    "target": "format_alignment",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `format_alignment`",
+    "target_claim": "The API reference presents `format_alignment` as a current public function of `morpheme.cli`, with the signature `format_alignment() -> str`.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "The API reference documents `format_alignment` as a present-tense public entry point of the CLI module, and the definition is a standalone top-level function that nothing else in the tree imports or calls."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"morpheme/cli.py\",\n  \"old\": \"format_alignment\",\n  \"new\": null,\n  \"symbol\": \"format_alignment\",\n  \"target\": \"format_alignment\",\n  \"doc_path\": \"docs/api.md\",\n  \"doc_line_text\": \"### `format_alignment`\",\n  \"target_claim\": \"The API reference presents `format_alignment` as a current public function of `morpheme.cli`, with the signature `format_alignment() -> str`.\",\n  \"exemplar_ids\": [\"example 1\", \"example 2\"],\n  \"rationale\": \"The API reference documents `format_alignment` as a present-tense public entry point of the CLI module, and the definition is a standalone top-level function that nothing else in the tree imports or calls.\"\n}",
+  "stderr_tail": ""
+}

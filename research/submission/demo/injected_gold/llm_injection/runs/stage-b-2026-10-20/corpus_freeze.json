@@ -1,0 +1,140 @@
+{
+  "corpus": "synthetic-natural-stage-b-2026-10-20",
+  "frozen_at": "2026-10-20T10:46:11+00:00",
+  "branch": "demo",
+  "git_commit": "d0497f1729d6106fdf2ceec0973190a2d8a43f56",
+  "paths": {
+    "repos_dir": "research/submission/demo/injected_gold/synthetic-natural",
+    "prompts_dir": "research/submission/demo/injected_gold/llm_injection/runs/stage-b-2026-10-20/prompts_natural",
+    "agents_dir": ".opencode/agents"
+  },
+  "repos": [
+    "gaugekit",
+    "gridwatch",
+    "palette",
+    "plotline",
+    "recipecard",
+    "sheetmusic"
+  ],
+  "files": {
+    "gaugekit/README.md": "50e6f3727bcd1254505ab16191ac5d3215895b16ba583ae404f84bec04447f51",
+    "gaugekit/docs/api.md": "6a4a6e9ecc85645fbe83360ce562f742ebe923fd310c647ed68f6f9877442d77",
+    "gaugekit/docs/guide.md": "337c3dfa550b6a4c73d767816d6cc17e825444a63bd6062e431b2f03d8ee1e27",
+    "gaugekit/examples/sample_gauge.csv": "206e92840157111ab311700114c1a03025313f5a38bf3d808d4aef7dc60b1180",
+    "gaugekit/gaugekit/__init__.py": "5a253d360b00aa3d7977d7ad0f24c4b6769c78d31e36f85b4f14d402e3656560",
+    "gaugekit/gaugekit/errors.py": "eb52f535305389c3555c56372a7b457581547ce6b215252f6b588eb521187628",
+    "gaugekit/gaugekit/loader.py": "8275059e90e7fab669166293d9d3b95126b872af3e9ba9930fd7e26c44488293",
+    "gaugekit/gaugekit/models.py": "106c0557a7b2644d9812a8480f4d34f3a52af6835d75330616204ad88e288a57",
+    "gaugekit/gaugekit/stats.py": "f222fb729c8f9839aec07f6e6bf8bd0a61e61f9cea1aa13ae67b51d46d214b75",
+    "gaugekit/gaugekit/units.py": "09df547b0b2ef32863e47f301ba3cc89461c1773c331ede49bc9d4f1cba43221",
+    "gaugekit/pyproject.toml": "09b089e23153888bae8036d466ccd3f6a200a05819a6fbc7a6e048b9672e1fd6",
+    "gaugekit/spec.json": "e796495c1a6ef7729f126bcc8b450aaba177b8ccaac575e2780f81d421f1f0bb",
+    "gridwatch/README.md": "4d9d55b7c31a7d840fa11d945ae942ab7d31246bb2db228ed0152a8fc0947f92",
+    "gridwatch/data/meter_jan.csv": "99261c5187028009e4beb4de6d6c5b27f62965aa16da0524ffc700a7156b6813",
+    "gridwatch/data/tariff.yaml": "ea695f54c6fe910013a15564821cad49371ad83461cf39edb27d5787bff53d50",
+    "gridwatch/docs/api.md": "07d8326b2e88cdcdbf756e99e9b4615a064ea055432fb17628cb4cc6d922ba31",
+    "gridwatch/docs/guide.md": "895ef12cd0d89096311011ddb71f1eb42e3e35d36a33398f0eea174704cd6d19",
+    "gridwatch/gridwatch/__init__.py": "24ee6d5881db736218ee009980a83c77385a120f811ba4111f90409f108fbe2d",
+    "gridwatch/gridwatch/cli.py": "02f41e0e498c8c88665ddb3a1db43b902f3e33da117b153578812f3847e0b776",
+    "gridwatch/gridwatch/costing.py": "017355688b9624bb2e4c552a5459cec1550d78b20336066a61bc506a60656135",
+    "gridwatch/gridwatch/models.py": "9b3eb8860b690f9ab38fb68e135a608754d8a18b80bbf1150a3aef6bdf5d20a9",
+    "gridwatch/gridwatch/readers.py": "c04d959fff769cba62c40ca989844f59106d64be0bf5a19c8155fcdeb0ffc6ba",
+    "gridwatch/gridwatch/tariff.py": "a7fcbb075a1361b94abea869a7d9ac5f4d3db64f06c84fa6db6443439e38f58d",
+    "gridwatch/pyproject.toml": "e13fa488cbcd4ea01ff8977d015050e0b1748d16a1663dac4c415db966cd1320",
+    "gridwatch/spec.json": "952acdc42433f7980d4683f8d247f2ddd85fa6badc1da918c395032f0171f21f",
+    "palette/README.md": "18a37973fef46c870764d927b782dced133f1fc9f5fc55f3151bb805a2f3a47a",
+    "palette/docs/api.md": "46d173cb93964afcb93ba2c4553b76ed0583ddb2505f370a02b2be842c27362a",
+    "palette/docs/guide.md": "a7ba4dcc4d006b8aa5421ac884c5758e41950d19e2eb3070936b89ff5eec4ac8",
+    "palette/palette/__init__.py": "4d88fd8d5e09cf8773a73f9d00425dce76de0e0be50108c62ff62920a47a55de",
+    "palette/palette/cli.py": "dac31402a0e0e1a3cdd5abc6bfe7b2b4d1421704c6ef5e44837cdb2efa3f78ea",
+    "palette/palette/colors.py": "f5510ab7bc1127ae80b0c858d78e4e8856762bfa38d5d431d6509f099f9f2c14",
+    "palette/palette/contrast.py": "8efa051b1c42de70c9a3b3282cc2b2c01d6b07e24054a4176494b9ee3f5f6a84",
+    "palette/palette/convert.py": "600950834714086f11dfa96208b984ca0cf957557c5d92d1e86d48285d985a92",
+    "palette/palette/harmony.py": "676851ba0592cb70a92cf5511aac2d5940cce1e93bdbf67eb4ded8dc5848e11c",
+    "palette/pyproject.toml": "6834e575a3c3ca2981e5d9b461968d96db03396fc23e645e5af307071aee1ad7",
+    "palette/spec.json": "418bb5c8b67614a32461dd0064ef651591d01b74c094ba2e57c7ebed4fd1fbae",
+    "plotline/README.md": "f7cd128411f3bcfa991c2a35ca6cb8fca15bc43cd5f85c0f9044608dec2698d1",
+    "plotline/docs/api.md": "2471044aa4d87d78864f306cc3b4a05718ac0ce3d6ac4c19851d9737a6c23eaf",
+    "plotline/docs/guide.md": "318b1715d127d27244f45f32e1e3f43e96bffea2379e1940bbcc567762921419",
+    "plotline/plotline/__init__.py": "adc8229dd77072437fa5379eb9bcc36d6f3077943f186fcecd1e15160548bc10",
+    "plotline/plotline/canvas.py": "c30719dc2b5d23d0c43b0a1dca5772d4a165ae631ae3f0eb345f13d539cfb316",
+    "plotline/plotline/marks.py": "a3353b106a6453ab9d31e31a255b912baa0a4b05af8883347b967ba531974ed3",
+    "plotline/plotline/palette.py": "b30da4bb1f4d87874363a9115dc91ea53422d1607ac22a1282f66c5266f29358",
+    "plotline/plotline/render.py": "69bf69ba67fe45136cc7fb0ed237d3bb5c4b20214d62795445587f5534824e3c",
+    "plotline/plotline/scales.py": "be9ebb85a011b5fd2c22ca3fd7b515ae731134103453cc69c360a0926ccb05c8",
+    "plotline/pyproject.toml": "fd8f5a1a6810712647f9196cfcea1b1549d3fe2a35003751b2752ac1a77ef97f",
+    "plotline/spec.json": "92ee7649e01f030ddf74bfef40705ad42814a6f9364bf4a5e0fbc73efd1f0bf9",
+    "recipecard/README.md": "5dc5da51a649d58874abfb2502584a919b5cb6a0deb434ec4d8397882d19f025",
+    "recipecard/docs/api.md": "05d9fd442c68a771beb38523c62798c1dae160015a9f307dbaf7520f8bc752f8",
+    "recipecard/docs/guide.md": "0f78f6d12a8b769fe65870d9e1521d85664560568bf0fb5d01c01f4e342330fb",
+    "recipecard/examples/pancakes.yaml": "3ae42301c05d6dd428d72b288ea23fc176fe73f371d10ecfdeb7117bc6a9ac9a",
+    "recipecard/pyproject.toml": "b20685a30c27ba07d898de4380fdc6e913239a30822d17a7988a94d2b72ded65",
+    "recipecard/recipecard/__init__.py": "faffa003a3d0ac6a459663f5ce2b58028dd8e870d86aabc45be0f3f3f6b8f8dd",
+    "recipecard/recipecard/cli.py": "6b1cf85758ce06691ae2d78b3d64b4be443317077d75c00d5d214c8248c79659",
+    "recipecard/recipecard/loader.py": "3ce3ab28882cbf917474cfc65d518a4da5050e12081ee69b8dc1044a7c934417",
+    "recipecard/recipecard/models.py": "52314553ad3ca49d8e3c6d411d5e4110bcf706f4badf728010c647fa700667a7",
+    "recipecard/recipecard/scaling.py": "76890f3050b1b09a3865ea730d15f68a3e0c7dd2efee7990833ce634b0917e6f",
+    "recipecard/recipecard/shopping.py": "510d982768cfd6cbcde4bb64497ab42045367e1167973d6f7d9b510b072cabc6",
+    "recipecard/recipecard/units.py": "1d265f8d153932554ab6357956b10de02894adbaf748a22cefcbc15bcff9f090",
+    "recipecard/spec.json": "4793a663aab259432acd1256c0cb9dbd3d3b68025dd2ed035ac2d2a49c8e9abc",
+    "sheetmusic/README.md": "4c7849f842ba09018f37c6f52593bc01664d383e9c37c0010de91588d3e3ffcc",
+    "sheetmusic/docs/api.md": "82e04594aa22d6a7bd354e254b3afa2d8dd6b45e6be6b1662251a93454cdf73d",
+    "sheetmusic/docs/guide.md": "b7b036c0e3b4dde2ff82ee962cae2809bcc60c853d5f7bb176b059447fb5fbe6",
+    "sheetmusic/pyproject.toml": "7a9dda2157e96b4f3faf2e44098e7174f29ac07529bb7d2027ba1efddc8ceadd",
+    "sheetmusic/sheetmusic/__init__.py": "f287be3466244ddc7310ea546fdd4b601e68e18a2ca86180b9c1e5bcb3f4573e",
+    "sheetmusic/sheetmusic/cli.py": "8db6e96fd9a5a3b7af5d90f8903f9db82585a598bbff35d10f837a70abba417f",
+    "sheetmusic/sheetmusic/models.py": "ae8afdfbb6f4b7d52f995fe288336fefb9e3267b7d7404e350b898b3379f06ad",
+    "sheetmusic/sheetmusic/notes.py": "5b04a308d3fb1288a76265b0e89674b40c32b73960656ea244a719d6edef8642",
+    "sheetmusic/sheetmusic/parser.py": "c5781d6d49106e4cd17b943febef5f45d5f30a5859013cf3f3312c1b687adc89",
+    "sheetmusic/sheetmusic/transpose.py": "86af925970132e73225d3cb01c507ceabef41800116caf3b17517d86aa6ffca5",
+    "sheetmusic/spec.json": "a8cfa88222f64a53ba65c077b232be7757e5aaf847060a20c7e2e2a5dc1fd665"
+  },
+  "specs": {
+    "gaugekit": "e796495c1a6ef7729f126bcc8b450aaba177b8ccaac575e2780f81d421f1f0bb",
+    "gridwatch": "952acdc42433f7980d4683f8d247f2ddd85fa6badc1da918c395032f0171f21f",
+    "palette": "418bb5c8b67614a32461dd0064ef651591d01b74c094ba2e57c7ebed4fd1fbae",
+    "plotline": "92ee7649e01f030ddf74bfef40705ad42814a6f9364bf4a5e0fbc73efd1f0bf9",
+    "recipecard": "4793a663aab259432acd1256c0cb9dbd3d3b68025dd2ed035ac2d2a49c8e9abc",
+    "sheetmusic": "a8cfa88222f64a53ba65c077b232be7757e5aaf847060a20c7e2e2a5dc1fd665"
+  },
+  "prompts": {
+    "auditor.md": "afa42db40f8a13bb8f9b9e07de1f24857792980d92a46c3eef44d07ba82bce6f",
+    "class.external-dependency.md": "ab927834bed98ed36f83dd3cfeb9d8a8c2a976c5ed515e256355168d5e956c43",
+    "class.identifier.md": "1a9e7240d2818576649c6e34b3f13edbb10715427f2574a2d358dbba9302e833",
+    "class.path-location.md": "8f74f1f14ed47bdcc3659cc6c4ca744d70105eac11fb9750bc41c7c595b9877e",
+    "class.removed-referent.md": "c786f524faed7dbfb7d346069218b4fa39442b733d4e2ddf1e1d233a5489b44d",
+    "docwriter.md": "0b05bac37e97d4b82e3f52f32387dda984e2a72dcba57bb12a6eccd54e045860",
+    "injector.system.md": "8f0c0b5b4985f0a6a80c13dc65df782a77114a21a135dc6d61c1a318c9f00b4a",
+    "output.schema.json": "74d5ed7eb25e694198533085dc80dd7c2ca65a7c2a35e6d27f026745de15556e"
+  },
+  "agents": {
+    "repo-architect.md": "bc5693bf5201df756572a52b4c1eacdec424e064e98ba27d32d954f17f533b51",
+    "repo-auditor.md": "9b17aa47f4b67fee646f022ad0f1290837a986fd7b067e753ff5623130930bb1",
+    "repo-docwriter.md": "28160312007e1d232ea989c73015f48f007eecdfa3ca3de84805d28204fd68d6",
+    "repo-injector.md": "0a7446e3230e3332afbd545082c698f597440721b70a9ca19bab0de7861d028d"
+  },
+  "models": {
+    "adjudicator": {
+      "id": "opencode-go/qwen3.8-flash",
+      "sha256": "0139ad2778b87c155189c818e7009b1e03bb068dcb6adb6c0d0374b754abb53d"
+    },
+    "architect": {
+      "id": "opencode-go/claude-haiku-5-5",
+      "sha256": "1364fc2de45c4ee8be0e9f9c84e56bc2a12f6de0f8d6b921368a711042b5172c"
+    },
+    "auditor": {
+      "id": "opencode-go/qwen3.8-flash",
+      "sha256": "0139ad2778b87c155189c818e7009b1e03bb068dcb6adb6c0d0374b754abb53d"
+    },
+    "docwriter": {
+      "id": "opencode-go/claude-haiku-5-5",
+      "sha256": "1364fc2de45c4ee8be0e9f9c84e56bc2a12f6de0f8d6b921368a711042b5172c"
+    },
+    "injector": {
+      "id": "opencode-go/deepseek-v4.1-flash",
+      "sha256": "11bd2a5fe7979cf84f28d86127d995859333fb94710ae86e66b41966b24c81f2"
+    }
+  },
+  "aggregate_sha256": "0a739f4ef52b62db0041b8ff36fde5ac22be00b50fea1fc1f9ff5c11e713ca41",
+  "note": "Frozen before any injector or scoring run. Baseline findings are diagnostic, not acceptance criteria; do not edit the corpus to change them. Verify with --verify."
+}

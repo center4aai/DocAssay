@@ -1,0 +1,41 @@
+{
+  "repo": "tileplan__removed-referent-drift__s3_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "docs/api.md",
+        "line": 108,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "tileplan.quadkey.from_quadkey",
+        "reason": ""
+      }
+    ],
+    "new_nei": [
+      {
+        "source": "docs/usage.md",
+        "line": 112,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "from_quadkey",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "tileplan__removed-referent-drift__s3_0::0",
+      "repo": "tileplan__removed-referent-drift__s3_0",
+      "op_id": "llm.removed-referent-drift",
+      "canonical_class": "removed-referent-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "tileplan.quadkey.from_quadkey",
+        "new": null,
+        "doc_path": "docs/api.md",
+        "target": "from_quadkey()"
+      }
+    }
+  ]
+}

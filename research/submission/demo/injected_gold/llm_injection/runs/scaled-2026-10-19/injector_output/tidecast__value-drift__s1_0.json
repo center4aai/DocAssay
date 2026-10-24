@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "value-drift",
+    "artifact_class": "value",
+    "direction": "code_side",
+    "kind": "version_bump",
+    "file": "pyproject.toml",
+    "old": "0.4.1",
+    "new": "0.4.2",
+    "target": "0.4.1",
+    "doc_path": "README.md",
+    "doc_line_text": "This is tidecast version 0.4.1.",
+    "target_claim": "The README states that the project's current version is 0.4.1; the manifest now declares 0.4.2, so the documented version is stale.",
+    "exemplar_ids": [
+      "triaged:alert-0586cd1b5ddb26aa"
+    ],
+    "rationale": "Followed the exemplar's version-literal shape: a present-tense statement of the project's own version goes stale when the manifest advances. I incremented the [project] version in pyproject.toml by one patch component and left the README claim unchanged."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"value-drift\", \"artifact_class\": \"value\", \"direction\": \"code_side\", \"kind\": \"version_bump\", \"file\": \"pyproject.toml\", \"old\": \"0.4.1\", \"new\": \"0.4.2\", \"target\": \"0.4.1\", \"doc_path\": \"README.md\", \"doc_line_text\": \"This is tidecast version 0.4.1.\", \"target_claim\": \"The README states that the project's current version is 0.4.1; the manifest now declares 0.4.2, so the documented version is stale.\", \"exemplar_ids\": [\"triaged:alert-0586cd1b5ddb26aa\"], \"rationale\": \"Followed the exemplar's version-literal shape: a present-tense statement of the project's own version goes stale when the manifest advances. I incremented the [project] version in pyproject.toml by one patch component and left the README claim unchanged.\"}",
+  "stderr_tail": ""
+}

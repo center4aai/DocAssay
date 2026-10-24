@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "tileplan/zoom.py",
+    "old": "closest_zoom",
+    "new": "nearest_zoom",
+    "symbol": "closest_zoom",
+    "target": "closest_zoom",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `closest_zoom() -> int`",
+    "target_claim": "The API reference presents `closest_zoom() -> int` as the current public function in `tileplan.zoom` for selecting the zoom level that matches a requested resolution.",
+    "exemplar_ids": [
+      "example 2",
+      "example 4"
+    ],
+    "rationale": "The API reference lists this as the live public signature of the zoom module, so renaming its definition leaves the documented name pointing at nothing."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"tileplan/zoom.py\", \"old\": \"closest_zoom\", \"new\": \"nearest_zoom\", \"symbol\": \"closest_zoom\", \"target\": \"closest_zoom\", \"doc_path\": \"docs/api.md\", \"doc_line_text\": \"### `closest_zoom() -> int`\", \"target_claim\": \"The API reference presents `closest_zoom() -> int` as the current public function in `tileplan.zoom` for selecting the zoom level that matches a requested resolution.\", \"exemplar_ids\": [\"example 2\", \"example 4\"], \"rationale\": \"The API reference lists this as the live public signature of the zoom module, so renaming its definition leaves the documented name pointing at nothing.\"}",
+  "stderr_tail": ""
+}

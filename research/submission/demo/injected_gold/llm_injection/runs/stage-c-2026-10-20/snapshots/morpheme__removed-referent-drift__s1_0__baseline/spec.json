@@ -1,0 +1,74 @@
+{
+  "project": {
+    "name": "morpheme",
+    "pkg": "morpheme",
+    "version": "0.4.2",
+    "description": "Morphological segmentation and lemma lookup for a small language pack."
+  },
+  "dependencies": [
+    {"name": "regex", "constraint": ">=2024.5"},
+    {"name": "PyYAML", "constraint": ">=6.0"}
+  ],
+  "modules": [
+    {
+      "path": "morpheme/lexicon.py",
+      "symbols": [
+        {"name": "Lexicon", "kind": "class", "return_type": null, "members": ["language", "entries", "provenance"]},
+        {"name": "load_lexicon", "kind": "function", "return_type": "Lexicon", "members": []},
+        {"name": "DEFAULT_LANGUAGE", "kind": "constant", "return_type": null, "members": []}
+      ]
+    },
+    {
+      "path": "morpheme/segmenter.py",
+      "symbols": [
+        {"name": "Segmenter", "kind": "class", "return_type": null, "members": ["lexicon", "max_morphemes", "backtrack"]},
+        {"name": "segment", "kind": "function", "return_type": "list[str]", "members": []}
+      ]
+    },
+    {
+      "path": "morpheme/lemmatize.py",
+      "symbols": [
+        {"name": "LemmaResult", "kind": "class", "return_type": null, "members": ["surface", "lemma", "suffixes", "confidence"]},
+        {"name": "lookup_lemma", "kind": "function", "return_type": "LemmaResult", "members": []},
+        {"name": "lookup_many", "kind": "function", "return_type": "list[LemmaResult]", "members": []}
+      ]
+    },
+    {
+      "path": "morpheme/affixes.py",
+      "symbols": [
+        {"name": "Affix", "kind": "class", "return_type": null, "members": ["form", "kind", "gloss", "productivity"]},
+        {"name": "parse_affix_table", "kind": "function", "return_type": "list[Affix]", "members": []}
+      ]
+    },
+    {
+      "path": "morpheme/cli.py",
+      "symbols": [
+        {"name": "main", "kind": "function", "return_type": "int", "members": []},
+        {"name": "format_alignment", "kind": "function", "return_type": "str", "members": []}
+      ]
+    }
+  ],
+  "example_commands": [
+    "morpheme segment --language tir \"bandalamet\"",
+    "morpheme lemma --language tir --file words.txt"
+  ],
+  "paths": [
+    "examples/tir_affixes.yaml",
+    "examples/words.txt"
+  ],
+  "data_files": [
+    {
+      "path": "examples/tir_affixes.yaml",
+      "content": "language: tir\nsuffixes:\n  - form: -alamet\n    gloss: PLURAL\n    productivity: high\n  - form: -a\n    gloss: GENITIVE\n    productivity: high\n  - form: -ka\n    gloss: DIMINUTIVE\n    productivity: low\n"
+    },
+    {
+      "path": "examples/words.txt",
+      "content": "bandalamet\nbandaka\nbanda\n"
+    }
+  ],
+  "docs": [
+    {"path": "README.md", "kind": "readme"},
+    {"path": "docs/concepts.md", "kind": "guide"},
+    {"path": "docs/api.md", "kind": "reference"}
+  ]
+}

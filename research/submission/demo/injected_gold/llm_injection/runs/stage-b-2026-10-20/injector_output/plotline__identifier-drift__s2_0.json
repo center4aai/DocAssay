@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "plotline/scales.py",
+    "old": "nice_ticks",
+    "new": "nice_tick_values",
+    "symbol": "nice_ticks",
+    "target": "nice_ticks",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `nice_ticks() -> list[float]`",
+    "target_claim": "The API reference presents `nice_ticks` as a currently available top-level function in `plotline.scales`.",
+    "exemplar_ids": [
+      "example-2",
+      "example-3"
+    ],
+    "rationale": "The API reference documents `nice_ticks` as a current public function, so renaming that top-level definition while leaving the reference untouched is a natural identifier drift."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"plotline/scales.py\", \"old\": \"nice_ticks\", \"new\": \"nice_tick_values\", \"symbol\": \"nice_ticks\", \"target\": \"nice_ticks\", \"doc_path\": \"docs/api.md\", \"doc_line_text\": \"### `nice_ticks() -> list[float]`\", \"target_claim\": \"The API reference presents `nice_ticks` as a currently available top-level function in `plotline.scales`.\", \"exemplar_ids\": [\"example-2\", \"example-3\"], \"rationale\": \"The API reference documents `nice_ticks` as a current public function, so renaming that top-level definition while leaving the reference untouched is a natural identifier drift.\"}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,862 @@
+{
+  "date": "2026-10-24",
+  "seed": 0,
+  "repos": [
+    "bibscan__control",
+    "bibscan__external-dependency-drift__s1_0",
+    "bibscan__external-dependency-drift__s2_0",
+    "bibscan__external-dependency-drift__s3_0",
+    "bibscan__identifier-drift__s1_0",
+    "bibscan__identifier-drift__s2_0",
+    "bibscan__identifier-drift__s3_0",
+    "bibscan__path-location-drift__s1_0",
+    "bibscan__path-location-drift__s2_0",
+    "bibscan__path-location-drift__s3_0",
+    "bibscan__removed-referent-drift__s1_0",
+    "bibscan__removed-referent-drift__s2_0",
+    "bibscan__removed-referent-drift__s3_0",
+    "contourkit__control",
+    "contourkit__external-dependency-drift__s1_0",
+    "contourkit__external-dependency-drift__s2_0",
+    "contourkit__external-dependency-drift__s3_0",
+    "contourkit__identifier-drift__s1_0",
+    "contourkit__identifier-drift__s2_0",
+    "contourkit__identifier-drift__s3_0",
+    "contourkit__path-location-drift__s1_0",
+    "contourkit__path-location-drift__s2_0",
+    "contourkit__path-location-drift__s3_0",
+    "contourkit__removed-referent-drift__s1_0",
+    "contourkit__removed-referent-drift__s2_0",
+    "contourkit__removed-referent-drift__s3_0",
+    "morpheme__control",
+    "morpheme__external-dependency-drift__s1_0",
+    "morpheme__external-dependency-drift__s2_0",
+    "morpheme__external-dependency-drift__s3_0",
+    "morpheme__identifier-drift__s1_0",
+    "morpheme__identifier-drift__s2_0",
+    "morpheme__identifier-drift__s3_0",
+    "morpheme__path-location-drift__s1_0",
+    "morpheme__path-location-drift__s2_0",
+    "morpheme__path-location-drift__s3_0",
+    "morpheme__removed-referent-drift__s1_0",
+    "morpheme__removed-referent-drift__s2_0",
+    "morpheme__removed-referent-drift__s3_0",
+    "sensorbus__control",
+    "sensorbus__external-dependency-drift__s1_0",
+    "sensorbus__external-dependency-drift__s2_0",
+    "sensorbus__external-dependency-drift__s3_0",
+    "sensorbus__identifier-drift__s1_0",
+    "sensorbus__identifier-drift__s2_0",
+    "sensorbus__identifier-drift__s3_0",
+    "sensorbus__path-location-drift__s1_0",
+    "sensorbus__path-location-drift__s2_0",
+    "sensorbus__path-location-drift__s3_0",
+    "sensorbus__removed-referent-drift__s1_0",
+    "sensorbus__removed-referent-drift__s2_0",
+    "sensorbus__removed-referent-drift__s3_0",
+    "serialscope__control",
+    "serialscope__external-dependency-drift__s1_0",
+    "serialscope__external-dependency-drift__s2_0",
+    "serialscope__external-dependency-drift__s3_0",
+    "serialscope__identifier-drift__s1_0",
+    "serialscope__identifier-drift__s2_0",
+    "serialscope__identifier-drift__s3_0",
+    "serialscope__path-location-drift__s1_0",
+    "serialscope__path-location-drift__s2_0",
+    "serialscope__path-location-drift__s3_0",
+    "serialscope__removed-referent-drift__s1_0",
+    "serialscope__removed-referent-drift__s2_0",
+    "serialscope__removed-referent-drift__s3_0",
+    "tileplan__control",
+    "tileplan__identifier-drift__s1_0",
+    "tileplan__identifier-drift__s2_0",
+    "tileplan__identifier-drift__s3_0",
+    "tileplan__path-location-drift__s1_0",
+    "tileplan__path-location-drift__s2_0",
+    "tileplan__path-location-drift__s3_0",
+    "tileplan__removed-referent-drift__s1_0",
+    "tileplan__removed-referent-drift__s2_0",
+    "tileplan__removed-referent-drift__s3_0"
+  ],
+  "engine": [
+    "./.venv/bin/python3",
+    "-m",
+    "docassay.core.dump_claims"
+  ],
+  "contamination": "smoke: repos are from test_repos/validation_repos (held-out); not an evaluation corpus",
+  "overall": {
+    "refuted_injected": 69,
+    "refuted_verified": 69,
+    "refuted": 50,
+    "nei": 15,
+    "none": 4,
+    "refuted_detected": 50,
+    "recall_refuted": 0.725,
+    "recall_ci95": [
+      0.61,
+      0.816
+    ],
+    "refutation_rate": 0.725,
+    "refutation_ci95": [
+      0.61,
+      0.816
+    ],
+    "abstention_rate": 0.217,
+    "extraction_miss_rate": 0.058,
+    "completeness_gap_injected": 0,
+    "completeness_gap_detected": 0,
+    "completeness_gap_refuted": 0,
+    "controls": 24,
+    "controls_clean": 24,
+    "precision": 1.0,
+    "precision_ci95": [
+      0.862,
+      1.0
+    ]
+  },
+  "by_class": {
+    "external-dependency-drift": {
+      "refuted": {
+        "injected": 15,
+        "verified": 15,
+        "refuted": 15,
+        "nei": 0,
+        "none": 0,
+        "detected": 15,
+        "recall": 1.0,
+        "recall_ci95": [
+          0.796,
+          1.0
+        ],
+        "refutation_rate": 1.0,
+        "refutation_ci95": [
+          0.796,
+          1.0
+        ],
+        "abstention_rate": 0.0,
+        "extraction_miss_rate": 0.0,
+        "reactions": {
+          "refuted": 15
+        }
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "verified": 0,
+        "refuted": 0,
+        "nei": 0,
+        "none": 0,
+        "detected": 0,
+        "recall": null,
+        "recall_ci95": null,
+        "refutation_rate": null,
+        "refutation_ci95": null,
+        "abstention_rate": null,
+        "extraction_miss_rate": null,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 5,
+        "clean": 5,
+        "precision": 1.0,
+        "precision_ci95": [
+          0.566,
+          1.0
+        ]
+      }
+    },
+    "identifier-drift": {
+      "refuted": {
+        "injected": 18,
+        "verified": 18,
+        "refuted": 9,
+        "nei": 9,
+        "none": 0,
+        "detected": 9,
+        "recall": 0.5,
+        "recall_ci95": [
+          0.29,
+          0.71
+        ],
+        "refutation_rate": 0.5,
+        "refutation_ci95": [
+          0.29,
+          0.71
+        ],
+        "abstention_rate": 0.5,
+        "extraction_miss_rate": 0.0,
+        "reactions": {
+          "nei": 9,
+          "refuted": 9
+        }
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "verified": 0,
+        "refuted": 0,
+        "nei": 0,
+        "none": 0,
+        "detected": 0,
+        "recall": null,
+        "recall_ci95": null,
+        "refutation_rate": null,
+        "refutation_ci95": null,
+        "abstention_rate": null,
+        "extraction_miss_rate": null,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 13,
+        "clean": 13,
+        "precision": 1.0,
+        "precision_ci95": [
+          0.772,
+          1.0
+        ]
+      }
+    },
+    "path-location-drift": {
+      "refuted": {
+        "injected": 18,
+        "verified": 18,
+        "refuted": 14,
+        "nei": 0,
+        "none": 4,
+        "detected": 14,
+        "recall": 0.778,
+        "recall_ci95": [
+          0.548,
+          0.91
+        ],
+        "refutation_rate": 0.778,
+        "refutation_ci95": [
+          0.548,
+          0.91
+        ],
+        "abstention_rate": 0.0,
+        "extraction_miss_rate": 0.222,
+        "reactions": {
+          "none": 4,
+          "refuted": 14
+        }
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "verified": 0,
+        "refuted": 0,
+        "nei": 0,
+        "none": 0,
+        "detected": 0,
+        "recall": null,
+        "recall_ci95": null,
+        "refutation_rate": null,
+        "refutation_ci95": null,
+        "abstention_rate": null,
+        "extraction_miss_rate": null,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 6,
+        "clean": 6,
+        "precision": 1.0,
+        "precision_ci95": [
+          0.61,
+          1.0
+        ]
+      }
+    },
+    "removed-referent-drift": {
+      "refuted": {
+        "injected": 18,
+        "verified": 18,
+        "refuted": 12,
+        "nei": 6,
+        "none": 0,
+        "detected": 12,
+        "recall": 0.667,
+        "recall_ci95": [
+          0.437,
+          0.837
+        ],
+        "refutation_rate": 0.667,
+        "refutation_ci95": [
+          0.437,
+          0.837
+        ],
+        "abstention_rate": 0.333,
+        "extraction_miss_rate": 0.0,
+        "reactions": {
+          "nei": 6,
+          "refuted": 12
+        }
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "verified": 0,
+        "refuted": 0,
+        "nei": 0,
+        "none": 0,
+        "detected": 0,
+        "recall": null,
+        "recall_ci95": null,
+        "refutation_rate": null,
+        "refutation_ci95": null,
+        "abstention_rate": null,
+        "extraction_miss_rate": null,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 0,
+        "clean": 0,
+        "precision": null,
+        "precision_ci95": null
+      }
+    }
+  },
+  "by_claim_form": {
+    "bare": {
+      "injected": 28,
+      "verified": 28,
+      "refuted": 14,
+      "nei": 14,
+      "none": 0,
+      "refutation_rate": 0.5,
+      "abstention_rate": 0.5,
+      "extraction_miss_rate": 0.0,
+      "controls": 10,
+      "controls_clean": 10,
+      "precision": 1.0
+    },
+    "bare_call": {
+      "injected": 7,
+      "verified": 7,
+      "refuted": 6,
+      "nei": 1,
+      "none": 0,
+      "refutation_rate": 0.857,
+      "abstention_rate": 0.143,
+      "extraction_miss_rate": 0.0,
+      "controls": 0,
+      "controls_clean": 0,
+      "precision": null
+    },
+    "dependency": {
+      "injected": 15,
+      "verified": 15,
+      "refuted": 15,
+      "nei": 0,
+      "none": 0,
+      "refutation_rate": 1.0,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 0.0,
+      "controls": 5,
+      "controls_clean": 5,
+      "precision": 1.0
+    },
+    "path": {
+      "injected": 18,
+      "verified": 18,
+      "refuted": 14,
+      "nei": 0,
+      "none": 4,
+      "refutation_rate": 0.778,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 0.222,
+      "controls": 6,
+      "controls_clean": 6,
+      "precision": 1.0
+    },
+    "qualified": {
+      "injected": 1,
+      "verified": 1,
+      "refuted": 1,
+      "nei": 0,
+      "none": 0,
+      "refutation_rate": 1.0,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 0.0,
+      "controls": 3,
+      "controls_clean": 3,
+      "precision": 1.0
+    }
+  },
+  "control_false_refutes": [],
+  "unattributed_findings": {
+    "bibscan__control": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "bibscan__external-dependency-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "bibscan__external-dependency-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "bibscan__external-dependency-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "bibscan__identifier-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "bibscan__identifier-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 2,
+      "unattributed": 0,
+      "examples": []
+    },
+    "bibscan__identifier-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "bibscan__path-location-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "bibscan__path-location-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "bibscan__path-location-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "bibscan__removed-referent-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 2,
+      "unattributed": 0,
+      "examples": []
+    },
+    "bibscan__removed-referent-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "bibscan__removed-referent-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "contourkit__control": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "contourkit__external-dependency-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 3,
+      "unattributed": 0,
+      "examples": []
+    },
+    "contourkit__external-dependency-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 3,
+      "unattributed": 0,
+      "examples": []
+    },
+    "contourkit__external-dependency-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 3,
+      "unattributed": 0,
+      "examples": []
+    },
+    "contourkit__identifier-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "contourkit__identifier-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "contourkit__identifier-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "contourkit__path-location-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "contourkit__path-location-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "contourkit__path-location-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "contourkit__removed-referent-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "contourkit__removed-referent-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "contourkit__removed-referent-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "morpheme__control": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "morpheme__external-dependency-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "morpheme__external-dependency-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "morpheme__external-dependency-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "morpheme__identifier-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "morpheme__identifier-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "morpheme__identifier-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "morpheme__path-location-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 4,
+      "unattributed": 0,
+      "examples": []
+    },
+    "morpheme__path-location-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "morpheme__path-location-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "morpheme__removed-referent-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "morpheme__removed-referent-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "morpheme__removed-referent-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sensorbus__control": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sensorbus__external-dependency-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sensorbus__external-dependency-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sensorbus__external-dependency-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sensorbus__identifier-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sensorbus__identifier-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sensorbus__identifier-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sensorbus__path-location-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 3,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sensorbus__path-location-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 3,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sensorbus__path-location-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 3,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sensorbus__removed-referent-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sensorbus__removed-referent-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "sensorbus__removed-referent-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "serialscope__control": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "serialscope__external-dependency-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "serialscope__external-dependency-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "serialscope__external-dependency-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "serialscope__identifier-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "serialscope__identifier-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "serialscope__identifier-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "serialscope__path-location-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 5,
+      "unattributed": 0,
+      "examples": []
+    },
+    "serialscope__path-location-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 5,
+      "unattributed": 0,
+      "examples": []
+    },
+    "serialscope__path-location-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 3,
+      "unattributed": 0,
+      "examples": []
+    },
+    "serialscope__removed-referent-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "serialscope__removed-referent-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "serialscope__removed-referent-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "tileplan__control": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "tileplan__identifier-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "tileplan__identifier-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "tileplan__identifier-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "tileplan__path-location-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "tileplan__path-location-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "tileplan__path-location-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "tileplan__removed-referent-drift__s1_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 2,
+      "unattributed": 0,
+      "examples": []
+    },
+    "tileplan__removed-referent-drift__s2_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "tileplan__removed-referent-drift__s3_0": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    }
+  },
+  "boundary": {
+    "out_of_scope_repo_expr": [
+      "behavior-drift",
+      "signature-drift",
+      "constraint-drift",
+      "security-drift",
+      "exception-contract-drift",
+      "null-semantics-drift",
+      "format-encoding-drift",
+      "polarity-order-drift",
+      "lifecycle-contract-drift",
+      "return-value-semantics-drift",
+      "parameter-mismatch",
+      "unused-parameter",
+      "copy-edit-drift"
+    ],
+    "out_of_scope_doc_process_data": [
+      "presentation-format",
+      "documentation-process",
+      "documentation-tooling",
+      "data-quality",
+      "control-repair-failure"
+    ],
+    "candidate_unconfirmed": [
+      "error-message-drift"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "project": {
+    "name": "sensorbus",
+    "pkg": "sensorbus",
+    "version": "0.4.1",
+    "description": "Collect readings from lab instruments into a shared bus, calibrate them against stored curves, and convert them to requested units."
+  },
+  "dependencies": [
+    {"name": "pyserial", "constraint": ">=3.5"},
+    {"name": "numpy", "constraint": ">=1.24"},
+    {"name": "pint", "constraint": ">=0.23"}
+  ],
+  "modules": [
+    {
+      "path": "sensorbus/__init__.py",
+      "symbols": [
+        {"name": "__version__", "kind": "constant", "return_type": null, "members": []}
+      ]
+    },
+    {
+      "path": "sensorbus/readings.py",
+      "symbols": [
+        {"name": "Reading", "kind": "class", "return_type": null, "members": ["sensor_id", "value", "unit", "timestamp"]},
+        {"name": "ReadingBatch", "kind": "class", "return_type": null, "members": ["readings", "sensor_id"]},
+        {"name": "parse_line", "kind": "function", "return_type": "Reading", "members": []}
+      ]
+    },
+    {
+      "path": "sensorbus/calibration.py",
+      "symbols": [
+        {"name": "CalibrationCurve", "kind": "class", "return_type": null, "members": ["sensor_id", "coefficients", "reference_unit"]},
+        {"name": "fit_curve", "kind": "function", "return_type": "CalibrationCurve", "members": []},
+        {"name": "DEFAULT_ORDER", "kind": "constant", "return_type": null, "members": []}
+      ]
+    },
+    {
+      "path": "sensorbus/units.py",
+      "symbols": [
+        {"name": "convert", "kind": "function", "return_type": "float", "members": []},
+        {"name": "canonical_unit", "kind": "function", "return_type": "str", "members": []},
+        {"name": "REGISTRY", "kind": "constant", "return_type": null, "members": []}
+      ]
+    },
+    {
+      "path": "sensorbus/bus.py",
+      "symbols": [
+        {"name": "Bus", "kind": "class", "return_type": null, "members": ["registry", "curves", "window"]},
+        {"name": "collect", "kind": "function", "return_type": "ReadingBatch", "members": []},
+        {"name": "DEFAULT_WINDOW", "kind": "constant", "return_type": null, "members": []}
+      ]
+    },
+    {
+      "path": "sensorbus/devices.py",
+      "symbols": [
+        {"name": "SerialDevice", "kind": "class", "return_type": null, "members": ["port", "baudrate", "name"]},
+        {"name": "list_devices", "kind": "function", "return_type": "list[str]", "members": []}
+      ]
+    }
+  ],
+  "docs": [
+    {"path": "README.md", "kind": "readme"},
+    {"path": "docs/usage.md", "kind": "guide"},
+    {"path": "docs/concepts.md", "kind": "reference"}
+  ],
+  "paths": [
+    "examples/curve_nitrate.csv"
+  ],
+  "data_files": [
+    {
+      "path": "examples/curve_nitrate.csv",
+      "content": "sensor_id,reference,observed\nnitrate-01,0.00,0.03\nnitrate-01,1.00,1.05\nnitrate-01,5.00,4.91\nnitrate-01,10.00,10.12\nnitrate-01,25.00,24.78\n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "repo": "dbt-core",
+  "docs": 108,
+  "claims": 3909,
+  "referents": 1381,
+  "evidence": 7679,
+  "verdicts": {
+    "REFUTED": 455,
+    "SUPPORTED": 256,
+    "NEI": 733
+  },
+  "refuted_by_predicate": {
+    "DEPENDENCY": 1,
+    "PATH_EXISTS": 362,
+    "SYMBOL_EXISTS": 92
+  },
+  "seconds": 7.9
+}

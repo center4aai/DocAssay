@@ -1,0 +1,46 @@
+{
+  "project": {
+    "name": "sheetmusic",
+    "pkg": "sheetmusic",
+    "version": "0.3.0",
+    "description": "A small library for parsing chord symbols, representing chord progressions, and transposing them between keys."
+  },
+  "dependencies": [
+    {"name": "click", "constraint": ">=8.1"}
+  ],
+  "modules": [
+    {"path": "sheetmusic/models.py",
+     "symbols": [
+       {"name": "Chord", "kind": "class", "return_type": null, "members": ["root", "quality", "bass"]},
+       {"name": "Progression", "kind": "class", "return_type": null, "members": ["chords", "title"]}
+     ]},
+    {"path": "sheetmusic/notes.py",
+     "symbols": [
+       {"name": "NOTE_NAMES", "kind": "constant", "return_type": null, "members": []},
+       {"name": "note_to_semitone", "kind": "function", "return_type": "int", "members": []},
+       {"name": "semitone_to_note", "kind": "function", "return_type": "str", "members": []}
+     ]},
+    {"path": "sheetmusic/parser.py",
+     "symbols": [
+       {"name": "parse_chord", "kind": "function", "return_type": "Chord", "members": []},
+       {"name": "parse_progression", "kind": "function", "return_type": "Progression", "members": []}
+     ]},
+    {"path": "sheetmusic/transpose.py",
+     "symbols": [
+       {"name": "transpose_chord", "kind": "function", "return_type": "Chord", "members": []},
+       {"name": "transpose_progression", "kind": "function", "return_type": "Progression", "members": []}
+     ]},
+    {"path": "sheetmusic/cli.py",
+     "symbols": [
+       {"name": "main", "kind": "function", "return_type": "int", "members": []}
+     ]}
+  ],
+  "docs": [
+    {"path": "README.md", "kind": "readme"},
+    {"path": "docs/guide.md", "kind": "guide"},
+    {"path": "docs/api.md", "kind": "reference"}
+  ],
+  "example_commands": [
+    "sheetmusic transpose \"C G Am F\" --semitones 2"
+  ]
+}

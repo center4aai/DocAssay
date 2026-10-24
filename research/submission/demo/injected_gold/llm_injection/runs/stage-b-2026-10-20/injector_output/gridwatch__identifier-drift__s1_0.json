@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "gridwatch/readers.py",
+    "old": "read_json",
+    "new": "parse_json",
+    "symbol": "read_json",
+    "target": "read_json",
+    "doc_path": "docs/api.md",
+    "doc_line_text": "### `read_json() -> list[Reading]`",
+    "target_claim": "The API reference presents `read_json` as a currently declared public reader function in `gridwatch.readers` that returns a list of `Reading` objects.",
+    "exemplar_ids": [
+      "example-1",
+      "example-3"
+    ],
+    "rationale": "The API reference lists `read_json` as a present-tense public function of `gridwatch.readers`, so renaming its definition in the module makes that stated availability false."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"identifier-drift\", \"direction\": \"code_side\", \"file\": \"gridwatch/readers.py\", \"old\": \"read_json\", \"new\": \"parse_json\", \"symbol\": \"read_json\", \"target\": \"read_json\", \"doc_path\": \"docs/api.md\", \"doc_line_text\": \"### `read_json() -> list[Reading]`\", \"target_claim\": \"The API reference presents `read_json` as a currently declared public reader function in `gridwatch.readers` that returns a list of `Reading` objects.\", \"exemplar_ids\": [\"example-1\", \"example-3\"], \"rationale\": \"The API reference lists `read_json` as a present-tense public function of `gridwatch.readers`, so renaming its definition in the module makes that stated availability false.\"}",
+  "stderr_tail": ""
+}

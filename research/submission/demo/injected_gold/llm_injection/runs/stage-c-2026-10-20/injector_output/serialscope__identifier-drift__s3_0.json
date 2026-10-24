@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "serialscope/frames.py",
+    "old": "parse_frame",
+    "new": "parse_response",
+    "symbol": "parse_frame",
+    "target": "parse_frame",
+    "doc_path": "docs/walkthrough.md",
+    "doc_line_text": "- `parse_frame` is the one-shot step for a complete response: the resulting",
+    "target_claim": "The walkthrough presents `parse_frame` as the current one-shot function for converting a complete response into a `Frame`.",
+    "exemplar_ids": [
+      "example 2",
+      "example 4"
+    ],
+    "rationale": "The walkthrough describes `parse_frame` as the current one-shot API for a complete response, so renaming its definition leaves that natural current-state statement stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"serialscope/frames.py\",\n  \"old\": \"parse_frame\",\n  \"new\": \"parse_response\",\n  \"symbol\": \"parse_frame\",\n  \"target\": \"parse_frame\",\n  \"doc_path\": \"docs/walkthrough.md\",\n  \"doc_line_text\": \"- `parse_frame` is the one-shot step for a complete response: the resulting\",\n  \"target_claim\": \"The walkthrough presents `parse_frame` as the current one-shot function for converting a complete response into a `Frame`.\",\n  \"exemplar_ids\": [\"example 2\", \"example 4\"],\n  \"rationale\": \"The walkthrough describes `parse_frame` as the current one-shot API for a complete response, so renaming its definition leaves that natural current-state statement stale.\"\n}",
+  "stderr_tail": ""
+}

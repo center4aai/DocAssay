@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "recipecard/cli.py",
+    "old": "main",
+    "new": "run_cli",
+    "symbol": "main",
+    "target": "main",
+    "doc_path": "docs/guide.md",
+    "doc_line_text": "The package contains `recipecard.cli`, which defines a `main` function that",
+    "target_claim": "`recipecard.cli` defines a current `main` function as the command-line entry point.",
+    "exemplar_ids": [
+      "example 3"
+    ],
+    "rationale": "The user guide presents `main` as the package's current CLI entry point, so renaming the definition is a natural code-side identifier drift."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"recipecard/cli.py\",\n  \"old\": \"main\",\n  \"new\": \"run_cli\",\n  \"symbol\": \"main\",\n  \"target\": \"main\",\n  \"doc_path\": \"docs/guide.md\",\n  \"doc_line_text\": \"The package contains `recipecard.cli`, which defines a `main` function that\",\n  \"target_claim\": \"`recipecard.cli` defines a current `main` function as the command-line entry point.\",\n  \"exemplar_ids\": [\n    \"example 3\"\n  ],\n  \"rationale\": \"The user guide presents `main` as the package's current CLI entry point, so renaming the definition is a natural code-side identifier drift.\"\n}",
+  "stderr_tail": ""
+}

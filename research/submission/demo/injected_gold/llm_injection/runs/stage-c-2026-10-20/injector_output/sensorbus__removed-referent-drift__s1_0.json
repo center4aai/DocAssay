@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "sensorbus/devices.py",
+    "old": "SerialDevice",
+    "new": null,
+    "symbol": "SerialDevice",
+    "target": "SerialDevice",
+    "doc_path": "docs/usage.md",
+    "doc_line_text": "`SerialDevice` is a plain record of where to read from. Set the fields yourself",
+    "target_claim": "SerialDevice is a current class you can construct and populate (a plain record of where to read from); deleting its definition leaves the document naming a class that no longer exists.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "The guide presents SerialDevice in the present tense as a working record class whose fields you set, so removing its definition from devices.py falsifies an ordinary current-API statement without affecting the rest of the module."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"sensorbus/devices.py\",\n  \"old\": \"SerialDevice\",\n  \"new\": null,\n  \"symbol\": \"SerialDevice\",\n  \"target\": \"SerialDevice\",\n  \"doc_path\": \"docs/usage.md\",\n  \"doc_line_text\": \"`SerialDevice` is a plain record of where to read from. Set the fields yourself\",\n  \"target_claim\": \"SerialDevice is a current class you can construct and populate (a plain record of where to read from); deleting its definition leaves the document naming a class that no longer exists.\",\n  \"exemplar_ids\": [\"example 1\", \"example 2\"],\n  \"rationale\": \"The guide presents SerialDevice in the present tense as a working record class whose fields you set, so removing its definition from devices.py falsifies an ordinary current-API statement without affecting the rest of the module.\"\n}",
+  "stderr_tail": ""
+}

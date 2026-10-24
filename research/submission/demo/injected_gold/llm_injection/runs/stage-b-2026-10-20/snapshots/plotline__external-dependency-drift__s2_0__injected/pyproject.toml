@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plotline"
+version = "0.4.2"
+description = "A small library of SVG chart primitives for building line and bar charts as plain SVG markup."
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=999"
+]
+
+[tool.setuptools]
+packages = ["plotline"]

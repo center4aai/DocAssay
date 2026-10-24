@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "artifact_class": "path",
+    "direction": "code_side",
+    "kind": "path_rename",
+    "file": "examples/entries.csv",
+    "old": "examples/entries.csv",
+    "new": "examples/ledger_entries.csv",
+    "target": "examples/entries.csv",
+    "doc_path": "README.md",
+    "doc_line_text": "The bundled sample ledger is the CSV file `examples/entries.csv`, which holds",
+    "target_claim": "The bundled sample ledger is the CSV file at `examples/entries.csv`.",
+    "exemplar_ids": [
+      "example 2"
+    ],
+    "rationale": "Following the code-side file-move pattern in example 2, I renamed the bundled CSV so the documentation's current path reference no longer resolves."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\":true,\"drift_type\":\"path-location-drift\",\"artifact_class\":\"path\",\"direction\":\"code_side\",\"kind\":\"path_rename\",\"file\":\"examples/entries.csv\",\"old\":\"examples/entries.csv\",\"new\":\"examples/ledger_entries.csv\",\"target\":\"examples/entries.csv\",\"doc_path\":\"README.md\",\"doc_line_text\":\"The bundled sample ledger is the CSV file `examples/entries.csv`, which holds\",\"target_claim\":\"The bundled sample ledger is the CSV file at `examples/entries.csv`.\",\"exemplar_ids\":[\"example 2\"],\"rationale\":\"Following the code-side file-move pattern in example 2, I renamed the bundled CSV so the documentation's current path reference no longer resolves.\"}",
+  "stderr_tail": ""
+}

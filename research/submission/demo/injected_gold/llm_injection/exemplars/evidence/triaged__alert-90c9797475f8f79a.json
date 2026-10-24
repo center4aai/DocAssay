@@ -1,0 +1,26 @@
+{
+  "alert_id": "triaged:alert-90c9797475f8f79a",
+  "commit_sha": "72b8a6ca057ea9bfb9260f46f59e08e560d99600",
+  "commit_url": "https://github.com/spring-projects/spring-boot/commit/72b8a6ca057ea9bfb9260f46f59e08e560d99600",
+  "files": [
+    {
+      "added": [
+        "\tapi(project(\":module:spring-boot-rabbitmq\"))"
+      ],
+      "hunks": 1,
+      "matched_location": true,
+      "path": "starter/spring-boot-starter-rabbitmq/build.gradle",
+      "removed": [
+        "\tapi(project(\":module:spring-boot-amqp\"))"
+      ],
+      "side": "code",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "documentation/spring-boot-docs/src/docs/antora/modules/reference/pages/messaging/amqp.adoc",
+    "starter/spring-boot-starter-rabbitmq/build.gradle"
+  ],
+  "patch_sha256": "fdce813e60fb5f944a817846f86af2cf1143fbe7604468a1c4de90962b956f5e",
+  "status": "ok"
+}

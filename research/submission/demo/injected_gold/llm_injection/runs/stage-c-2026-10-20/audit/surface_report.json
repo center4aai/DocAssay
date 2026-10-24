@@ -1,0 +1,83 @@
+{
+  "ok": true,
+  "repos": [
+    {
+      "repo": "contourkit",
+      "ok": true,
+      "violations": [],
+      "optional_surface_counts": {
+        "config_keys": 0,
+        "example_commands": 2,
+        "paths": 1,
+        "data_files": 1
+      },
+      "module_count": 6,
+      "dependency_count": 2
+    },
+    {
+      "repo": "tileplan",
+      "ok": true,
+      "violations": [],
+      "optional_surface_counts": {
+        "config_keys": 0,
+        "example_commands": 0,
+        "paths": 1,
+        "data_files": 1
+      },
+      "module_count": 6,
+      "dependency_count": 0
+    },
+    {
+      "repo": "morpheme",
+      "ok": true,
+      "violations": [],
+      "optional_surface_counts": {
+        "config_keys": 0,
+        "example_commands": 2,
+        "paths": 2,
+        "data_files": 2
+      },
+      "module_count": 5,
+      "dependency_count": 2
+    },
+    {
+      "repo": "bibscan",
+      "ok": true,
+      "violations": [],
+      "optional_surface_counts": {
+        "config_keys": 0,
+        "example_commands": 2,
+        "paths": 1,
+        "data_files": 1
+      },
+      "module_count": 5,
+      "dependency_count": 2
+    },
+    {
+      "repo": "serialscope",
+      "ok": true,
+      "violations": [],
+      "optional_surface_counts": {
+        "config_keys": 2,
+        "example_commands": 2,
+        "paths": 2,
+        "data_files": 2
+      },
+      "module_count": 6,
+      "dependency_count": 1
+    },
+    {
+      "repo": "sensorbus",
+      "ok": true,
+      "violations": [],
+      "optional_surface_counts": {
+        "config_keys": 0,
+        "example_commands": 0,
+        "paths": 1,
+        "data_files": 1
+      },
+      "module_count": 6,
+      "dependency_count": 3
+    }
+  ]
+}

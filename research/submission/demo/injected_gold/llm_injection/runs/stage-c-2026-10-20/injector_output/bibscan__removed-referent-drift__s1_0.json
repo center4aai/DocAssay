@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "bibscan/cli.py",
+    "old": "scan_file",
+    "new": null,
+    "symbol": "scan_file",
+    "target": "scan_file",
+    "doc_path": "README.md",
+    "doc_line_text": "**Command line.** `bibscan.cli` contains `scan_file`, typed as returning a list",
+    "target_claim": "The `bibscan.cli` module currently contains a `scan_file` function returning a list of `Entry` objects.",
+    "exemplar_ids": [
+      "example-2"
+    ],
+    "rationale": "The README presents `scan_file` as a present-day member of `bibscan.cli`, and the function is defined once in that module and referenced nowhere else in the code, so deleting its definition cleanly falsifies the statement."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"removed-referent-drift\", \"direction\": \"code_side\", \"file\": \"bibscan/cli.py\", \"old\": \"scan_file\", \"new\": null, \"symbol\": \"scan_file\", \"target\": \"scan_file\", \"doc_path\": \"README.md\", \"doc_line_text\": \"**Command line.** `bibscan.cli` contains `scan_file`, typed as returning a list\", \"target_claim\": \"The `bibscan.cli` module currently contains a `scan_file` function returning a list of `Entry` objects.\", \"exemplar_ids\": [\"example-2\"], \"rationale\": \"The README presents `scan_file` as a present-day member of `bibscan.cli`, and the function is defined once in that module and referenced nowhere else in the code, so deleting its definition cleanly falsifies the statement.\"}",
+  "stderr_tail": ""
+}

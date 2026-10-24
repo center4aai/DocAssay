@@ -1,0 +1,26 @@
+{
+  "alert_id": "triaged:alert-e1e71cc1ff2a6985",
+  "commit_sha": "0d5d53b93cecfc3c11f62704608055e8e8be0ba6",
+  "commit_url": "https://github.com/tensorflow/tensorflow/commit/0d5d53b93cecfc3c11f62704608055e8e8be0ba6",
+  "files": [
+    {
+      "added": [
+        "// RUN: hlo-opt %s --platform=gpu --xla_gpu_target_config_filename=%S/../target_config/specs/%{GPU}.txtpb | FileCheck  %s"
+      ],
+      "hunks": 1,
+      "matched_location": true,
+      "path": "third_party/xla/xla/backends/gpu/tests/bitcast-convert.hlo",
+      "removed": [
+        "// RUN: hlo-opt %s --platform=gpu --xla_gpu_target_config_filename=%S/../../../backends/gpu/target_config/specs/%{GPU}.txtpb | FileCheck  %s"
+      ],
+      "side": "code",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "third_party/xla/docs/test_hlo_passes.md",
+    "third_party/xla/xla/backends/gpu/tests/bitcast-convert.hlo"
+  ],
+  "patch_sha256": "b61dd55574ecbe629c024a2ca93990ab7b9fcdc19994504f86c3ecd9453cb42c",
+  "status": "ok"
+}

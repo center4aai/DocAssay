@@ -1,0 +1,17 @@
+{
+  "repo": "black",
+  "docs": 32,
+  "claims": 859,
+  "referents": 177,
+  "evidence": 2884,
+  "verdicts": {
+    "REFUTED": 3,
+    "SUPPORTED": 76,
+    "NEI": 118
+  },
+  "refuted_by_predicate": {
+    "PATH_EXISTS": 2,
+    "SYMBOL_EXISTS": 1
+  },
+  "seconds": 2.2
+}

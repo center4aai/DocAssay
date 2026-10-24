@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "examples/pump_response.txt",
+    "old": "examples/pump_response.txt",
+    "new": "examples/pump_status.txt",
+    "target": "examples/pump_response.txt",
+    "doc_path": "README.md",
+    "doc_line_text": "`examples/pump_response.txt` holds one pump status line:",
+    "target_claim": "The pump capture fixture is located at examples/pump_response.txt.",
+    "exemplar_ids": [
+      "example 2",
+      "example 3"
+    ],
+    "rationale": "The README presents the pump fixture at that exact current path, so renaming the fixture leaves a natural location statement pointing to a missing file."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"path-location-drift\", \"direction\": \"code_side\", \"file\": \"examples/pump_response.txt\", \"old\": \"examples/pump_response.txt\", \"new\": \"examples/pump_status.txt\", \"target\": \"examples/pump_response.txt\", \"doc_path\": \"README.md\", \"doc_line_text\": \"`examples/pump_response.txt` holds one pump status line:\", \"target_claim\": \"The pump capture fixture is located at examples/pump_response.txt.\", \"exemplar_ids\": [\"example 2\", \"example 3\"], \"rationale\": \"The README presents the pump fixture at that exact current path, so renaming the fixture leaves a natural location statement pointing to a missing file.\"}",
+  "stderr_tail": ""
+}

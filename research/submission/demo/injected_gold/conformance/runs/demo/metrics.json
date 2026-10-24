@@ -1,0 +1,314 @@
+{
+  "date": "2026-10-24",
+  "seed": 0,
+  "repos": [
+    "ci_workflow_control_present",
+    "ci_workflow_false_claim",
+    "ci_workflow_mention",
+    "dockerfile_control_present",
+    "dockerfile_false_claim",
+    "dockerfile_mention",
+    "license_control_present",
+    "license_false_claim",
+    "license_mention"
+  ],
+  "engine": [
+    "./.venv/bin/python3",
+    "-m",
+    "docassay.core.dump_claims"
+  ],
+  "contamination": "conformance: constructed cases on a clean synthetic base (predicate-defined artifact classes; separate provenance arm)",
+  "overall": {
+    "refuted_injected": 3,
+    "refuted_verified": 3,
+    "refuted": 3,
+    "nei": 0,
+    "none": 0,
+    "refuted_detected": 3,
+    "recall_refuted": 1.0,
+    "recall_ci95": [
+      0.439,
+      1.0
+    ],
+    "refutation_rate": 1.0,
+    "refutation_ci95": [
+      0.439,
+      1.0
+    ],
+    "abstention_rate": 0.0,
+    "extraction_miss_rate": 0.0,
+    "completeness_gap_injected": 0,
+    "completeness_gap_detected": 0,
+    "completeness_gap_refuted": 0,
+    "controls": 6,
+    "controls_clean": 5,
+    "precision": 0.833,
+    "precision_ci95": [
+      0.436,
+      0.97
+    ]
+  },
+  "by_class": {
+    "ci-workflow-drift": {
+      "refuted": {
+        "injected": 1,
+        "verified": 1,
+        "refuted": 1,
+        "nei": 0,
+        "none": 0,
+        "detected": 1,
+        "recall": 1.0,
+        "recall_ci95": [
+          0.207,
+          1.0
+        ],
+        "refutation_rate": 1.0,
+        "refutation_ci95": [
+          0.207,
+          1.0
+        ],
+        "abstention_rate": 0.0,
+        "extraction_miss_rate": 0.0,
+        "reactions": {
+          "refuted": 1
+        }
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "verified": 0,
+        "refuted": 0,
+        "nei": 0,
+        "none": 0,
+        "detected": 0,
+        "recall": null,
+        "recall_ci95": null,
+        "refutation_rate": null,
+        "refutation_ci95": null,
+        "abstention_rate": null,
+        "extraction_miss_rate": null,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 2,
+        "clean": 2,
+        "precision": 1.0,
+        "precision_ci95": [
+          0.342,
+          1.0
+        ]
+      }
+    },
+    "dockerfile-drift": {
+      "refuted": {
+        "injected": 1,
+        "verified": 1,
+        "refuted": 1,
+        "nei": 0,
+        "none": 0,
+        "detected": 1,
+        "recall": 1.0,
+        "recall_ci95": [
+          0.207,
+          1.0
+        ],
+        "refutation_rate": 1.0,
+        "refutation_ci95": [
+          0.207,
+          1.0
+        ],
+        "abstention_rate": 0.0,
+        "extraction_miss_rate": 0.0,
+        "reactions": {
+          "refuted": 1
+        }
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "verified": 0,
+        "refuted": 0,
+        "nei": 0,
+        "none": 0,
+        "detected": 0,
+        "recall": null,
+        "recall_ci95": null,
+        "refutation_rate": null,
+        "refutation_ci95": null,
+        "abstention_rate": null,
+        "extraction_miss_rate": null,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 2,
+        "clean": 2,
+        "precision": 1.0,
+        "precision_ci95": [
+          0.342,
+          1.0
+        ]
+      }
+    },
+    "license-drift": {
+      "refuted": {
+        "injected": 1,
+        "verified": 1,
+        "refuted": 1,
+        "nei": 0,
+        "none": 0,
+        "detected": 1,
+        "recall": 1.0,
+        "recall_ci95": [
+          0.207,
+          1.0
+        ],
+        "refutation_rate": 1.0,
+        "refutation_ci95": [
+          0.207,
+          1.0
+        ],
+        "abstention_rate": 0.0,
+        "extraction_miss_rate": 0.0,
+        "reactions": {
+          "refuted": 1
+        }
+      },
+      "completeness_gap": {
+        "injected": 0,
+        "verified": 0,
+        "refuted": 0,
+        "nei": 0,
+        "none": 0,
+        "detected": 0,
+        "recall": null,
+        "recall_ci95": null,
+        "refutation_rate": null,
+        "refutation_ci95": null,
+        "abstention_rate": null,
+        "extraction_miss_rate": null,
+        "reactions": {}
+      },
+      "controls": {
+        "n": 2,
+        "clean": 1,
+        "precision": 0.5,
+        "precision_ci95": [
+          0.095,
+          0.905
+        ]
+      }
+    }
+  },
+  "by_claim_form": {
+    "bare": {
+      "injected": 3,
+      "verified": 3,
+      "refuted": 3,
+      "nei": 0,
+      "none": 0,
+      "refutation_rate": 1.0,
+      "abstention_rate": 0.0,
+      "extraction_miss_rate": 0.0,
+      "controls": 6,
+      "controls_clean": 5,
+      "precision": 0.833
+    }
+  },
+  "control_false_refutes": [
+    {
+      "repo": "license_mention",
+      "op_id": "license.mention",
+      "doc_path": "README.md",
+      "line": 57,
+      "target": "MIT",
+      "verdicts": [
+        {
+          "predicate": "LICENSE",
+          "object": "mit",
+          "reason": ""
+        }
+      ]
+    }
+  ],
+  "unattributed_findings": {
+    "ci_workflow_control_present": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "ci_workflow_false_claim": {
+      "baseline_refuted": 0,
+      "new_refuted": 2,
+      "unattributed": 0,
+      "examples": []
+    },
+    "ci_workflow_mention": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "dockerfile_control_present": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "dockerfile_false_claim": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "dockerfile_mention": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "license_control_present": {
+      "baseline_refuted": 0,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    },
+    "license_false_claim": {
+      "baseline_refuted": 0,
+      "new_refuted": 1,
+      "unattributed": 0,
+      "examples": []
+    },
+    "license_mention": {
+      "baseline_refuted": 1,
+      "new_refuted": 0,
+      "unattributed": 0,
+      "examples": []
+    }
+  },
+  "boundary": {
+    "out_of_scope_repo_expr": [
+      "behavior-drift",
+      "signature-drift",
+      "constraint-drift",
+      "security-drift",
+      "exception-contract-drift",
+      "null-semantics-drift",
+      "format-encoding-drift",
+      "polarity-order-drift",
+      "lifecycle-contract-drift",
+      "return-value-semantics-drift",
+      "parameter-mismatch",
+      "unused-parameter",
+      "copy-edit-drift"
+    ],
+    "out_of_scope_doc_process_data": [
+      "presentation-format",
+      "documentation-process",
+      "documentation-tooling",
+      "data-quality",
+      "control-repair-failure"
+    ],
+    "candidate_unconfirmed": [
+      "error-message-drift"
+    ]
+  }
+}

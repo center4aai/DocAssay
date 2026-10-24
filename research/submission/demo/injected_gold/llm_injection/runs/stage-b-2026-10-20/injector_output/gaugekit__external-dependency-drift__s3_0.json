@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "numpy>=1.24",
+    "new": "numpy>=999",
+    "symbol": "numpy",
+    "target": "numpy>=1.24",
+    "doc_path": "README.md",
+    "doc_line_text": "gaugekit depends on NumPy (`numpy>=1.24`). From a checkout of the repository:",
+    "target_claim": "gaugekit requires NumPy at version 1.24 or newer.",
+    "exemplar_ids": [
+      "example-1"
+    ],
+    "rationale": "The README's installation section states the project's current NumPy version requirement, and the manifest lists exactly that dependency."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \"numpy>=1.24\", \"new\": \"numpy>=999\", \"symbol\": \"numpy\", \"target\": \"numpy>=1.24\", \"doc_path\": \"README.md\", \"doc_line_text\": \"gaugekit depends on NumPy (`numpy>=1.24`). From a checkout of the repository:\", \"target_claim\": \"gaugekit requires NumPy at version 1.24 or newer.\", \"exemplar_ids\": [\"example-1\"], \"rationale\": \"The README's installation section states the project's current NumPy version requirement, and the manifest lists exactly that dependency.\"}",
+  "stderr_tail": ""
+}

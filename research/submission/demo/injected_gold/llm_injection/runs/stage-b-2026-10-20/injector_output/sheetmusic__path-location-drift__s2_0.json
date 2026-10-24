@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "docs/guide.md",
+    "old": "docs/guide.md",
+    "new": "docs/user-guide.md",
+    "target": "docs/guide.md",
+    "doc_path": "README.md",
+    "doc_line_text": "- [User guide](docs/guide.md) covers chords, progressions, and the module",
+    "target_claim": "The user guide is located at docs/guide.md.",
+    "exemplar_ids": [
+      "example 2",
+      "example 3"
+    ],
+    "rationale": "The README presents docs/guide.md as the current location of the user guide, so renaming that file leaves a natural, checkable pointer to a path that no longer exists."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"path-location-drift\", \"direction\": \"code_side\", \"file\": \"docs/guide.md\", \"old\": \"docs/guide.md\", \"new\": \"docs/user-guide.md\", \"target\": \"docs/guide.md\", \"doc_path\": \"README.md\", \"doc_line_text\": \"- [User guide](docs/guide.md) covers chords, progressions, and the module\", \"target_claim\": \"The user guide is located at docs/guide.md.\", \"exemplar_ids\": [\"example 2\", \"example 3\"], \"rationale\": \"The README presents docs/guide.md as the current location of the user guide, so renaming that file leaves a natural, checkable pointer to a path that no longer exists.\"}",
+  "stderr_tail": ""
+}

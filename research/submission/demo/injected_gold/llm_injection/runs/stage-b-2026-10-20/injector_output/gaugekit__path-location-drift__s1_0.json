@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "examples/sample_gauge.csv",
+    "old": "examples/sample_gauge.csv",
+    "new": "examples/stream_gauge_sample.csv",
+    "target": "examples/sample_gauge.csv",
+    "doc_path": "README.md",
+    "doc_line_text": "The repository includes `examples/sample_gauge.csv`, a four-row file in the expected layout (see the [guide](docs/guide.md#csv-format)).",
+    "target_claim": "The bundled four-row example CSV is located at examples/sample_gauge.csv.",
+    "exemplar_ids": [
+      "example 3",
+      "example 4"
+    ],
+    "rationale": "The README presents the example CSV as a current repository file at that path, so renaming the file makes the location statement false."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\":true,\"drift_type\":\"path-location-drift\",\"direction\":\"code_side\",\"file\":\"examples/sample_gauge.csv\",\"old\":\"examples/sample_gauge.csv\",\"new\":\"examples/stream_gauge_sample.csv\",\"target\":\"examples/sample_gauge.csv\",\"doc_path\":\"README.md\",\"doc_line_text\":\"The repository includes `examples/sample_gauge.csv`, a four-row file in the expected layout (see the [guide](docs/guide.md#csv-format)).\",\"target_claim\":\"The bundled four-row example CSV is located at examples/sample_gauge.csv.\",\"exemplar_ids\":[\"example 3\",\"example 4\"],\"rationale\":\"The README presents the example CSV as a current repository file at that path, so renaming the file makes the location statement false.\"}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "value-drift",
+    "artifact_class": "value",
+    "direction": "code_side",
+    "kind": "version_bump",
+    "file": "pyproject.toml",
+    "old": "0.3.1",
+    "new": "0.3.2",
+    "target": "0.3.1",
+    "doc_path": "README.md",
+    "doc_line_text": "This is parcelroute version 0.3.1.",
+    "target_claim": "The parcelroute project is at version 0.3.1.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "Following the exemplar's stale version-literal pattern, I bump the project's manifest version from 0.3.1 to 0.3.2 while leaving the README's current version statement unchanged."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"value-drift\",\n  \"artifact_class\": \"value\",\n  \"direction\": \"code_side\",\n  \"kind\": \"version_bump\",\n  \"file\": \"pyproject.toml\",\n  \"old\": \"0.3.1\",\n  \"new\": \"0.3.2\",\n  \"target\": \"0.3.1\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"This is parcelroute version 0.3.1.\",\n  \"target_claim\": \"The parcelroute project is at version 0.3.1.\",\n  \"exemplar_ids\": [\n    \"example 1\"\n  ],\n  \"rationale\": \"Following the exemplar's stale version-literal pattern, I bump the project's manifest version from 0.3.1 to 0.3.2 while leaving the README's current version statement unchanged.\"\n}",
+  "stderr_tail": ""
+}

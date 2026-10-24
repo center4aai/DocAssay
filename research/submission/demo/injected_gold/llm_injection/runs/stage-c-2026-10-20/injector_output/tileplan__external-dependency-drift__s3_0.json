@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "setuptools>=68",
+    "new": "setuptools>=999",
+    "symbol": "setuptools",
+    "target": "setuptools>=68",
+    "doc_path": "README.md",
+    "doc_line_text": "Only the build backend (`setuptools>=68`) is fetched; there are no runtime dependencies",
+    "target_claim": "The project's build backend requires setuptools at version 68 or newer.",
+    "exemplar_ids": [
+      "1",
+      "4"
+    ],
+    "rationale": "The README presents the build backend's setuptools>=68 constraint as a current installation requirement, so raising the manifest bound to a non-overlapping version makes that ordinary present-tense statement false."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \"setuptools>=68\", \"new\": \"setuptools>=999\", \"symbol\": \"setuptools\", \"target\": \"setuptools>=68\", \"doc_path\": \"README.md\", \"doc_line_text\": \"Only the build backend (`setuptools>=68`) is fetched; there are no runtime dependencies\", \"target_claim\": \"The project's build backend requires setuptools at version 68 or newer.\", \"exemplar_ids\": [\"1\", \"4\"], \"rationale\": \"The README presents the build backend's setuptools>=68 constraint as a current installation requirement, so raising the manifest bound to a non-overlapping version makes that ordinary present-tense statement false.\"}",
+  "stderr_tail": ""
+}

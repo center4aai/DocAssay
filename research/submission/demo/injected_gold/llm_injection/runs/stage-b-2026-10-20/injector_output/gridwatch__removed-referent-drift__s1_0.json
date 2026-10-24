@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "direction": "code_side",
+    "file": "gridwatch/cli.py",
+    "old": "main",
+    "new": null,
+    "symbol": "main",
+    "target": "main",
+    "doc_path": "docs/guide.md",
+    "doc_line_text": "The `main` function in `gridwatch/cli.py` is declared to return an `int`.",
+    "target_claim": "The guide presents `main` in `gridwatch/cli.py` as a current function that returns an `int` exit code.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "The guide's command-line section explicitly documents `main` as the current public entry function, making its removal a natural current-API omission."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"removed-referent-drift\", \"direction\": \"code_side\", \"file\": \"gridwatch/cli.py\", \"old\": \"main\", \"new\": null, \"symbol\": \"main\", \"target\": \"main\", \"doc_path\": \"docs/guide.md\", \"doc_line_text\": \"The `main` function in `gridwatch/cli.py` is declared to return an `int`.\", \"target_claim\": \"The guide presents `main` in `gridwatch/cli.py` as a current function that returns an `int` exit code.\", \"exemplar_ids\": [\"example 1\"], \"rationale\": \"The guide's command-line section explicitly documents `main` as the current public entry function, making its removal a natural current-API omission.\"}",
+  "stderr_tail": ""
+}

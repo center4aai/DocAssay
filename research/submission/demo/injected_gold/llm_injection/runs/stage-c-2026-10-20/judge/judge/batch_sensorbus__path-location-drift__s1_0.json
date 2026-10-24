@@ -1,0 +1,47 @@
+{
+  "repo": "sensorbus__path-location-drift__s1_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "README.md",
+        "line": 72,
+        "predicate": "PATH_EXISTS",
+        "object": "examples/curve_nitrate.csv",
+        "reason": ""
+      },
+      {
+        "source": "docs/concepts.md",
+        "line": 57,
+        "predicate": "PATH_EXISTS",
+        "object": "examples/curve_nitrate.csv",
+        "reason": ""
+      },
+      {
+        "source": "docs/usage.md",
+        "line": 45,
+        "predicate": "PATH_EXISTS",
+        "object": "examples/curve_nitrate.csv",
+        "reason": ""
+      }
+    ],
+    "new_nei": [],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "sensorbus__path-location-drift__s1_0::0",
+      "repo": "sensorbus__path-location-drift__s1_0",
+      "op_id": "llm.path-location-drift",
+      "canonical_class": "path-location-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "examples/curve_nitrate.csv",
+        "new": "examples/nitrate_calibration.csv",
+        "doc_path": "README.md",
+        "target": "examples/curve_nitrate.csv"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "alert_id": "triaged:alert-f496c550f01827a6",
+  "commit_sha": "e6b7e1a10cba354e9fd5b10e3a83359f84ad8535",
+  "commit_url": "https://github.com/torvalds/linux/commit/e6b7e1a10cba354e9fd5b10e3a83359f84ad8535",
+  "files": [
+    {
+      "added": [],
+      "hunks": 1,
+      "matched_location": false,
+      "path": "MAINTAINERS",
+      "removed": [
+        "ACENIC DRIVER",
+        "M:\tJes Sorensen <jes@trained-monkey.org>",
+        "L:\tlinux-acenic@sunsite.dk",
+        "S:\tMaintained",
+        "F:\tdrivers/net/ethernet/alteon/acenic*",
+        ""
+      ],
+      "side": "code",
+      "truncated": false
+    },
+    {
+      "added": [],
+      "hunks": 1,
+      "matched_location": false,
+      "path": "arch/loongarch/configs/loongson32_defconfig",
+      "removed": [
+        "# CONFIG_NET_VENDOR_ALTEON is not set"
+      ],
+      "side": "code",
+      "truncated": false
+    },
+    {
+      "added": [],
+      "hunks": 1,
+      "matched_location": false,
+      "path": "arch/loongarch/configs/loongson64_defconfig",
+      "removed": [
+        "# CONFIG_NET_VENDOR_ALTEON is not set"
+      ],
+      "side": "code",
+      "truncated": false
+    },
+    {
+      "added": [],
+      "hunks": 1,
+      "matched_location": false,
+      "path": "arch/mips/configs/cavium_octeon_defconfig",
+      "removed": [
+        "# CONFIG_NET_VENDOR_ALTEON is not set"
+      ],
+      "side": "code",
+      "truncated": false
+    },
+    {
+      "added": [],
+      "hunks": 1,
+      "matched_location": false,
+      "path": "arch/mips/configs/loongson2k_defconfig",
+      "removed": [
+        "# CONFIG_NET_VENDOR_ALTEON is not set"
+      ],
+      "side": "code",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "Documentation/PCI/pci.rst",
+    "Documentation/translations/zh_CN/PCI/pci.rst"
+  ],
+  "patch_sha256": "2d33b956f64f070db0d63c3a35671c651a3e067f7af65a1560020b23a22db9fa",
+  "status": "ok"
+}

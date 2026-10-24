@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "source_id": "curated_external_real_incidents",
+  "kind": "human_triaged_true_positive",
+  "principle": "Manually harvested, commit-verified real documentation-code drift incidents. Each row cites the public commit that repairs the stale document line; the parent tree already carried the new project version or renamed identifier. This is an additive triaged source, never a promotion from the raw LLM-hypothesis pool.",
+  "incidents": [
+    {
+      "id": "ident-nseindia-list-sme",
+      "expected_class": "identifier-drift",
+      "label": "curated_external_real_incident",
+      "repo": "BennyThadikaran/NseIndiaApi",
+      "commit_url": "https://github.com/BennyThadikaran/NseIndiaApi/commit/0e0a77bb98eac005fdabcaca51b6e14f8da59e79",
+      "location": "src/nse/NSE.py:993",
+      "quote": "Documentation references `listSme`, but the identifier was renamed to `list_sme`.",
+      "triage_note": "Parent tree already defines list_sme() and list_equity_stocks_by_index(); the docstrings still used the pre-rename camelCase names. The commit updates the docstring references (one :ref: anchor remains stale). Manually verified against the parent tree before adding.",
+      "verification": {
+        "kind": "symbol_rename",
+        "code_file": "src/nse/NSE.py",
+        "old": "listSme",
+        "new": "list_sme"
+      }
+    },
+    {
+      "id": "ident-immosquare-my-ip",
+      "expected_class": "identifier-drift",
+      "label": "curated_external_real_incident",
+      "repo": "immosquare/immosquare-constants",
+      "commit_url": "https://github.com/immosquare/immosquare-constants/commit/92ab4acea6a497ddcbd53641fcbbcb655379eff5",
+      "location": "CLAUDE.md:23",
+      "quote": "Documentation references `get_my_ip_from_aws`, but the identifier was renamed to `my_ip_from_aws`.",
+      "triage_note": "Parent tree defines my_ip_from_aws() and keeps get_my_ip_from_aws() only as a deprecated alias; the project guide still named the deprecated method. Manually verified against the parent tree before adding.",
+      "verification": {
+        "kind": "symbol_rename",
+        "code_file": "lib/immosquare-constants/ip.rb",
+        "old": "get_my_ip_from_aws",
+        "new": "my_ip_from_aws"
+      }
+    },
+    {
+      "id": "ident-casehub-incident-summary",
+      "expected_class": "identifier-drift",
+      "label": "curated_external_real_incident",
+      "repo": "casehubio/soc",
+      "commit_url": "https://github.com/casehubio/soc/commit/a38e2e1ad72ede05fa819efd9f8f6c4bde8f05d4",
+      "location": "docs/specs/issue-32-incident-summary-createdat/2026-08-18-incident-summary-createdat-design.md:8",
+      "quote": "Documentation references `IncidentSummaryDto`, but the identifier was renamed to `IncidentSummaryResponse`.",
+      "triage_note": "Parent tree has IncidentSummaryResponse (IncidentSummaryDto is absent); the design spec still pointed at the old DTO name. The fix updates line 8 and the resource; the title line remains stale. Manually verified against the parent tree before adding.",
+      "verification": {
+        "kind": "symbol_rename",
+        "code_file": "app/src/main/java/io/casehub/soc/rest/dto/IncidentSummaryResponse.java",
+        "old": "IncidentSummaryDto",
+        "new": "IncidentSummaryResponse"
+      }
+    },
+    {
+      "id": "ident-silo-refresh-devices",
+      "expected_class": "identifier-drift",
+      "label": "curated_external_real_incident",
+      "repo": "amontlabs/silo",
+      "commit_url": "https://github.com/amontlabs/silo/commit/d70ae0855e53f10ad0d754d9511a8264bc54472e",
+      "location": "docs/SiloUI-CHECKPOINTS-PLAN.md:181",
+      "quote": "Documentation references `refreshComputers`, but the identifier was renamed to `refreshDevices`.",
+      "triage_note": "Parent tree defines refreshDevices() and no refreshComputers(); the plan document still cited the old function name. Manually verified against the parent tree before adding.",
+      "verification": {
+        "kind": "symbol_rename",
+        "code_file": "app/SiloUI/src/desktop/production-source.ts",
+        "old": "refreshComputers",
+        "new": "refreshDevices"
+      }
+    }
+  ]
+}

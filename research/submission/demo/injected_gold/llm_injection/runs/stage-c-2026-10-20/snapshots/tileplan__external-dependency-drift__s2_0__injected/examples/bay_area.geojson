@@ -1,0 +1,13 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"name": "Bay Area view"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-122.52, 37.70], [-122.35, 37.70], [-122.35, 37.83], [-122.52, 37.83], [-122.52, 37.70]]]
+      }
+    }
+  ]
+}

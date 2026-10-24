@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "click>=8.1",
+    "new": "click>=999",
+    "symbol": "click",
+    "target": "click>=8.1",
+    "doc_path": "README.md",
+    "doc_line_text": "The only declared runtime dependency is `click>=8.1`.",
+    "target_claim": "The README states that the project's sole declared runtime dependency is click at version 8.1 or newer.",
+    "exemplar_ids": [
+      "example 1"
+    ],
+    "rationale": "The README presents click>=8.1 as a current runtime requirement, so raising the manifest bound to a non-overlapping version makes that checkable statement false."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"external-dependency-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"pyproject.toml\",\n  \"old\": \"click>=8.1\",\n  \"new\": \"click>=999\",\n  \"symbol\": \"click\",\n  \"target\": \"click>=8.1\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"The only declared runtime dependency is `click>=8.1`.\",\n  \"target_claim\": \"The README states that the project's sole declared runtime dependency is click at version 8.1 or newer.\",\n  \"exemplar_ids\": [\"example 1\"],\n  \"rationale\": \"The README presents click>=8.1 as a current runtime requirement, so raising the manifest bound to a non-overlapping version makes that checkable statement false.\"\n}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,64 @@
+{
+  "verdicts": [
+    {
+      "id": "bibscan__external-dependency-drift__s1_0::0",
+      "reaction": "refuted",
+      "reason": "New DEPENDENCY claim at README.md:26 returns REFUTED; object lxml matches injected dependency lxml (normalized package name + requirement relation). Same-artifact new REFUTED."
+    },
+    {
+      "id": "bibscan__external-dependency-drift__s2_0::0",
+      "reaction": "refuted",
+      "reason": "New DEPENDENCY claim at README.md:26 returns REFUTED; object lxml is the injected dependency artifact. Same-artifact new REFUTED."
+    },
+    {
+      "id": "bibscan__external-dependency-drift__s3_0::0",
+      "reaction": "refuted",
+      "reason": "New DEPENDENCY claim at README.md:26 returns REFUTED; object python-dateutil matches injected dependency python-dateutil. Same-artifact new REFUTED."
+    },
+    {
+      "id": "bibscan__identifier-drift__s1_0::0",
+      "reaction": "none",
+      "reason": "No new REFUTED. The only NEI is docs/api.md:117 SYMBOL_EXISTS on bare 'format_name' (reason: 'unresolved bare name'); injected artifact is project-qualified bibscan.names.format_name, and a bare mention sharing only the last segment is not the same artifact, so no same-artifact NEI. No same-artifact SUPPORTED, and no claim covers the recorded README.md target line at any referent. Sub-flag: no_claim. target_line_status: none/no_claim; attribution: other_mention."
+    },
+    {
+      "id": "bibscan__identifier-drift__s2_0::0",
+      "reaction": "refuted",
+      "reason": "New SYMBOL_EXISTS claims on bibscan.cli.scan_file return REFUTED at README.md:91 and docs/api.md:21 \u2014 project-qualified equality with the injected artifact bibscan.cli.scan_file. Same-artifact new REFUTED; the bare-name NEIs (scan_file at docs/api.md:150, docs/recipes.md:174) are not credited but do not change the reaction."
+    },
+    {
+      "id": "bibscan__identifier-drift__s3_0::0",
+      "reaction": "none",
+      "reason": "No new REFUTED. The single NEI is docs/api.md:117 SYMBOL_EXISTS on bare 'format_name' ('unresolved bare name'), which is not the same artifact as injected bibscan.names.format_name (last-segment-only match). No same-artifact SUPPORTED. A claim does sit on the recorded doc_path's target line but at a different (unqualified) referent. Sub-flag: other_referent. target_line_status: none/other_referent; attribution: target_line."
+    },
+    {
+      "id": "bibscan__path-location-drift__s1_0::0",
+      "reaction": "refuted",
+      "reason": "New PATH_EXISTS claim at README.md:99 on docs/recipes.md returns REFUTED; normalized inventory path equals the injected artifact path docs/recipes.md. Same-artifact new REFUTED on the recorded doc_path line. The cookbook.md NEI/SUPPORTED noise concerns the renamed file, not the recorded referent. attribution: target_line."
+    },
+    {
+      "id": "bibscan__path-location-drift__s2_0::0",
+      "reaction": "refuted",
+      "reason": "New PATH_EXISTS claim at README.md:99 on docs/recipes.md returns REFUTED \u2014 path equality with the injected artifact docs/recipes.md. Same-artifact new REFUTED. The howto.md NEI/SUPPORTED entries are at the renamed referent and are not credited. attribution: target_line."
+    },
+    {
+      "id": "bibscan__path-location-drift__s3_0::0",
+      "reaction": "none",
+      "reason": "Empty diff: no new REFUTED, no new NEI, no new SUPPORTED, and nothing covering docs/recipes.md's target line for examples/library.bib. Sub-flag: no_claim. target_line_status: none/no_claim; attribution: none."
+    },
+    {
+      "id": "bibscan__removed-referent-drift__s1_0::0",
+      "reaction": "refuted",
+      "reason": "New SYMBOL_EXISTS claims on bibscan.cli.scan_file return REFUTED at README.md:91 and docs/api.md:21; project-qualified equality with the removed artifact. Same-artifact new REFUTED. The bare 'scan_file' NEIs at docs/api.md:150 and docs/recipes.md:174 are not the same artifact. attribution: both."
+    },
+    {
+      "id": "bibscan__removed-referent-drift__s2_0::0",
+      "reaction": "refuted",
+      "reason": "New SYMBOL_EXISTS claim at docs/api.md:18 on bibscan.parser.bibsyntaxerror returns REFUTED \u2014 project-qualified name equality (case-normalized) with the removed artifact bibscan.parser.BibSyntaxError, on the recorded doc_path. Same-artifact new REFUTED. The four bare 'bibsyntaxerror' NEIs are not the same artifact and are not credited. attribution: target_line."
+    },
+    {
+      "id": "bibscan__removed-referent-drift__s3_0::0",
+      "reaction": "none",
+      "reason": "No new REFUTED. The single NEI is docs/api.md:117 SYMBOL_EXISTS on bare 'format_name' ('unresolved bare name'); the removed artifact is the project-qualified bibscan.names.format_name, and a bare same-last-segment mention is not the same artifact, so no same-artifact NEI. No same-artifact SUPPORTED. A claim covers the recorded doc_path target line at a different referent. Sub-flag: other_referent. target_line_status: none/other_referent; attribution: target_line."
+    }
+  ]
+}

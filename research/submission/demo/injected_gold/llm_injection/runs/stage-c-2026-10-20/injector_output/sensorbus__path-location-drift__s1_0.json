@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "examples/curve_nitrate.csv",
+    "old": "examples/curve_nitrate.csv",
+    "new": "examples/nitrate_calibration.csv",
+    "target": "examples/curve_nitrate.csv",
+    "doc_path": "README.md",
+    "doc_line_text": "There is a worked calibration file in the repository, `examples/curve_nitrate.csv`,",
+    "target_claim": "The worked calibration file is located at examples/curve_nitrate.csv in the repository.",
+    "exemplar_ids": [
+      "example 1",
+      "example 3"
+    ],
+    "rationale": "The README presents the calibration CSV as a current repository file at that exact path, which readers can naturally follow."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"path-location-drift\", \"direction\": \"code_side\", \"file\": \"examples/curve_nitrate.csv\", \"old\": \"examples/curve_nitrate.csv\", \"new\": \"examples/nitrate_calibration.csv\", \"target\": \"examples/curve_nitrate.csv\", \"doc_path\": \"README.md\", \"doc_line_text\": \"There is a worked calibration file in the repository, `examples/curve_nitrate.csv`,\", \"target_claim\": \"The worked calibration file is located at examples/curve_nitrate.csv in the repository.\", \"exemplar_ids\": [\"example 1\", \"example 3\"], \"rationale\": \"The README presents the calibration CSV as a current repository file at that exact path, which readers can naturally follow.\"}",
+  "stderr_tail": ""
+}

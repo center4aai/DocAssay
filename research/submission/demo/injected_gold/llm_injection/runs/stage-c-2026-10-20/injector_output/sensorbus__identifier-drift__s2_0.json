@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "identifier-drift",
+    "direction": "code_side",
+    "file": "sensorbus/units.py",
+    "old": "convert",
+    "new": "convert_value",
+    "symbol": "convert",
+    "target": "convert",
+    "doc_path": "docs/concepts.md",
+    "doc_line_text": "`units.py` exposes `convert`, `canonical_unit`, and `REGISTRY`. The registry is",
+    "target_claim": "docs/concepts.md states that units.py exposes convert as part of the public API.",
+    "exemplar_ids": [
+      "example 2"
+    ],
+    "rationale": "The line presents convert as a currently exposed function in units.py, making its definition a natural target for an identifier rename."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"identifier-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"sensorbus/units.py\",\n  \"old\": \"convert\",\n  \"new\": \"convert_value\",\n  \"symbol\": \"convert\",\n  \"target\": \"convert\",\n  \"doc_path\": \"docs/concepts.md\",\n  \"doc_line_text\": \"`units.py` exposes `convert`, `canonical_unit`, and `REGISTRY`. The registry is\",\n  \"target_claim\": \"docs/concepts.md states that units.py exposes convert as part of the public API.\",\n  \"exemplar_ids\": [\"example 2\"],\n  \"rationale\": \"The line presents convert as a currently exposed function in units.py, making its definition a natural target for an identifier rename.\"\n}",
+  "stderr_tail": ""
+}

@@ -1,0 +1,41 @@
+{
+  "repo": "morpheme__removed-referent-drift__s3_0",
+  "tool_diff": {
+    "new_refuted": [
+      {
+        "source": "docs/api.md",
+        "line": 149,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "morpheme.lemmatize.lookup_many",
+        "reason": ""
+      }
+    ],
+    "new_nei": [
+      {
+        "source": "docs/concepts.md",
+        "line": 107,
+        "predicate": "SYMBOL_EXISTS",
+        "object": "lookup_many",
+        "reason": "unresolved bare name"
+      }
+    ],
+    "new_supported": []
+  },
+  "items": [
+    {
+      "id": "morpheme__removed-referent-drift__s3_0::0",
+      "repo": "morpheme__removed-referent-drift__s3_0",
+      "op_id": "llm.removed-referent-drift",
+      "canonical_class": "removed-referent-drift",
+      "expected_outcome": "refuted",
+      "control": "none",
+      "injection": {
+        "direction": null,
+        "artifact": "morpheme.lemmatize.lookup_many",
+        "new": null,
+        "doc_path": "docs/concepts.md",
+        "target": "`lookup_many()`"
+      }
+    }
+  ]
+}

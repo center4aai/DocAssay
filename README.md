@@ -233,8 +233,9 @@ uv run docassay dump /path/to/repo /tmp/claims.jsonl
 
 ## Research artifact
 
-The paper, frozen corpora, experiment scripts, run trees and the evidence map
-are distributed separately from this code repository. The tool tree is
+The reproducibility artifact — frozen corpora, experiment scripts, run trees and
+the evidence map — is in `research/submission/demo/`. Its `MANIFEST.md` records
+what is tracked and what is fetched or hosted elsewhere; the tool tree is
 unchanged.
 
 ## Verdict semantics

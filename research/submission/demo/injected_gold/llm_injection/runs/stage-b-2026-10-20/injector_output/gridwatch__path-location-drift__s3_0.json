@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "path-location-drift",
+    "direction": "code_side",
+    "file": "data/meter_jan.csv",
+    "old": "data/meter_jan.csv",
+    "new": "data/meter_january.csv",
+    "target": "data/meter_jan.csv",
+    "doc_path": "docs/guide.md",
+    "doc_line_text": "Example, from `data/meter_jan.csv`:",
+    "target_claim": "The guide presents `data/meter_jan.csv` as the current location of the shipped CSV example.",
+    "exemplar_ids": [
+      "example-3"
+    ],
+    "rationale": "The guide directly points readers to `data/meter_jan.csv` as the repository's example input file, making its location a natural current-state claim."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"path-location-drift\",\n  \"direction\": \"code_side\",\n  \"file\": \"data/meter_jan.csv\",\n  \"old\": \"data/meter_jan.csv\",\n  \"new\": \"data/meter_january.csv\",\n  \"target\": \"data/meter_jan.csv\",\n  \"doc_path\": \"docs/guide.md\",\n  \"doc_line_text\": \"Example, from `data/meter_jan.csv`:\",\n  \"target_claim\": \"The guide presents `data/meter_jan.csv` as the current location of the shipped CSV example.\",\n  \"exemplar_ids\": [\"example-3\"],\n  \"rationale\": \"The guide directly points readers to `data/meter_jan.csv` as the repository's example input file, making its location a natural current-state claim.\"\n}",
+  "stderr_tail": ""
+}

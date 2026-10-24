@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "artifact_class": "dependency",
+    "direction": "code_side",
+    "kind": "dependency_version_break",
+    "file": "pyproject.toml",
+    "old": ">=8.1",
+    "new": ">=999",
+    "symbol": "click",
+    "target": "click",
+    "doc_path": "README.md",
+    "doc_line_text": "| `click` | `>=8.1` |",
+    "target_claim": "README.md states that the runtime dependency `click` is constrained to `>=8.1`.",
+    "exemplar_ids": [
+      "triaged:alert-fed7183254dcae14",
+      "triaged:alert-5a292f75418b8682"
+    ],
+    "rationale": "Following the exemplar pattern of a documented minimum version that the project's declared requirement no longer satisfies, I targeted a dependency the README presents as a current requirement with a simple bound and moved the manifest constraint to the non-overlapping `>=999`, leaving the document unchanged."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"artifact_class\": \"dependency\", \"direction\": \"code_side\", \"kind\": \"dependency_version_break\", \"file\": \"pyproject.toml\", \"old\": \">=8.1\", \"new\": \">=999\", \"symbol\": \"click\", \"target\": \"click\", \"doc_path\": \"README.md\", \"doc_line_text\": \"| `click` | `>=8.1` |\", \"target_claim\": \"README.md states that the runtime dependency `click` is constrained to `>=8.1`.\", \"exemplar_ids\": [\"triaged:alert-fed7183254dcae14\", \"triaged:alert-5a292f75418b8682\"], \"rationale\": \"Following the exemplar pattern of a documented minimum version that the project's declared requirement no longer satisfies, I targeted a dependency the README presents as a current requirement with a simple bound and moved the manifest constraint to the non-overlapping `>=999`, leaving the document unchanged.\"}",
+  "stderr_tail": ""
+}

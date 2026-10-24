@@ -1,0 +1,19 @@
+{
+  "repo": "pip",
+  "docs": 137,
+  "claims": 3002,
+  "referents": 329,
+  "evidence": 16606,
+  "verdicts": {
+    "REFUTED": 30,
+    "NEI": 216,
+    "SUPPORTED": 160
+  },
+  "refuted_by_predicate": {
+    "DEPENDENCY": 13,
+    "LICENSE": 3,
+    "PATH_EXISTS": 13,
+    "SYMBOL_EXISTS": 1
+  },
+  "seconds": 4.6
+}

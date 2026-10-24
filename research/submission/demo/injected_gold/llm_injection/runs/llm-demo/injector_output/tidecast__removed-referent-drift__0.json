@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "removed-referent-drift",
+    "artifact_class": "referent",
+    "direction": "code_side",
+    "kind": "symbol_delete",
+    "file": "tidecast/cli.py",
+    "old": "tidecast.cli.serve",
+    "new": null,
+    "symbol": "serve",
+    "target": "tidecast.cli.serve",
+    "doc_path": "README.md",
+    "doc_line_text": "The entry points are `tidecast.cli.main` and `tidecast.cli.serve`. Run",
+    "target_claim": "The README documents `tidecast.cli.serve` as a current command-line entry point that starts the HTTP service; once the `serve` definition is deleted the documented qualified name no longer exists in the code.",
+    "exemplar_ids": [
+      "example 1",
+      "example 2"
+    ],
+    "rationale": "Followed the exemplar pattern of deleting a top-level function that a document still advertises by its qualified name, as in the Groq model removal and the swap helper removal. `serve` is not imported or called anywhere in the package, so deleting its definition leaves `tidecast/cli.py` parseable while the README entry-point assertion stays stale."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\n  \"injectable\": true,\n  \"drift_type\": \"removed-referent-drift\",\n  \"artifact_class\": \"referent\",\n  \"direction\": \"code_side\",\n  \"kind\": \"symbol_delete\",\n  \"file\": \"tidecast/cli.py\",\n  \"old\": \"tidecast.cli.serve\",\n  \"new\": null,\n  \"symbol\": \"serve\",\n  \"target\": \"tidecast.cli.serve\",\n  \"doc_path\": \"README.md\",\n  \"doc_line_text\": \"The entry points are `tidecast.cli.main` and `tidecast.cli.serve`. Run\",\n  \"target_claim\": \"The README documents `tidecast.cli.serve` as a current command-line entry point that starts the HTTP service; once the `serve` definition is deleted the documented qualified name no longer exists in the code.\",\n  \"exemplar_ids\": [\"example 1\", \"example 2\"],\n  \"rationale\": \"Followed the exemplar pattern of deleting a top-level function that a document still advertises by its qualified name, as in the Groq model removal and the swap helper removal. `serve` is not imported or called anywhere in the package, so deleting its definition leaves `tidecast/cli.py` parseable while the README entry-point assertion stays stale.\"\n}",
+  "stderr_tail": ""
+}

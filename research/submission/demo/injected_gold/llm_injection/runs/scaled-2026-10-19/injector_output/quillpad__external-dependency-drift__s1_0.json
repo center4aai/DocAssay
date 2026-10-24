@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "artifact_class": "dependency",
+    "direction": "code_side",
+    "kind": "dependency_version_break",
+    "file": "pyproject.toml",
+    "old": ">=6.0",
+    "new": ">=999",
+    "symbol": "pyyaml",
+    "target": "PyYAML",
+    "doc_path": "README.md",
+    "doc_line_text": "quillpad depends on `PyYAML` (`>=6.0`), `click` (`>=8.1`), `fastapi` (`>=0.110`), and `pydantic` (`>=2.6`).",
+    "target_claim": "The README states that quillpad requires PyYAML with a lower bound of >=6.0.",
+    "exemplar_ids": [
+      "triaged:alert-3f0b25c9b7c723d7",
+      "triaged:alert-d31b5ec93fbc2072"
+    ],
+    "rationale": "Following the exemplar pattern where a documented minimum version no longer matches the code-side requirement, I selected the documented PyYAML lower bound and replaced it in the manifest with a non-overlapping bound."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\":true,\"drift_type\":\"external-dependency-drift\",\"artifact_class\":\"dependency\",\"direction\":\"code_side\",\"kind\":\"dependency_version_break\",\"file\":\"pyproject.toml\",\"old\":\">=6.0\",\"new\":\">=999\",\"symbol\":\"pyyaml\",\"target\":\"PyYAML\",\"doc_path\":\"README.md\",\"doc_line_text\":\"quillpad depends on `PyYAML` (`>=6.0`), `click` (`>=8.1`), `fastapi` (`>=0.110`), and `pydantic` (`>=2.6`).\",\"target_claim\":\"The README states that quillpad requires PyYAML with a lower bound of >=6.0.\",\"exemplar_ids\":[\"triaged:alert-3f0b25c9b7c723d7\",\"triaged:alert-d31b5ec93fbc2072\"],\"rationale\":\"Following the exemplar pattern where a documented minimum version no longer matches the code-side requirement, I selected the documented PyYAML lower bound and replaced it in the manifest with a non-overlapping bound.\"}",
+  "stderr_tail": ""
+}

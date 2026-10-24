@@ -1,0 +1,28 @@
+{
+  "alert_id": "triaged:alert-4e6ffd8b9ad6347e",
+  "commit_sha": "cf6e724e99ef288f743e63aa3b092576a6940911",
+  "commit_url": "https://github.com/Significant-Gravitas/AutoGPT/commit/cf6e724e99ef288f743e63aa3b092576a6940911",
+  "files": [
+    {
+      "added": [
+        "  arrayFieldHandleId: string;",
+        "  arrayFieldHandleId: \"\","
+      ],
+      "hunks": 1,
+      "matched_location": true,
+      "path": "autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/components/ArrayEditor/ArrayEditorContext.tsx",
+      "removed": [
+        "  fieldKey: string;",
+        "  fieldKey: \"\","
+      ],
+      "side": "code",
+      "truncated": false
+    }
+  ],
+  "locations": [
+    "autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/components/ArrayEditor/ArrayEditorContext.tsx",
+    "autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/docs/FORM_CREATOR.md"
+  ],
+  "patch_sha256": "be4b5a9c11e86ad037cefdbb4e0720aeed9995349823a259468d8a5c1d6073e8",
+  "status": "ok"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "proposal": {
+    "injectable": true,
+    "drift_type": "external-dependency-drift",
+    "direction": "code_side",
+    "file": "pyproject.toml",
+    "old": "pyyaml>=6.0",
+    "new": "pyyaml>=999",
+    "symbol": "pyyaml",
+    "target": "PyYAML>=6.0",
+    "doc_path": "README.md",
+    "doc_line_text": "on `regex>=2024.5` and `PyYAML>=6.0`.",
+    "target_claim": "The project depends on PyYAML with the requirement `PyYAML>=6.0`.",
+    "exemplar_ids": [
+      "example 2",
+      "example 4"
+    ],
+    "rationale": "The README states the project's current dependency constraint on PyYAML in ordinary present tense, making it a checkable requirement that the manifest change contradicts."
+  },
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "raw_text": "{\"injectable\": true, \"drift_type\": \"external-dependency-drift\", \"direction\": \"code_side\", \"file\": \"pyproject.toml\", \"old\": \"pyyaml>=6.0\", \"new\": \"pyyaml>=999\", \"symbol\": \"pyyaml\", \"target\": \"PyYAML>=6.0\", \"doc_path\": \"README.md\", \"doc_line_text\": \"on `regex>=2024.5` and `PyYAML>=6.0`.\", \"target_claim\": \"The project depends on PyYAML with the requirement `PyYAML>=6.0`.\", \"exemplar_ids\": [\"example 2\", \"example 4\"], \"rationale\": \"The README states the project's current dependency constraint on PyYAML in ordinary present tense, making it a checkable requirement that the manifest change contradicts.\"}",
+  "stderr_tail": ""
+}

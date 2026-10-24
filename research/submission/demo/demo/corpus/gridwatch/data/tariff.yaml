@@ -1,0 +1,4 @@
+peak_rate: 0.32
+offpeak_rate: 0.11
+peak_start_hour: 17
+peak_end_hour: 21
