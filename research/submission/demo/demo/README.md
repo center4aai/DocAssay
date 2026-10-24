@@ -4,7 +4,7 @@
 
 The 3–5 minute video required by the track is hosted on YouTube:
 
-<https://www.youtube.com/watch?v=aLjg3uMwGXk>
+<https://youtu.be/UnWAh9pgjvw>
 
 The subtitle track is in `video/demo.srt` (and `video/demo.ass`).
 
