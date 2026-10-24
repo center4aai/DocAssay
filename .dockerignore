@@ -1,0 +1,29 @@
+.git
+.gitignore
+.venv
+**/__pycache__
+**/*.pyc
+.pytest_cache
+.ruff_cache
+
+# Frontend: rebuilt in the image
+web/node_modules
+web/dist
+
+# Local corpora and archives (never needed to build the image)
+test_repos
+validation_repos
+annotation_repos
+docforge-corpus-backup
+other_instruments
+
+# Research artifact and local staging package (not part of the tool image;
+# the demo image is built from the research demo tree)
+research
+supplementary
+.opencode
+
+# Local/editor noise
+.DS_Store
+.idea
+.vscode

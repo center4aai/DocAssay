@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use DocAssay, please cite this software using the metadata below. If a paper for this project is published later, prefer citing the paper in addition to or instead of the software release, as indicated by future updates to this file."
+title: "DocAssay"
+type: software
+
+authors:
+  - name: "center4aai"
+
+version: "0.1.0"
+license: "MIT"
+
+abstract: >
+  DocAssay is a local-first symbolic verifier of natural-language claims
+  in repository documentation against a deterministic fact inventory, with
+  explicit abstention (NEI). The verdict path is free of LLMs; LLM use is
+  optional and limited to extraction fallback, never affecting a verdict. The
+  same fact inventory is exposed to coding agents over the Model Context
+  Protocol (and a Python API) as a deterministic source of truth.
+
+keywords:
+  - documentation verification
+  - claim-evidence alignment
+  - abstention
+  - neuro-symbolic
+  - deterministic analysis
+  - fact verification
+  - software documentation
+  - source of truth
+  - coding agents
+  - model context protocol
+
+date-released: 2026-08-29

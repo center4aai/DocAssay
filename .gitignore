@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.docassay_cache/
+
+# Coverage output
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Web frontend
+web/node_modules/
+
+# Committed build output: the web server serves static assets from web/dist,
+# so the prebuilt bundle is tracked to make the UI work without a build step.
+!web/dist/
+web/dist/*.map
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Env files
+.env
+.env.*
+
+# Local corpora and archives used for calibration/validation
+test_repos/
+validation_repos/
+annotation_repos/
+docforge-corpus-backup/
+other_instruments/
+
+# Private research material and local staging packages stay out of this tree.
+/research/
+/supplementary/
+
+# Local agent instructions and worktrees
+.claude/
+.opencode/
+AGENTS.md
+
+# Share the agent definitions with contributors.
+!/.opencode/
+/.opencode/*
+!/.opencode/agents/
+/.opencode/agents/*
+!/.opencode/agents/*.md
+
+# Local screenshot/photo not part of the repository
+web/photo_2026-09-12_11-38-51.jpg

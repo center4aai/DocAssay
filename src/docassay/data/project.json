@@ -1,0 +1,106 @@
+{
+  "license_names": [
+    "0bsd",
+    "agpl",
+    "apache",
+    "apache-2.0",
+    "bsd",
+    "bsd-2-clause",
+    "bsd-3-clause",
+    "cc-by",
+    "cc-by-4.0",
+    "cc-by-sa",
+    "cc0",
+    "epl",
+    "gpl",
+    "isc",
+    "lgpl",
+    "mit",
+    "mpl",
+    "mulanpsl",
+    "unlicense"
+  ],
+  "license_context_words": [
+    "copyright",
+    "licence",
+    "license",
+    "licensed",
+    "licensing"
+  ],
+  "license_fold": {
+    "apache": "apache",
+    "bsd": "bsd",
+    "bsd-2-clause": "bsd",
+    "bsd-3-clause": "bsd",
+    "cc-by": "cc-by",
+    "cc-by-4.0": "cc-by",
+    "mulanpsl": "mulanpsl-2.0"
+  },
+  "versioned_license_bases": [
+    "agpl",
+    "apache",
+    "epl",
+    "gpl",
+    "lgpl",
+    "mpl"
+  ],
+  "ci_names": [
+    "appveyor",
+    "azure pipelines",
+    "bitbucket pipelines",
+    "buildkite",
+    "circleci",
+    "cirrus",
+    "codebuild",
+    "continuous integration",
+    "github actions",
+    "gitlab ci",
+    "jenkins",
+    "travis",
+    "travis ci",
+    "wercker"
+  ],
+  "ci_context_words": [
+    "action",
+    "actions",
+    "badge",
+    "build",
+    "cd",
+    "pipeline",
+    "runner",
+    "status",
+    "workflow"
+  ],
+  "ci_config_files": [
+    ".gitlab-ci.yml",
+    ".travis.yml",
+    "appveyor.yml",
+    "azure-pipelines.yml",
+    "bitbucket-pipelines.yml",
+    "buildkite.yml",
+    "jenkinsfile",
+    "wercker.yml"
+  ],
+  "ci_config_dirs": [
+    ".buildkite",
+    ".circleci",
+    ".github/workflows"
+  ],
+  "third_party_license_cues": [
+    "\\b(?:adapted|based|derived|taken|borrowed|ported|copied)\\s+from\\b",
+    "\\bthird[- ]party\\b",
+    "\\bwhich\\s+is\\s+licensed\\b",
+    "\\bbundled\\b",
+    "\\bvendored\\b",
+    "\\bincorporated\\b",
+    "\\bportions?\\s+of\\b"
+  ],
+  "license_header_patterns": [
+    ["GNU\\s+AFFERO\\s+GENERAL\\s+PUBLIC\\s+LICENSE", "agpl"],
+    ["GNU\\s+LESSER\\s+GENERAL\\s+PUBLIC\\s+LICENSE", "lgpl"],
+    ["GNU\\s+GENERAL\\s+PUBLIC\\s+LICENSE", "gpl"],
+    ["MOZILLA\\s+PUBLIC\\s+LICENSE", "mpl"],
+    ["Permission\\s+is\\s+hereby\\s+granted,\\s+free\\s+of\\s+charge", "mit"],
+    ["Redistribution\\s+and\\s+use\\s+in\\s+source\\s+and\\s+binary\\s+forms", "bsd"]
+  ]
+}

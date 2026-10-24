@@ -1,0 +1,75 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "docassay"
+version = "0.1.0"
+description = "Local-first symbolic verifier of natural-language claims in repository documentation against a deterministic fact inventory, with abstention"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "DocAssay contributors" }]
+requires-python = ">=3.12"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Documentation",
+  "Topic :: Software Development :: Documentation",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+keywords = ["documentation", "verification", "claims", "abstention", "neuro-symbolic", "llm-free"]
+dependencies = []
+
+[project.optional-dependencies]
+web = [
+  "fastapi>=0.110",
+  "uvicorn>=0.29",
+  "python-multipart>=0.0.9",
+]
+agent = [
+  "mcp>=2,<3",
+]
+
+[project.scripts]
+docassay = "docassay.core.cli:main"
+
+[dependency-groups]
+dev = [
+  "pytest>=8.2",
+  "ruff>=0.6",
+  "fastapi>=0.110",
+  "uvicorn>=0.29",
+  "python-multipart>=0.0.9",
+  "httpx>=0.27",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/docassay"]
+exclude = ["src/docassay/tests"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "/src",
+  "/README.md",
+  "/LICENSE",
+  "/THIRD_PARTY_NOTICES.md",
+  "/CITATION.cff",
+  "/pyproject.toml",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["src/docassay/tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

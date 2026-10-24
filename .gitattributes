@@ -1,0 +1,3 @@
+# Vocabulary data is hashed byte-for-byte (frozen_sha256_prefix): keep LF on every platform.
+src/docassay/data/*.json text eol=lf
+src/docassay/tests/data/*.json text eol=lf

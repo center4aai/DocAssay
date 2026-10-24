@@ -1,0 +1,474 @@
+{
+ "generated": "2026-09-14",
+ "note": "Provenance of the DocAssay controlled vocabularies. For each table: source, inclusion rule, status. status=external - an external authoritative source (T0 registry / T1 closed linguistic class / T2 external corpus); calibration - calibrated against audits (frozen, dated). Methodology: an internal provenance note (not shipped); composition and mechanics: an internal composition note (not shipped); source map: an internal source map (not shipped). Update 2026-09-06: verb pools moved to WordNet lemmas + a morphological expander (the internal vocabulary build script (not shipped)), time_words += until (minimal-change gate, decision-record). Update 2026-09-07 (WS1-WS6): host_tlds = full IANA; copula/negation - full classes; exist/generative - attested in a T2 construction; versionless DEPENDENCY negation -> NEI. Update 2026-09-07 (WS4): skipped_dirs = full union of all 163 gitignore patterns minus 61 documented exclusions (verdict-inert gate). Update 2026-09-07 (WS5): file_extensions = registry intersected with T2 attestation (>=2 READMEs) + exemplary fix e\\.g(?=\\.); 0 new false REFUTED. Update 2026-09-07 (WS7): ci_names 12->14 (+cirrus/codebuild), sync _UNAMBIGUOUS_CI (travis ci), mulanpsl/procfile keep-with-citation - all verdict-inert. Update 2026-09-08: markers.historical_verb_forms = 16 (past copula was|were x change-of-state participle class; -2 false REFUTED on train, 0 true lost, minimal-change gate). Update 2026-09-08: en_prose_words removed from pipeline.json - the language gate was replaced from a 16 function-word counter with a diacritic layer (Latin European language characters, threshold 4; decision-record 2026-09-08_language_gate_diacritics); the non-Latin-script filter script is kept. Update 2026-09-14 (Phase 5/6, ): 3 pools were moved from code into data and registered - project.third_party_license_cues (calibration), project.license_header_patterns (external), structure.license_non_project_dirs (external); added the code_pools section (verdict-shaping pools in code, previously missing as a class). frozen_sha256_prefix updated (dependency/markers were out of sync with Phases 1/4).",
+ "frozen_sha256_prefix": {
+  "dependency.json": "88b8edbf9708f882",
+  "markers.json": "1febca08e9e29f2f",
+  "structure.json": "137eba20befdaf85",
+  "pipeline.json": "8df498f019f53bcc",
+  "project.json": "4d9f2892db3032a6"
+ },
+ "dependency": {
+  "names": {
+   "source": "PyPI top-2000 distributions by 30-day downloads (hugovk/top-pypi-packages, dated 2026-09-05, snapshot committed) + toolchain stratum (python, from requires-python) + documented alias surfaces (pytorch/sklearn/k8s)",
+   "rule": "single external source: top-2000 canonical distribution names + spelling variants (hyphen/underscore) + TOOLCHAIN_NAMES + ALIAS_TO_CANONICAL surfaces. Canonical name = PyPI distribution name. Regenerable: the internal vocabulary build script (not shipped) --top 2000 --check",
+   "status": "external",
+   "count": 2959
+  },
+  "synonyms": {
+   "source": "manual surface map (doc spelling -> canonical PyPI distribution name)",
+   "rule": "surface->canonical pairs: pytorch->torch, sklearn->scikit-learn, k8s->kubernetes; canonical = PyPI distribution name",
+   "status": "calibration",
+   "count": 3
+  },
+  "version_ranges": {
+   "source": "PyPI /pypi/<name>/json latest version per name, snapshot date 2026-09-05 (cache committed); fixed ranges for the python toolchain",
+   "rule": "[0, latest_major+1) with margin; FIXED_VERSION_RANGES for python; unresolvable names fall back to runtime default (0, 100)",
+   "status": "external",
+   "count": 2001
+  },
+  "past_time": {
+   "source": "English temporal closed-class words",
+   "rule": "temporal markers that make a version mention historical",
+   "status": "calibration",
+   "count": 12
+  },
+  "historical_phrases": {
+   "source": "audit-derived downgrade phrases (2026-08-27); trimmed 2026-09-13",
+   "rule": "phrases indicating past state; frozen, date recorded",
+   "status": "calibration",
+   "count": 11
+  },
+  "test_env_patterns": {
+   "source": "lemmas {test, benchmark} (empirical-evaluation verbs) + closed preposition heads {with,on,under,using,against,in,at}; morphological expander (the internal vocabulary build script (not shipped))",
+   "rule": "participle/gerund forms of test + all benchmark forms + tested+PP-head raw-regex",
+   "status": "external",
+   "count": 4
+  },
+  "feature_phrases": {
+   "source": "audit-derived (2026-08-27)",
+   "rule": "feature-gate phrases for conditional version bounds",
+   "status": "calibration",
+   "count": 10
+  },
+  "requirement_verb_extra": {
+   "source": "WordNet functioning/compatibility verb classes {run, work} + {compat, compatibility, compatible}; morphological expander (the internal vocabulary build script (not shipped))",
+   "rule": "lemmas + regular/irregular paradigm",
+   "status": "external",
+   "count": 11
+  },
+  "compatibility_phrases": {
+   "source": "E6 real-repo precision audit (2026-10-20): migration/upgrade/compatibility framing + release-history locators",
+   "rule": "a versioned mention in migration/compatibility prose is a non-requirement mention (CLAIM_GATE), never REFUTED",
+   "status": "calibration",
+   "count": 7
+  }
+ },
+ "markers": {
+  "negation_words": {
+   "count": 11,
+   "rule": "full CGEL clausal-negation class incl. pro-forms (none, nobody, nothing, nowhere, no one); verdict-inert (WS3 2026-09-07)",
+   "source": "Huddleston & Pullum 2002, ch. Negation",
+   "status": "external"
+  },
+  "exclusion_words": {
+   "source": "English closed-class restrictors",
+   "rule": "words that qualify a referent without negating",
+   "status": "external",
+   "count": 6
+  },
+  "platform_words": {
+   "source": "OS/platform nomenclature",
+   "rule": "OS/platform names + aliases",
+   "status": "external",
+   "count": 14
+  },
+  "time_words": {
+   "source": "TimeML/ISO-TimeML temporal signals + discontinuation markers; +until adopted 2026-09-06 (minimal-change gate, decision-record)",
+   "rule": "temporal signals ∪ discontinuation markers; must cover past_time ∪ historical_time",
+   "status": "external",
+   "count": 14
+  },
+  "historical_time": {
+   "source": "subset of time_words",
+   "rule": "past-state temporal markers (PATH_EXISTS downgrade)",
+   "status": "external",
+   "count": 10
+  },
+  "historical_verb_forms": {
+   "source": "past copula (be paradigm, T1) × change-of-state participle class (WordNet/VerbNet, golden spec §1.5); regenerator the internal vocabulary build script (not shipped)",
+   "rule": "was|were + change-state participle constructions marking a past/ceased state (downgrade REFUTED→NEI); freeze-guarded by test_historical_verb_forms_match_past_copula_class; +dropped (N3, 2026-09-13); −2 false REFUTED (pandas pandas.io.wb, pandas.read_gbq), 0 true REFUTED lost (minimal-change gate, 2026-09-08)",
+   "status": "external",
+   "count": 18
+  },
+  "arch_words": {
+   "source": "CPU architecture nomenclature (x86/ARM/PPC/...)",
+   "rule": "architecture names",
+   "status": "external",
+   "count": 17
+  },
+  "exist_verbs": {
+   "count": 60,
+   "rule": "15 lemmas + morphological expander; lemmas attested in the negated construction of T2 corpus (does not support/need/...); provide added on attestation",
+   "source": "WordNet verb classes + T2 construction attestation (2026-09-07, WS6)",
+   "status": "external"
+  },
+  "copula": {
+   "count": 13,
+   "rule": "full be+do paradigm (13 forms; doth archaic excluded)",
+   "source": "be/do paradigm (CGEL copula + do-support)",
+   "status": "external"
+  },
+  "enum_conjunctions": {
+   "source": "English enumerative conjunctions closed class",
+   "rule": "and/or/through/to linking version-list members",
+   "status": "external",
+   "count": 5
+  },
+  "ge_suffixes": {
+   "source": "English comparative constructions closed class",
+   "rule": ">= modifiers (or higher, at least)",
+   "status": "external",
+   "count": 14
+  },
+  "le_suffixes": {
+   "source": "English comparative constructions closed class",
+   "rule": "<= modifiers (or lower, at most)",
+   "status": "external",
+   "count": 5
+  },
+  "ge_prefixes": {
+   "source": "English comparative constructions closed class",
+   "rule": ">= prefixes (minimum, at least)",
+   "status": "external",
+   "count": 4
+  },
+  "le_prefixes": {
+   "source": "English comparative constructions closed class",
+   "rule": "<= prefixes (at most, maximum)",
+   "status": "external",
+   "count": 3
+  },
+  "eq_prefixes": {
+   "source": "English comparative constructions closed class",
+   "rule": "== prefixes (exactly, pinned to)",
+   "status": "external",
+   "count": 3
+  },
+  "ordinal_context": {
+   "source": "English section/sequence nouns closed class",
+   "rule": "nouns whose following number is not a version (Phase 3, test 12)",
+   "status": "external",
+   "count": 19
+  },
+  "version_suffix_order": {
+   "source": "PEP 440 version ordering",
+   "rule": "dev/a/b/rc/post suffix order",
+   "status": "external",
+   "count": 6
+  },
+  "generative_verbs": {
+   "count": 93,
+   "rule": "24 lemmas + expander; lemmas attested in instructional context of T2 corpus (imperative/near-backtick); import/build/start added (verified -28 false REFUTED)",
+   "source": "WordNet/VerbNet + T2 construction attestation (2026-09-07, WS6)",
+   "status": "external"
+  },
+  "exemplary_phrases": {
+   "source": "English example markers closed class",
+   "rule": "e.g./such as/for example markers (raw regex); e\\.g(?=\\.) lookahead fix 2026-09-07 (WS5): old e\\.g\\. never matched (-13 false REFUTED)",
+   "status": "external",
+   "count": 6
+  },
+  "symbol_nouns": {
+   "source": "code-structure nouns closed class",
+   "rule": "module/package/class/function/method/field nouns gating SYMBOL_EXISTS",
+   "status": "external",
+   "count": 20
+  }
+ },
+ "structure": {
+  "file_extensions": {
+   "source": "GitHub Linguist ∪ IANA media types ∪ {.conf,.lock} ∩ external T2 corpus attestation (backtick file-references, ≥2 READMEs; snapshot the pinned corpus snapshot (not shipped))",
+   "rule": "registry extension attested in a file reference of the external corpus (doc-frequency ≥2) — additive over the current composition; .xml rejected by gate (3 false REFUTED, WS5 2026-09-07)",
+   "status": "external",
+   "count": 67
+  },
+  "bare_file_names": {
+   "source": "well-known repo filenames (README, LICENSE, Makefile, .gitignore)",
+   "rule": "extensionless names that anchor PATH_EXISTS",
+   "status": "external",
+   "count": 22
+  },
+  "user_config_files": {
+   "source": "runtime/instance config artifacts (.env)",
+   "rule": "config files not part of the repo tree",
+   "status": "calibration",
+   "count": 1
+  },
+  "user_config_suffixes": {
+   "source": "config-artifact suffix pattern (.cfg/.conf/.ini/_config.py)",
+   "rule": "suffix-based generalization (uncommitted diff 2026-09-05)",
+   "status": "calibration",
+   "count": 4
+  },
+  "build_artifact_dirs": {
+   "source": "build/deploy tooling conventions (_build/, dist/, site/)",
+   "rule": "generated output dirs are not findings",
+   "status": "external",
+   "count": 17
+  },
+  "deploy_artifact_files": {
+   "source": "deploy artifact conventions (index.html, versions.json)",
+   "rule": "deploy output files are not findings",
+   "status": "external",
+   "count": 4
+  },
+  "git_ref_leading": {
+   "source": "git reference conventions (origin/, refs/, HEAD)",
+   "rule": "git ref tokens are not project paths",
+   "status": "external",
+   "count": 6
+  },
+  "python_builtins": {
+   "source": "official Python builtins (3.12) — verified 1:1 2026-09-05",
+   "rule": "bare builtin mentions are not project symbols",
+   "status": "external",
+   "count": 70
+  },
+  "placeholder_segments": {
+   "source": "conventional placeholder names (foo/bar/example)",
+   "rule": "placeholder segments are not claims",
+   "status": "external",
+   "count": 7
+  },
+  "host_tlds": {
+   "source": "IANA root zone tlds-alpha-by-domain.txt, dated snapshot 2026-09-06 (the pinned IANA snapshot (not shipped)); alnum TLDs, IDN xn-- excluded",
+   "rule": "full IANA root zone (T0). Used at MATCH time: a qualified SYMBOL claim whose last segment is a TLD abstains only if it does not resolve in the inventory; DEPENDENCY URL spans and structure external-host rejection require unambiguous URL shapes",
+   "status": "external",
+   "count": 1287
+  },
+  "skipped_dirs": {
+   "source": "github/gitignore union of all 163 templates (snapshot the pinned gitignore snapshot (not shipped), 2026-09-07) ∪ git internal ∪ tool-doc overlay (pip/setuptools); MINUS 61 documented exclusions (real source/content dirs in the eval corpus + documented code-roots, gate-verified)",
+   "rule": "full union of ignored directory names (exhaustive by construction, lowercased) minus names that are real source dirs / documented code-roots (src, libs, internal, docs, test, ...) — verdict-inert on train + held-out (minimal-change gate 2026-09-07, WS4)",
+   "status": "external",
+   "count": 679
+  },
+  "manifest_non_code_dirs": {
+   "source": "standard non-code dirs (docs/, tests/, examples/)",
+   "rule": "dirs not part of the code inventory",
+   "status": "external",
+   "count": 23
+  },
+  "non_code_dirs": {
+   "source": "standard non-code dirs (subset)",
+   "rule": "dirs excluded from domain classification",
+   "status": "external",
+   "count": 16
+  },
+  "license_non_project_dirs": {
+   "source": "vendored/build dirs whose LICENSE is not the project's: projection of manifest_non_code_dirs ∪ skipped_dirs (both external) for the shared entries, plus build/vendor conventions — Cargo workspaces 'crates'/'target' (The Cargo Book, workspaces + target-dir) and the generic 'vendored'/'dist'/'_build'",
+   "rule": "a LICENSE under any path segment in this set does not contribute to the project license inventory",
+   "status": "external",
+   "count": 11
+  },
+  "reader_file_names": {
+   "source": "reader-project tool configs/manifests (Cargo.toml, package.json, pytest.ini, uv.lock, ...)",
+   "rule": "a bare mention of a reader-project config that is absent from the tree is not a stale-repo-path finding; corpus-specific tutorial placeholders (fib_wrapper, myproject, ...) removed 2026-09-15",
+   "status": "calibration",
+   "count": 31
+  },
+  "external_software_files": {
+   "source": "third-party software artifacts referenced by name (C headers, web-server configs)",
+   "rule": "a bare mention of an external software file that is absent from the tree is not a stale-repo-path finding; corpus-specific artifacts (numpy.pxd, newhooks.py, ...) removed 2026-09-15",
+   "status": "calibration",
+   "count": 10
+  }
+ },
+ "pipeline": {
+  "doc_extensions": {
+   "source": "documentation formats (.md, .rst)",
+   "rule": "extensions collected as documentation",
+   "status": "external",
+   "count": 2
+  },
+  "excluded_doc_stems": {
+   "source": "historical-doc genres (changelog, changes, commits, release-notes, migration)",
+   "rule": "stems excluded from claim extraction",
+   "status": "external",
+   "count": 13
+  },
+  "excluded_doc_path_markers": {
+   "source": "migration/upgrade guide path phrases (E6 real-repo precision audit, 2026-10-20)",
+   "rule": "path substrings excluded from claim extraction: a migrate-from-X-to-Y or upgrade guide is historical genre, not a current requirement",
+   "status": "calibration",
+   "count": 2
+  },
+  "manifest_names": {
+   "source": "Python packaging manifest names",
+   "rule": "files parsed as dependency manifests",
+   "status": "external",
+   "count": 6
+  }
+ },
+ "project": {
+  "license_names": {
+   "source": "SPDX license identifier families (MIT, Apache-2.0, BSD-3-Clause, GPL-3.0, ...)",
+   "rule": "closed anchor allowlist for the LICENSE predicate, inside a license-context window",
+   "status": "external",
+   "count": 19
+  },
+  "license_context_words": {
+   "source": "English license-usage words (license, licence, licensed, licensing, copyright)",
+   "rule": "context gate for LICENSE anchors; also skips 'License Version 2.0' in the VERSION scan",
+   "status": "external",
+   "count": 5
+  },
+  "license_fold": {
+   "source": "canonical license normalization table",
+   "rule": "clause variants fold to the bare form (bsd-3-clause -> bsd) to avoid false REFUTED",
+   "status": "calibration",
+   "count": 7
+  },
+  "versioned_license_bases": {
+   "source": "license families whose version folds into the canonical form (gpl-3.0, apache-2.0)",
+   "rule": "base + version -> canonical SPDX-like form",
+   "status": "external",
+   "count": 6
+  },
+  "ci_names": {
+   "source": "documented CI-product set (official product docs; source map §5) — Cirrus CI + AWS CodeBuild added 2026-09-07 (WS7), they were in the source map but missing from the JSON",
+   "rule": "documented CI product names; single-word products need a CI-context word (_UNAMBIGUOUS_CI gates multi-word only); verdict-inert (gate 2026-09-07)",
+   "status": "external",
+   "count": 14
+  },
+  "ci_context_words": {
+   "source": "English CI-context nouns (workflow, pipeline, build, badge, runner, ...)",
+   "rule": "context gate for bare 'ci'/'ci/cd' anchors",
+   "status": "external",
+   "count": 9
+  },
+  "ci_config_files": {
+   "source": "well-known CI config filenames (.gitlab-ci.yml, Jenkinsfile, .travis.yml, ...)",
+   "rule": "CI evidence inventory: files whose basename is a known CI config",
+   "status": "external",
+   "count": 8
+  },
+  "ci_config_dirs": {
+   "source": "well-known CI config directories (.github/workflows, .circleci, .buildkite)",
+   "rule": "CI evidence inventory: any *.yml/*.yaml under these directories",
+   "status": "external",
+   "count": 3
+  },
+  "third_party_license_cues": {
+   "source": "audit-derived attribution cues",
+   "rule": "license claim whose window carries an attribution cue is not a project claim (REFUTED -> NEI); minimal-change gate on the 17-repo corpus (0 true REFUTED lost, L1 closed, 2026-09-13)",
+   "status": "calibration",
+   "count": 7
+  },
+  "license_header_patterns": {
+   "source": "canonical full-text license headers/bodies: GNU GPLv3 §0, GNU LGPL, GNU AGPL, MPL 2.0, SPDX MIT/BSD templates (dated standard texts)",
+   "rule": "regex projection of the standard texts; a LICENSE-file body is detected as the license it is. [pattern, canonical base] pairs",
+   "status": "external",
+   "count": 6
+  }
+ },
+ "code_pools": {
+  "note": "Verdict-shaping pools embedded in code (not data/*.json). Registered so the provenance claim covers them as a class.",
+  "genre_plan_markers": {
+   "file": "core/pipeline.py",
+   "source": "proposal/plan/announcement genres (PEP/NEP/SEP/RFC/announce/roadmap dirs)",
+   "rule": "a REFUTED grounded only in such a document is downgraded to NEI",
+   "status": "calibration"
+  },
+  "status_header_re": {
+   "file": "core/pipeline.py",
+   "source": "proposal status headers (Status: Draft/Final/Rejected/...)",
+   "rule": "same genre downgrade as genre_plan_markers",
+   "status": "calibration"
+  },
+  "reader_space_cues": {
+   "file": "vocabularies/structure.py",
+   "source": "English reader-address cues (your/Let's say/Here's/will be saved to)",
+   "rule": "a would-be REFUTED path in a reader-space window is downgraded to NEI",
+   "status": "calibration"
+  },
+  "non_english_diacritics": {
+   "file": "core/pipeline.py",
+   "source": "distinctive diacritics of West/South-European languages (de/fr/es/it/pt/ro/tr)",
+   "rule": "document language gate (ratio > 0.008 over lowercase letters, capitalized words ignored)",
+   "status": "calibration"
+  },
+  "lock_source_types": {
+   "file": "evidence/manifests.py",
+   "source": "lock-file formats uv.lock / poetry.lock",
+   "rule": "lock evidence refines a version but never closes presence or extends anchors",
+   "status": "external"
+  },
+  "spdx_operators": {
+   "file": "evidence/project.py",
+   "source": "SPDX license expression operators (AND/OR/WITH)",
+   "rule": "a manifest license expression splits into its component licenses",
+   "status": "external"
+  },
+  "python_context_re": {
+   "file": "predicates/dependency.py",
+   "source": "Python-version narrative context forms (on/in/under/up to/a Python, supports/drops/represents the Python)",
+   "rule": "a python version in language-context prose is not a project requirement (CLAIM_GATE)",
+   "status": "calibration"
+  },
+  "install_instruction_re": {
+   "file": "predicates/dependency.py",
+   "source": "install directives (pip/conda install, poetry/uv add, pipx, pyenv)",
+   "rule": "an install instruction is a reader directive, not a manifest claim",
+   "status": "calibration"
+  },
+  "config_fragment_re": {
+   "file": "predicates/dependency.py",
+   "source": "TOML/pyproject assignment and quoted PEP 508 literal shapes",
+   "rule": "a configuration fragment is a reader-authored example, not a claim",
+   "status": "calibration"
+  },
+  "generated_mention_re": {
+   "file": "vocabularies/structure.py",
+   "source": "generated-output prose (generated by / to generate / will generate / the generated)",
+   "rule": "a path mention in a generation window is a produced artifact (CLAIM_GATE)",
+   "status": "calibration"
+  },
+  "generated_module_c_re": {
+   "file": "vocabularies/structure.py",
+   "source": "f2py/swig wrapper filename pattern (*module.c)",
+   "rule": "a wrapper output is not a hand-written source file; pattern-based, not a per-project list",
+   "status": "calibration"
+  },
+  "dot_fragment_re": {
+   "file": "vocabularies/structure.py",
+   "source": "dot-prefixed changelog fragment pattern (.feature.rst)",
+   "rule": "a fragment filename pattern is not a concrete file (CLAIM_GATE)",
+   "status": "calibration"
+  },
+  "entry_point_re": {
+   "file": "predicates/structure.py",
+   "source": "plugin entry-point group names ('entry point', 'plugin:')",
+   "rule": "a distribution-metadata key is not a project code symbol (NEI)",
+   "status": "calibration"
+  },
+  "rst_anchor_re": {
+   "file": "predicates/structure.py",
+   "source": "RST cross-reference anchor labels (.. _`name`:)",
+   "rule": "a documentation label is not a project code symbol (NEI)",
+   "status": "calibration"
+  },
+  "placeholder_extras": {
+   "file": "vocabularies/structure.py",
+   "source": "tutorial test placeholders xxx/yyy",
+   "rule": "a placeholder path segment is not a concrete repository path",
+   "status": "calibration"
+  },
+  "extra_tool_dot_dirs": {
+   "file": "vocabularies/structure.py",
+   "source": "VCS runtime dot dirs .bzr/.hg (not covered by gitignore-derived skipped_dirs)",
+   "rule": "runtime/tooling hidden dirs are not stale repo paths",
+   "status": "external"
+  }
+ }
+}

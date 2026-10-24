@@ -1,0 +1,9 @@
+# pre-commit hook: fail the commit when documentation states something the
+# repository refutes (a missing path or symbol, a contradicted version).
+- id: docassay
+  name: DocAssay
+  description: Verify documentation claims against the repository (refuted claims fail).
+  entry: docassay analyze --fail-on refuted .
+  language: python
+  pass_filenames: false
+  always_run: true

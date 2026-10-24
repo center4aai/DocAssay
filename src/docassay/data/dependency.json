@@ -1,0 +1,11041 @@
+{
+  "names": [
+    "a2a-sdk",
+    "a2a_sdk",
+    "a2wsgi",
+    "absl-py",
+    "absl_py",
+    "accelerate",
+    "adal",
+    "addict",
+    "adlfs",
+    "aenum",
+    "affine",
+    "ag-ui-protocol",
+    "ag_ui_protocol",
+    "agate",
+    "agent-client-protocol",
+    "agent_client_protocol",
+    "aio-pika",
+    "aio_pika",
+    "aioboto3",
+    "aiobotocore",
+    "aiocache",
+    "aiodns",
+    "aiofile",
+    "aiofiles",
+    "aiohappyeyeballs",
+    "aiohttp",
+    "aiohttp-cors",
+    "aiohttp-retry",
+    "aiohttp_cors",
+    "aiohttp_retry",
+    "aioitertools",
+    "aiokafka",
+    "aiolimiter",
+    "aiomysql",
+    "aioquic",
+    "aioresponses",
+    "aiormq",
+    "aiosignal",
+    "aiosmtplib",
+    "aiosqlite",
+    "alabaster",
+    "alembic",
+    "alibabacloud-credentials",
+    "alibabacloud-tea-openapi",
+    "alibabacloud_credentials",
+    "alibabacloud_tea_openapi",
+    "aliyun-semantic-conventions",
+    "aliyun-trace",
+    "aliyun_semantic_conventions",
+    "aliyun_trace",
+    "allure-pytest",
+    "allure-python-commons",
+    "allure_pytest",
+    "allure_python_commons",
+    "altair",
+    "altgraph",
+    "amazon-ion",
+    "amazon_ion",
+    "amplitude-analytics",
+    "amplitude_analytics",
+    "amqp",
+    "aniso8601",
+    "annotated-doc",
+    "annotated-types",
+    "annotated_doc",
+    "annotated_types",
+    "ansible",
+    "ansible-compat",
+    "ansible-core",
+    "ansible_compat",
+    "ansible_core",
+    "ansicolors",
+    "anthropic",
+    "antlr4-python3-runtime",
+    "antlr4_python3_runtime",
+    "anyio",
+    "anytree",
+    "apache-airflow",
+    "apache-airflow-core",
+    "apache-airflow-providers-amazon",
+    "apache-airflow-providers-cncf-kubernetes",
+    "apache-airflow-providers-common-compat",
+    "apache-airflow-providers-common-io",
+    "apache-airflow-providers-common-sql",
+    "apache-airflow-providers-databricks",
+    "apache-airflow-providers-fab",
+    "apache-airflow-providers-ftp",
+    "apache-airflow-providers-google",
+    "apache-airflow-providers-http",
+    "apache-airflow-providers-imap",
+    "apache-airflow-providers-mysql",
+    "apache-airflow-providers-slack",
+    "apache-airflow-providers-smtp",
+    "apache-airflow-providers-snowflake",
+    "apache-airflow-providers-sqlite",
+    "apache-airflow-providers-ssh",
+    "apache-airflow-task-sdk",
+    "apache-tvm-ffi",
+    "apache_airflow",
+    "apache_airflow_core",
+    "apache_airflow_providers_amazon",
+    "apache_airflow_providers_cncf_kubernetes",
+    "apache_airflow_providers_common_compat",
+    "apache_airflow_providers_common_io",
+    "apache_airflow_providers_common_sql",
+    "apache_airflow_providers_databricks",
+    "apache_airflow_providers_fab",
+    "apache_airflow_providers_ftp",
+    "apache_airflow_providers_google",
+    "apache_airflow_providers_http",
+    "apache_airflow_providers_imap",
+    "apache_airflow_providers_mysql",
+    "apache_airflow_providers_slack",
+    "apache_airflow_providers_smtp",
+    "apache_airflow_providers_snowflake",
+    "apache_airflow_providers_sqlite",
+    "apache_airflow_providers_ssh",
+    "apache_airflow_task_sdk",
+    "apache_tvm_ffi",
+    "apispec",
+    "appdirs",
+    "applicationinsights",
+    "appnope",
+    "apprise",
+    "apscheduler",
+    "arabic-reshaper",
+    "arabic_reshaper",
+    "argcomplete",
+    "argon2-cffi",
+    "argon2-cffi-bindings",
+    "argon2_cffi",
+    "argon2_cffi_bindings",
+    "argparse",
+    "arro3-core",
+    "arro3_core",
+    "arrow",
+    "arxiv",
+    "asgi-lifespan",
+    "asgi_lifespan",
+    "asgiref",
+    "asn1crypto",
+    "ast-serialize",
+    "ast_serialize",
+    "asteval",
+    "astor",
+    "astroid",
+    "astronomer-cosmos",
+    "astronomer_cosmos",
+    "asttokens",
+    "astunparse",
+    "async-lru",
+    "async-timeout",
+    "async_lru",
+    "async_timeout",
+    "asyncer",
+    "asyncio",
+    "asyncpg",
+    "asyncssh",
+    "asynctest",
+    "atlassian-python-api",
+    "atlassian_python_api",
+    "atpublic",
+    "attrs",
+    "audioop-lts",
+    "audioop_lts",
+    "audioread",
+    "auth0-python",
+    "auth0_python",
+    "authlib",
+    "autobahn",
+    "autoflake",
+    "automat",
+    "autopep8",
+    "av",
+    "avro",
+    "avro-python3",
+    "avro_python3",
+    "aws-cdk-asset-awscli-v1",
+    "aws-cdk-asset-node-proxy-agent-v6",
+    "aws-cdk-cloud-assembly-schema",
+    "aws-cdk-lib",
+    "aws-lambda-powertools",
+    "aws-msk-iam-sasl-signer-python",
+    "aws-requests-auth",
+    "aws-sam-translator",
+    "aws-xray-sdk",
+    "aws_cdk_asset_awscli_v1",
+    "aws_cdk_asset_node_proxy_agent_v6",
+    "aws_cdk_cloud_assembly_schema",
+    "aws_cdk_lib",
+    "aws_lambda_powertools",
+    "aws_msk_iam_sasl_signer_python",
+    "aws_requests_auth",
+    "aws_sam_translator",
+    "aws_xray_sdk",
+    "awscli",
+    "awscrt",
+    "awswrangler",
+    "azure-ai-agents",
+    "azure-ai-documentintelligence",
+    "azure-ai-projects",
+    "azure-appconfiguration",
+    "azure-batch",
+    "azure-cli",
+    "azure-cli-core",
+    "azure-common",
+    "azure-core",
+    "azure-core-tracing-opentelemetry",
+    "azure-cosmos",
+    "azure-data-tables",
+    "azure-datalake-store",
+    "azure-eventgrid",
+    "azure-eventhub",
+    "azure-functions",
+    "azure-identity",
+    "azure-keyvault",
+    "azure-keyvault-certificates",
+    "azure-keyvault-keys",
+    "azure-keyvault-secrets",
+    "azure-kusto-data",
+    "azure-kusto-ingest",
+    "azure-mgmt-advisor",
+    "azure-mgmt-applicationinsights",
+    "azure-mgmt-authorization",
+    "azure-mgmt-batch",
+    "azure-mgmt-batchai",
+    "azure-mgmt-billing",
+    "azure-mgmt-cdn",
+    "azure-mgmt-cognitiveservices",
+    "azure-mgmt-compute",
+    "azure-mgmt-containerinstance",
+    "azure-mgmt-containerregistry",
+    "azure-mgmt-containerservice",
+    "azure-mgmt-core",
+    "azure-mgmt-cosmosdb",
+    "azure-mgmt-datafactory",
+    "azure-mgmt-datalake-nspkg",
+    "azure-mgmt-datalake-store",
+    "azure-mgmt-datamigration",
+    "azure-mgmt-eventgrid",
+    "azure-mgmt-eventhub",
+    "azure-mgmt-iotcentral",
+    "azure-mgmt-iothub",
+    "azure-mgmt-iothubprovisioningservices",
+    "azure-mgmt-keyvault",
+    "azure-mgmt-loganalytics",
+    "azure-mgmt-managementgroups",
+    "azure-mgmt-maps",
+    "azure-mgmt-marketplaceordering",
+    "azure-mgmt-media",
+    "azure-mgmt-monitor",
+    "azure-mgmt-msi",
+    "azure-mgmt-network",
+    "azure-mgmt-nspkg",
+    "azure-mgmt-policyinsights",
+    "azure-mgmt-rdbms",
+    "azure-mgmt-recoveryservices",
+    "azure-mgmt-recoveryservicesbackup",
+    "azure-mgmt-redis",
+    "azure-mgmt-resource",
+    "azure-mgmt-search",
+    "azure-mgmt-servicebus",
+    "azure-mgmt-servicefabric",
+    "azure-mgmt-signalr",
+    "azure-mgmt-sql",
+    "azure-mgmt-storage",
+    "azure-mgmt-trafficmanager",
+    "azure-mgmt-web",
+    "azure-monitor-opentelemetry",
+    "azure-monitor-opentelemetry-exporter",
+    "azure-monitor-query",
+    "azure-nspkg",
+    "azure-search-documents",
+    "azure-servicebus",
+    "azure-storage-blob",
+    "azure-storage-common",
+    "azure-storage-file-datalake",
+    "azure-storage-file-share",
+    "azure-storage-queue",
+    "azure-synapse-artifacts",
+    "azure-synapse-spark",
+    "azure_ai_agents",
+    "azure_ai_documentintelligence",
+    "azure_ai_projects",
+    "azure_appconfiguration",
+    "azure_batch",
+    "azure_cli",
+    "azure_cli_core",
+    "azure_common",
+    "azure_core",
+    "azure_core_tracing_opentelemetry",
+    "azure_cosmos",
+    "azure_data_tables",
+    "azure_datalake_store",
+    "azure_eventgrid",
+    "azure_eventhub",
+    "azure_functions",
+    "azure_identity",
+    "azure_keyvault",
+    "azure_keyvault_certificates",
+    "azure_keyvault_keys",
+    "azure_keyvault_secrets",
+    "azure_kusto_data",
+    "azure_kusto_ingest",
+    "azure_mgmt_advisor",
+    "azure_mgmt_applicationinsights",
+    "azure_mgmt_authorization",
+    "azure_mgmt_batch",
+    "azure_mgmt_batchai",
+    "azure_mgmt_billing",
+    "azure_mgmt_cdn",
+    "azure_mgmt_cognitiveservices",
+    "azure_mgmt_compute",
+    "azure_mgmt_containerinstance",
+    "azure_mgmt_containerregistry",
+    "azure_mgmt_containerservice",
+    "azure_mgmt_core",
+    "azure_mgmt_cosmosdb",
+    "azure_mgmt_datafactory",
+    "azure_mgmt_datalake_nspkg",
+    "azure_mgmt_datalake_store",
+    "azure_mgmt_datamigration",
+    "azure_mgmt_eventgrid",
+    "azure_mgmt_eventhub",
+    "azure_mgmt_iotcentral",
+    "azure_mgmt_iothub",
+    "azure_mgmt_iothubprovisioningservices",
+    "azure_mgmt_keyvault",
+    "azure_mgmt_loganalytics",
+    "azure_mgmt_managementgroups",
+    "azure_mgmt_maps",
+    "azure_mgmt_marketplaceordering",
+    "azure_mgmt_media",
+    "azure_mgmt_monitor",
+    "azure_mgmt_msi",
+    "azure_mgmt_network",
+    "azure_mgmt_nspkg",
+    "azure_mgmt_policyinsights",
+    "azure_mgmt_rdbms",
+    "azure_mgmt_recoveryservices",
+    "azure_mgmt_recoveryservicesbackup",
+    "azure_mgmt_redis",
+    "azure_mgmt_resource",
+    "azure_mgmt_search",
+    "azure_mgmt_servicebus",
+    "azure_mgmt_servicefabric",
+    "azure_mgmt_signalr",
+    "azure_mgmt_sql",
+    "azure_mgmt_storage",
+    "azure_mgmt_trafficmanager",
+    "azure_mgmt_web",
+    "azure_monitor_opentelemetry",
+    "azure_monitor_opentelemetry_exporter",
+    "azure_monitor_query",
+    "azure_nspkg",
+    "azure_search_documents",
+    "azure_servicebus",
+    "azure_storage_blob",
+    "azure_storage_common",
+    "azure_storage_file_datalake",
+    "azure_storage_file_share",
+    "azure_storage_queue",
+    "azure_synapse_artifacts",
+    "azure_synapse_spark",
+    "babel",
+    "backcall",
+    "backoff",
+    "backports-asyncio-runner",
+    "backports-strenum",
+    "backports-tarfile",
+    "backports-zoneinfo",
+    "backports-zstd",
+    "backports_asyncio_runner",
+    "backports_strenum",
+    "backports_tarfile",
+    "backports_zoneinfo",
+    "backports_zstd",
+    "backrefs",
+    "bandit",
+    "banks",
+    "basedpyright",
+    "bashlex",
+    "bazel-runfiles",
+    "bazel_runfiles",
+    "bcrypt",
+    "beartype",
+    "beautifulsoup4",
+    "bedrock-agentcore",
+    "bedrock_agentcore",
+    "behave",
+    "bidict",
+    "billiard",
+    "binaryornot",
+    "biopython",
+    "bitarray",
+    "bitsandbytes",
+    "black",
+    "blake3",
+    "bleach",
+    "blessed",
+    "blinker",
+    "blis",
+    "blobfile",
+    "bluetooth-data-tools",
+    "bluetooth_data_tools",
+    "bokeh",
+    "boltons",
+    "boolean-py",
+    "boolean_py",
+    "boostedblob",
+    "boto",
+    "boto3",
+    "boto3-stubs",
+    "boto3_stubs",
+    "botocore",
+    "botocore-stubs",
+    "botocore_stubs",
+    "bottle",
+    "bottleneck",
+    "bracex",
+    "braintrust",
+    "brotli",
+    "browser-harness",
+    "browser-use",
+    "browser-use-sdk",
+    "browser_harness",
+    "browser_use",
+    "browser_use_sdk",
+    "bs4",
+    "bubus",
+    "build",
+    "burner-redis",
+    "burner_redis",
+    "bytecode",
+    "c7n-org",
+    "c7n_org",
+    "cachebox",
+    "cachecontrol",
+    "cached-property",
+    "cached_property",
+    "cachelib",
+    "cachetools",
+    "cadwyn",
+    "caio",
+    "cairocffi",
+    "cairosvg",
+    "cassandra-driver",
+    "cassandra_driver",
+    "catalogue",
+    "catboost",
+    "cattrs",
+    "cbor2",
+    "cchardet",
+    "cdp-use",
+    "cdp_use",
+    "cel-python",
+    "cel_python",
+    "celery",
+    "celery-redbeat",
+    "celery_redbeat",
+    "cerberus",
+    "certifi",
+    "cffi",
+    "cfgv",
+    "cfn-lint",
+    "cfn_lint",
+    "channels",
+    "chardet",
+    "charset-normalizer",
+    "charset_normalizer",
+    "checkdigit",
+    "checkov",
+    "chevron",
+    "chromadb",
+    "circuitbreaker",
+    "ciso8601",
+    "ckzg",
+    "clarabel",
+    "claude-agent-sdk",
+    "claude_agent_sdk",
+    "cleo",
+    "click",
+    "click-default-group",
+    "click-didyoumean",
+    "click-option-group",
+    "click-plugins",
+    "click-repl",
+    "click_default_group",
+    "click_didyoumean",
+    "click_option_group",
+    "click_plugins",
+    "click_repl",
+    "clickhouse-connect",
+    "clickhouse-driver",
+    "clickhouse_connect",
+    "clickhouse_driver",
+    "cligj",
+    "cloud-sql-python-connector",
+    "cloud_sql_python_connector",
+    "cloudevents",
+    "cloudflare",
+    "cloudpathlib",
+    "cloudpickle",
+    "cmake",
+    "cmdstanpy",
+    "cobble",
+    "codeowners",
+    "codespell",
+    "cohere",
+    "colorama",
+    "colorclass",
+    "coloredlogs",
+    "colorful",
+    "colorlog",
+    "comm",
+    "compressed-rtf",
+    "compressed-tensors",
+    "compressed_rtf",
+    "compressed_tensors",
+    "confection",
+    "configargparse",
+    "configobj",
+    "configparser",
+    "confluent-kafka",
+    "confluent_kafka",
+    "connexion",
+    "constantly",
+    "construct",
+    "constructs",
+    "contextlib2",
+    "contourpy",
+    "cookiecutter",
+    "coolname",
+    "courlan",
+    "coverage",
+    "cramjam",
+    "crashtest",
+    "crc32c",
+    "crcmod",
+    "crewai",
+    "crewai-tools",
+    "crewai_tools",
+    "cron-descriptor",
+    "cron_descriptor",
+    "croniter",
+    "cronsim",
+    "cryptography",
+    "cssselect",
+    "cssselect2",
+    "cssutils",
+    "ctranslate2",
+    "cuda-bindings",
+    "cuda-core",
+    "cuda-pathfinder",
+    "cuda-python",
+    "cuda-toolkit",
+    "cuda_bindings",
+    "cuda_core",
+    "cuda_pathfinder",
+    "cuda_python",
+    "cuda_toolkit",
+    "curl-cffi",
+    "curl_cffi",
+    "curlify",
+    "cvxpy",
+    "cycler",
+    "cyclonedx-python-lib",
+    "cyclonedx_python_lib",
+    "cyclopts",
+    "cymem",
+    "cython",
+    "cytoolz",
+    "dacite",
+    "daff",
+    "daft",
+    "dagster",
+    "dagster-aws",
+    "dagster-graphql",
+    "dagster-pipes",
+    "dagster-postgres",
+    "dagster-shared",
+    "dagster-webserver",
+    "dagster_aws",
+    "dagster_graphql",
+    "dagster_pipes",
+    "dagster_postgres",
+    "dagster_shared",
+    "dagster_webserver",
+    "daphne",
+    "dash",
+    "dask",
+    "dask-expr",
+    "dask_expr",
+    "databricks-agents",
+    "databricks-cli",
+    "databricks-connect",
+    "databricks-labs-blueprint",
+    "databricks-labs-dqx",
+    "databricks-labs-lsql",
+    "databricks-sdk",
+    "databricks-sql-connector",
+    "databricks-sqlalchemy",
+    "databricks_agents",
+    "databricks_cli",
+    "databricks_connect",
+    "databricks_labs_blueprint",
+    "databricks_labs_dqx",
+    "databricks_labs_lsql",
+    "databricks_sdk",
+    "databricks_sql_connector",
+    "databricks_sqlalchemy",
+    "dataclasses",
+    "dataclasses-json",
+    "dataclasses_json",
+    "datadog",
+    "datadog-api-client",
+    "datadog_api_client",
+    "datamodel-code-generator",
+    "datamodel_code_generator",
+    "dataproperty",
+    "datasets",
+    "datasketch",
+    "dateparser",
+    "datetime",
+    "daytona",
+    "daytona-analytics-api-client",
+    "daytona-analytics-api-client-async",
+    "daytona-api-client",
+    "daytona-api-client-async",
+    "daytona-toolbox-api-client",
+    "daytona-toolbox-api-client-async",
+    "daytona_analytics_api_client",
+    "daytona_analytics_api_client_async",
+    "daytona_api_client",
+    "daytona_api_client_async",
+    "daytona_toolbox_api_client",
+    "daytona_toolbox_api_client_async",
+    "db-dtypes",
+    "db_dtypes",
+    "dbt-adapters",
+    "dbt-bigquery",
+    "dbt-common",
+    "dbt-core",
+    "dbt-databricks",
+    "dbt-extractor",
+    "dbt-postgres",
+    "dbt-protos",
+    "dbt-semantic-interfaces",
+    "dbt-snowflake",
+    "dbt-spark",
+    "dbt_adapters",
+    "dbt_bigquery",
+    "dbt_common",
+    "dbt_core",
+    "dbt_databricks",
+    "dbt_extractor",
+    "dbt_postgres",
+    "dbt_protos",
+    "dbt_semantic_interfaces",
+    "dbt_snowflake",
+    "dbt_spark",
+    "ddgs",
+    "ddtrace",
+    "debugpy",
+    "decorator",
+    "deepagents",
+    "deepdiff",
+    "deepmerge",
+    "defusedxml",
+    "delta-spark",
+    "delta_spark",
+    "deltalake",
+    "dep-logic",
+    "dep_logic",
+    "dependency-groups",
+    "dependency-injector",
+    "dependency_groups",
+    "dependency_injector",
+    "deprecated",
+    "deprecation",
+    "deptry",
+    "detect-installer",
+    "detect-secrets",
+    "detect_installer",
+    "detect_secrets",
+    "diagrams",
+    "dictdiffer",
+    "diff-cover",
+    "diff_cover",
+    "diffusers",
+    "dill",
+    "dirhash",
+    "dirtyjson",
+    "discord-py",
+    "discord_py",
+    "diskcache",
+    "disposable-email-domains",
+    "disposable_email_domains",
+    "distlib",
+    "distributed",
+    "distro",
+    "dj-database-url",
+    "dj_database_url",
+    "django",
+    "django-celery-beat",
+    "django-cors-headers",
+    "django-debug-toolbar",
+    "django-environ",
+    "django-extensions",
+    "django-filter",
+    "django-ipware",
+    "django-phonenumber-field",
+    "django-redis",
+    "django-storages",
+    "django-stubs",
+    "django-stubs-ext",
+    "django-timezone-field",
+    "django_celery_beat",
+    "django_cors_headers",
+    "django_debug_toolbar",
+    "django_environ",
+    "django_extensions",
+    "django_filter",
+    "django_ipware",
+    "django_phonenumber_field",
+    "django_redis",
+    "django_storages",
+    "django_stubs",
+    "django_stubs_ext",
+    "django_timezone_field",
+    "djangorestframework",
+    "djangorestframework-simplejwt",
+    "djangorestframework-stubs",
+    "djangorestframework_simplejwt",
+    "djangorestframework_stubs",
+    "dlt",
+    "dnspython",
+    "docker",
+    "docker-pycreds",
+    "docker_pycreds",
+    "dockerfile-parse",
+    "dockerfile_parse",
+    "docling",
+    "docling-core",
+    "docling_core",
+    "docopt",
+    "docstring-parser",
+    "docstring_parser",
+    "docutils",
+    "dotenv",
+    "dpath",
+    "drf-spectacular",
+    "drf_spectacular",
+    "dspy",
+    "duckdb",
+    "dulwich",
+    "dunamai",
+    "durationpy",
+    "dynaconf",
+    "e2b",
+    "easygui",
+    "ebcdic",
+    "ecdsa",
+    "edge-tts",
+    "edge_tts",
+    "editables",
+    "editorconfig",
+    "einops",
+    "elastic-transport",
+    "elastic_transport",
+    "elasticsearch",
+    "elasticsearch-dsl",
+    "elasticsearch_dsl",
+    "elementpath",
+    "elevenlabs",
+    "email-validator",
+    "email_validator",
+    "emoji",
+    "entrypoints",
+    "enum-compat",
+    "enum34",
+    "enum_compat",
+    "envier",
+    "environs",
+    "et-xmlfile",
+    "et_xmlfile",
+    "eth-abi",
+    "eth-account",
+    "eth-hash",
+    "eth-keyfile",
+    "eth-keys",
+    "eth-rlp",
+    "eth-typing",
+    "eth-utils",
+    "eth_abi",
+    "eth_account",
+    "eth_hash",
+    "eth_keyfile",
+    "eth_keys",
+    "eth_rlp",
+    "eth_typing",
+    "eth_utils",
+    "etils",
+    "eval-type-backport",
+    "eval_type_backport",
+    "eventlet",
+    "events",
+    "exa-py",
+    "exa_py",
+    "exceptiongroup",
+    "exchange-calendars",
+    "exchange_calendars",
+    "execnet",
+    "executing",
+    "expiringdict",
+    "expression",
+    "extract-msg",
+    "extract_msg",
+    "fabric",
+    "face",
+    "facebook-business",
+    "facebook_business",
+    "factory-boy",
+    "factory_boy",
+    "faiss-cpu",
+    "faiss_cpu",
+    "fake-useragent",
+    "fake_useragent",
+    "faker",
+    "fakeredis",
+    "fastapi",
+    "fastapi-cli",
+    "fastapi-cloud-cli",
+    "fastapi-mcp",
+    "fastapi-sso",
+    "fastapi_cli",
+    "fastapi_cloud_cli",
+    "fastapi_mcp",
+    "fastapi_sso",
+    "fastar",
+    "fastavro",
+    "fastcore",
+    "fastembed",
+    "fasteners",
+    "faster-whisper",
+    "faster_whisper",
+    "fastf1",
+    "fastjsonschema",
+    "fastmcp",
+    "fastmcp-slim",
+    "fastmcp_slim",
+    "fastparquet",
+    "fastspec",
+    "fasttransport",
+    "fastuuid",
+    "feedparser",
+    "feedparser-sgmllib",
+    "feedparser_sgmllib",
+    "fetch-use",
+    "fetch_use",
+    "ffmpeg-python",
+    "ffmpeg_python",
+    "filelock",
+    "filetype",
+    "findpython",
+    "fiona",
+    "fire",
+    "firebase-admin",
+    "firebase_admin",
+    "firecrawl-anydoc",
+    "firecrawl-py",
+    "firecrawl_anydoc",
+    "firecrawl_py",
+    "flake8",
+    "flask",
+    "flask-appbuilder",
+    "flask-babel",
+    "flask-caching",
+    "flask-cors",
+    "flask-jwt-extended",
+    "flask-limiter",
+    "flask-login",
+    "flask-session",
+    "flask-sqlalchemy",
+    "flask-wtf",
+    "flask_appbuilder",
+    "flask_babel",
+    "flask_caching",
+    "flask_cors",
+    "flask_jwt_extended",
+    "flask_limiter",
+    "flask_login",
+    "flask_session",
+    "flask_sqlalchemy",
+    "flask_wtf",
+    "flatbuffers",
+    "flexcache",
+    "flexparser",
+    "flit",
+    "flit-core",
+    "flit_core",
+    "flower",
+    "fonttools",
+    "fpdf2",
+    "fqdn",
+    "freezegun",
+    "frozendict",
+    "frozenlist",
+    "fsspec",
+    "ftfy",
+    "func-timeout",
+    "func_timeout",
+    "functions-framework",
+    "functions_framework",
+    "funcy",
+    "furl",
+    "future",
+    "fuzzywuzzy",
+    "gast",
+    "gcloud-aio-auth",
+    "gcloud-aio-bigquery",
+    "gcloud-aio-storage",
+    "gcloud_aio_auth",
+    "gcloud_aio_bigquery",
+    "gcloud_aio_storage",
+    "gcsfs",
+    "genai-prices",
+    "genai_prices",
+    "genson",
+    "geographiclib",
+    "geoip2",
+    "geomet",
+    "geopandas",
+    "geopy",
+    "gepa",
+    "gevent",
+    "geventhttpclient",
+    "gguf",
+    "ghapi",
+    "ghp-import",
+    "ghp_import",
+    "gitdb",
+    "github3-py",
+    "github3_py",
+    "gitpython",
+    "giturlparse",
+    "glom",
+    "google",
+    "google-adk",
+    "google-ads",
+    "google-ai-generativelanguage",
+    "google-analytics-admin",
+    "google-analytics-data",
+    "google-api-core",
+    "google-api-python-client",
+    "google-auth",
+    "google-auth-httplib2",
+    "google-auth-oauthlib",
+    "google-cloud-aiplatform",
+    "google-cloud-alloydb",
+    "google-cloud-appengine-logging",
+    "google-cloud-audit-log",
+    "google-cloud-automl",
+    "google-cloud-batch",
+    "google-cloud-bigquery",
+    "google-cloud-bigquery-datatransfer",
+    "google-cloud-bigquery-storage",
+    "google-cloud-bigtable",
+    "google-cloud-build",
+    "google-cloud-compute",
+    "google-cloud-container",
+    "google-cloud-core",
+    "google-cloud-datacatalog",
+    "google-cloud-dataflow-client",
+    "google-cloud-dataform",
+    "google-cloud-dataplex",
+    "google-cloud-dataproc",
+    "google-cloud-dataproc-metastore",
+    "google-cloud-datastore",
+    "google-cloud-discoveryengine",
+    "google-cloud-dlp",
+    "google-cloud-firestore",
+    "google-cloud-iam",
+    "google-cloud-kms",
+    "google-cloud-language",
+    "google-cloud-logging",
+    "google-cloud-managedkafka",
+    "google-cloud-memcache",
+    "google-cloud-monitoring",
+    "google-cloud-orchestration-airflow",
+    "google-cloud-os-login",
+    "google-cloud-pubsub",
+    "google-cloud-redis",
+    "google-cloud-resource-manager",
+    "google-cloud-run",
+    "google-cloud-secret-manager",
+    "google-cloud-spanner",
+    "google-cloud-speech",
+    "google-cloud-storage",
+    "google-cloud-storage-control",
+    "google-cloud-storage-transfer",
+    "google-cloud-tasks",
+    "google-cloud-texttospeech",
+    "google-cloud-trace",
+    "google-cloud-translate",
+    "google-cloud-videointelligence",
+    "google-cloud-vision",
+    "google-cloud-workflows",
+    "google-crc32c",
+    "google-genai",
+    "google-generativeai",
+    "google-pasta",
+    "google-re2",
+    "google-resumable-media",
+    "google_adk",
+    "google_ads",
+    "google_ai_generativelanguage",
+    "google_analytics_admin",
+    "google_analytics_data",
+    "google_api_core",
+    "google_api_python_client",
+    "google_auth",
+    "google_auth_httplib2",
+    "google_auth_oauthlib",
+    "google_cloud_aiplatform",
+    "google_cloud_alloydb",
+    "google_cloud_appengine_logging",
+    "google_cloud_audit_log",
+    "google_cloud_automl",
+    "google_cloud_batch",
+    "google_cloud_bigquery",
+    "google_cloud_bigquery_datatransfer",
+    "google_cloud_bigquery_storage",
+    "google_cloud_bigtable",
+    "google_cloud_build",
+    "google_cloud_compute",
+    "google_cloud_container",
+    "google_cloud_core",
+    "google_cloud_datacatalog",
+    "google_cloud_dataflow_client",
+    "google_cloud_dataform",
+    "google_cloud_dataplex",
+    "google_cloud_dataproc",
+    "google_cloud_dataproc_metastore",
+    "google_cloud_datastore",
+    "google_cloud_discoveryengine",
+    "google_cloud_dlp",
+    "google_cloud_firestore",
+    "google_cloud_iam",
+    "google_cloud_kms",
+    "google_cloud_language",
+    "google_cloud_logging",
+    "google_cloud_managedkafka",
+    "google_cloud_memcache",
+    "google_cloud_monitoring",
+    "google_cloud_orchestration_airflow",
+    "google_cloud_os_login",
+    "google_cloud_pubsub",
+    "google_cloud_redis",
+    "google_cloud_resource_manager",
+    "google_cloud_run",
+    "google_cloud_secret_manager",
+    "google_cloud_spanner",
+    "google_cloud_speech",
+    "google_cloud_storage",
+    "google_cloud_storage_control",
+    "google_cloud_storage_transfer",
+    "google_cloud_tasks",
+    "google_cloud_texttospeech",
+    "google_cloud_trace",
+    "google_cloud_translate",
+    "google_cloud_videointelligence",
+    "google_cloud_vision",
+    "google_cloud_workflows",
+    "google_crc32c",
+    "google_genai",
+    "google_generativeai",
+    "google_pasta",
+    "google_re2",
+    "google_resumable_media",
+    "googleapis-common-protos",
+    "googleapis_common_protos",
+    "gprof2dot",
+    "gql",
+    "gradio",
+    "gradio-client",
+    "gradio_client",
+    "granian",
+    "graphene",
+    "graphql-core",
+    "graphql-relay",
+    "graphql_core",
+    "graphql_relay",
+    "graphviz",
+    "great-expectations",
+    "great_expectations",
+    "greenback",
+    "greenlet",
+    "gremlinpython",
+    "griffe",
+    "griffecli",
+    "griffelib",
+    "grimp",
+    "groq",
+    "grpc-google-iam-v1",
+    "grpc-interceptor",
+    "grpc_google_iam_v1",
+    "grpc_interceptor",
+    "grpcio",
+    "grpcio-gcp",
+    "grpcio-health-checking",
+    "grpcio-reflection",
+    "grpcio-status",
+    "grpcio-tools",
+    "grpcio_gcp",
+    "grpcio_health_checking",
+    "grpcio_reflection",
+    "grpcio_status",
+    "grpcio_tools",
+    "grpclib",
+    "gspread",
+    "gunicorn",
+    "gymnasium",
+    "h11",
+    "h2",
+    "h3",
+    "h5py",
+    "habluetooth",
+    "harbor",
+    "harbor-rewardkit",
+    "harbor_rewardkit",
+    "hatch",
+    "hatch-fancy-pypi-readme",
+    "hatch-vcs",
+    "hatch_fancy_pypi_readme",
+    "hatch_vcs",
+    "hatchling",
+    "hexbytes",
+    "hf-xet",
+    "hf_xet",
+    "highspy",
+    "hiredis",
+    "holidays",
+    "hpack",
+    "html2text",
+    "html5lib",
+    "htmldate",
+    "httpcore",
+    "httpcore2",
+    "httplib2",
+    "httptools",
+    "httpx",
+    "httpx-sse",
+    "httpx-ws",
+    "httpx2",
+    "httpx2-jsfetch",
+    "httpx2_jsfetch",
+    "httpx_sse",
+    "httpx_ws",
+    "huey",
+    "huggingface-hub",
+    "huggingface_hub",
+    "humanfriendly",
+    "humanize",
+    "hvac",
+    "hydra-core",
+    "hydra_core",
+    "hypercorn",
+    "hyperframe",
+    "hyperlink",
+    "hypothesis",
+    "icalendar",
+    "icdiff",
+    "id",
+    "identify",
+    "idna",
+    "ifaddr",
+    "ijson",
+    "imagehash",
+    "imageio",
+    "imageio-ffmpeg",
+    "imageio_ffmpeg",
+    "imagesize",
+    "imbalanced-learn",
+    "imbalanced_learn",
+    "immutabledict",
+    "import-linter",
+    "import_linter",
+    "importlib-metadata",
+    "importlib-resources",
+    "importlib_metadata",
+    "importlib_resources",
+    "impyla",
+    "incremental",
+    "inflate64",
+    "inflect",
+    "inflection",
+    "influxdb-client",
+    "influxdb_client",
+    "iniconfig",
+    "inputimeout",
+    "inquirerpy",
+    "inspect-ai",
+    "inspect_ai",
+    "installer",
+    "instructor",
+    "intervaltree",
+    "invoke",
+    "ipdb",
+    "ipykernel",
+    "ipython",
+    "ipython-genutils",
+    "ipython-pygments-lexers",
+    "ipython_genutils",
+    "ipython_pygments_lexers",
+    "ipywidgets",
+    "iso8601",
+    "isodate",
+    "isoduration",
+    "isort",
+    "itsdangerous",
+    "jaraco-classes",
+    "jaraco-context",
+    "jaraco-functools",
+    "jaraco_classes",
+    "jaraco_context",
+    "jaraco_functools",
+    "jax",
+    "jaxlib",
+    "jaydebeapi",
+    "jedi",
+    "jeepney",
+    "jellyfish",
+    "jinja2",
+    "jinja2-humanize-extension",
+    "jinja2_humanize_extension",
+    "jinxed",
+    "jira",
+    "jiter",
+    "jmespath",
+    "joblib",
+    "joserfc",
+    "jpype1",
+    "jq",
+    "jsbeautifier",
+    "jsii",
+    "json-repair",
+    "json-rpc",
+    "json5",
+    "json_repair",
+    "json_rpc",
+    "jsonconversion",
+    "jsondiff",
+    "jsonlines",
+    "jsonpatch",
+    "jsonpath-ng",
+    "jsonpath-python",
+    "jsonpath_ng",
+    "jsonpath_python",
+    "jsonpickle",
+    "jsonpointer",
+    "jsonref",
+    "jsonschema",
+    "jsonschema-path",
+    "jsonschema-rs",
+    "jsonschema-specifications",
+    "jsonschema_path",
+    "jsonschema_rs",
+    "jsonschema_specifications",
+    "junit-xml",
+    "junit_xml",
+    "junitparser",
+    "jupyter",
+    "jupyter-builder",
+    "jupyter-client",
+    "jupyter-console",
+    "jupyter-core",
+    "jupyter-events",
+    "jupyter-lsp",
+    "jupyter-server",
+    "jupyter-server-terminals",
+    "jupyter_builder",
+    "jupyter_client",
+    "jupyter_console",
+    "jupyter_core",
+    "jupyter_events",
+    "jupyter_lsp",
+    "jupyter_server",
+    "jupyter_server_terminals",
+    "jupyterlab",
+    "jupyterlab-pygments",
+    "jupyterlab-server",
+    "jupyterlab-widgets",
+    "jupyterlab_pygments",
+    "jupyterlab_server",
+    "jupyterlab_widgets",
+    "justext",
+    "jwcrypto",
+    "k8s",
+    "kafka-python",
+    "kafka_python",
+    "kaitaistruct",
+    "kaleido",
+    "keras",
+    "kestra",
+    "keyring",
+    "keyrings-google-artifactregistry-auth",
+    "keyrings_google_artifactregistry_auth",
+    "kfp",
+    "kgb",
+    "kiwisolver",
+    "knack",
+    "kombu",
+    "korean-lunar-calendar",
+    "korean_lunar_calendar",
+    "kubernetes",
+    "kubernetes-asyncio",
+    "kubernetes_asyncio",
+    "lance-namespace",
+    "lance-namespace-urllib3-client",
+    "lance_namespace",
+    "lance_namespace_urllib3_client",
+    "lancedb",
+    "langchain",
+    "langchain-anthropic",
+    "langchain-aws",
+    "langchain-classic",
+    "langchain-community",
+    "langchain-core",
+    "langchain-google-community",
+    "langchain-google-genai",
+    "langchain-google-vertexai",
+    "langchain-mcp-adapters",
+    "langchain-openai",
+    "langchain-protocol",
+    "langchain-text-splitters",
+    "langchain_anthropic",
+    "langchain_aws",
+    "langchain_classic",
+    "langchain_community",
+    "langchain_core",
+    "langchain_google_community",
+    "langchain_google_genai",
+    "langchain_google_vertexai",
+    "langchain_mcp_adapters",
+    "langchain_openai",
+    "langchain_protocol",
+    "langchain_text_splitters",
+    "langcodes",
+    "langdetect",
+    "langfuse",
+    "langgraph",
+    "langgraph-api",
+    "langgraph-checkpoint",
+    "langgraph-checkpoint-postgres",
+    "langgraph-prebuilt",
+    "langgraph-sdk",
+    "langgraph_api",
+    "langgraph_checkpoint",
+    "langgraph_checkpoint_postgres",
+    "langgraph_prebuilt",
+    "langgraph_sdk",
+    "langsmith",
+    "lark",
+    "launchdarkly-eventsource",
+    "launchdarkly-server-sdk",
+    "launchdarkly_eventsource",
+    "launchdarkly_server_sdk",
+    "lazy-loader",
+    "lazy-object-proxy",
+    "lazy_loader",
+    "lazy_object_proxy",
+    "ldap3",
+    "leather",
+    "levenshtein",
+    "libclang",
+    "libcst",
+    "librosa",
+    "librt",
+    "libtmux",
+    "license-expression",
+    "license_expression",
+    "lightgbm",
+    "lightning",
+    "lightning-utilities",
+    "lightning_utilities",
+    "limits",
+    "line-bot-sdk",
+    "line_bot_sdk",
+    "linkify-it-py",
+    "linkify_it_py",
+    "litellm",
+    "litellm-enterprise",
+    "litellm-proxy-extras",
+    "litellm_enterprise",
+    "litellm_proxy_extras",
+    "livekit-agents",
+    "livekit-protocol",
+    "livekit_agents",
+    "livekit_protocol",
+    "llama-cloud",
+    "llama-cloud-services",
+    "llama-index",
+    "llama-index-core",
+    "llama-index-embeddings-openai",
+    "llama-index-indices-managed-llama-cloud",
+    "llama-index-instrumentation",
+    "llama-index-llms-openai",
+    "llama-index-readers-llama-parse",
+    "llama-index-workflows",
+    "llama-parse",
+    "llama_cloud",
+    "llama_cloud_services",
+    "llama_index",
+    "llama_index_core",
+    "llama_index_embeddings_openai",
+    "llama_index_indices_managed_llama_cloud",
+    "llama_index_instrumentation",
+    "llama_index_llms_openai",
+    "llama_index_readers_llama_parse",
+    "llama_index_workflows",
+    "llama_parse",
+    "llguidance",
+    "llvmlite",
+    "lmnr",
+    "lmnr-claude-code-proxy",
+    "lmnr_claude_code_proxy",
+    "locket",
+    "lockfile",
+    "locust",
+    "logfire",
+    "logfire-api",
+    "logfire_api",
+    "loguru",
+    "looker-sdk",
+    "looker_sdk",
+    "lru-dict",
+    "lru_dict",
+    "lupa",
+    "lxml",
+    "lxml-html-clean",
+    "lxml_html_clean",
+    "lz4",
+    "magika",
+    "makefun",
+    "mako",
+    "mammoth",
+    "mando",
+    "mangum",
+    "markdown",
+    "markdown-it-py",
+    "markdown2",
+    "markdown_it_py",
+    "markdownify",
+    "markitdown",
+    "marko",
+    "markupsafe",
+    "marshmallow",
+    "marshmallow-dataclass",
+    "marshmallow-enum",
+    "marshmallow-oneofschema",
+    "marshmallow-sqlalchemy",
+    "marshmallow_dataclass",
+    "marshmallow_enum",
+    "marshmallow_oneofschema",
+    "marshmallow_sqlalchemy",
+    "mashumaro",
+    "matplotlib",
+    "matplotlib-inline",
+    "matplotlib_inline",
+    "maturin",
+    "maxminddb",
+    "mbstrdecoder",
+    "mccabe",
+    "mcp",
+    "mcp-types",
+    "mcp_types",
+    "mdit-py-plugins",
+    "mdit_py_plugins",
+    "mdurl",
+    "memory-profiler",
+    "memory_profiler",
+    "memray",
+    "mergedeep",
+    "meson",
+    "meson-python",
+    "meson_python",
+    "methodtools",
+    "metricflow",
+    "microsoft-kiota-abstractions",
+    "microsoft-kiota-authentication-azure",
+    "microsoft-kiota-http",
+    "microsoft-kiota-serialization-form",
+    "microsoft-kiota-serialization-json",
+    "microsoft-kiota-serialization-multipart",
+    "microsoft-kiota-serialization-text",
+    "microsoft_kiota_abstractions",
+    "microsoft_kiota_authentication_azure",
+    "microsoft_kiota_http",
+    "microsoft_kiota_serialization_form",
+    "microsoft_kiota_serialization_json",
+    "microsoft_kiota_serialization_multipart",
+    "microsoft_kiota_serialization_text",
+    "mini-swe-agent",
+    "mini_swe_agent",
+    "minio",
+    "mistral-common",
+    "mistral-vibe",
+    "mistral_common",
+    "mistral_vibe",
+    "mistralai",
+    "mistune",
+    "mitmproxy",
+    "mitmproxy-rs",
+    "mitmproxy_rs",
+    "mixpanel",
+    "mkdocs",
+    "mkdocs-autorefs",
+    "mkdocs-get-deps",
+    "mkdocs-material",
+    "mkdocs-material-extensions",
+    "mkdocs_autorefs",
+    "mkdocs_get_deps",
+    "mkdocs_material",
+    "mkdocs_material_extensions",
+    "mkdocstrings",
+    "mkdocstrings-python",
+    "mkdocstrings_python",
+    "ml-dtypes",
+    "ml_dtypes",
+    "mlflow",
+    "mlflow-skinny",
+    "mlflow-tracing",
+    "mlflow_skinny",
+    "mlflow_tracing",
+    "mmh3",
+    "mock",
+    "modal",
+    "modelscope",
+    "mongomock",
+    "monotonic",
+    "more-itertools",
+    "more_itertools",
+    "moto",
+    "motor",
+    "moviepy",
+    "mpmath",
+    "msal",
+    "msal-extensions",
+    "msal_extensions",
+    "msgpack",
+    "msgraph-core",
+    "msgraph-sdk",
+    "msgraph_core",
+    "msgraph_sdk",
+    "msgspec",
+    "msoffcrypto-tool",
+    "msoffcrypto_tool",
+    "msrest",
+    "msrestazure",
+    "multidict",
+    "multiprocess",
+    "multitasking",
+    "multivolumefile",
+    "murmurhash",
+    "mutagen",
+    "mypy",
+    "mypy-boto3-cloudformation",
+    "mypy-boto3-dynamodb",
+    "mypy-boto3-ec2",
+    "mypy-boto3-glue",
+    "mypy-boto3-lambda",
+    "mypy-boto3-rds",
+    "mypy-boto3-s3",
+    "mypy-boto3-secretsmanager",
+    "mypy-boto3-sqs",
+    "mypy-boto3-sts",
+    "mypy-extensions",
+    "mypy-protobuf",
+    "mypy_boto3_cloudformation",
+    "mypy_boto3_dynamodb",
+    "mypy_boto3_ec2",
+    "mypy_boto3_glue",
+    "mypy_boto3_lambda",
+    "mypy_boto3_rds",
+    "mypy_boto3_s3",
+    "mypy_boto3_secretsmanager",
+    "mypy_boto3_sqs",
+    "mypy_boto3_sts",
+    "mypy_extensions",
+    "mypy_protobuf",
+    "mysql-connector-python",
+    "mysql_connector_python",
+    "mysqlclient",
+    "myst-parser",
+    "myst_parser",
+    "namex",
+    "nanoid",
+    "narwhals",
+    "natsort",
+    "nbclient",
+    "nbconvert",
+    "nbformat",
+    "ndg-httpsclient",
+    "ndg_httpsclient",
+    "nemo-relay",
+    "nemo_relay",
+    "neo4j",
+    "nest-asyncio",
+    "nest-asyncio2",
+    "nest_asyncio",
+    "nest_asyncio2",
+    "netaddr",
+    "networkx",
+    "nexus-rpc",
+    "nexus_rpc",
+    "nh3",
+    "ninja",
+    "nltk",
+    "nodeenv",
+    "nodejs-wheel-binaries",
+    "nodejs_wheel_binaries",
+    "nose",
+    "notebook",
+    "notebook-shim",
+    "notebook_shim",
+    "nox",
+    "num2words",
+    "numba",
+    "numcodecs",
+    "numexpr",
+    "numpy",
+    "numpy-financial",
+    "numpy_financial",
+    "nvidia-cublas",
+    "nvidia-cublas-cu12",
+    "nvidia-cuda-cupti",
+    "nvidia-cuda-cupti-cu12",
+    "nvidia-cuda-nvrtc",
+    "nvidia-cuda-nvrtc-cu12",
+    "nvidia-cuda-runtime",
+    "nvidia-cuda-runtime-cu12",
+    "nvidia-cudnn-cu12",
+    "nvidia-cudnn-cu13",
+    "nvidia-cufft",
+    "nvidia-cufft-cu12",
+    "nvidia-cufile",
+    "nvidia-cufile-cu12",
+    "nvidia-curand",
+    "nvidia-curand-cu12",
+    "nvidia-cusolver",
+    "nvidia-cusolver-cu12",
+    "nvidia-cusparse",
+    "nvidia-cusparse-cu12",
+    "nvidia-cusparselt-cu12",
+    "nvidia-cusparselt-cu13",
+    "nvidia-cutlass-dsl",
+    "nvidia-cutlass-dsl-libs-base",
+    "nvidia-ml-py",
+    "nvidia-nccl-cu12",
+    "nvidia-nccl-cu13",
+    "nvidia-nvjitlink",
+    "nvidia-nvjitlink-cu12",
+    "nvidia-nvshmem-cu12",
+    "nvidia-nvshmem-cu13",
+    "nvidia-nvtx",
+    "nvidia-nvtx-cu12",
+    "nvidia_cublas",
+    "nvidia_cublas_cu12",
+    "nvidia_cuda_cupti",
+    "nvidia_cuda_cupti_cu12",
+    "nvidia_cuda_nvrtc",
+    "nvidia_cuda_nvrtc_cu12",
+    "nvidia_cuda_runtime",
+    "nvidia_cuda_runtime_cu12",
+    "nvidia_cudnn_cu12",
+    "nvidia_cudnn_cu13",
+    "nvidia_cufft",
+    "nvidia_cufft_cu12",
+    "nvidia_cufile",
+    "nvidia_cufile_cu12",
+    "nvidia_curand",
+    "nvidia_curand_cu12",
+    "nvidia_cusolver",
+    "nvidia_cusolver_cu12",
+    "nvidia_cusparse",
+    "nvidia_cusparse_cu12",
+    "nvidia_cusparselt_cu12",
+    "nvidia_cusparselt_cu13",
+    "nvidia_cutlass_dsl",
+    "nvidia_cutlass_dsl_libs_base",
+    "nvidia_ml_py",
+    "nvidia_nccl_cu12",
+    "nvidia_nccl_cu13",
+    "nvidia_nvjitlink",
+    "nvidia_nvjitlink_cu12",
+    "nvidia_nvshmem_cu12",
+    "nvidia_nvshmem_cu13",
+    "nvidia_nvtx",
+    "nvidia_nvtx_cu12",
+    "oauth2client",
+    "oauthlib",
+    "obstore",
+    "oci",
+    "office365-rest-python-client",
+    "office365_rest_python_client",
+    "oldest-supported-numpy",
+    "oldest_supported_numpy",
+    "olefile",
+    "oletools",
+    "ollama",
+    "omegaconf",
+    "onnx",
+    "onnxruntime",
+    "openai",
+    "openai-agents",
+    "openai-harmony",
+    "openai_agents",
+    "openai_harmony",
+    "openapi-pydantic",
+    "openapi-schema-validator",
+    "openapi-spec-validator",
+    "openapi_pydantic",
+    "openapi_schema_validator",
+    "openapi_spec_validator",
+    "opencensus",
+    "opencensus-context",
+    "opencensus-ext-azure",
+    "opencensus_context",
+    "opencensus_ext_azure",
+    "opencv-contrib-python",
+    "opencv-python",
+    "opencv-python-headless",
+    "opencv_contrib_python",
+    "opencv_python",
+    "opencv_python_headless",
+    "openhands-sdk",
+    "openhands-tools",
+    "openhands_sdk",
+    "openhands_tools",
+    "openinference-instrumentation",
+    "openinference-semantic-conventions",
+    "openinference_instrumentation",
+    "openinference_semantic_conventions",
+    "openlineage-integration-common",
+    "openlineage-python",
+    "openlineage-sql",
+    "openlineage_integration_common",
+    "openlineage_python",
+    "openlineage_sql",
+    "openpyxl",
+    "opensearch-protobufs",
+    "opensearch-py",
+    "opensearch_protobufs",
+    "opensearch_py",
+    "opentelemetry-api",
+    "opentelemetry-distro",
+    "opentelemetry-exporter-gcp-logging",
+    "opentelemetry-exporter-gcp-monitoring",
+    "opentelemetry-exporter-gcp-trace",
+    "opentelemetry-exporter-otlp",
+    "opentelemetry-exporter-otlp-proto-common",
+    "opentelemetry-exporter-otlp-proto-grpc",
+    "opentelemetry-exporter-otlp-proto-http",
+    "opentelemetry-exporter-prometheus",
+    "opentelemetry-instrumentation",
+    "opentelemetry-instrumentation-aiohttp-client",
+    "opentelemetry-instrumentation-asgi",
+    "opentelemetry-instrumentation-asyncio",
+    "opentelemetry-instrumentation-asyncpg",
+    "opentelemetry-instrumentation-boto3sqs",
+    "opentelemetry-instrumentation-botocore",
+    "opentelemetry-instrumentation-celery",
+    "opentelemetry-instrumentation-dbapi",
+    "opentelemetry-instrumentation-django",
+    "opentelemetry-instrumentation-fastapi",
+    "opentelemetry-instrumentation-flask",
+    "opentelemetry-instrumentation-google-genai",
+    "opentelemetry-instrumentation-grpc",
+    "opentelemetry-instrumentation-httpx",
+    "opentelemetry-instrumentation-kafka-python",
+    "opentelemetry-instrumentation-logging",
+    "opentelemetry-instrumentation-psycopg",
+    "opentelemetry-instrumentation-psycopg2",
+    "opentelemetry-instrumentation-pymongo",
+    "opentelemetry-instrumentation-redis",
+    "opentelemetry-instrumentation-requests",
+    "opentelemetry-instrumentation-sqlalchemy",
+    "opentelemetry-instrumentation-sqlite3",
+    "opentelemetry-instrumentation-starlette",
+    "opentelemetry-instrumentation-system-metrics",
+    "opentelemetry-instrumentation-threading",
+    "opentelemetry-instrumentation-urllib",
+    "opentelemetry-instrumentation-urllib3",
+    "opentelemetry-instrumentation-wsgi",
+    "opentelemetry-propagator-aws-xray",
+    "opentelemetry-proto",
+    "opentelemetry-resource-detector-azure",
+    "opentelemetry-resourcedetector-gcp",
+    "opentelemetry-sdk",
+    "opentelemetry-sdk-extension-aws",
+    "opentelemetry-semantic-conventions",
+    "opentelemetry-semantic-conventions-ai",
+    "opentelemetry-util-genai",
+    "opentelemetry-util-http",
+    "opentelemetry_api",
+    "opentelemetry_distro",
+    "opentelemetry_exporter_gcp_logging",
+    "opentelemetry_exporter_gcp_monitoring",
+    "opentelemetry_exporter_gcp_trace",
+    "opentelemetry_exporter_otlp",
+    "opentelemetry_exporter_otlp_proto_common",
+    "opentelemetry_exporter_otlp_proto_grpc",
+    "opentelemetry_exporter_otlp_proto_http",
+    "opentelemetry_exporter_prometheus",
+    "opentelemetry_instrumentation",
+    "opentelemetry_instrumentation_aiohttp_client",
+    "opentelemetry_instrumentation_asgi",
+    "opentelemetry_instrumentation_asyncio",
+    "opentelemetry_instrumentation_asyncpg",
+    "opentelemetry_instrumentation_boto3sqs",
+    "opentelemetry_instrumentation_botocore",
+    "opentelemetry_instrumentation_celery",
+    "opentelemetry_instrumentation_dbapi",
+    "opentelemetry_instrumentation_django",
+    "opentelemetry_instrumentation_fastapi",
+    "opentelemetry_instrumentation_flask",
+    "opentelemetry_instrumentation_google_genai",
+    "opentelemetry_instrumentation_grpc",
+    "opentelemetry_instrumentation_httpx",
+    "opentelemetry_instrumentation_kafka_python",
+    "opentelemetry_instrumentation_logging",
+    "opentelemetry_instrumentation_psycopg",
+    "opentelemetry_instrumentation_psycopg2",
+    "opentelemetry_instrumentation_pymongo",
+    "opentelemetry_instrumentation_redis",
+    "opentelemetry_instrumentation_requests",
+    "opentelemetry_instrumentation_sqlalchemy",
+    "opentelemetry_instrumentation_sqlite3",
+    "opentelemetry_instrumentation_starlette",
+    "opentelemetry_instrumentation_system_metrics",
+    "opentelemetry_instrumentation_threading",
+    "opentelemetry_instrumentation_urllib",
+    "opentelemetry_instrumentation_urllib3",
+    "opentelemetry_instrumentation_wsgi",
+    "opentelemetry_propagator_aws_xray",
+    "opentelemetry_proto",
+    "opentelemetry_resource_detector_azure",
+    "opentelemetry_resourcedetector_gcp",
+    "opentelemetry_sdk",
+    "opentelemetry_sdk_extension_aws",
+    "opentelemetry_semantic_conventions",
+    "opentelemetry_semantic_conventions_ai",
+    "opentelemetry_util_genai",
+    "opentelemetry_util_http",
+    "opt-einsum",
+    "opt_einsum",
+    "optree",
+    "optuna",
+    "oracledb",
+    "orbax-checkpoint",
+    "orbax_checkpoint",
+    "ordered-set",
+    "ordered_set",
+    "orderedmultidict",
+    "orderly-set",
+    "orderly_set",
+    "orjson",
+    "ormsgpack",
+    "ortools",
+    "oscrypto",
+    "osqp",
+    "oss2",
+    "outcome",
+    "overrides",
+    "packageurl-python",
+    "packageurl_python",
+    "packaging",
+    "paginate",
+    "paho-mqtt",
+    "paho_mqtt",
+    "pamqp",
+    "pandas",
+    "pandas-gbq",
+    "pandas-stubs",
+    "pandas_gbq",
+    "pandas_stubs",
+    "pandera",
+    "pandocfilters",
+    "papermill",
+    "parameterized",
+    "paramiko",
+    "parse",
+    "parse-type",
+    "parse_type",
+    "parsedatetime",
+    "parsimonious",
+    "parso",
+    "partd",
+    "partial-json-parser",
+    "partial_json_parser",
+    "parver",
+    "passlib",
+    "pastel",
+    "patchelf",
+    "pathable",
+    "pathlib",
+    "pathlib-abc",
+    "pathlib_abc",
+    "pathos",
+    "pathspec",
+    "pathvalidate",
+    "patsy",
+    "pbr",
+    "pbs-installer",
+    "pbs_installer",
+    "pcodedmp",
+    "pdbr",
+    "pdf2image",
+    "pdfminer-six",
+    "pdfminer_six",
+    "pdfplumber",
+    "pdm",
+    "peewee",
+    "pefile",
+    "peft",
+    "pendulum",
+    "pep517",
+    "pex",
+    "pexpect",
+    "pfzy",
+    "pg8000",
+    "pglast",
+    "pgpy",
+    "pgvector",
+    "phonenumbers",
+    "pi-heif",
+    "pi_heif",
+    "pickleshare",
+    "pika",
+    "pikepdf",
+    "pillow",
+    "pillow-heif",
+    "pillow_heif",
+    "pinecone",
+    "pinotdb",
+    "pint",
+    "pip",
+    "pip-api",
+    "pip-audit",
+    "pip-requirements-parser",
+    "pip-tools",
+    "pip_api",
+    "pip_audit",
+    "pip_requirements_parser",
+    "pip_tools",
+    "pipdeptree",
+    "pipenv",
+    "pipx",
+    "pkgconfig",
+    "pkginfo",
+    "pkgutil-resolve-name",
+    "pkgutil_resolve_name",
+    "platformdirs",
+    "playwright",
+    "plotly",
+    "pluggy",
+    "plumbum",
+    "ply",
+    "poethepoet",
+    "poetry",
+    "poetry-core",
+    "poetry-plugin-export",
+    "poetry_core",
+    "poetry_plugin_export",
+    "polars",
+    "polars-runtime-32",
+    "polars_runtime_32",
+    "polib",
+    "polyfactory",
+    "pooch",
+    "port-for",
+    "port_for",
+    "portalocker",
+    "postgrest",
+    "posthog",
+    "pox",
+    "ppft",
+    "pprintpp",
+    "prance",
+    "pre-commit",
+    "pre_commit",
+    "prefect",
+    "prefect-aws",
+    "prefect_aws",
+    "prek",
+    "preshed",
+    "presidio-analyzer",
+    "presidio_analyzer",
+    "prettytable",
+    "primp",
+    "priority",
+    "prison",
+    "probableparsing",
+    "proglog",
+    "progressbar2",
+    "prometheus-client",
+    "prometheus-fastapi-instrumentator",
+    "prometheus_client",
+    "prometheus_fastapi_instrumentator",
+    "prompt-toolkit",
+    "prompt_toolkit",
+    "propcache",
+    "prophet",
+    "protego",
+    "proto-plus",
+    "proto_plus",
+    "protobuf",
+    "protobuf3-to-dict",
+    "protobuf3_to_dict",
+    "psutil",
+    "psycopg",
+    "psycopg-binary",
+    "psycopg-pool",
+    "psycopg2",
+    "psycopg2-binary",
+    "psycopg2_binary",
+    "psycopg_binary",
+    "psycopg_pool",
+    "ptyprocess",
+    "publication",
+    "publicsuffix2",
+    "pulp",
+    "pulumi",
+    "pulumi-aws",
+    "pulumi_aws",
+    "pure-eval",
+    "pure-sasl",
+    "pure_eval",
+    "pure_sasl",
+    "puremagic",
+    "py",
+    "py-cpuinfo",
+    "py-key-value-aio",
+    "py-key-value-shared",
+    "py-partiql-parser",
+    "py-serializable",
+    "py-spy",
+    "py-vapid",
+    "py4j",
+    "py7zr",
+    "py_cpuinfo",
+    "py_key_value_aio",
+    "py_key_value_shared",
+    "py_partiql_parser",
+    "py_serializable",
+    "py_spy",
+    "py_vapid",
+    "pyahocorasick",
+    "pyaml",
+    "pyarrow",
+    "pyarrow-hotfix",
+    "pyarrow_hotfix",
+    "pyasn1",
+    "pyasn1-modules",
+    "pyasn1_modules",
+    "pyathena",
+    "pybase64",
+    "pybcj",
+    "pybind11",
+    "pybreaker",
+    "pycares",
+    "pycarlo",
+    "pyclipper",
+    "pycodestyle",
+    "pycomposefile",
+    "pycountry",
+    "pycparser",
+    "pycrypto",
+    "pycryptodome",
+    "pycryptodomex",
+    "pydantic",
+    "pydantic-ai",
+    "pydantic-ai-slim",
+    "pydantic-core",
+    "pydantic-evals",
+    "pydantic-extra-types",
+    "pydantic-graph",
+    "pydantic-settings",
+    "pydantic_ai",
+    "pydantic_ai_slim",
+    "pydantic_core",
+    "pydantic_evals",
+    "pydantic_extra_types",
+    "pydantic_graph",
+    "pydantic_settings",
+    "pydash",
+    "pydata-google-auth",
+    "pydata_google_auth",
+    "pydeck",
+    "pydeequ",
+    "pydocket",
+    "pydot",
+    "pydub",
+    "pydyf",
+    "pyee",
+    "pyelftools",
+    "pyfiglet",
+    "pyflakes",
+    "pygit2",
+    "pygithub",
+    "pygments",
+    "pygtrie",
+    "pyhanko",
+    "pyhanko-certvalidator",
+    "pyhanko_certvalidator",
+    "pyhcl",
+    "pyhive",
+    "pyhumps",
+    "pyiceberg",
+    "pyiceberg-core",
+    "pyiceberg_core",
+    "pyinstaller",
+    "pyinstaller-hooks-contrib",
+    "pyinstaller_hooks_contrib",
+    "pyinstrument",
+    "pyjwt",
+    "pylatexenc",
+    "pylint",
+    "pylsqpack",
+    "pyluach",
+    "pymdown-extensions",
+    "pymdown_extensions",
+    "pymilvus",
+    "pymongo",
+    "pympler",
+    "pymssql",
+    "pymsteams",
+    "pymupdf",
+    "pymupdf-layout",
+    "pymupdf4llm",
+    "pymupdf_layout",
+    "pymysql",
+    "pynacl",
+    "pynndescent",
+    "pyodbc",
+    "pyogrio",
+    "pyopengl",
+    "pyopenssl",
+    "pyotp",
+    "pypandoc",
+    "pyparsing",
+    "pypdf",
+    "pypdf2",
+    "pypdfium2",
+    "pyperclip",
+    "pyphen",
+    "pypika",
+    "pypng",
+    "pyppmd",
+    "pyproj",
+    "pyproject-api",
+    "pyproject-hooks",
+    "pyproject-metadata",
+    "pyproject_api",
+    "pyproject_hooks",
+    "pyproject_metadata",
+    "pyrate-limiter",
+    "pyrate_limiter",
+    "pyreadline3",
+    "pyrefly",
+    "pyrfc3339",
+    "pyright",
+    "pyroaring",
+    "pyroscope-io",
+    "pyroscope_io",
+    "pyrsistent",
+    "pyserial",
+    "pysftp",
+    "pysocks",
+    "pyspark",
+    "pyspnego",
+    "pytablewriter",
+    "pytesseract",
+    "pytest",
+    "pytest-aiohttp",
+    "pytest-asyncio",
+    "pytest-base-url",
+    "pytest-benchmark",
+    "pytest-cov",
+    "pytest-custom-exit-code",
+    "pytest-django",
+    "pytest-env",
+    "pytest-forked",
+    "pytest-homeassistant-custom-component",
+    "pytest-html",
+    "pytest-httpx",
+    "pytest-icdiff",
+    "pytest-json-ctrf",
+    "pytest-json-report",
+    "pytest-metadata",
+    "pytest-mock",
+    "pytest-order",
+    "pytest-playwright",
+    "pytest-postgresql",
+    "pytest-randomly",
+    "pytest-repeat",
+    "pytest-rerunfailures",
+    "pytest-runner",
+    "pytest-socket",
+    "pytest-split",
+    "pytest-sugar",
+    "pytest-timeout",
+    "pytest-unordered",
+    "pytest-xdist",
+    "pytest_aiohttp",
+    "pytest_asyncio",
+    "pytest_base_url",
+    "pytest_benchmark",
+    "pytest_cov",
+    "pytest_custom_exit_code",
+    "pytest_django",
+    "pytest_env",
+    "pytest_forked",
+    "pytest_homeassistant_custom_component",
+    "pytest_html",
+    "pytest_httpx",
+    "pytest_icdiff",
+    "pytest_json_ctrf",
+    "pytest_json_report",
+    "pytest_metadata",
+    "pytest_mock",
+    "pytest_order",
+    "pytest_playwright",
+    "pytest_postgresql",
+    "pytest_randomly",
+    "pytest_repeat",
+    "pytest_rerunfailures",
+    "pytest_runner",
+    "pytest_socket",
+    "pytest_split",
+    "pytest_sugar",
+    "pytest_timeout",
+    "pytest_unordered",
+    "pytest_xdist",
+    "python",
+    "python-bidi",
+    "python-box",
+    "python-calamine",
+    "python-crfsuite",
+    "python-crontab",
+    "python-daemon",
+    "python-dateutil",
+    "python-decouple",
+    "python-discovery",
+    "python-docx",
+    "python-dotenv",
+    "python-engineio",
+    "python-frontmatter",
+    "python-gitlab",
+    "python-gnupg",
+    "python-hcl2",
+    "python-http-client",
+    "python-jenkins",
+    "python-jose",
+    "python-json-logger",
+    "python-keycloak",
+    "python-levenshtein",
+    "python-magic",
+    "python-multipart",
+    "python-on-whales",
+    "python-pptx",
+    "python-slugify",
+    "python-snappy",
+    "python-socketio",
+    "python-socks",
+    "python-stdnum",
+    "python-tds",
+    "python-telegram-bot",
+    "python-ulid",
+    "python-utils",
+    "python3-openid",
+    "python3-saml",
+    "python3_openid",
+    "python3_saml",
+    "python_bidi",
+    "python_box",
+    "python_calamine",
+    "python_crfsuite",
+    "python_crontab",
+    "python_daemon",
+    "python_dateutil",
+    "python_decouple",
+    "python_discovery",
+    "python_docx",
+    "python_dotenv",
+    "python_engineio",
+    "python_frontmatter",
+    "python_gitlab",
+    "python_gnupg",
+    "python_hcl2",
+    "python_http_client",
+    "python_jenkins",
+    "python_jose",
+    "python_json_logger",
+    "python_keycloak",
+    "python_levenshtein",
+    "python_magic",
+    "python_multipart",
+    "python_on_whales",
+    "python_pptx",
+    "python_slugify",
+    "python_snappy",
+    "python_socketio",
+    "python_socks",
+    "python_stdnum",
+    "python_tds",
+    "python_telegram_bot",
+    "python_ulid",
+    "python_utils",
+    "pytimeparse",
+    "pytokens",
+    "pytorch",
+    "pytorch-lightning",
+    "pytorch_lightning",
+    "pytz",
+    "pytzdata",
+    "pyvespa",
+    "pywavelets",
+    "pywebpush",
+    "pywin32",
+    "pywin32-ctypes",
+    "pywin32_ctypes",
+    "pyxlsb",
+    "pyyaml",
+    "pyyaml-env-tag",
+    "pyyaml-ft",
+    "pyyaml_env_tag",
+    "pyyaml_ft",
+    "pyzipper",
+    "pyzmq",
+    "pyzstd",
+    "qdrant-client",
+    "qdrant_client",
+    "qrcode",
+    "quack-kernels",
+    "quack_kernels",
+    "questionary",
+    "radon",
+    "rank-bm25",
+    "rank_bm25",
+    "rapidfuzz",
+    "rasterio",
+    "ratelimit",
+    "ray",
+    "rdflib",
+    "reactivex",
+    "readchar",
+    "readme-renderer",
+    "readme_renderer",
+    "realtime",
+    "redis",
+    "redshift-connector",
+    "redshift_connector",
+    "referencing",
+    "regex",
+    "reportlab",
+    "requests",
+    "requests-aws4auth",
+    "requests-cache",
+    "requests-file",
+    "requests-mock",
+    "requests-ntlm",
+    "requests-oauthlib",
+    "requests-toolbelt",
+    "requests_aws4auth",
+    "requests_cache",
+    "requests_file",
+    "requests_mock",
+    "requests_ntlm",
+    "requests_oauthlib",
+    "requests_toolbelt",
+    "requirements-parser",
+    "requirements_parser",
+    "resend",
+    "resolvelib",
+    "responses",
+    "respx",
+    "restrictedpython",
+    "restructuredtext-lint",
+    "restructuredtext_lint",
+    "retry",
+    "retrying",
+    "rfc3339-validator",
+    "rfc3339_validator",
+    "rfc3986",
+    "rfc3986-validator",
+    "rfc3986_validator",
+    "rfc3987-syntax",
+    "rfc3987_syntax",
+    "rich",
+    "rich-argparse",
+    "rich-click",
+    "rich-rst",
+    "rich-toolkit",
+    "rich_argparse",
+    "rich_click",
+    "rich_rst",
+    "rich_toolkit",
+    "rignore",
+    "rlp",
+    "roman-numerals",
+    "roman_numerals",
+    "rouge-score",
+    "rouge_score",
+    "rpds-py",
+    "rpds_py",
+    "rq",
+    "rsa",
+    "rtfde",
+    "rtree",
+    "ruamel-yaml",
+    "ruamel-yaml-clib",
+    "ruamel_yaml",
+    "ruamel_yaml_clib",
+    "ruff",
+    "rustworkx",
+    "s3fs",
+    "s3transfer",
+    "safehttpx",
+    "safetensors",
+    "sagemaker",
+    "sagemaker-core",
+    "sagemaker-studio",
+    "sagemaker_core",
+    "sagemaker_studio",
+    "scantree",
+    "schedule",
+    "schema",
+    "schemathesis",
+    "scikit-build-core",
+    "scikit-image",
+    "scikit-learn",
+    "scikit_build_core",
+    "scikit_image",
+    "scikit_learn",
+    "scipy",
+    "scp",
+    "scramp",
+    "screeninfo",
+    "scs",
+    "seaborn",
+    "secretstorage",
+    "segment-analytics-python",
+    "segment_analytics_python",
+    "selectolax",
+    "selenium",
+    "semantic-version",
+    "semantic_version",
+    "semgrep",
+    "semver",
+    "send2trash",
+    "sendgrid",
+    "sentence-transformers",
+    "sentence_transformers",
+    "sentencepiece",
+    "sentinels",
+    "sentry-sdk",
+    "sentry_sdk",
+    "service-identity",
+    "service_identity",
+    "setproctitle",
+    "setuptools",
+    "setuptools-rust",
+    "setuptools-scm",
+    "setuptools_rust",
+    "setuptools_scm",
+    "sglang",
+    "sgmllib3k",
+    "sh",
+    "shap",
+    "shapely",
+    "shellingham",
+    "shortuuid",
+    "simple-gcp-object-downloader",
+    "simple-salesforce",
+    "simple-websocket",
+    "simple_gcp_object_downloader",
+    "simple_salesforce",
+    "simple_websocket",
+    "simpleeval",
+    "simplejson",
+    "singer-sdk",
+    "singer_sdk",
+    "six",
+    "sklearn",
+    "skops",
+    "slack-bolt",
+    "slack-sdk",
+    "slack_bolt",
+    "slack_sdk",
+    "slackclient",
+    "slicer",
+    "slowapi",
+    "smart-open",
+    "smart_open",
+    "smbprotocol",
+    "smdebug-rulesconfig",
+    "smdebug_rulesconfig",
+    "smmap",
+    "sniffio",
+    "snowballstemmer",
+    "snowflake-connector-python",
+    "snowflake-core",
+    "snowflake-snowpark-python",
+    "snowflake-sqlalchemy",
+    "snowflake_connector_python",
+    "snowflake_core",
+    "snowflake_snowpark_python",
+    "snowflake_sqlalchemy",
+    "snowplow-tracker",
+    "snowplow_tracker",
+    "social-auth-app-django",
+    "social-auth-core",
+    "social_auth_app_django",
+    "social_auth_core",
+    "socksio",
+    "sortedcontainers",
+    "sounddevice",
+    "soundfile",
+    "soupsieve",
+    "soxr",
+    "spacy",
+    "spacy-legacy",
+    "spacy-loggers",
+    "spacy_legacy",
+    "spacy_loggers",
+    "sparklines",
+    "speechrecognition",
+    "sphinx",
+    "sphinx-autodoc-typehints",
+    "sphinx-copybutton",
+    "sphinx-design",
+    "sphinx-rtd-theme",
+    "sphinx_autodoc_typehints",
+    "sphinx_copybutton",
+    "sphinx_design",
+    "sphinx_rtd_theme",
+    "sphinxcontrib-applehelp",
+    "sphinxcontrib-devhelp",
+    "sphinxcontrib-htmlhelp",
+    "sphinxcontrib-jquery",
+    "sphinxcontrib-jsmath",
+    "sphinxcontrib-mermaid",
+    "sphinxcontrib-qthelp",
+    "sphinxcontrib-serializinghtml",
+    "sphinxcontrib_applehelp",
+    "sphinxcontrib_devhelp",
+    "sphinxcontrib_htmlhelp",
+    "sphinxcontrib_jquery",
+    "sphinxcontrib_jsmath",
+    "sphinxcontrib_mermaid",
+    "sphinxcontrib_qthelp",
+    "sphinxcontrib_serializinghtml",
+    "sql-metadata",
+    "sql_metadata",
+    "sqlalchemy",
+    "sqlalchemy-bigquery",
+    "sqlalchemy-spanner",
+    "sqlalchemy-utils",
+    "sqlalchemy_bigquery",
+    "sqlalchemy_spanner",
+    "sqlalchemy_utils",
+    "sqlfluff",
+    "sqlglot",
+    "sqlite-vec",
+    "sqlite_vec",
+    "sqlmodel",
+    "sqlparams",
+    "sqlparse",
+    "srsly",
+    "sse-starlette",
+    "sse_starlette",
+    "sseclient-py",
+    "sseclient_py",
+    "sshtunnel",
+    "stack-data",
+    "stack_data",
+    "stamina",
+    "stanio",
+    "starkbank-ecdsa",
+    "starkbank_ecdsa",
+    "starlette",
+    "statsd",
+    "statsmodels",
+    "std-uritemplate",
+    "std_uritemplate",
+    "stevedore",
+    "storage3",
+    "strands-agents",
+    "strands_agents",
+    "strawberry-graphql",
+    "strawberry_graphql",
+    "streamlit",
+    "strenum",
+    "strictyaml",
+    "stringcase",
+    "stripe",
+    "striprtf",
+    "structlog",
+    "subprocess-tee",
+    "subprocess_tee",
+    "supabase",
+    "supabase-auth",
+    "supabase-functions",
+    "supabase_auth",
+    "supabase_functions",
+    "supervisor",
+    "svcs",
+    "svglib",
+    "svix",
+    "swebench",
+    "swesmith",
+    "swifter",
+    "sympy",
+    "synchronicity",
+    "syrupy",
+    "tableauserverclient",
+    "tabledata",
+    "tabulate",
+    "tavily-python",
+    "tavily_python",
+    "tblib",
+    "temporalio",
+    "tenacity",
+    "tensorboard",
+    "tensorboard-data-server",
+    "tensorboard_data_server",
+    "tensorflow",
+    "tensorflow-estimator",
+    "tensorflow-io-gcs-filesystem",
+    "tensorflow_estimator",
+    "tensorflow_io_gcs_filesystem",
+    "teradatasql",
+    "termcolor",
+    "terminado",
+    "terminaltables",
+    "testcontainers",
+    "text-unidecode",
+    "text_unidecode",
+    "texttable",
+    "textual",
+    "textual-speedups",
+    "textual_speedups",
+    "thefuzz",
+    "thinc",
+    "threadpoolctl",
+    "thrift",
+    "thrift-sasl",
+    "thrift_sasl",
+    "tifffile",
+    "tiktoken",
+    "time-machine",
+    "time_machine",
+    "timezonefinder",
+    "timm",
+    "tinycss2",
+    "tinyhtml5",
+    "tld",
+    "tldextract",
+    "tokenize-rt",
+    "tokenize_rt",
+    "tokenizers",
+    "tom-swe",
+    "tom_swe",
+    "toml",
+    "tomli",
+    "tomli-w",
+    "tomli_w",
+    "tomlkit",
+    "toolz",
+    "toons",
+    "toposort",
+    "torch",
+    "torchaudio",
+    "torchmetrics",
+    "torchvision",
+    "tornado",
+    "tox",
+    "tox-uv",
+    "tox_uv",
+    "tqdm",
+    "trafilatura",
+    "traitlets",
+    "transformers",
+    "tree-sitter",
+    "tree-sitter-bash",
+    "tree-sitter-c",
+    "tree-sitter-c-sharp",
+    "tree-sitter-embedded-template",
+    "tree-sitter-go",
+    "tree-sitter-java",
+    "tree-sitter-javascript",
+    "tree-sitter-language-pack",
+    "tree-sitter-languages",
+    "tree-sitter-php",
+    "tree-sitter-python",
+    "tree-sitter-ruby",
+    "tree-sitter-rust",
+    "tree-sitter-typescript",
+    "tree-sitter-yaml",
+    "tree_sitter",
+    "tree_sitter_bash",
+    "tree_sitter_c",
+    "tree_sitter_c_sharp",
+    "tree_sitter_embedded_template",
+    "tree_sitter_go",
+    "tree_sitter_java",
+    "tree_sitter_javascript",
+    "tree_sitter_language_pack",
+    "tree_sitter_languages",
+    "tree_sitter_php",
+    "tree_sitter_python",
+    "tree_sitter_ruby",
+    "tree_sitter_rust",
+    "tree_sitter_typescript",
+    "tree_sitter_yaml",
+    "trimesh",
+    "trino",
+    "trio",
+    "trio-websocket",
+    "trio_websocket",
+    "triton",
+    "tritonclient",
+    "trove-classifiers",
+    "trove_classifiers",
+    "truststore",
+    "twilio",
+    "twine",
+    "twisted",
+    "txaio",
+    "ty",
+    "typedload",
+    "typeguard",
+    "typepy",
+    "typer",
+    "typer-slim",
+    "typer_slim",
+    "types-aioboto3",
+    "types-aiobotocore",
+    "types-aiobotocore-s3",
+    "types-aiofiles",
+    "types-awscrt",
+    "types-boto3",
+    "types-boto3-s3",
+    "types-cachetools",
+    "types-certifi",
+    "types-cffi",
+    "types-croniter",
+    "types-deprecated",
+    "types-docutils",
+    "types-html5lib",
+    "types-jsonschema",
+    "types-markdown",
+    "types-openpyxl",
+    "types-paramiko",
+    "types-protobuf",
+    "types-psutil",
+    "types-psycopg2",
+    "types-pymysql",
+    "types-pyopenssl",
+    "types-python-dateutil",
+    "types-python-slugify",
+    "types-pytz",
+    "types-pyyaml",
+    "types-redis",
+    "types-requests",
+    "types-retry",
+    "types-s3transfer",
+    "types-setuptools",
+    "types-tabulate",
+    "types-toml",
+    "types-tqdm",
+    "types-urllib3",
+    "types-webencodings",
+    "types_aioboto3",
+    "types_aiobotocore",
+    "types_aiobotocore_s3",
+    "types_aiofiles",
+    "types_awscrt",
+    "types_boto3",
+    "types_boto3_s3",
+    "types_cachetools",
+    "types_certifi",
+    "types_cffi",
+    "types_croniter",
+    "types_deprecated",
+    "types_docutils",
+    "types_html5lib",
+    "types_jsonschema",
+    "types_markdown",
+    "types_openpyxl",
+    "types_paramiko",
+    "types_protobuf",
+    "types_psutil",
+    "types_psycopg2",
+    "types_pymysql",
+    "types_pyopenssl",
+    "types_python_dateutil",
+    "types_python_slugify",
+    "types_pytz",
+    "types_pyyaml",
+    "types_redis",
+    "types_requests",
+    "types_retry",
+    "types_s3transfer",
+    "types_setuptools",
+    "types_tabulate",
+    "types_toml",
+    "types_tqdm",
+    "types_urllib3",
+    "types_webencodings",
+    "typing-extensions",
+    "typing-inspect",
+    "typing-inspection",
+    "typing_extensions",
+    "typing_inspect",
+    "typing_inspection",
+    "tyro",
+    "tzdata",
+    "tzlocal",
+    "ua-parser",
+    "ua-parser-builtins",
+    "ua_parser",
+    "ua_parser_builtins",
+    "uamqp",
+    "uc-micro-py",
+    "uc_micro_py",
+    "ujson",
+    "ultralytics",
+    "ultralytics-thop",
+    "ultralytics_thop",
+    "umap-learn",
+    "umap_learn",
+    "uncalled-for",
+    "uncalled_for",
+    "unearth",
+    "unicodecsv",
+    "unidecode",
+    "unidiff",
+    "unittest-xml-reporting",
+    "unittest_xml_reporting",
+    "universal-pathlib",
+    "universal_pathlib",
+    "unstructured-client",
+    "unstructured_client",
+    "uri-template",
+    "uri_template",
+    "uritemplate",
+    "uritools",
+    "url-normalize",
+    "url_normalize",
+    "urllib3",
+    "urwid",
+    "usaddress",
+    "user-agents",
+    "user_agents",
+    "userpath",
+    "uuid-utils",
+    "uuid6",
+    "uuid7",
+    "uuid_utils",
+    "uv",
+    "uv-build",
+    "uv-dynamic-versioning",
+    "uv_build",
+    "uv_dynamic_versioning",
+    "uvicorn",
+    "uvicorn-worker",
+    "uvicorn_worker",
+    "uvloop",
+    "validators",
+    "vcrpy",
+    "vcs-versioning",
+    "vcs_versioning",
+    "vine",
+    "virtualenv",
+    "voluptuous",
+    "vulture",
+    "w3lib",
+    "waitress",
+    "wandb",
+    "wasabi",
+    "watchdog",
+    "watchfiles",
+    "watchtower",
+    "wcmatch",
+    "wcwidth",
+    "weasel",
+    "weasyprint",
+    "weaviate-client",
+    "weaviate_client",
+    "web3",
+    "webauthn",
+    "webcolors",
+    "webdriver-manager",
+    "webdriver_manager",
+    "webencodings",
+    "webob",
+    "websocket-client",
+    "websocket_client",
+    "websockets",
+    "werkzeug",
+    "wheel",
+    "whenever",
+    "whitenoise",
+    "widgetsnbextension",
+    "wikipedia-api",
+    "wikipedia_api",
+    "wirerope",
+    "workos",
+    "wrapt",
+    "wsproto",
+    "wtforms",
+    "xarray",
+    "xattr",
+    "xgboost",
+    "xgrammar",
+    "xlrd",
+    "xlsxwriter",
+    "xlwt",
+    "xmlschema",
+    "xmlsec",
+    "xmltodict",
+    "xxhash",
+    "xyzservices",
+    "yamllint",
+    "yandexcloud",
+    "yapf",
+    "yarl",
+    "ydb",
+    "yfinance",
+    "youtube-transcript-api",
+    "youtube_transcript_api",
+    "yt-dlp",
+    "yt_dlp",
+    "z3-solver",
+    "z3_solver",
+    "zarr",
+    "zeep",
+    "zipp",
+    "zope-event",
+    "zope-interface",
+    "zope_event",
+    "zope_interface",
+    "zopfli",
+    "zstandard",
+    "zstd",
+    "zxcvbn"
+  ],
+  "synonyms": {
+    "pytorch": "torch",
+    "sklearn": "scikit-learn",
+    "k8s": "kubernetes"
+  },
+  "version_ranges": {
+    "nvidia-nccl-cu12": [
+      0.0,
+      3.0
+    ],
+    "opentelemetry-instrumentation-aiohttp-client": [
+      0.0,
+      1.0
+    ],
+    "dunamai": [
+      0.0,
+      2.0
+    ],
+    "azure-storage-file-share": [
+      0.0,
+      13.0
+    ],
+    "responses": [
+      0.0,
+      1.0
+    ],
+    "cymem": [
+      0.0,
+      3.0
+    ],
+    "brotli": [
+      0.0,
+      2.0
+    ],
+    "pyhumps": [
+      0.0,
+      4.0
+    ],
+    "matplotlib": [
+      0.0,
+      4.0
+    ],
+    "langgraph-prebuilt": [
+      0.0,
+      2.0
+    ],
+    "reportlab": [
+      0.0,
+      6.0
+    ],
+    "google-auth": [
+      0.0,
+      3.0
+    ],
+    "pyopengl": [
+      0.0,
+      4.0
+    ],
+    "databricks-labs-lsql": [
+      0.0,
+      1.0
+    ],
+    "gradio-client": [
+      0.0,
+      3.0
+    ],
+    "pytest-aiohttp": [
+      0.0,
+      2.0
+    ],
+    "redshift-connector": [
+      0.0,
+      3.0
+    ],
+    "launchdarkly-eventsource": [
+      0.0,
+      2.0
+    ],
+    "pytest-xdist": [
+      0.0,
+      4.0
+    ],
+    "genson": [
+      0.0,
+      2.0
+    ],
+    "flask-session": [
+      0.0,
+      1.0
+    ],
+    "optree": [
+      0.0,
+      1.0
+    ],
+    "stack-data": [
+      0.0,
+      1.0
+    ],
+    "google-auth-httplib2": [
+      0.0,
+      1.0
+    ],
+    "opentelemetry-instrumentation-redis": [
+      0.0,
+      1.0
+    ],
+    "platformdirs": [
+      0.0,
+      5.0
+    ],
+    "w3lib": [
+      0.0,
+      3.0
+    ],
+    "google-cloud-managedkafka": [
+      0.0,
+      1.0
+    ],
+    "pyjwt": [
+      0.0,
+      3.0
+    ],
+    "langchain-google-genai": [
+      0.0,
+      5.0
+    ],
+    "llama-index": [
+      0.0,
+      1.0
+    ],
+    "stringcase": [
+      0.0,
+      2.0
+    ],
+    "defusedxml": [
+      0.0,
+      1.0
+    ],
+    "amazon-ion": [
+      0.0,
+      1.0
+    ],
+    "tokenizers": [
+      0.0,
+      1.0
+    ],
+    "uuid7": [
+      0.0,
+      1.0
+    ],
+    "leather": [
+      0.0,
+      1.0
+    ],
+    "cron-descriptor": [
+      0.0,
+      3.0
+    ],
+    "pyrefly": [
+      0.0,
+      2.0
+    ],
+    "google-cloud-storage-control": [
+      0.0,
+      2.0
+    ],
+    "google-cloud-os-login": [
+      0.0,
+      3.0
+    ],
+    "jupyterlab": [
+      0.0,
+      5.0
+    ],
+    "oss2": [
+      0.0,
+      3.0
+    ],
+    "nvidia-cuda-nvrtc": [
+      0.0,
+      14.0
+    ],
+    "pathos": [
+      0.0,
+      1.0
+    ],
+    "url-normalize": [
+      0.0,
+      4.0
+    ],
+    "appdirs": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-instrumentation-httpx": [
+      0.0,
+      1.0
+    ],
+    "eth-typing": [
+      0.0,
+      7.0
+    ],
+    "opentelemetry-exporter-prometheus": [
+      0.0,
+      1.0
+    ],
+    "banks": [
+      0.0,
+      3.0
+    ],
+    "cachebox": [
+      0.0,
+      7.0
+    ],
+    "lancedb": [
+      0.0,
+      1.0
+    ],
+    "azure-mgmt-media": [
+      0.0,
+      11.0
+    ],
+    "geventhttpclient": [
+      0.0,
+      3.0
+    ],
+    "edge-tts": [
+      0.0,
+      8.0
+    ],
+    "pytest-split": [
+      0.0,
+      1.0
+    ],
+    "nh3": [
+      0.0,
+      1.0
+    ],
+    "msgpack": [
+      0.0,
+      2.0
+    ],
+    "sqlite-vec": [
+      0.0,
+      1.0
+    ],
+    "pyhanko-certvalidator": [
+      0.0,
+      1.0
+    ],
+    "caio": [
+      0.0,
+      1.0
+    ],
+    "grpclib": [
+      0.0,
+      1.0
+    ],
+    "func-timeout": [
+      0.0,
+      5.0
+    ],
+    "azure-mgmt-storage": [
+      0.0,
+      26.0
+    ],
+    "nvidia-cudnn-cu12": [
+      0.0,
+      10.0
+    ],
+    "ndg-httpsclient": [
+      0.0,
+      1.0
+    ],
+    "tree-sitter-javascript": [
+      0.0,
+      1.0
+    ],
+    "google-api-python-client": [
+      0.0,
+      3.0
+    ],
+    "fastcore": [
+      0.0,
+      3.0
+    ],
+    "markupsafe": [
+      0.0,
+      4.0
+    ],
+    "schema": [
+      0.0,
+      1.0
+    ],
+    "pypdf": [
+      0.0,
+      7.0
+    ],
+    "msal-extensions": [
+      0.0,
+      2.0
+    ],
+    "hpack": [
+      0.0,
+      5.0
+    ],
+    "neo4j": [
+      0.0,
+      7.0
+    ],
+    "ipython-genutils": [
+      0.0,
+      1.0
+    ],
+    "ipython-pygments-lexers": [
+      0.0,
+      2.0
+    ],
+    "xmltodict": [
+      0.0,
+      2.0
+    ],
+    "genai-prices": [
+      0.0,
+      1.0
+    ],
+    "google-cloud-aiplatform": [
+      0.0,
+      3.0
+    ],
+    "google-cloud-kms": [
+      0.0,
+      4.0
+    ],
+    "async-lru": [
+      0.0,
+      3.0
+    ],
+    "django-ipware": [
+      0.0,
+      8.0
+    ],
+    "python-dotenv": [
+      0.0,
+      2.0
+    ],
+    "delta-spark": [
+      0.0,
+      5.0
+    ],
+    "probableparsing": [
+      0.0,
+      1.0
+    ],
+    "types-webencodings": [
+      0.0,
+      1.0
+    ],
+    "nemo-relay": [
+      0.0,
+      1.0
+    ],
+    "azure-synapse-spark": [
+      0.0,
+      1.0
+    ],
+    "oscrypto": [
+      0.0,
+      2.0
+    ],
+    "xxhash": [
+      0.0,
+      5.0
+    ],
+    "icalendar": [
+      0.0,
+      8.0
+    ],
+    "databricks-connect": [
+      0.0,
+      20.0
+    ],
+    "hexbytes": [
+      0.0,
+      3.0
+    ],
+    "highspy": [
+      0.0,
+      2.0
+    ],
+    "bottle": [
+      0.0,
+      1.0
+    ],
+    "wtforms": [
+      0.0,
+      4.0
+    ],
+    "nvidia-curand": [
+      0.0,
+      11.0
+    ],
+    "azure-mgmt-servicefabric": [
+      0.0,
+      3.0
+    ],
+    "drf-spectacular": [
+      0.0,
+      1.0
+    ],
+    "pyxlsb": [
+      0.0,
+      2.0
+    ],
+    "azure-mgmt-core": [
+      0.0,
+      2.0
+    ],
+    "shortuuid": [
+      0.0,
+      2.0
+    ],
+    "browser-harness": [
+      0.0,
+      1.0
+    ],
+    "asyncio": [
+      0.0,
+      5.0
+    ],
+    "google-ads": [
+      0.0,
+      32.0
+    ],
+    "djangorestframework": [
+      0.0,
+      4.0
+    ],
+    "opentelemetry-propagator-aws-xray": [
+      0.0,
+      2.0
+    ],
+    "mistralai": [
+      0.0,
+      3.0
+    ],
+    "google-cloud-container": [
+      0.0,
+      3.0
+    ],
+    "motor": [
+      0.0,
+      4.0
+    ],
+    "types-certifi": [
+      0.0,
+      2022.0
+    ],
+    "requests-toolbelt": [
+      0.0,
+      2.0
+    ],
+    "sqlalchemy-bigquery": [
+      0.0,
+      2.0
+    ],
+    "pypdf2": [
+      0.0,
+      4.0
+    ],
+    "multivolumefile": [
+      0.0,
+      1.0
+    ],
+    "pydantic-extra-types": [
+      0.0,
+      3.0
+    ],
+    "gunicorn": [
+      0.0,
+      27.0
+    ],
+    "httpx2-jsfetch": [
+      0.0,
+      2.0
+    ],
+    "xmlsec": [
+      0.0,
+      2.0
+    ],
+    "cloudpickle": [
+      0.0,
+      4.0
+    ],
+    "mitmproxy": [
+      0.0,
+      13.0
+    ],
+    "tox-uv": [
+      0.0,
+      2.0
+    ],
+    "clarabel": [
+      0.0,
+      1.0
+    ],
+    "microsoft-kiota-serialization-text": [
+      0.0,
+      2.0
+    ],
+    "keras": [
+      0.0,
+      4.0
+    ],
+    "snowflake-snowpark-python": [
+      0.0,
+      2.0
+    ],
+    "snowballstemmer": [
+      0.0,
+      4.0
+    ],
+    "django-cors-headers": [
+      0.0,
+      5.0
+    ],
+    "facebook-business": [
+      0.0,
+      27.0
+    ],
+    "mkdocstrings": [
+      0.0,
+      2.0
+    ],
+    "greenback": [
+      0.0,
+      2.0
+    ],
+    "graphene": [
+      0.0,
+      4.0
+    ],
+    "opentelemetry-instrumentation-kafka-python": [
+      0.0,
+      1.0
+    ],
+    "dask-expr": [
+      0.0,
+      3.0
+    ],
+    "granian": [
+      0.0,
+      3.0
+    ],
+    "pynndescent": [
+      0.0,
+      1.0
+    ],
+    "termcolor": [
+      0.0,
+      4.0
+    ],
+    "ast-serialize": [
+      0.0,
+      1.0
+    ],
+    "netaddr": [
+      0.0,
+      2.0
+    ],
+    "importlib-metadata": [
+      0.0,
+      10.0
+    ],
+    "py-vapid": [
+      0.0,
+      2.0
+    ],
+    "snowflake-connector-python": [
+      0.0,
+      5.0
+    ],
+    "click": [
+      0.0,
+      9.0
+    ],
+    "triton": [
+      0.0,
+      4.0
+    ],
+    "mypy-boto3-dynamodb": [
+      0.0,
+      2.0
+    ],
+    "pytest-homeassistant-custom-component": [
+      0.0,
+      1.0
+    ],
+    "djangorestframework-stubs": [
+      0.0,
+      4.0
+    ],
+    "allure-python-commons": [
+      0.0,
+      3.0
+    ],
+    "methodtools": [
+      0.0,
+      1.0
+    ],
+    "opencensus-ext-azure": [
+      0.0,
+      2.0
+    ],
+    "fire": [
+      0.0,
+      1.0
+    ],
+    "notebook-shim": [
+      0.0,
+      1.0
+    ],
+    "llama-index-core": [
+      0.0,
+      1.0
+    ],
+    "mkdocstrings-python": [
+      0.0,
+      3.0
+    ],
+    "sagemaker": [
+      0.0,
+      4.0
+    ],
+    "wheel": [
+      0.0,
+      1.0
+    ],
+    "yapf": [
+      0.0,
+      1.0
+    ],
+    "alibabacloud-tea-openapi": [
+      0.0,
+      1.0
+    ],
+    "modelscope": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-api": [
+      0.0,
+      2.0
+    ],
+    "argparse": [
+      0.0,
+      2.0
+    ],
+    "grpcio-health-checking": [
+      0.0,
+      2.0
+    ],
+    "secretstorage": [
+      0.0,
+      4.0
+    ],
+    "azure-mgmt-advisor": [
+      0.0,
+      10.0
+    ],
+    "teradatasql": [
+      0.0,
+      21.0
+    ],
+    "deepmerge": [
+      0.0,
+      4.0
+    ],
+    "mistune": [
+      0.0,
+      4.0
+    ],
+    "priority": [
+      0.0,
+      3.0
+    ],
+    "youtube-transcript-api": [
+      0.0,
+      2.0
+    ],
+    "pymilvus": [
+      0.0,
+      4.0
+    ],
+    "screeninfo": [
+      0.0,
+      1.0
+    ],
+    "pint": [
+      0.0,
+      1.0
+    ],
+    "datadog-api-client": [
+      0.0,
+      3.0
+    ],
+    "mando": [
+      0.0,
+      1.0
+    ],
+    "pytzdata": [
+      0.0,
+      2021.0
+    ],
+    "llama-index-instrumentation": [
+      0.0,
+      1.0
+    ],
+    "elasticsearch": [
+      0.0,
+      10.0
+    ],
+    "isoduration": [
+      0.0,
+      21.0
+    ],
+    "bubus": [
+      0.0,
+      2.0
+    ],
+    "postgrest": [
+      0.0,
+      3.0
+    ],
+    "prometheus-client": [
+      0.0,
+      1.0
+    ],
+    "ansicolors": [
+      0.0,
+      2.0
+    ],
+    "imageio": [
+      0.0,
+      3.0
+    ],
+    "trio-websocket": [
+      0.0,
+      1.0
+    ],
+    "google-cloud-datastore": [
+      0.0,
+      3.0
+    ],
+    "langchain-text-splitters": [
+      0.0,
+      2.0
+    ],
+    "django-environ": [
+      0.0,
+      1.0
+    ],
+    "mypy-boto3-s3": [
+      0.0,
+      2.0
+    ],
+    "thefuzz": [
+      0.0,
+      1.0
+    ],
+    "universal-pathlib": [
+      0.0,
+      1.0
+    ],
+    "stanio": [
+      0.0,
+      1.0
+    ],
+    "installer": [
+      0.0,
+      2.0
+    ],
+    "reactivex": [
+      0.0,
+      6.0
+    ],
+    "wcmatch": [
+      0.0,
+      12.0
+    ],
+    "circuitbreaker": [
+      0.0,
+      3.0
+    ],
+    "distributed": [
+      0.0,
+      2027.0
+    ],
+    "fastf1": [
+      0.0,
+      4.0
+    ],
+    "apache-airflow-providers-snowflake": [
+      0.0,
+      7.0
+    ],
+    "python-decouple": [
+      0.0,
+      4.0
+    ],
+    "ray": [
+      0.0,
+      3.0
+    ],
+    "opentelemetry-util-http": [
+      0.0,
+      1.0
+    ],
+    "ollama": [
+      0.0,
+      1.0
+    ],
+    "nvidia-nvtx-cu12": [
+      0.0,
+      13.0
+    ],
+    "cel-python": [
+      0.0,
+      1.0
+    ],
+    "google-cloud-tasks": [
+      0.0,
+      3.0
+    ],
+    "pyyaml-ft": [
+      0.0,
+      9.0
+    ],
+    "decorator": [
+      0.0,
+      6.0
+    ],
+    "pre-commit": [
+      0.0,
+      5.0
+    ],
+    "py-cpuinfo": [
+      0.0,
+      10.0
+    ],
+    "google-cloud-storage": [
+      0.0,
+      4.0
+    ],
+    "pyroaring": [
+      0.0,
+      2.0
+    ],
+    "rfc3987-syntax": [
+      0.0,
+      2.0
+    ],
+    "google-cloud-trace": [
+      0.0,
+      2.0
+    ],
+    "xgrammar": [
+      0.0,
+      1.0
+    ],
+    "optuna": [
+      0.0,
+      5.0
+    ],
+    "wandb": [
+      0.0,
+      1.0
+    ],
+    "logfire": [
+      0.0,
+      6.0
+    ],
+    "detect-secrets": [
+      0.0,
+      2.0
+    ],
+    "python": [
+      2.0,
+      5.0
+    ],
+    "line-bot-sdk": [
+      0.0,
+      4.0
+    ],
+    "llama-index-indices-managed-llama-cloud": [
+      0.0,
+      1.0
+    ],
+    "python-snappy": [
+      0.0,
+      1.0
+    ],
+    "python3-openid": [
+      0.0,
+      4.0
+    ],
+    "mako": [
+      0.0,
+      2.0
+    ],
+    "nvidia-cuda-nvrtc-cu12": [
+      0.0,
+      13.0
+    ],
+    "simple-websocket": [
+      0.0,
+      2.0
+    ],
+    "nltk": [
+      0.0,
+      4.0
+    ],
+    "uvicorn": [
+      0.0,
+      1.0
+    ],
+    "respx": [
+      0.0,
+      1.0
+    ],
+    "snowflake-sqlalchemy": [
+      0.0,
+      2.0
+    ],
+    "flask-login": [
+      0.0,
+      1.0
+    ],
+    "pydub": [
+      0.0,
+      1.0
+    ],
+    "azure-storage-file-datalake": [
+      0.0,
+      13.0
+    ],
+    "diskcache": [
+      0.0,
+      6.0
+    ],
+    "claude-agent-sdk": [
+      0.0,
+      1.0
+    ],
+    "requests-ntlm": [
+      0.0,
+      2.0
+    ],
+    "temporalio": [
+      0.0,
+      2.0
+    ],
+    "types-markdown": [
+      0.0,
+      4.0
+    ],
+    "python-calamine": [
+      0.0,
+      1.0
+    ],
+    "azure-mgmt-datafactory": [
+      0.0,
+      11.0
+    ],
+    "nanoid": [
+      0.0,
+      3.0
+    ],
+    "hatch-vcs": [
+      0.0,
+      1.0
+    ],
+    "gspread": [
+      0.0,
+      7.0
+    ],
+    "bottleneck": [
+      0.0,
+      2.0
+    ],
+    "pathlib-abc": [
+      0.0,
+      1.0
+    ],
+    "checkdigit": [
+      0.0,
+      1.0
+    ],
+    "sendgrid": [
+      0.0,
+      7.0
+    ],
+    "dj-database-url": [
+      0.0,
+      4.0
+    ],
+    "orjson": [
+      0.0,
+      4.0
+    ],
+    "paho-mqtt": [
+      0.0,
+      3.0
+    ],
+    "dotenv": [
+      0.0,
+      1.0
+    ],
+    "partial-json-parser": [
+      0.0,
+      1.0
+    ],
+    "google-generativeai": [
+      0.0,
+      1.0
+    ],
+    "slackclient": [
+      0.0,
+      3.0
+    ],
+    "pdbr": [
+      0.0,
+      1.0
+    ],
+    "dbt-spark": [
+      0.0,
+      2.0
+    ],
+    "pyiceberg": [
+      0.0,
+      1.0
+    ],
+    "uuid-utils": [
+      0.0,
+      1.0
+    ],
+    "six": [
+      0.0,
+      2.0
+    ],
+    "jupyter-client": [
+      0.0,
+      9.0
+    ],
+    "imagesize": [
+      0.0,
+      3.0
+    ],
+    "pydantic-ai": [
+      0.0,
+      3.0
+    ],
+    "shellingham": [
+      0.0,
+      2.0
+    ],
+    "ml-dtypes": [
+      0.0,
+      1.0
+    ],
+    "grpcio": [
+      0.0,
+      2.0
+    ],
+    "pathable": [
+      0.0,
+      1.0
+    ],
+    "httptools": [
+      0.0,
+      1.0
+    ],
+    "tree-sitter-embedded-template": [
+      0.0,
+      1.0
+    ],
+    "apache-airflow-task-sdk": [
+      0.0,
+      2.0
+    ],
+    "truststore": [
+      0.0,
+      1.0
+    ],
+    "mock": [
+      0.0,
+      6.0
+    ],
+    "parameterized": [
+      0.0,
+      1.0
+    ],
+    "fastapi-mcp": [
+      0.0,
+      1.0
+    ],
+    "pywin32-ctypes": [
+      0.0,
+      1.0
+    ],
+    "pypandoc": [
+      0.0,
+      2.0
+    ],
+    "envier": [
+      0.0,
+      1.0
+    ],
+    "msgraph-sdk": [
+      0.0,
+      2.0
+    ],
+    "azure-batch": [
+      0.0,
+      16.0
+    ],
+    "makefun": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-instrumentation-botocore": [
+      0.0,
+      1.0
+    ],
+    "tree-sitter-python": [
+      0.0,
+      1.0
+    ],
+    "azure-mgmt-containerregistry": [
+      0.0,
+      16.0
+    ],
+    "fsspec": [
+      0.0,
+      2027.0
+    ],
+    "limits": [
+      0.0,
+      6.0
+    ],
+    "jwcrypto": [
+      0.0,
+      2.0
+    ],
+    "azure-kusto-data": [
+      0.0,
+      7.0
+    ],
+    "dirhash": [
+      0.0,
+      1.0
+    ],
+    "checkov": [
+      0.0,
+      4.0
+    ],
+    "datadog": [
+      0.0,
+      1.0
+    ],
+    "entrypoints": [
+      0.0,
+      1.0
+    ],
+    "types-deprecated": [
+      0.0,
+      2.0
+    ],
+    "more-itertools": [
+      0.0,
+      12.0
+    ],
+    "jaraco-context": [
+      0.0,
+      7.0
+    ],
+    "azure-eventgrid": [
+      0.0,
+      5.0
+    ],
+    "s3transfer": [
+      0.0,
+      1.0
+    ],
+    "impyla": [
+      0.0,
+      1.0
+    ],
+    "pyproj": [
+      0.0,
+      4.0
+    ],
+    "llama-index-llms-openai": [
+      0.0,
+      1.0
+    ],
+    "pyinstaller-hooks-contrib": [
+      0.0,
+      2027.0
+    ],
+    "ansible-compat": [
+      0.0,
+      27.0
+    ],
+    "pytimeparse": [
+      0.0,
+      2.0
+    ],
+    "timm": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-instrumentation-asyncio": [
+      0.0,
+      1.0
+    ],
+    "mypy-boto3-ec2": [
+      0.0,
+      2.0
+    ],
+    "cohere": [
+      0.0,
+      8.0
+    ],
+    "great-expectations": [
+      0.0,
+      2.0
+    ],
+    "pypika": [
+      0.0,
+      1.0
+    ],
+    "catboost": [
+      0.0,
+      2.0
+    ],
+    "opensearch-py": [
+      0.0,
+      4.0
+    ],
+    "jsonpickle": [
+      0.0,
+      5.0
+    ],
+    "rich-toolkit": [
+      0.0,
+      1.0
+    ],
+    "azure-keyvault-certificates": [
+      0.0,
+      5.0
+    ],
+    "python-tds": [
+      0.0,
+      2.0
+    ],
+    "bluetooth-data-tools": [
+      0.0,
+      2.0
+    ],
+    "thrift": [
+      0.0,
+      1.0
+    ],
+    "python-jenkins": [
+      0.0,
+      2.0
+    ],
+    "pip-requirements-parser": [
+      0.0,
+      33.0
+    ],
+    "apache-airflow-providers-sqlite": [
+      0.0,
+      5.0
+    ],
+    "altair": [
+      0.0,
+      7.0
+    ],
+    "websockets": [
+      0.0,
+      18.0
+    ],
+    "semantic-version": [
+      0.0,
+      3.0
+    ],
+    "aiofiles": [
+      0.0,
+      26.0
+    ],
+    "gcloud-aio-bigquery": [
+      0.0,
+      8.0
+    ],
+    "dash": [
+      0.0,
+      5.0
+    ],
+    "sqlalchemy": [
+      0.0,
+      3.0
+    ],
+    "syrupy": [
+      0.0,
+      7.0
+    ],
+    "docutils": [
+      0.0,
+      1.0
+    ],
+    "exchange-calendars": [
+      0.0,
+      5.0
+    ],
+    "llama-cloud": [
+      0.0,
+      3.0
+    ],
+    "hypothesis": [
+      0.0,
+      7.0
+    ],
+    "kaleido": [
+      0.0,
+      2.0
+    ],
+    "segment-analytics-python": [
+      0.0,
+      3.0
+    ],
+    "gast": [
+      0.0,
+      1.0
+    ],
+    "ninja": [
+      0.0,
+      2.0
+    ],
+    "google-cloud-redis": [
+      0.0,
+      3.0
+    ],
+    "tldextract": [
+      0.0,
+      6.0
+    ],
+    "pytest-playwright": [
+      0.0,
+      1.0
+    ],
+    "pytest-benchmark": [
+      0.0,
+      6.0
+    ],
+    "python-socks": [
+      0.0,
+      4.0
+    ],
+    "lxml": [
+      0.0,
+      7.0
+    ],
+    "lance-namespace": [
+      0.0,
+      1.0
+    ],
+    "python-bidi": [
+      0.0,
+      1.0
+    ],
+    "cython": [
+      0.0,
+      4.0
+    ],
+    "firecrawl-py": [
+      0.0,
+      5.0
+    ],
+    "txaio": [
+      0.0,
+      27.0
+    ],
+    "svglib": [
+      0.0,
+      3.0
+    ],
+    "dep-logic": [
+      0.0,
+      1.0
+    ],
+    "bytecode": [
+      0.0,
+      1.0
+    ],
+    "langchain-openai": [
+      0.0,
+      2.0
+    ],
+    "apache-airflow-providers-fab": [
+      0.0,
+      4.0
+    ],
+    "azure-eventhub": [
+      0.0,
+      6.0
+    ],
+    "simplejson": [
+      0.0,
+      5.0
+    ],
+    "astor": [
+      0.0,
+      1.0
+    ],
+    "cramjam": [
+      0.0,
+      3.0
+    ],
+    "nvidia-cudnn-cu13": [
+      0.0,
+      10.0
+    ],
+    "orbax-checkpoint": [
+      0.0,
+      1.0
+    ],
+    "azure-mgmt-datalake-nspkg": [
+      0.0,
+      4.0
+    ],
+    "poetry-core": [
+      0.0,
+      3.0
+    ],
+    "langdetect": [
+      0.0,
+      2.0
+    ],
+    "ghp-import": [
+      0.0,
+      3.0
+    ],
+    "invoke": [
+      0.0,
+      4.0
+    ],
+    "onnxruntime": [
+      0.0,
+      2.0
+    ],
+    "prompt-toolkit": [
+      0.0,
+      4.0
+    ],
+    "pyarrow-hotfix": [
+      0.0,
+      1.0
+    ],
+    "types-html5lib": [
+      0.0,
+      2.0
+    ],
+    "nbconvert": [
+      0.0,
+      8.0
+    ],
+    "ormsgpack": [
+      0.0,
+      2.0
+    ],
+    "unicodecsv": [
+      0.0,
+      1.0
+    ],
+    "appnope": [
+      0.0,
+      2.0
+    ],
+    "pulp": [
+      0.0,
+      4.0
+    ],
+    "pycparser": [
+      0.0,
+      4.0
+    ],
+    "opentelemetry-instrumentation-psycopg": [
+      0.0,
+      1.0
+    ],
+    "pydash": [
+      0.0,
+      9.0
+    ],
+    "isort": [
+      0.0,
+      10.0
+    ],
+    "google-cloud-run": [
+      0.0,
+      1.0
+    ],
+    "sphinxcontrib-qthelp": [
+      0.0,
+      3.0
+    ],
+    "license-expression": [
+      0.0,
+      31.0
+    ],
+    "timezonefinder": [
+      0.0,
+      9.0
+    ],
+    "azure-appconfiguration": [
+      0.0,
+      2.0
+    ],
+    "pysocks": [
+      0.0,
+      2.0
+    ],
+    "py-spy": [
+      0.0,
+      1.0
+    ],
+    "grpcio-reflection": [
+      0.0,
+      2.0
+    ],
+    "events": [
+      0.0,
+      1.0
+    ],
+    "httpcore2": [
+      0.0,
+      3.0
+    ],
+    "sqlglot": [
+      0.0,
+      31.0
+    ],
+    "dbt-snowflake": [
+      0.0,
+      2.0
+    ],
+    "pytest-postgresql": [
+      0.0,
+      10.0
+    ],
+    "strands-agents": [
+      0.0,
+      2.0
+    ],
+    "xgboost": [
+      0.0,
+      4.0
+    ],
+    "pkgutil-resolve-name": [
+      0.0,
+      2.0
+    ],
+    "anyio": [
+      0.0,
+      5.0
+    ],
+    "oldest-supported-numpy": [
+      0.0,
+      2024.0
+    ],
+    "requests-mock": [
+      0.0,
+      2.0
+    ],
+    "kombu": [
+      0.0,
+      6.0
+    ],
+    "pymdown-extensions": [
+      0.0,
+      12.0
+    ],
+    "gcsfs": [
+      0.0,
+      2027.0
+    ],
+    "paginate": [
+      0.0,
+      1.0
+    ],
+    "sphinx-copybutton": [
+      0.0,
+      1.0
+    ],
+    "prefect": [
+      0.0,
+      4.0
+    ],
+    "mcp": [
+      0.0,
+      3.0
+    ],
+    "zope-event": [
+      0.0,
+      7.0
+    ],
+    "pillow-heif": [
+      0.0,
+      2.0
+    ],
+    "tensorflow-io-gcs-filesystem": [
+      0.0,
+      1.0
+    ],
+    "pydantic-settings": [
+      0.0,
+      3.0
+    ],
+    "pyluach": [
+      0.0,
+      3.0
+    ],
+    "einops": [
+      0.0,
+      1.0
+    ],
+    "expiringdict": [
+      0.0,
+      2.0
+    ],
+    "rsa": [
+      0.0,
+      5.0
+    ],
+    "markdownify": [
+      0.0,
+      2.0
+    ],
+    "automat": [
+      0.0,
+      26.0
+    ],
+    "google-cloud-videointelligence": [
+      0.0,
+      3.0
+    ],
+    "widgetsnbextension": [
+      0.0,
+      5.0
+    ],
+    "azure-mgmt-iothubprovisioningservices": [
+      0.0,
+      2.0
+    ],
+    "pyproject-api": [
+      0.0,
+      2.0
+    ],
+    "lazy-object-proxy": [
+      0.0,
+      2.0
+    ],
+    "werkzeug": [
+      0.0,
+      4.0
+    ],
+    "json-rpc": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-instrumentation-wsgi": [
+      0.0,
+      1.0
+    ],
+    "parso": [
+      0.0,
+      1.0
+    ],
+    "libtmux": [
+      0.0,
+      1.0
+    ],
+    "pydata-google-auth": [
+      0.0,
+      2.0
+    ],
+    "nvidia-cusparse": [
+      0.0,
+      13.0
+    ],
+    "nose": [
+      0.0,
+      2.0
+    ],
+    "diagrams": [
+      0.0,
+      1.0
+    ],
+    "lance-namespace-urllib3-client": [
+      0.0,
+      1.0
+    ],
+    "azure-mgmt-recoveryservices": [
+      0.0,
+      5.0
+    ],
+    "charset-normalizer": [
+      0.0,
+      4.0
+    ],
+    "types-aiobotocore-s3": [
+      0.0,
+      4.0
+    ],
+    "google-cloud-speech": [
+      0.0,
+      3.0
+    ],
+    "python-keycloak": [
+      0.0,
+      8.0
+    ],
+    "yt-dlp": [
+      0.0,
+      2027.0
+    ],
+    "jaraco-classes": [
+      0.0,
+      4.0
+    ],
+    "affine": [
+      0.0,
+      4.0
+    ],
+    "apache-airflow-providers-common-compat": [
+      0.0,
+      2.0
+    ],
+    "apache-airflow": [
+      0.0,
+      4.0
+    ],
+    "pyspark": [
+      0.0,
+      5.0
+    ],
+    "pyproject-metadata": [
+      0.0,
+      1.0
+    ],
+    "avro-python3": [
+      0.0,
+      2.0
+    ],
+    "supabase-functions": [
+      0.0,
+      3.0
+    ],
+    "zstandard": [
+      0.0,
+      1.0
+    ],
+    "libcst": [
+      0.0,
+      2.0
+    ],
+    "types-redis": [
+      0.0,
+      5.0
+    ],
+    "agent-client-protocol": [
+      0.0,
+      1.0
+    ],
+    "nvidia-cublas-cu12": [
+      0.0,
+      13.0
+    ],
+    "crashtest": [
+      0.0,
+      1.0
+    ],
+    "userpath": [
+      0.0,
+      2.0
+    ],
+    "pandas-stubs": [
+      0.0,
+      4.0
+    ],
+    "mypy-boto3-sqs": [
+      0.0,
+      2.0
+    ],
+    "pydantic-graph": [
+      0.0,
+      3.0
+    ],
+    "accelerate": [
+      0.0,
+      2.0
+    ],
+    "bandit": [
+      0.0,
+      2.0
+    ],
+    "msrest": [
+      0.0,
+      1.0
+    ],
+    "readchar": [
+      0.0,
+      5.0
+    ],
+    "pywin32": [
+      0.0,
+      313.0
+    ],
+    "beartype": [
+      0.0,
+      1.0
+    ],
+    "korean-lunar-calendar": [
+      0.0,
+      1.0
+    ],
+    "cycler": [
+      0.0,
+      1.0
+    ],
+    "easygui": [
+      0.0,
+      1.0
+    ],
+    "dnspython": [
+      0.0,
+      3.0
+    ],
+    "aiosqlite": [
+      0.0,
+      1.0
+    ],
+    "griffecli": [
+      0.0,
+      3.0
+    ],
+    "flask-jwt-extended": [
+      0.0,
+      5.0
+    ],
+    "opentelemetry-sdk": [
+      0.0,
+      2.0
+    ],
+    "wsproto": [
+      0.0,
+      2.0
+    ],
+    "requests-cache": [
+      0.0,
+      2.0
+    ],
+    "ply": [
+      0.0,
+      4.0
+    ],
+    "clickhouse-driver": [
+      0.0,
+      1.0
+    ],
+    "mongomock": [
+      0.0,
+      5.0
+    ],
+    "chromadb": [
+      0.0,
+      2.0
+    ],
+    "google-cloud-compute": [
+      0.0,
+      2.0
+    ],
+    "kafka-python": [
+      0.0,
+      4.0
+    ],
+    "langgraph-sdk": [
+      0.0,
+      1.0
+    ],
+    "strenum": [
+      0.0,
+      1.0
+    ],
+    "pytesseract": [
+      0.0,
+      1.0
+    ],
+    "user-agents": [
+      0.0,
+      3.0
+    ],
+    "uvicorn-worker": [
+      0.0,
+      1.0
+    ],
+    "pyrate-limiter": [
+      0.0,
+      5.0
+    ],
+    "google-cloud-spanner": [
+      0.0,
+      4.0
+    ],
+    "jedi": [
+      0.0,
+      1.0
+    ],
+    "ffmpeg-python": [
+      0.0,
+      1.0
+    ],
+    "microsoft-kiota-authentication-azure": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-instrumentation-pymongo": [
+      0.0,
+      1.0
+    ],
+    "azure-mgmt-authorization": [
+      0.0,
+      5.0
+    ],
+    "sglang": [
+      0.0,
+      1.0
+    ],
+    "tox": [
+      0.0,
+      5.0
+    ],
+    "curl-cffi": [
+      0.0,
+      1.0
+    ],
+    "hydra-core": [
+      0.0,
+      2.0
+    ],
+    "proglog": [
+      0.0,
+      1.0
+    ],
+    "scikit-learn": [
+      0.0,
+      2.0
+    ],
+    "amqp": [
+      0.0,
+      6.0
+    ],
+    "osqp": [
+      0.0,
+      2.0
+    ],
+    "jeepney": [
+      0.0,
+      1.0
+    ],
+    "nest-asyncio": [
+      0.0,
+      2.0
+    ],
+    "blobfile": [
+      0.0,
+      4.0
+    ],
+    "sortedcontainers": [
+      0.0,
+      3.0
+    ],
+    "sagemaker-core": [
+      0.0,
+      3.0
+    ],
+    "nvidia-nvjitlink": [
+      0.0,
+      14.0
+    ],
+    "azure-mgmt-datalake-store": [
+      0.0,
+      1.0
+    ],
+    "markdown2": [
+      0.0,
+      3.0
+    ],
+    "aioresponses": [
+      0.0,
+      1.0
+    ],
+    "argon2-cffi": [
+      0.0,
+      26.0
+    ],
+    "google-cloud-automl": [
+      0.0,
+      3.0
+    ],
+    "outcome": [
+      0.0,
+      2.0
+    ],
+    "filetype": [
+      0.0,
+      2.0
+    ],
+    "bitsandbytes": [
+      0.0,
+      1.0
+    ],
+    "nvidia-cusparselt-cu12": [
+      0.0,
+      1.0
+    ],
+    "redis": [
+      0.0,
+      9.0
+    ],
+    "atpublic": [
+      0.0,
+      8.0
+    ],
+    "opentelemetry-instrumentation-system-metrics": [
+      0.0,
+      1.0
+    ],
+    "pyfiglet": [
+      0.0,
+      2.0
+    ],
+    "resend": [
+      0.0,
+      3.0
+    ],
+    "tree-sitter-c-sharp": [
+      0.0,
+      1.0
+    ],
+    "lark": [
+      0.0,
+      2.0
+    ],
+    "scipy": [
+      0.0,
+      2.0
+    ],
+    "scs": [
+      0.0,
+      4.0
+    ],
+    "python-daemon": [
+      0.0,
+      4.0
+    ],
+    "pycomposefile": [
+      0.0,
+      1.0
+    ],
+    "cchardet": [
+      0.0,
+      3.0
+    ],
+    "nvidia-cuda-cupti": [
+      0.0,
+      14.0
+    ],
+    "types-cffi": [
+      0.0,
+      3.0
+    ],
+    "azure-keyvault-keys": [
+      0.0,
+      5.0
+    ],
+    "nvidia-nvshmem-cu12": [
+      0.0,
+      4.0
+    ],
+    "types-python-slugify": [
+      0.0,
+      9.0
+    ],
+    "typedload": [
+      0.0,
+      3.0
+    ],
+    "pip-tools": [
+      0.0,
+      8.0
+    ],
+    "ua-parser": [
+      0.0,
+      2.0
+    ],
+    "hatchling": [
+      0.0,
+      2.0
+    ],
+    "future": [
+      0.0,
+      2.0
+    ],
+    "authlib": [
+      0.0,
+      2.0
+    ],
+    "aiocache": [
+      0.0,
+      1.0
+    ],
+    "cleo": [
+      0.0,
+      3.0
+    ],
+    "storage3": [
+      0.0,
+      3.0
+    ],
+    "nvidia-nccl-cu13": [
+      0.0,
+      3.0
+    ],
+    "grpc-interceptor": [
+      0.0,
+      1.0
+    ],
+    "biopython": [
+      0.0,
+      2.0
+    ],
+    "tokenize-rt": [
+      0.0,
+      7.0
+    ],
+    "pluggy": [
+      0.0,
+      2.0
+    ],
+    "pdfminer-six": [
+      0.0,
+      20260108.0
+    ],
+    "types-tqdm": [
+      0.0,
+      5.0
+    ],
+    "datamodel-code-generator": [
+      0.0,
+      1.0
+    ],
+    "fastuuid": [
+      0.0,
+      1.0
+    ],
+    "grimp": [
+      0.0,
+      4.0
+    ],
+    "levenshtein": [
+      0.0,
+      1.0
+    ],
+    "psycopg-pool": [
+      0.0,
+      4.0
+    ],
+    "psycopg2": [
+      0.0,
+      3.0
+    ],
+    "azure-common": [
+      0.0,
+      2.0
+    ],
+    "skops": [
+      0.0,
+      1.0
+    ],
+    "protobuf3-to-dict": [
+      0.0,
+      1.0
+    ],
+    "time-machine": [
+      0.0,
+      4.0
+    ],
+    "opentelemetry-exporter-otlp-proto-http": [
+      0.0,
+      2.0
+    ],
+    "jsbeautifier": [
+      0.0,
+      3.0
+    ],
+    "jpype1": [
+      0.0,
+      2.0
+    ],
+    "memory-profiler": [
+      0.0,
+      1.0
+    ],
+    "langgraph-checkpoint": [
+      0.0,
+      5.0
+    ],
+    "azure-mgmt-batch": [
+      0.0,
+      20.0
+    ],
+    "openhands-sdk": [
+      0.0,
+      2.0
+    ],
+    "torchmetrics": [
+      0.0,
+      2.0
+    ],
+    "langchain-core": [
+      0.0,
+      2.0
+    ],
+    "mlflow": [
+      0.0,
+      4.0
+    ],
+    "azure-monitor-opentelemetry-exporter": [
+      0.0,
+      2.0
+    ],
+    "tritonclient": [
+      0.0,
+      3.0
+    ],
+    "protobuf": [
+      0.0,
+      8.0
+    ],
+    "zstd": [
+      0.0,
+      2.0
+    ],
+    "uv": [
+      0.0,
+      1.0
+    ],
+    "imbalanced-learn": [
+      0.0,
+      1.0
+    ],
+    "uritemplate": [
+      0.0,
+      5.0
+    ],
+    "blake3": [
+      0.0,
+      2.0
+    ],
+    "geoip2": [
+      0.0,
+      6.0
+    ],
+    "pyspnego": [
+      0.0,
+      1.0
+    ],
+    "docker": [
+      0.0,
+      8.0
+    ],
+    "supabase-auth": [
+      0.0,
+      3.0
+    ],
+    "types-docutils": [
+      0.0,
+      1.0
+    ],
+    "marshmallow-dataclass": [
+      0.0,
+      9.0
+    ],
+    "litellm-proxy-extras": [
+      0.0,
+      1.0
+    ],
+    "google-cloud-iam": [
+      0.0,
+      3.0
+    ],
+    "plotly": [
+      0.0,
+      8.0
+    ],
+    "parsimonious": [
+      0.0,
+      1.0
+    ],
+    "python-dateutil": [
+      0.0,
+      3.0
+    ],
+    "retrying": [
+      0.0,
+      2.0
+    ],
+    "feedparser": [
+      0.0,
+      7.0
+    ],
+    "lazy-loader": [
+      0.0,
+      1.0
+    ],
+    "google-cloud-resource-manager": [
+      0.0,
+      2.0
+    ],
+    "pytest-forked": [
+      0.0,
+      2.0
+    ],
+    "openapi-spec-validator": [
+      0.0,
+      1.0
+    ],
+    "python-crontab": [
+      0.0,
+      4.0
+    ],
+    "dateparser": [
+      0.0,
+      2.0
+    ],
+    "mdit-py-plugins": [
+      0.0,
+      1.0
+    ],
+    "nvidia-cublas": [
+      0.0,
+      14.0
+    ],
+    "psycopg-binary": [
+      0.0,
+      4.0
+    ],
+    "azure-mgmt-resource": [
+      0.0,
+      27.0
+    ],
+    "msrestazure": [
+      0.0,
+      1.0
+    ],
+    "annotated-doc": [
+      0.0,
+      1.0
+    ],
+    "boto3-stubs": [
+      0.0,
+      2.0
+    ],
+    "fqdn": [
+      0.0,
+      2.0
+    ],
+    "tomli-w": [
+      0.0,
+      2.0
+    ],
+    "nvidia-curand-cu12": [
+      0.0,
+      11.0
+    ],
+    "sparklines": [
+      0.0,
+      2.0
+    ],
+    "aiomysql": [
+      0.0,
+      1.0
+    ],
+    "gql": [
+      0.0,
+      5.0
+    ],
+    "pinecone": [
+      0.0,
+      11.0
+    ],
+    "zope-interface": [
+      0.0,
+      9.0
+    ],
+    "jaraco-functools": [
+      0.0,
+      5.0
+    ],
+    "pymupdf-layout": [
+      0.0,
+      2.0
+    ],
+    "pylint": [
+      0.0,
+      5.0
+    ],
+    "azure-mgmt-marketplaceordering": [
+      0.0,
+      2.0
+    ],
+    "pytest-cov": [
+      0.0,
+      8.0
+    ],
+    "opentelemetry-instrumentation-django": [
+      0.0,
+      1.0
+    ],
+    "crc32c": [
+      0.0,
+      3.0
+    ],
+    "natsort": [
+      0.0,
+      9.0
+    ],
+    "fetch-use": [
+      0.0,
+      1.0
+    ],
+    "apache-airflow-providers-google": [
+      0.0,
+      23.0
+    ],
+    "azure-mgmt-sql": [
+      0.0,
+      5.0
+    ],
+    "python-json-logger": [
+      0.0,
+      5.0
+    ],
+    "tensorboard-data-server": [
+      0.0,
+      1.0
+    ],
+    "azure-mgmt-search": [
+      0.0,
+      10.0
+    ],
+    "google-cloud-alloydb": [
+      0.0,
+      1.0
+    ],
+    "google-re2": [
+      0.0,
+      2.0
+    ],
+    "dpath": [
+      0.0,
+      3.0
+    ],
+    "numba": [
+      0.0,
+      1.0
+    ],
+    "openinference-semantic-conventions": [
+      0.0,
+      1.0
+    ],
+    "distro": [
+      0.0,
+      2.0
+    ],
+    "asttokens": [
+      0.0,
+      4.0
+    ],
+    "scikit-image": [
+      0.0,
+      1.0
+    ],
+    "pytest-env": [
+      0.0,
+      2.0
+    ],
+    "types-python-dateutil": [
+      0.0,
+      3.0
+    ],
+    "google-ai-generativelanguage": [
+      0.0,
+      1.0
+    ],
+    "linkify-it-py": [
+      0.0,
+      3.0
+    ],
+    "pygit2": [
+      0.0,
+      2.0
+    ],
+    "dbt-bigquery": [
+      0.0,
+      2.0
+    ],
+    "libclang": [
+      0.0,
+      19.0
+    ],
+    "streamlit": [
+      0.0,
+      2.0
+    ],
+    "pysftp": [
+      0.0,
+      1.0
+    ],
+    "chardet": [
+      0.0,
+      8.0
+    ],
+    "oauthlib": [
+      0.0,
+      4.0
+    ],
+    "opentelemetry-resourcedetector-gcp": [
+      0.0,
+      2.0
+    ],
+    "marshmallow-enum": [
+      0.0,
+      2.0
+    ],
+    "pybcj": [
+      0.0,
+      2.0
+    ],
+    "cattrs": [
+      0.0,
+      27.0
+    ],
+    "openai-harmony": [
+      0.0,
+      1.0
+    ],
+    "dbt-common": [
+      0.0,
+      2.0
+    ],
+    "dictdiffer": [
+      0.0,
+      1.0
+    ],
+    "c7n-org": [
+      0.0,
+      1.0
+    ],
+    "rignore": [
+      0.0,
+      1.0
+    ],
+    "tree-sitter-ruby": [
+      0.0,
+      1.0
+    ],
+    "azure-mgmt-containerservice": [
+      0.0,
+      42.0
+    ],
+    "opentelemetry-exporter-otlp": [
+      0.0,
+      2.0
+    ],
+    "dependency-injector": [
+      0.0,
+      5.0
+    ],
+    "jsonschema-path": [
+      0.0,
+      1.0
+    ],
+    "numexpr": [
+      0.0,
+      3.0
+    ],
+    "webcolors": [
+      0.0,
+      26.0
+    ],
+    "tzdata": [
+      0.0,
+      2027.0
+    ],
+    "python-box": [
+      0.0,
+      8.0
+    ],
+    "boto3": [
+      0.0,
+      2.0
+    ],
+    "pyflakes": [
+      0.0,
+      4.0
+    ],
+    "transformers": [
+      0.0,
+      6.0
+    ],
+    "urwid": [
+      0.0,
+      5.0
+    ],
+    "polars-runtime-32": [
+      0.0,
+      2.0
+    ],
+    "cligj": [
+      0.0,
+      1.0
+    ],
+    "constructs": [
+      0.0,
+      11.0
+    ],
+    "tenacity": [
+      0.0,
+      10.0
+    ],
+    "spacy-loggers": [
+      0.0,
+      2.0
+    ],
+    "sphinx-rtd-theme": [
+      0.0,
+      4.0
+    ],
+    "tiktoken": [
+      0.0,
+      1.0
+    ],
+    "apache-airflow-providers-common-io": [
+      0.0,
+      2.0
+    ],
+    "azure-mgmt-keyvault": [
+      0.0,
+      15.0
+    ],
+    "dagster": [
+      0.0,
+      2.0
+    ],
+    "argon2-cffi-bindings": [
+      0.0,
+      27.0
+    ],
+    "rasterio": [
+      0.0,
+      2.0
+    ],
+    "google-cloud-dataform": [
+      0.0,
+      1.0
+    ],
+    "grpc-google-iam-v1": [
+      0.0,
+      1.0
+    ],
+    "polyfactory": [
+      0.0,
+      4.0
+    ],
+    "binaryornot": [
+      0.0,
+      1.0
+    ],
+    "google": [
+      0.0,
+      4.0
+    ],
+    "pipenv": [
+      0.0,
+      2027.0
+    ],
+    "ansible": [
+      0.0,
+      15.0
+    ],
+    "mistral-vibe": [
+      0.0,
+      3.0
+    ],
+    "celery-redbeat": [
+      0.0,
+      3.0
+    ],
+    "configobj": [
+      0.0,
+      6.0
+    ],
+    "databricks-sqlalchemy": [
+      0.0,
+      3.0
+    ],
+    "pydocket": [
+      0.0,
+      1.0
+    ],
+    "soupsieve": [
+      0.0,
+      3.0
+    ],
+    "pydantic-core": [
+      0.0,
+      3.0
+    ],
+    "sseclient-py": [
+      0.0,
+      2.0
+    ],
+    "gymnasium": [
+      0.0,
+      2.0
+    ],
+    "sqlfluff": [
+      0.0,
+      5.0
+    ],
+    "dulwich": [
+      0.0,
+      2.0
+    ],
+    "synchronicity": [
+      0.0,
+      1.0
+    ],
+    "asyncer": [
+      0.0,
+      1.0
+    ],
+    "google-cloud-dlp": [
+      0.0,
+      4.0
+    ],
+    "deptry": [
+      0.0,
+      1.0
+    ],
+    "diff-cover": [
+      0.0,
+      11.0
+    ],
+    "coverage": [
+      0.0,
+      8.0
+    ],
+    "frozendict": [
+      0.0,
+      3.0
+    ],
+    "face": [
+      0.0,
+      27.0
+    ],
+    "prometheus-fastapi-instrumentator": [
+      0.0,
+      9.0
+    ],
+    "jupyter-builder": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-semantic-conventions-ai": [
+      0.0,
+      1.0
+    ],
+    "azure-cli-core": [
+      0.0,
+      3.0
+    ],
+    "pygtrie": [
+      0.0,
+      3.0
+    ],
+    "presidio-analyzer": [
+      0.0,
+      3.0
+    ],
+    "langgraph": [
+      0.0,
+      2.0
+    ],
+    "trino": [
+      0.0,
+      1.0
+    ],
+    "azure-mgmt-containerinstance": [
+      0.0,
+      11.0
+    ],
+    "pendulum": [
+      0.0,
+      4.0
+    ],
+    "jsonschema-specifications": [
+      0.0,
+      2026.0
+    ],
+    "nvidia-cusparse-cu12": [
+      0.0,
+      13.0
+    ],
+    "oracledb": [
+      0.0,
+      5.0
+    ],
+    "nvidia-cufft": [
+      0.0,
+      13.0
+    ],
+    "peewee": [
+      0.0,
+      5.0
+    ],
+    "eth-rlp": [
+      0.0,
+      4.0
+    ],
+    "bracex": [
+      0.0,
+      4.0
+    ],
+    "pyasn1-modules": [
+      0.0,
+      1.0
+    ],
+    "apache-tvm-ffi": [
+      0.0,
+      1.0
+    ],
+    "jsonref": [
+      0.0,
+      2.0
+    ],
+    "google-pasta": [
+      0.0,
+      1.0
+    ],
+    "eth-hash": [
+      0.0,
+      1.0
+    ],
+    "sqlparse": [
+      0.0,
+      1.0
+    ],
+    "kubernetes-asyncio": [
+      0.0,
+      37.0
+    ],
+    "pastel": [
+      0.0,
+      1.0
+    ],
+    "duckdb": [
+      0.0,
+      2.0
+    ],
+    "launchdarkly-server-sdk": [
+      0.0,
+      10.0
+    ],
+    "google-cloud-bigquery-storage": [
+      0.0,
+      3.0
+    ],
+    "numcodecs": [
+      0.0,
+      1.0
+    ],
+    "setuptools-scm": [
+      0.0,
+      11.0
+    ],
+    "mypy-protobuf": [
+      0.0,
+      6.0
+    ],
+    "python-levenshtein": [
+      0.0,
+      1.0
+    ],
+    "constantly": [
+      0.0,
+      24.0
+    ],
+    "python-http-client": [
+      0.0,
+      4.0
+    ],
+    "mypy-boto3-rds": [
+      0.0,
+      2.0
+    ],
+    "groq": [
+      0.0,
+      2.0
+    ],
+    "google-cloud-monitoring": [
+      0.0,
+      3.0
+    ],
+    "types-aiofiles": [
+      0.0,
+      26.0
+    ],
+    "a2wsgi": [
+      0.0,
+      2.0
+    ],
+    "langsmith": [
+      0.0,
+      1.0
+    ],
+    "ipython": [
+      0.0,
+      10.0
+    ],
+    "fastembed": [
+      0.0,
+      1.0
+    ],
+    "plumbum": [
+      0.0,
+      3.0
+    ],
+    "backoff": [
+      0.0,
+      3.0
+    ],
+    "hvac": [
+      0.0,
+      3.0
+    ],
+    "cerberus": [
+      0.0,
+      2.0
+    ],
+    "meson": [
+      0.0,
+      2.0
+    ],
+    "compressed-tensors": [
+      0.0,
+      1.0
+    ],
+    "sphinxcontrib-devhelp": [
+      0.0,
+      3.0
+    ],
+    "dspy": [
+      0.0,
+      4.0
+    ],
+    "apache-airflow-providers-ssh": [
+      0.0,
+      7.0
+    ],
+    "browser-use-sdk": [
+      0.0,
+      4.0
+    ],
+    "kubernetes": [
+      0.0,
+      37.0
+    ],
+    "orderly-set": [
+      0.0,
+      6.0
+    ],
+    "ebcdic": [
+      0.0,
+      3.0
+    ],
+    "gprof2dot": [
+      0.0,
+      2026.0
+    ],
+    "python-ulid": [
+      0.0,
+      5.0
+    ],
+    "xyzservices": [
+      0.0,
+      2027.0
+    ],
+    "tornado": [
+      0.0,
+      7.0
+    ],
+    "prettytable": [
+      0.0,
+      4.0
+    ],
+    "flatbuffers": [
+      0.0,
+      26.0
+    ],
+    "nbformat": [
+      0.0,
+      6.0
+    ],
+    "slack-bolt": [
+      0.0,
+      2.0
+    ],
+    "types-pyyaml": [
+      0.0,
+      7.0
+    ],
+    "mmh3": [
+      0.0,
+      6.0
+    ],
+    "pyotp": [
+      0.0,
+      3.0
+    ],
+    "setuptools-rust": [
+      0.0,
+      2.0
+    ],
+    "pyogrio": [
+      0.0,
+      1.0
+    ],
+    "fasttransport": [
+      0.0,
+      1.0
+    ],
+    "mypy-boto3-lambda": [
+      0.0,
+      2.0
+    ],
+    "google-cloud-pubsub": [
+      0.0,
+      3.0
+    ],
+    "dockerfile-parse": [
+      0.0,
+      3.0
+    ],
+    "griffelib": [
+      0.0,
+      3.0
+    ],
+    "backrefs": [
+      0.0,
+      9.0
+    ],
+    "pyphen": [
+      0.0,
+      1.0
+    ],
+    "opencv-python-headless": [
+      0.0,
+      6.0
+    ],
+    "cloudpathlib": [
+      0.0,
+      1.0
+    ],
+    "auth0-python": [
+      0.0,
+      7.0
+    ],
+    "lupa": [
+      0.0,
+      3.0
+    ],
+    "tblib": [
+      0.0,
+      4.0
+    ],
+    "iso8601": [
+      0.0,
+      3.0
+    ],
+    "apache-airflow-providers-ftp": [
+      0.0,
+      4.0
+    ],
+    "pathlib": [
+      0.0,
+      2.0
+    ],
+    "mangum": [
+      0.0,
+      1.0
+    ],
+    "google-cloud-audit-log": [
+      0.0,
+      1.0
+    ],
+    "backports-strenum": [
+      0.0,
+      2.0
+    ],
+    "strictyaml": [
+      0.0,
+      2.0
+    ],
+    "monotonic": [
+      0.0,
+      2.0
+    ],
+    "types-aiobotocore": [
+      0.0,
+      4.0
+    ],
+    "json-repair": [
+      0.0,
+      1.0
+    ],
+    "simple-salesforce": [
+      0.0,
+      2.0
+    ],
+    "pytest-rerunfailures": [
+      0.0,
+      17.0
+    ],
+    "magika": [
+      0.0,
+      2.0
+    ],
+    "daphne": [
+      0.0,
+      5.0
+    ],
+    "adal": [
+      0.0,
+      2.0
+    ],
+    "traitlets": [
+      0.0,
+      6.0
+    ],
+    "pyproject-hooks": [
+      0.0,
+      2.0
+    ],
+    "texttable": [
+      0.0,
+      2.0
+    ],
+    "dataclasses-json": [
+      0.0,
+      1.0
+    ],
+    "rtree": [
+      0.0,
+      2.0
+    ],
+    "sentry-sdk": [
+      0.0,
+      3.0
+    ],
+    "social-auth-core": [
+      0.0,
+      6.0
+    ],
+    "apache-airflow-providers-slack": [
+      0.0,
+      10.0
+    ],
+    "tree-sitter-c": [
+      0.0,
+      1.0
+    ],
+    "semgrep": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-exporter-gcp-monitoring": [
+      0.0,
+      2.0
+    ],
+    "tree-sitter-rust": [
+      0.0,
+      1.0
+    ],
+    "webob": [
+      0.0,
+      2.0
+    ],
+    "nvidia-cuda-runtime-cu12": [
+      0.0,
+      13.0
+    ],
+    "construct": [
+      0.0,
+      3.0
+    ],
+    "sentence-transformers": [
+      0.0,
+      7.0
+    ],
+    "pycountry": [
+      0.0,
+      27.0
+    ],
+    "dacite": [
+      0.0,
+      2.0
+    ],
+    "modal": [
+      0.0,
+      2.0
+    ],
+    "argcomplete": [
+      0.0,
+      4.0
+    ],
+    "propcache": [
+      0.0,
+      1.0
+    ],
+    "maturin": [
+      0.0,
+      2.0
+    ],
+    "apache-airflow-core": [
+      0.0,
+      4.0
+    ],
+    "aenum": [
+      0.0,
+      4.0
+    ],
+    "diffusers": [
+      0.0,
+      1.0
+    ],
+    "olefile": [
+      0.0,
+      1.0
+    ],
+    "playwright": [
+      0.0,
+      2.0
+    ],
+    "pydyf": [
+      0.0,
+      1.0
+    ],
+    "scramp": [
+      0.0,
+      2.0
+    ],
+    "attrs": [
+      0.0,
+      27.0
+    ],
+    "pyiceberg-core": [
+      0.0,
+      1.0
+    ],
+    "e2b": [
+      0.0,
+      3.0
+    ],
+    "pillow": [
+      0.0,
+      13.0
+    ],
+    "rustworkx": [
+      0.0,
+      1.0
+    ],
+    "aws-cdk-cloud-assembly-schema": [
+      0.0,
+      55.0
+    ],
+    "statsd": [
+      0.0,
+      5.0
+    ],
+    "mitmproxy-rs": [
+      0.0,
+      1.0
+    ],
+    "black": [
+      0.0,
+      27.0
+    ],
+    "nvidia-cusolver-cu12": [
+      0.0,
+      12.0
+    ],
+    "pycrypto": [
+      0.0,
+      3.0
+    ],
+    "et-xmlfile": [
+      0.0,
+      3.0
+    ],
+    "tinycss2": [
+      0.0,
+      2.0
+    ],
+    "apache-airflow-providers-amazon": [
+      0.0,
+      10.0
+    ],
+    "wikipedia-api": [
+      0.0,
+      1.0
+    ],
+    "huggingface-hub": [
+      0.0,
+      2.0
+    ],
+    "django-redis": [
+      0.0,
+      8.0
+    ],
+    "aliyun-trace": [
+      0.0,
+      2.0
+    ],
+    "botocore": [
+      0.0,
+      2.0
+    ],
+    "tree-sitter-language-pack": [
+      0.0,
+      2.0
+    ],
+    "sphinxcontrib-mermaid": [
+      0.0,
+      3.0
+    ],
+    "h3": [
+      0.0,
+      5.0
+    ],
+    "pyinstrument": [
+      0.0,
+      6.0
+    ],
+    "pytest-json-ctrf": [
+      0.0,
+      1.0
+    ],
+    "aws-xray-sdk": [
+      0.0,
+      3.0
+    ],
+    "holidays": [
+      0.0,
+      1.0
+    ],
+    "cryptography": [
+      0.0,
+      51.0
+    ],
+    "msoffcrypto-tool": [
+      0.0,
+      7.0
+    ],
+    "jsonschema-rs": [
+      0.0,
+      1.0
+    ],
+    "nodeenv": [
+      0.0,
+      2.0
+    ],
+    "httpcore": [
+      0.0,
+      2.0
+    ],
+    "pytest-django": [
+      0.0,
+      5.0
+    ],
+    "eval-type-backport": [
+      0.0,
+      1.0
+    ],
+    "ptyprocess": [
+      0.0,
+      1.0
+    ],
+    "trimesh": [
+      0.0,
+      6.0
+    ],
+    "elementpath": [
+      0.0,
+      6.0
+    ],
+    "greenlet": [
+      0.0,
+      4.0
+    ],
+    "textual-speedups": [
+      0.0,
+      1.0
+    ],
+    "click-didyoumean": [
+      0.0,
+      1.0
+    ],
+    "threadpoolctl": [
+      0.0,
+      4.0
+    ],
+    "python-pptx": [
+      0.0,
+      2.0
+    ],
+    "office365-rest-python-client": [
+      0.0,
+      4.0
+    ],
+    "google-auth-oauthlib": [
+      0.0,
+      2.0
+    ],
+    "papermill": [
+      0.0,
+      3.0
+    ],
+    "openai": [
+      0.0,
+      4.0
+    ],
+    "spacy": [
+      0.0,
+      4.0
+    ],
+    "backports-zstd": [
+      0.0,
+      2.0
+    ],
+    "pytest-randomly": [
+      0.0,
+      6.0
+    ],
+    "adlfs": [
+      0.0,
+      2027.0
+    ],
+    "sounddevice": [
+      0.0,
+      1.0
+    ],
+    "codeowners": [
+      0.0,
+      1.0
+    ],
+    "pathspec": [
+      0.0,
+      2.0
+    ],
+    "num2words": [
+      0.0,
+      1.0
+    ],
+    "pipdeptree": [
+      0.0,
+      5.0
+    ],
+    "apache-airflow-providers-imap": [
+      0.0,
+      4.0
+    ],
+    "ansible-core": [
+      0.0,
+      3.0
+    ],
+    "ijson": [
+      0.0,
+      4.0
+    ],
+    "apache-airflow-providers-databricks": [
+      0.0,
+      8.0
+    ],
+    "blinker": [
+      0.0,
+      2.0
+    ],
+    "identify": [
+      0.0,
+      3.0
+    ],
+    "cached-property": [
+      0.0,
+      3.0
+    ],
+    "connexion": [
+      0.0,
+      4.0
+    ],
+    "daytona-analytics-api-client-async": [
+      0.0,
+      1.0
+    ],
+    "cuda-toolkit": [
+      0.0,
+      14.0
+    ],
+    "azure-mgmt-policyinsights": [
+      0.0,
+      2.0
+    ],
+    "prance": [
+      0.0,
+      27.0
+    ],
+    "djangorestframework-simplejwt": [
+      0.0,
+      6.0
+    ],
+    "datasketch": [
+      0.0,
+      3.0
+    ],
+    "pglast": [
+      0.0,
+      9.0
+    ],
+    "pipx": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-instrumentation-celery": [
+      0.0,
+      1.0
+    ],
+    "smbprotocol": [
+      0.0,
+      2.0
+    ],
+    "zopfli": [
+      0.0,
+      1.0
+    ],
+    "socksio": [
+      0.0,
+      2.0
+    ],
+    "docker-pycreds": [
+      0.0,
+      1.0
+    ],
+    "twine": [
+      0.0,
+      8.0
+    ],
+    "gguf": [
+      0.0,
+      1.0
+    ],
+    "pytest-repeat": [
+      0.0,
+      1.0
+    ],
+    "setproctitle": [
+      0.0,
+      2.0
+    ],
+    "eth-keyfile": [
+      0.0,
+      1.0
+    ],
+    "types-pyopenssl": [
+      0.0,
+      25.0
+    ],
+    "langchain-anthropic": [
+      0.0,
+      2.0
+    ],
+    "qrcode": [
+      0.0,
+      9.0
+    ],
+    "toml": [
+      0.0,
+      1.0
+    ],
+    "pymssql": [
+      0.0,
+      3.0
+    ],
+    "webauthn": [
+      0.0,
+      4.0
+    ],
+    "nodejs-wheel-binaries": [
+      0.0,
+      25.0
+    ],
+    "httplib2": [
+      0.0,
+      1.0
+    ],
+    "moto": [
+      0.0,
+      6.0
+    ],
+    "tabledata": [
+      0.0,
+      2.0
+    ],
+    "isodate": [
+      0.0,
+      1.0
+    ],
+    "executing": [
+      0.0,
+      3.0
+    ],
+    "cuda-bindings": [
+      0.0,
+      14.0
+    ],
+    "cssutils": [
+      0.0,
+      3.0
+    ],
+    "google-cloud-storage-transfer": [
+      0.0,
+      2.0
+    ],
+    "websocket-client": [
+      0.0,
+      2.0
+    ],
+    "tld": [
+      0.0,
+      1.0
+    ],
+    "jupyterlab-widgets": [
+      0.0,
+      4.0
+    ],
+    "vcs-versioning": [
+      0.0,
+      3.0
+    ],
+    "pyaml": [
+      0.0,
+      27.0
+    ],
+    "google-genai": [
+      0.0,
+      3.0
+    ],
+    "awswrangler": [
+      0.0,
+      4.0
+    ],
+    "configargparse": [
+      0.0,
+      2.0
+    ],
+    "pyodbc": [
+      0.0,
+      6.0
+    ],
+    "uv-build": [
+      0.0,
+      1.0
+    ],
+    "jaxlib": [
+      0.0,
+      1.0
+    ],
+    "asgiref": [
+      0.0,
+      4.0
+    ],
+    "daft": [
+      0.0,
+      1.0
+    ],
+    "bashlex": [
+      0.0,
+      1.0
+    ],
+    "alibabacloud-credentials": [
+      0.0,
+      2.0
+    ],
+    "structlog": [
+      0.0,
+      27.0
+    ],
+    "python-stdnum": [
+      0.0,
+      3.0
+    ],
+    "asteval": [
+      0.0,
+      2.0
+    ],
+    "rtfde": [
+      0.0,
+      1.0
+    ],
+    "docstring-parser": [
+      0.0,
+      1.0
+    ],
+    "kgb": [
+      0.0,
+      8.0
+    ],
+    "peft": [
+      0.0,
+      1.0
+    ],
+    "dbt-adapters": [
+      0.0,
+      2.0
+    ],
+    "configparser": [
+      0.0,
+      8.0
+    ],
+    "rfc3339-validator": [
+      0.0,
+      1.0
+    ],
+    "cachecontrol": [
+      0.0,
+      1.0
+    ],
+    "itsdangerous": [
+      0.0,
+      3.0
+    ],
+    "whenever": [
+      0.0,
+      1.0
+    ],
+    "litellm": [
+      0.0,
+      2.0
+    ],
+    "microsoft-kiota-abstractions": [
+      0.0,
+      2.0
+    ],
+    "sphinx-design": [
+      0.0,
+      1.0
+    ],
+    "tifffile": [
+      0.0,
+      2027.0
+    ],
+    "qdrant-client": [
+      0.0,
+      2.0
+    ],
+    "vcrpy": [
+      0.0,
+      9.0
+    ],
+    "matplotlib-inline": [
+      0.0,
+      1.0
+    ],
+    "lru-dict": [
+      0.0,
+      2.0
+    ],
+    "quack-kernels": [
+      0.0,
+      1.0
+    ],
+    "beautifulsoup4": [
+      0.0,
+      5.0
+    ],
+    "allure-pytest": [
+      0.0,
+      3.0
+    ],
+    "flask-babel": [
+      0.0,
+      5.0
+    ],
+    "azure-mgmt-signalr": [
+      0.0,
+      2.0
+    ],
+    "workos": [
+      0.0,
+      11.0
+    ],
+    "starlette": [
+      0.0,
+      2.0
+    ],
+    "pytablewriter": [
+      0.0,
+      2.0
+    ],
+    "ipykernel": [
+      0.0,
+      8.0
+    ],
+    "nvidia-cusparselt-cu13": [
+      0.0,
+      1.0
+    ],
+    "pytest-sugar": [
+      0.0,
+      2.0
+    ],
+    "etils": [
+      0.0,
+      2.0
+    ],
+    "uncalled-for": [
+      0.0,
+      1.0
+    ],
+    "prefect-aws": [
+      0.0,
+      1.0
+    ],
+    "pulumi-aws": [
+      0.0,
+      8.0
+    ],
+    "graphviz": [
+      0.0,
+      1.0
+    ],
+    "azure-mgmt-cognitiveservices": [
+      0.0,
+      15.0
+    ],
+    "google-cloud-build": [
+      0.0,
+      4.0
+    ],
+    "python-gnupg": [
+      0.0,
+      1.0
+    ],
+    "pikepdf": [
+      0.0,
+      11.0
+    ],
+    "azure-identity": [
+      0.0,
+      2.0
+    ],
+    "jupyter-core": [
+      0.0,
+      6.0
+    ],
+    "snowflake-core": [
+      0.0,
+      2.0
+    ],
+    "sympy": [
+      0.0,
+      2.0
+    ],
+    "python-slugify": [
+      0.0,
+      9.0
+    ],
+    "bokeh": [
+      0.0,
+      4.0
+    ],
+    "joblib": [
+      0.0,
+      2.0
+    ],
+    "azure-synapse-artifacts": [
+      0.0,
+      1.0
+    ],
+    "elastic-transport": [
+      0.0,
+      10.0
+    ],
+    "smmap": [
+      0.0,
+      6.0
+    ],
+    "types-boto3-s3": [
+      0.0,
+      2.0
+    ],
+    "azure-datalake-store": [
+      0.0,
+      2.0
+    ],
+    "httpx2": [
+      0.0,
+      3.0
+    ],
+    "openapi-schema-validator": [
+      0.0,
+      1.0
+    ],
+    "lmnr-claude-code-proxy": [
+      0.0,
+      1.0
+    ],
+    "pydantic": [
+      0.0,
+      3.0
+    ],
+    "types-cachetools": [
+      0.0,
+      8.0
+    ],
+    "mistral-common": [
+      0.0,
+      2.0
+    ],
+    "pyahocorasick": [
+      0.0,
+      3.0
+    ],
+    "aiobotocore": [
+      0.0,
+      4.0
+    ],
+    "scp": [
+      0.0,
+      1.0
+    ],
+    "ppft": [
+      0.0,
+      2.0
+    ],
+    "polars": [
+      0.0,
+      2.0
+    ],
+    "primp": [
+      0.0,
+      3.0
+    ],
+    "usaddress": [
+      0.0,
+      1.0
+    ],
+    "webencodings": [
+      0.0,
+      1.0
+    ],
+    "typing-inspection": [
+      0.0,
+      1.0
+    ],
+    "web3": [
+      0.0,
+      9.0
+    ],
+    "llama-index-workflows": [
+      0.0,
+      3.0
+    ],
+    "firecrawl-anydoc": [
+      0.0,
+      1.0
+    ],
+    "soundfile": [
+      0.0,
+      1.0
+    ],
+    "django-timezone-field": [
+      0.0,
+      8.0
+    ],
+    "namex": [
+      0.0,
+      1.0
+    ],
+    "looker-sdk": [
+      0.0,
+      27.0
+    ],
+    "deltalake": [
+      0.0,
+      2.0
+    ],
+    "onnx": [
+      0.0,
+      2.0
+    ],
+    "memray": [
+      0.0,
+      2.0
+    ],
+    "pyarrow": [
+      0.0,
+      26.0
+    ],
+    "google-cloud-dataproc": [
+      0.0,
+      6.0
+    ],
+    "azure-mgmt-cdn": [
+      0.0,
+      15.0
+    ],
+    "factory-boy": [
+      0.0,
+      4.0
+    ],
+    "jupyterlab-server": [
+      0.0,
+      3.0
+    ],
+    "nvidia-cufile": [
+      0.0,
+      2.0
+    ],
+    "google-cloud-texttospeech": [
+      0.0,
+      3.0
+    ],
+    "azure-storage-queue": [
+      0.0,
+      13.0
+    ],
+    "incremental": [
+      0.0,
+      25.0
+    ],
+    "pytest-metadata": [
+      0.0,
+      4.0
+    ],
+    "lockfile": [
+      0.0,
+      1.0
+    ],
+    "azure-mgmt-cosmosdb": [
+      0.0,
+      11.0
+    ],
+    "cuda-core": [
+      0.0,
+      2.0
+    ],
+    "burner-redis": [
+      0.0,
+      1.0
+    ],
+    "pyreadline3": [
+      0.0,
+      4.0
+    ],
+    "aiokafka": [
+      0.0,
+      1.0
+    ],
+    "braintrust": [
+      0.0,
+      1.0
+    ],
+    "requests-file": [
+      0.0,
+      4.0
+    ],
+    "hatch": [
+      0.0,
+      2.0
+    ],
+    "aws-cdk-lib": [
+      0.0,
+      3.0
+    ],
+    "dependency-groups": [
+      0.0,
+      2.0
+    ],
+    "functions-framework": [
+      0.0,
+      4.0
+    ],
+    "mammoth": [
+      0.0,
+      2.0
+    ],
+    "colorclass": [
+      0.0,
+      3.0
+    ],
+    "rq": [
+      0.0,
+      3.0
+    ],
+    "cssselect2": [
+      0.0,
+      1.0
+    ],
+    "supervisor": [
+      0.0,
+      5.0
+    ],
+    "pyinstaller": [
+      0.0,
+      7.0
+    ],
+    "intervaltree": [
+      0.0,
+      4.0
+    ],
+    "datetime": [
+      0.0,
+      7.0
+    ],
+    "jsonconversion": [
+      0.0,
+      2.0
+    ],
+    "autopep8": [
+      0.0,
+      3.0
+    ],
+    "selenium": [
+      0.0,
+      5.0
+    ],
+    "opentelemetry-instrumentation-flask": [
+      0.0,
+      1.0
+    ],
+    "marshmallow-oneofschema": [
+      0.0,
+      4.0
+    ],
+    "thrift-sasl": [
+      0.0,
+      1.0
+    ],
+    "nvidia-cusolver": [
+      0.0,
+      13.0
+    ],
+    "pyathena": [
+      0.0,
+      4.0
+    ],
+    "google-cloud-bigtable": [
+      0.0,
+      3.0
+    ],
+    "jsonschema": [
+      0.0,
+      5.0
+    ],
+    "whitenoise": [
+      0.0,
+      7.0
+    ],
+    "jinxed": [
+      0.0,
+      3.0
+    ],
+    "jupyterlab-pygments": [
+      0.0,
+      1.0
+    ],
+    "opentelemetry-instrumentation-fastapi": [
+      0.0,
+      1.0
+    ],
+    "fabric": [
+      0.0,
+      4.0
+    ],
+    "puremagic": [
+      0.0,
+      3.0
+    ],
+    "pandocfilters": [
+      0.0,
+      2.0
+    ],
+    "safehttpx": [
+      0.0,
+      1.0
+    ],
+    "typepy": [
+      0.0,
+      3.0
+    ],
+    "yamllint": [
+      0.0,
+      2.0
+    ],
+    "azure-mgmt-trafficmanager": [
+      0.0,
+      2.0
+    ],
+    "simple-gcp-object-downloader": [
+      0.0,
+      1.0
+    ],
+    "poetry-plugin-export": [
+      0.0,
+      2.0
+    ],
+    "rpds-py": [
+      0.0,
+      2027.0
+    ],
+    "arro3-core": [
+      0.0,
+      1.0
+    ],
+    "apache-airflow-providers-mysql": [
+      0.0,
+      7.0
+    ],
+    "jq": [
+      0.0,
+      2.0
+    ],
+    "yandexcloud": [
+      0.0,
+      1.0
+    ],
+    "openlineage-integration-common": [
+      0.0,
+      2.0
+    ],
+    "typeguard": [
+      0.0,
+      5.0
+    ],
+    "fastmcp-slim": [
+      0.0,
+      5.0
+    ],
+    "apache-airflow-providers-http": [
+      0.0,
+      7.0
+    ],
+    "pika": [
+      0.0,
+      2.0
+    ],
+    "thinc": [
+      0.0,
+      10.0
+    ],
+    "boltons": [
+      0.0,
+      27.0
+    ],
+    "pyyaml": [
+      0.0,
+      7.0
+    ],
+    "uv-dynamic-versioning": [
+      0.0,
+      1.0
+    ],
+    "azure-mgmt-web": [
+      0.0,
+      12.0
+    ],
+    "zarr": [
+      0.0,
+      4.0
+    ],
+    "pycares": [
+      0.0,
+      6.0
+    ],
+    "django-celery-beat": [
+      0.0,
+      3.0
+    ],
+    "cvxpy": [
+      0.0,
+      2.0
+    ],
+    "pandera": [
+      0.0,
+      1.0
+    ],
+    "giturlparse": [
+      0.0,
+      1.0
+    ],
+    "azure-servicebus": [
+      0.0,
+      8.0
+    ],
+    "rich-click": [
+      0.0,
+      2.0
+    ],
+    "locust": [
+      0.0,
+      3.0
+    ],
+    "avro": [
+      0.0,
+      2.0
+    ],
+    "questionary": [
+      0.0,
+      3.0
+    ],
+    "azure-core": [
+      0.0,
+      2.0
+    ],
+    "compressed-rtf": [
+      0.0,
+      2.0
+    ],
+    "gitpython": [
+      0.0,
+      4.0
+    ],
+    "uuid6": [
+      0.0,
+      2026.0
+    ],
+    "patchelf": [
+      0.0,
+      1.0
+    ],
+    "build": [
+      0.0,
+      2.0
+    ],
+    "cyclopts": [
+      0.0,
+      5.0
+    ],
+    "humanize": [
+      0.0,
+      5.0
+    ],
+    "shap": [
+      0.0,
+      1.0
+    ],
+    "sphinxcontrib-applehelp": [
+      0.0,
+      3.0
+    ],
+    "opentelemetry-proto": [
+      0.0,
+      2.0
+    ],
+    "webdriver-manager": [
+      0.0,
+      5.0
+    ],
+    "gevent": [
+      0.0,
+      27.0
+    ],
+    "geographiclib": [
+      0.0,
+      3.0
+    ],
+    "fiona": [
+      0.0,
+      2.0
+    ],
+    "pydantic-evals": [
+      0.0,
+      3.0
+    ],
+    "bazel-runfiles": [
+      0.0,
+      3.0
+    ],
+    "furl": [
+      0.0,
+      3.0
+    ],
+    "google-cloud-batch": [
+      0.0,
+      1.0
+    ],
+    "regex": [
+      0.0,
+      2027.0
+    ],
+    "billiard": [
+      0.0,
+      5.0
+    ],
+    "oletools": [
+      0.0,
+      1.0
+    ],
+    "joserfc": [
+      0.0,
+      2.0
+    ],
+    "dbt-protos": [
+      0.0,
+      2.0
+    ],
+    "pycodestyle": [
+      0.0,
+      3.0
+    ],
+    "mypy-boto3-glue": [
+      0.0,
+      2.0
+    ],
+    "pytest-mock": [
+      0.0,
+      4.0
+    ],
+    "ruff": [
+      0.0,
+      1.0
+    ],
+    "rfc3986": [
+      0.0,
+      3.0
+    ],
+    "instructor": [
+      0.0,
+      2.0
+    ],
+    "pytest-runner": [
+      0.0,
+      7.0
+    ],
+    "pooch": [
+      0.0,
+      2.0
+    ],
+    "prison": [
+      0.0,
+      1.0
+    ],
+    "cuda-pathfinder": [
+      0.0,
+      2.0
+    ],
+    "pymongo": [
+      0.0,
+      5.0
+    ],
+    "xarray": [
+      0.0,
+      2027.0
+    ],
+    "cmake": [
+      0.0,
+      5.0
+    ],
+    "microsoft-kiota-http": [
+      0.0,
+      2.0
+    ],
+    "harbor-rewardkit": [
+      0.0,
+      1.0
+    ],
+    "slowapi": [
+      0.0,
+      1.0
+    ],
+    "opentelemetry-instrumentation-google-genai": [
+      0.0,
+      2.0
+    ],
+    "pinotdb": [
+      0.0,
+      10.0
+    ],
+    "pkginfo": [
+      0.0,
+      2.0
+    ],
+    "fastapi-cloud-cli": [
+      0.0,
+      1.0
+    ],
+    "pg8000": [
+      0.0,
+      2.0
+    ],
+    "waitress": [
+      0.0,
+      4.0
+    ],
+    "mergedeep": [
+      0.0,
+      2.0
+    ],
+    "sphinx": [
+      0.0,
+      10.0
+    ],
+    "pytest-timeout": [
+      0.0,
+      3.0
+    ],
+    "google-cloud-dataplex": [
+      0.0,
+      3.0
+    ],
+    "daytona-api-client": [
+      0.0,
+      1.0
+    ],
+    "progressbar2": [
+      0.0,
+      5.0
+    ],
+    "sphinxcontrib-jquery": [
+      0.0,
+      5.0
+    ],
+    "astroid": [
+      0.0,
+      5.0
+    ],
+    "jupyter-events": [
+      0.0,
+      1.0
+    ],
+    "fastar": [
+      0.0,
+      1.0
+    ],
+    "django-phonenumber-field": [
+      0.0,
+      9.0
+    ],
+    "pytest-html": [
+      0.0,
+      5.0
+    ],
+    "langchain-google-vertexai": [
+      0.0,
+      4.0
+    ],
+    "pyzipper": [
+      0.0,
+      1.0
+    ],
+    "singer-sdk": [
+      0.0,
+      1.0
+    ],
+    "llama-parse": [
+      0.0,
+      1.0
+    ],
+    "supabase": [
+      0.0,
+      3.0
+    ],
+    "langchain-classic": [
+      0.0,
+      2.0
+    ],
+    "pgvector": [
+      0.0,
+      1.0
+    ],
+    "rich": [
+      0.0,
+      16.0
+    ],
+    "unidiff": [
+      0.0,
+      2.0
+    ],
+    "feedparser-sgmllib": [
+      0.0,
+      3.0
+    ],
+    "glom": [
+      0.0,
+      26.0
+    ],
+    "python-frontmatter": [
+      0.0,
+      2.0
+    ],
+    "asn1crypto": [
+      0.0,
+      2.0
+    ],
+    "locket": [
+      0.0,
+      2.0
+    ],
+    "striprtf": [
+      0.0,
+      1.0
+    ],
+    "catalogue": [
+      0.0,
+      3.0
+    ],
+    "pyzmq": [
+      0.0,
+      28.0
+    ],
+    "av": [
+      0.0,
+      19.0
+    ],
+    "murmurhash": [
+      0.0,
+      2.0
+    ],
+    "pytorch-lightning": [
+      0.0,
+      3.0
+    ],
+    "sphinxcontrib-serializinghtml": [
+      0.0,
+      3.0
+    ],
+    "google-cloud-datacatalog": [
+      0.0,
+      4.0
+    ],
+    "polib": [
+      0.0,
+      2.0
+    ],
+    "smdebug-rulesconfig": [
+      0.0,
+      2.0
+    ],
+    "autobahn": [
+      0.0,
+      27.0
+    ],
+    "humanfriendly": [
+      0.0,
+      11.0
+    ],
+    "python-on-whales": [
+      0.0,
+      1.0
+    ],
+    "azure-cli": [
+      0.0,
+      3.0
+    ],
+    "types-requests": [
+      0.0,
+      3.0
+    ],
+    "mypy-boto3-cloudformation": [
+      0.0,
+      2.0
+    ],
+    "tree-sitter-php": [
+      0.0,
+      1.0
+    ],
+    "flit-core": [
+      0.0,
+      5.0
+    ],
+    "pyopenssl": [
+      0.0,
+      27.0
+    ],
+    "types-protobuf": [
+      0.0,
+      8.0
+    ],
+    "arrow": [
+      0.0,
+      2.0
+    ],
+    "azure-mgmt-iothub": [
+      0.0,
+      5.0
+    ],
+    "crewai": [
+      0.0,
+      2.0
+    ],
+    "elevenlabs": [
+      0.0,
+      3.0
+    ],
+    "comm": [
+      0.0,
+      1.0
+    ],
+    "jupyter": [
+      0.0,
+      2.0
+    ],
+    "execnet": [
+      0.0,
+      3.0
+    ],
+    "astronomer-cosmos": [
+      0.0,
+      2.0
+    ],
+    "hiredis": [
+      0.0,
+      4.0
+    ],
+    "tree-sitter-bash": [
+      0.0,
+      1.0
+    ],
+    "colorlog": [
+      0.0,
+      7.0
+    ],
+    "rich-argparse": [
+      0.0,
+      2.0
+    ],
+    "github3-py": [
+      0.0,
+      5.0
+    ],
+    "google-cloud-orchestration-airflow": [
+      0.0,
+      2.0
+    ],
+    "xlwt": [
+      0.0,
+      2.0
+    ],
+    "pbr": [
+      0.0,
+      8.0
+    ],
+    "mashumaro": [
+      0.0,
+      4.0
+    ],
+    "addict": [
+      0.0,
+      3.0
+    ],
+    "svcs": [
+      0.0,
+      27.0
+    ],
+    "lightgbm": [
+      0.0,
+      5.0
+    ],
+    "pandas-gbq": [
+      0.0,
+      1.0
+    ],
+    "click-option-group": [
+      0.0,
+      1.0
+    ],
+    "tomli": [
+      0.0,
+      3.0
+    ],
+    "dagster-aws": [
+      0.0,
+      1.0
+    ],
+    "jsii": [
+      0.0,
+      2.0
+    ],
+    "swebench": [
+      0.0,
+      6.0
+    ],
+    "azure-mgmt-datamigration": [
+      0.0,
+      11.0
+    ],
+    "gcloud-aio-storage": [
+      0.0,
+      10.0
+    ],
+    "sql-metadata": [
+      0.0,
+      4.0
+    ],
+    "mixpanel": [
+      0.0,
+      6.0
+    ],
+    "datasets": [
+      0.0,
+      6.0
+    ],
+    "fasteners": [
+      0.0,
+      1.0
+    ],
+    "pyperclip": [
+      0.0,
+      2.0
+    ],
+    "pycarlo": [
+      0.0,
+      1.0
+    ],
+    "pure-sasl": [
+      0.0,
+      1.0
+    ],
+    "pytokens": [
+      0.0,
+      1.0
+    ],
+    "opencensus-context": [
+      0.0,
+      1.0
+    ],
+    "tree-sitter-typescript": [
+      0.0,
+      1.0
+    ],
+    "nvidia-ml-py": [
+      0.0,
+      14.0
+    ],
+    "overrides": [
+      0.0,
+      8.0
+    ],
+    "inquirerpy": [
+      0.0,
+      1.0
+    ],
+    "pymsteams": [
+      0.0,
+      1.0
+    ],
+    "jupyter-console": [
+      0.0,
+      7.0
+    ],
+    "patsy": [
+      0.0,
+      2.0
+    ],
+    "azure-nspkg": [
+      0.0,
+      4.0
+    ],
+    "antlr4-python3-runtime": [
+      0.0,
+      5.0
+    ],
+    "ckzg": [
+      0.0,
+      3.0
+    ],
+    "azure-mgmt-redis": [
+      0.0,
+      15.0
+    ],
+    "django-storages": [
+      0.0,
+      2.0
+    ],
+    "rdflib": [
+      0.0,
+      8.0
+    ],
+    "sphinx-autodoc-typehints": [
+      0.0,
+      4.0
+    ],
+    "google-crc32c": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-instrumentation-asyncpg": [
+      0.0,
+      1.0
+    ],
+    "fakeredis": [
+      0.0,
+      3.0
+    ],
+    "celery": [
+      0.0,
+      6.0
+    ],
+    "opentelemetry-instrumentation-urllib": [
+      0.0,
+      1.0
+    ],
+    "absl-py": [
+      0.0,
+      3.0
+    ],
+    "fake-useragent": [
+      0.0,
+      3.0
+    ],
+    "gcloud-aio-auth": [
+      0.0,
+      6.0
+    ],
+    "oauth2client": [
+      0.0,
+      5.0
+    ],
+    "jinja2": [
+      0.0,
+      4.0
+    ],
+    "pympler": [
+      0.0,
+      2.0
+    ],
+    "certifi": [
+      0.0,
+      2027.0
+    ],
+    "filelock": [
+      0.0,
+      4.0
+    ],
+    "flask-appbuilder": [
+      0.0,
+      6.0
+    ],
+    "clickhouse-connect": [
+      0.0,
+      2.0
+    ],
+    "geomet": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-exporter-gcp-trace": [
+      0.0,
+      2.0
+    ],
+    "botocore-stubs": [
+      0.0,
+      2.0
+    ],
+    "jupyter-lsp": [
+      0.0,
+      3.0
+    ],
+    "speechrecognition": [
+      0.0,
+      4.0
+    ],
+    "pyrfc3339": [
+      0.0,
+      3.0
+    ],
+    "dill": [
+      0.0,
+      1.0
+    ],
+    "sphinxcontrib-jsmath": [
+      0.0,
+      2.0
+    ],
+    "confluent-kafka": [
+      0.0,
+      3.0
+    ],
+    "llvmlite": [
+      0.0,
+      1.0
+    ],
+    "eth-abi": [
+      0.0,
+      7.0
+    ],
+    "griffe": [
+      0.0,
+      3.0
+    ],
+    "blis": [
+      0.0,
+      2.0
+    ],
+    "azure-mgmt-network": [
+      0.0,
+      33.0
+    ],
+    "google-cloud-appengine-logging": [
+      0.0,
+      2.0
+    ],
+    "azure-mgmt-msi": [
+      0.0,
+      8.0
+    ],
+    "dbt-core": [
+      0.0,
+      2.0
+    ],
+    "cuda-python": [
+      0.0,
+      14.0
+    ],
+    "minio": [
+      0.0,
+      8.0
+    ],
+    "idna": [
+      0.0,
+      4.0
+    ],
+    "scantree": [
+      0.0,
+      1.0
+    ],
+    "uvloop": [
+      0.0,
+      1.0
+    ],
+    "awscrt": [
+      0.0,
+      1.0
+    ],
+    "daytona": [
+      0.0,
+      1.0
+    ],
+    "jaydebeapi": [
+      0.0,
+      2.0
+    ],
+    "s3fs": [
+      0.0,
+      2027.0
+    ],
+    "jiter": [
+      0.0,
+      1.0
+    ],
+    "keyrings-google-artifactregistry-auth": [
+      0.0,
+      2.0
+    ],
+    "myst-parser": [
+      0.0,
+      6.0
+    ],
+    "httpx-sse": [
+      0.0,
+      1.0
+    ],
+    "referencing": [
+      0.0,
+      1.0
+    ],
+    "jsondiff": [
+      0.0,
+      3.0
+    ],
+    "schedule": [
+      0.0,
+      2.0
+    ],
+    "weaviate-client": [
+      0.0,
+      5.0
+    ],
+    "ipdb": [
+      0.0,
+      1.0
+    ],
+    "oci": [
+      0.0,
+      3.0
+    ],
+    "colorful": [
+      0.0,
+      1.0
+    ],
+    "apscheduler": [
+      0.0,
+      4.0
+    ],
+    "unittest-xml-reporting": [
+      0.0,
+      5.0
+    ],
+    "gremlinpython": [
+      0.0,
+      4.0
+    ],
+    "langchain-protocol": [
+      0.0,
+      1.0
+    ],
+    "eth-keys": [
+      0.0,
+      1.0
+    ],
+    "opentelemetry-instrumentation-dbapi": [
+      0.0,
+      1.0
+    ],
+    "narwhals": [
+      0.0,
+      3.0
+    ],
+    "aiosmtplib": [
+      0.0,
+      6.0
+    ],
+    "azure-data-tables": [
+      0.0,
+      13.0
+    ],
+    "ag-ui-protocol": [
+      0.0,
+      1.0
+    ],
+    "vine": [
+      0.0,
+      6.0
+    ],
+    "trio": [
+      0.0,
+      1.0
+    ],
+    "sphinxcontrib-htmlhelp": [
+      0.0,
+      3.0
+    ],
+    "jsonpatch": [
+      0.0,
+      2.0
+    ],
+    "aws-requests-auth": [
+      0.0,
+      1.0
+    ],
+    "cachelib": [
+      0.0,
+      1.0
+    ],
+    "tavily-python": [
+      0.0,
+      1.0
+    ],
+    "mlflow-tracing": [
+      0.0,
+      4.0
+    ],
+    "weasel": [
+      0.0,
+      2.0
+    ],
+    "pymysql": [
+      0.0,
+      2.0
+    ],
+    "daytona-toolbox-api-client": [
+      0.0,
+      1.0
+    ],
+    "watchtower": [
+      0.0,
+      4.0
+    ],
+    "tree-sitter-go": [
+      0.0,
+      1.0
+    ],
+    "fastmcp": [
+      0.0,
+      5.0
+    ],
+    "ruamel-yaml-clib": [
+      0.0,
+      1.0
+    ],
+    "google-cloud-translate": [
+      0.0,
+      4.0
+    ],
+    "xmlschema": [
+      0.0,
+      5.0
+    ],
+    "cairosvg": [
+      0.0,
+      3.0
+    ],
+    "courlan": [
+      0.0,
+      2.0
+    ],
+    "mpmath": [
+      0.0,
+      2.0
+    ],
+    "python-hcl2": [
+      0.0,
+      9.0
+    ],
+    "opentelemetry-exporter-otlp-proto-grpc": [
+      0.0,
+      2.0
+    ],
+    "bleach": [
+      0.0,
+      7.0
+    ],
+    "pyclipper": [
+      0.0,
+      2.0
+    ],
+    "debugpy": [
+      0.0,
+      2.0
+    ],
+    "marko": [
+      0.0,
+      3.0
+    ],
+    "proto-plus": [
+      0.0,
+      2.0
+    ],
+    "multitasking": [
+      0.0,
+      1.0
+    ],
+    "typing-inspect": [
+      0.0,
+      1.0
+    ],
+    "py-partiql-parser": [
+      0.0,
+      1.0
+    ],
+    "metricflow": [
+      0.0,
+      1.0
+    ],
+    "langchain-aws": [
+      0.0,
+      2.0
+    ],
+    "restructuredtext-lint": [
+      0.0,
+      3.0
+    ],
+    "types-pymysql": [
+      0.0,
+      2.0
+    ],
+    "aiosignal": [
+      0.0,
+      2.0
+    ],
+    "backcall": [
+      0.0,
+      1.0
+    ],
+    "zipp": [
+      0.0,
+      5.0
+    ],
+    "anthropic": [
+      0.0,
+      2.0
+    ],
+    "graphql-core": [
+      0.0,
+      4.0
+    ],
+    "openapi-pydantic": [
+      0.0,
+      1.0
+    ],
+    "gitdb": [
+      0.0,
+      5.0
+    ],
+    "opentelemetry-util-genai": [
+      0.0,
+      2.0
+    ],
+    "requirements-parser": [
+      0.0,
+      1.0
+    ],
+    "numpy": [
+      0.0,
+      3.0
+    ],
+    "dbt-semantic-interfaces": [
+      0.0,
+      1.0
+    ],
+    "googleapis-common-protos": [
+      0.0,
+      2.0
+    ],
+    "flexparser": [
+      0.0,
+      1.0
+    ],
+    "typer-slim": [
+      0.0,
+      1.0
+    ],
+    "z3-solver": [
+      0.0,
+      6.0
+    ],
+    "parver": [
+      0.0,
+      2.0
+    ],
+    "pprintpp": [
+      0.0,
+      1.0
+    ],
+    "partd": [
+      0.0,
+      2.0
+    ],
+    "tensorflow-estimator": [
+      0.0,
+      3.0
+    ],
+    "bidict": [
+      0.0,
+      1.0
+    ],
+    "nvidia-cutlass-dsl-libs-base": [
+      0.0,
+      5.0
+    ],
+    "azure-kusto-ingest": [
+      0.0,
+      7.0
+    ],
+    "knack": [
+      0.0,
+      1.0
+    ],
+    "aws-cdk-asset-node-proxy-agent-v6": [
+      0.0,
+      3.0
+    ],
+    "msgraph-core": [
+      0.0,
+      2.0
+    ],
+    "prophet": [
+      0.0,
+      2.0
+    ],
+    "ratelimit": [
+      0.0,
+      3.0
+    ],
+    "dirtyjson": [
+      0.0,
+      2.0
+    ],
+    "std-uritemplate": [
+      0.0,
+      3.0
+    ],
+    "torch": [
+      0.0,
+      3.0
+    ],
+    "voluptuous": [
+      0.0,
+      1.0
+    ],
+    "azure-mgmt-compute": [
+      0.0,
+      39.0
+    ],
+    "marshmallow": [
+      0.0,
+      5.0
+    ],
+    "pycryptodomex": [
+      0.0,
+      4.0
+    ],
+    "networkx": [
+      0.0,
+      4.0
+    ],
+    "openai-agents": [
+      0.0,
+      1.0
+    ],
+    "sagemaker-studio": [
+      0.0,
+      2.0
+    ],
+    "databricks-sql-connector": [
+      0.0,
+      5.0
+    ],
+    "google-cloud-bigquery": [
+      0.0,
+      4.0
+    ],
+    "azure-core-tracing-opentelemetry": [
+      0.0,
+      2.0
+    ],
+    "azure-mgmt-eventhub": [
+      0.0,
+      13.0
+    ],
+    "nvidia-cufile-cu12": [
+      0.0,
+      2.0
+    ],
+    "terminaltables": [
+      0.0,
+      4.0
+    ],
+    "azure-storage-blob": [
+      0.0,
+      13.0
+    ],
+    "markdown": [
+      0.0,
+      4.0
+    ],
+    "imageio-ffmpeg": [
+      0.0,
+      1.0
+    ],
+    "cassandra-driver": [
+      0.0,
+      4.0
+    ],
+    "frozenlist": [
+      0.0,
+      2.0
+    ],
+    "nvidia-nvjitlink-cu12": [
+      0.0,
+      13.0
+    ],
+    "jsonpath-python": [
+      0.0,
+      2.0
+    ],
+    "funcy": [
+      0.0,
+      3.0
+    ],
+    "azure-mgmt-servicebus": [
+      0.0,
+      11.0
+    ],
+    "send2trash": [
+      0.0,
+      3.0
+    ],
+    "crewai-tools": [
+      0.0,
+      2.0
+    ],
+    "python-multipart": [
+      0.0,
+      1.0
+    ],
+    "contextlib2": [
+      0.0,
+      22.0
+    ],
+    "types-croniter": [
+      0.0,
+      7.0
+    ],
+    "microsoft-kiota-serialization-form": [
+      0.0,
+      2.0
+    ],
+    "boto": [
+      0.0,
+      3.0
+    ],
+    "uamqp": [
+      0.0,
+      2.0
+    ],
+    "applicationinsights": [
+      0.0,
+      1.0
+    ],
+    "flask-wtf": [
+      0.0,
+      2.0
+    ],
+    "mkdocs-material": [
+      0.0,
+      10.0
+    ],
+    "pyasn1": [
+      0.0,
+      1.0
+    ],
+    "torchvision": [
+      0.0,
+      1.0
+    ],
+    "aiohttp-retry": [
+      0.0,
+      3.0
+    ],
+    "schemathesis": [
+      0.0,
+      5.0
+    ],
+    "rich-rst": [
+      0.0,
+      3.0
+    ],
+    "llama-index-embeddings-openai": [
+      0.0,
+      1.0
+    ],
+    "bcrypt": [
+      0.0,
+      6.0
+    ],
+    "apache-airflow-providers-cncf-kubernetes": [
+      0.0,
+      11.0
+    ],
+    "marshmallow-sqlalchemy": [
+      0.0,
+      2.0
+    ],
+    "pybase64": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-instrumentation-sqlite3": [
+      0.0,
+      1.0
+    ],
+    "coolname": [
+      0.0,
+      6.0
+    ],
+    "elasticsearch-dsl": [
+      0.0,
+      9.0
+    ],
+    "social-auth-app-django": [
+      0.0,
+      7.0
+    ],
+    "hyperlink": [
+      0.0,
+      22.0
+    ],
+    "ecdsa": [
+      0.0,
+      1.0
+    ],
+    "weasyprint": [
+      0.0,
+      70.0
+    ],
+    "databricks-sdk": [
+      0.0,
+      1.0
+    ],
+    "findpython": [
+      0.0,
+      1.0
+    ],
+    "multidict": [
+      0.0,
+      7.0
+    ],
+    "pytest-json-report": [
+      0.0,
+      2.0
+    ],
+    "expression": [
+      0.0,
+      6.0
+    ],
+    "rfc3986-validator": [
+      0.0,
+      1.0
+    ],
+    "aiolimiter": [
+      0.0,
+      2.0
+    ],
+    "cssselect": [
+      0.0,
+      2.0
+    ],
+    "tree-sitter": [
+      0.0,
+      1.0
+    ],
+    "detect-installer": [
+      0.0,
+      1.0
+    ],
+    "setuptools": [
+      0.0,
+      85.0
+    ],
+    "mkdocs-get-deps": [
+      0.0,
+      1.0
+    ],
+    "bitarray": [
+      0.0,
+      4.0
+    ],
+    "django-stubs-ext": [
+      0.0,
+      7.0
+    ],
+    "pytest-unordered": [
+      0.0,
+      1.0
+    ],
+    "aniso8601": [
+      0.0,
+      11.0
+    ],
+    "google-cloud-secret-manager": [
+      0.0,
+      3.0
+    ],
+    "icdiff": [
+      0.0,
+      3.0
+    ],
+    "inflate64": [
+      0.0,
+      2.0
+    ],
+    "types-openpyxl": [
+      0.0,
+      4.0
+    ],
+    "shapely": [
+      0.0,
+      3.0
+    ],
+    "flexcache": [
+      0.0,
+      1.0
+    ],
+    "inspect-ai": [
+      0.0,
+      1.0
+    ],
+    "databricks-labs-blueprint": [
+      0.0,
+      1.0
+    ],
+    "langchain": [
+      0.0,
+      2.0
+    ],
+    "python-gitlab": [
+      0.0,
+      9.0
+    ],
+    "pefile": [
+      0.0,
+      2025.0
+    ],
+    "pip-api": [
+      0.0,
+      1.0
+    ],
+    "smart-open": [
+      0.0,
+      9.0
+    ],
+    "py-key-value-shared": [
+      0.0,
+      1.0
+    ],
+    "pytz": [
+      0.0,
+      2027.0
+    ],
+    "cbor2": [
+      0.0,
+      7.0
+    ],
+    "tinyhtml5": [
+      0.0,
+      3.0
+    ],
+    "ultralytics": [
+      0.0,
+      9.0
+    ],
+    "pfzy": [
+      0.0,
+      1.0
+    ],
+    "service-identity": [
+      0.0,
+      27.0
+    ],
+    "geopandas": [
+      0.0,
+      2.0
+    ],
+    "aioquic": [
+      0.0,
+      2.0
+    ],
+    "watchfiles": [
+      0.0,
+      2.0
+    ],
+    "agate": [
+      0.0,
+      2.0
+    ],
+    "bs4": [
+      0.0,
+      1.0
+    ],
+    "stripe": [
+      0.0,
+      16.0
+    ],
+    "langfuse": [
+      0.0,
+      5.0
+    ],
+    "parsedatetime": [
+      0.0,
+      3.0
+    ],
+    "discord-py": [
+      0.0,
+      3.0
+    ],
+    "deprecation": [
+      0.0,
+      3.0
+    ],
+    "opentelemetry-instrumentation-starlette": [
+      0.0,
+      1.0
+    ],
+    "basedpyright": [
+      0.0,
+      2.0
+    ],
+    "kestra": [
+      0.0,
+      2.0
+    ],
+    "azure-mgmt-iotcentral": [
+      0.0,
+      10.0
+    ],
+    "langcodes": [
+      0.0,
+      4.0
+    ],
+    "mccabe": [
+      0.0,
+      1.0
+    ],
+    "resolvelib": [
+      0.0,
+      2.0
+    ],
+    "readme-renderer": [
+      0.0,
+      47.0
+    ],
+    "fastavro": [
+      0.0,
+      2.0
+    ],
+    "google-cloud-memcache": [
+      0.0,
+      2.0
+    ],
+    "mypy-boto3-secretsmanager": [
+      0.0,
+      2.0
+    ],
+    "opencv-contrib-python": [
+      0.0,
+      6.0
+    ],
+    "daytona-api-client-async": [
+      0.0,
+      1.0
+    ],
+    "google-cloud-core": [
+      0.0,
+      3.0
+    ],
+    "pamqp": [
+      0.0,
+      5.0
+    ],
+    "docling-core": [
+      0.0,
+      3.0
+    ],
+    "hatch-fancy-pypi-readme": [
+      0.0,
+      26.0
+    ],
+    "unidecode": [
+      0.0,
+      2.0
+    ],
+    "pdm": [
+      0.0,
+      3.0
+    ],
+    "trafilatura": [
+      0.0,
+      3.0
+    ],
+    "flit": [
+      0.0,
+      5.0
+    ],
+    "publicsuffix2": [
+      0.0,
+      3.0
+    ],
+    "html5lib": [
+      0.0,
+      2.0
+    ],
+    "gepa": [
+      0.0,
+      1.0
+    ],
+    "flask-sqlalchemy": [
+      0.0,
+      4.0
+    ],
+    "tqdm": [
+      0.0,
+      5.0
+    ],
+    "llama-cloud-services": [
+      0.0,
+      1.0
+    ],
+    "pymupdf4llm": [
+      0.0,
+      2.0
+    ],
+    "dataclasses": [
+      0.0,
+      1.0
+    ],
+    "psutil": [
+      0.0,
+      8.0
+    ],
+    "typer": [
+      0.0,
+      1.0
+    ],
+    "fastjsonschema": [
+      0.0,
+      3.0
+    ],
+    "fonttools": [
+      0.0,
+      5.0
+    ],
+    "lz4": [
+      0.0,
+      5.0
+    ],
+    "packaging": [
+      0.0,
+      27.0
+    ],
+    "databricks-cli": [
+      0.0,
+      1.0
+    ],
+    "types-psutil": [
+      0.0,
+      8.0
+    ],
+    "fpdf2": [
+      0.0,
+      3.0
+    ],
+    "validators": [
+      0.0,
+      1.0
+    ],
+    "ydb": [
+      0.0,
+      4.0
+    ],
+    "rouge-score": [
+      0.0,
+      1.0
+    ],
+    "db-dtypes": [
+      0.0,
+      2.0
+    ],
+    "altgraph": [
+      0.0,
+      1.0
+    ],
+    "wirerope": [
+      0.0,
+      2.0
+    ],
+    "types-s3transfer": [
+      0.0,
+      1.0
+    ],
+    "sshtunnel": [
+      0.0,
+      1.0
+    ],
+    "aliyun-semantic-conventions": [
+      0.0,
+      2.0
+    ],
+    "faiss-cpu": [
+      0.0,
+      2.0
+    ],
+    "cfgv": [
+      0.0,
+      4.0
+    ],
+    "types-psycopg2": [
+      0.0,
+      3.0
+    ],
+    "fastapi-sso": [
+      0.0,
+      1.0
+    ],
+    "google-analytics-admin": [
+      0.0,
+      1.0
+    ],
+    "amplitude-analytics": [
+      0.0,
+      2.0
+    ],
+    "jira": [
+      0.0,
+      4.0
+    ],
+    "tabulate": [
+      0.0,
+      1.0
+    ],
+    "sqlalchemy-spanner": [
+      0.0,
+      2.0
+    ],
+    "requests-aws4auth": [
+      0.0,
+      2.0
+    ],
+    "litellm-enterprise": [
+      0.0,
+      1.0
+    ],
+    "apache-airflow-providers-smtp": [
+      0.0,
+      4.0
+    ],
+    "azure-mgmt-loganalytics": [
+      0.0,
+      15.0
+    ],
+    "inputimeout": [
+      0.0,
+      2.0
+    ],
+    "azure-search-documents": [
+      0.0,
+      13.0
+    ],
+    "statsmodels": [
+      0.0,
+      1.0
+    ],
+    "semver": [
+      0.0,
+      4.0
+    ],
+    "azure-cosmos": [
+      0.0,
+      5.0
+    ],
+    "confection": [
+      0.0,
+      2.0
+    ],
+    "ddgs": [
+      0.0,
+      10.0
+    ],
+    "google-cloud-dataflow-client": [
+      0.0,
+      1.0
+    ],
+    "junit-xml": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-semantic-conventions": [
+      0.0,
+      1.0
+    ],
+    "types-awscrt": [
+      0.0,
+      1.0
+    ],
+    "coloredlogs": [
+      0.0,
+      16.0
+    ],
+    "azure-keyvault": [
+      0.0,
+      5.0
+    ],
+    "pip": [
+      0.0,
+      27.0
+    ],
+    "cyclonedx-python-lib": [
+      0.0,
+      12.0
+    ],
+    "lightning-utilities": [
+      0.0,
+      1.0
+    ],
+    "python-jose": [
+      0.0,
+      4.0
+    ],
+    "arabic-reshaper": [
+      0.0,
+      4.0
+    ],
+    "urllib3": [
+      0.0,
+      3.0
+    ],
+    "flask-caching": [
+      0.0,
+      3.0
+    ],
+    "pypdfium2": [
+      0.0,
+      6.0
+    ],
+    "nvidia-cuda-cupti-cu12": [
+      0.0,
+      13.0
+    ],
+    "eth-account": [
+      0.0,
+      1.0
+    ],
+    "ddtrace": [
+      0.0,
+      5.0
+    ],
+    "flower": [
+      0.0,
+      3.0
+    ],
+    "freezegun": [
+      0.0,
+      2.0
+    ],
+    "pi-heif": [
+      0.0,
+      2.0
+    ],
+    "posthog": [
+      0.0,
+      8.0
+    ],
+    "fastapi": [
+      0.0,
+      1.0
+    ],
+    "python-crfsuite": [
+      0.0,
+      1.0
+    ],
+    "importlib-resources": [
+      0.0,
+      8.0
+    ],
+    "click-plugins": [
+      0.0,
+      2.0
+    ],
+    "cytoolz": [
+      0.0,
+      2.0
+    ],
+    "langgraph-api": [
+      0.0,
+      1.0
+    ],
+    "mutagen": [
+      0.0,
+      2.0
+    ],
+    "editables": [
+      0.0,
+      1.0
+    ],
+    "django-debug-toolbar": [
+      0.0,
+      9.0
+    ],
+    "backports-tarfile": [
+      0.0,
+      2.0
+    ],
+    "django-filter": [
+      0.0,
+      27.0
+    ],
+    "alabaster": [
+      0.0,
+      2.0
+    ],
+    "h2": [
+      0.0,
+      5.0
+    ],
+    "harbor": [
+      0.0,
+      1.0
+    ],
+    "cfn-lint": [
+      0.0,
+      2.0
+    ],
+    "faster-whisper": [
+      0.0,
+      2.0
+    ],
+    "types-retry": [
+      0.0,
+      1.0
+    ],
+    "openpyxl": [
+      0.0,
+      4.0
+    ],
+    "click-default-group": [
+      0.0,
+      2.0
+    ],
+    "python-docx": [
+      0.0,
+      2.0
+    ],
+    "pox": [
+      0.0,
+      1.0
+    ],
+    "pyhcl": [
+      0.0,
+      1.0
+    ],
+    "microsoft-kiota-serialization-multipart": [
+      0.0,
+      2.0
+    ],
+    "ctranslate2": [
+      0.0,
+      5.0
+    ],
+    "aiohappyeyeballs": [
+      0.0,
+      3.0
+    ],
+    "dbt-databricks": [
+      0.0,
+      2.0
+    ],
+    "azure-mgmt-batchai": [
+      0.0,
+      8.0
+    ],
+    "a2a-sdk": [
+      0.0,
+      2.0
+    ],
+    "umap-learn": [
+      0.0,
+      1.0
+    ],
+    "types-jsonschema": [
+      0.0,
+      5.0
+    ],
+    "apprise": [
+      0.0,
+      2.0
+    ],
+    "json5": [
+      0.0,
+      1.0
+    ],
+    "selectolax": [
+      0.0,
+      1.0
+    ],
+    "twisted": [
+      0.0,
+      27.0
+    ],
+    "hyperframe": [
+      0.0,
+      7.0
+    ],
+    "kfp": [
+      0.0,
+      3.0
+    ],
+    "dynaconf": [
+      0.0,
+      4.0
+    ],
+    "pytest-httpx": [
+      0.0,
+      1.0
+    ],
+    "astunparse": [
+      0.0,
+      2.0
+    ],
+    "azure-monitor-query": [
+      0.0,
+      3.0
+    ],
+    "azure-mgmt-applicationinsights": [
+      0.0,
+      5.0
+    ],
+    "pybreaker": [
+      0.0,
+      2.0
+    ],
+    "cmdstanpy": [
+      0.0,
+      2.0
+    ],
+    "httpx-ws": [
+      0.0,
+      1.0
+    ],
+    "httpx": [
+      0.0,
+      1.0
+    ],
+    "pex": [
+      0.0,
+      3.0
+    ],
+    "pytest": [
+      0.0,
+      10.0
+    ],
+    "meson-python": [
+      0.0,
+      1.0
+    ],
+    "mysqlclient": [
+      0.0,
+      3.0
+    ],
+    "pywebpush": [
+      0.0,
+      3.0
+    ],
+    "toposort": [
+      0.0,
+      2.0
+    ],
+    "ipywidgets": [
+      0.0,
+      9.0
+    ],
+    "retry": [
+      0.0,
+      1.0
+    ],
+    "pytest-order": [
+      0.0,
+      2.0
+    ],
+    "openhands-tools": [
+      0.0,
+      2.0
+    ],
+    "mkdocs-autorefs": [
+      0.0,
+      2.0
+    ],
+    "pyelftools": [
+      0.0,
+      1.0
+    ],
+    "srsly": [
+      0.0,
+      3.0
+    ],
+    "grpcio-gcp": [
+      0.0,
+      1.0
+    ],
+    "google-cloud-logging": [
+      0.0,
+      4.0
+    ],
+    "publication": [
+      0.0,
+      1.0
+    ],
+    "spacy-legacy": [
+      0.0,
+      4.0
+    ],
+    "azure-monitor-opentelemetry": [
+      0.0,
+      2.0
+    ],
+    "extract-msg": [
+      0.0,
+      1.0
+    ],
+    "pymupdf": [
+      0.0,
+      2.0
+    ],
+    "kaitaistruct": [
+      0.0,
+      1.0
+    ],
+    "orderedmultidict": [
+      0.0,
+      2.0
+    ],
+    "python-discovery": [
+      0.0,
+      2.0
+    ],
+    "pydeck": [
+      0.0,
+      1.0
+    ],
+    "google-cloud-dataproc-metastore": [
+      0.0,
+      2.0
+    ],
+    "librt": [
+      0.0,
+      1.0
+    ],
+    "azure-mgmt-managementgroups": [
+      0.0,
+      3.0
+    ],
+    "google-cloud-language": [
+      0.0,
+      3.0
+    ],
+    "prek": [
+      0.0,
+      1.0
+    ],
+    "pyhanko": [
+      0.0,
+      1.0
+    ],
+    "swesmith": [
+      0.0,
+      1.0
+    ],
+    "nvidia-nvshmem-cu13": [
+      0.0,
+      4.0
+    ],
+    "opencensus": [
+      0.0,
+      1.0
+    ],
+    "annotated-types": [
+      0.0,
+      1.0
+    ],
+    "daytona-analytics-api-client": [
+      0.0,
+      1.0
+    ],
+    "imagehash": [
+      0.0,
+      5.0
+    ],
+    "asyncssh": [
+      0.0,
+      3.0
+    ],
+    "cdp-use": [
+      0.0,
+      2.0
+    ],
+    "aiohttp-cors": [
+      0.0,
+      1.0
+    ],
+    "msal": [
+      0.0,
+      2.0
+    ],
+    "disposable-email-domains": [
+      0.0,
+      1.0
+    ],
+    "toons": [
+      0.0,
+      1.0
+    ],
+    "rank-bm25": [
+      0.0,
+      1.0
+    ],
+    "asynctest": [
+      0.0,
+      1.0
+    ],
+    "cloudflare": [
+      0.0,
+      6.0
+    ],
+    "mypy-boto3-sts": [
+      0.0,
+      2.0
+    ],
+    "dbt-postgres": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-instrumentation-psycopg2": [
+      0.0,
+      1.0
+    ],
+    "mlflow-skinny": [
+      0.0,
+      4.0
+    ],
+    "lmnr": [
+      0.0,
+      1.0
+    ],
+    "pywavelets": [
+      0.0,
+      2.0
+    ],
+    "textual": [
+      0.0,
+      9.0
+    ],
+    "pkgconfig": [
+      0.0,
+      2.0
+    ],
+    "types-setuptools": [
+      0.0,
+      85.0
+    ],
+    "channels": [
+      0.0,
+      5.0
+    ],
+    "tree-sitter-languages": [
+      0.0,
+      2.0
+    ],
+    "llguidance": [
+      0.0,
+      2.0
+    ],
+    "aioboto3": [
+      0.0,
+      16.0
+    ],
+    "bedrock-agentcore": [
+      0.0,
+      2.0
+    ],
+    "sniffio": [
+      0.0,
+      2.0
+    ],
+    "google-cloud-vision": [
+      0.0,
+      4.0
+    ],
+    "uri-template": [
+      0.0,
+      2.0
+    ],
+    "twilio": [
+      0.0,
+      10.0
+    ],
+    "azure-keyvault-secrets": [
+      0.0,
+      5.0
+    ],
+    "omegaconf": [
+      0.0,
+      3.0
+    ],
+    "flask": [
+      0.0,
+      4.0
+    ],
+    "torchaudio": [
+      0.0,
+      3.0
+    ],
+    "slack-sdk": [
+      0.0,
+      4.0
+    ],
+    "htmldate": [
+      0.0,
+      2.0
+    ],
+    "fuzzywuzzy": [
+      0.0,
+      1.0
+    ],
+    "asyncpg": [
+      0.0,
+      1.0
+    ],
+    "grpcio-tools": [
+      0.0,
+      2.0
+    ],
+    "toolz": [
+      0.0,
+      2.0
+    ],
+    "watchdog": [
+      0.0,
+      7.0
+    ],
+    "hf-xet": [
+      0.0,
+      2.0
+    ],
+    "ordered-set": [
+      0.0,
+      5.0
+    ],
+    "unstructured-client": [
+      0.0,
+      1.0
+    ],
+    "dagster-postgres": [
+      0.0,
+      1.0
+    ],
+    "langchain-mcp-adapters": [
+      0.0,
+      1.0
+    ],
+    "html2text": [
+      0.0,
+      2026.0
+    ],
+    "protego": [
+      0.0,
+      1.0
+    ],
+    "pgpy": [
+      0.0,
+      1.0
+    ],
+    "google-resumable-media": [
+      0.0,
+      3.0
+    ],
+    "pep517": [
+      0.0,
+      1.0
+    ],
+    "phonenumbers": [
+      0.0,
+      10.0
+    ],
+    "ciso8601": [
+      0.0,
+      3.0
+    ],
+    "dagster-pipes": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-exporter-gcp-logging": [
+      0.0,
+      2.0
+    ],
+    "pycryptodome": [
+      0.0,
+      4.0
+    ],
+    "azure-mgmt-maps": [
+      0.0,
+      3.0
+    ],
+    "inflect": [
+      0.0,
+      8.0
+    ],
+    "pytest-custom-exit-code": [
+      0.0,
+      1.0
+    ],
+    "pytest-asyncio": [
+      0.0,
+      2.0
+    ],
+    "roman-numerals": [
+      0.0,
+      5.0
+    ],
+    "django": [
+      0.0,
+      7.0
+    ],
+    "svix": [
+      0.0,
+      3.0
+    ],
+    "langchain-google-community": [
+      0.0,
+      6.0
+    ],
+    "environs": [
+      0.0,
+      16.0
+    ],
+    "opentelemetry-exporter-otlp-proto-common": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-instrumentation-boto3sqs": [
+      0.0,
+      1.0
+    ],
+    "lightning": [
+      0.0,
+      3.0
+    ],
+    "py-key-value-aio": [
+      0.0,
+      1.0
+    ],
+    "import-linter": [
+      0.0,
+      3.0
+    ],
+    "email-validator": [
+      0.0,
+      3.0
+    ],
+    "azure-ai-documentintelligence": [
+      0.0,
+      2.0
+    ],
+    "opt-einsum": [
+      0.0,
+      4.0
+    ],
+    "notebook": [
+      0.0,
+      8.0
+    ],
+    "ty": [
+      0.0,
+      1.0
+    ],
+    "azure-mgmt-billing": [
+      0.0,
+      9.0
+    ],
+    "types-tabulate": [
+      0.0,
+      1.0
+    ],
+    "safetensors": [
+      0.0,
+      1.0
+    ],
+    "dagster-webserver": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-distro": [
+      0.0,
+      1.0
+    ],
+    "croniter": [
+      0.0,
+      7.0
+    ],
+    "dagster-shared": [
+      0.0,
+      2.0
+    ],
+    "gradio": [
+      0.0,
+      7.0
+    ],
+    "jupyter-server-terminals": [
+      0.0,
+      1.0
+    ],
+    "cairocffi": [
+      0.0,
+      2.0
+    ],
+    "behave": [
+      0.0,
+      2.0
+    ],
+    "openlineage-python": [
+      0.0,
+      2.0
+    ],
+    "hypercorn": [
+      0.0,
+      1.0
+    ],
+    "boostedblob": [
+      0.0,
+      2.0
+    ],
+    "scikit-build-core": [
+      0.0,
+      2.0
+    ],
+    "pygithub": [
+      0.0,
+      3.0
+    ],
+    "cloudevents": [
+      0.0,
+      3.0
+    ],
+    "pexpect": [
+      0.0,
+      5.0
+    ],
+    "cffi": [
+      0.0,
+      3.0
+    ],
+    "nvidia-nvtx": [
+      0.0,
+      14.0
+    ],
+    "ortools": [
+      0.0,
+      10.0
+    ],
+    "graphql-relay": [
+      0.0,
+      4.0
+    ],
+    "types-urllib3": [
+      0.0,
+      2.0
+    ],
+    "ldap3": [
+      0.0,
+      3.0
+    ],
+    "ua-parser-builtins": [
+      0.0,
+      202607.0
+    ],
+    "mbstrdecoder": [
+      0.0,
+      2.0
+    ],
+    "awscli": [
+      0.0,
+      2.0
+    ],
+    "deepdiff": [
+      0.0,
+      10.0
+    ],
+    "yfinance": [
+      0.0,
+      2.0
+    ],
+    "dagster-graphql": [
+      0.0,
+      2.0
+    ],
+    "async-timeout": [
+      0.0,
+      6.0
+    ],
+    "cadwyn": [
+      0.0,
+      8.0
+    ],
+    "backports-asyncio-runner": [
+      0.0,
+      2.0
+    ],
+    "py4j": [
+      0.0,
+      1.0
+    ],
+    "nvidia-cutlass-dsl": [
+      0.0,
+      5.0
+    ],
+    "keyring": [
+      0.0,
+      26.0
+    ],
+    "dbt-extractor": [
+      0.0,
+      1.0
+    ],
+    "slicer": [
+      0.0,
+      1.0
+    ],
+    "browser-use": [
+      0.0,
+      1.0
+    ],
+    "requests-oauthlib": [
+      0.0,
+      3.0
+    ],
+    "pure-eval": [
+      0.0,
+      1.0
+    ],
+    "azure-storage-common": [
+      0.0,
+      3.0
+    ],
+    "aio-pika": [
+      0.0,
+      11.0
+    ],
+    "flask-limiter": [
+      0.0,
+      5.0
+    ],
+    "microsoft-kiota-serialization-json": [
+      0.0,
+      2.0
+    ],
+    "pickleshare": [
+      0.0,
+      1.0
+    ],
+    "alembic": [
+      0.0,
+      2.0
+    ],
+    "justext": [
+      0.0,
+      4.0
+    ],
+    "markitdown": [
+      0.0,
+      1.0
+    ],
+    "atlassian-python-api": [
+      0.0,
+      6.0
+    ],
+    "fastapi-cli": [
+      0.0,
+      1.0
+    ],
+    "librosa": [
+      0.0,
+      2.0
+    ],
+    "fastparquet": [
+      0.0,
+      2027.0
+    ],
+    "aiohttp": [
+      0.0,
+      4.0
+    ],
+    "nest-asyncio2": [
+      0.0,
+      2.0
+    ],
+    "kiwisolver": [
+      0.0,
+      2.0
+    ],
+    "restrictedpython": [
+      0.0,
+      9.0
+    ],
+    "trove-classifiers": [
+      0.0,
+      2027.0
+    ],
+    "jsonlines": [
+      0.0,
+      5.0
+    ],
+    "uc-micro-py": [
+      0.0,
+      3.0
+    ],
+    "asgi-lifespan": [
+      0.0,
+      3.0
+    ],
+    "pytest-icdiff": [
+      0.0,
+      1.0
+    ],
+    "google-api-core": [
+      0.0,
+      3.0
+    ],
+    "vulture": [
+      0.0,
+      3.0
+    ],
+    "ifaddr": [
+      0.0,
+      1.0
+    ],
+    "opentelemetry-resource-detector-azure": [
+      0.0,
+      1.0
+    ],
+    "azure-ai-projects": [
+      0.0,
+      3.0
+    ],
+    "enum34": [
+      0.0,
+      2.0
+    ],
+    "emoji": [
+      0.0,
+      3.0
+    ],
+    "aiormq": [
+      0.0,
+      8.0
+    ],
+    "lxml-html-clean": [
+      0.0,
+      1.0
+    ],
+    "ultralytics-thop": [
+      0.0,
+      3.0
+    ],
+    "babel": [
+      0.0,
+      3.0
+    ],
+    "opentelemetry-instrumentation-asgi": [
+      0.0,
+      1.0
+    ],
+    "openinference-instrumentation": [
+      0.0,
+      1.0
+    ],
+    "dlt": [
+      0.0,
+      2.0
+    ],
+    "cronsim": [
+      0.0,
+      3.0
+    ],
+    "pyright": [
+      0.0,
+      2.0
+    ],
+    "aws-lambda-powertools": [
+      0.0,
+      4.0
+    ],
+    "pydantic-ai-slim": [
+      0.0,
+      3.0
+    ],
+    "deepagents": [
+      0.0,
+      1.0
+    ],
+    "ghapi": [
+      0.0,
+      3.0
+    ],
+    "durationpy": [
+      0.0,
+      1.0
+    ],
+    "mypy": [
+      0.0,
+      3.0
+    ],
+    "soxr": [
+      0.0,
+      2.0
+    ],
+    "mkdocs-material-extensions": [
+      0.0,
+      2.0
+    ],
+    "text-unidecode": [
+      0.0,
+      2.0
+    ],
+    "inflection": [
+      0.0,
+      1.0
+    ],
+    "multiprocess": [
+      0.0,
+      1.0
+    ],
+    "packageurl-python": [
+      0.0,
+      1.0
+    ],
+    "xlsxwriter": [
+      0.0,
+      4.0
+    ],
+    "crcmod": [
+      0.0,
+      2.0
+    ],
+    "tableauserverclient": [
+      0.0,
+      1.0
+    ],
+    "fastspec": [
+      0.0,
+      1.0
+    ],
+    "eventlet": [
+      0.0,
+      1.0
+    ],
+    "python-magic": [
+      0.0,
+      1.0
+    ],
+    "aiodns": [
+      0.0,
+      5.0
+    ],
+    "jinja2-humanize-extension": [
+      0.0,
+      1.0
+    ],
+    "mysql-connector-python": [
+      0.0,
+      27.0
+    ],
+    "pydot": [
+      0.0,
+      5.0
+    ],
+    "rlp": [
+      0.0,
+      6.0
+    ],
+    "curlify": [
+      0.0,
+      4.0
+    ],
+    "pathvalidate": [
+      0.0,
+      4.0
+    ],
+    "aws-msk-iam-sasl-signer-python": [
+      0.0,
+      2.0
+    ],
+    "blessed": [
+      0.0,
+      2.0
+    ],
+    "obstore": [
+      0.0,
+      1.0
+    ],
+    "types-aioboto3": [
+      0.0,
+      16.0
+    ],
+    "sh": [
+      0.0,
+      3.0
+    ],
+    "moviepy": [
+      0.0,
+      3.0
+    ],
+    "cookiecutter": [
+      0.0,
+      3.0
+    ],
+    "faker": [
+      0.0,
+      41.0
+    ],
+    "jellyfish": [
+      0.0,
+      2.0
+    ],
+    "passlib": [
+      0.0,
+      2.0
+    ],
+    "anytree": [
+      0.0,
+      3.0
+    ],
+    "stevedore": [
+      0.0,
+      6.0
+    ],
+    "django-extensions": [
+      0.0,
+      5.0
+    ],
+    "databricks-labs-dqx": [
+      0.0,
+      1.0
+    ],
+    "huey": [
+      0.0,
+      4.0
+    ],
+    "sgmllib3k": [
+      0.0,
+      2.0
+    ],
+    "python-engineio": [
+      0.0,
+      5.0
+    ],
+    "poetry": [
+      0.0,
+      3.0
+    ],
+    "xattr": [
+      0.0,
+      2.0
+    ],
+    "python-telegram-bot": [
+      0.0,
+      23.0
+    ],
+    "livekit-agents": [
+      0.0,
+      2.0
+    ],
+    "simpleeval": [
+      0.0,
+      2.0
+    ],
+    "python-utils": [
+      0.0,
+      5.0
+    ],
+    "maxminddb": [
+      0.0,
+      4.0
+    ],
+    "virtualenv": [
+      0.0,
+      22.0
+    ],
+    "mcp-types": [
+      0.0,
+      3.0
+    ],
+    "opentelemetry-sdk-extension-aws": [
+      0.0,
+      3.0
+    ],
+    "opentelemetry-instrumentation": [
+      0.0,
+      1.0
+    ],
+    "docling": [
+      0.0,
+      3.0
+    ],
+    "requests": [
+      0.0,
+      3.0
+    ],
+    "sqlparams": [
+      0.0,
+      7.0
+    ],
+    "tree-sitter-java": [
+      0.0,
+      1.0
+    ],
+    "azure-mgmt-nspkg": [
+      0.0,
+      4.0
+    ],
+    "google-cloud-workflows": [
+      0.0,
+      2.0
+    ],
+    "swifter": [
+      0.0,
+      2.0
+    ],
+    "markdown-it-py": [
+      0.0,
+      5.0
+    ],
+    "types-paramiko": [
+      0.0,
+      6.0
+    ],
+    "backports-zoneinfo": [
+      0.0,
+      1.0
+    ],
+    "typing-extensions": [
+      0.0,
+      5.0
+    ],
+    "apache-airflow-providers-common-sql": [
+      0.0,
+      3.0
+    ],
+    "id": [
+      0.0,
+      2.0
+    ],
+    "wasabi": [
+      0.0,
+      2.0
+    ],
+    "numpy-financial": [
+      0.0,
+      2.0
+    ],
+    "pyvespa": [
+      0.0,
+      2.0
+    ],
+    "apispec": [
+      0.0,
+      7.0
+    ],
+    "pyhive": [
+      0.0,
+      1.0
+    ],
+    "uritools": [
+      0.0,
+      7.0
+    ],
+    "openlineage-sql": [
+      0.0,
+      2.0
+    ],
+    "exa-py": [
+      0.0,
+      3.0
+    ],
+    "deprecated": [
+      0.0,
+      2.0
+    ],
+    "google-cloud-bigquery-datatransfer": [
+      0.0,
+      4.0
+    ],
+    "pytest-socket": [
+      0.0,
+      1.0
+    ],
+    "tomlkit": [
+      0.0,
+      1.0
+    ],
+    "pulumi": [
+      0.0,
+      4.0
+    ],
+    "contourpy": [
+      0.0,
+      2.0
+    ],
+    "wcwidth": [
+      0.0,
+      1.0
+    ],
+    "yarl": [
+      0.0,
+      2.0
+    ],
+    "boolean-py": [
+      0.0,
+      6.0
+    ],
+    "google-cloud-firestore": [
+      0.0,
+      3.0
+    ],
+    "sse-starlette": [
+      0.0,
+      4.0
+    ],
+    "ftfy": [
+      0.0,
+      7.0
+    ],
+    "opensearch-protobufs": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-instrumentation-requests": [
+      0.0,
+      1.0
+    ],
+    "pyserial": [
+      0.0,
+      4.0
+    ],
+    "aws-cdk-asset-awscli-v1": [
+      0.0,
+      3.0
+    ],
+    "arxiv": [
+      0.0,
+      5.0
+    ],
+    "grpcio-status": [
+      0.0,
+      2.0
+    ],
+    "azure-functions": [
+      0.0,
+      3.0
+    ],
+    "pypng": [
+      0.0,
+      1.0
+    ],
+    "python3-saml": [
+      0.0,
+      2.0
+    ],
+    "terminado": [
+      0.0,
+      1.0
+    ],
+    "mkdocs": [
+      0.0,
+      2.0
+    ],
+    "tensorflow": [
+      0.0,
+      3.0
+    ],
+    "immutabledict": [
+      0.0,
+      5.0
+    ],
+    "h11": [
+      0.0,
+      1.0
+    ],
+    "py7zr": [
+      0.0,
+      2.0
+    ],
+    "sentinels": [
+      0.0,
+      2.0
+    ],
+    "eth-utils": [
+      0.0,
+      7.0
+    ],
+    "tyro": [
+      0.0,
+      2.0
+    ],
+    "pylatexenc": [
+      0.0,
+      3.0
+    ],
+    "exceptiongroup": [
+      0.0,
+      2.0
+    ],
+    "jupyter-server": [
+      0.0,
+      3.0
+    ],
+    "stamina": [
+      0.0,
+      27.0
+    ],
+    "enum-compat": [
+      0.0,
+      1.0
+    ],
+    "codespell": [
+      0.0,
+      3.0
+    ],
+    "pandas": [
+      0.0,
+      4.0
+    ],
+    "pyrsistent": [
+      0.0,
+      1.0
+    ],
+    "tree-sitter-yaml": [
+      0.0,
+      1.0
+    ],
+    "click-repl": [
+      0.0,
+      1.0
+    ],
+    "nvidia-cuda-runtime": [
+      0.0,
+      14.0
+    ],
+    "geopy": [
+      0.0,
+      3.0
+    ],
+    "nox": [
+      0.0,
+      2027.0
+    ],
+    "pdfplumber": [
+      0.0,
+      1.0
+    ],
+    "strawberry-graphql": [
+      0.0,
+      1.0
+    ],
+    "opentelemetry-instrumentation-sqlalchemy": [
+      0.0,
+      1.0
+    ],
+    "cloud-sql-python-connector": [
+      0.0,
+      2.0
+    ],
+    "tom-swe": [
+      0.0,
+      2.0
+    ],
+    "realtime": [
+      0.0,
+      3.0
+    ],
+    "snowplow-tracker": [
+      0.0,
+      2.0
+    ],
+    "parse": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-instrumentation-urllib3": [
+      0.0,
+      1.0
+    ],
+    "mdurl": [
+      0.0,
+      1.0
+    ],
+    "audioop-lts": [
+      0.0,
+      1.0
+    ],
+    "portalocker": [
+      0.0,
+      5.0
+    ],
+    "nbclient": [
+      0.0,
+      1.0
+    ],
+    "opencv-python": [
+      0.0,
+      6.0
+    ],
+    "azure-mgmt-monitor": [
+      0.0,
+      8.0
+    ],
+    "azure-mgmt-recoveryservicesbackup": [
+      0.0,
+      12.0
+    ],
+    "zeep": [
+      0.0,
+      5.0
+    ],
+    "cachetools": [
+      0.0,
+      8.0
+    ],
+    "ujson": [
+      0.0,
+      7.0
+    ],
+    "dask": [
+      0.0,
+      2027.0
+    ],
+    "google-adk": [
+      0.0,
+      3.0
+    ],
+    "pyee": [
+      0.0,
+      15.0
+    ],
+    "starkbank-ecdsa": [
+      0.0,
+      3.0
+    ],
+    "pcodedmp": [
+      0.0,
+      2.0
+    ],
+    "types-pytz": [
+      0.0,
+      2027.0
+    ],
+    "firebase-admin": [
+      0.0,
+      8.0
+    ],
+    "pynacl": [
+      0.0,
+      2.0
+    ],
+    "ruamel-yaml": [
+      0.0,
+      1.0
+    ],
+    "pyzstd": [
+      0.0,
+      1.0
+    ],
+    "habluetooth": [
+      0.0,
+      7.0
+    ],
+    "junitparser": [
+      0.0,
+      6.0
+    ],
+    "pyroscope-io": [
+      0.0,
+      2.0
+    ],
+    "dataproperty": [
+      0.0,
+      2.0
+    ],
+    "livekit-protocol": [
+      0.0,
+      2.0
+    ],
+    "mypy-extensions": [
+      0.0,
+      2.0
+    ],
+    "paramiko": [
+      0.0,
+      6.0
+    ],
+    "autoflake": [
+      0.0,
+      3.0
+    ],
+    "jsonpath-ng": [
+      0.0,
+      2.0
+    ],
+    "poethepoet": [
+      0.0,
+      1.0
+    ],
+    "databricks-agents": [
+      0.0,
+      2.0
+    ],
+    "azure-ai-agents": [
+      0.0,
+      2.0
+    ],
+    "aioitertools": [
+      0.0,
+      1.0
+    ],
+    "iniconfig": [
+      0.0,
+      3.0
+    ],
+    "langgraph-checkpoint-postgres": [
+      0.0,
+      4.0
+    ],
+    "pbs-installer": [
+      0.0,
+      2027.0
+    ],
+    "docopt": [
+      0.0,
+      1.0
+    ],
+    "influxdb-client": [
+      0.0,
+      2.0
+    ],
+    "opentelemetry-instrumentation-grpc": [
+      0.0,
+      1.0
+    ],
+    "types-toml": [
+      0.0,
+      1.0
+    ],
+    "colorama": [
+      0.0,
+      1.0
+    ],
+    "seaborn": [
+      0.0,
+      1.0
+    ],
+    "tzlocal": [
+      0.0,
+      6.0
+    ],
+    "opentelemetry-instrumentation-threading": [
+      0.0,
+      1.0
+    ],
+    "xlrd": [
+      0.0,
+      3.0
+    ],
+    "pygments": [
+      0.0,
+      3.0
+    ],
+    "subprocess-tee": [
+      0.0,
+      1.0
+    ],
+    "google-cloud-discoveryengine": [
+      0.0,
+      1.0
+    ],
+    "loguru": [
+      0.0,
+      1.0
+    ],
+    "pyparsing": [
+      0.0,
+      4.0
+    ],
+    "flask-cors": [
+      0.0,
+      7.0
+    ],
+    "logfire-api": [
+      0.0,
+      6.0
+    ],
+    "azure-mgmt-rdbms": [
+      0.0,
+      11.0
+    ],
+    "types-boto3": [
+      0.0,
+      2.0
+    ],
+    "pytest-base-url": [
+      0.0,
+      3.0
+    ],
+    "opentelemetry-instrumentation-logging": [
+      0.0,
+      1.0
+    ],
+    "sqlalchemy-utils": [
+      0.0,
+      1.0
+    ],
+    "django-stubs": [
+      0.0,
+      7.0
+    ],
+    "daytona-toolbox-api-client-async": [
+      0.0,
+      1.0
+    ],
+    "llama-index-readers-llama-parse": [
+      0.0,
+      1.0
+    ],
+    "pdf2image": [
+      0.0,
+      2.0
+    ],
+    "h5py": [
+      0.0,
+      4.0
+    ],
+    "rapidfuzz": [
+      0.0,
+      4.0
+    ],
+    "pyyaml-env-tag": [
+      0.0,
+      2.0
+    ],
+    "unearth": [
+      0.0,
+      1.0
+    ],
+    "psycopg": [
+      0.0,
+      4.0
+    ],
+    "pyppmd": [
+      0.0,
+      2.0
+    ],
+    "sqlmodel": [
+      0.0,
+      1.0
+    ],
+    "cobble": [
+      0.0,
+      1.0
+    ],
+    "google-analytics-data": [
+      0.0,
+      1.0
+    ],
+    "sentencepiece": [
+      0.0,
+      1.0
+    ],
+    "parse-type": [
+      0.0,
+      1.0
+    ],
+    "nvidia-cufft-cu12": [
+      0.0,
+      12.0
+    ],
+    "distlib": [
+      0.0,
+      1.0
+    ],
+    "testcontainers": [
+      0.0,
+      5.0
+    ],
+    "py": [
+      0.0,
+      2.0
+    ],
+    "langchain-community": [
+      0.0,
+      1.0
+    ],
+    "aws-sam-translator": [
+      0.0,
+      2.0
+    ],
+    "wrapt": [
+      0.0,
+      3.0
+    ],
+    "daff": [
+      0.0,
+      2.0
+    ],
+    "editorconfig": [
+      0.0,
+      1.0
+    ],
+    "pylsqpack": [
+      0.0,
+      1.0
+    ],
+    "python-socketio": [
+      0.0,
+      6.0
+    ],
+    "audioread": [
+      0.0,
+      4.0
+    ],
+    "pydeequ": [
+      0.0,
+      2.0
+    ],
+    "aiofile": [
+      0.0,
+      4.0
+    ],
+    "msgspec": [
+      0.0,
+      1.0
+    ],
+    "mini-swe-agent": [
+      0.0,
+      3.0
+    ],
+    "flake8": [
+      0.0,
+      8.0
+    ],
+    "radon": [
+      0.0,
+      7.0
+    ],
+    "py-serializable": [
+      0.0,
+      3.0
+    ],
+    "zxcvbn": [
+      0.0,
+      5.0
+    ],
+    "chevron": [
+      0.0,
+      1.0
+    ],
+    "psycopg2-binary": [
+      0.0,
+      3.0
+    ],
+    "azure-mgmt-eventgrid": [
+      0.0,
+      11.0
+    ],
+    "jsonpointer": [
+      0.0,
+      4.0
+    ],
+    "preshed": [
+      0.0,
+      4.0
+    ],
+    "jmespath": [
+      0.0,
+      2.0
+    ],
+    "tensorboard": [
+      0.0,
+      3.0
+    ],
+    "pybind11": [
+      0.0,
+      4.0
+    ],
+    "jax": [
+      0.0,
+      1.0
+    ],
+    "nexus-rpc": [
+      0.0,
+      2.0
+    ],
+    "port-for": [
+      0.0,
+      2.0
+    ],
+    "pip-audit": [
+      0.0,
+      3.0
+    ]
+  },
+  "past_time": [
+    "after",
+    "as of",
+    "before",
+    "deprecated",
+    "formerly",
+    "historically",
+    "older",
+    "previous",
+    "previously",
+    "removed",
+    "since",
+    "until"
+  ],
+  "historical_phrases": [
+    "drop support",
+    "dropped",
+    "introduced",
+    "no longer supported",
+    "or earlier",
+    "released in",
+    "remov\\w*\\s+python",
+    "removed in",
+    "up to and including",
+    "was the last",
+    "will be removed"
+  ],
+  "test_env_patterns": [
+    "\\bbenchmark(s|ed|ing)?",
+    "\\btested",
+    "\\btested\\s+(?:with|on|under|using|against|in|at)",
+    "\\btesting"
+  ],
+  "feature_phrases": [
+    "available",
+    "backend",
+    "by default",
+    "defaults?\\s+to",
+    "feature",
+    "implementation",
+    "implementation is available",
+    "natively",
+    "supported natively",
+    "used by default"
+  ],
+  "requirement_verb_extra": [
+    "compat",
+    "compatibility",
+    "compatible",
+    "ran",
+    "run",
+    "running",
+    "runs",
+    "work",
+    "worked",
+    "working",
+    "works"
+  ],
+  "compatibility_phrases": [
+    "api differences between",
+    "before version",
+    "compatibility",
+    "compatible with",
+    "migrat\\w*",
+    "prior to version",
+    "upgrad\\w*\\s+from"
+  ]
+}

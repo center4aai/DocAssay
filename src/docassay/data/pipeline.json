@@ -1,0 +1,33 @@
+{
+  "doc_extensions": [
+    ".md",
+    ".rst"
+  ],
+  "excluded_doc_stems": [
+    "changelog",
+    "changes",
+    "commits",
+    "deprecated",
+    "history",
+    "migrating",
+    "migration",
+    "news",
+    "older_versions",
+    "release-notes",
+    "release_notes",
+    "releasenotes",
+    "upgrading"
+  ],
+  "excluded_doc_path_markers": [
+    "migrat",
+    "upgrad"
+  ],
+  "manifest_names": [
+    "Pipfile",
+    "poetry.lock",
+    "pyproject.toml",
+    "requirements.txt",
+    "setup.cfg",
+    "setup.py"
+  ]
+}
